@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b5995c0a34fcab9e5d1fde7c939d13b6baf7830</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Profile.ProfileProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7bfb91beb33797128f60ad438ed228daceb17363</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">22d76b34aaed76e5ad218a4e01a5f07fcda4fe3f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the contract that ASP.NET implements to provide profile services using custom profile providers.</source>
+          <target state="translated">定義 ASP.NET 實作來提供使用自訂設定檔提供者的設定檔服務的合約。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ASP.NET profiles offer persistent storage and retrieval of user-specific properties.</source>
+          <target state="translated">ASP.NET 設定檔可提供永續性儲存體和擷取使用者特定的屬性。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Profile property values and information are stored in a data source in a manner determined by the ProfileProvider implementation.</source>
+          <target state="translated">設定檔屬性值和資訊會儲存在資料來源由 ProfileProvider 實作的方式。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use the profile providers that are included with the .NET Framework (represented by the classes that derive from the ProfileProvider abstract class), or you can implement your own provider by creating a new class that derives from ProfileProvider.</source>
+          <target state="translated">您可以使用.NET framework （由衍生自 ProfileProvider 抽象類別的類別），會包含的設定檔提供者或您可以藉由建立新的類別衍生自 ProfileProvider 實作自己的提供者。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>There are two primary reasons for creating a custom profile provider.</source>
+          <target state="translated">有兩個主要的原因，建立自訂設定檔提供者。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   You need to store profile information in a data source that is not supported by the profile providers included with the .NET Framework, such as a FoxPro database, an Oracle database, or other data stores.</source>
+          <target state="translated">-您需要儲存隨附.NET Framework 中，例如 FoxPro 資料庫、 Oracle 資料庫或其他資料存放區的設定檔提供者不支援的資料來源中的設定檔資訊。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   You need to manage profile information using a database schema that is different from the database schema used by the providers that ship with the .NET Framework.</source>
+          <target state="translated">-您需要管理使用不同於.NET Framework 所隨附的提供者所使用的資料庫結構描述的資料庫結構描述的設定檔資訊。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A common example of this would be user data that already exists in a SQL Server database for a company network or a Web site.</source>
+          <target state="translated">常見的範例會在公司網路或網站的 SQL Server 資料庫中已存在的使用者資料。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The ProfileProvider abstract class inherits from the &lt;xref:System.Configuration.SettingsProvider&gt; abstract class, which inherits from the &lt;xref:System.Configuration.Provider.ProviderBase&gt; abstract class.</source>
+          <target state="translated">ProfileProvider 抽象類別繼承自&lt;xref:System.Configuration.SettingsProvider&gt;抽象類別，繼承自&lt;xref:System.Configuration.Provider.ProviderBase&gt;抽象類別。&lt;/xref:System.Configuration.Provider.ProviderBase&gt; &lt;/xref:System.Configuration.SettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Classes that implement ProfileProvider must also implement the required members of the &lt;xref:System.Configuration.SettingsProvider&gt; and &lt;xref:System.Configuration.Provider.ProviderBase&gt; abstract classes.</source>
+          <target state="translated">類別可實作 ProfileProvider 也必須實作的必要的成員&lt;xref:System.Configuration.SettingsProvider&gt;和&lt;xref:System.Configuration.Provider.ProviderBase&gt;抽象類別。&lt;/xref:System.Configuration.Provider.ProviderBase&gt; &lt;/xref:System.Configuration.SettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information about implementing a profile provider, see <bpt id="p1">[</bpt>Implementing a Profile Provider<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需實作設定檔提供者的詳細資訊，請參閱<bpt id="p1">[</bpt>實作設定檔提供者<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You are not required to implement a constructor for a class that inherits the &lt;xref:System.Web.Profile.ProfileProvider&gt; abstract class.</source>
+          <target state="translated">您不需要實作繼承&lt;xref:System.Web.Profile.ProfileProvider&gt;抽象類別&lt;/xref:System.Web.Profile.ProfileProvider&gt;的建構函式</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initialization values for a &lt;xref:System.Web.Profile.ProfileProvider&gt; implementation are passed to the &lt;xref:System.Configuration.Provider.ProviderBase.Initialize%2A&gt; method implementation.</source>
+          <target state="translated">初始化值&lt;xref:System.Web.Profile.ProfileProvider&gt;實作會傳遞至&lt;xref:System.Configuration.Provider.ProviderBase.Initialize%2A&gt;方法實作。&lt;/xref:System.Configuration.Provider.ProviderBase.Initialize%2A&gt; &lt;/xref:System.Web.Profile.ProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, deletes all user-profile data for profiles in which the last activity date occurred before the specified date.</source>
+          <target state="translated">當在衍生類別中覆寫時，刪除所有使用者設定檔資料的上次活動日期發生在指定日期之前的設定檔。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The DeleteInactiveProfiles method is used to remove unused profile data from the data source.</source>
+          <target state="translated">DeleteInactiveProfiles 方法用來從資料來源中移除未使用的設定檔資料。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Only data for the <ph id="ph1">`applicationName`</ph> specified in the configuration file is removed.</source>
+          <target state="translated">只有資料<ph id="ph1">`applicationName`</ph>組態中指定會移除檔案。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`authenticationOption`</ph> parameter specifies whether only anonymous profiles, only authenticated profiles, or all profiles are searched.</source>
+          <target state="translated"><ph id="ph1">`authenticationOption`</ph>參數會指定是否只匿名設定檔，只會驗證設定檔，或會搜尋所有設定檔。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Profiles in which the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value are deleted.</source>
+          <target state="translated">中的設定檔&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;就會發生在或之前指定<ph id="ph1">`userInactiveSinceDate`</ph>參數值會被刪除。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, specifying whether anonymous, authenticated, or both types of profiles are deleted.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定是否匿名、 驗證，或這兩種類型的設定檔會被刪除。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A&lt;xref:System.DateTime&gt;可識別哪些使用者設定檔會被視為非使用中。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; value of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">如果&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;當天或之前這個日期和時間，就會出現使用者設定檔的值，設定檔會被視為非使用中。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The number of profiles deleted from the data source.</source>
+          <target state="translated">刪除資料來源的設定檔數目。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, deletes profile properties and information for profiles that match the supplied list of user names.</source>
+          <target state="translated">當在衍生類別中覆寫時，會刪除設定檔內容及符合提供的使用者名稱清單的設定檔的資訊。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The DeleteProfiles method deletes the profiles specified in the <ph id="ph1">`usernames`</ph> parameter.</source>
+          <target state="translated">DeleteProfiles 方法刪除的設定檔中指定<ph id="ph1">`usernames`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Only data for the <ph id="ph1">`applicationName`</ph> specified in the configuration file is removed.</source>
+          <target state="translated">只有資料<ph id="ph1">`applicationName`</ph>組態中指定會移除檔案。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A string array of user names for profiles to be deleted.</source>
+          <target state="translated">要刪除的設定檔的使用者名稱的字串陣列。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The number of profiles deleted from the data source.</source>
+          <target state="translated">刪除資料來源的設定檔數目。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, deletes profile properties and information for the supplied list of profiles.</source>
+          <target state="translated">當在衍生類別中覆寫時，會刪除設定檔屬性和設定檔的資訊提供的清單。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The DeleteProfiles method deletes the profiles specified in the <ph id="ph1">`profiles`</ph> parameter.</source>
+          <target state="translated">DeleteProfiles 方法刪除的設定檔中指定<ph id="ph1">`profiles`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Only data for the <ph id="ph1">`applicationName`</ph> specified in the configuration file is removed.</source>
+          <target state="translated">只有資料<ph id="ph1">`applicationName`</ph>組態中指定會移除檔案。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When implementing this method in a derived class, you can use the <ph id="ph1">`applicationName`</ph> value and the &lt;xref:System.Web.Profile.ProfileInfo.UserName%2A&gt; property of each &lt;xref:System.Web.Profile.ProfileInfo&gt; object in the supplied &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; to determine which profiles to delete from your data source.</source>
+          <target state="translated">當在衍生類別中實作這個方法，您可以使用<ph id="ph1">`applicationName`</ph>值和&lt;xref:System.Web.Profile.ProfileInfo.UserName%2A&gt;每個屬性&lt;xref:System.Web.Profile.ProfileInfo&gt;所提供的物件&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;來判斷要刪除資料來源的設定檔。&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt; &lt;/xref:System.Web.Profile.ProfileInfo&gt; &lt;/xref:System.Web.Profile.ProfileInfo.UserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of information about profiles that are to be deleted.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要刪除的設定檔的相關資訊。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The number of profiles deleted from the data source.</source>
+          <target state="translated">刪除資料來源的設定檔數目。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, retrieves profile information for profiles in which the last activity date occurred on or before the specified date and the user name matches the specified user name.</source>
+          <target state="translated">當在衍生類別中覆寫時，會擷取上次活動日期發生指定日期當天或之前，和使用者名稱符合指定的使用者名稱的設定檔的設定檔的資訊。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The FindInactiveProfilesByUserName method is used to retrieve profile information for unused user profiles for profiles in which the user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">FindInactiveProfilesByUserName 方法用來擷取未使用的使用者設定檔的使用者名稱符合所提供的設定檔的設定檔資訊<ph id="ph1">`usernameToMatch`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Only data for the <ph id="ph1">`applicationName`</ph> specified in the configuration file is returned.</source>
+          <target state="translated">只有資料<ph id="ph1">`applicationName`</ph>組態中指定會傳回檔案。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`authenticationOption`</ph> parameter specifies whether only anonymous profiles, only authenticated profiles, or all profiles are searched.</source>
+          <target state="translated"><ph id="ph1">`authenticationOption`</ph>參數會指定是否只匿名設定檔，只會驗證設定檔，或會搜尋所有設定檔。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Of the searched profiles, any profile with a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value is returned.</source>
+          <target state="translated">任何設定檔的搜尋的設定檔與&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;，就會發生在或之前指定<ph id="ph1">`userInactiveSinceDate`</ph>傳回參數的值。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If your data source supports additional search capabilities, such as wildcard characters, you can provide more extensive search capabilities for user names.</source>
+          <target state="translated">如果您的資料來源支援其他的搜尋功能，例如萬用字元，您可以提供更廣泛的搜尋功能的使用者名稱。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The results returned by FindInactiveProfilesByUserName are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">FindInactiveProfilesByUserName 所傳回的結果都會受到<ph id="ph1">`pageIndex`</ph>和<ph id="ph2">`pageSize`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph>參數識別要在&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;傳回的&lt;xref:System.Web.Profile.ProfileInfo&gt;物件&lt;/xref:System.Web.Profile.ProfileInfo&gt;數目上限</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return, where zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>參數識別要傳回其中零識別的第一頁的結果的頁面。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the <ph id="ph4">`authenticationOption`</ph> and <ph id="ph5">`userInactiveSinceDate`</ph> parameters.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>參數是<ph id="ph2">`out`</ph>參數設為非作用中的使用者設定檔所設定的總數<ph id="ph3">`applicationName`</ph>根據<ph id="ph4">`authenticationOption`</ph>和<ph id="ph5">`userInactiveSinceDate`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is 1 with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned would contain the sixth through the tenth inactive profiles returned.</source>
+          <target state="translated">比方說，如果有設定 13 使用者<ph id="ph1">`applicationName`</ph>，和<ph id="ph2">`pageIndex`</ph>值為 1 以<ph id="ph3">`pageSize`</ph>5，&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;傳回會包含第 6 到傳回的第十個非使用中的設定檔。&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter would be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>參數會設定為 13。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定是否匿名、 驗證，或傳回這兩種類型的設定檔。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The user name to search for.</source>
+          <target state="translated">要搜尋的使用者名稱。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A&lt;xref:System.DateTime&gt;可識別哪些使用者設定檔會被視為非使用中。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; value of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">如果&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;當天或之前這個日期和時間，就會出現使用者設定檔的值，設定檔會被視為非使用中。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">要傳回的結果頁面的索引。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">要傳回的結果頁面大小。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the total number of profiles.</source>
+          <target state="translated">這個方法傳回時，包含設定檔的總數。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for inactive profiles where the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含非使用中的設定檔位置的使用者名稱符合所提供的使用者設定檔資訊<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, retrieves profile information for profiles in which the user name matches the specified user names.</source>
+          <target state="translated">當在衍生類別中覆寫時，擷取使用者名稱符合指定的使用者名稱的設定檔的設定檔的資訊。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The FindProfilesByUserName method returns a list of profile information for profiles in which the user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">FindProfilesByUserName 方法傳回的使用者名稱符合所提供的設定檔的設定檔資訊清單<ph id="ph1">`usernameToMatch`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Only data for the <ph id="ph1">`applicationName`</ph> specified in the configuration file is returned.</source>
+          <target state="translated">只有資料<ph id="ph1">`applicationName`</ph>組態中指定會傳回檔案。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`authenticationOption`</ph> parameter specifies whether only anonymous profiles, only authenticated profiles, or all profiles are searched.</source>
+          <target state="translated"><ph id="ph1">`authenticationOption`</ph>參數會指定是否只匿名設定檔，只會驗證設定檔，或會搜尋所有設定檔。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If your data source supports additional search capabilities, such as wildcard characters, you can provide more extensive search capabilities for user names.</source>
+          <target state="translated">如果您的資料來源支援其他的搜尋功能，例如萬用字元，您可以提供更廣泛的搜尋功能的使用者名稱。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The results returned by FindProfilesByUserName are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">FindProfilesByUserName 所傳回的結果都會受到<ph id="ph1">`pageIndex`</ph>和<ph id="ph2">`pageSize`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph>參數識別要在&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;傳回的&lt;xref:System.Web.Profile.ProfileInfo&gt;物件&lt;/xref:System.Web.Profile.ProfileInfo&gt;數目上限</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return, where zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>參數識別要傳回其中零識別的第一頁的結果的頁面。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the <ph id="ph4">`authenticationOption`</ph> and <ph id="ph5">`userInactiveSinceDate`</ph> parameters.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>參數是<ph id="ph2">`out`</ph>參數設為非作用中的使用者設定檔所設定的總數<ph id="ph3">`applicationName`</ph>根據<ph id="ph4">`authenticationOption`</ph>和<ph id="ph5">`userInactiveSinceDate`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is 1 with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned would contain the sixth through the tenth inactive profiles returned.</source>
+          <target state="translated">比方說，如果有設定 13 使用者<ph id="ph1">`applicationName`</ph>，和<ph id="ph2">`pageIndex`</ph>值為 1 以<ph id="ph3">`pageSize`</ph>5，&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;傳回會包含第 6 到傳回的第十個非使用中的設定檔。&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter would be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>參數會設定為 13。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定是否匿名、 驗證，或傳回這兩種類型的設定檔。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The user name to search for.</source>
+          <target state="translated">要搜尋的使用者名稱。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">要傳回的結果頁面的索引。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">要傳回的結果頁面大小。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the total number of profiles.</source>
+          <target state="translated">這個方法傳回時，包含設定檔的總數。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user-profile information for profiles where the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含其中的使用者名稱符合所提供的設定檔的使用者設定檔資訊<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, retrieves user-profile data from the data source for profiles in which the last activity date occurred on or before the specified date.</source>
+          <target state="translated">衍生類別中覆寫，請從資料來源的上次活動日期發生的指定日期當天或之前的設定檔擷取使用者設定檔資料。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The GetAllInactiveProfiles method is used to retrieve profile information for unused user profiles.</source>
+          <target state="translated">GetAllInactiveProfiles 方法用來擷取未使用的使用者設定檔的設定檔資訊。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Only data for the <ph id="ph1">`applicationName`</ph> specified in the configuration file is returned.</source>
+          <target state="translated">只有資料<ph id="ph1">`applicationName`</ph>組態中指定會傳回檔案。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`authenticationOption`</ph> parameter specifies whether only anonymous profiles, only authenticated profiles, or all profiles are searched.</source>
+          <target state="translated"><ph id="ph1">`authenticationOption`</ph>參數會指定是否只匿名設定檔，只會驗證設定檔，或會搜尋所有設定檔。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Of the searched profiles, any profile with a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value is returned.</source>
+          <target state="translated">任何設定檔的搜尋的設定檔與&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;，就會發生在或之前指定<ph id="ph1">`userInactiveSinceDate`</ph>傳回參數的值。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The results returned by GetAllInactiveProfiles are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">GetAllInactiveProfiles 所傳回的結果都會受到<ph id="ph1">`pageIndex`</ph>和<ph id="ph2">`pageSize`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph>參數識別要在&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;傳回的&lt;xref:System.Web.Profile.ProfileInfo&gt;物件&lt;/xref:System.Web.Profile.ProfileInfo&gt;數目上限</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return, where zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>參數識別要傳回其中零識別的第一頁的結果的頁面。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the <ph id="ph4">`authenticationOption`</ph> and <ph id="ph5">`userInactiveSinceDate`</ph> parameters.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>參數是<ph id="ph2">`out`</ph>參數設為非作用中的使用者設定檔所設定的總數<ph id="ph3">`applicationName`</ph>根據<ph id="ph4">`authenticationOption`</ph>和<ph id="ph5">`userInactiveSinceDate`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is 1 with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned would contain the sixth through the tenth inactive profiles returned.</source>
+          <target state="translated">比方說，如果有設定 13 使用者<ph id="ph1">`applicationName`</ph>，和<ph id="ph2">`pageIndex`</ph>值為 1 以<ph id="ph3">`pageSize`</ph>5，&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;傳回會包含第 6 到傳回的第十個非使用中的設定檔。&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter would be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>參數會設定為 13。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定是否匿名、 驗證，或傳回這兩種類型的設定檔。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A&lt;xref:System.DateTime&gt;可識別哪些使用者設定檔會被視為非使用中。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">如果&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;的使用者設定檔或之前這個日期和時間，就會發生在設定檔會被視為非使用中。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">要傳回的結果頁面的索引。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">要傳回的結果頁面大小。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the total number of profiles.</source>
+          <target state="translated">這個方法傳回時，包含設定檔的總數。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user-profile information about the inactive profiles.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含非使用中的設定檔的使用者設定檔資訊。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, retrieves user profile data for all profiles in the data source.</source>
+          <target state="translated">當在衍生類別中覆寫時，擷取使用者設定檔資料的資料來源中的所有設定檔。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The GetAllProfiles method is used to retrieve profile information for all profiles.</source>
+          <target state="translated">GetAllProfiles 方法用來擷取所有設定檔的設定檔資訊。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Only data for the <ph id="ph1">`applicationName`</ph> specified in the configuration file is returned.</source>
+          <target state="translated">只有資料<ph id="ph1">`applicationName`</ph>組態中指定會傳回檔案。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`authenticationOption`</ph> parameter specifies whether only anonymous profiles, only authenticated profiles, or all profiles are searched.</source>
+          <target state="translated"><ph id="ph1">`authenticationOption`</ph>參數會指定是否只匿名設定檔，只會驗證設定檔，或會搜尋所有設定檔。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The results returned by &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">所傳回的結果&lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;受到<ph id="ph1">`pageIndex`</ph>和<ph id="ph2">`pageSize`</ph>參數。&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph>參數識別要在&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;傳回的&lt;xref:System.Web.Profile.ProfileInfo&gt;物件&lt;/xref:System.Web.Profile.ProfileInfo&gt;數目上限</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return, where zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>參數識別要傳回其中零識別的第一頁的結果的頁面。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the <ph id="ph4">`authenticationOption`</ph> and <ph id="ph5">`userInactiveSinceDate`</ph> parameters.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>參數是<ph id="ph2">`out`</ph>參數設為非作用中的使用者設定檔所設定的總數<ph id="ph3">`applicationName`</ph>根據<ph id="ph4">`authenticationOption`</ph>和<ph id="ph5">`userInactiveSinceDate`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is 1 with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned would contain the sixth through the tenth inactive profiles returned.</source>
+          <target state="translated">比方說，如果有設定 13 使用者<ph id="ph1">`applicationName`</ph>，和<ph id="ph2">`pageIndex`</ph>值為 1 以<ph id="ph3">`pageSize`</ph>5，&lt;xref:System.Web.Profile.ProfileInfoCollection&gt;傳回會包含第 6 到傳回的第十個非使用中的設定檔。&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter would be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph>參數會設定為 13。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定是否匿名、 驗證，或傳回這兩種類型的設定檔。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">要傳回的結果頁面的索引。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">要傳回的結果頁面大小。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the total number of profiles.</source>
+          <target state="translated">這個方法傳回時，包含設定檔的總數。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user-profile information for all profiles in the data source.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含資料來源中的所有設定檔的使用者設定檔資訊。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the number of profiles in which the last activity date occurred on or before the specified date.</source>
+          <target state="translated">當在衍生類別中覆寫時，會傳回上次活動日期發生的指定日期當天或之前的設定檔的數目。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The GetNumberOfInactiveProfiles method is used to retrieve a count of all unused user profiles.</source>
+          <target state="translated">GetNumberOfInactiveProfiles 方法用來擷取所有未使用的使用者設定檔的計數。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Only data for the <ph id="ph1">`applicationName`</ph> specified in the configuration file is returned.</source>
+          <target state="translated">只有資料<ph id="ph1">`applicationName`</ph>組態中指定會傳回檔案。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`authenticationOption`</ph> parameter specifies whether only anonymous profiles, only authenticated profiles, or all profiles are searched.</source>
+          <target state="translated"><ph id="ph1">`authenticationOption`</ph>參數會指定是否只匿名設定檔，只會驗證設定檔，或會搜尋所有設定檔。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Of the searched profiles, any profile with a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value is counted.</source>
+          <target state="translated">任何設定檔的搜尋的設定檔與&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;，就會發生在或之前指定<ph id="ph1">`userInactiveSinceDate`</ph>參數值會計算。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定是否匿名、 驗證，或傳回這兩種類型的設定檔。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A&lt;xref:System.DateTime&gt;可識別哪些使用者設定檔會被視為非使用中。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">如果&lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;的使用者設定檔或之前這個日期和時間，就會發生在設定檔會被視為非使用中。&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The number of profiles in which the last activity date occurred on or before the specified date.</source>
+          <target state="translated">上次活動日期發生指定日期當天或之前的設定檔數目。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

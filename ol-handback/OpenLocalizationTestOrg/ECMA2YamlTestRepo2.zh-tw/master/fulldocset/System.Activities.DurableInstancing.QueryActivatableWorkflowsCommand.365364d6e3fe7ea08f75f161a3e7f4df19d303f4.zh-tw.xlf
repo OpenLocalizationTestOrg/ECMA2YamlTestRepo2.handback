@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">936b09031fbeb65525e9a011d69ab26ea2716257</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa5f60313cf83015d98930c354c5144772b6cd1f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ab88b1609a87494d024de70061327e51c66c1bf7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the command that a generic host executes against an instance store to retrieve activation parameters.</source>
+          <target state="translated">表示泛型主機針對執行個體存放區，以擷取啟動參數執行命令。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The generic host uses these activation parameters to create a workflow host, which in turn loads a runnable service instance.</source>
+          <target state="translated">泛型主機會使用這些啟動參數建立工作流程主機，後者則會載入可執行的服務執行個體。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>An instance is <bpt id="p1">*</bpt>activatable<ept id="p1">*</ept>, if it is not in the suspended state or the completed state and satisfies the following conditions:      -   The instance is <bpt id="p2">*</bpt>runnable<ept id="p2">*</ept>.</source>
+          <target state="translated">執行個體是<bpt id="p1">*</bpt>可啟動<ept id="p1">*</ept>，如果它不是暫停的狀態或已完成的狀態，並且滿足以下條件:-執行個體是<bpt id="p2">*</bpt>runnable<ept id="p2">*</ept>。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An instance in the persistence database is considered as runnable if it satisfies the following conditions:          -   The instance is unlocked and has a pending timer that has expired.</source>
+          <target state="translated">持續性資料庫中的執行個體視為滿足下列條件的 runnable:-執行個體已解除鎖定，並具有已過期的暫止計時器。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>-   The instance is unlocked and its status is <bpt id="p1">**</bpt>Executing<ept id="p1">**</ept>.</source>
+          <target state="translated">-執行個體已解除鎖定，其狀態為<bpt id="p1">**</bpt>執行<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   The instance has an expired lock on it.</source>
+          <target state="translated">-執行個體上有過期的鎖定。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   There is no workflow host capable of loading the instance is running on the local computer.</source>
+          <target state="translated">-沒有任何工作流程主機能夠載入本機電腦執行個體。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An instance store should periodically search for activatable workflow instances that belong to a workflow host that uses the store.</source>
+          <target state="translated">執行個體存放區應定期搜尋可啟動的工作流程執行個體隸屬於使用該存放區的工作流程主機。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It should raise the &lt;xref:System.Activities.DurableInstancing.HasActivatableWorkflowEvent&gt; when it finds an activatable instance in the persistence store.</source>
+          <target state="translated">應該引發&lt;xref:System.Activities.DurableInstancing.HasActivatableWorkflowEvent&gt;持續性存放區中找到可啟動的執行個體時。&lt;/xref:System.Activities.DurableInstancing.HasActivatableWorkflowEvent&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the instance store does not find an activatable instance in the persistence store, it should continue to monitor the persistence store for any activatable instances.</source>
+          <target state="translated">如果執行個體存放區在持續性存放區中找不到可啟動的執行個體，則應繼續監控持續性存放區中，任何可啟動的執行個體。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>After raising the HasActivatableWorkflowEvent, the instance store should stop monitoring the persistence store for activatable instances until it receives and executes the QueryActivatableWorkflowsCommand.</source>
+          <target state="translated">引發 HasActivatableWorkflowEvent 後, 的執行個體存放區應停止監控持續性存放區中可啟動的執行個體，直到收到和執行 QueryActivatableWorkflowsCommand。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The monitoring continues only if the command execution does not return any activatable workflow instances.</source>
+          <target state="translated">監視只有才會繼續如果命令執行不會傳回任何可啟動的工作流程執行個體。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When a generic host receives this event, it executes the QueryActivatableWorkflowsCommand against the instance store to obtain activation parameters required to create a workflow host.</source>
+          <target state="translated">當泛型主機收到這個事件時，它會執行執行個體存放區針對 QueryActivatableWorkflowsCommand，以取得建立工作流程主機所需的啟動參數。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The generic host uses these activation parameters to create a workflow host, which in turn loads and runs the service instance.</source>
+          <target state="translated">泛型主機會使用這些啟動參數建立工作流程主機，而接著會載入和執行服務執行個體。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The activation parameters for the WAS activation type are: Site Name, Application Path (relative to the site), and Service Path (relative to the application).</source>
+          <target state="translated">WAS 啟動型別的啟動參數有︰ 站台名稱、 Application Path （相對於網站） 和 Service Path （相對於應用程式）。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An instance store could return multiple sets of these three activation parameters.</source>
+          <target state="translated">執行個體存放區可能會傳回多個這三個啟動參數集。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A generic host is a host that has an XName parameter named <bpt id="p1">**</bpt>ActivationType<ept id="p1">**</ept>, which should be set to a value supported by the instance store.</source>
+          <target state="translated">泛型主機是主機，擁有名為的 XName 參數<bpt id="p1">**</bpt>ActivationType<ept id="p1">**</ept>，且應設為執行個體存放區所支援的值。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Currently, the SQL Workflow Instance Store supports generic hosts with ActivationType parameter set to value: <bpt id="p1">**</bpt>WAS<ept id="p1">**</ept>.</source>
+          <target state="translated">目前，SQL 工作流程執行個體存放區支援將 ActivationType 參數設定為值的泛型主機︰ <bpt id="p1">**</bpt>WAS<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the ActivationType is not set at all, the SQL Workflow Instance Store treats the host as a generic host.</source>
+          <target state="translated">如果 ActivationType 未完全設定，SQL 工作流程執行個體存放區會將主機視為泛型主機。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Workflow Management Service that ships with the code named “Dublin” (Application Server Extensions for .NET 4.0) is a generic host that has the activation type set to <bpt id="p1">**</bpt>WAS<ept id="p1">**</ept>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 程式碼隨附於名為"Dublin"(Application Server Extensions for.NET 4.0) 的工作流程管理服務是泛型主機，已啟動類型設定為<bpt id="p1">**</bpt>WAS<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes an instance of the <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的執行個體<bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

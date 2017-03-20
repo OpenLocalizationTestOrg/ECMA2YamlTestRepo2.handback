@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0adf3587548f25a42f35e3982e2cab18b51339b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Activities.Persistence.PersistenceIOParticipant.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6c0ed6accce39c2934ce44ea55fa2f01732ca4ac</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">249e3f40b9074981104bc7a69957e6640aa63c76</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A derived vclass of the <bpt id="p1">&lt;xref href="System.Activities.Persistence.PersistenceParticipant"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with methods that perform input and output operations in addition to the persisting and loading of workflow instances through the persistence process.</source>
+          <target state="translated">派生的类<bpt id="p1">&lt;xref href="System.Activities.Persistence.PersistenceParticipant"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用的方法来执行输入和输出操作此外到保留和通过持久性进程的工作流实例加载的类。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A host executes the following steps (or stages) when persisting an instance:      1.</source>
+          <target state="translated">宿主将执行以下步骤 （或阶段） 在保留实例时︰ 1。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Collects values to be persisted.</source>
+          <target state="translated">收集要保留的值。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Maps fields of monolithic structured values to individual values.</source>
+          <target state="translated">将整体结构化值的字段映射到单独的值。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Issues the &lt;xref:System.Activities.DurableInstancing.SaveWorkflowCommand&gt; to the persistence provider.</source>
+          <target state="translated">问题&lt;xref:System.Activities.DurableInstancing.SaveWorkflowCommand&gt;到永久性提供程序。&lt;/xref:System.Activities.DurableInstancing.SaveWorkflowCommand&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Performs I/O under the persistence transaction.</source>
+          <target state="translated">在持久性事务下执行 I/O。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A host completes a stage before beginning the next stage.</source>
+          <target state="translated">宿主将完成之后再开始下一个阶段的阶段。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example when persisting, the host collects values from all the persistence participants before moving to the second stage.</source>
+          <target state="translated">例如，在保留时，宿主将收集值从所有持久性参与者再转移到第二个阶段。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the second stage, the host provides all the values collected in the first stage to all persistence participants in the second stage for mapping.</source>
+          <target state="translated">在第二个阶段中，主机提供给所有持久性参与者中映射的第二个阶段将第一个阶段中收集的所有值。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the third stage, the host provides all the collected values in the first and second stages to the persistence provider when invoking the &lt;xref:System.Activities.DurableInstancing.SaveWorkflowCommand&gt;.</source>
+          <target state="translated">在第三个阶段中，主机收集的所有值中都提供的第一个和第二个阶段给持久性提供程序调用&lt;xref:System.Activities.DurableInstancing.SaveWorkflowCommand&gt;.&lt;/xref:System.Activities.DurableInstancing.SaveWorkflowCommand&gt;时</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Then in the fourth stage, the host provides all the collected values to all the persistence IO participants under the persistence transaction.</source>
+          <target state="translated">然后在第四个阶段中，主机在持久性事务下的所有持久性 IO 参与者向提供收集的所有值。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A host executes the following stages when loading a persistence instance:      1.</source>
+          <target state="translated">宿主在加载持久性实例时将执行以下阶段︰ 1。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Issues the &lt;xref:System.Activities.DurableInstancing.LoadWorkflowCommand&gt; and &lt;xref:System.Activities.DurableInstancing.LoadWorkflowByInstanceKeyCommand&gt; to the persistence provider.</source>
+          <target state="translated">问题&lt;xref:System.Activities.DurableInstancing.LoadWorkflowCommand&gt;和&lt;xref:System.Activities.DurableInstancing.LoadWorkflowByInstanceKeyCommand&gt;到永久性提供程序。&lt;/xref:System.Activities.DurableInstancing.LoadWorkflowByInstanceKeyCommand&gt; &lt;/xref:System.Activities.DurableInstancing.LoadWorkflowCommand&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Performs I/O under the persistence transaction.</source>
+          <target state="translated">在持久性事务下执行 I/O。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Publishes the loaded values.</source>
+          <target state="translated">发布加载的值。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>At the highest level, workflow instance extensions that derive from the &lt;xref:System.Activities.Persistence.PersistenceParticipant&gt; class can participate in the first (Collect) and second (Map) stages of persisting process and the third stage (Publish) of loading process.</source>
+          <target state="translated">在派生自的最高级别时，工作流实例扩展&lt;xref:System.Activities.Persistence.PersistenceParticipant&gt;类可以参与 （收集） 的第一个和第二个保留过程 (Map) 阶段以及加载过程的第三个阶段 （发布）。&lt;/xref:System.Activities.Persistence.PersistenceParticipant&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Workflow instance extensions deriving from the PersistenceIOParticipant class can additionally participate in the fourth stage of the persisting process and the second stage of the loading process (I/O).</source>
+          <target state="translated">派生自 PersistenceIOParticipant 类的工作流实例扩展另外可以参与保留过程的第四个阶段以及加载过程 (I/O) 的第二个阶段。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes an instance of the <bpt id="p1">&lt;xref href="System.Activities.Persistence.PersistenceIOParticipant"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的实例<bpt id="p1">&lt;xref href="System.Activities.Persistence.PersistenceIOParticipant"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a transaction is required for the Save operation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果事务，则保存操作所必需的。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">&lt;xref href="System.Activities.Persistence.PersistenceIOParticipant"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is created with this parameter set to <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>,  Transaction.Current is guaranteed to be set when BeginOnSave is invoked.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref href="System.Activities.Persistence.PersistenceIOParticipant"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象创建此参数设置为<bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，Transaction.Current 保证调用 BeginOnSave 时设置。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The transaction is shared between the persistence provider, all PersistenceIOParticipant extensions, and potentially other transaction participants.</source>
+          <target state="translated">事务将永久性提供程序、 所有 PersistenceIOParticipant 扩展并可能在其他事务参与者之间共享。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a transaction is required for the Load operation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果事务，则需要在加载操作。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">&lt;xref href="System.Activities.Persistence.PersistenceIOParticipant"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is created with this parameter set to <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>,  Transaction.Current is guaranteed to be set  when BeginOnLoad is invoked.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref href="System.Activities.Persistence.PersistenceIOParticipant"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象创建此参数设置为<bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，Transaction.Current 保证调用 BeginOnLoad 时设置。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The transaction is shared between the persistence provider, all PersistenceIOParticipant extensions, and potentially other transaction participants.</source>
+          <target state="translated">事务将永久性提供程序、 所有 PersistenceIOParticipant 扩展并可能在其他事务参与者之间共享。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Aborts the pending IO (Load or Save) operation.</source>
+          <target state="translated">中止挂起的 IO （加载或保存） 操作。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Derived classes that override BeginOnSave or BeginOnLoad and might not always complete immediately must override Abort.</source>
+          <target state="translated">重写 BeginOnSave 或 BeginOnLoad 并可能无法始终立即完成的派生的类必须重写 Abort。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If Abort is invoked, any pending IO operations must be canceled.</source>
+          <target state="translated">如果调用了 Abort，则必须取消任何挂起的 IO 操作。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If an operation is canceled in this way, the corresponding End method should throw OperationCanceledException.</source>
+          <target state="translated">如果以这种方式取消操作，则相应 End 方法应引发 OperationCanceledException。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to load additional state in conjunction with an instance being loaded from the instance store.</source>
+          <target state="translated">开始一个异步操作以与从实例存储加载实例加载结合使用的其他状态。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A dictionary of read-write values loaded by the persistence provider.</source>
+          <target state="translated">永久性提供程序加载的读 / 写值的字典。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This corresponds to the set of read-write values passed to BeginOnSave in the most recent persistence episode for this instance.</source>
+          <target state="translated">这对应于此实例最近的持久性段中传递到 BeginOnSave 的读 / 写值的集。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The time span within which the operation should be completed without timing out.</source>
+          <target state="translated">应在其中完成该操作而不超时时间跨度。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives notification of the completion of the asynchronous Load operation.</source>
+          <target state="translated">接收异步加载操作完成通知的异步回调委托。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">与异步操作关联的状态信息。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to save additional state in conjunction with an instance being persisted to the instance store.</source>
+          <target state="translated">开始一个异步操作以与正在保留到实例存储区的实例一起保存附加状态。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A dictionary of read-write values collected in the CollectValues and MapValues stages.</source>
+          <target state="translated">CollectValues 和 MapValues 阶段中收集的读 / 写值的字典。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A dictionary of write-only values collected in the CollectValues and MapValues stages.</source>
+          <target state="translated">CollectValues 和 MapValues 阶段中收集的只写值的字典。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The time span within which the operation should be completed without timing out.</source>
+          <target state="translated">应在其中完成该操作而不超时时间跨度。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives notification of the completion of the asynchronous operation.</source>
+          <target state="translated">接收异步操作完成通知的异步回调委托。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">与异步操作关联的状态信息。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Completes the asynchronous Load operation.</source>
+          <target state="translated">完成异步加载操作。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The asynchronous result returned by a call to the &lt;xref:System.Activities.Persistence.PersistenceIOParticipant.BeginOnSave*&gt; method.</source>
+          <target state="translated">返回通过调用的异步结果&lt;xref:System.Activities.Persistence.PersistenceIOParticipant.BeginOnSave*&gt;方法。&lt;/xref:System.Activities.Persistence.PersistenceIOParticipant.BeginOnSave*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Completes the asynchronous Save operation.</source>
+          <target state="translated">完成异步保存操作。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The asynchronous result returned by a call to the &lt;xref:System.Activities.Persistence.PersistenceIOParticipant.BeginOnSave*&gt; method.</source>
+          <target state="translated">返回通过调用的异步结果&lt;xref:System.Activities.Persistence.PersistenceIOParticipant.BeginOnSave*&gt;方法。&lt;/xref:System.Activities.Persistence.PersistenceIOParticipant.BeginOnSave*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

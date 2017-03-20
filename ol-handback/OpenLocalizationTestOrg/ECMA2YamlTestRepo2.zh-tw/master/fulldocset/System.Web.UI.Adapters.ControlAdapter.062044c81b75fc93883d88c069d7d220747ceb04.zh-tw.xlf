@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e66bdf702c73beb476713b6d57a9cf7c3804d354</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.Adapters.ControlAdapter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">941c8decf943db0ae33e62b673fc0d1c1cf58379</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">223fa3433e6ec8a25fbbf260a3b3e0e8bd5baea3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Customizes rendering for the derived control to which the adapter is attached, to modify the default markup or behavior for specific browsers, and is the base class from which all control adapters inherit.</source>
+          <target state="translated">自訂配接器附加的若要修改預設標記或特定的瀏覽器的行為衍生控制項的呈現方式，且介面卡繼承的所有控制項的基底類別。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Control adapters are components that override certain &lt;xref:System.Web.UI.Control&gt; class methods and events in its execution lifecycle to allow browser or markup-specific handling.</source>
+          <target state="translated">控制項配接器是可覆寫特定元件&lt;xref:System.Web.UI.Control&gt;類別中，允許瀏覽器或標記特定處理其執行存留週期方法和事件。&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The .NET Framework maps a single derived control adapter to a &lt;xref:System.Web.UI.Control&gt; object for each client request.</source>
+          <target state="translated">.NET Framework 對應至單一衍生的控制項配接器&lt;xref:System.Web.UI.Control&gt;針對每個用戶端要求的物件。&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An adapter modifies a control for a specific browser or class of browsers or acts as an arbitrary filter on some capability.</source>
+          <target state="translated">配接器會修改特定瀏覽器或瀏覽器類別的控制項，或做為某些功能的任何篩選器。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Typically the adapter is defined by the markup language that the browser uses (for example, XHTML or HTML 3.2).</source>
+          <target state="translated">通常由瀏覽器 （例如，XHTML 或 HTML 3.2） 所使用的標記語言定義配接器。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Much of the adaptability in rendering behavior can be encapsulated in the specialized classes that derive from the &lt;xref:System.Web.UI.HtmlTextWriter&gt; class.</source>
+          <target state="translated">大部分的轉譯行為適應性可以封裝在特製化類別衍生自&lt;xref:System.Web.UI.HtmlTextWriter&gt;類別。&lt;/xref:System.Web.UI.HtmlTextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Therefore, it is likely that a single adapter can be used for a number of browser class behaviors or that inclusion of the adaptability in the &lt;xref:System.Web.UI.HtmlTextWriter&gt; classes could make the use of a control adapter unnecessary.</source>
+          <target state="translated">因此，很可能在單一配接器可以用於多個瀏覽器類別行為或在適應性該納入&lt;xref:System.Web.UI.HtmlTextWriter&gt;類別可以讓控制項配接器使用非必要。&lt;/xref:System.Web.UI.HtmlTextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An adapter for a control class applies to all controls that inherit from that class, unless more specialized adapters are present.</source>
+          <target state="translated">控制項類別的配接器適用於所有控制項都繼承自該類別，除非更具特製化的介面卡。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, an adapter for the &lt;xref:System.Web.UI.WebControls.BaseValidator&gt; class can be used for all <ph id="ph1">`Validator`</ph> objects.</source>
+          <target state="translated">例如，針對配接器&lt;xref:System.Web.UI.WebControls.BaseValidator&gt;類別可用於所有<ph id="ph1">`Validator`</ph>物件。&lt;/xref:System.Web.UI.WebControls.BaseValidator&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Adapters typically do not inherit directly from the ControlAdapter class, but from one of the target-specific adapter base classes that provide additional functionality specific to the control type and target browser or the particular rendering required.</source>
+          <target state="translated">配接器通常不會繼承直接從 ControlAdapter 類別，但從某個控制項類型和目標瀏覽器或所需的特定轉譯提供額外的功能特定的目標特定配接器基底類別。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Controls themselves do not necessarily require an adapter.</source>
+          <target state="translated">控制項本身不一定需要配接器。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If controls are extended through composition, generally the child control adapters are sufficient.</source>
+          <target state="translated">如果控制項可以透過撰寫擴充，通常已足夠子控制項配接器。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each control has explicit mappings to adapters through the .browser definition files.</source>
+          <target state="translated">每個控制項具有明確對應到配接器透過.browser 定義檔案。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Thus, any access to the &lt;xref:System.Web.UI.Control.Adapter%2A?displayProperty=fullName&gt; property uses the &lt;xref:System.Web.HttpBrowserCapabilities&gt; object extracted from the browser definition files to perform the lookup for the mapping of the adapter to control.</source>
+          <target state="translated">因此，任何存取&lt;xref:System.Web.UI.Control.Adapter%2A?displayProperty=fullName&gt;屬性使用&lt;xref:System.Web.HttpBrowserCapabilities&gt;從對控制項的介面卡的對應執行查閱的瀏覽器定義檔案中擷取的物件。&lt;/xref:System.Web.HttpBrowserCapabilities&gt; &lt;/xref:System.Web.UI.Control.Adapter%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>During processing, the .NET Framework intercepts calls to the overridable methods of a control that could be target-specific.</source>
+          <target state="translated">在處理期間，.NET Framework 會攔截可能是特定目標控制項的可覆寫方法的呼叫。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If a control adapter is attached, the .NET Framework calls the associated adapter methods.</source>
+          <target state="translated">如果附加控制項配接器，.NET Framework 會呼叫相關聯的配接器方法。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The adapter performs rendering for the control through the &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; method.</source>
+          <target state="translated">配接器會透過控制項執行轉譯&lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;方法。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If overridden, &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; potentially should not call the base class implementation because that performs a call back on the &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">如果覆寫，&lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;可能不應該呼叫基底類別實作，以回到上執行的呼叫，因為&lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This might cause the rendering to occur twice, once by the adapter and once by the control.</source>
+          <target state="translated">這可能會發生兩次，一次是由配接器，另一次是由控制項的轉譯。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; base method calls back on the &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; method of the control.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;基礎方法呼叫&lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;控制項的方法。&lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Thus, if you override &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;, you should not call the base class implementation unless the rendering you implement is in addition to that provided by &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; of the control.</source>
+          <target state="translated">因此，如果您覆寫&lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;，您不應該呼叫基底類別實作，除非您實作轉譯除了係由&lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;的控制項。&lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You must ensure that the .NET Framework performs interception for adapters of the child controls.</source>
+          <target state="translated">您必須確定.NET Framework 執行攔截，介面卡的子控制項。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can do this by calling the &lt;xref:System.Web.UI.Adapters.ControlAdapter.RenderChildren%2A&gt; base method, which calls the &lt;xref:System.Web.UI.Control.RenderChildren%2A?displayProperty=fullName&gt; method of the control, from your &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; override.</source>
+          <target state="translated">您可以藉由呼叫&lt;xref:System.Web.UI.Adapters.ControlAdapter.RenderChildren%2A&gt;基底方法，這個方法會呼叫&lt;xref:System.Web.UI.Control.RenderChildren%2A?displayProperty=fullName&gt;方法的控制項，從您&lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;覆寫。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; &lt;/xref:System.Web.UI.Control.RenderChildren%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.RenderChildren%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; and &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; methods are called by the control immediately before and after (respectively) the control calls the &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;和&lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;由控制項呼叫方法之前和之後 （分別） 控制呼叫&lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;方法。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If pre- and post-rendering are the only browser-specific processing tasks required, using &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; and &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; might make it unnecessary to override &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;.</source>
+          <target state="translated">如果前置和後置呈現唯一的瀏覽器特定正在處理所需使用&lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;和&lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;可能會使它覆寫&lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;不必要&lt;/xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;&lt;/xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;的工作</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The default behavior of the &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; and &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; methods is to call the corresponding methods of the &lt;xref:System.Web.UI.HtmlTextWriter&gt;.</source>
+          <target state="translated">預設的行為&lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;，&lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;方法是呼叫&lt;xref:System.Web.UI.HtmlTextWriter&gt;.&lt;/xref:System.Web.UI.HtmlTextWriter&gt;的對應方法&lt;/xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;&lt;/xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To maintain its own state information, a control adapter can override the &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;, and &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; methods.</source>
+          <target state="translated">若要維持其本身的狀態資訊，可以覆寫控制項配接器&lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;， &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;， &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;，和&lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt;方法。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;, and &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; are called when the private control and view states are saved and loaded, respectively.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;&lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;， &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;，和&lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt;時的私用的控制項和檢視狀態會儲存及載入，分別稱為。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnInit%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnLoad%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnPreRender%2A&gt;, and &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnUnload%2A&gt; base methods call back on the corresponding &lt;xref:System.Web.UI.Control&gt; class methods.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Adapters.ControlAdapter.OnInit%2A&gt;， &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnLoad%2A&gt;， &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnPreRender%2A&gt;，和&lt;xref:System.Web.UI.Adapters.ControlAdapter.OnUnload%2A&gt;base 方法呼叫傳回在相對應&lt;xref:System.Web.UI.Control&gt;類別方法。&lt;/xref:System.Web.UI.Control&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.OnUnload%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.OnPreRender%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.OnLoad%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.OnInit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Thus, any of these ControlAdapter methods that are overridden must call their base methods; otherwise, the event associated with the &lt;xref:System.Web.UI.Control&gt; class method will not be raised.</source>
+          <target state="translated">因此，會覆寫這些 ControlAdapter 方法必須呼叫其基底的方法。否則，此事件相關聯&lt;xref:System.Web.UI.Control&gt;類別方法不會引發。&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Controls and adapters optionally implement the &lt;xref:System.Web.UI.IPostBackDataHandler&gt; and &lt;xref:System.Web.UI.IPostBackEventHandler&gt; interfaces.</source>
+          <target state="translated">選擇性地實作控制項和配接器&lt;xref:System.Web.UI.IPostBackDataHandler&gt;和&lt;xref:System.Web.UI.IPostBackEventHandler&gt;介面。&lt;/xref:System.Web.UI.IPostBackEventHandler&gt; &lt;/xref:System.Web.UI.IPostBackDataHandler&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The .NET Framework determines whether an adapter exists and whether the adapter implements these interfaces.</source>
+          <target state="translated">.NET Framework 會決定配接器是否存在以及是否配接器實作這些介面。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If it does, the adapter should override the &lt;xref:System.Web.UI.IPostBackDataHandler.LoadPostData%2A&gt;, &lt;xref:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent%2A&gt;, and &lt;xref:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent%2A&gt; methods, as necessary.</source>
+          <target state="translated">若是如此，配接器應該覆寫&lt;xref:System.Web.UI.IPostBackDataHandler.LoadPostData%2A&gt;， &lt;xref:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent%2A&gt;，和&lt;xref:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent%2A&gt;方法，視。&lt;/xref:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent%2A&gt; &lt;/xref:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent%2A&gt; &lt;/xref:System.Web.UI.IPostBackDataHandler.LoadPostData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If the postback data is not recognized in the adapter, it must call back on the control to process it.</source>
+          <target state="translated">如果無法辨識的回傳資料配接器中，它必須回呼來處理在控制項上。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Subsequent event handlers also must call back on the control.</source>
+          <target state="translated">後續的事件處理常式也必須回呼控制項上。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The .NET Framework internally constructs this adapter when it creates the corresponding &lt;xref:System.Web.UI.Control&gt; object.</source>
+          <target state="translated">.NET Framework 內部建構此配接器，它會建立對應時&lt;xref:System.Web.UI.Control&gt;物件。&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Called prior to the rendering of a control.</source>
+          <target state="translated">控制項的呈現之前呼叫。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In a derived adapter class, generates opening tags that are required by a specific target but not needed by HTML browsers.</source>
+          <target state="translated">在衍生的配置器類別，會產生特定目標所需的但不是 HTML 瀏覽器所需的開頭標記。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The BeginRender method is called just before the &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; method, and is used to perform target-specific preprocessing before the rendering of the control.</source>
+          <target state="translated">BeginRender 方法呼叫之前&lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;方法，並用來執行特定目標的前置處理控制項的呈現之前。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Use the BeginRender method in combination with the &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; method to ensure opening and closing tag consistency.</source>
+          <target state="translated">搭配使用 BeginRender 方法&lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;方法，以確保開頭和結尾標記的一致性。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing methods to render the target-specific output.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含方法，以呈現特定目標的輸出。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the browser capabilities of the client making the current HTTP request.</source>
+          <target state="translated">取得目前 HTTP 要求的用戶端瀏覽器功能的參考。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt; object determines the client browser capabilities from the &lt;xref:System.Web.HttpBrowserCapabilities&gt; object that is returned by the Browser property.</source>
+          <target state="translated">A&lt;xref:System.Web.UI.Adapters.ControlAdapter&gt;物件可判斷從用戶端瀏覽器功能&lt;xref:System.Web.HttpBrowserCapabilities&gt;瀏覽器屬性所傳回的物件。&lt;/xref:System.Web.HttpBrowserCapabilities&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This enables the &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt; object to render browser-specific markup or otherwise modify the behavior of the &lt;xref:System.Web.UI.Control&gt;.</source>
+          <target state="translated">這可讓&lt;xref:System.Web.UI.Adapters.ControlAdapter&gt;物件來呈現瀏覽器特定標記，或修改的&lt;xref:System.Web.UI.Control&gt;.&lt;/xref:System.Web.UI.Control&gt;行為&lt;/xref:System.Web.UI.Adapters.ControlAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpBrowserCapabilities"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying client browser and markup capabilities.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpBrowserCapabilities"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定用戶端瀏覽器和標記功能。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the control to which this control adapter is attached.</source>
+          <target state="translated">取得這個控制項的介面卡附加至控制項的參考。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When a derived control adapter is attached to a control, the .NET Framework calls certain adapter members instead of the control members.</source>
+          <target state="translated">當在衍生的控制項配接器附加至控制項時，.NET Framework 會呼叫特定配接器成員，而不是控制項的成員。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which this <bpt id="p2">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is attached.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>這個<bpt id="p2">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>附加。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Creates the target-specific child controls for a composite control.</source>
+          <target state="translated">建立特定目標子複合控制項的控制項。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If there is a derived control adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the CreateChildControls method is overridden, the override is called instead of the &lt;xref:System.Web.UI.Control.CreateChildControls%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">如果沒有衍生的控制項配接器會附加到&lt;xref:System.Web.UI.Control&gt;物件且會覆寫方法 CreateChildControls 時，而不是呼叫覆寫&lt;xref:System.Web.UI.Control.CreateChildControls%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Web.UI.Control.CreateChildControls%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Thus, CreateChildControls can be used to create a target-specific child control set.</source>
+          <target state="translated">因此，CreateChildControls 可以用來建立特定目標的子控制項集合。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For more information about combining controls to create a new control, see <bpt id="p1">[</bpt>Composite Controls<ept id="p1">](http://msdn.microsoft.com/en-us/fb174677-d845-467c-8bf3-cc096b2490b0)</ept>.</source>
+          <target state="translated">如需結合控制項來建立新的控制項的詳細資訊，請參閱<bpt id="p1">[</bpt>複合控制項<ept id="p1">](http://msdn.microsoft.com/en-us/fb174677-d845-467c-8bf3-cc096b2490b0)</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Called after the rendering of a control.</source>
+          <target state="translated">呈現控制項之後呼叫。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In a derived adapter class, generates closing tags that are required by a specific target but not needed by HTML browsers.</source>
+          <target state="translated">在衍生的配置器類別，會產生特定目標所需的但不是 HTML 瀏覽器所需的結束標記。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The EndRender method is called just after the &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; method, and is used to perform target-specific postprocessing after the rendering of the control.</source>
+          <target state="translated">EndRender 方法呼叫之後&lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;方法，以及用來呈現控制項之後，執行特定目標的後置處理。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Use the EndRender method in combination with the &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; method to ensure opening and closing tag consistency.</source>
+          <target state="translated">搭配使用 EndRender 方法&lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;方法，以確保開頭和結尾標記的一致性。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing methods to render the target-specific output.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含方法，以呈現特定目標的輸出。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Loads adapter control state information that was saved by &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState*&gt; during a previous request to the page where the control associated with this control adapter resides.</source>
+          <target state="translated">載入所儲存的配接器控制狀態資訊&lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState*&gt;期間與此控制項配接器相關聯的控制項所在的頁面之前的要求。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState*&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Control state is the essential state information needed even if view state is disabled.</source>
+          <target state="translated">控制項狀態是即使已停用檢視狀態所需的基本狀態資訊。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>When an adapter needs to maintain its own control state information, it can override the LoadAdapterControlState and &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt; methods.</source>
+          <target state="translated">當配接器需要維護自己的控制項狀態資訊時，可以覆寫形成和&lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;方法。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An adapter might need to maintain control state information when there are features that need to have state maintained across requests, independent from the state of the associated control.</source>
+          <target state="translated">配接器可能需要的功能，必須先要求，針對關聯控制項的狀態分開維護的狀態時，維持控制項狀態資訊。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, a composite control consisting of a large textual display and a group of &lt;xref:System.Web.UI.WebControls.RadioButton&gt; controls might render as a single view on desktop computer browsers.</source>
+          <target state="translated">例如，大型的文字顯示和一群組成複合控制項&lt;xref:System.Web.UI.WebControls.RadioButton&gt;控制項可能會呈現為單一檢視的桌上型電腦瀏覽器。&lt;/xref:System.Web.UI.WebControls.RadioButton&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>On other browsers, it might split its rendering—one view for the textual display and the other for the radio button group.</source>
+          <target state="translated">在其他瀏覽器，它可能會分隔其轉譯 — 文字顯示，另一個用於選項按鈕群組的單一檢視。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The adapter would need to maintain its own target-specific information about the currently active view.</source>
+          <target state="translated">配接器需要維護自己特定目標的相關資訊的目前作用中的檢視。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The LoadAdapterControlState method is called immediately after the &lt;xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt; method, in the <ph id="ph1">`LoadState`</ph> lifecycle stage.</source>
+          <target state="translated">形成方法之後，立即呼叫&lt;xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt;方法，請在<ph id="ph1">`LoadState`</ph>生命週期階段。&lt;/xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The adapter control state is separate and in addition to the control state of the control.</source>
+          <target state="translated">配接器控制狀態是分離的而且除了控制項的控制項狀態。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the adapter's control state information as a <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;，其中包含做為配接器的控制項狀態資訊<bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Loads adapter view state information that was saved by &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState*&gt; during a previous request to the page where the control associated with this control adapter resides.</source>
+          <target state="translated">載入所儲存的配接器檢視狀態資訊&lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState*&gt;期間與此控制項配接器相關聯的控制項所在的頁面之前的要求。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>When an adapter needs to maintain its own view state information, it can override the LoadAdapterViewState and &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt; methods.</source>
+          <target state="translated">當配接器需要維護自己的檢視狀態資訊時，可以覆寫不過這些和&lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;方法。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>An adapter needs to maintain view state information when there is data that must be maintained across requests, independent from the view state of the associated control.</source>
+          <target state="translated">配接器必須維護資料所必須維持在要求中，獨立於針對關聯控制項的檢視狀態時的檢視狀態資訊。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>For example, a grid control on desktop computer browsers might render as a single view of rows and columns of values.</source>
+          <target state="translated">比方說，在桌面的電腦瀏覽器上的方格控制項可能會呈現為單一檢視的資料列和資料行的值。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>On other browsers, it might split its rendering into multiple separate views, such as a list of rows and details of a single row.</source>
+          <target state="translated">在其他瀏覽器，它可能會分隔其轉譯為多個不同的檢視，例如資料列和詳細資料的單一資料列的清單。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The adapter would need to maintain the data for the views that are not currently active in view state.</source>
+          <target state="translated">配接器必須維持的目前都沒有作用中檢視狀態的檢視資料。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The LoadAdapterViewState method is called immediately before the &lt;xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt; method in the <ph id="ph1">`LoadState`</ph> lifecycle stage.</source>
+          <target state="translated">不過這些方法之前，立即呼叫&lt;xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt;方法中的<ph id="ph1">`LoadState`</ph>生命週期階段。&lt;/xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The adapter view state is separate and in addition to the view state of the control.</source>
+          <target state="translated">配接器檢視狀態是分離的而且除了控制項的檢視狀態。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the adapter view state information as a <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;，其中包含做為配接器檢視狀態資訊<bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnInit*&gt; method for the associated control.</source>
+          <target state="translated">覆寫&lt;xref:System.Web.UI.Control.OnInit*&gt;相關聯控制項的方法。&lt;/xref:System.Web.UI.Control.OnInit*&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>If there is an adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the OnInit method is overridden, the override method is called instead of the &lt;xref:System.Web.UI.Control.OnInit%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">如果沒有配接器會附加到&lt;xref:System.Web.UI.Control&gt;物件和 OnInit 會覆寫方法，而不是呼叫覆寫方法&lt;xref:System.Web.UI.Control.OnInit%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Web.UI.Control.OnInit%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Override OnInit to perform target-specific processing in the <ph id="ph1">`Initialize`</ph> stage of the control lifecycle.</source>
+          <target state="translated">覆寫以執行中的特定目標處理 OnInit<ph id="ph1">`Initialize`</ph>控制項週期的階段。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Typically, these are functions that are performed when a control is created.</source>
+          <target state="translated">一般來說，這些是在建立控制項時執行的函式。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnLoad*&gt; method for the associated control.</source>
+          <target state="translated">覆寫&lt;xref:System.Web.UI.Control.OnLoad*&gt;相關聯控制項的方法。&lt;/xref:System.Web.UI.Control.OnLoad*&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If there is an adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the OnLoad method is overridden, the override method is called instead of the &lt;xref:System.Web.UI.Control.OnLoad%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">如果沒有配接器會附加到&lt;xref:System.Web.UI.Control&gt;物件和 OnLoad 會覆寫方法，而不是呼叫覆寫方法&lt;xref:System.Web.UI.Control.OnLoad%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Web.UI.Control.OnLoad%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Override the OnLoad method to perform target-specific processing in the <ph id="ph1">`Load`</ph> stage of the control lifecycle.</source>
+          <target state="translated">覆寫以執行中的特定目標處理 OnLoad 方法<ph id="ph1">`Load`</ph>控制項週期的階段。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Typically, these are functions that should be performed for each client request.</source>
+          <target state="translated">一般來說，這些是應該為每個用戶端要求執行的函式。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnPreRender*&gt; method for the associated control.</source>
+          <target state="translated">覆寫&lt;xref:System.Web.UI.Control.OnPreRender*&gt;相關聯控制項的方法。&lt;/xref:System.Web.UI.Control.OnPreRender*&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If there is an adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the OnPreRender method is overridden, the override method is called instead of the &lt;xref:System.Web.UI.Control.OnPreRender%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">如果沒有配接器會附加到&lt;xref:System.Web.UI.Control&gt;物件且 OnPreRender 方法覆寫時，而不是呼叫覆寫方法&lt;xref:System.Web.UI.Control.OnPreRender%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Web.UI.Control.OnPreRender%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Override the OnPreRender method to perform target-specific processing in the <ph id="ph1">`PreRender`</ph> stage of the control lifecycle.</source>
+          <target state="translated">覆寫以執行特定目標處理中的 OnPreRender 方法<ph id="ph1">`PreRender`</ph>控制項週期的階段。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Typically, these are functions that immediately precede rendering of the control output.</source>
+          <target state="translated">一般來說，這些是緊接在之前的控制輸出轉譯的函式。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnUnload*&gt; method for the associated control.</source>
+          <target state="translated">覆寫&lt;xref:System.Web.UI.Control.OnUnload*&gt;相關聯控制項的方法。&lt;/xref:System.Web.UI.Control.OnUnload*&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If there is an adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the OnUnload method is overridden, the override method is called instead of the &lt;xref:System.Web.UI.Control.OnUnload%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">如果沒有配接器會附加到&lt;xref:System.Web.UI.Control&gt;物件和 OnUnload 會覆寫方法，而不是呼叫覆寫方法&lt;xref:System.Web.UI.Control.OnUnload%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Web.UI.Control.OnUnload%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Override the OnUnload method to do target-specific processing in the <ph id="ph1">`Unload`</ph> stage of the control lifecycle.</source>
+          <target state="translated">覆寫 OnUnload 方法執行特定目標處理<ph id="ph1">`Unload`</ph>控制項週期的階段。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Typically, these are cleanup functions that precede disposition of the control.</source>
+          <target state="translated">一般來說，這些是配置控制項的前面清除函式。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the page where the control associated with this adapter resides.</source>
+          <target state="translated">取得與此配接器相關聯的控制項所在的分頁來參考。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The Page property provides access to the &lt;xref:System.Web.UI.Page?displayProperty=fullName&gt; object where the control is situated.</source>
+          <target state="translated">頁面屬性可存取&lt;xref:System.Web.UI.Page?displayProperty=fullName&gt;其中平均分攤工作量控制項的物件。&lt;/xref:System.Web.UI.Page?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides access to the page instance where the associated control is situated.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可提供存取 page 執行個體相關聯的控制項平均分攤工作量的位置。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the page adapter for the page where the associated control resides.</source>
+          <target state="translated">取得相關聯的控制項所在的頁面的頁面配置器的參考。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The PageAdapter property provides access to the &lt;xref:System.Web.UI.Adapters.PageAdapter?displayProperty=fullName&gt; object for the &lt;xref:System.Web.UI.Page&gt; object where the &lt;xref:System.Web.UI.Control&gt; object associated with the current &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt; object is situated.</source>
+          <target state="translated">PageAdapter 屬性可存取&lt;xref:System.Web.UI.Adapters.PageAdapter?displayProperty=fullName&gt;物件&lt;xref:System.Web.UI.Page&gt;物件其中&lt;xref:System.Web.UI.Control&gt;目前相關聯的物件&lt;xref:System.Web.UI.Adapters.ControlAdapter&gt;物件平均分攤工作量。&lt;/xref:System.Web.UI.Adapters.ControlAdapter&gt; &lt;/xref:System.Web.UI.Control&gt; &lt;/xref:System.Web.UI.Page&gt; &lt;/xref:System.Web.UI.Adapters.PageAdapter?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The PageAdapter property can be used to access other items at the page adapter level, such as common target-specific functions that could apply to several control types on the page.</source>
+          <target state="translated">PageAdapter 屬性可以用來存取層級頁面配接器，例如可以套用到幾個頁面上的控制項類型的一般特定目標函數的其他項目。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.Adapters.PageAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the page where the control associated with the current <bpt id="p2">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is situated.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.Adapters.PageAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>位置相關聯的控制項與目前頁面<bpt id="p2">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>平均分攤工作量。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Generates the target-specific markup for the control to which the control adapter is attached.</source>
+          <target state="translated">產生目標特定標記為附加控制項配接器的控制項。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Override the Render method to generate target-specific markup to send to the client browser.</source>
+          <target state="translated">產生目標特定標記傳送給用戶端瀏覽器轉譯方法會覆寫。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The Render method is called in place of the &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; method if a &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt; object is attached to a &lt;xref:System.Web.UI.Control&gt; object.</source>
+          <target state="translated">Render 方法呼叫取代&lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;方法如果&lt;xref:System.Web.UI.Adapters.ControlAdapter&gt;物件附加至&lt;xref:System.Web.UI.Control&gt;物件。&lt;/xref:System.Web.UI.Control&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter&gt; &lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use to render the target-specific output.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，用來呈現特定目標的輸出。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Generates the target-specific markup for the child controls in a composite control to which the control adapter is attached.</source>
+          <target state="translated">複合控制項，要附加控制項配接器中，會產生目標特定的子控制項的標記。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Override the RenderChildren method when it is necessary to generate target-specific markup for the child control set of a composite control, in addition to the markup for the individual child controls.</source>
+          <target state="translated">覆寫 RenderChildren 方法時必須產生目標特定的標記，子控制項集合的複合控制項，除了個別子控制項的標記。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use to render the target-specific output.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，用來呈現特定目標的輸出。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Saves control state information for the control adapter.</source>
+          <target state="translated">將控制項控制項配接器的狀態的資訊。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Control state is the essential state information needed even if view state is disabled.</source>
+          <target state="translated">控制項狀態是即使已停用檢視狀態所需的基本狀態資訊。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>When an adapter needs to maintain its own control state information, it can override the SaveAdapterControlState and &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt; methods.</source>
+          <target state="translated">當配接器需要維護自己的控制項狀態資訊時，可以覆寫行為和&lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;方法。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An adapter might need to maintain control state information when there are features that need to have state maintained across requests, independent from the state of the associated control.</source>
+          <target state="translated">配接器可能需要的功能，必須先要求，針對關聯控制項的狀態分開維護的狀態時，維持控制項狀態資訊。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For example, a composite control consisting of a large textual display and a group of &lt;xref:System.Web.UI.WebControls.RadioButton&gt; controls might render as a single view on desktop computer browsers.</source>
+          <target state="translated">例如，大型的文字顯示和一群組成複合控制項&lt;xref:System.Web.UI.WebControls.RadioButton&gt;控制項可能會呈現為單一檢視的桌上型電腦瀏覽器。&lt;/xref:System.Web.UI.WebControls.RadioButton&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>On other browsers, it might split its rendering—one view for the textual display and the other for the radio button group.</source>
+          <target state="translated">在其他瀏覽器，它可能會分隔其轉譯 — 文字顯示，另一個用於選項按鈕群組的單一檢視。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The adapter would need to maintain its own target-specific information about the currently active view.</source>
+          <target state="translated">配接器需要維護自己特定目標的相關資訊的目前作用中的檢視。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The SaveAdapterControlState method is called immediately after the &lt;xref:System.Web.UI.Control.SaveControlState%2A?displayProperty=fullName&gt; method in the <ph id="ph1">`SaveState`</ph> lifecycle stage.</source>
+          <target state="translated">之後，立即呼叫該行為方法&lt;xref:System.Web.UI.Control.SaveControlState%2A?displayProperty=fullName&gt;方法中的<ph id="ph1">`SaveState`</ph>生命週期階段。&lt;/xref:System.Web.UI.Control.SaveControlState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The adapter control state is separate and in addition to the control state of the control.</source>
+          <target state="translated">配接器控制狀態是分離的而且除了控制項的控制項狀態。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the adapter's control state information as a <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;，其中包含做為配接器的控制項狀態資訊<bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Saves view state information for the control adapter.</source>
+          <target state="translated">儲存檢視控制項配接器的狀態的資訊。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>When an adapter needs to maintain its own view state information, it can override the SaveAdapterViewState and &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; methods.</source>
+          <target state="translated">當配接器需要維護自己的檢視狀態資訊時，可以覆寫 SaveAdapterViewState 和&lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt;方法。&lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>An adapter needs to maintain view state information when there is data that must be maintained across requests, independent from the associated view state of the control.</source>
+          <target state="translated">配接器必須維護資料所必須維持在要求中，獨立於控制項的相關聯的檢視狀態時的檢視狀態資訊。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For example, a grid control on desktop computer browsers might render as a single view of rows and columns of values.</source>
+          <target state="translated">比方說，在桌面的電腦瀏覽器上的方格控制項可能會呈現為單一檢視的資料列和資料行的值。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>On other browsers, it might split its rendering into multiple separate views, such as a list of rows and details of a single row.</source>
+          <target state="translated">在其他瀏覽器，它可能會分隔其轉譯為多個不同的檢視，例如資料列和詳細資料的單一資料列的清單。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The adapter would need to maintain the data for the views that are not currently active in view state.</source>
+          <target state="translated">配接器必須維持的目前都沒有作用中檢視狀態的檢視資料。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The SaveAdapterViewState method is called immediately before the &lt;xref:System.Web.UI.Control.SaveViewState%2A?displayProperty=fullName&gt; method in the <ph id="ph1">`SaveState`</ph> lifecycle stage.</source>
+          <target state="translated">SaveAdapterViewState 方法之前，立即呼叫&lt;xref:System.Web.UI.Control.SaveViewState%2A?displayProperty=fullName&gt;方法中的<ph id="ph1">`SaveState`</ph>生命週期階段。&lt;/xref:System.Web.UI.Control.SaveViewState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The adapter view state is separate and in addition to the view state of the control.</source>
+          <target state="translated">配接器檢視狀態是分離的而且除了控制項的檢視狀態。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the adapter view state information as a <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;，其中包含做為配接器檢視狀態資訊<bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

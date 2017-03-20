@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7e27d8e7c08992699084373bbb0c457f55f72edf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.SessionState.ISessionIDManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c8a42cbdac638182f6753e14c845cbbce7a90abe</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">13f2a52f8217c94229c0b199184c6b68ec96103b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the contract that a custom session-state identifier manager must implement.</source>
+          <target state="translated">定義自訂的工作階段狀態識別項管理員必須實作的合約。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The ISessionIDManager interface identifies the methods that you must implement to create a custom manager for session-identifier values.</source>
+          <target state="translated">ISessionIDManager 介面識別的方法，您必須實作以建立工作階段識別碼值的自訂管理員。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>An ISessionIDManager interface implementation creates and validates session-identifier values, and manages the storage of a session identifier in the HTTP response as well as the retrieval of a session-identifier value from the HTTP request.</source>
+          <target state="translated">ISessionIDManager 介面實作會建立和驗證工作階段識別碼值，並管理從 HTTP 要求的 HTTP 回應中的工作階段識別碼的儲存體，以及工作階段識別碼值的擷取。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You enable the custom session-ID manager using the <ph id="ph1">`sessionIDManagerType`</ph> attribute of the <bpt id="p1">[</bpt>sessionState Element (ASP.NET Settings Schema)<ept id="p1">](http://msdn.microsoft.com/en-us/bda6fb8c-0076-43e3-9ce2-8cf1f8bdaa7d)</ept> configuration element.</source>
+          <target state="translated">啟用使用自訂的工作階段識別碼管理員<ph id="ph1">`sessionIDManagerType`</ph>屬性<bpt id="p1">[</bpt>工作階段狀態項目 （ASP.NET 設定結構描述）<ept id="p1">](http://msdn.microsoft.com/en-us/bda6fb8c-0076-43e3-9ce2-8cf1f8bdaa7d)</ept>組態項目。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If your ISessionIDManager interface implementation will support cookieless session identifiers, you will need to implement a solution for sending and retrieving session identifiers in the URL, such as an ISAPI filter.</source>
+          <target state="translated">如果您 ISessionIDManager 介面的實作會支援無 cookie 工作階段識別項，您必須實作解決方案來傳送和擷取 URL，例如 ISAPI 篩選器中的工作階段識別項。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you only want to supply custom session-identifier values to be used by ASP.NET session state, you can create a class that inherits the &lt;xref:System.Web.SessionState.SessionIDManager&gt; class and override only the &lt;xref:System.Web.SessionState.SessionIDManager.CreateSessionID%2A&gt; and &lt;xref:System.Web.SessionState.SessionIDManager.Validate%2A&gt; methods with your own custom implementation.</source>
+          <target state="translated">如果您只想要提供自訂的工作階段識別碼值，以供 ASP.NET 工作階段狀態，您可以建立繼承的類別&lt;xref:System.Web.SessionState.SessionIDManager&gt;類別並覆寫只&lt;xref:System.Web.SessionState.SessionIDManager.CreateSessionID%2A&gt;和&lt;xref:System.Web.SessionState.SessionIDManager.Validate%2A&gt;具有自己的自訂實作的方法。&lt;/xref:System.Web.SessionState.SessionIDManager.Validate%2A&gt; &lt;/xref:System.Web.SessionState.SessionIDManager.CreateSessionID%2A&gt; &lt;/xref:System.Web.SessionState.SessionIDManager&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This enables you to supply your own session-identifier values, while relying on the base &lt;xref:System.Web.SessionState.SessionIDManager&gt; class to store values to the HTTP response and retrieve values from the HTTP request.</source>
+          <target state="translated">這可讓您提供您自己的工作階段識別碼值，同時依賴基底&lt;xref:System.Web.SessionState.SessionIDManager&gt;類別來儲存對 HTTP 回應的值，並擷取 HTTP 要求的值。&lt;/xref:System.Web.SessionState.SessionIDManager&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For an example of overriding the &lt;xref:System.Web.SessionState.SessionIDManager&gt; class and implementing these methods, see the example provided for the &lt;xref:System.Web.SessionState.SessionIDManager.CreateSessionID%2A&gt; method of the &lt;xref:System.Web.SessionState.SessionIDManager&gt; class.</source>
+          <target state="translated">如需覆寫的&lt;xref:System.Web.SessionState.SessionIDManager&gt;類別並實作這些方法，請參閱範例提供給&lt;xref:System.Web.SessionState.SessionIDManager.CreateSessionID%2A&gt;方法的&lt;xref:System.Web.SessionState.SessionIDManager&gt;類別。&lt;/xref:System.Web.SessionState.SessionIDManager&gt; &lt;/xref:System.Web.SessionState.SessionIDManager.CreateSessionID%2A&gt; &lt;/xref:System.Web.SessionState.SessionIDManager&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Creates a unique session identifier.</source>
+          <target state="translated">建立唯一的工作階段識別項。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The CreateSessionID method is used to generate a unique session identifier that the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object will use to identify a new session.</source>
+          <target state="translated">CreateSessionID 方法用來產生唯一的工作階段識別項，&lt;xref:System.Web.SessionState.SessionStateModule&gt;物件會使用來識別新的工作階段。&lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The value returned by CreateSessionID must be unique and must contain valid characters that can be stored in an HTTP response and request.</source>
+          <target state="translated">CreateSessionID 所傳回的值必須是唯一的而且必須包含有效的字元可以儲存在 HTTP 回應和要求。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If it is possible that the value returned by your CreateSessionID implementation contains characters that are not valid in an HTTP response or request, you should use the &lt;xref:System.Web.HttpUtility.UrlEncode%2A&gt; method to encode the session-identifier value in your &lt;xref:System.Web.SessionState.ISessionIDManager.SaveSessionID%2A&gt; method implementation and the &lt;xref:System.Web.HttpUtility.UrlDecode%2A&gt; method to decode the session-identifier value in your &lt;xref:System.Web.SessionState.ISessionIDManager.GetSessionID%2A&gt; method implementation.</source>
+          <target state="translated">如果是可行的 CreateSessionID 實作所傳回的值包含在 HTTP 回應或要求中無效的字元，您應該使用&lt;xref:System.Web.HttpUtility.UrlEncode%2A&gt;編碼中的工作階段識別碼值的方法您&lt;xref:System.Web.SessionState.ISessionIDManager.SaveSessionID%2A&gt;方法實作和&lt;xref:System.Web.HttpUtility.UrlDecode%2A&gt;方法來解碼的工作階段識別碼值您&lt;xref:System.Web.SessionState.ISessionIDManager.GetSessionID%2A&gt;方法實作。&lt;/xref:System.Web.SessionState.ISessionIDManager.GetSessionID%2A&gt; &lt;/xref:System.Web.HttpUtility.UrlDecode%2A&gt; &lt;/xref:System.Web.SessionState.ISessionIDManager.SaveSessionID%2A&gt; &lt;/xref:System.Web.HttpUtility.UrlEncode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that references server objects used to process HTTP requests (for example, the &lt;xref:System.Web.HttpContext.Request<bpt id="p2">*</bpt>&gt; and &lt;xref:System.Web.HttpContext.Response<ept id="p2">*</ept>&gt; properties).</source>
+          <target state="translated">目前<bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>參考伺服器物件的物件用來處理 HTTP 要求 (例如， &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; 和&lt;&gt; <ept id="p2">*</ept>&gt; 屬性)。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A unique session identifier.</source>
+          <target state="translated">唯一的工作階段識別項。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets the session identifier from the context of the current HTTP request.</source>
+          <target state="translated">從目前的 HTTP 要求的內容取得的工作階段識別碼。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The GetSessionID method is called by the &lt;xref:System.Web.SessionState.SessionStateModule&gt; during the &lt;xref:System.Web.HttpApplication.AcquireRequestState?displayProperty=fullName&gt; and &lt;xref:System.Web.HttpApplication.EndRequest?displayProperty=fullName&gt; events.</source>
+          <target state="translated">GetSessionID 方法由呼叫&lt;xref:System.Web.SessionState.SessionStateModule&gt;期間&lt;xref:System.Web.HttpApplication.AcquireRequestState?displayProperty=fullName&gt;和&lt;xref:System.Web.HttpApplication.EndRequest?displayProperty=fullName&gt;事件。&lt;/xref:System.Web.HttpApplication.EndRequest?displayProperty=fullName&gt; &lt;/xref:System.Web.HttpApplication.AcquireRequestState?displayProperty=fullName&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you cannot retrieve a valid session identifier from the HTTP request, return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">如果您無法從 HTTP 要求來擷取有效的工作階段識別碼，傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.SessionState.SessionStateModule&gt; receives <ph id="ph1">`null`</ph> from the GetSessionID method, it will call the &lt;xref:System.Web.SessionState.ISessionIDManager.CreateSessionID%2A&gt; method to get a new session identifier for a new session.</source>
+          <target state="translated">如果&lt;xref:System.Web.SessionState.SessionStateModule&gt;接收<ph id="ph1">`null`</ph>自 GetSessionID 方法，它會呼叫&lt;xref:System.Web.SessionState.ISessionIDManager.CreateSessionID%2A&gt;方法來取得新的工作階段識別項，為新的工作階段。&lt;/xref:System.Web.SessionState.ISessionIDManager.CreateSessionID%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If it is possible that the value returned by your &lt;xref:System.Web.SessionState.ISessionIDManager.CreateSessionID%2A&gt; implementation contains characters that are not valid in an HTTP response or request, you should use the &lt;xref:System.Web.HttpUtility.UrlEncode%2A&gt; method to encode the session-identifier value in your &lt;xref:System.Web.SessionState.ISessionIDManager.SaveSessionID%2A&gt; method implementation and the &lt;xref:System.Web.HttpUtility.UrlDecode%2A&gt; method to decode the session-identifier value in your GetSessionID method implementation.</source>
+          <target state="translated">如果可能的話，所傳回的值您&lt;xref:System.Web.SessionState.ISessionIDManager.CreateSessionID%2A&gt;實作包含在 HTTP 回應或要求中無效的字元，您應該使用&lt;xref:System.Web.HttpUtility.UrlEncode%2A&gt;編碼中的工作階段識別碼值的方法您&lt;xref:System.Web.SessionState.ISessionIDManager.SaveSessionID%2A&gt;方法實作和&lt;xref:System.Web.HttpUtility.UrlDecode%2A&gt;方法來解碼 GetSessionID 方法實作中的工作階段識別碼值。&lt;/xref:System.Web.HttpUtility.UrlDecode%2A&gt; &lt;/xref:System.Web.SessionState.ISessionIDManager.SaveSessionID%2A&gt; &lt;/xref:System.Web.HttpUtility.UrlEncode%2A&gt; &lt;/xref:System.Web.SessionState.ISessionIDManager.CreateSessionID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that references server objects used to process HTTP requests (for example, the &lt;xref:System.Web.HttpContext.Request<bpt id="p2">*</bpt>&gt; and &lt;xref:System.Web.HttpContext.Response<ept id="p2">*</ept>&gt; properties).</source>
+          <target state="translated">目前<bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>參考伺服器物件的物件用來處理 HTTP 要求 (例如， &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; 和&lt;&gt; <ept id="p2">*</ept>&gt; 屬性)。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The current session identifier sent with the HTTP request.</source>
+          <target state="translated">傳送 HTTP 要求與目前工作階段識別項。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionIDManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">初始化<bpt id="p1">&lt;xref href="System.Web.SessionState.SessionIDManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Use the Initialize method to initialize the &lt;xref:System.Web.SessionState.ISessionIDManager&gt; object.</source>
+          <target state="translated">使用 Initialize 方法初始化&lt;xref:System.Web.SessionState.ISessionIDManager&gt;物件。&lt;/xref:System.Web.SessionState.ISessionIDManager&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Performs per-request initialization of the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionIDManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">執行的每一個要求初始化<bpt id="p1">&lt;xref href="System.Web.SessionState.SessionIDManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The InitializeRequest method is called for each request handled by the &lt;xref:System.Web.SessionState.ISessionIDManager&gt; object.</source>
+          <target state="translated">InitializeRequest 方法呼叫由處理每個要求&lt;xref:System.Web.SessionState.ISessionIDManager&gt;物件。&lt;/xref:System.Web.SessionState.ISessionIDManager&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Use the InitializeRequest method to initialize per-request data for the &lt;xref:System.Web.SessionState.SessionIDManager&gt; object.</source>
+          <target state="translated">使用 InitializeRequest 方法來初始化每個要求資料&lt;xref:System.Web.SessionState.SessionIDManager&gt;物件。&lt;/xref:System.Web.SessionState.SessionIDManager&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`suppressAutoDetectRedirect`</ph> parameter is <ph id="ph2">`true`</ph>, the &lt;xref:System.Web.SessionState.ISessionIDManager&gt; object should not use redirection to determine whether the browser supports cookies.</source>
+          <target state="translated">當<ph id="ph1">`suppressAutoDetectRedirect`</ph>參數是<ph id="ph2">`true`</ph>、&lt;xref:System.Web.SessionState.ISessionIDManager&gt;物件不應該使用重新導向來判斷瀏覽器是否支援 cookie。&lt;/xref:System.Web.SessionState.ISessionIDManager&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`supportSessionIDReissue`</ph> parameter should be returned <ph id="ph2">`false`</ph> if cookies are used for session identification; otherwise, return <ph id="ph3">`true`</ph> if your &lt;xref:System.Web.SessionState.ISessionIDManager&gt; implementation supports re-issuing session IDs.</source>
+          <target state="translated"><ph id="ph1">`supportSessionIDReissue`</ph>應傳回參數<ph id="ph2">`false`</ph>如果 cookie 用於工作階段識別; 否則傳回<ph id="ph3">`true`</ph>如果您&lt;xref:System.Web.SessionState.ISessionIDManager&gt;實作支援重新發行的工作階段識別碼。&lt;/xref:System.Web.SessionState.ISessionIDManager&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains information about the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，包含目前要求的相關資訊。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the session-ID manager should redirect to determine cookie support; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to suppress automatic redirection to determine cookie support.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果工作階段識別碼管理員應重新導向至判斷 cookie 支援。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>來隱藏自動重新導向，以判斷支援 cookie。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains a Boolean that indicates whether the <bpt id="p1">&lt;xref href="System.Web.SessionState.ISessionIDManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object supports issuing new session IDs when the original ID is out of date.</source>
+          <target state="translated">這個方法傳回時，包含布林值，指出是否<bpt id="p1">&lt;xref href="System.Web.SessionState.ISessionIDManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件的原始識別碼已過期時，支援發行新的工作階段識別碼。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Session ID reuse is appropriate when the session-state ID is encoded on a URL and the potential exists for the URL to be shared or emailed.</source>
+          <target state="translated">工作階段識別碼重複使用時，適當的工作階段狀態識別碼 url 編碼，而有可能會收到電子郵件或共用的 url。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If a custom session-state implementation partitions cookies by virtual path, session state should also be supported.</source>
+          <target state="translated">如果虛擬路徑所自訂的工作階段狀態實作資料分割 cookie，應該要支援工作階段狀態。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the initialization performed a redirect; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示執行初始化重新導向。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Deletes the session identifier from the cookie or from the URL.</source>
+          <target state="translated">刪除工作階段識別碼，從 cookie 或 URL。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; calls the &lt;xref:System.Web.SessionState.SessionIDManager.RemoveSessionID%2A&gt; method during the &lt;xref:System.Web.HttpApplication.ReleaseRequestState?displayProperty=fullName&gt; event to remove the session identifier from the &lt;xref:System.Web.HttpResponse.Cookies%2A?displayProperty=fullName&gt; collection if a new session was created but was not used.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;呼叫&lt;xref:System.Web.SessionState.SessionIDManager.RemoveSessionID%2A&gt;方法期間&lt;xref:System.Web.HttpApplication.ReleaseRequestState?displayProperty=fullName&gt;事件中的工作階段識別項中移除&lt;xref:System.Web.HttpResponse.Cookies%2A?displayProperty=fullName&gt;如果新的工作階段已建立但未使用的集合。&lt;/xref:System.Web.HttpResponse.Cookies%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.HttpApplication.ReleaseRequestState?displayProperty=fullName&gt; &lt;/xref:System.Web.SessionState.SessionIDManager.RemoveSessionID%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that references server objects used to process HTTP requests (for example, the &lt;xref:System.Web.HttpContext.Request<bpt id="p2">*</bpt>&gt; and &lt;xref:System.Web.HttpContext.Response<ept id="p2">*</ept>&gt; properties).</source>
+          <target state="translated">目前<bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>參考伺服器物件的物件用來處理 HTTP 要求 (例如， &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; 和&lt;&gt; <ept id="p2">*</ept>&gt; 屬性)。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Saves a newly created session identifier to the HTTP response.</source>
+          <target state="translated">將新建立的工作階段識別碼儲存至 HTTP 回應。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The SaveSessionID method is called by the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object during the &lt;xref:System.Web.HttpApplication.AcquireRequestState?displayProperty=fullName&gt; event.</source>
+          <target state="translated">SaveSessionID 方法由呼叫&lt;xref:System.Web.SessionState.SessionStateModule&gt;物件期間&lt;xref:System.Web.HttpApplication.AcquireRequestState?displayProperty=fullName&gt;事件。&lt;/xref:System.Web.HttpApplication.AcquireRequestState?displayProperty=fullName&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The SaveSessionID method stores the session identifier either in the URL (when cookieless session state is used) or in a non-expiring session cookie.</source>
+          <target state="translated">SaveSessionID 方法儲存的工作階段識別碼 （使用無 cookie 工作階段狀態） 時的 URL 或不會過期的工作階段 cookie。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If it is possible that the value returned from your &lt;xref:System.Web.SessionState.ISessionIDManager.CreateSessionID%2A&gt; implementation contains characters that are not valid in an HTTP response or request, you should use the &lt;xref:System.Web.HttpUtility.UrlEncode%2A&gt; method to encode the session-identifier value in your SaveSessionID method implementation and the &lt;xref:System.Web.HttpUtility.UrlDecode%2A&gt; method to decode the session-identifier value in your &lt;xref:System.Web.SessionState.ISessionIDManager.GetSessionID%2A&gt; method implementation.</source>
+          <target state="translated">如果可能的話，從傳回的值您&lt;xref:System.Web.SessionState.ISessionIDManager.CreateSessionID%2A&gt;實作包含在 HTTP 回應或要求中無效的字元，您應該使用&lt;xref:System.Web.HttpUtility.UrlEncode%2A&gt;編碼 SaveSessionID 方法實作中的工作階段識別碼值的方法和&lt;xref:System.Web.HttpUtility.UrlDecode%2A&gt;方法來解碼的工作階段識別碼值，在您&lt;xref:System.Web.SessionState.ISessionIDManager.GetSessionID%2A&gt;方法實作。&lt;/xref:System.Web.SessionState.ISessionIDManager.GetSessionID%2A&gt; &lt;/xref:System.Web.HttpUtility.UrlDecode%2A&gt; &lt;/xref:System.Web.HttpUtility.UrlEncode%2A&gt; &lt;/xref:System.Web.SessionState.ISessionIDManager.CreateSessionID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that references server objects used to process HTTP requests (for example, the &lt;xref:System.Web.HttpContext.Request<bpt id="p2">*</bpt>&gt; and &lt;xref:System.Web.HttpContext.Response<ept id="p2">*</ept>&gt; properties).</source>
+          <target state="translated">目前<bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>參考伺服器物件的物件用來處理 HTTP 要求 (例如， &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; 和&lt;&gt; <ept id="p2">*</ept>&gt; 屬性)。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The session identifier.</source>
+          <target state="translated">工作階段識別碼。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains a Boolean value that is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the response is redirected to the current URL with the session identifier added to the URL; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個方法傳回時，包含布林值，是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果回應重新導向至目前 URL 加入至 URL 的工作階段識別碼，否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains a Boolean value that is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a cookie has been added to the HTTP response; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個方法傳回時，包含布林值，是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果 cookie 已加入至 HTTP 回應，否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Confirms that the supplied session identifier is valid.</source>
+          <target state="translated">確認提供的工作階段識別項為有效。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The Validate method verifies that the supplied <ph id="ph1">`id`</ph> is a valid session identifier.</source>
+          <target state="translated">驗證方法會確認提供<ph id="ph1">`id`</ph>是有效的工作階段識別碼。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Your &lt;xref:System.Web.SessionState.ISessionIDManager&gt; implementation should call the Validate method from the &lt;xref:System.Web.SessionState.ISessionIDManager.GetSessionID%2A&gt; method when retrieving a session identifier from an HTTP request to ensure that the supplied session identifier is properly formatted.</source>
+          <target state="translated">您&lt;xref:System.Web.SessionState.ISessionIDManager&gt;實作應該呼叫 Validate 方法，從&lt;xref:System.Web.SessionState.ISessionIDManager.GetSessionID%2A&gt;方法時從 HTTP 要求，以便確認已正確格式化提供工作階段識別碼擷取工作階段識別項。&lt;/xref:System.Web.SessionState.ISessionIDManager.GetSessionID%2A&gt; &lt;/xref:System.Web.SessionState.ISessionIDManager&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The session identifier to validate.</source>
+          <target state="translated">要驗證的工作階段識別碼。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the session identifier is valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果工作階段識別碼有效，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7a49050d24e3aa35652e8bd7f01cedd7bbdd6093</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Security.DefaultAuthenticationModule.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f3b57696045aaad69a50b60c0d941203ded96ad</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7056bbc5c3251cfd515096e95ffca99318d23738</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Ensures that an authentication object is present in the context.</source>
+          <target state="translated">可確保驗證物件存在於內容中。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">這個類別無法被繼承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The DefaultAuthenticationModule ensures that the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance is set to an &lt;xref:System.Security.Principal.IPrincipal&gt; object for each request.</source>
+          <target state="translated">DefaultAuthenticationModule 可確保&lt;xref:System.Web.HttpContext.User%2A&gt;屬性的目前&lt;xref:System.Web.HttpContext&gt;設執行個體&lt;xref:System.Security.Principal.IPrincipal&gt;針對每個要求的物件。&lt;/xref:System.Security.Principal.IPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The DefaultAuthenticationModule examines the &lt;xref:System.Web.HttpContext.User%2A&gt; property after the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event and before the &lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt; event.</source>
+          <target state="translated">會檢查 DefaultAuthenticationModule&lt;xref:System.Web.HttpContext.User%2A&gt;屬性之後&lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;事件之前&lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt;事件。&lt;/xref:System.Web.HttpApplication.AuthorizeRequest&gt; &lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.HttpContext.User%2A&gt; property is <ph id="ph1">`null`</ph>, the DefaultAuthenticationModule sets the &lt;xref:System.Web.HttpContext.User%2A&gt; property to a &lt;xref:System.Security.Principal.GenericPrincipal&gt; object that contains no user information.</source>
+          <target state="translated">如果&lt;xref:System.Web.HttpContext.User%2A&gt;屬性是<ph id="ph1">`null`</ph>，DefaultAuthenticationModule 集&lt;xref:System.Web.HttpContext.User%2A&gt;屬性&lt;xref:System.Security.Principal.GenericPrincipal&gt;未包含任何使用者資訊的物件。&lt;/xref:System.Security.Principal.GenericPrincipal&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If the authentication module sets the &lt;xref:System.Web.HttpResponse.StatusCode%2A&gt; property to 401, the DefaultAuthenticationModule will render an access-denied error page.</source>
+          <target state="translated">如果設定的驗證模組&lt;xref:System.Web.HttpResponse.StatusCode%2A&gt;屬性為 401，DefaultAuthenticationModule 呈現拒絕存取時的錯誤頁面。&lt;/xref:System.Web.HttpResponse.StatusCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If the value of the &lt;xref:System.Web.HttpResponse.StatusCode%2A&gt; property is set to a value greater than 200, the DefaultAuthenticationModule object will end the request.</source>
+          <target state="translated">如果值&lt;xref:System.Web.HttpResponse.StatusCode%2A&gt;屬性設定為值大於 200，DefaultAuthenticationModule 物件將會結束的要求。&lt;/xref:System.Web.HttpResponse.StatusCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In that case, only HTTP modules that subscribe to the &lt;xref:System.Web.HttpApplication.EndRequest&gt; event are called prior to the completion of the current request.</source>
+          <target state="translated">在此情況下，只有 HTTP 模組，這些訂閱&lt;xref:System.Web.HttpApplication.EndRequest&gt;事件會在目前要求完成之前呼叫。&lt;/xref:System.Web.HttpApplication.EndRequest&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The DefaultAuthenticationModule exposes an &lt;xref:System.Web.Security.DefaultAuthenticationModule.Authenticate&gt; event.</source>
+          <target state="translated">DefaultAuthenticationModule 公開&lt;xref:System.Web.Security.DefaultAuthenticationModule.Authenticate&gt;事件。&lt;/xref:System.Web.Security.DefaultAuthenticationModule.Authenticate&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can use this event to provide a custom &lt;xref:System.Security.Principal.IPrincipal&gt; object for the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance.</source>
+          <target state="translated">您可以使用此事件以提供自訂&lt;xref:System.Security.Principal.IPrincipal&gt;物件&lt;xref:System.Web.HttpContext.User%2A&gt;屬性的目前&lt;xref:System.Web.HttpContext&gt;執行個體。&lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Security.Principal.IPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt; event is accessed by specifying an event named <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> in the application's Global.asax file.</source>
+          <target state="translated">&lt;xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt;事件透過指定名為事件<bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept>應用程式的 Global.asax 檔中。&lt;/xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This constructor is not intended to be called from application code.</source>
+          <target state="translated">這個建構函式不是從應用程式程式碼呼叫。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>ASP.NET calls this constructor to create an instance of the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; class.</source>
+          <target state="translated">ASP.NET 會呼叫這個建構函式來建立執行個體的&lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;類別。&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>After calling the constructor, it calls the &lt;xref:System.Web.Security.DefaultAuthenticationModule.Init%2A&gt; method to initialize the new &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; object.</source>
+          <target state="translated">在呼叫之後建構函式，它會呼叫&lt;xref:System.Web.Security.DefaultAuthenticationModule.Init%2A&gt;方法來初始化新&lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;物件。&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt; &lt;/xref:System.Web.Security.DefaultAuthenticationModule.Init%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Occurs after the request has been authenticated.</source>
+          <target state="translated">已驗證要求後發生。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Authenticate event is raised after the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event.</source>
+          <target state="translated">驗證事件引發之後&lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;事件。&lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>It is used to ensure that the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance is populated with an &lt;xref:System.Security.Principal.IPrincipal&gt; object.</source>
+          <target state="translated">它用來確保&lt;xref:System.Web.HttpContext.User%2A&gt;屬性的目前&lt;xref:System.Web.HttpContext&gt;執行個體填入&lt;xref:System.Security.Principal.IPrincipal&gt;物件。&lt;/xref:System.Security.Principal.IPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can access the Authenticate event of the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; class by specifying a subroutine named <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> in the application's Global.asax file.</source>
+          <target state="translated">您可以存取的驗證事件&lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;類別藉由指定名為的副程式<bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept>應用程式的 Global.asax 檔中。&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Web.Security.DefaultAuthenticationEventArgs.Context%2A&gt; property of the &lt;xref:System.Web.Security.DefaultAuthenticationEventArgs&gt; object in the <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> event to set the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance to a custom &lt;xref:System.Security.Principal.IPrincipal&gt; object.</source>
+          <target state="translated">您可以使用&lt;xref:System.Web.Security.DefaultAuthenticationEventArgs.Context%2A&gt;屬性&lt;xref:System.Web.Security.DefaultAuthenticationEventArgs&gt;物件存放至<bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept>事件設定&lt;xref:System.Web.HttpContext.User%2A&gt;屬性的目前&lt;xref:System.Web.HttpContext&gt;至自訂的執行個體&lt;xref:System.Security.Principal.IPrincipal&gt;物件。&lt;/xref:System.Security.Principal.IPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Web.Security.DefaultAuthenticationEventArgs&gt; &lt;/xref:System.Web.Security.DefaultAuthenticationEventArgs.Context%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you do not specify a value for the &lt;xref:System.Web.HttpContext.User%2A&gt; property, the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; sets the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the &lt;xref:System.Web.HttpContext&gt; instance to a &lt;xref:System.Security.Principal.GenericPrincipal&gt; object that contains no user information.</source>
+          <target state="translated">如果您未指定的值&lt;xref:System.Web.HttpContext.User%2A&gt;屬性，&lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;設定&lt;xref:System.Web.HttpContext.User%2A&gt;屬性&lt;xref:System.Web.HttpContext&gt;執行個體&lt;xref:System.Security.Principal.GenericPrincipal&gt;未包含任何使用者資訊的物件。&lt;/xref:System.Security.Principal.GenericPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> event is raised after the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event and before the &lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt; event.</source>
+          <target state="translated"><bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept>之後引發事件&lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;事件之前&lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt;事件。&lt;/xref:System.Web.HttpApplication.AuthorizeRequest&gt; &lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you have an  section that depends on the user name to deny or allow access to your application, modifying the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance can affect the behavior of your application.</source>
+          <target state="translated">如果您有可取決於要拒絕或允許存取您的應用程式的使用者名稱的區段，修改&lt;xref:System.Web.HttpContext.User%2A&gt;屬性的目前&lt;xref:System.Web.HttpContext&gt;執行個體可能會影響應用程式的行為。&lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Be sure that the user name you set during the <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> event is considered when you specify the  section in your configuration.</source>
+          <target state="translated">務必讓您設定期間的使用者名稱<bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept>事件會被視為當組態中指定的區段。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the Web application is running in IIS 7.0 in Integrated mode, the Authenticate event of the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; is not raised.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果 Web 應用程式正在執行 IIS 7.0 中，在整合式模式中，驗證事件的&lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;就不會引發。&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`mode`</ph> attribute of the  configuration element is set to "None" and the application subscribes to the Authenticate event, a &lt;xref:System.PlatformNotSupportedException&gt; error is raised.</source>
+          <target state="translated">如果<ph id="ph1">`mode`</ph>屬性的組態項目設為 [無]，然後驗證事件，應用程式訂閱&lt;xref:System.PlatformNotSupportedException&gt;就會引發錯誤。&lt;/xref:System.PlatformNotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In this scenario, to receive authentication notification, subscribe to the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event of the &lt;xref:System.Web.HttpApplication&gt; instance.</source>
+          <target state="translated">在此案例中，若要收到驗證通知，訂閱&lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;事件&lt;xref:System.Web.HttpApplication&gt;執行個體。&lt;/xref:System.Web.HttpApplication&gt; &lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information about compatibility issues in Integrated mode, see <bpt id="p1">[</bpt>Moving an ASP.NET Application from IIS 6.0 to IIS 7.0<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需相容性問題，以整合模式的詳細資訊，請參閱<bpt id="p1">[</bpt>從 IIS 6.0 的 ASP.NET 應用程式移轉至 IIS 7.0<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Releases all resources, other than memory, used by the <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">所使用的記憶體之外的所有資源釋都出<bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This method is not intended to be called from application code.</source>
+          <target state="translated">這個方法不是從應用程式程式碼呼叫。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">初始化<bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This method is not intended to be called from application code.</source>
+          <target state="translated">這個方法不是從應用程式程式碼呼叫。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The Init method ensures that the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; is included in the processing of events.</source>
+          <target state="translated">Init 方法可確保&lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;隨附於處理的事件。&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.HttpApplication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">目前<bpt id="p1">&lt;xref href="System.Web.HttpApplication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>執行個體。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
