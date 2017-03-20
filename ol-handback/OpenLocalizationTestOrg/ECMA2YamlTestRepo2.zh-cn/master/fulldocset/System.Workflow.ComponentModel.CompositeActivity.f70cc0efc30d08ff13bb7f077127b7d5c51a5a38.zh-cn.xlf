@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45509a7426e84d888cee6a962fbb91f86e89af64</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.ComponentModel.CompositeActivity.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4bf153f7e3f7a49f8685872aab74524ae48da3a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2c0de478275512c5e4ce609cd867a91824fb70d8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Derivative of <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the base class for all activities that contain other activities.</source>
+          <target state="translated">派生<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它是包含其他活动的所有活动的基类。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A CompositeActivity is responsible for managing the execution of its child activities.</source>
+          <target state="translated">CompositeActivity 负责管理其子活动的执行。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       A CompositeActivity manages the execution of its child activities using &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt; class methods and events defined on the &lt;xref:System.Workflow.ComponentModel.Activity&gt; class.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>CompositeActivity 管理其子活动使用&lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt;类方法和&lt;xref:System.Workflow.ComponentModel.Activity&gt;类。&lt;/xref:System.Workflow.ComponentModel.Activity&gt;在定义事件&lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt;的执行</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, a child activity is scheduled for execution using the &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.ExecuteActivity%2A&gt; of &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt;.</source>
+          <target state="translated">例如，一个子活动计划的执行，使用&lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.ExecuteActivity%2A&gt;的&lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt;.&lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt; &lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext.ExecuteActivity%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A CompositeActivity activity can be notified when a child activity completes its execution by subscribing to the &lt;xref:System.Workflow.ComponentModel.Activity.Closed&gt; event defined on &lt;xref:System.Workflow.ComponentModel.Activity&gt;.</source>
+          <target state="translated">子活动完成执行后通过订阅到&lt;xref:System.Workflow.ComponentModel.Activity.Closed&gt;&lt;xref:System.Workflow.ComponentModel.Activity&gt;.&lt;/xref:System.Workflow.ComponentModel.Activity&gt;上定义的事件&lt;/xref:System.Workflow.ComponentModel.Activity.Closed&gt;时，可以通知 CompositeActivity 活动</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The workflow runtime enforces certain constraints on CompositeActivity execution, the most fundamental of which is that a CompositeActivity activity cannot move to the &lt;xref:System.Workflow.ComponentModel.Activity.Closed&gt; state if any child activities are still in a &lt;xref:System.Workflow.ComponentModel.Activity.Executing&gt;, &lt;xref:System.Workflow.ComponentModel.Activity.Canceling&gt;, &lt;xref:System.Workflow.ComponentModel.Activity.Compensating&gt;, or &lt;xref:System.Workflow.ComponentModel.Activity.Faulting&gt;, state.</source>
+          <target state="translated">工作流运行时强制实施某些约束在 CompositeActivity 执行时，其中最基本的是 CompositeActivity 活动能将移到&lt;xref:System.Workflow.ComponentModel.Activity.Closed&gt;状态任何子活动是否仍在&lt;xref:System.Workflow.ComponentModel.Activity.Executing&gt;， &lt;xref:System.Workflow.ComponentModel.Activity.Canceling&gt;， &lt;xref:System.Workflow.ComponentModel.Activity.Compensating&gt;，或&lt;xref:System.Workflow.ComponentModel.Activity.Faulting&gt;，状态。&lt;/xref:System.Workflow.ComponentModel.Activity.Faulting&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.Compensating&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.Canceling&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.Executing&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.Closed&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from an &lt;xref:System.Object&gt; which implements the &lt;xref:System.Collections.IEnumerable&gt; interface with type <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类&lt;xref:System.Object&gt;实现&lt;xref:System.Collections.IEnumerable&gt;接口类型<bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Collections.IEnumerable&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; implementing the &lt;xref:System.Collections.IEnumerable&gt; interface with type <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;实现&lt;xref:System.Collections.IEnumerable&gt;接口类型<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Collections.IEnumerable&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, along with the name for that activity.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，以及该活动的名称。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The name for the instance.</source>
+          <target state="translated">实例的名称。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>为空引用 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在 Visual Basic 中)。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gets the object representing the collection, <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, of all child activities.</source>
+          <target state="translated">获取表示该集合，该对象<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，所有子活动。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Represents the collection of child activities managed by the composite activity.</source>
+          <target state="translated">表示由复合活动管理的子活动的集合。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This collection can be updated.</source>
+          <target state="translated">可以更新此集合。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of all child activities.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>所有子活动。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Applies the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowChanges"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> manifest in the parameter to this instance.</source>
+          <target state="translated">适用<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowChanges"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>清单在此实例的参数。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowChanges"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to apply.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowChanges"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>应用。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;workflowChanges&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;workflowChanges&lt;/code&gt;</ph>为空引用 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在 Visual Basic 中)。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value which controls whether the individual activities within &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; can be modified.</source>
+          <target state="translated">获取或设置一个值，该值控制是否中的单个活动&lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;可以修改。&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the individual activities within &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; can be modified; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果中的单个活动&lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;可修改; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Calls &lt;xref:System.Workflow.ComponentModel.DependencyObject.Dispose<bpt id="p1">*</bpt>&gt; on this instance, and optionally calls &lt;xref:System.Workflow.ComponentModel.DependencyObject.Dispose<ept id="p1">*</ept>&gt; on all child activities of this instance.</source>
+          <target state="translated">调用&lt;&gt; <bpt id="p1">*</bpt>1&gt; 上此实例，并根据需要调用&lt;&gt; <ept id="p1">*</ept>1&gt; 的此实例的所有子活动上。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Throughout an activity's lifetime, several .NET objects may be created or disposed.</source>
+          <target state="translated">在整个活动的生存期可能创建或释放多个.NET 对象。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Every time a workflow instance is unloaded from memory, the .NET objects corresponding to the activities in the workflow tree are disposed (the &lt;xref:System.Workflow.ComponentModel.DependencyObject.Dispose%2A&gt; method is called on each activity).</source>
+          <target state="translated">每次从内存卸载工作流实例时，.NET 对象释放对应工作流树中的活动 (&lt;xref:System.Workflow.ComponentModel.DependencyObject.Dispose%2A&gt;每个活动上调用方法)。&lt;/xref:System.Workflow.ComponentModel.DependencyObject.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When the workflow instance is loaded back into memory, a new .NET object is created for each activity with the state from the corresponding unload.</source>
+          <target state="translated">当工作流实例加载回内存中时，为使用对应卸载操作中的状态的每个活动创建新的.NET 对象。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources used by this instance and all child activities of this instance; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only the unmanaged resources of this instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要释放使用的此实例和所有子活动的此实例; 的托管和非托管资源<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>若要仅释放非托管的资源的此实例。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the read-only collection that represents the subset of &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; that are enabled.</source>
+          <target state="translated">获取表示的子集的只读集合&lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;已启用。&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The read-only collection that represents the subset of &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; that are enabled.</source>
+          <target state="translated">表示的子集的只读集合&lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;已启用。&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns an array that contains all of the currently executing instances of the specified activity.</source>
+          <target state="translated">返回一个包含所有当前正在执行的指定的活动实例的数组。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An array of activity instances that are currently executing.</source>
+          <target state="translated">当前正在执行的活动实例的数组。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Called when an exception is raised within the context of the execution of this instance.</source>
+          <target state="translated">在此实例的执行上下文中引发异常时调用。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>此实例。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Exception&gt; that caused this fault.</source>
+          <target state="translated">&lt;xref:System.Exception&gt;导致此错误。&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that results from an attempt to cancel this instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>中时得到的尝试取消此实例。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;exception&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;exception&lt;/code&gt;</ph>为空引用 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在 Visual Basic 中)。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Initializes all appropriate child activities of this instance and the specified &lt;xref:System.IServiceProvider&gt;.</source>
+          <target state="translated">初始化此实例和指定&lt;xref:System.IServiceProvider&gt;.&lt;/xref:System.IServiceProvider&gt;的所有适当的子活动</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The specified &lt;xref:System.IServiceProvider&gt;.</source>
+          <target state="translated">指定&lt;xref:System.IServiceProvider&gt;.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph>为空引用 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在 Visual Basic 中)。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Calls when an activity is added.</source>
+          <target state="translated">添加活动时调用。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;addedActivity&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;addedActivity&lt;/code&gt;</ph>为空引用 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>)。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Called when an activity is removed.</source>
+          <target state="translated">移除活动时调用。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Current implementation provides no functionality.</source>
+          <target state="translated">当前实现不提供任何功能。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime engine every time the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this activity is loaded.</source>
+          <target state="translated">工作流运行时引擎每次调用<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>加载此活动。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that implements &lt;xref:System.IServiceProvider&gt; and provides services to this instance.</source>
+          <target state="translated">&lt;xref:System.Object&gt;实现&lt;xref:System.IServiceProvider&gt;并为此实例提供服务。&lt;/xref:System.IServiceProvider&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime engine every time the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this activity is unloaded.</source>
+          <target state="translated">工作流运行时引擎每次调用<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>此活动是卸载。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that implements &lt;xref:System.IServiceProvider&gt; and provides services to this instance.</source>
+          <target state="translated">&lt;xref:System.Object&gt;实现&lt;xref:System.IServiceProvider&gt;并为此实例提供服务。&lt;/xref:System.IServiceProvider&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Performs additional processing when the &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; property changes.</source>
+          <target state="translated">执行其他处理时&lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;属性更改。&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityCollectionChangeEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> broadcast by the event.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityCollectionChangeEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>事件所广播。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Event that occurs before a change being made to the underlying &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;.</source>
+          <target state="translated">对基础&lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;.&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;进行更改之前发生的事件</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.EventArgs&gt; relating to the event.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;与事件相关。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Called after changes have been made to the collection &lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt; of this instance.</source>
+          <target state="translated">对集合进行了更改后调用&lt;xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;的此实例。&lt;/xref:System.Workflow.ComponentModel.CompositeActivity.Activities*&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, provides processing for this event.</source>
+          <target state="translated">当在派生类中重写，提供为此事件的处理。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>与此实例关联。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime engine when an activity transitions into the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> state from the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">当转换到的活动由工作流运行时引擎调用<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>状态从<bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>状态。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This method is used for activity cleanup, such as clearing dependency properties and deleting queues.</source>
+          <target state="translated">此方法用于活动清理，例如清除依赖属性和删除队列。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that implements &lt;xref:System.IServiceProvider&gt; and provides services to this instance.</source>
+          <target state="translated">&lt;xref:System.Object&gt;实现&lt;xref:System.IServiceProvider&gt;并为此实例提供服务。&lt;/xref:System.IServiceProvider&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
