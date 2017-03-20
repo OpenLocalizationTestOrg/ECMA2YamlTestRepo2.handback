@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c6c8bc91d0109bb5ee5f0fe90dc3eee1c15114df</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.ValidatedControlConverter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">372a19253b0d0c0161d6e66b30c9be42344756f5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">171995150e0d1606e21eabee1d92576120050981</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Converts a control on the Web Forms page that can be validated with a validation control to a string containing the control's ID.</source>
+          <target state="translated">将在 Web 窗体页上，可以验证具有验证控件的控件转换为包含控件的 ID 的字符串</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Not all controls can be validated with a validation control.</source>
+          <target state="translated">可以使用验证控件验证并非所有控件。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This class creates a collection of control IDs on the Web Forms page that can be associated with a validation control.</source>
+          <target state="translated">此类用于可以是与验证控件关联的 Web 窗体页面上创建的控件 Id 的集合。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This collection is commonly used in a designer to display a list of controls on the Web Forms page that can be associated with a validation control.</source>
+          <target state="translated">此集合通常在设计器中用于显示可以是与验证控件关联的 Web 窗体页上的控件的列表。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When creating your own validation control, you can enable the designer to display a list of controls that support validation controls.</source>
+          <target state="translated">创建你自己的验证控件时，你可以启用设计器以显示支持验证控件的控件的列表。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Simply add an attribute to the string property that represents the control to validate, as follows:      <ph id="ph1">```vb#   &lt;TypeConverter(GetType(ValidatedControlConverter))&gt; _    Public Property ControlToValidate() As String       Get              // Add code to get the ID of the control to validate.       End Get       Set          // Add code to set the ID of the control to validate.       End Set    End Property   ```</ph>      <ph id="ph2">```c#   [TypeConverter(typeof(ValidatedControlConverter))]    public string ControlToValidate    {       get        {          // Add code to get the ID of the control to validate.       }       set       {          // Add code to set the ID of the control to validate.       }    }   ```</ph></source>
+          <target state="translated">只需将属性添加到表示要验证，请按如下所述的控件的字符串属性︰<ph id="ph1">```vb#   &lt;TypeConverter(GetType(ValidatedControlConverter))&gt; _    Public Property ControlToValidate() As String       Get              // Add code to get the ID of the control to validate.       End Get       Set          // Add code to set the ID of the control to validate.       End Set    End Property   ```</ph>      <ph id="ph2">```c#   [TypeConverter(typeof(ValidatedControlConverter))]    public string ControlToValidate    {       get        {          // Add code to get the ID of the control to validate.       }       set       {          // Add code to set the ID of the control to validate.       }    }   ```</ph></target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ValidatedControlConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ValidatedControlConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether the specified control should be added to the list of controls that can be validated.</source>
+          <target state="translated">返回一个值，该值指定的控件是否应添加到可以验证的控件的列表。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When the FilterControl method returns <ph id="ph1">`true`</ph>, the &lt;xref:System.Web.UI.WebControls.ValidatedControlConverter&gt; instance will add the ID of the control specified in the control parameter to the &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; returned by the &lt;xref:System.Web.UI.WebControls.ControlIDConverter.GetStandardValues%2A&gt; method.</source>
+          <target state="translated">FilterControl 方法返回时<ph id="ph1">`true`</ph>、&lt;xref:System.Web.UI.WebControls.ValidatedControlConverter&gt;实例将添加到控制参数中指定的控件 ID&lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;返回&lt;xref:System.Web.UI.WebControls.ControlIDConverter.GetStandardValues%2A&gt;方法。&lt;/xref:System.Web.UI.WebControls.ControlIDConverter.GetStandardValues%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; &lt;/xref:System.Web.UI.WebControls.ValidatedControlConverter&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The control to check.</source>
+          <target state="translated">要检查的控件。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control should be added to the list of controls that can be validated; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果该控件应添加到可以进行验证，则控件的列表否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

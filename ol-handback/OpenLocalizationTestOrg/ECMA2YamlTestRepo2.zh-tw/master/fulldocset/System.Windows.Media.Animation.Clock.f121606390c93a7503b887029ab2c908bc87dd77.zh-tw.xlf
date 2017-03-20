@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">846e5427bae7cdf3c94cbaca8454ea6c14faf892</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Animation.Clock.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ca7fbcea7d80745785732afed01d10c9d36cfa84</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a4f8ba5891674fa905720e5f64079e409cab6b6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Maintains run-time timing state for a <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Timeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">會維護執行階段計時狀態<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Timeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Windows.Media.Animation.Timeline&gt;, by itself, doesn't actually do anything other than describe a segment of time.</source>
+          <target state="translated">A &lt;xref:System.Windows.Media.Animation.Timeline&gt;，單獨使用時，實際上並不進行任何項目以外描述一段時間。&lt;/xref:System.Windows.Media.Animation.Timeline&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It's the timeline's Clock object that does the real work: it maintains timing-related run-time state for the timeline.</source>
+          <target state="translated">它是從事實際作業的時間軸的時鐘物件︰ 其維持的時間軸與時間有關執行階段狀態。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In most cases, a clock is created automatically for your timeline.</source>
+          <target state="translated">在大部分情況下，時鐘會自動針對時間表建立。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When you animate by using a &lt;xref:System.Windows.Media.Animation.Storyboard&gt; or the &lt;xref:System.Windows.Media.Animation.Animatable.BeginAnimation%2A&gt; method, clocks are automatically created for your timelines and animations and applied to their targeted properties.</source>
+          <target state="translated">當您使用動畫顯示&lt;xref:System.Windows.Media.Animation.Storyboard&gt;或&lt;xref:System.Windows.Media.Animation.Animatable.BeginAnimation%2A&gt;方法中，時鐘的自動建立時間表的動畫並套用至其目標屬性。&lt;/xref:System.Windows.Media.Animation.Animatable.BeginAnimation%2A&gt; &lt;/xref:System.Windows.Media.Animation.Storyboard&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For examples, see <bpt id="p1">[</bpt>How to: Animate a Property by Using a Storyboard<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>How to: Animate a Property Without Using a Storyboard<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需範例，請參閱<bpt id="p1">[</bpt>How to︰ 建立屬性的動畫所使用的分鏡腳本<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>如何︰ 以動畫顯示屬性而不使用分鏡腳本<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can also create a Clock explicitly by using the &lt;xref:System.Windows.Media.Animation.Timeline.CreateClock%2A&gt; method.</source>
+          <target state="translated">您也可以建立時鐘明確使用&lt;xref:System.Windows.Media.Animation.Timeline.CreateClock%2A&gt;方法。&lt;/xref:System.Windows.Media.Animation.Timeline.CreateClock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In performance-intensive scenarios, such as animating large numbers of similar objects, managing your own Clock use can provide performance benefits.</source>
+          <target state="translated">需要大量效能的情況下，例如動畫執行大量的類似物件，管理您自己的時鐘使用可以提供效能優勢。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Clocks are arranged in trees that match the structure of the &lt;xref:System.Windows.Media.Animation.Timeline&gt; objects tree from which they are created.</source>
+          <target state="translated">在符合的結構的樹狀目錄中排列時鐘&lt;xref:System.Windows.Media.Animation.Timeline&gt;物件樹狀結構會建立從。&lt;/xref:System.Windows.Media.Animation.Timeline&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The root clock of such a timing tree can be interactively manipulated (paused, resumed, stopped, and so on) by retrieving its &lt;xref:System.Windows.Media.Animation.Clock.Controller%2A&gt;.</source>
+          <target state="translated">這類時間樹狀結構的根時鐘可以以互動方式操作 （暫停、 繼續、 已停止，依此類推） 藉由擷取其&lt;xref:System.Windows.Media.Animation.Clock.Controller%2A&gt;.&lt;/xref:System.Windows.Media.Animation.Clock.Controller%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Non-root clocks cannot be directly controlled.</source>
+          <target state="translated">無法直接控制不是根時鐘。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Once created, a clock cannot be modified (but it can be manipulated).</source>
+          <target state="translated">一旦建立，時鐘不能修改 （但可以操作）。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Using a Timeline as a Timer    A timeline's clock will only progress when there's an event handler associated with it or (in the case of an &lt;xref:System.Windows.Media.Animation.AnimationClock&gt; object) it is associated with a property.</source>
+          <target state="translated">使用事件處理常式時，只將進度計時器的時間軸的時鐘時間表與它相關聯或 (如果是&lt;xref:System.Windows.Media.Animation.AnimationClock&gt;物件) 相關聯的屬性。&lt;/xref:System.Windows.Media.Animation.AnimationClock&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For this reason (and others), it's not recommended that you use a &lt;xref:System.Windows.Media.Animation.Timeline&gt; as a timer.</source>
+          <target state="translated">因此 （和其他項目），不建議您改用&lt;xref:System.Windows.Media.Animation.Timeline&gt;做為計時器。&lt;/xref:System.Windows.Media.Animation.Timeline&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, using the specified &lt;xref:System.Windows.Media.Animation.Clock.Timeline*&gt; as a template.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，使用指定&lt;xref:System.Windows.Media.Animation.Clock.Timeline*&gt;做為範本。&lt;/xref:System.Windows.Media.Animation.Clock.Timeline*&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The new <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object has no children.</source>
+          <target state="translated">新<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件有沒有子系。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.Animation.Clock.Timeline<bpt id="p1">*</bpt>&gt; from which this clock should be constructed. Clocks are not created for any child &lt;xref:System.Windows.Media.Animation.Clock.Timeline<ept id="p1">*</ept>&gt; objects, if they exist.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 從應該建構這個時鐘。時鐘不會建立任何子系&lt;&gt; <ept id="p1">*</ept>&gt; 物件，如果有的話。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Occurs when this clock has completely finished playing.</source>
+          <target state="translated">這個時鐘完全完成播放時發生。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If this clock is the root clock of a clock tree, it has completed playing after it reaches the end of its active duration (which includes repeats) and all its children have reached the end of their active durations.</source>
+          <target state="translated">如果這個時鐘時鐘的樹狀結構的根時鐘，它已完成播放之後到達結束其使用中的持續期間 （其中包含重複） 和所有子系已達到其作用中的持續時間的結尾。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If this clock is a child clock, it is considered to have completely finished playing when the root clock of the clock tree to which it belongs reaches the end of its active duration and all its child clocks have finished playing.</source>
+          <target state="translated">如果這個時鐘子時鐘，認定為完全結束播放時所屬到達時鐘樹狀結構的根時鐘結束其使用中的持續時間和其所有子時鐘已完成播放。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Stopping a clock does not trigger its completed event, but advancing it to its fill period does.</source>
+          <target state="translated">停止時鐘不會觸發已完成的事件，但前進到其填滿期間。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be used to start, pause, resume, seek, skip, stop, or remove this <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，可以用來啟動、 暫停、 繼續、 搜尋、 略過、 停止或移除這個<bpt id="p2">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Only root clocks can be interactively controlled.</source>
+          <target state="translated">只有根時鐘可以以互動方式控制。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this is a root clock; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>如果這是根時鐘; 否則<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the rate at which the clock's time is currently progressing, compared to real-world time.</source>
+          <target state="translated">取得的時鐘的目前行進的速率，與實際時間相比較。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The rate at which this clock's time is current progressing, compared to real-world time.</source>
+          <target state="translated">相較於真實世界時間此時鐘的時間是目前的行進速率。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If the clock is stopped, this property returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果已停止時鐘，則這個屬性會傳回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Occurs when the clock's speed is updated.</source>
+          <target state="translated">在更新時鐘的速度時，就會發生。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Pausing, resuming, reversing, accelerating, decelerating, seeking, stopping, or changing a clock's interactive speed using a &lt;xref:System.Windows.Media.Animation.ClockController&gt; triggers this event.</source>
+          <target state="translated">暫停、 繼續、 反轉、 加速、 減速、 搜尋、 停止或變更時鐘的互動速度使用&lt;xref:System.Windows.Media.Animation.ClockController&gt;觸發此事件。&lt;/xref:System.Windows.Media.Animation.ClockController&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Although this event occurs when the &lt;xref:System.Windows.Media.Animation.Clock.CurrentGlobalSpeed%2A&gt; property becomes invalid, that doesn't necessarily mean the property changed.</source>
+          <target state="translated">雖然此事件發生時&lt;xref:System.Windows.Media.Animation.Clock.CurrentGlobalSpeed%2A&gt;屬性會變成無效，不一定表示屬性已變更。&lt;/xref:System.Windows.Media.Animation.Clock.CurrentGlobalSpeed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the current global time, as established by the <ph id="ph1">[!INCLUDE[TLA2#tla_wpf](~/add/includes/ajax-current-ext-md.md)]</ph> timing system.</source>
+          <target state="translated">取得目前的全域時間，所建立<ph id="ph1">[!INCLUDE[TLA2#tla_wpf](~/add/includes/ajax-current-ext-md.md)]</ph>計時系統。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The current global time for the <ph id="ph1">[!INCLUDE[TLA2#tla_wpf](~/add/includes/ajax-current-ext-md.md)]</ph> timing system.</source>
+          <target state="translated">針對全域目前<ph id="ph1">[!INCLUDE[TLA2#tla_wpf](~/add/includes/ajax-current-ext-md.md)]</ph>計時系統。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Get the current iteration of this clock.</source>
+          <target state="translated">取得這個時鐘目前反覆項目。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A clock's first iteration has a value of 1.</source>
+          <target state="translated">時鐘的第一個反覆項目有值為 1。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If this clock's timeline has an &lt;xref:System.Windows.Media.Animation.Timeline.AutoReverse%2A&gt; setting of <ph id="ph1">`true`</ph>, a full iteration consists of a forward-reverse pair, not just one of these segments.</source>
+          <target state="translated">如果這個時鐘時間表具有&lt;xref:System.Windows.Media.Animation.Timeline.AutoReverse%2A&gt;設定<ph id="ph1">`true`</ph>，完整的反覆項目是由正向反向組所組成，不只是下列其中一種區段。&lt;/xref:System.Windows.Media.Animation.Timeline.AutoReverse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Regardless of its current iteration, seeking a clock returns its current iteration to 1.</source>
+          <target state="translated">其目前的反覆項目，不論搜尋時鐘傳回其目前的反覆項目設為 1。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Restarting a clock also returns its current iteration to 1.</source>
+          <target state="translated">重新啟動時鐘也會傳回其目前的反覆項目設為 1。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This clock's current iteration within its current active period, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this clock is stopped.</source>
+          <target state="translated">這個時鐘在其目前作用中期間內的 目前反覆項目或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果時鐘已停止。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets the current progress of this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> within its current iteration.</source>
+          <target state="translated">取得目前的進度<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>其目前的反覆項目中。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value of this property indicates the &lt;xref:System.Windows.Media.Animation.Clock.CurrentTime%2A&gt; normalized by the &lt;xref:System.Windows.Media.Animation.Timeline.Duration%2A&gt; of this clock's &lt;xref:System.Windows.Media.Animation.Clock.Timeline%2A&gt;.</source>
+          <target state="translated">這個屬性的值會指出&lt;xref:System.Windows.Media.Animation.Clock.CurrentTime%2A&gt;由&lt;xref:System.Windows.Media.Animation.Timeline.Duration%2A&gt;這個時鐘&lt;xref:System.Windows.Media.Animation.Clock.Timeline%2A&gt;.&lt;/xref:System.Windows.Media.Animation.Clock.Timeline%2A&gt;的&lt;/xref:System.Windows.Media.Animation.Timeline.Duration%2A&gt;正規化&lt;/xref:System.Windows.Media.Animation.Clock.CurrentTime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A clock that is &lt;xref:System.Windows.Media.Animation.ClockState&gt; has a CurrentProgress of 1.0.</source>
+          <target state="translated">是時鐘&lt;xref:System.Windows.Media.Animation.ClockState&gt;具有 1.0 的 CurrentProgress。&lt;/xref:System.Windows.Media.Animation.ClockState&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Using a Timeline as a Timer    A timeline's clock will only progress when there's an event hander associated with it or (in the case of an &lt;xref:System.Windows.Media.Animation.AnimationClock&gt; object) it is associated with a property.</source>
+          <target state="translated">使用事件處理常式時，只將進度計時器的時間軸的時鐘時間表與它相關聯或 (如果是&lt;xref:System.Windows.Media.Animation.AnimationClock&gt;物件) 相關聯的屬性。&lt;/xref:System.Windows.Media.Animation.AnimationClock&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For this reason (and others), it's not recommended that you use a &lt;xref:System.Windows.Media.Animation.Timeline&gt; as a timer.</source>
+          <target state="translated">因此 （和其他項目），不建議您改用&lt;xref:System.Windows.Media.Animation.Timeline&gt;做為計時器。&lt;/xref:System.Windows.Media.Animation.Timeline&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this clock is <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or 0.0 if this clock is active and its &lt;xref:System.Windows.Media.Animation.Clock.Timeline<bpt id="p3">*</bpt>&gt; has a &lt;xref:System.Windows.Media.Animation.Timeline.Duration<ept id="p3">*</ept>&gt; of &lt;xref:System.Windows.Duration.Forever*&gt;; otherwise, a value between 0.0 and 1.0 that indicates the current progress of this Clock within its current iteration.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>這個時鐘<bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，0.0 這個時鐘是否在作用中或及其&lt;&gt; <bpt id="p3">*</bpt>&gt; 有&lt;&gt; <ept id="p3">*</ept>&gt; 的&lt;xref:System.Windows.Duration.Forever*&gt;; 否則介於 0.0 到 1.0，指出其目前的反覆項目中的這個時鐘的目前進度。&lt;/xref:System.Windows.Duration.Forever*&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A value of 0.0 indicates no progress, and a value of 1.0 indicates that the clock is at the end of its current iteration.</source>
+          <target state="translated">0.0 的值表示沒有進度，而值為 1.0 表示時鐘已在其目前的反覆項目結尾處。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the clock is currently <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or <bpt id="p3">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得值，指出時鐘目前<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>， <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，或<bpt id="p3">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Note the clock's CurrentState property doesn't tell you whether it's paused.</source>
+          <target state="translated">請注意，時鐘的 CurrentState 屬性未告訴您是否已暫停。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To determine whether a clock is paused, use the &lt;xref:System.Windows.Media.Animation.Clock.IsPaused%2A&gt; property.</source>
+          <target state="translated">若要判斷是否要暫停時鐘，請使用&lt;xref:System.Windows.Media.Animation.Clock.IsPaused%2A&gt;屬性。&lt;/xref:System.Windows.Media.Animation.Clock.IsPaused%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.Animation.Clock.CurrentStateInvalidated&gt; occurs whenever the value of this property changes.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Animation.Clock.CurrentStateInvalidated&gt;當這個屬性的值變更時發生。&lt;/xref:System.Windows.Media.Animation.Clock.CurrentStateInvalidated&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The current state of the clock: <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or <bpt id="p3">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">時鐘的目前狀態︰ <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>， <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，或<bpt id="p3">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Occurs when the clock's &lt;xref:System.Windows.Media.Animation.Clock.CurrentState*&gt; property is updated.</source>
+          <target state="translated">發生時的時鐘&lt;xref:System.Windows.Media.Animation.Clock.CurrentState*&gt;更新屬性。&lt;/xref:System.Windows.Media.Animation.Clock.CurrentState*&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Media.Animation.Timeline.CurrentStateInvalidated&gt; event when you want to be notified if when the clock starts, stops, or fills.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Media.Animation.Timeline.CurrentStateInvalidated&gt;事件，當您想要收到通知，如果時鐘啟動時，就會停止，或填滿。&lt;/xref:System.Windows.Media.Animation.Timeline.CurrentStateInvalidated&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; parameter of the &lt;xref:System.EventHandler&gt; event handler is the &lt;xref:System.Windows.Media.Animation.Clock&gt; whose state was invalidated.</source>
+          <target state="translated">&lt;xref:System.Object&gt;參數&lt;xref:System.EventHandler&gt;事件處理常式是&lt;xref:System.Windows.Media.Animation.Clock&gt;其狀態已失效。&lt;/xref:System.Windows.Media.Animation.Clock&gt; &lt;/xref:System.EventHandler&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Pausing a &lt;xref:System.Windows.Media.Animation.Clock&gt; does not change its &lt;xref:System.Windows.Media.Animation.Clock.CurrentState%2A&gt;.</source>
+          <target state="translated">暫停&lt;xref:System.Windows.Media.Animation.Clock&gt;不會變更其&lt;xref:System.Windows.Media.Animation.Clock.CurrentState%2A&gt;.&lt;/xref:System.Windows.Media.Animation.Clock.CurrentState%2A&gt; &lt;/xref:System.Windows.Media.Animation.Clock&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To be notified when a clock becomes paused, use the &lt;xref:System.Windows.Media.Animation.Timeline.CurrentGlobalSpeedInvalidated&gt; event.</source>
+          <target state="translated">若要收到通知的時鐘會變成暫停時，要使用&lt;xref:System.Windows.Media.Animation.Timeline.CurrentGlobalSpeedInvalidated&gt;事件。&lt;/xref:System.Windows.Media.Animation.Timeline.CurrentGlobalSpeedInvalidated&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Although this event occurs when the &lt;xref:System.Windows.Media.Animation.ClockState&gt; becomes invalid, that doesn't necessarily mean the &lt;xref:System.Windows.Media.Animation.ClockState&gt; changed: a &lt;xref:System.Windows.Media.Animation.Clock&gt; that switches from &lt;xref:System.Windows.Media.Animation.ClockState&gt; to &lt;xref:System.Windows.Media.Animation.ClockState&gt; and then back to &lt;xref:System.Windows.Media.Animation.ClockState&gt; in the same tick will cause this event to fire, but its &lt;xref:System.Windows.Media.Animation.Clock.CurrentState%2A&gt; property won't actually change.</source>
+          <target state="translated">雖然就會發生此事件時&lt;xref:System.Windows.Media.Animation.ClockState&gt;會變成無效，不一定表示&lt;xref:System.Windows.Media.Animation.ClockState&gt;變更︰&lt;xref:System.Windows.Media.Animation.Clock&gt;切換從&lt;xref:System.Windows.Media.Animation.ClockState&gt;至&lt;xref:System.Windows.Media.Animation.ClockState&gt;然後再設回&lt;xref:System.Windows.Media.Animation.ClockState&gt;在相同刻度將會導致引發此事件，但其&lt;xref:System.Windows.Media.Animation.Clock.CurrentState%2A&gt;屬性實際上不會變更。&lt;/xref:System.Windows.Media.Animation.Clock.CurrentState%2A&gt; &lt;/xref:System.Windows.Media.Animation.ClockState&gt; &lt;/xref:System.Windows.Media.Animation.ClockState&gt; &lt;/xref:System.Windows.Media.Animation.ClockState&gt; &lt;/xref:System.Windows.Media.Animation.Clock&gt; &lt;/xref:System.Windows.Media.Animation.ClockState&gt; &lt;/xref:System.Windows.Media.Animation.ClockState&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets this clock's current time within its current iteration.</source>
+          <target state="translated">取得這個時鐘的目前時間其目前的反覆項目中。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Using a Timeline as a Timer    A timeline's clock will only progress when there's an event hander associated with it or (in the case of an &lt;xref:System.Windows.Media.Animation.AnimationClock&gt; object) it is associated with a property.</source>
+          <target state="translated">使用事件處理常式時，只將進度計時器的時間軸的時鐘時間表與它相關聯或 (如果是&lt;xref:System.Windows.Media.Animation.AnimationClock&gt;物件) 相關聯的屬性。&lt;/xref:System.Windows.Media.Animation.AnimationClock&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For this reason (and others), it's not recommended that you use a &lt;xref:System.Windows.Media.Animation.Timeline&gt; as a timer.</source>
+          <target state="translated">因此 （和其他項目），不建議您改用&lt;xref:System.Windows.Media.Animation.Timeline&gt;做為計時器。&lt;/xref:System.Windows.Media.Animation.Timeline&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this clock is <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, the current time of this clock.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果這個時鐘<bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，否則這個時鐘的目前時間。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Occurs when this clock's &lt;xref:System.Windows.Media.Animation.Clock.CurrentTime*&gt; becomes invalid.</source>
+          <target state="translated">發生時這個時鐘&lt;xref:System.Windows.Media.Animation.Clock.CurrentTime*&gt;就會變成無效。&lt;/xref:System.Windows.Media.Animation.Clock.CurrentTime*&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, will be invoked whenever a clock repeats, skips, or seeks.</source>
+          <target state="translated">在衍生類別中實作，會叫用每當時鐘會重複，會略過，或搜尋。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Returns whether the <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has its own external time source, which may require synchronization with the timing system.</source>
+          <target state="translated">傳回是否<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>有它自己的外部時間來源，這可能需要與計時系統同步處理。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Media being played using &lt;xref:System.Windows.Media.MediaTimeline&gt; within a &lt;xref:System.Windows.Media.Animation.Storyboard&gt; is an example of creating a &lt;xref:System.Windows.Media.Animation.Clock&gt; that would have an external time source (a video clip for example) which may require synchronization with other timelines within the &lt;xref:System.Windows.Media.Animation.Storyboard&gt;.</source>
+          <target state="translated">媒體正在播放&lt;xref:System.Windows.Media.MediaTimeline&gt;的&lt;xref:System.Windows.Media.Animation.Storyboard&gt;是，建立&lt;xref:System.Windows.Media.Animation.Clock&gt;會具有外部時間來源 （例如視訊剪輯），您可能需要與其他時間軸內&lt;xref:System.Windows.Media.Animation.Storyboard&gt;.&lt;/xref:System.Windows.Media.Animation.Storyboard&gt;的同步處理&lt;/xref:System.Windows.Media.Animation.Clock&gt;的範例&lt;/xref:System.Windows.Media.Animation.Storyboard&gt;中&lt;/xref:System.Windows.Media.MediaTimeline&gt;，使用</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Windows.Media.Animation.ParallelTimeline.SlipBehavior%2A&gt; for more information.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.Animation.ParallelTimeline.SlipBehavior%2A&gt;如需詳細資訊。&lt;/xref:System.Windows.Media.Animation.ParallelTimeline.SlipBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">**</bpt>true<ept id="p1">**</ept> if the <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has its own external source for time, which may require synchronization with the timing system; otherwise, <bpt id="p3">**</bpt>false<ept id="p3">**</ept>.</source>
+          <target state="translated">傳回<bpt id="p1">**</bpt>true<ept id="p1">**</ept>如果<bpt id="p2">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>有它自己的外部來源時間，這可能需要同步處理與計時系統; 否則<bpt id="p3">**</bpt>false<ept id="p3">**</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets this clock's current time within its current iteration.</source>
+          <target state="translated">取得這個時鐘的目前時間其目前的反覆項目中。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This method is used in the implementation of the &lt;xref:System.Windows.Media.Animation.Clock.CurrentTime%2A&gt; method and should not be called directly from your code.</source>
+          <target state="translated">這個方法用在實作&lt;xref:System.Windows.Media.Animation.Clock.CurrentTime%2A&gt;方法，且不應該直接從程式碼呼叫。&lt;/xref:System.Windows.Media.Animation.Clock.CurrentTime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The current time of this clock if it is active or filling; otherwise, &lt;xref:System.TimeSpan&gt;.</source>
+          <target state="translated">如果作用中或填滿; 這個時鐘目前時間否則， &lt;xref:System.TimeSpan&gt;.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is part of a controllable clock tree.</source>
+          <target state="translated">取得值，指出是否此<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>可控制時鐘的樹狀結構的一部分。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this clock belongs to a clock tree with a controllable root clock or if this clock is itself a controllable root; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果這個時鐘屬於與可控制根時鐘時鐘的樹狀結構，或這個時鐘本身是可控制的根目錄;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or any of its parents, is paused.</source>
+          <target state="translated">取得值，指出是否此<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，或其父代的任何已暫停。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or any of its parents is paused; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果這個<bpt id="p2">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>或任何其父系已暫停; 否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets the natural duration of this clock's &lt;xref:System.Windows.Media.Animation.Clock.Timeline*&gt;.</source>
+          <target state="translated">取得這個時鐘&lt;xref:System.Windows.Media.Animation.Clock.Timeline*&gt;.&lt;/xref:System.Windows.Media.Animation.Clock.Timeline*&gt;的自然持續期間</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For more information about natural duration, see the &lt;xref:System.Windows.Media.Animation.Timeline.GetNaturalDuration%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">如需自然持續期間的詳細資訊，請參閱&lt;xref:System.Windows.Media.Animation.Timeline.GetNaturalDuration%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Windows.Media.Animation.Timeline.GetNaturalDuration%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The natural duration of this clock, as determined by its &lt;xref:System.Windows.Media.Animation.Clock.Timeline*&gt;.</source>
+          <target state="translated">這個時鐘，取決於其&lt;xref:System.Windows.Media.Animation.Clock.Timeline*&gt;.&lt;/xref:System.Windows.Media.Animation.Clock.Timeline*&gt;自然持續期間</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the clock that is the parent of this clock.</source>
+          <target state="translated">取得這個時鐘的父系的時鐘。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The parent of this clock or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this clock is a root.</source>
+          <target state="translated">這個時鐘的父代或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果時鐘為根目錄。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Media.Animation.ClockController.Remove*&gt; method is called on this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or one of its parent clocks.</source>
+          <target state="translated">發生時&lt;xref:System.Windows.Media.Animation.ClockController.Remove*&gt;上呼叫方法<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或其父時鐘的其中一個。&lt;/xref:System.Windows.Media.Animation.ClockController.Remove*&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, will be invoked whenever a clock begins, skips, pauses, resumes, or when the clock's &lt;xref:System.Windows.Media.Animation.ClockController.SpeedRatio*&gt; is modified.</source>
+          <target state="translated">衍生類別中實作時，會叫用每當時鐘開始、 略過、 暫停、 恢復時，或當時鐘的&lt;xref:System.Windows.Media.Animation.ClockController.SpeedRatio*&gt;修改。&lt;/xref:System.Windows.Media.Animation.ClockController.SpeedRatio*&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, will be invoked whenever a clock is stopped using the &lt;xref:System.Windows.Media.Animation.ClockController.Stop*&gt; method.</source>
+          <target state="translated">在衍生類別中實作時，就會叫用每當使用已停止時鐘&lt;xref:System.Windows.Media.Animation.ClockController.Stop*&gt;方法。&lt;/xref:System.Windows.Media.Animation.ClockController.Stop*&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets the Timeline from which this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> was created.</source>
+          <target state="translated">取得從這個時間軸<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>所建立。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Modifying a clock's &lt;xref:System.Windows.Media.MediaTimeline&gt; does not update the clock; a new clock must be created from the modified &lt;xref:System.Windows.Media.Animation.Timeline&gt;.</source>
+          <target state="translated">修改時鐘的&lt;xref:System.Windows.Media.MediaTimeline&gt;不會更新時鐘; 的新時鐘必須建立從修改過的&lt;xref:System.Windows.Media.Animation.Timeline&gt;.&lt;/xref:System.Windows.Media.Animation.Timeline&gt; &lt;/xref:System.Windows.Media.MediaTimeline&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The Timeline from which this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> was created.</source>
+          <target state="translated">從這個時間軸<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>所建立。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

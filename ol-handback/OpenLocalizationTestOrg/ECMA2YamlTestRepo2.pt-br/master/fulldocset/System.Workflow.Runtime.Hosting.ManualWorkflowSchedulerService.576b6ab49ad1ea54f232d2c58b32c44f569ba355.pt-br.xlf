@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a55a76d650355dcb4510e1490e9765c319755c0c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">888edf019cbde9c805426a2a5ce35e56dee54273</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2036982566e2d0c66fb74d79153f84533f88a517</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a threading service that allows the host application creating a workflow instance to donate the <bpt id="p1">&lt;xref href="System.Threading.Thread"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on which the workflow instance is run.</source>
+          <target state="translated">Fornece um serviço de threading que permite que o aplicativo host criando uma instância de fluxo de trabalho Doe o <bpt id="p1">&lt;xref href="System.Threading.Thread"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> no qual a instância de fluxo de trabalho é executada.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using this threading service, host applications can run a workflow instance on a single <bpt id="p1">&lt;xref href="System.Threading.Thread"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in synchronous mode (although if the workflow contains a delay activity, the work is postponed until after the delay activity is executed on a separate thread spawned by <bpt id="p2">[</bpt>System.Threading.Timer<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>).This mode blocks the execution of the host application until the workflow instance becomes idle.</source>
+          <target state="translated">Usando esse serviço de threading, hospedar aplicativos podem executar uma instância de fluxo de trabalho em um único <bpt id="p1">&lt;xref href="System.Threading.Thread"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> no modo síncrono (embora se o fluxo de trabalho contém uma atividade de atraso, o trabalho é adiado até depois que a atividade de atraso é executada em um thread separado gerado pelo <bpt id="p2">[</bpt>System.Threading.Timer<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>). Esse modo bloqueia a execução do aplicativo host até que a instância de fluxo de trabalho ficar ociosa.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Subsequently, the workflow instance can only be executed using the &lt;xref:System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.RunWorkflow*&gt; method of this service.</source>
+          <target state="translated">Em seguida, a instância de fluxo de trabalho só pode ser executada usando o &lt;xref:System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.RunWorkflow*&gt;método deste serviço.&lt;/xref:System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.RunWorkflow*&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       ManualWorkflowSchedulerService does not automatically run a workflow instance that is in the queue.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>ManualWorkflowSchedulerService não executa automaticamente uma instância de fluxo de trabalho que está na fila.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host must call &lt;xref:System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.RunWorkflow%2A&gt; to run a specified workflow.</source>
+          <target state="translated">O host deve chamar &lt;xref:System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.RunWorkflow%2A&gt;para executar um fluxo de trabalho especificado.&lt;/xref:System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService.RunWorkflow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that determines how delay activities are handled.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>que determina como são tratadas os atividades de atraso.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the scheduler service automatically resumes workflows after delay activities expire (by using an in-memory timer).</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, o serviço do Agendador retoma automaticamente fluxos de trabalho depois que as atividades de atraso expirarem (por meio de um timer na memória).</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the host must manually resume the workflow after the delay activities expire.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, o host deve retomar manualmente o fluxo de trabalho depois que as atividades de atraso expirarem.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains parameters for <ph id="ph1">`useActiveTimers`</ph>.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém parâmetros para <ph id="ph1">`useActiveTimers`</ph>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the scheduler service automatically resumes workflows after delay activities expire (by using an in-memory timer).</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, o serviço do Agendador retoma automaticamente fluxos de trabalho depois que as atividades de atraso expirarem (por meio de um timer na memória).</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the host must manually resume the workflow after the delay activities expire.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, o host deve retomar manualmente o fluxo de trabalho depois que as atividades de atraso expirarem.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Cancels the specified existing workflow instance work item.</source>
+          <target state="translated">Cancela o item especificado de trabalho de instância de fluxo de trabalho existente.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; associated with the existing scheduled work item to cancel.</source>
+          <target state="translated">O &lt;xref:System.Guid&gt;associado ao item de trabalho agendado existente para cancelar.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Overloaded from <ph id="ph1">&amp;lt;</ph>xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Sobrecarga de <ph id="ph1">&amp;lt;</ph>xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This method is called whenever <ph id="ph1">&amp;lt;</ph>xref:System.Workflow.Runtime.WorkflowRuntime.StartRuntime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> is called and is used by the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to do work that is needed when the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> starts.</source>
+          <target state="translated">Este método é chamado sempre que <ph id="ph1">&amp;lt;</ph>xref:System.Workflow.Runtime.WorkflowRuntime.StartRuntime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> é chamado e é usado pelo <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o trabalho necessário quando o <bpt id="p2">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> inicia.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Runs the specified workflow instance.</source>
+          <target state="translated">Executa a instância de fluxo de trabalho especificado.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a synchronous call that uses the current thread to run the workflow.</source>
+          <target state="translated">Isso é uma chamada síncrona que usa o thread atual para executar o fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It does not return until the workflow idles, suspends, completes, terminates, or aborts.</source>
+          <target state="translated">Ele não retorna até que o fluxo de trabalho ocioso, suspende, concluído, termina ou anulada.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; for the workflow instance to run.</source>
+          <target state="translated">O &lt;xref:System.Guid&gt;para a instância de fluxo de trabalho seja executada.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the workflow starts running; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o fluxo de trabalho começa a ser executado; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;workflowInstanceId&lt;/code&gt;</ph> is an empty GUID.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;workflowInstanceId&lt;/code&gt;</ph>é um GUID vazio.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Adds a workflow instance to the pending work items queue using the specified workflow instance using the specified multicast delegate.</source>
+          <target state="translated">Adiciona uma instância de fluxo de trabalho para a fila de itens de trabalho pendentes usando a instância de fluxo de trabalho especificado usando o delegado multicast especificado.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> multicast delegate that represents the method to run.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> delegado multicast que representa o método a ser executado.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that represents the workflow instance.</source>
+          <target state="translated">Um &lt;xref:System.Guid&gt;que representa a instância de fluxo de trabalho.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;callback&lt;/code&gt;</ph> contains a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;callback&lt;/code&gt;</ph>contém uma referência nula (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> no Visual Basic).</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Adds the specified workflow instance to the pending work item queue using the specified multicast delegate, &lt;xref:System.DateTime&gt; and GUIDs.</source>
+          <target state="translated">Adiciona a instância de fluxo de trabalho especificado para a fila de itens de trabalho pendente usando o delegado multicast especificado, &lt;xref:System.DateTime&gt;e GUIDs.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> multicast delegate that represents the method to run.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> delegado multicast que representa o método a ser executado.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that represents the workflow instance.</source>
+          <target state="translated">Um &lt;xref:System.Guid&gt;que representa a instância de fluxo de trabalho.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DateTime&gt; that indicates the time to begin running the thread.</source>
+          <target state="translated">O &lt;xref:System.DateTime&gt;que indica a hora para começar a executar o thread.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that represents the scheduled thread.</source>
+          <target state="translated">Um &lt;xref:System.Guid&gt;que representa o thread agendado.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;callback&lt;/code&gt;</ph> contains a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;callback&lt;/code&gt;</ph>contém uma referência nula (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> no Visual Basic).</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;workflowInstanceId&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;timerId&lt;/code&gt;</ph> is an empty GUID.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;workflowInstanceId&lt;/code&gt;</ph>ou <ph id="ph2">&lt;code&gt;timerId&lt;/code&gt;</ph> é um GUID vazio.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Overloaded from <ph id="ph1">&amp;lt;</ph>xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Sobrecarga de <ph id="ph1">&amp;lt;</ph>xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> uses this method to do work that is needed when the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> stops.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.ManualWorkflowSchedulerService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> usa esse método para o trabalho necessário quando o <bpt id="p2">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

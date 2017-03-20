@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">289420c86350d885223f929885abb32f598dede0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Serialization.ISafeSerializationData.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4336eb7f06b1a20f7518d6f5918b94578189baf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5cbcd33a228624c37ec5b68d59abdf169078389b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables serialization of custom exception data in security-transparent code.</source>
+          <target state="translated">Lehetővé teszi, hogy a biztonsági szempontból átlátszó kód egyéni kivételek adatainak szerializálásához.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In versions previous to.NET Framework 4.0, serialization of custom user data in a security transparent code was accomplished using the &lt;xref:System.Exception.GetObjectData%2A&gt; method.</source>
+          <target state="translated">A verzió előző to.NET keretrendszer 4.0-s, egy biztonsági szempontból átlátszó kód egyéni felhasználói adatok szerializálása lett segítségével érhető el a &lt;xref:System.Exception.GetObjectData%2A&gt;metódus.&lt;/xref:System.Exception.GetObjectData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting with .NET Framework 4.0, that method is marked with the &lt;xref:System.Security.SecurityCriticalAttribute&gt; attribute which prevents execution in security-transparent code.</source>
+          <target state="translated">A .NET Framework 4.0 verziótól kezdődően ez a módszer meg van jelölve a &lt;xref:System.Security.SecurityCriticalAttribute&gt;attribútumot, amely megakadályozza, hogy a biztonsági szempontból átlátszó kód végrehajtása.&lt;/xref:System.Security.SecurityCriticalAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To work around this condition, implement the ISafeSerializationData interface and add custom data as shown in the example below.</source>
+          <target state="translated">A probléma megkerüléséhez az ISafeSerializationData illesztőfelülettel, és egyéni adatok hozzáadása az alábbi példában látható módon.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Serialization.ISafeSerializationData.CompleteDeserialization%2A&gt; method is called after serialization, and uses the &lt;xref:System.Runtime.Serialization.SafeSerializationEventArgs&gt; to restore the custom data.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Serialization.ISafeSerializationData.CompleteDeserialization%2A&gt;metódus után szerializálási nevezik, és használja a &lt;xref:System.Runtime.Serialization.SafeSerializationEventArgs&gt;az egyéni adatok helyreállítását.&lt;/xref:System.Runtime.Serialization.SafeSerializationEventArgs&gt; &lt;/xref:System.Runtime.Serialization.ISafeSerializationData.CompleteDeserialization%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This method is called when the instance is deserialized.</source>
+          <target state="translated">Ezt a módszert nevezik, ha a példány deszerializálva..</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The state object is stored in a private variable defined in the implementation of the &lt;xref:System.Runtime.Serialization.ISafeSerializationData&gt; class.</source>
+          <target state="translated">Az állapotobjektum &lt;xref:System.Runtime.Serialization.ISafeSerializationData&gt;osztály&lt;/xref:System.Runtime.Serialization.ISafeSerializationData&gt; végrehajtásának definiált a titkos változó van tárolva.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An object that contains the state of the instance.</source>
+          <target state="translated">Egy objektum, amely a példány állapotát tartalmazza.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

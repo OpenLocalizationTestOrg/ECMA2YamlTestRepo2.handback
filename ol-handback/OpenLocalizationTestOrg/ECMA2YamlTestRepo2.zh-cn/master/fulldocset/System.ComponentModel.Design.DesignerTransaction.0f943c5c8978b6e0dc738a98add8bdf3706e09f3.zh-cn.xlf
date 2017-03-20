@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">08a0c21b43d81b7ec0fa14c20c194ee5330ec10a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.DesignerTransaction.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">72ce88bc6de1785bb2a64e5a617a24ab8cedbfdf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6048d255421b46381c032019ed37779ba8a27805</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a way to group a series of design-time actions to improve performance and enable most types of changes to be undone.</source>
+          <target state="translated">提供一种方法的一系列设计时操作，从而提高性能并大多数类型的撤消的更改。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Transactions can track actions that can be undone later.</source>
+          <target state="translated">事务可以跟踪更高版本可用于撤消的操作。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Changes made during a transaction can be reversed by canceling a transaction, which automatically attempts to reverse each change by setting each changed property to its pre-change value.</source>
+          <target state="translated">可以通过取消一个事务，这会自动尝试通过将每个已更改的属性设置为其更改前的值反向每次更改颠倒在事务期间所做的更改。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Transactions can also improve performance during a series of operations by deferring updates to the display until the completion of the transaction.</source>
+          <target state="translated">通过在事务完成后才能推迟到显示的更新，事务还可提高一系列操作期间的性能。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When a transaction is in progress, some components defer their processing until the transaction has completed by listening to the &lt;xref:System.ComponentModel.Design.IDesignerHost.TransactionOpening&gt; and &lt;xref:System.ComponentModel.Design.IDesignerHost.TransactionClosed&gt; events.</source>
+          <target state="translated">事务时，将推迟某些组件，其处理，直到事务完成侦听&lt;xref:System.ComponentModel.Design.IDesignerHost.TransactionOpening&gt;和&lt;xref:System.ComponentModel.Design.IDesignerHost.TransactionClosed&gt;事件。&lt;/xref:System.ComponentModel.Design.IDesignerHost.TransactionClosed&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost.TransactionOpening&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Properties window, for example, does not update its display after a transaction has opened until the transaction has closed.</source>
+          <target state="translated">属性窗口中，例如，不会更新其显示后前该事务已关闭，事务已打开。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To use transactions for reversible or multiple operations, have your designer create a DesignerTransaction for each operation or series of operations which should be reversible.</source>
+          <target state="translated">若要使用事务进行可逆或多个操作，具有设计器中，创建为每个操作或系列操作应当可以撤消 DesignerTransaction。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Be careful not to perform actions outside the transactions that might prevent a sequence of undo events from completing successfully.</source>
+          <target state="translated">请注意不要执行可能会导致无法成功完成一系列撤消事件在事务外的操作。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can obtain a new DesignerTransaction by calling the &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt; method of an &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;.</source>
+          <target state="translated">你可以通过调用&lt;xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt;&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;方法&lt;/xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt;获取新 DesignerTransaction</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Be sure to obtain each DesignerTransaction from the active &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; in order to correctly integrate with the designer transaction processing mechanism, rather than creating a new DesignerTransaction directly.</source>
+          <target state="translated">请务必从活动中获取每个 DesignerTransaction&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;才能正确集成与设计器的事务处理机制，而不是直接创建新 DesignerTransaction。&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To perform an action within a transaction, you must first create a transaction.</source>
+          <target state="translated">若要执行的操作在事务中，必须先创建一个事务。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Then you must call the &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt; method before each change or set of changes occurs, and the &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt; method after each change or set of changes occur.</source>
+          <target state="translated">然后必须调用&lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt;方法之前发生每个更改或变更集的与&lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt;方法在每个更改或变更集的发生。&lt;/xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt; &lt;/xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Finally, complete and close the transaction by calling the &lt;xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt; method.</source>
+          <target state="translated">最后，完成并通过调用关闭事务&lt;xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When making changes to property values, use the &lt;xref:System.ComponentModel.PropertyDescriptor.SetValue%2A&gt; method of a &lt;xref:System.ComponentModel.PropertyDescriptor&gt;, which calls the component change methods of the &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt; and creates a DesignerTransaction representing the change automatically.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 更改属性值时，使用&lt;xref:System.ComponentModel.PropertyDescriptor.SetValue%2A&gt;方法&lt;xref:System.ComponentModel.PropertyDescriptor&gt;，从而调用的组件更改方法&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;并创建自动表示更改 DesignerTransaction。&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt; &lt;/xref:System.ComponentModel.PropertyDescriptor&gt; &lt;/xref:System.ComponentModel.PropertyDescriptor.SetValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To perform a transaction, complete the following steps:      1.</source>
+          <target state="translated">若要执行事务，完成以下步骤︰ 1。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt; to obtain a DesignerTransaction that can be used to control the transaction.</source>
+          <target state="translated">调用&lt;xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt;以获取可用于控制事务 DesignerTransaction。&lt;/xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Within a <ph id="ph1">`try`</ph> block, for each action that you want to track with a DesignerTransaction, call the &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt; method, make the change or changes, then call the &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt; method to signal that the change or changes have been made.</source>
+          <target state="translated">内<ph id="ph1">`try`</ph>块中的，为你想要跟踪具有 DesignerTransaction，调用每个操作&lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt;方法，请更改或更改，然后调用&lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt;方法用信号通知是否已进行的更改。&lt;/xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt; &lt;/xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To complete the transaction, call &lt;xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt; from within a <ph id="ph1">`finally`</ph> block.</source>
+          <target state="translated">若要完成事务，调用&lt;xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt;中<ph id="ph1">`finally`</ph>块。&lt;/xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In C#, you can use the <ph id="ph1">`using`</ph> statement rather than a <ph id="ph2">`try/finally`</ph> block, such as in the following example.</source>
+          <target state="translated">在 C# 中，你可以使用<ph id="ph1">`using`</ph>语句而不是<ph id="ph2">`try/finally`</ph>块，如如以下示例所示。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   using (host.CreateTransaction() {   // Insert your code here.   }   ```</ph>       To cancel and attempt to roll back a transaction before it has been committed, call the &lt;xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt; method.</source>
+          <target state="translated"><ph id="ph1">```   using (host.CreateTransaction() {   // Insert your code here.   }   ```</ph>若要取消，并尝试回滚的事务，提交之前，请调用&lt;xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt; method is invoked, the actions tracked by the DesignerTransaction are reversed to attempt to roll back the changes.</source>
+          <target state="translated">当&lt;xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt;调用方法，反转 DesignerTransaction 跟踪的操作，以尝试回滚所做的更改。&lt;/xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To undo actions that occurred as part of earlier transactions, you must use the undo command provided by the development environment.</source>
+          <target state="translated">若要撤消作为更早版本的事务的一部分发生的操作，必须使用撤消命令提供的开发环境。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with no description.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>且无描述的类。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified transaction description.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用指定的事务的说明。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This constructor initializes the transaction with the specified description.</source>
+          <target state="translated">此构造函数初始化的事务，以及指定的说明。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A description for this transaction.</source>
+          <target state="translated">此事务的说明。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Cancels the transaction and attempts to roll back the changes made by the events of the transaction.</source>
+          <target state="translated">取消事务并尝试回滚由事务的事件所做的更改。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the transaction was canceled.</source>
+          <target state="translated">获取一个值，该值指示是否已取消事务。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When a designer transaction is canceled, the transaction processing mechanism attempts to roll back the changes that have been made so far in the transaction.</source>
+          <target state="translated">当取消了设计器的事务时，事务处理机制会尝试回滚已在事务中到目前为止进行的更改。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Whether this succeeds is dependent upon such factors as the type of each operation, whether other operations interfered with any of the involved code's state, and whether a sequence of expected operations failed to complete.</source>
+          <target state="translated">其他操作妨碍了任何相关的代码的状态，以及是否有一系列预期操作未能完成，则它成功与否依赖于为类型的每个操作中，此类因素。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the transaction was canceled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果已取消事务;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Commits this transaction.</source>
+          <target state="translated">提交此事务。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When a designer transaction is committed, the transaction is considered complete and does not track further changes.</source>
+          <target state="translated">设计器的事务提交后，事务将被视为完成，并且不会跟踪进一步更改。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Once a transaction has been committed, further calls to this method do nothing.</source>
+          <target state="translated">事务提交后，进一步调用此方法不执行任何操作。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Always call this method after creating a transaction to ensure that the transaction closes properly.</source>
+          <target state="translated">始终在创建事务以确保事务正常关闭后调用此方法。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the transaction was committed.</source>
+          <target state="translated">获取一个值，该值指示是否已提交事务。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When a designer transaction is committed, the transaction is considered complete and does not track further changes.</source>
+          <target state="translated">设计器的事务提交后，事务将被视为完成，并且不会跟踪进一步更改。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the transaction was committed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果事务已提交的;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets a description for the transaction.</source>
+          <target state="translated">获取事务的说明。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A transaction can have a description that is useful in identifying the nature of the operation or operations.</source>
+          <target state="translated">事务可以是用于查找或多个操作的性质的说明。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A description for the transaction.</source>
+          <target state="translated">事务的说明。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">释放由非托管的资源<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，还可以释放托管的资源。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">此方法称为由公共<ph id="ph1">`Dispose()`</ph>方法和&lt;xref:System.Object.Finalize%2A&gt;方法。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>调用受保护<ph id="ph2">`Dispose(Boolean)`</ph>方法替换<ph id="ph3">`disposing`</ph>参数设置为<ph id="ph4">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;调用<ph id="ph1">`Dispose`</ph>与<ph id="ph2">`disposing`</ph>设置为<ph id="ph3">`false`</ph>。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.Design.DesignerTransaction&gt; references.</source>
+          <target state="translated">当<ph id="ph1">`disposing`</ph>参数是<ph id="ph2">`true`</ph>，此方法释放由任何托管对象持有的全部资源此&lt;xref:System.ComponentModel.Design.DesignerTransaction&gt;引用。&lt;/xref:System.ComponentModel.Design.DesignerTransaction&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">此方法调用<ph id="ph1">`Dispose()`</ph>每个引用对象的方法。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要释放托管和非托管资源;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>若要仅释放非托管的资源。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Releases the resources associated with this object.</source>
+          <target state="translated">释放与此对象关联的资源。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This override commits this transaction if it was not already committed.</source>
+          <target state="translated">如果尚未提交，则此重写提交此事务。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This method overrides &lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt; and cleans up resources by calling <ph id="ph1">`Dispose(false)`</ph>.</source>
+          <target state="translated">此方法将替代&lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt;并清理资源通过调用<ph id="ph1">`Dispose(false)`</ph>。&lt;/xref:System.Object.Finalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Override <ph id="ph1">`Dispose(Boolean)`</ph> to customize the cleanup.</source>
+          <target state="translated">重写<ph id="ph1">`Dispose(Boolean)`</ph>以自定义清理。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Application code should not call this method; an object's <ph id="ph1">`Finalize`</ph> method is automatically invoked during garbage collection, unless finalization by the garbage collector has been disabled by a call to the &lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">应用程序代码不应调用此方法。对象的<ph id="ph1">`Finalize`</ph>方法过程中将自动调用垃圾回收，除非已通过调用禁用垃圾回收器的终止&lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Finalize Methods and Destructors<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>, <bpt id="p2">[</bpt>Cleaning Up Unmanaged Resources<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, and <bpt id="p3">[</bpt>Overriding the Finalize Method<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>Finalize 方法和析构函数<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>，<bpt id="p2">[</bpt>清洗向上非托管资源<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>，和<bpt id="p3">[</bpt>重写 Finalize 方法<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref uid="langword_csharp_Cancel" name="Cancel" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引发<bpt id="p1">&lt;xref uid="langword_csharp_Cancel" name="Cancel" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When a designer transaction is canceled, the transaction processing mechanism attempts to roll back the changes that have been made so far in the transaction.</source>
+          <target state="translated">当取消了设计器的事务时，事务处理机制会尝试回滚已在事务中到目前为止进行的更改。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Whether this succeeds is dependent upon such factors as the type of each operation, whether other operations interfered with any of the involved code's state, and whether a sequence of expected operations failed to complete.</source>
+          <target state="translated">其他操作妨碍了任何相关的代码的状态，以及是否有一系列预期操作未能完成，则它成功与否依赖于为类型的每个操作中，此类因素。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Performs the actual work of committing a transaction.</source>
+          <target state="translated">执行提交事务的实际工作。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>When a designer transaction is committed, the transaction is considered complete and does not track further changes.</source>
+          <target state="translated">设计器的事务提交后，事务将被视为完成，并且不会跟踪进一步更改。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">释放使用的所有资源<bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When a transaction is disposed, it is committed.</source>
+          <target state="translated">一旦事务将被释放，它会被提交。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

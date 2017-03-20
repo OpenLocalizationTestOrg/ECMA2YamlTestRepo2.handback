@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4c87bbcf4eec762a9d8588fde211871a71b6f93</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xaml.IAmbientProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98d94d2de68d64a7b679b911a99a40e72bbdc359</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c31362ae2aa1d64318d6dbad7b97434f4f1259a4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a service that can return information items about ambient properties or ambient types to type converters and markup extensions.</source>
+          <target state="translated">表示一种服务，可以返回有关环境属性或类型转换器和标记扩展的环境类型的信息项。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This interface represents the service that can help type converters and markup extensions to get the ambient property identifiers for the XAML type system (&lt;xref:System.Xaml.XamlMember&gt; objects).</source>
+          <target state="translated">此接口表示服务类型转换器和标记扩展的环境属性标识符获取 XAML 类型系统可帮助 (&lt;xref:System.Xaml.XamlMember&gt;对象)。&lt;/xref:System.Xaml.XamlMember&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The service can also get the ambient property values from classes.</source>
+          <target state="translated">服务还可以从类获取环境的属性值。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Types can also be ambient; any member that uses that type as its value should be considered ambient.</source>
+          <target state="translated">类型也可以是环境;使用该类型作为其值的任何成员应视为环境。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This service is typically returned through a call to &lt;xref:System.IServiceProvider.GetService%2A&gt;, which is made against a context-specific service provider.</source>
+          <target state="translated">此服务通常通过调用返回&lt;xref:System.IServiceProvider.GetService%2A&gt;，针对特定于上下文的服务提供商。&lt;/xref:System.IServiceProvider.GetService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The service provider is generally available to contexts that need it, such as the execution code of a value converter.</source>
+          <target state="translated">服务提供程序是普遍适用于需要它，如值转换器执行代码的上下文。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Type Converters and Markup Extensions for XAML<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Service Contexts Available to Type Converters and Markup Extensions<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>类型转换器和 XAML 的标记扩展<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>可供类型转换器和标记扩展的上下文服务<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>About Ambient Properties    An ambient property is a property whose property value should be available to type converter and markup extension usages that exist in the XAML node structure and in the object graph created from it.</source>
+          <target state="translated">有关环境属性环境属性是其属性值应为可供类型转换器和存在的标记扩展用法，XAML 节点结构中和从其创建的对象图中的属性。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is relevant for a XAML processor during the object-writing phase of the load path or the serialization phase of a save path.</source>
+          <target state="translated">这是适用于 XAML 处理器在加载路径的对象编写阶段或保存的序列化阶段期间路径。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the load path case, the ambient property value might influence the value in the object graph of other properties that exist underneath it in a XAML node structure.</source>
+          <target state="translated">在加载路径的情况下，环境属性值可能会影响在 XAML 节点结构中其下存在其他属性的对象图中的值。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When processed as a XAML node stream, the ambient concept means the ambient property value must be available to type converters and markup extensions from <ph id="ph1">`StartObject`</ph> to <ph id="ph2">`EndObject`</ph>.</source>
+          <target state="translated">当处理为 XAML 节点流，环境概念意味着环境属性值必须是可供类型转换器和标记扩展<ph id="ph1">`StartObject`</ph>到<ph id="ph2">`EndObject`</ph>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Similarly, a type converter that is used for the save path can use knowledge of the ambient property and its value.</source>
+          <target state="translated">同样，使用的类型转换器于保存路径可以使用环境的属性和其值的知识。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Therefore, the XAML that is produced is a better round-trip representation.</source>
+          <target state="translated">因此，生成的 XAML 是更好的往返过程表示形式。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For members in general, XAML does not specify the order in which members of an object must be processed.</source>
+          <target state="translated">成员一般情况下，XAML 未指定对象的成员必须处理的顺序。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>However, any ambient property value must be processed first by the XAML reader so that the type converter and markup extension usages that are contained in other properties can access it through the IAmbientProvider service.</source>
+          <target state="translated">但是，任何环境属性值都必须处理第一次 XAML 读取器，以便其他属性中包含的类型转换器和标记扩展用法可以通过 IAmbientProvider 服务访问它。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Xaml.XamlMember.DependsOn%2A&gt; is a similar concept that also influences XAML node-processing order.</source>
+          <target state="translated">&lt;xref:System.Xaml.XamlMember.DependsOn%2A&gt;是一个类似的概念，也会影响 XAML 节点处理顺序。&lt;/xref:System.Xaml.XamlMember.DependsOn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>However, &lt;xref:System.Xaml.XamlMember.DependsOn%2A&gt; can only be used for peer member and node relationships; it cannot influence all descendants.</source>
+          <target state="translated">但是，&lt;xref:System.Xaml.XamlMember.DependsOn%2A&gt;仅用于对等成员和节点关系; 它不能影响所有后代。&lt;/xref:System.Xaml.XamlMember.DependsOn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Also, &lt;xref:System.Xaml.XamlMember.DependsOn%2A&gt; directly influences object graph property setting; whereas the ambient technique relies on type converters or markup extensions.</source>
+          <target state="translated">此外，&lt;xref:System.Xaml.XamlMember.DependsOn%2A&gt;直接影响对象关系图属性设置; 而环境技术依赖于类型转换器或标记扩展。&lt;/xref:System.Xaml.XamlMember.DependsOn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the ambient technique, there must also be a specific type converter or markup extension definition that specifies how the ambient property value should be interpreted and applied to the object.</source>
+          <target state="translated">在环境的技术中，还必须特定的类型转换器或标记扩展定义，以指定应如何解释并应用于对象的环境属性值。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>WPF Usage Notes    An ambient property scenario that is illustrated in the <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> feature set is &lt;xref:System.Windows.Style.TargetType%2A?displayProperty=fullName&gt;, which can qualify the necessary property name lookups for other values.</source>
+          <target state="translated">WPF 使用情况说明中所示的环境属性方案<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>功能集&lt;xref:System.Windows.Style.TargetType%2A?displayProperty=fullName&gt;，这可以限定必要的属性名称查找有关其他值。&lt;/xref:System.Windows.Style.TargetType%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In this case, the &lt;xref:System.Windows.Style.TargetType%2A?displayProperty=fullName&gt; value qualifies the &lt;xref:System.Windows.Setter.Property%2A?displayProperty=fullName&gt; values that are located in the XAML nodes underneath it.</source>
+          <target state="translated">在此情况下，&lt;xref:System.Windows.Style.TargetType%2A?displayProperty=fullName&gt;值限定&lt;xref:System.Windows.Setter.Property%2A?displayProperty=fullName&gt;位于它。 下的 XAML 节点中的值&lt;/xref:System.Windows.Setter.Property%2A?displayProperty=fullName&gt;&lt;/xref:System.Windows.Style.TargetType%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Setter.Property%2A?displayProperty=fullName&gt; uses the type converter behavior for a &lt;xref:System.Windows.DependencyProperty&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Setter.Property%2A?displayProperty=fullName&gt;用于一种&lt;xref:System.Windows.DependencyProperty&gt;。&lt;/xref:System.Windows.DependencyProperty&gt;类型转换器行为&lt;/xref:System.Windows.Setter.Property%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This behavior accesses the ambient &lt;xref:System.Windows.Style.TargetType%2A?displayProperty=fullName&gt; value by querying &lt;xref:System.Xaml.IAmbientProvider.GetFirstAmbientValue%2A&gt; from a service context that is available to type converters and markup extensions.</source>
+          <target state="translated">此行为活动访问环境&lt;xref:System.Windows.Style.TargetType%2A?displayProperty=fullName&gt;值通过查询&lt;xref:System.Xaml.IAmbientProvider.GetFirstAmbientValue%2A&gt;程序是可供类型转换器和标记扩展的服务上下文中。&lt;/xref:System.Xaml.IAmbientProvider.GetFirstAmbientValue%2A&gt; &lt;/xref:System.Windows.Style.TargetType%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An ambient type scenario that is illustrated in the WPF feature set is &lt;xref:System.Windows.ResourceDictionary&gt;.</source>
+          <target state="translated">如下所示的 WPF 功能集的环境类型方案为&lt;xref:System.Windows.ResourceDictionary&gt;。&lt;/xref:System.Windows.ResourceDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.ResourceDictionary&gt; has a &lt;xref:System.Windows.ResourceDictionary.MergedDictionaries%2A&gt; property that can contain other &lt;xref:System.Windows.ResourceDictionary&gt; objects to merge, and the intended order of resource resolution for the merged scenario clashes with the order that types are loaded.</source>
+          <target state="translated">&lt;xref:System.Windows.ResourceDictionary&gt;具有&lt;xref:System.Windows.ResourceDictionary.MergedDictionaries%2A&gt;属性，它可以包含其他&lt;xref:System.Windows.ResourceDictionary&gt;对象，若要合并和预期的资源解析顺序合并的方案不冲突的使用类型的加载顺序。&lt;/xref:System.Windows.ResourceDictionary&gt; &lt;/xref:System.Windows.ResourceDictionary.MergedDictionaries%2A&gt;&lt;/xref:System.Windows.ResourceDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.ResourceDictionary&gt; applies &lt;xref:System.Windows.Markup.AmbientAttribute&gt; so that a XAML processor can correctly process the references in a merged dictionary with <ph id="ph1">`StaticResource`</ph> usages.</source>
+          <target state="translated">&lt;xref:System.Windows.ResourceDictionary&gt;适用&lt;xref:System.Windows.Markup.AmbientAttribute&gt;以便 XAML 处理器可以正确处理的合并字典中的引用<ph id="ph1">`StaticResource`</ph>用法。&lt;/xref:System.Windows.Markup.AmbientAttribute&gt;&lt;/xref:System.Windows.ResourceDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Specifically, <ph id="ph1">`StaticResource`</ph> is a markup extension, which calls &lt;xref:System.Xaml.IAmbientProvider.GetAllAmbientValues%2A&gt;.</source>
+          <target state="translated">具体而言，<ph id="ph1">`StaticResource`</ph>是标记扩展，调用&lt;xref:System.Xaml.IAmbientProvider.GetAllAmbientValues%2A&gt;.&lt;/xref:System.Xaml.IAmbientProvider.GetAllAmbientValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns an enumerable set of object instances of possible ambient types for the requested types.</source>
+          <target state="translated">返回可能的环境类型，针对请求的类型的对象实例的可枚举集合。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The set of types from which to retrieve ambient type information.</source>
+          <target state="translated">要从中检索环境类型信息的类型集。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An enumerable set of objects that represent the values for the requested set of <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifiers.</source>
+          <target state="translated">表示请求集的值的对象的可枚举集<bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>标识符。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Returns an enumerable set of ambient property information items for the requested set of properties.</source>
+          <target state="translated">返回请求的属性集的环境属性信息项的可枚举集合。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Each &lt;xref:System.Xaml.AmbientPropertyValue&gt; that is returned contains the &lt;xref:System.Xaml.XamlMember&gt; identifier and a property value.</source>
+          <target state="translated">每个&lt;xref:System.Xaml.AmbientPropertyValue&gt;返回包含&lt;xref:System.Xaml.XamlMember&gt;标识符和属性值。&lt;/xref:System.Xaml.XamlMember&gt; &lt;/xref:System.Xaml.AmbientPropertyValue&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specifies one or more types that should stop the evaluation when they are encountered traversing upward in the object graph.</source>
+          <target state="translated">指定应停止计算为遇到向上遍历对象图中的一个或多个类型。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This type holds the desired ambient property.</source>
+          <target state="translated">此类型包含所需的环境属性。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>May be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">May be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Specifies one or more property identifier objects that identify the properties to be considered ambient.</source>
+          <target state="translated">指定一个或多个标识的属性视为环境的属性标识符对象。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An enumerable set of ambient property information items for the requested set of properties.</source>
+          <target state="translated">请求的属性集的环境属性信息项的可枚举集合。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The property information for each <bpt id="p1">&lt;xref href="System.Xaml.AmbientPropertyValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is returned will match one of the input <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">properties</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">每个属性信息<bpt id="p1">&lt;xref href="System.Xaml.AmbientPropertyValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>返回将与一种输入<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">properties</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Returns an enumerable set of ambient property information items for the requested set of types and properties.</source>
+          <target state="translated">返回的类型和属性所请求集的环境属性信息项的可枚举集合。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies one or more types that should stop the evaluation when they are encountered traversing upward in the object graph.</source>
+          <target state="translated">指定应停止计算为遇到向上遍历对象图中的一个或多个类型。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This type holds the desired ambient property.</source>
+          <target state="translated">此类型包含所需的环境属性。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>May be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">May be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to not use a saved context; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to use a saved context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要在不使用已保存的上下文;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>使用已保存的上下文。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>See Remarks.</source>
+          <target state="translated">请参阅备注。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specifies one or more property identifier objects that identify the properties to be considered ambient.</source>
+          <target state="translated">指定一个或多个标识的属性视为环境的属性标识符对象。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>An enumerable set of ambient property information items for the requested set of types and properties.</source>
+          <target state="translated">针对所请求的类型和属性的环境属性信息项的可枚举集合。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The property information for each <bpt id="p1">&lt;xref href="System.Xaml.AmbientPropertyValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is returned will match one of the input <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">types</ph><ept id="p2">&lt;/code&gt;</ept> or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">properties</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated">每个属性信息<bpt id="p1">&lt;xref href="System.Xaml.AmbientPropertyValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>返回将与一种输入<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">types</ph> <ept id="p2">&lt;/code&gt;</ept>或<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">properties</ph> <ept id="p3">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Returns the first matching object that is a possible ambient type for the requested types.</source>
+          <target state="translated">返回是请求的类型的可能环境类型的第一个匹配对象。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The set of types from which to retrieve ambient type information.</source>
+          <target state="translated">要从中检索环境类型信息的类型集。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The first result object for the requested set.</source>
+          <target state="translated">所请求集的的第一个结果对象。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Returns a single ambient property information item from the requested set of properties, based on which property is first encountered.</source>
+          <target state="translated">从请求的属性，基于第一次遇到哪个属性集返回单个环境的属性信息项。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Each &lt;xref:System.Xaml.AmbientPropertyValue&gt; that is returned contains the &lt;xref:System.Xaml.XamlMember&gt; identifier and a property value.</source>
+          <target state="translated">每个&lt;xref:System.Xaml.AmbientPropertyValue&gt;返回包含&lt;xref:System.Xaml.XamlMember&gt;标识符和属性值。&lt;/xref:System.Xaml.XamlMember&gt; &lt;/xref:System.Xaml.AmbientPropertyValue&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Specifies one or more types that should stop the evaluation when they are encountered traversing upward in the object graph.</source>
+          <target state="translated">指定应停止计算为遇到向上遍历对象图中的一个或多个类型。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This type holds the desired ambient property.</source>
+          <target state="translated">此类型包含所需的环境属性。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies one or more objects that identify the properties to be considered ambient.</source>
+          <target state="translated">指定标识要将其视为环境的属性的一个或多个对象。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A single ambient property information item for the first ambient property value from the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">properties</ph><ept id="p1">&lt;/code&gt;</ept> list that is found.</source>
+          <target state="translated">从第一个环境属性值的单个环境的属性信息项<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">properties</ph> <ept id="p1">&lt;/code&gt;</ept>找到的列表。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

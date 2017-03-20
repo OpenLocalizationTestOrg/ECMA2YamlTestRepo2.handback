@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a2e66d7e40f7d8d5870e92dedd9e93a02692fff</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Configuration.Provider.ProviderBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c1dd64f3180b4f855f747c7d4427e4885b25e13e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a873359f9eda2af2d96a9b44264d423d2bd93b50</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base implementation for the extensible provider model.</source>
+          <target state="translated">Biztosítja a bővíthető szolgáltatói modell egy alapszintű megvalósítás.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The provider model is intended to encapsulate all or part of the functionality of multiple ASP.NET features, such as membership, profiles, and protected configuration.</source>
+          <target state="translated">A szolgáltatói modell célja a több ASP.NET-szolgáltatások, például a tagság, profilok és védett konfigurációs funkciók egy része vagy egésze foglalják magukban.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It allows the developer to create supporting classes that provide multiple implementations of the encapsulated functionality.</source>
+          <target state="translated">Lehetővé teszi a fejlesztői többféle megvalósítása a beágyazott funkciókat biztosító támogató osztályokat hozhatnak létre.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, developers can write new features using the provider model.</source>
+          <target state="translated">A fejlesztők továbbá írhat az új funkciók a szolgáltatói modell.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be an effective way to support multiple implementations of a feature's functionality without duplicating the feature code or recoding the application layer if the implementation method needs to be changed.</source>
+          <target state="translated">Ez lehet a szolgáltatás funkcióinak többféle megvalósítása támogatása nélkül másolása a szolgáltatást kód vagy az alkalmazási rétegre újraprogramozás, ha módosítani kell a végrehajtási metódus hatékony módot.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ProviderBase class is simple, containing only a few basic methods and properties that are common to all providers.</source>
+          <target state="translated">A ProviderBase osztály használata egyszerű, csak néhány alapvető módszerek és a Tulajdonságok vonatkozó összes szolgáltató tartalmazó.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Feature-specific providers (such as &lt;xref:System.Web.Security.MembershipProvider&gt;) inherit from ProviderBase and establish the necessary methods and properties that the implementation-specific providers for that feature must support.</source>
+          <target state="translated">Szolgáltatás-specifikus szolgáltatók (például &lt;xref:System.Web.Security.MembershipProvider&gt;) ProviderBase öröklik, és a szükséges módszereket és támogatnia kell a szolgáltatáshoz tartozó függő szolgáltatók tulajdonságokhoz.&lt;/xref:System.Web.Security.MembershipProvider&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implementation-specific providers (such as &lt;xref:System.Web.Security.SqlMembershipProvider&gt;) inherit in turn from a feature-specific provider (in this case, &lt;xref:System.Web.Security.MembershipProvider&gt;).</source>
+          <target state="translated">Függő szolgáltatók (például &lt;xref:System.Web.Security.SqlMembershipProvider&gt;) pedig örökli a funkcióspecifikus szolgáltató (ebben az esetben &lt;xref:System.Web.Security.MembershipProvider&gt;).&lt;/xref:System.Web.Security.MembershipProvider&gt; &lt;/xref:System.Web.Security.SqlMembershipProvider&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most important aspect of the provider model is that the implementation (for example, whether data is persisted as a text file or in a database) is abstracted from the application code.</source>
+          <target state="translated">A legfontosabb a szolgáltatói modell célja, hogy a megvalósítás (például, hogy adatokat is megőrződjenek szöveges fájlként, vagy egy adatbázisban) kiveszik, az alkalmazás kódból.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the implementation-specific provider for the given feature is designated in a configuration file.</source>
+          <target state="translated">A szolgáltató típusa mellett a függő az adott szolgáltatás számára a konfigurációs fájlban van kijelölve.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The feature-level provider then reads in the type from the configuration file and acts as a factory to the feature code.</source>
+          <target state="translated">A szolgáltatás szintű szolgáltató majd a következő típusban: a konfigurációs fájlból olvassa be, és a szolgáltatás kód gyár kezeli.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application developer can then use the feature classes in the application code.</source>
+          <target state="translated">Az alkalmazás fejlesztőjének az alkalmazáskódban található a szolgáltatás osztályok használhatja.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The implementation type can be swapped out in the configuration file, eliminating the need to rewrite the code to accommodate the different implementation methodology.</source>
+          <target state="translated">A megvalósítási típusa lecserélhető ki a konfigurációs fájlban, így nem kell újraírnia a a programot, hogy megfeleljen a különböző megvalósítási.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The providers included with ASP.NET are mostly abstractions of data persistence implementations for features like profiles or membership.</source>
+          <target state="translated">Az ASP.NET szolgáltatáshoz tartozó szolgáltatók a következők: többnyire absztrakt entitással egészült ki az adatok megőrzését megvalósításait szolgáltatások, mint a profilok vagy a tagság.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, this model can be applied to any other kind of feature functionality that could be abstracted and implemented in multiple ways.</source>
+          <target state="translated">Azonban ez a modell funkcióhoz, amely képes azért és többféle módon végrehajtott bármilyen más típusú alkalmazhatók.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Configuration.Provider.ProviderBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Configuration.Provider.ProviderBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets a brief, friendly description suitable for display in administrative tools or other user interfaces (UIs).</source>
+          <target state="translated">Lekérdezi a felügyeleti eszközök vagy más felhasználói felületek (UI) megjelenítéshez megfelelő rövid, rövid leírását.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a configured provider does not supply a description, the value of the &lt;xref:System.Configuration.Provider.ProviderBase.Name%2A&gt; property is returned as a default.</source>
+          <target state="translated">Ha egy konfigurált szolgáltató nem adja meg egy leírást, értékét a &lt;xref:System.Configuration.Provider.ProviderBase.Name%2A&gt;tulajdonság alapértelmezett adja vissza.&lt;/xref:System.Configuration.Provider.ProviderBase.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A brief, friendly description suitable for display in administrative tools or other UIs.</source>
+          <target state="translated">A felügyeleti eszközök vagy más UI megjelenítéshez megfelelő rövid, könnyen megjegyezhető leírása.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes the provider.</source>
+          <target state="translated">A szolgáltató inicializálása.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The base class implementation internally tracks the number of times the provider's <ph id="ph1">`Initialize`</ph> method has been called.</source>
+          <target state="translated">Alaposztály végrehajtása belső nyomon követi az a szám, ahányszor a szolgáltató <ph id="ph1">`Initialize`</ph> metódus meghívása.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a provider is initialized more than once, an <ph id="ph1">`InvalidOperationException`</ph> is thrown stating that the provider is already initialized.</source>
+          <target state="translated">Ha egy szolgáltató egynél többször inicializálva van-e egy <ph id="ph1">`InvalidOperationException`</ph> vált ki, amely meghatározza, hogy a szolgáltató már inicializálva van.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because most feature providers call Initialize prior to performing provider-specific initialization, this method is a central location for preventing double initialization.</source>
+          <target state="translated">Legtöbb szolgáltatás szolgáltatók hívás végrehajtása szolgáltatói inicializálása előtt inicializálni, mert ez a módszer egy központi helyen, a dupla inicializálási megakadályozza.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The friendly name of the provider.</source>
+          <target state="translated">A szolgáltató valódi neve.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A collection of the name/value pairs representing the provider-specific attributes specified in the configuration for this provider.</source>
+          <target state="translated">A szolgáltatói attribútumainak a szolgáltató a konfigurációban megadott megfelelő név/érték párok gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The name of the provider is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A szolgáltató neve nem <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The name of the provider has a length of zero.</source>
+          <target state="translated">A szolgáltató neve van nulla hosszúságú.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An attempt is made to call Initialize on a provider after the provider has already been initialized.</source>
+          <target state="translated">Kísérlet kell hívnia az Initialize metódust egy szolgáltatót, miután a szolgáltató inicializálása már megtörtént.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the friendly name used to refer to the provider during configuration.</source>
+          <target state="translated">Lekérdezi a rövid nevet használt a szolgáltató konfigurálása során.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The recommended pattern for this string is: [<bpt id="p1">*</bpt>Provider Creator<ept id="p1">*</ept>][<bpt id="p2">*</bpt>Implementation Type<ept id="p2">*</ept>][<bpt id="p3">*</bpt>Feature<ept id="p3">*</ept>]Provider.</source>
+          <target state="translated">A javasolt minta a karakterláncot: [<bpt id="p1">*</bpt>szolgáltató létrehozó<ept id="p1">*</ept>] [<bpt id="p2">*</bpt>megvalósítási típusa<ept id="p2">*</ept>] [<bpt id="p3">*</bpt>szolgáltatás<ept id="p3">*</ept>] szolgáltató.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although the &lt;xref:System.Configuration.Provider.ProviderBase.Description%2A&gt; property also provides a friendly description, the Name property is used as an identifier for the provider.</source>
+          <target state="translated">Bár a &lt;xref:System.Configuration.Provider.ProviderBase.Description%2A&gt;tulajdonság is rövid leírását tartalmazza, a szolgáltató azonosítóként szolgál a Name tulajdonság.&lt;/xref:System.Configuration.Provider.ProviderBase.Description%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The friendly name used to refer to the provider during configuration.</source>
+          <target state="translated">A szolgáltató konfigurálása során hivatkozik rövid nevét.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

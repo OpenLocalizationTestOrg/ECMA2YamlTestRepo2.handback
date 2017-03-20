@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5a8746252d51807933401be5968c0c11467969e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.ICustomTypeDescriptor.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ed95b645da7ef4e509bf060627b5ff2bfb05d7e7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">433a4b8195734b70cdb315a5bad116bb98dc83b5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an interface that supplies dynamic custom type information for an object.</source>
+          <target state="translated">提供提供的对象的动态自定义的类型信息的接口。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The ICustomTypeDescriptor interface allows an object to provide type information about itself.</source>
+          <target state="translated">ICustomTypeDescriptor 接口允许对象提供有关自身的类型信息。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Typically, this interface is used when an object needs dynamic type information.</source>
+          <target state="translated">通常情况下，当对象需要动态类型信息时，程序使用此接口。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In contrast, the &lt;xref:System.ComponentModel.TypeDescriptor&gt; class provides static type information that is obtained from metadata.</source>
+          <target state="translated">与此相反，&lt;xref:System.ComponentModel.TypeDescriptor&gt;类提供静态类型从元数据中获取的信息。&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, ICustomTypeDescriptor is used in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to provide type information for COM objects.</source>
+          <target state="translated">例如，在使用 ICustomTypeDescriptor<ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>提供 COM 对象的类型信息。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>COM objects do not support properties or attributes.</source>
+          <target state="translated">COM 对象不支持属性。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Therefore, the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> uses ICustomTypeDescriptor to implement properties and attributes for COM objects.</source>
+          <target state="translated">因此， <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> ICustomTypeDescriptor 用于实现属性和 COM 对象的属性。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To provide dynamic custom type information, a class can implement ICustomTypeDescriptor or derive from the &lt;xref:System.ComponentModel.CustomTypeDescriptor&gt; class, which provides a simple implementation of this interface.</source>
+          <target state="translated">若要提供动态自定义的类型信息，一个类可以实现 ICustomTypeDescriptor 或派生自&lt;xref:System.ComponentModel.CustomTypeDescriptor&gt;类，该类提供此接口的简单实现。&lt;/xref:System.ComponentModel.CustomTypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  There is no design-time support for data binding to objects that implement the ICustomTypeDescriptor interface.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 没有用于数据绑定到实现 ICustomTypeDescriptor 接口的对象设计时支持。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In addition, when binding to a runtime instance of ICustomTypeDescriptor, the public properties of the underlying type are ignored.</source>
+          <target state="translated">此外，当绑定到 ICustomTypeDescriptor 的运行时实例时，将忽略基础类型的公共属性。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Returns a collection of custom attributes for this instance of a component.</source>
+          <target state="translated">返回组件的此实例的自定义属性的集合。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The return value is never <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">返回的值决不会是<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Implementers can return an empty &lt;xref:System.ComponentModel.AttributeCollection&gt; if no custom attributes are specified for an object.</source>
+          <target state="translated">实施者可以返回一个空&lt;xref:System.ComponentModel.AttributeCollection&gt;如果没有自定义属性指定的对象。&lt;/xref:System.ComponentModel.AttributeCollection&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.AttributeCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the attributes for this object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.AttributeCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含此对象的属性。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Returns the class name of this instance of a component.</source>
+          <target state="translated">返回组件的此实例的类名称。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`null`</ph> is returned, use the type name from the &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt; method.</source>
+          <target state="translated">如果<ph id="ph1">`null`</ph>是返回，使用类型名称从&lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt;方法。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The class name of the object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the class does not have a name.</source>
+          <target state="translated">该对象的类名或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果类没有名称。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Returns the name of this instance of a component.</source>
+          <target state="translated">返回组件的此实例的名称。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`null`</ph> is returned, use the default name.</source>
+          <target state="translated">如果<ph id="ph1">`null`</ph>是返回，使用默认名称。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The name of the object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object does not have a name.</source>
+          <target state="translated">对象的名称，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果对象不具有名称。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns a type converter for this instance of a component.</source>
+          <target state="translated">返回组件的此实例的类型转换器。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`null`</ph> is returned, use the default &lt;xref:System.ComponentModel.TypeConverter&gt;.</source>
+          <target state="translated">如果<ph id="ph1">`null`</ph>是返回，使用默认&lt;xref:System.ComponentModel.TypeConverter&gt;.&lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the converter for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there is no <bpt id="p3">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> for this object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它是此对象转换器或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果没有任何<bpt id="p3">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>此对象。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Returns the default event for this instance of a component.</source>
+          <target state="translated">返回组件的此实例的默认事件。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the default event for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if this object does not have events.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，表示此对象的默认事件或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果此对象没有事件。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns the default property for this instance of a component.</source>
+          <target state="translated">返回组件的此实例的默认属性。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the default property for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if this object does not have properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，表示此对象的默认属性或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果此对象没有属性。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns an editor of the specified type for this instance of a component.</source>
+          <target state="translated">返回组件的此实例的指定类型的编辑器。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The type of the <ph id="ph1">`editorBaseType`</ph> parameter is usually &lt;xref:System.Drawing.Design.UITypeEditor&gt;, but you can also use other types (for example, &lt;xref:System.ComponentModel.ComponentEditor&gt; and &lt;xref:System.ComponentModel.InstanceCreationEditor&gt;).</source>
+          <target state="translated">一种<ph id="ph1">`editorBaseType`</ph>参数通常是&lt;xref:System.Drawing.Design.UITypeEditor&gt;，但你也可以使用其他类型 (例如，&lt;xref:System.ComponentModel.ComponentEditor&gt;和&lt;xref:System.ComponentModel.InstanceCreationEditor&gt;)。&lt;/xref:System.ComponentModel.InstanceCreationEditor&gt; &lt;/xref:System.ComponentModel.ComponentEditor&gt; &lt;/xref:System.Drawing.Design.UITypeEditor&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the editor for this object.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;，表示此对象的编辑器。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; of the specified type that is the editor for this object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the editor cannot be found.</source>
+          <target state="translated">&lt;xref:System.Object&gt;指定的类型属于此对象的编辑器或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果找不到编辑器。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Returns the events for this instance of a component.</source>
+          <target state="translated">返回组件的此实例的事件。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The events for this instance can differ from the set of events that the class provides.</source>
+          <target state="translated">此实例的事件可能与此类提供的事件的集不同。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, if the component is site-based, the site can add or remove additional events.</source>
+          <target state="translated">例如，如果组件是基于站点的该位置可以添加或删除其他事件。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Implementors can return &lt;xref:System.ComponentModel.EventDescriptorCollection?displayProperty=fullName&gt; if no properties are specified.</source>
+          <target state="translated">实现器可以返回&lt;xref:System.ComponentModel.EventDescriptorCollection?displayProperty=fullName&gt;如果未不指定任何属性。&lt;/xref:System.ComponentModel.EventDescriptorCollection?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This method should never return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此方法应永远不会返回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the events for this component instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示此组件实例的事件。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Returns the events for this instance of a component using the specified attribute array as a filter.</source>
+          <target state="translated">返回使用指定的属性数组作为筛选器组件的此实例的事件。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The events for this instance can differ from the set of events that the class provides.</source>
+          <target state="translated">此实例的事件可能与此类提供的事件的集不同。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example, if the component is site-based, the site can add or remove additional events.</source>
+          <target state="translated">例如，如果组件是基于站点的该位置可以添加或删除其他事件。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If an &lt;xref:System.Attribute&gt; is specified in the <ph id="ph1">`attributes`</ph> array and the event does not have an instance of the class for that attribute, the returned array includes the event if the &lt;xref:System.Attribute&gt; is the default event.</source>
+          <target state="translated">如果&lt;xref:System.Attribute&gt;中指定<ph id="ph1">`attributes`</ph>数组和事件不具有为该属性的类的实例，则返回的数组包含该事件，如果&lt;xref:System.Attribute&gt;是默认事件。&lt;/xref:System.Attribute&gt; &lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">类型的数组&lt;xref:System.Attribute&gt;用作筛选器。&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the filtered events for this component instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，表示此组件实例的已筛选的事件。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Returns the properties for this instance of a component.</source>
+          <target state="translated">返回组件的此实例的属性。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The properties for this instance can differ from the set of properties that the class provides.</source>
+          <target state="translated">此实例的属性可能与此类提供的属性集不同。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For example, if the component is sited, the site can add or remove additional properties.</source>
+          <target state="translated">例如，如果组件所在站点可以添加或删除其他属性。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Implementers can return &lt;xref:System.ComponentModel.PropertyDescriptorCollection?displayProperty=fullName&gt; if no properties are specified.</source>
+          <target state="translated">实施者可以返回&lt;xref:System.ComponentModel.PropertyDescriptorCollection?displayProperty=fullName&gt;如果未不指定任何属性。&lt;/xref:System.ComponentModel.PropertyDescriptorCollection?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This method should never return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此方法应永远不会返回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the properties for this component instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，表示此组件实例的属性。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Returns the properties for this instance of a component using the attribute array as a filter.</source>
+          <target state="translated">返回使用特性数组作为筛选器组件的此实例的属性。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The properties for this instance can differ from the set of properties that the class provides.</source>
+          <target state="translated">此实例的属性可能与此类提供的属性集不同。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For example, if the component is sited, the site can add or remove additional properties.</source>
+          <target state="translated">例如，如果组件所在站点可以添加或删除其他属性。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If an &lt;xref:System.Attribute&gt; is specified in the <ph id="ph1">`attributes`</ph> array and the property does not have an instance of the class for that attribute, the returned collection will include the property if the &lt;xref:System.Attribute&gt; is the default property.</source>
+          <target state="translated">如果&lt;xref:System.Attribute&gt;中指定<ph id="ph1">`attributes`</ph>数组和属性不具有为该属性的类的实例，则返回的集合会包含该属性，如果&lt;xref:System.Attribute&gt;是默认属性。&lt;/xref:System.Attribute&gt; &lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For filtering rules, see &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;.</source>
+          <target state="translated">有关筛选规则，请参阅&lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;。&lt;/xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">类型的数组&lt;xref:System.Attribute&gt;用作筛选器。&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the filtered properties for this component instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，表示此组件实例的已筛选的属性。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Returns an object that contains the property described by the specified property descriptor.</source>
+          <target state="translated">返回包含指定的属性描述符所描述的属性的对象。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The GetPropertyOwner method retrieves the object that contains the property member that is described by &lt;xref:System.ComponentModel.PropertyDescriptor&gt; parameter.</source>
+          <target state="translated">GetPropertyOwner 方法检索的对象，包含描述的属性成员&lt;xref:System.ComponentModel.PropertyDescriptor&gt;参数。&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Typically, this object is required for the &lt;xref:System.ComponentModel.PropertyDescriptor.GetValue%2A?displayProperty=fullName&gt; and &lt;xref:System.ComponentModel.PropertyDescriptor.SetValue%2A?displayProperty=fullName&gt; methods.</source>
+          <target state="translated">通常情况下，此对象是必要条件&lt;xref:System.ComponentModel.PropertyDescriptor.GetValue%2A?displayProperty=fullName&gt;和&lt;xref:System.ComponentModel.PropertyDescriptor.SetValue%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.ComponentModel.PropertyDescriptor.SetValue%2A?displayProperty=fullName&gt; &lt;/xref:System.ComponentModel.PropertyDescriptor.GetValue%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This method should return an object that you can use as follows:      <ph id="ph1">```   pd.GetValue(GetPropertyOwner(myPd));   ```</ph>       If <ph id="ph2">`myPd`</ph> is <ph id="ph3">`null`</ph>, your implementation of the &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface should return the default object (typically, the base object that exposes the properties and attributes).</source>
+          <target state="translated">此方法应返回一个对象，你可以按以下方式使用︰<ph id="ph1">```   pd.GetValue(GetPropertyOwner(myPd));   ```</ph>如果<ph id="ph2">`myPd`</ph>是<ph id="ph3">`null`</ph>，你实现&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;接口应返回默认对象 （通常情况下，公开的属性和特性的基对象）。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the property whose owner is to be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它表示要查找其所有者的属性。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the owner of the specified property.</source>
+          <target state="translated">&lt;xref:System.Object&gt;，它表示指定属性的所有者。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

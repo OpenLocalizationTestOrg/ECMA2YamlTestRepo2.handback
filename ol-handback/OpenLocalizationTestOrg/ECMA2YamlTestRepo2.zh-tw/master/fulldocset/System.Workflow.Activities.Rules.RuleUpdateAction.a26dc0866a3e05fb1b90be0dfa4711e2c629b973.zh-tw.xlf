@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bddc5e527f487355bd3830ba6fc206c81520377d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Activities.Rules.RuleUpdateAction.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ff81197018489bf501ce67cb9c88589cb991db2b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e7988e70c98a7f1c6e7e9e0061e146e23cdfa77</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Indicates that a rule is updating a variable, in order to cause reevaluation of affected rules.</source>
+          <target state="translated">指出規則正在更新變數，讓重新評估受影響的規則。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is used to indicate to the rules engine that execution of this rule's set of actions causes a change to the field or property that is specified (or all fields and properties on an object), so that any rules that are dependent on this field or property can be reevaluated.</source>
+          <target state="translated">這個類別用來向規則引擎執行此規則的動作集合，使得任何可以評估規則，相依於此欄位或屬性會使欄位或屬性所指定 （或所有欄位和屬性的物件上），變更。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">`Update`</ph> call does not prevent other actions in the action block from executing.</source>
+          <target state="translated"><ph id="ph1">`Update`</ph>呼叫不會造成動作區塊中的其他動作無法執行。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The set of fields/properties that are modified (specified through <ph id="ph1">`Update`</ph> or by using &lt;xref:System.Workflow.Activities.Rules.RuleWriteAttribute&gt;s on methods invoked) is used to determine chaining when the set of actions for this particular rule finishes executing.</source>
+          <target state="translated">修改的欄位/屬性集 (透過指定<ph id="ph1">`Update`</ph>或使用&lt;xref:System.Workflow.Activities.Rules.RuleWriteAttribute&gt;上叫用的方法) 用來判斷此特定規則的動作集完成執行時的鏈結。&lt;/xref:System.Workflow.Activities.Rules.RuleWriteAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleUpdateAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleUpdateAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleUpdateAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleUpdateAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To indicate that the property <ph id="ph1">`this.SomeProperty`</ph> was modified, the <ph id="ph2">`path`</ph> parameter would be <ph id="ph3">`this/SomeProperty`</ph>.</source>
+          <target state="translated">表示屬性<ph id="ph1">`this.SomeProperty`</ph>何時經過修改，<ph id="ph2">`path`</ph>參數便是<ph id="ph3">`this/SomeProperty`</ph>。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can specify the value changed as specifically as you prefer (for example, if you only modified <ph id="ph1">`this.SomeProperty/SomeOtherProperty`</ph>, you can specify <ph id="ph2">`this/SomeProperty/SomeOtherProperty`</ph>).</source>
+          <target state="translated">您可以指定的值明確地以您想變更 (例如，如果您只修改<ph id="ph1">`this.SomeProperty/SomeOtherProperty`</ph>，您可以指定<ph id="ph2">`this/SomeProperty/SomeOtherProperty`</ph>)。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the latter case, other rules that used <ph id="ph1">`this.SomeProperty/AnyOtherProperty`</ph> would not be reevaluated.</source>
+          <target state="translated">在後者的情況下，其他規則使用<ph id="ph1">`this.SomeProperty/AnyOtherProperty`</ph>就不會重新評估。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To specify that all fields and properties are modified, append "*" to the end of the path.</source>
+          <target state="translated">若要指定修改所有欄位和屬性，附加"*"路徑的結尾。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`this/SomeProperty/*`</ph> indicates that all fields and properties on <ph id="ph2">`this.SomeProperty`</ph> were modified.</source>
+          <target state="translated">例如，<ph id="ph1">`this/SomeProperty/*`</ph>表示所有欄位和屬性上的<ph id="ph2">`this.SomeProperty`</ph>已修改。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Therefore, all rules that use any field or property on <ph id="ph1">`this.SomeProperty`</ph> would be reevaluated.</source>
+          <target state="translated">因此，所有規則的任何欄位或屬性上都使用<ph id="ph1">`this.SomeProperty`</ph>都會重新經過評估。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the rule set is run with &lt;xref:System.Workflow.Activities.Rules.RuleSet.ChainingBehavior%2A&gt; set to &lt;xref:System.Workflow.Activities.Rules.RuleChainingBehavior&gt;, this action is ignored.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果規則集使用執行&lt;xref:System.Workflow.Activities.Rules.RuleSet.ChainingBehavior%2A&gt;設&lt;xref:System.Workflow.Activities.Rules.RuleChainingBehavior&gt;，則會忽略這個動作。&lt;/xref:System.Workflow.Activities.Rules.RuleChainingBehavior&gt; &lt;/xref:System.Workflow.Activities.Rules.RuleSet.ChainingBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A string that represents the name of the field or property changed.</source>
+          <target state="translated">字串，表示欄位或屬性已變更的名稱。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The character "/" is used as a separator.</source>
+          <target state="translated">字元"/"會做為分隔符號。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Creates a deep copy of the current <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">建立目前的深層複本<bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is identical to this instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>與這個執行個體完全相同。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Determines whether two object instances are equal.</source>
+          <target state="translated">判斷兩個物件執行個體是否相等。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to compare with the current &lt;xref:System.Object&gt;.</source>
+          <target state="translated">&lt;xref:System.Object&gt;要與目前&lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;比較&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the objects are equal; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果物件相等。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Executes the <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified <bpt id="p2">&lt;xref href="System.Workflow.Activities.Rules.RuleExecution"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">執行<bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用指定<bpt id="p2">&lt;xref href="System.Workflow.Activities.Rules.RuleExecution"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleExecution"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> context used to execute the <bpt id="p2">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleExecution"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用來執行內容<bpt id="p2">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Returns the hash code for this instance.</source>
+          <target state="translated">傳回這個執行個體的雜湊碼。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The hash code for this instance.</source>
+          <target state="translated">這個執行個體的雜湊碼。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Returns the fields and properties updated by a <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">傳回的欄位和屬性更新<bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleValidation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to manage the validation process.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleValidation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>管理驗證程序。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A list of the fields and properties changed by a <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">所變更的欄位和屬性清單<bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets or sets the path of the <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleUpdateAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得或設定的路徑<bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleUpdateAction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Path is a string that represents the name of the field or property that is changed.</source>
+          <target state="translated">路徑是字串，表示已變更屬性的名稱。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>"/" is used as a separator.</source>
+          <target state="translated">"/"會做為分隔符號。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To indicate that the property <ph id="ph1">`this.SomeProperty`</ph> has been modified, the property would be "<ph id="ph2">`this/SomeProperty`</ph>".</source>
+          <target state="translated">表示屬性<ph id="ph1">`this.SomeProperty`</ph>已經過修改，則屬性應為"<ph id="ph2">`this/SomeProperty`</ph>"。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can specify the changed value as specifically as you prefer (for example, if you only modified <ph id="ph1">`this.SomeProperty/SomeOtherProperty`</ph>, you can specify "<ph id="ph2">`this/SomeProperty/SomeOtherProperty`</ph>").</source>
+          <target state="translated">您可以依照您的偏好特別指定變更的值 (例如，如果您只修改<ph id="ph1">`this.SomeProperty/SomeOtherProperty`</ph>，您可以指定"<ph id="ph2">`this/SomeProperty/SomeOtherProperty`</ph>")。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In the latter case, other rules that used <ph id="ph1">`this.SomeProperty/AnyOtherProperty`</ph> would not be reevaluated.</source>
+          <target state="translated">在後者的情況下，其他規則使用<ph id="ph1">`this.SomeProperty/AnyOtherProperty`</ph>就不會重新評估。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To specify that all fields and properties are modified, append "*" to the end of the path.</source>
+          <target state="translated">若要指定修改所有欄位和屬性，附加"*"路徑的結尾。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, "<ph id="ph1">`this/SomeProperty/*`</ph>" indicates that all fields and properties on <ph id="ph2">`this.SomeProperty`</ph> have been modified.</source>
+          <target state="translated">例如，"<ph id="ph1">`this/SomeProperty/*`</ph>"表示所有欄位和屬性上的<ph id="ph2">`this.SomeProperty`</ph>已修改。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Therefore, all rules that use any field or property on <ph id="ph1">`this.SomeProperty`</ph> would be reevaluated.</source>
+          <target state="translated">因此，所有規則的任何欄位或屬性上都使用<ph id="ph1">`this.SomeProperty`</ph>都會重新經過評估。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the rule set is run with &lt;xref:System.Workflow.Activities.Rules.RuleSet.ChainingBehavior%2A&gt; set to &lt;xref:System.Workflow.Activities.Rules.RuleChainingBehavior&gt;, this action is ignored.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果規則集使用執行&lt;xref:System.Workflow.Activities.Rules.RuleSet.ChainingBehavior%2A&gt;設&lt;xref:System.Workflow.Activities.Rules.RuleChainingBehavior&gt;，則會忽略這個動作。&lt;/xref:System.Workflow.Activities.Rules.RuleChainingBehavior&gt; &lt;/xref:System.Workflow.Activities.Rules.RuleSet.ChainingBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The path of the <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleUpdateAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">路徑<bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleUpdateAction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Returns a string that indicates the field or property that the <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.Rule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is updating.</source>
+          <target state="translated">傳回字串，表示欄位或屬性的<bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.Rule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>正在更新。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The string "Update <ph id="ph1">&amp;lt;</ph>&lt;xref:System.Workflow.Activities.Rules.RuleUpdateAction.Path*&gt;<ph id="ph2">&amp;gt;</ph>".</source>
+          <target state="translated">字串 「 更新<ph id="ph1">&amp;lt;</ph> &lt;xref:System.Workflow.Activities.Rules.RuleUpdateAction.Path*&gt; <ph id="ph2">&amp;gt;</ph>"。&lt;/xref:System.Workflow.Activities.Rules.RuleUpdateAction.Path*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Verifies that the <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is configured correctly and has no errors.</source>
+          <target state="translated">確認<bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>已正確設定，而且沒有任何錯誤。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleValidation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to manage the validation process.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.Activities.Rules.RuleValidation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>管理驗證程序。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has no errors; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Workflow.Activities.Rules.RuleAction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>沒有錯誤，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

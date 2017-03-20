@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b739a1fd5a3063652b497bb876f28a3ea2008ae7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6359e6c288db666c048ddc5beab842041295d461</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e25be158b62b74beb7e72835b48dacba5cad4d7e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the methods that enable a client application to display a user interface to collect identity information prior to creating the channel.</source>
+          <target state="translated">定义使客户端应用程序显示一个用户界面来收集标识信息在创建通道之前的方法。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Implement the IInteractiveChannelInitializer interface to enable a client application to display a user interface that enables the user of the application to create or select the credentials prior to opening a channel.</source>
+          <target state="translated">实现 IInteractiveChannelInitializer 接口可使客户端应用程序显示用户界面，使应用程序的用户能够创建或选择在打开通道之前的凭据。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To implement IInteractiveChannelInitializer, perform the following steps in &lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI%2A?displayProperty=fullName&gt;:      1.</source>
+          <target state="translated">若要实现 IInteractiveChannelInitializer，执行以下步骤中的&lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI%2A?displayProperty=fullName&gt;: 1。&lt;/xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Prompt the user and obtain an appropriate &lt;xref:System.Net.NetworkCredential?displayProperty=fullName&gt;.</source>
+          <target state="translated">提示用户并获取适当的&lt;xref:System.Net.NetworkCredential?displayProperty=fullName&gt;.&lt;/xref:System.Net.NetworkCredential?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Add a custom channel parameter object to the collection returned by the &lt;xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt; method on the &lt;xref:System.ServiceModel.IClientChannel&gt; object with a type parameter of &lt;xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;.</source>
+          <target state="translated">将自定义通道参数对象添加到&lt;xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt;&lt;xref:System.ServiceModel.IClientChannel&gt;其中&lt;xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;.&lt;/xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;类型参数的对象&lt;/xref:System.ServiceModel.IClientChannel&gt;上的方法&lt;/xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt;返回的集合</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This channel parameter object is used by the custom &lt;xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt; to establish the security tokens for the channel.</source>
+          <target state="translated">此通道参数对象由自定义&lt;xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt;建立通道的安全令牌。&lt;/xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Return.</source>
+          <target state="translated">返回。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To insert IInteractiveChannelInitializer:      1.</source>
+          <target state="translated">要插入 IInteractiveChannelInitializer: 1。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Override the &lt;xref:System.ServiceModel.Description.IEndpointBehavior.ApplyClientBehavior%2A?displayProperty=fullName&gt; method on the &lt;xref:System.ServiceModel.Description.ClientCredentials?displayProperty=fullName&gt; class.</source>
+          <target state="translated">重写&lt;xref:System.ServiceModel.Description.IEndpointBehavior.ApplyClientBehavior%2A?displayProperty=fullName&gt;方法的&lt;xref:System.ServiceModel.Description.ClientCredentials?displayProperty=fullName&gt;类。&lt;/xref:System.ServiceModel.Description.ClientCredentials?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IEndpointBehavior.ApplyClientBehavior%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In that method, determine whether the endpoint requires an IInteractiveChannelInitializer and if so, add the IInteractiveChannelInitializer to the &lt;xref:System.ServiceModel.Dispatcher.ClientRuntime.InteractiveChannelInitializers%2A?displayProperty=fullName&gt; collection.</source>
+          <target state="translated">在该方法中，确定是否终结点需要 IInteractiveChannelInitializer，如果出现这种情况，添加到 IInteractiveChannelInitializer&lt;xref:System.ServiceModel.Dispatcher.ClientRuntime.InteractiveChannelInitializers%2A?displayProperty=fullName&gt;集合。&lt;/xref:System.ServiceModel.Dispatcher.ClientRuntime.InteractiveChannelInitializers%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>There are two ways application developers can make use of an inserted IInteractiveChannelInitializer.</source>
+          <target state="translated">有两种应用程序开发人员可以使用插入 IInteractiveChannelInitializer 的方法。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The client application can call either &lt;xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt; or &lt;xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt; (or an asynchronous version) prior to opening the channel (the <bpt id="p1">*</bpt>explicit<ept id="p1">*</ept> approach) or simply call the first operation (the <bpt id="p2">*</bpt>implicit<ept id="p2">*</ept> approach).</source>
+          <target state="translated">客户端应用程序可以调用&lt;xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt;或&lt;xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt;（或异步版本） 在打开通道之前 (<bpt id="p1">*</bpt>显式<ept id="p1">*</ept>方法) 或只需调用的第一个操作 (<bpt id="p2">*</bpt>隐式<ept id="p2">*</ept>方法)。&lt;/xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If using the implicit approach, the application must call the first operation on an &lt;xref:System.ServiceModel.ClientBase%601&gt; or &lt;xref:System.ServiceModel.IClientChannel&gt; extension.</source>
+          <target state="translated">如果使用隐式方法，该应用程序必须调用的第一个操作&lt;xref:System.ServiceModel.ClientBase%601&gt;或&lt;xref:System.ServiceModel.IClientChannel&gt;扩展。&lt;/xref:System.ServiceModel.IClientChannel&gt; &lt;/xref:System.ServiceModel.ClientBase%601&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If it calls anything other than the first operation, an exception is thrown.</source>
+          <target state="translated">如果它调用的第一个操作之外的任何内容，则引发异常。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If using the explicit approach, the application must perform the following steps in order:      1.</source>
+          <target state="translated">如果使用显式方法，该应用程序必须按顺序执行以下步骤︰ 1。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Call either &lt;xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt; or &lt;xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt; (or an asynchronous version).</source>
+          <target state="translated">调用&lt;xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt;或&lt;xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt;（或异步版本）。&lt;/xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When the initializers have returned, call either the &lt;xref:System.ServiceModel.ICommunicationObject.Open%2A&gt; method on the &lt;xref:System.ServiceModel.IClientChannel&gt; object or on the &lt;xref:System.ServiceModel.IClientChannel&gt; object returned from the &lt;xref:System.ServiceModel.ClientBase%601.InnerChannel%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">当初始值设定项均返回时，调用&lt;xref:System.ServiceModel.ICommunicationObject.Open%2A&gt;方法&lt;xref:System.ServiceModel.IClientChannel&gt;对象或在&lt;xref:System.ServiceModel.IClientChannel&gt;从返回的对象&lt;xref:System.ServiceModel.ClientBase%601.InnerChannel%2A?displayProperty=fullName&gt;属性。&lt;/xref:System.ServiceModel.ClientBase%601.InnerChannel%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.IClientChannel&gt; &lt;/xref:System.ServiceModel.IClientChannel&gt; &lt;/xref:System.ServiceModel.ICommunicationObject.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Call operations.</source>
+          <target state="translated">调用操作。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It is recommended that production-quality applications control of the user-interface process by adopting the explicit approach.</source>
+          <target state="translated">通过采用显式方法建议生产质量的应用程序控制的用户界面过程。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Applications that use the implicit approach invoke the user-interface initializers, but if the user of the application fails to respond within the send timeout period of the binding, an exception is thrown when the user interface returns.</source>
+          <target state="translated">使用隐式方法的应用程序调用用户界面初始值设定项，但是当用户界面返回时，如果应用程序的用户无法在绑定的发送超时期限内响应，引发异常。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An asynchronous call to begin using a user interface to obtain credential information.</source>
+          <target state="translated">要开始使用用户接口获取凭据信息的异步调用。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To implement &lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer&gt;, perform the following steps in BeginDisplayInitializationUI:      1.</source>
+          <target state="translated">若要实现&lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer&gt;，BeginDisplayInitializationUI 中执行以下步骤︰ 1。&lt;/xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Prompt the user in what way you see fit and obtain an appropriate &lt;xref:System.Net.NetworkCredential?displayProperty=fullName&gt;.</source>
+          <target state="translated">提示你认为适合并获得适当的&lt;xref:System.Net.NetworkCredential?displayProperty=fullName&gt;.&lt;/xref:System.Net.NetworkCredential?displayProperty=fullName&gt;何种方式中的用户</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Add a custom channel parameter object to the collection returned by the &lt;xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt; method on the &lt;xref:System.ServiceModel.IClientChannel&gt; object with a type parameter of &lt;xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;.</source>
+          <target state="translated">将自定义通道参数对象添加到&lt;xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt;&lt;xref:System.ServiceModel.IClientChannel&gt;其中&lt;xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;.&lt;/xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;类型参数的对象&lt;/xref:System.ServiceModel.IClientChannel&gt;上的方法&lt;/xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt;返回的集合</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This channel parameter object is used by the custom &lt;xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt; to establish the security tokens for the channel.</source>
+          <target state="translated">此通道参数对象由自定义&lt;xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt;建立通道的安全令牌。&lt;/xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Return.</source>
+          <target state="translated">返回。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The client channel.</source>
+          <target state="translated">客户端通道。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The callback object.</source>
+          <target state="translated">回调对象中。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Any state data.</source>
+          <target state="translated">任何状态数据。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> to use to call back when processing has completed.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>用于调用处理完成时返回。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Called when the &lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI*&gt; has finished.</source>
+          <target state="translated">时调用&lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI*&gt;已完成。&lt;/xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI*&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

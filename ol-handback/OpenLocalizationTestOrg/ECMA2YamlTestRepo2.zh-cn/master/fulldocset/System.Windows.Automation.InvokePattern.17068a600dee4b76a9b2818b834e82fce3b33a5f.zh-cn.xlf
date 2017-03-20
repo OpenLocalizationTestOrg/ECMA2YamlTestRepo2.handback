@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2de41c02e7f6832517639586909bc19a1716dbc7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Automation.InvokePattern.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b51d5d10276ea3d3f1a6d58e033d22e2c510613b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8727daa813e1b0ef26ab16e07342439bd677f488</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents controls that initiate or perform a single, unambiguous action and do not maintain state when activated.</source>
+          <target state="translated">表示启动或执行单个明确操作并且不维护状态激活时的控件。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Controls support InvokePattern if the same behavior is not exposed through another control pattern.</source>
+          <target state="translated">如果不通过另一种控件模式公开相同的行为，则，控件将支持 InvokePattern。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For example, if the &lt;xref:System.Windows.Automation.InvokePattern.Invoke%2A&gt; method on a control performs the same action as the &lt;xref:System.Windows.Automation.ExpandCollapsePattern.Expand%2A&gt; or &lt;xref:System.Windows.Automation.ExpandCollapsePattern.Collapse%2A&gt; method, the control will not support InvokePattern.</source>
+          <target state="translated">例如，如果&lt;xref:System.Windows.Automation.InvokePattern.Invoke%2A&gt;控件上的方法执行相同的操作&lt;xref:System.Windows.Automation.ExpandCollapsePattern.Expand%2A&gt;或&lt;xref:System.Windows.Automation.ExpandCollapsePattern.Collapse%2A&gt;方法，控件将不支持 InvokePattern。&lt;/xref:System.Windows.Automation.ExpandCollapsePattern.Collapse%2A&gt; &lt;/xref:System.Windows.Automation.ExpandCollapsePattern.Expand%2A&gt; &lt;/xref:System.Windows.Automation.InvokePattern.Invoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph> elements that represent controls such as check boxes and radio buttons, which maintain a state, instead support &lt;xref:System.Windows.Automation.TogglePattern&gt; or &lt;xref:System.Windows.Automation.SelectionItemPattern&gt;.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph>其元素表示控件如复选框和单选按钮，它们可维护状态，但是不支持&lt;xref:System.Windows.Automation.TogglePattern&gt;或&lt;xref:System.Windows.Automation.SelectionItemPattern&gt;。&lt;/xref:System.Windows.Automation.SelectionItemPattern&gt; &lt;/xref:System.Windows.Automation.TogglePattern&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sends a request to activate a control and initiate its single, unambiguous action.</source>
+          <target state="translated">发送请求以激活控件并启动其单一、 明确的操作。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Calls to Invoke should return immediately without blocking.</source>
+          <target state="translated">对 Invoke 的调用应立即返回而不阻止。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>However, this behavior is entirely dependent on the <ph id="ph1">[!INCLUDE[TLA#tla_uiautomation](~/add/includes/tlasharptla-uiautomation-md.md)]</ph> provider implementation.</source>
+          <target state="translated">但是，此行为是完全依赖于<ph id="ph1">[!INCLUDE[TLA#tla_uiautomation](~/add/includes/tlasharptla-uiautomation-md.md)]</ph>提供程序实现。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In scenarios where calling Invoke causes a blocking issue (such as a modal dialog) a separate helper thread may be required to call the method.</source>
+          <target state="translated">在其中调用 Invoke 会导致阻塞问题 （如一个模式对话框） 的单独的帮助的方案线程可能需要调用方法。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The element does not support the <bpt id="p1">&lt;xref href="System.Windows.Automation.InvokePattern"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control pattern or is hidden or blocked.</source>
+          <target state="translated">元素不支持<bpt id="p1">&lt;xref href="System.Windows.Automation.InvokePattern"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件模式，或隐藏或被阻止。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The element is not enabled.</source>
+          <target state="translated">元素未启用。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Can be raised when a UI Automation provider has implemented its own handling of the &lt;xref:System.Windows.Automation.AutomationElement.AutomationElementInformation.IsEnabled*&gt; property.</source>
+          <target state="translated">在 UI 自动化提供程序已实现自己的处理时可以引发&lt;xref:System.Windows.Automation.AutomationElement.AutomationElementInformation.IsEnabled*&gt;属性。&lt;/xref:System.Windows.Automation.AutomationElement.AutomationElementInformation.IsEnabled*&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Identifies the event raised when a control is invoked or activated.</source>
+          <target state="translated">标识在调用或激活控件时引发的事件。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This identifier is used by UI Automation client applications.</source>
+          <target state="translated">UI 自动化客户端应用程序使用此标识符。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>UI Automation providers should use the equivalent field in &lt;xref:System.Windows.Automation.InvokePatternIdentifiers&gt;.</source>
+          <target state="translated">UI 自动化提供程序应使用&lt;xref:System.Windows.Automation.InvokePatternIdentifiers&gt;.&lt;/xref:System.Windows.Automation.InvokePatternIdentifiers&gt;中的等效字段</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The InvokedEvent identifier is passed as a parameter to &lt;xref:System.Windows.Automation.Automation.AddAutomationEventHandler%2A&gt;.</source>
+          <target state="translated">InvokedEvent 标识符作为参数传递到&lt;xref:System.Windows.Automation.Automation.AddAutomationEventHandler%2A&gt;。&lt;/xref:System.Windows.Automation.Automation.AddAutomationEventHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Identifies the <bpt id="p1">&lt;xref href="System.Windows.Automation.InvokePattern"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control pattern.</source>
+          <target state="translated">标识<bpt id="p1">&lt;xref href="System.Windows.Automation.InvokePattern"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件模式。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This identifier is used by UI Automation client applications.</source>
+          <target state="translated">UI 自动化客户端应用程序使用此标识符。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>UI Automation providers should use the equivalent field in &lt;xref:System.Windows.Automation.InvokePatternIdentifiers&gt;.</source>
+          <target state="translated">UI 自动化提供程序应使用&lt;xref:System.Windows.Automation.InvokePatternIdentifiers&gt;.&lt;/xref:System.Windows.Automation.InvokePatternIdentifiers&gt;中的等效字段</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The pattern identifier is passed to methods such as &lt;xref:System.Windows.Automation.AutomationElement.GetCurrentPattern%2A&gt; to retrieve the control pattern of interest from the specified &lt;xref:System.Windows.Automation.AutomationElement&gt;.</source>
+          <target state="translated">模式标识符传递给方法，例如，&lt;xref:System.Windows.Automation.AutomationElement.GetCurrentPattern%2A&gt;若要检索从指定的&lt;xref:System.Windows.Automation.AutomationElement&gt;.&lt;/xref:System.Windows.Automation.AutomationElement&gt;感兴趣的控件模式&lt;/xref:System.Windows.Automation.AutomationElement.GetCurrentPattern%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
