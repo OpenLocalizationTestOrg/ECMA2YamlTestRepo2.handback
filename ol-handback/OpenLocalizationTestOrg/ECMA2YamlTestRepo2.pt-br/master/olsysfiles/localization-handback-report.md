@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [fulldocset\System.Windows.Forms.DataVisualization.Charting.AnovaResult.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Forms.DataVisualization.Charting.AnovaResult.yml) | InSyncHandedBackSuccess | [Details](#9a189e83856a02315d883ed5e8b59d8c4071702384913)
 
 ## Item Details
-##### <a name='9a189e83856a02315d883ed5e8b59d8c4071702384913'></a> Source: [fulldocset\System.Windows.Forms.DataVisualization.Charting.AnovaResult.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Forms.DataVisualization.Charting.AnovaResult.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Windows.Forms.DataVisualization.Charting.AnovaResult.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/blob/daa702c6dbf16e3d532208317c71a438df18c173/fulldocset/System.Windows.Forms.DataVisualization.Charting.AnovaResult.yml)
-* Handoff File: [System.Windows.Forms.DataVisualization.Charting.AnovaResult.cb1adc2d24fc1819b13c62357922d5a4a4025139.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/72db55450b00c424fa5883892a3a66a8a47646cd/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Windows.Forms.DataVisualization.Charting.AnovaResult.cb1adc2d24fc1819b13c62357922d5a4a4025139.pt-br.xlf)
-* Handoff Datetime: 2017-03-16 04:26:03
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Windows.Forms.DataVisualization.Charting.AnovaResult.cb1adc2d24fc1819b13c62357922d5a4a4025139.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/6a18529cf731a0a30cb5ec72a05089991dac1454/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Windows.Forms.DataVisualization.Charting.AnovaResult.cb1adc2d24fc1819b13c62357922d5a4a4025139.pt-br.xlf)
-* Handback Datetime: 2017-03-20 13:46:15
-* Handback Name: 
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
