@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">743b00cae26b2222671c6733ec6673f60a6aa7b5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Threading.ThreadState.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4339ccc806e16bb613901c0fedb2568b5da50f14</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b58d0f8f571e866a50256a8fec82b65b3451b6b2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the execution states of a <bpt id="p1">&lt;xref href="System.Threading.Thread"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Określa stany wykonywania <bpt id="p1">&lt;xref href="System.Threading.Thread"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ThreadState enumeration is of interest only in a few debugging scenarios.</source>
+          <target state="translated">Wyliczenie ThreadState ma znaczenie tylko w kilku scenariuszach debugowania.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your code should never use the thread state to synchronize the activities of threads.</source>
+          <target state="translated">Kod nigdy nie należy używać stan wątku do synchronizowania działania wątków.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ThreadState defines a set of all possible execution states for threads.</source>
+          <target state="translated">ThreadState definiuje zestaw wszystkie możliwe wykonanie stany wątków.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once a thread is created, it is in at least one of the states until it terminates.</source>
+          <target state="translated">Po utworzeniu wątek jest w co najmniej jednym ze stanów aż do zakończenia go.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Threads created within the common language runtime are initially in the <ph id="ph1">`Unstarted`</ph> state, while external threads that come into the runtime are already in the <ph id="ph2">`Running`</ph> state.</source>
+          <target state="translated">Utworzone w ramach środowisko uruchomieniowe języka wspólnego wątki są początkowo w <ph id="ph1">`Unstarted`</ph> stanu, gdy zewnętrzne wątków, które pochodzą w czasie wykonywania jest już <ph id="ph2">`Running`</ph> stanu.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An <ph id="ph1">`Unstarted`</ph> thread is transitioned into the <ph id="ph2">`Running`</ph> state by calling &lt;xref:System.Threading.Thread.Start%2A&gt;.</source>
+          <target state="translated"><ph id="ph1">`Unstarted`</ph> Wątku jest przekształcona do <ph id="ph2">`Running`</ph> stanu przez wywołanie metody &lt;xref:System.Threading.Thread.Start%2A&gt;.&lt;/xref:System.Threading.Thread.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Not all combinations of <ph id="ph1">`ThreadState`</ph> values are valid; for example, a thread cannot be in both the <ph id="ph2">`Aborted`</ph> and <ph id="ph3">`Unstarted`</ph> states.</source>
+          <target state="translated">Nie wszystkie kombinacje <ph id="ph1">`ThreadState`</ph> wartości są prawidłowe; na przykład wątku nie może być zarówno <ph id="ph2">`Aborted`</ph> i <ph id="ph3">`Unstarted`</ph> stanów.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  There are two thread state enumerations,ThreadState and &lt;xref:System.Diagnostics.ThreadState?displayProperty=fullName&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Istnieją dwa wątku wyliczenia stanu, ThreadState i &lt;xref:System.Diagnostics.ThreadState?displayProperty=fullName&gt;.&lt;/xref:System.Diagnostics.ThreadState?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the actions that cause a change of state.</source>
+          <target state="translated">W poniższej tabeli przedstawiono akcje, które powodują zmiany stanu.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Action|ThreadState|   |------------|-----------------|   |A thread is created within the common language runtime.|Unstarted|   |Another thread calls the &lt;xref:System.Threading.Thread.Start%2A?displayProperty=fullName&gt; method on the new thread, and the call returns.</source>
+          <target state="translated">| Akcja | ThreadState |   |------------|-----------------|   | Wątek jest tworzony w środowisko uruchomieniowe języka wspólnego. | Nierozpoczętych |   | Inny wątek wywołania &lt;xref:System.Threading.Thread.Start%2A?displayProperty=fullName&gt;Metoda nowego wątku i wywołanie zwraca.&lt;/xref:System.Threading.Thread.Start%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Threading.Thread.Start%2A&gt; method does not return until the new thread has started running.</source>
+          <target state="translated">&lt;xref:System.Threading.Thread.Start%2A&gt;Nie może zwracać metoda dopóki nowego wątku uruchomieniu.&lt;/xref:System.Threading.Thread.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no way to know at what point the new thread will start running, during the call to &lt;xref:System.Threading.Thread.Start%2A&gt;.|Running|   |The thread calls &lt;xref:System.Threading.Thread.Sleep%2A&gt;|WaitSleepJoin|   |The thread calls &lt;xref:System.Threading.Monitor.Wait%2A&gt; on another object.|WaitSleepJoin|   |The thread calls &lt;xref:System.Threading.Thread.Join%2A&gt; on another thread.|WaitSleepJoin|   |Another thread calls &lt;xref:System.Threading.Thread.Interrupt%2A&gt;|Running|   |Another thread calls &lt;xref:System.Threading.Thread.Suspend%2A&gt;|SuspendRequested|   |The thread responds to a &lt;xref:System.Threading.Thread.Suspend%2A&gt; request.|Suspended|   |Another thread calls &lt;xref:System.Threading.Thread.Resume%2A&gt;|Running|   |Another thread calls &lt;xref:System.Threading.Thread.Abort%2A&gt;|AbortRequested|   |The thread responds to a &lt;xref:System.Threading.Thread.Abort%2A&gt; request.|Stopped|   |A thread is terminated.|Stopped|       In addition to the states noted above, there is also the <ph id="ph1">`Background`</ph> state, which indicates whether the thread is running in the background or foreground.</source>
+          <target state="translated">Nie istnieje sposób wiedzieć, w jakim punkcie nowego wątku zostanie uruchomione, podczas wywołania &lt;xref:System.Threading.Thread.Start%2A&gt;. | Uruchomiona |   | Wywołania wątku &lt;xref:System.Threading.Thread.Sleep%2A&gt;| WaitSleepJoin |   | Wywołania wątku &lt;xref:System.Threading.Monitor.Wait%2A&gt;na inny obiekt. | WaitSleepJoin |   | Wywołania wątku &lt;xref:System.Threading.Thread.Join%2A&gt;w innym wątku. | WaitSleepJoin |   | Inny wątek wywołania &lt;xref:System.Threading.Thread.Interrupt%2A&gt;| Uruchomiona |   | Inny wątek wywołania &lt;xref:System.Threading.Thread.Suspend%2A&gt;| SuspendRequested |   | Wątek odpowiada na żądania &lt;xref:System.Threading.Thread.Suspend%2A&gt;. | Zawieszone |   | Inny wątek wywołania &lt;xref:System.Threading.Thread.Resume%2A&gt;| Uruchomiona |   | Inny wątek wywołania &lt;xref:System.Threading.Thread.Abort%2A&gt;| AbortRequested |   | Wątek odpowiada na żądania &lt;xref:System.Threading.Thread.Abort%2A&gt;. | Zatrzymano |   | Wątek jest zakończony. | Zatrzymano |       Oprócz stanów opisanymi powyżej, jest również <ph id="ph1">`Background`</ph> stanu, która wskazuje, czy wątek jest uruchomiony w tle lub pierwszego planu.&lt;/xref:System.Threading.Thread.Abort%2A&gt; &lt;/xref:System.Threading.Thread.Abort%2A&gt; &lt;/xref:System.Threading.Thread.Resume%2A&gt; &lt;/xref:System.Threading.Thread.Suspend%2A&gt; &lt;/xref:System.Threading.Thread.Suspend%2A&gt; &lt;/xref:System.Threading.Thread.Interrupt%2A&gt; &lt;/xref:System.Threading.Thread.Join%2A&gt; &lt;/xref:System.Threading.Monitor.Wait%2A&gt; &lt;/xref:System.Threading.Thread.Sleep%2A&gt; &lt;/xref:System.Threading.Thread.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread can be in more than one state at a given time.</source>
+          <target state="translated">Wątek może należeć do więcej niż jednego stanu w danym momencie.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if a thread is blocked on a call to &lt;xref:System.Threading.Monitor.Wait%2A&gt;, and another thread calls &lt;xref:System.Threading.Thread.Abort%2A&gt; on the blocked thread, the blocked thread will be in both the <ph id="ph1">`WaitSleepJoin`</ph> and the <ph id="ph2">`AbortRequested`</ph> states at the same time.</source>
+          <target state="translated">Na przykład, jeśli wątek jest zablokowany na wywołanie &lt;xref:System.Threading.Monitor.Wait%2A&gt;, a innego wywołania wątku &lt;xref:System.Threading.Thread.Abort%2A&gt;w wątku zablokowanych będzie zablokowanych wątków w obu <ph id="ph1">`WaitSleepJoin`</ph> i <ph id="ph2">`AbortRequested`</ph> Państwa, w tym samym czasie.&lt;/xref:System.Threading.Thread.Abort%2A&gt; &lt;/xref:System.Threading.Monitor.Wait%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, as soon as the thread returns from the call to &lt;xref:System.Threading.Monitor.Wait%2A&gt; or is interrupted, it will receive the &lt;xref:System.Threading.ThreadAbortException&gt; to begin aborting.</source>
+          <target state="translated">W tym przypadku natychmiast zwraca wątku z wywołania &lt;xref:System.Threading.Monitor.Wait%2A&gt;lub przerwane, zostanie wyświetlony &lt;xref:System.Threading.ThreadAbortException&gt;zacząć przerywanie.&lt;/xref:System.Threading.ThreadAbortException&gt; &lt;/xref:System.Threading.Monitor.Wait%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Threading.Thread.ThreadState%2A?displayProperty=fullName&gt; property of a thread provides the current state of a thread.</source>
+          <target state="translated">&lt;xref:System.Threading.Thread.ThreadState%2A?displayProperty=fullName&gt;Właściwości wątku podaje bieżący stan wątku.&lt;/xref:System.Threading.Thread.ThreadState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applications must use a bitmask to determine whether a thread is running.</source>
+          <target state="translated">Aplikacje muszą używać maską bitów w celu ustalenia, czy wątek jest uruchomiony.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Since the value for <ph id="ph1">`Running`</ph> is zero (0), test whether a thread is running by using C# code such as <ph id="ph2">`(myThread.ThreadState &amp; (ThreadState.Stopped | ThreadState.Unstarted)) == 0`</ph> or Visual Basic code such as <ph id="ph3">`(myThread.ThreadState And (ThreadState.Stopped Or ThreadState.Unstarted)) = 0`</ph>.</source>
+          <target state="translated">Ponieważ wartość <ph id="ph1">`Running`</ph> zero (0), sprawdź, czy wątek jest uruchomiony przy użyciu kodu C#, takich jak <ph id="ph2">`(myThread.ThreadState &amp; (ThreadState.Stopped | ThreadState.Unstarted)) == 0`</ph> lub kod Visual Basic, takie jak <ph id="ph3">`(myThread.ThreadState And (ThreadState.Stopped Or ThreadState.Unstarted)) = 0`</ph>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The thread state includes AbortRequested and the thread is now dead, but its state has not yet changed to Stopped.</source>
+          <target state="translated">Stan wątku obejmuje AbortRequested wątek jest martwy teraz, a jego stan nie został jeszcze zmieniony na zatrzymane.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.Abort%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method has been invoked on the thread, but the thread has not yet received the pending <bpt id="p1">&lt;xref href="System.Threading.ThreadAbortException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that will attempt to terminate it.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.Threading.Thread.Abort%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metoda została wywołana w wątku, ale nie otrzymało jeszcze wątku oczekujące <bpt id="p1">&lt;xref href="System.Threading.ThreadAbortException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> który będzie próbował przerwać jego działanie.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The thread is being executed as a background thread, as opposed to a foreground thread.</source>
+          <target state="translated">Wątek jest wykonywana jako wątku w tle, w przeciwieństwie do wątku pierwszego planu.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This state is controlled by setting the <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.IsBackground%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property.</source>
+          <target state="translated">Ten stan jest kontrolowany przez ustawienie <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.IsBackground%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> właściwości.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The thread has been started, it is not blocked, and there is no pending <bpt id="p1">&lt;xref href="System.Threading.ThreadAbortException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wątek został uruchomiony, nie jest zablokowany i jest nie do czasu <bpt id="p1">&lt;xref href="System.Threading.ThreadAbortException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The thread has stopped.</source>
+          <target state="translated">Wątek został zatrzymany.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The thread is being requested to stop.</source>
+          <target state="translated">Wątek jest wymagany do zatrzymania.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This is for internal use only.</source>
+          <target state="translated">To jest tylko do użytku wewnętrznego.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The thread has been suspended.</source>
+          <target state="translated">Wątek zostało zawieszone.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The thread is being requested to suspend.</source>
+          <target state="translated">Wątek jest wymagany do wstrzymania.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.Start%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method has not been invoked on the thread.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.Threading.Thread.Start%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> — metoda nie została wywołana w wątku.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The thread is blocked.</source>
+          <target state="translated">Wątek jest zablokowany.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This could be the result of calling <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.Sleep%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> or <ph id="ph3">&amp;lt;</ph>xref:System.Threading.Thread.Join%2A?displayProperty=fullName<ph id="ph4">&amp;gt;</ph>, of requesting a lock — for example, by calling <ph id="ph5">&amp;lt;</ph>xref:System.Threading.Monitor.Enter%2A?displayProperty=fullName<ph id="ph6">&amp;gt;</ph> or <ph id="ph7">&amp;lt;</ph>xref:System.Threading.Monitor.Wait%2A?displayProperty=fullName<ph id="ph8">&amp;gt;</ph> — or of waiting on a thread synchronization object such as &lt;xref:System.Threading.ManualResetEvent&gt;.</source>
+          <target state="translated">Może to być wyniku wywołania metody <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.Sleep%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> lub <ph id="ph3">&amp;lt;</ph>xref:System.Threading.Thread.Join%2A?displayProperty=fullName<ph id="ph4">&amp;gt;</ph>, żądania blokady — na przykład wywołując <ph id="ph5">&amp;lt;</ph>xref:System.Threading.Monitor.Enter%2A?displayProperty=fullName<ph id="ph6">&amp;gt;</ph> lub <ph id="ph7">&amp;lt;</ph>xref:System.Threading.Monitor.Wait%2A?displayProperty=fullName<ph id="ph8">&amp;gt;</ph> — lub Oczekiwanie na obiekt synchronizacji wątku, takich jak &lt;xref:System.Threading.ManualResetEvent&gt;.&lt;/xref:System.Threading.ManualResetEvent&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
