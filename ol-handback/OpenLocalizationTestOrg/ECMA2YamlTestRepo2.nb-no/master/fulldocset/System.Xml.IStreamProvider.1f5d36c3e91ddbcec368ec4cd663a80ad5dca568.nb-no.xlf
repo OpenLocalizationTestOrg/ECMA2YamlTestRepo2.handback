@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a0a2350f797e7004899be2ae99afc26fc6c0ed1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xml.IStreamProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c453596205532990f9448fbc498db02ca8196896</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">553334242ad2dd9aa062f7f1675ed8528d2843c2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an interface that can be implemented by classes providing streams.</source>
+          <target state="translated">Representerer et grensesnitt som kan implementeres av klasser gir dataflyter.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When writing an outgoing message containing a streamed body to an XML writer, the &lt;xref:System.ServiceModel.Channels.Message&gt; will use a sequence of calls similar to the following in its &lt;xref:System.ServiceModel.Channels.Message.OnWriteBodyContents%28System.Xml.XmlDictionaryWriter%29&gt; implementation:      -   Write any necessary information preceding the stream (For example, the opening XML tag).</source>
+          <target state="translated">Under skriving av en utgående melding som inneholder en flyt brødtekst til en XML-writer den &lt;xref:System.ServiceModel.Channels.Message&gt;bruker en sekvens av anrop som er lik følgende i den &lt;xref:System.ServiceModel.Channels.Message.OnWriteBodyContents%28System.Xml.XmlDictionaryWriter%29&gt;implementering:-skrive nødvendig informasjon foregående dataflyten (For eksempel åpner XML-kode).&lt;/xref:System.ServiceModel.Channels.Message.OnWriteBodyContents%28System.Xml.XmlDictionaryWriter%29&gt; &lt;/xref:System.ServiceModel.Channels.Message&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Write the stream.</source>
+          <target state="translated">-Skrive til dataflyten.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Write any information following the stream (For example, the closing XML tag).</source>
+          <target state="translated">-Skrive informasjon følgende dataflyten (For eksempel avsluttende XML-kode).</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This works well with encodings that are similar to the textual XML encoding.</source>
+          <target state="translated">Dette fungerer bra koder som er lik den tekstbaserte XML-koding.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, there are some encodings that do not place XML infoset information (For example, tags for starting and ending XML elements) together with the data contained within elements.</source>
+          <target state="translated">Det er imidlertid enkelte koding som ikke setter XML-infoset informasjon (For eksempel koder for første og siste XML-elementer) sammen med dataene i elementer.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the MTOM encoding, the message is split into multiple parts.</source>
+          <target state="translated">Med MTOM-koding, er for eksempel meldingen delt i flere deler.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>One part contains the XML infoset, which may contain references to other parts for actual element contents.</source>
+          <target state="translated">Én del inneholder XML-infoset, som kan inneholde referanser til andre deler for faktiske elementet innholdet.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Since the XML infoset will normally be small compared to the streamed contents, it makes sense to buffer the infoset, write it out, and then write the contents in a streamed way.</source>
+          <target state="translated">Fordi XML-infoset vanligvis blir lavt sammenlignet flyt innholdet, gjør meningsløst buffer i infoset, skrive det ut og skrive til innholdet i en flyt måte.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that by the time the closing element tag is written, we should not have written out the stream yet.</source>
+          <target state="translated">Dette betyr at når avsluttende objektkode er skrevet, vi skal har ennå ikke er skrevet av dataflyten.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For this purpose, the IStreamProvider interface is used.</source>
+          <target state="translated">Grensesnittet IStreamProvider brukes for dette formålet.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The interface has a &lt;xref:System.Xml.IStreamProvider.GetStream&gt; method that returns the stream to be written.</source>
+          <target state="translated">Grensesnittet er en &lt;xref:System.Xml.IStreamProvider.GetStream&gt;metode som returnerer dataflyten skrives.&lt;/xref:System.Xml.IStreamProvider.GetStream&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The correct way to write out a streamed message body in &lt;xref:System.ServiceModel.Channels.Message.OnWriteBodyContents%28System.Xml.XmlDictionaryWriter%29&gt; is as follows:      -   Write any necessary information preceding the stream (For example, the opening XML tag)      -   Call the <ph id="ph1">`WriteValue`</ph> overload on the &lt;xref:System.Xml.XmlDictionaryWriter&gt; that takes an IStreamProvider, with an <ph id="ph2">`IStreamProvider`</ph> implementation that returns the stream to be written.</source>
+          <target state="translated">Den riktige måten å skrive ut en flyt meldingsteksten i &lt;xref:System.ServiceModel.Channels.Message.OnWriteBodyContents%28System.Xml.XmlDictionaryWriter%29&gt;som følger: - skrive nødvendig informasjon foregående dataflyten (For eksempel åpner XML-kode) - kall i <ph id="ph1">`WriteValue`</ph> overbelaste på den &lt;xref:System.Xml.XmlDictionaryWriter&gt;som tar en IStreamProvider med en <ph id="ph2">`IStreamProvider`</ph> implementering som returnerer dataflyten skrives.&lt;/xref:System.Xml.XmlDictionaryWriter&gt; &lt;/xref:System.ServiceModel.Channels.Message.OnWriteBodyContents%28System.Xml.XmlDictionaryWriter%29&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Write any information following the stream (For example, the closing XML tag)       With this approach, the XML writer has a choice of when to call &lt;xref:System.Xml.IStreamProvider.GetStream&gt; and write out the streamed data.</source>
+          <target state="translated">-Skrive informasjon følgende dataflyten (For eksempel avsluttende XML-kode) med denne tilnærmingen, XML-skriveren har mulighet til å angi når å kalle &lt;xref:System.Xml.IStreamProvider.GetStream&gt;og skrive ut flyt dataene.&lt;/xref:System.Xml.IStreamProvider.GetStream&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the textual and binary XML writers will call it immediately and write out the streamed contents in between the start and end tags.</source>
+          <target state="translated">De tekstbaserte og binære XML-forfatterne vil for eksempel kalle den umiddelbart og skrive ut flyt innholdet mellom start og end-koder.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MTOM writer may decide to call &lt;xref:System.Xml.IStreamProvider.GetStream&gt; later, when it is ready to write the appropriate part of the message.</source>
+          <target state="translated">MTOM-skriveren kan velge å kalle &lt;xref:System.Xml.IStreamProvider.GetStream&gt;senere, når den er klar til å skrive den riktige delen av meldingen.&lt;/xref:System.Xml.IStreamProvider.GetStream&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets a stream.</source>
+          <target state="translated">Henter en dataflyt.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to return the stream to be written.</source>
+          <target state="translated">Denne metoden kan brukes til å returnere dataflyten skrives.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.Stream&gt; object.</source>
+          <target state="translated">En &lt;xref:System.IO.Stream&gt;objektet.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Releases a stream to output.</source>
+          <target state="translated">Frigir en dataflyt i utdata.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The stream being released.</source>
+          <target state="translated">Dataflyten frigis.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

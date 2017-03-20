@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">73eade37beedd3799e27434ce7c93d78bbaad9f1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Serialization.ObjectManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dc1a902c6336fe6dc6c2f24417c18fde0755d325</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">793fe101653f32f5211f48489b432cedfd20a496</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Keeps track of objects as they are deserialized.</source>
+          <target state="translated">Mantém um registo dos objetos, como os estão a anular a serialização.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During deserialization, the &lt;xref:System.Runtime.Serialization.Formatter&gt; queries the ObjectManager to determine whether a reference to an object in the serialized stream refers to an object that has already been deserialized (a backward reference), or to an object that has not yet been deserialized (a forward reference).</source>
+          <target state="translated">Durante a desserialização, o &lt;xref:System.Runtime.Serialization.Formatter&gt;consulta o ObjectManager para determinar se uma referência a um objeto na sequência serializada referencia um objeto que já foi serialização anulado (uma referência com versões anteriores), ou a um objeto que ainda não foi anulado (uma referência direta).&lt;/xref:System.Runtime.Serialization.Formatter&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the reference in the serialized stream is a forward reference, then the &lt;xref:System.Runtime.Serialization.Formatter&gt; can register a fixup with the ObjectManager.</source>
+          <target state="translated">Se a referência no fluxo serializado é uma referência direta, em seguida, a &lt;xref:System.Runtime.Serialization.Formatter&gt;pode registar uma correcção o ObjectManager.&lt;/xref:System.Runtime.Serialization.Formatter&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the reference in the serialized stream is a backward reference, the &lt;xref:System.Runtime.Serialization.Formatter&gt; immediately completes the reference.</source>
+          <target state="translated">Se a referência no fluxo serializado é uma referência com versões anteriores, o &lt;xref:System.Runtime.Serialization.Formatter&gt;imediatamente conclui a referência.&lt;/xref:System.Runtime.Serialization.Formatter&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Fixup refers to the process of finalizing object references not already completed during the object deserialization process.</source>
+          <target state="translated">A correção refere-se ao processo de finalizar as referências de objeto não foi concluídas durante o processo de anulação da serialização do objeto.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the required object has been deserialized, the ObjectManager will complete the reference.</source>
+          <target state="translated">Depois do objeto necessário tem foi anulado, o ObjectManager irá concluir a referência.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ObjectManager follows a set of rules that dictate the fixup order.</source>
+          <target state="translated">O ObjectManager segue um conjunto de regras que estipulam a ordem de correção.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All objects that implement &lt;xref:System.Runtime.Serialization.ISerializable&gt; or have a &lt;xref:System.Runtime.Serialization.ISerializationSurrogate&gt; can expect to have all the objects that they transmitted through &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; available when the object tree is deserialized.</source>
+          <target state="translated">Todos os objetos que implementem &lt;xref:System.Runtime.Serialization.ISerializable&gt;ou tem um &lt;xref:System.Runtime.Serialization.ISerializationSurrogate&gt;pode esperar ter todos os objetos que são transmitidos através de &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;disponíveis quando é anular a serialização da árvore de objetos.&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt; &lt;/xref:System.Runtime.Serialization.ISerializationSurrogate&gt; &lt;/xref:System.Runtime.Serialization.ISerializable&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, a parent object cannot presume that all its child objects will be fully completed when it is fully deserialized.</source>
+          <target state="translated">No entanto, um objeto principal não é possível presumem que todos os seus objetos subordinados irão ser totalmente concluídos quando totalmente está a ser anulada.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All child objects will be present but not all the grandchild objects will necessarily be present.</source>
+          <target state="translated">Todos os objetos subordinados estará presentes, mas nem todos os objetos de grandchild necessariamente estará presentes.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an object needs to take certain actions that depend on executing code on its child objects, it can delay these actions, implement the &lt;xref:System.Runtime.Serialization.IDeserializationCallback&gt; interface, and execute the code only when it is called back on this interface.</source>
+          <target state="translated">Se precisar de um objeto efetuar determinadas ações que dependem executar código no seus objetos subordinados, pode atrasar estas ações, implementar o &lt;xref:System.Runtime.Serialization.IDeserializationCallback&gt;interface e execute o código apenas quando é denominado atrás nesta interface.&lt;/xref:System.Runtime.Serialization.IDeserializationCallback&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.ObjectManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Runtime.Serialization.ObjectManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The surrogate selector to use.</source>
+          <target state="translated">O Seletor de substituição para utilizar.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.ISurrogateSelector"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> determines the correct surrogate to use when deserializing objects of a given type.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Runtime.Serialization.ISurrogateSelector"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> determina o substituto correto a utilizar quando anular a serialização dos objetos de um determinado tipo.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>At deserialization time, the surrogate selector creates a new instance of the object from the information transmitted on the stream.</source>
+          <target state="translated">Durante a anulação da serialização, o Seletor de substituição cria uma nova instância do objeto de informações transmitidas em sequência.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The streaming context.</source>
+          <target state="translated">O contexto de transmissão em fluxo.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.Serialization.StreamingContext&gt; is not used by <bpt id="p1">&lt;xref uid="langword_csharp_ObjectManager" name="ObjectManager" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, but is passed as a parameter to any objects implementing <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or having a <bpt id="p3">&lt;xref href="System.Runtime.Serialization.ISerializationSurrogate"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O &lt;xref:System.Runtime.Serialization.StreamingContext&gt;não é utilizado pelo <bpt id="p1">&lt;xref uid="langword_csharp_ObjectManager" name="ObjectManager" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, mas é transmitida como um parâmetro para quaisquer objetos implementar <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> ou ter um <bpt id="p3">&lt;xref href="System.Runtime.Serialization.ISerializationSurrogate"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>These objects can take specific actions depending on the source of the information to deserialize.</source>
+          <target state="translated">Estes objetos podem executar ações específicas, dependendo da origem de informações para anular a serialização.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">O chamador não tem a permissão necessária.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Performs all the recorded fixups.</source>
+          <target state="translated">Executa todos os correcções registadas.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fixups are carried out by any appropriate surrogate, the object itself (if it implements &lt;xref:System.Runtime.Serialization.ISerializable&gt;), or the default implementation.</source>
+          <target state="translated">As correcções são executadas por qualquer substituto adequado, o objeto de si próprio (se implementa &lt;xref:System.Runtime.Serialization.ISerializable&gt;), ou a implementação predefinida.&lt;/xref:System.Runtime.Serialization.ISerializable&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A fixup was not successfully completed.</source>
+          <target state="translated">Uma correcção não foi concluída com êxito.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Returns the object with the specified object ID.</source>
+          <target state="translated">Devolve o objeto com o ID de objeto especificado.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An object can be registered and issued an object ID with a call to the &lt;xref:System.Runtime.Serialization.ObjectManager.RegisterObject%2A&gt; method.</source>
+          <target state="translated">Um objeto pode ser registado e emitido um ID de objeto com uma chamada para o &lt;xref:System.Runtime.Serialization.ObjectManager.RegisterObject%2A&gt;método.&lt;/xref:System.Runtime.Serialization.ObjectManager.RegisterObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The ID of the requested object.</source>
+          <target state="translated">O ID do objeto pedido.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The object with the specified object ID if it has been previously stored or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no such object has been registered.</source>
+          <target state="translated">O objeto com o ID de objeto especificado se foram anteriormente armazenado ou <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> não se tiver sido registado nenhum esse objeto.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than or equal to zero.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectID</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro é inferior ou igual a zero.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Raises the deserialization event to any registered object that implements <bpt id="p1">&lt;xref href="System.Runtime.Serialization.IDeserializationCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gera o evento de anulação de serialização para qualquer objeto registado que implementa <bpt id="p1">&lt;xref href="System.Runtime.Serialization.IDeserializationCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Invokes the method marked with the &lt;xref:System.Runtime.Serialization.OnDeserializingAttribute&gt;.</source>
+          <target state="translated">Invoca o método marcado com &lt;xref:System.Runtime.Serialization.OnDeserializingAttribute&gt;.&lt;/xref:System.Runtime.Serialization.OnDeserializingAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The instance of the type that contains the method to be invoked.</source>
+          <target state="translated">A instância do tipo que contém o método para ser invocado.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Records a fixup for one element in an array.</source>
+          <target state="translated">Regista uma correção para um elemento numa matriz.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fixup is for a specified element of a specified array.</source>
+          <target state="translated">A correção destina-se um elemento especificado de uma matriz especificada.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value used during the fixup process is provided in the <ph id="ph1">`objectRequired`</ph> parameter.</source>
+          <target state="translated">O valor utilizado durante o processo de correção é fornecido no <ph id="ph1">`objectRequired`</ph> parâmetro.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The ID of the array used to record a fixup.</source>
+          <target state="translated">O ID da matriz utilizado para registar uma correção.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The index within <ph id="ph1">`arrayFixup`</ph> that a fixup is requested for.</source>
+          <target state="translated">O índice na <ph id="ph1">`arrayFixup`</ph> que uma correcção for solicitada.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The ID of the object that the current array element will point to after fixup is completed.</source>
+          <target state="translated">O ID do objeto que o elemento de matriz atual irá apontar para a correção esteja concluída.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">arrayToBeFixed</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">objectRequired</ph><ept id="p2">&lt;/code&gt;</ept> parameter is less than or equal to zero.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">arrayToBeFixed</ph> <ept id="p1">&lt;/code&gt;</ept> ou <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">objectRequired</ph> <ept id="p2">&lt;/code&gt;</ept> parâmetro é inferior ou igual a zero.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">index</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">index</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Records fixups for the specified elements in an array, to be executed later.</source>
+          <target state="translated">Correcções de registos para os elementos especificados numa matriz, para ser executada mais tarde.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fixup is for specified elements of a specified array.</source>
+          <target state="translated">A correção destina-se a elementos especificados de uma matriz especificada.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value used during the fixup process is provided in the <ph id="ph1">`objectRequired`</ph> parameter.</source>
+          <target state="translated">O valor utilizado durante o processo de correção é fornecido no <ph id="ph1">`objectRequired`</ph> parâmetro.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The ID of the array used to record a fixup.</source>
+          <target state="translated">O ID da matriz utilizado para registar uma correção.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The indexes within the multidimensional array that a fixup is requested for.</source>
+          <target state="translated">Os índices na matriz multidimensional que uma correcção for solicitada.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The ID of the object the array elements will point to after fixup is completed.</source>
+          <target state="translated">O ID do objeto os elementos de matriz irão apontar para a correção esteja concluída.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">arrayToBeFixed</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">objectRequired</ph><ept id="p2">&lt;/code&gt;</ept> parameter is less than or equal to zero.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">arrayToBeFixed</ph> <ept id="p1">&lt;/code&gt;</ept> ou <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">objectRequired</ph> <ept id="p2">&lt;/code&gt;</ept> parâmetro é inferior ou igual a zero.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">indices</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">indices</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Records a fixup for an object member, to be executed later.</source>
+          <target state="translated">Regista uma correção para um membro de objeto, para ser executada mais tarde.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fixup is for a specified member of a specified object.</source>
+          <target state="translated">A correção destina-se um membro especificado de um objeto especificado.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value to be used during the fixup process is provided as the <ph id="ph1">`objectRequired`</ph> argument.</source>
+          <target state="translated">O valor a ser utilizado durante o processo de correção é fornecido tal como o <ph id="ph1">`objectRequired`</ph> argumento.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The ID of the object that needs the reference to <ph id="ph1">`objectRequired`</ph>.</source>
+          <target state="translated">O ID do objeto que tem a referência ao <ph id="ph1">`objectRequired`</ph>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The member name of <ph id="ph1">`objectToBeFixed`</ph> where the fixup will be performed.</source>
+          <target state="translated">O nome de membro de <ph id="ph1">`objectToBeFixed`</ph> onde será efetuada a correção.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The ID of the object required by <ph id="ph1">`objectToBeFixed`</ph>.</source>
+          <target state="translated">O ID do objeto de <ph id="ph1">`objectToBeFixed`</ph>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;objectToBeFixed&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;objectRequired&lt;/code&gt;</ph> parameter is less than or equal to zero.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;objectToBeFixed&lt;/code&gt;</ph>ou <ph id="ph2">&lt;code&gt;objectRequired&lt;/code&gt;</ph> parâmetro é inferior ou igual a zero.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">memberName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">memberName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Records a fixup for a member of an object, to be executed later.</source>
+          <target state="translated">Regista uma correcção de membro de um objeto ser executada mais tarde.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fixup is for a specified member of a specified object.</source>
+          <target state="translated">A correção destina-se um membro especificado de um objeto especificado.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value to be used during the fixup process is provided as the <ph id="ph1">`objectRequired`</ph> parameter.</source>
+          <target state="translated">O valor a ser utilizado durante o processo de correção é fornecido tal como o <ph id="ph1">`objectRequired`</ph> parâmetro.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The ID of the object that needs the reference to the <ph id="ph1">`objectRequired`</ph> object.</source>
+          <target state="translated">O ID do objeto que tem a referência para o <ph id="ph1">`objectRequired`</ph> objeto.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The member of <ph id="ph1">`objectToBeFixed`</ph> where the fixup will be performed.</source>
+          <target state="translated">O membro de <ph id="ph1">`objectToBeFixed`</ph> onde será efetuada a correção.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The ID of the object required by <ph id="ph1">`objectToBeFixed`</ph>.</source>
+          <target state="translated">O ID do objeto de <ph id="ph1">`objectToBeFixed`</ph>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectToBeFixed</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">objectRequired</ph><ept id="p2">&lt;/code&gt;</ept> parameter is less than or equal to zero.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectToBeFixed</ph> <ept id="p1">&lt;/code&gt;</ept> ou <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">objectRequired</ph> <ept id="p2">&lt;/code&gt;</ept> parâmetro é inferior ou igual a zero.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">member</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">member</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Registers an object as it is deserialized, associating it with <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Regista um objeto que é anular a serialização, associação do mesmo com <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectID</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Runtime.Serialization.ObjectManager&gt; retains information about both the object and its ID.</source>
+          <target state="translated">&lt;xref:System.Runtime.Serialization.ObjectManager&gt;mantém as informações sobre o objeto e um ID.&lt;/xref:System.Runtime.Serialization.ObjectManager&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Later during deserialization, &lt;xref:System.Runtime.Serialization.ObjectManager.GetObject%2A&gt; can be used to determine whether a particular object ID has already been deserialized, or whether it is a forward reference to an object that has not yet been deserialized.</source>
+          <target state="translated">Posterior durante a desserialização, &lt;xref:System.Runtime.Serialization.ObjectManager.GetObject%2A&gt;pode ser utilizado para determinar se um ID de objeto específico já foi anulada, ou se é uma referência de reencaminhar a um objeto que ainda não foi anulada.&lt;/xref:System.Runtime.Serialization.ObjectManager.GetObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The object to register.</source>
+          <target state="translated">O objeto a registar.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The ID of the object to register.</source>
+          <target state="translated">O ID do objeto para registar.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than or equal to zero.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectID</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro é inferior ou igual a zero.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept> has already been registered for an object other than <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">obj</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectID</ph> <ept id="p1">&lt;/code&gt;</ept> já foi registado para um objeto que <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">obj</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Registers an object as it is deserialized, associating it with <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept>, and recording the <bpt id="p2">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> used with it.</source>
+          <target state="translated">Regista um objeto que é anular a serialização, associação do mesmo com <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectID</ph> <ept id="p1">&lt;/code&gt;</ept>e da gravação de <bpt id="p2">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> utilizado com o mesmo.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Runtime.Serialization.ObjectManager&gt; retains the information about both the object and its ID.</source>
+          <target state="translated">&lt;xref:System.Runtime.Serialization.ObjectManager&gt;mantém as informações sobre o objeto e um ID.&lt;/xref:System.Runtime.Serialization.ObjectManager&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Later during deserialization, you can use &lt;xref:System.Runtime.Serialization.ObjectManager.GetObject%2A&gt; to discover whether a particular object ID has already been deserialized, or if it is a forward reference to an object that has not yet been deserialized.</source>
+          <target state="translated">Mais tarde durante a desserialização, pode utilizar &lt;xref:System.Runtime.Serialization.ObjectManager.GetObject%2A&gt;para detetar se um determinado objeto ID já foi anulado ou se é uma referência de reencaminhar a um objeto que ainda não foi anulada.&lt;/xref:System.Runtime.Serialization.ObjectManager.GetObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The object to register.</source>
+          <target state="translated">O objeto a registar.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The ID of the object to register.</source>
+          <target state="translated">O ID do objeto para registar.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used if <ph id="ph1">`obj`</ph> implements <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or has a <bpt id="p3">&lt;xref href="System.Runtime.Serialization.ISerializationSurrogate"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used if <ph id="ph1">`obj`</ph> implements <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or has a <bpt id="p3">&lt;xref href="System.Runtime.Serialization.ISerializationSurrogate"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`info`</ph> will be completed with any required fixup information and then passed to the required object when that object is completed.</source>
+          <target state="translated"><ph id="ph1">`info`</ph>será concluída com as informações de correcção necessárias e, em seguida, transmitidos para o objeto necessário quando esse objeto é concluído.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than or equal to zero.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectID</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro é inferior ou igual a zero.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept> has already been registered for an object other than <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">obj</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectID</ph> <ept id="p1">&lt;/code&gt;</ept> já foi registado para um objeto que <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">obj</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Registers a member of an object as it is deserialized, associating it with <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept>, and recording the <bpt id="p2">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Regista um membro de um objeto que é anular a serialização, associação do mesmo com <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectID</ph> <ept id="p1">&lt;/code&gt;</ept>e da gravação de <bpt id="p2">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You need to provide the <ph id="ph1">`member`</ph> and <ph id="ph2">`idOfContainingObj`</ph> parameters if <ph id="ph3">`obj`</ph> is a &lt;xref:System.ValueType&gt; because of the way fixups are performed on &lt;xref:System.ValueType&gt; objects.</source>
+          <target state="translated">Tem de fornecer o <ph id="ph1">`member`</ph> e <ph id="ph2">`idOfContainingObj`</ph> parâmetros se <ph id="ph3">`obj`</ph> é um &lt;xref:System.ValueType&gt;devido a forma como as correcções são executadas no &lt;xref:System.ValueType&gt;objetos.&lt;/xref:System.ValueType&gt; &lt;/xref:System.ValueType&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The space to store the information for a &lt;xref:System.ValueType&gt; is allocated inline with its containing object.</source>
+          <target state="translated">O espaço para armazenar as informações de um &lt;xref:System.ValueType&gt;atribuída inline com o respetivo objeto de contentor.&lt;/xref:System.ValueType&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, when the &lt;xref:System.ValueType&gt; is boxed to be registered with the &lt;xref:System.Runtime.Serialization.ObjectManager&gt;, it loses the connection with its containing object.</source>
+          <target state="translated">No entanto, quando o &lt;xref:System.ValueType&gt;boxed registado com o &lt;xref:System.Runtime.Serialization.ObjectManager&gt;, perder a ligação com o respetivo objeto de contentor.&lt;/xref:System.Runtime.Serialization.ObjectManager&gt; &lt;/xref:System.ValueType&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To guarantee that fixups occur in the instance of the &lt;xref:System.ValueType&gt; stored in the containing object and not in the boxed instance, the &lt;xref:System.Runtime.Serialization.ObjectManager&gt; retains some additional information.</source>
+          <target state="translated">Para garantir que as correcções ocorrerem na instância do &lt;xref:System.ValueType&gt;armazenado no objeto contentor e não na instância boxed, o &lt;xref:System.Runtime.Serialization.ObjectManager&gt;mantém algumas informações adicionais.&lt;/xref:System.Runtime.Serialization.ObjectManager&gt; &lt;/xref:System.ValueType&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Runtime.Serialization.ObjectManager&gt; retains information about both the object and its ID.</source>
+          <target state="translated">&lt;xref:System.Runtime.Serialization.ObjectManager&gt;mantém as informações sobre o objeto e um ID.&lt;/xref:System.Runtime.Serialization.ObjectManager&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Later during deserialization, &lt;xref:System.Runtime.Serialization.ObjectManager.GetObject%2A&gt; can be used to discover whether a particular object ID has already been deserialized, or whether it is a forward reference to an object not yet deserialized.</source>
+          <target state="translated">Posterior durante a desserialização, &lt;xref:System.Runtime.Serialization.ObjectManager.GetObject%2A&gt;pode ser utilizado para detetar se um ID de objeto específico já foi anulada ou ainda se uma referência de reencaminhar a um objeto não está a ser anulada.&lt;/xref:System.Runtime.Serialization.ObjectManager.GetObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The object to register.</source>
+          <target state="translated">O objeto a registar.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The ID of the object to register.</source>
+          <target state="translated">O ID do objeto para registar.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used if <ph id="ph1">`obj`</ph> implements <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or has a <bpt id="p3">&lt;xref href="System.Runtime.Serialization.ISerializationSurrogate"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used if <ph id="ph1">`obj`</ph> implements <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or has a <bpt id="p3">&lt;xref href="System.Runtime.Serialization.ISerializationSurrogate"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`info`</ph> will be completed with any required fixup information and then passed to the required object when that object is completed.</source>
+          <target state="translated"><ph id="ph1">`info`</ph>será concluída com as informações de correcção necessárias e, em seguida, transmitidos para o objeto necessário quando esse objeto é concluído.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The ID of the object that contains <ph id="ph1">`obj`</ph>.</source>
+          <target state="translated">O ID do objeto que contém <ph id="ph1">`obj`</ph>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This parameter is required only if <ph id="ph1">`obj`</ph> is a value type.</source>
+          <target state="translated">Este parâmetro só é necessário se <ph id="ph1">`obj`</ph> é um tipo de valor.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The field in the containing object where <ph id="ph1">`obj`</ph> exists.</source>
+          <target state="translated">O campo no objeto contentor onde <ph id="ph1">`obj`</ph> existe.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This parameter has meaning only if <ph id="ph1">`obj`</ph> is a value type.</source>
+          <target state="translated">Este parâmetro tem significado apenas se <ph id="ph1">`obj`</ph> é um tipo de valor.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than or equal to zero.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectID</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro é inferior ou igual a zero.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept> has already been registered for an object other than <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">obj</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">member</ph><ept id="p3">&lt;/code&gt;</ept> is not a &lt;xref:System.Reflection.FieldInfo&gt; and <bpt id="p4">&lt;code&gt;</bpt><ph id="ph4">member</ph><ept id="p4">&lt;/code&gt;</ept> is not <bpt id="p5">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept> has already been registered for an object other than <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">obj</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">member</ph><ept id="p3">&lt;/code&gt;</ept> is not a &lt;xref:System.Reflection.FieldInfo&gt; and <bpt id="p4">&lt;code&gt;</bpt><ph id="ph4">member</ph><ept id="p4">&lt;/code&gt;</ept> is not <bpt id="p5">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.FieldInfo&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Registers a member of an array contained in an object while it is deserialized, associating it with <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept>, and recording the <bpt id="p2">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Regista um membro de uma matriz contida um objeto enquanto é anulada, a associação do mesmo com <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectID</ph> <ept id="p1">&lt;/code&gt;</ept>e da gravação de <bpt id="p2">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You need to provide the <ph id="ph1">`member`</ph> and <ph id="ph2">`idOfContainingObj`</ph> parameters if <ph id="ph3">`obj`</ph> is a &lt;xref:System.ValueType&gt; because of the way fixups are performed on &lt;xref:System.ValueType&gt; objects.</source>
+          <target state="translated">Tem de fornecer o <ph id="ph1">`member`</ph> e <ph id="ph2">`idOfContainingObj`</ph> parâmetros se <ph id="ph3">`obj`</ph> é um &lt;xref:System.ValueType&gt;devido a forma como as correcções são executadas no &lt;xref:System.ValueType&gt;objetos.&lt;/xref:System.ValueType&gt; &lt;/xref:System.ValueType&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The space to store the information for a &lt;xref:System.ValueType&gt; is allocated inline with its containing object.</source>
+          <target state="translated">O espaço para armazenar as informações de um &lt;xref:System.ValueType&gt;atribuída inline com o respetivo objeto de contentor.&lt;/xref:System.ValueType&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, when the &lt;xref:System.ValueType&gt; is boxed to be registered with the &lt;xref:System.Runtime.Serialization.ObjectManager&gt;, it loses the connection with its containing object.</source>
+          <target state="translated">No entanto, quando o &lt;xref:System.ValueType&gt;boxed registado com o &lt;xref:System.Runtime.Serialization.ObjectManager&gt;, perder a ligação com o respetivo objeto de contentor.&lt;/xref:System.Runtime.Serialization.ObjectManager&gt; &lt;/xref:System.ValueType&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To guarantee that fixups occur in the instance of the &lt;xref:System.ValueType&gt; stored in the containing object and not in the boxed instance, the &lt;xref:System.Runtime.Serialization.ObjectManager&gt; retains some additional information.</source>
+          <target state="translated">Para garantir que as correcções ocorrerem na instância do &lt;xref:System.ValueType&gt;armazenado no objeto contentor e não na instância boxed, o &lt;xref:System.Runtime.Serialization.ObjectManager&gt;mantém algumas informações adicionais.&lt;/xref:System.Runtime.Serialization.ObjectManager&gt; &lt;/xref:System.ValueType&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Runtime.Serialization.ObjectManager&gt; retains information about both the object and its ID.</source>
+          <target state="translated">&lt;xref:System.Runtime.Serialization.ObjectManager&gt;mantém as informações sobre o objeto e um ID.&lt;/xref:System.Runtime.Serialization.ObjectManager&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Later during deserialization, &lt;xref:System.Runtime.Serialization.ObjectManager.GetObject%2A&gt; can be used to discover whether a particular object ID has already been deserialized, or whether it is a forward reference to an object not yet deserialized.</source>
+          <target state="translated">Posterior durante a desserialização, &lt;xref:System.Runtime.Serialization.ObjectManager.GetObject%2A&gt;pode ser utilizado para detetar se um ID de objeto específico já foi anulada ou ainda se uma referência de reencaminhar a um objeto não está a ser anulada.&lt;/xref:System.Runtime.Serialization.ObjectManager.GetObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The object to register.</source>
+          <target state="translated">O objeto a registar.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The ID of the object to register.</source>
+          <target state="translated">O ID do objeto para registar.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used if <ph id="ph1">`obj`</ph> implements <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or has a <bpt id="p3">&lt;xref href="System.Runtime.Serialization.ISerializationSurrogate"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used if <ph id="ph1">`obj`</ph> implements <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or has a <bpt id="p3">&lt;xref href="System.Runtime.Serialization.ISerializationSurrogate"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`info`</ph> will be completed with any required fixup information and then passed to the required object when that object is completed.</source>
+          <target state="translated"><ph id="ph1">`info`</ph>será concluída com as informações de correcção necessárias e, em seguida, transmitidos para o objeto necessário quando esse objeto é concluído.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The ID of the object that contains <ph id="ph1">`obj`</ph>.</source>
+          <target state="translated">O ID do objeto que contém <ph id="ph1">`obj`</ph>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This parameter is required only if <ph id="ph1">`obj`</ph> is a value type.</source>
+          <target state="translated">Este parâmetro só é necessário se <ph id="ph1">`obj`</ph> é um tipo de valor.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The field in the containing object where <ph id="ph1">`obj`</ph> exists.</source>
+          <target state="translated">O campo no objeto contentor onde <ph id="ph1">`obj`</ph> existe.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This parameter has meaning only if <ph id="ph1">`obj`</ph> is a value type.</source>
+          <target state="translated">Este parâmetro tem significado apenas se <ph id="ph1">`obj`</ph> é um tipo de valor.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`obj`</ph> is a &lt;xref:System.ValueType&gt; and a member of an array, <ph id="ph2">`arrayIndex`</ph> contains the index within that array where <ph id="ph3">`obj`</ph> exists.</source>
+          <target state="translated">Se <ph id="ph1">`obj`</ph> é um &lt;xref:System.ValueType&gt;e um membro de uma matriz, <ph id="ph2">`arrayIndex`</ph> contém o índice que matriz onde <ph id="ph3">`obj`</ph> existe.&lt;/xref:System.ValueType&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`arrayIndex`</ph> is ignored if <ph id="ph2">`obj`</ph> is not both a &lt;xref:System.ValueType&gt; and a member of an array.</source>
+          <target state="translated"><ph id="ph1">`arrayIndex`</ph>é ignorada se <ph id="ph2">`obj`</ph> não é ambos um &lt;xref:System.ValueType&gt;e um membro de uma matriz.&lt;/xref:System.ValueType&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than or equal to zero.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectID</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro é inferior ou igual a zero.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept> has already been registered for an object other than <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">obj</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">member</ph><ept id="p3">&lt;/code&gt;</ept> is not a &lt;xref:System.Reflection.FieldInfo&gt; and <bpt id="p4">&lt;code&gt;</bpt><ph id="ph4">member</ph><ept id="p4">&lt;/code&gt;</ept> isn't <bpt id="p5">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectID</ph><ept id="p1">&lt;/code&gt;</ept> has already been registered for an object other than <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">obj</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">member</ph><ept id="p3">&lt;/code&gt;</ept> is not a &lt;xref:System.Reflection.FieldInfo&gt; and <bpt id="p4">&lt;code&gt;</bpt><ph id="ph4">member</ph><ept id="p4">&lt;/code&gt;</ept> isn't <bpt id="p5">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.FieldInfo&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

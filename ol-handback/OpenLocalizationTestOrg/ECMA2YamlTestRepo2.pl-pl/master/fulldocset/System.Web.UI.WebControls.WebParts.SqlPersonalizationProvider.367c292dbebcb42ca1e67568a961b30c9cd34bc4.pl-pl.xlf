@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">07d83c2a769a68a7b31525234e4ce61abe25dbf5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5078a7d646fd714297b6e05ec2a2ffd8e912964</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df9295883cdcd040eb2521e12ab3cea8422bbfbf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements a personalization provider that uses Microsoft SQL Server.</source>
+          <target state="translated">Implementuje dostawcę personalizacji, który używa programu Microsoft SQL Server.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class defines the required functionality for a personalization provider using Microsoft SQL Server.</source>
+          <target state="translated">Ta klasa definiuje funkcje wymagane dla dostawcy personalizacji przy użyciu programu Microsoft SQL Server.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A personalization provider both loads and stores personalization data on behalf of a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; instance.</source>
+          <target state="translated">Dostawca personalizacji ładuje i przechowuje dane personalizacji zastępczy &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;wystąpienia.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class implements the logic for reading from and writing to computers running SQL Server, and also implements all the abstract methods defined in &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;.</source>
+          <target state="translated">Ta klasa implementuje logikę odczytywanie z oraz zapisywanie do komputerów z uruchomionym programem SQL Server, a także zaimplementowano metody abstrakcyjne zdefiniowane w &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on personalization providers, see &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;.</source>
+          <target state="translated">Aby uzyskać więcej informacji o dostawcy personalizacji zobacz &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data design for using Web Parts personalization with SQL Server relies on the existence of two common SQL database tables, and their supporting stored procedures, that are shared for most SQL-based feature implementations.</source>
+          <target state="translated">Projekt danych korzystania z programu SQL Server przy użyciu personalizacji części sieci Web opiera się na istnienie dwie typowe tabele bazy danych SQL, a ich obsługa procedury składowane, które są udostępniane dla większości implementacji funkcji SQL na podstawie.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These tables and views are installed and uninstalled using the following scripts:      -   installpagepersonalization.sql – Installs the personalization tables, views, and related stored procedures.</source>
+          <target state="translated">Te tabele i widoki są zainstalowane i odinstalowywana przy użyciu następujących skryptów: - installpagepersonalization.sql — instaluje personalizacji tabel, widoków i procedur składowanych pokrewne.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   uninstallpagepersonalization.sql – Uninstalls the personalization tables, views, and related stored procedures.</source>
+          <target state="translated">-uninstallpagepersonalization.sql — odinstalowuje personalizacji tabel, widoków i procedur składowanych pokrewne.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is important to be aware that personalization will fail if your Web application does not run at the default trust level of &lt;xref:System.Web.AspNetHostingPermissionLevel&gt; or higher (you can set custom trust levels in a Web.config file using the <ph id="ph1">`&lt;trust level="" /&gt;`</ph> element).</source>
+          <target state="translated">Należy pamiętać, że personalizacja zakończy się niepowodzeniem, jeśli aplikacja sieci Web nie jest uruchamiana w zaufania domyślny poziom jest &lt;xref:System.Web.AspNetHostingPermissionLevel&gt;lub nowszy (można ustawić poziomy zaufania niestandardowej w pliku Web.config przy użyciu <ph id="ph1">`&lt;trust level="" /&gt;`</ph> elementu).&lt;/xref:System.Web.AspNetHostingPermissionLevel&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationAdministration&gt; and SqlPersonalizationProvider classes both check for a trust level of &lt;xref:System.Web.AspNetHostingPermissionLevel&gt; when they are initialized.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationAdministration&gt;i sprawdź SqlPersonalizationProvider klasy zarówno dla poziomu zaufania &lt;xref:System.Web.AspNetHostingPermissionLevel&gt;gdy są one inicjowane.&lt;/xref:System.Web.AspNetHostingPermissionLevel&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationAdministration&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you configure your application to run at a trust level of &lt;xref:System.Web.AspNetHostingPermissionLevel&gt;, and you use the default SqlPersonalizationProvider provider to manage the personalization data for your application, the first time that the application tries to access personalization data, it will fail because an ASP.NET worker process running in &lt;xref:System.Web.AspNetHostingPermissionLevel&gt; trust does not have the permissions necessary to call into the various classes in the &lt;xref:System.Data.SqlClient&gt; namespace.</source>
+          <target state="translated">Po skonfigurowaniu aplikacji do uruchamiania w relacji zaufania z poziomu &lt;xref:System.Web.AspNetHostingPermissionLevel&gt;i domyślny dostawca SqlPersonalizationProvider umożliwia zarządzanie danych personalizacji dla aplikacji, aplikacja próbuje uzyskać dostęp do danych personalizacji po raz pierwszy, będzie działać, ponieważ proces roboczy programu ASP.NET uruchomionych w &lt;xref:System.Web.AspNetHostingPermissionLevel&gt;zaufania nie ma uprawnienia niezbędne do wywołania do różnych klas w &lt;xref:System.Data.SqlClient&gt;przestrzeni nazw.&lt;/xref:System.Data.SqlClient&gt; &lt;/xref:System.Web.AspNetHostingPermissionLevel&gt; &lt;/xref:System.Web.AspNetHostingPermissionLevel&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlPersonalizationProvider constructor is called by ASP.NET to create an instance of the &lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt; class as specified in the configuration for the application.</source>
+          <target state="translated">Konstruktor SqlPersonalizationProvider jest wywoływana przez platformę ASP.NET w celu utworzenia wystąpienia &lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;klasy określony w konfiguracji aplikacji.&lt;/xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is not intended to be used from your code.</source>
+          <target state="translated">Ten konstruktor nie jest przeznaczony do użycia w kodzie.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the application to store and retrieve personalization information for.</source>
+          <target state="translated">Pobiera lub ustawia nazwę aplikacji do przechowywania i pobierania informacji o personalizacji dla.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ApplicationName property is used by the &lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt; class to group user information.</source>
+          <target state="translated">Właściwość ApplicationName jest używana przez &lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;klasę, aby informacje o grupie użytkowników.&lt;/xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By qualifying user information with an application name, you can store information for multiple applications in a single database without running into conflicts between duplicate user names.</source>
+          <target state="translated">Przez kwalifikującego się użytkownika informacji z nazwą aplikacji, można przechowywać informacje dla wielu aplikacji w pojedynczej bazy danych bez powodowania konfliktów między zduplikowanych nazw użytkownika.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, multiple ASP.NET applications can use the same user database by specifying the same value in the ApplicationName property.</source>
+          <target state="translated">Ponadto wiele aplikacji programu ASP.NET można użyć tej samej bazy danych użytkownika, określając taką samą wartość właściwości ApplicationName.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ApplicationName property can be set programmatically, or it can be set declaratively in the configuration file for the Web application using the <ph id="ph1">`applicationName`</ph> attribute in the <ph id="ph2">`&lt;providers&gt;`</ph> section.</source>
+          <target state="translated">Właściwość ApplicationName można ustawić programowo, lub można ją ustawić deklaratywnie w pliku konfiguracji dla aplikacji sieci Web przy użyciu <ph id="ph1">`applicationName`</ph> atrybutu w <ph id="ph2">`&lt;providers&gt;`</ph> sekcji.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a value is not specified for the <ph id="ph1">`applicationName`</ph> attribute in the configuration file for the Web application, then the &lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt; property value for the first request made to the application is used.</source>
+          <target state="translated">Jeśli nie określono wartości dla <ph id="ph1">`applicationName`</ph> atrybutu w pliku konfiguracji dla aplikacji sieci Web, a następnie &lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt;jest używana wartość właściwości na pierwsze żądanie do aplikacji.&lt;/xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because a single default personalization provider instance is used for all the requests served by an &lt;xref:System.Web.HttpApplication&gt; object, you can have multiple requests executing concurrently and attempting to set the ApplicationName property value.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Ponieważ domyślnego pojedynczego wystąpienia dostawcy personalizacji jest używana dla wszystkich żądań obsłużonych przez &lt;xref:System.Web.HttpApplication&gt;obiektu, może mieć wiele żądań wykonywanych równocześnie i ustawiania wartości właściwości ApplicationName.&lt;/xref:System.Web.HttpApplication&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ApplicationName property is not thread-safe for multiple writes, and changing the ApplicationName property value can result in unexpected behavior for multiple users of an application.</source>
+          <target state="translated">Właściwość ApplicationName nie jest bezpieczne wątkowo dla wielu operacji zapisu, a zmiana wartości właściwości ApplicationName może spowodować nieoczekiwane zachowanie dla wielu użytkowników aplikacji.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is recommended that you avoid code to allow users to set the ApplicationName property unless required.</source>
+          <target state="translated">Zaleca się unikanie kodu, aby umożliwić użytkownikom ustawiona właściwość ApplicationName, o ile nie jest wymagane.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of an application where setting the ApplicationName property might be required is an administrative application that manages personalization data for multiple applications.</source>
+          <target state="translated">Przykładem aplikacji, których ustawienia właściwości ApplicationName mogą być wymagane jest administracyjne aplikacji, która zarządza danych personalizacji dla wielu zastosowań.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such an application should be a single-user application and not a Web application.</source>
+          <target state="translated">Takiej aplikacji powinna być aplikacją pojedynczego użytkownika, a nie aplikacji sieci Web.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The name of the application to store and retrieve personalization information for.</source>
+          <target state="translated">Nazwa aplikacji do przechowywania i pobierania informacji o personalizacji dla.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The default is the &lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath<bpt id="p1">*</bpt>&gt; property value for the current &lt;xref:System.Web.HttpContext.Request<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">Wartość domyślna to &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; wartości właściwości dla bieżącej &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The property was set to a string with a length greater than 256 characters.</source>
+          <target state="translated">Właściwość ustawiono ciągiem o długości większej niż 256 znaków.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns a collection containing zero or more <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>-derived objects, based on the specified scope and parameters.</source>
+          <target state="translated">Zwraca kolekcję zawierającą zero lub więcej <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>-pochodnych obiektów na podstawie określonego zakresu i parametry.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of returned items is constrained by the <ph id="ph1">`pageSize`</ph> and <ph id="ph2">`pageIndex`</ph> parameters, where <ph id="ph3">`pageSize`</ph> controls the number of records to return and <ph id="ph4">`pageIndex`</ph> controls which records to return.</source>
+          <target state="translated">Zestaw zwrócony elementów jest ograniczone przez <ph id="ph1">`pageSize`</ph> i <ph id="ph2">`pageIndex`</ph> parametry, których <ph id="ph3">`pageSize`</ph> określa liczbę zwracanych rekordów i <ph id="ph4">`pageIndex`</ph> Określa, które rekordy do zwrócenia.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a <ph id="ph1">`pageIndex`</ph> of 0 and a <ph id="ph2">`pageSize`</ph> of 25 would return the first 25 occurrences, while a <ph id="ph3">`pageIndex`</ph> of 1 and a <ph id="ph4">`pageSize`</ph> of 25 would return occurrences 26-50.</source>
+          <target state="translated">Na przykład <ph id="ph1">`pageIndex`</ph> 0 i <ph id="ph2">`pageSize`</ph> 25 zwróci pierwsze 25 wystąpień podczas <ph id="ph3">`pageIndex`</ph> 1 i <ph id="ph4">`pageSize`</ph> 25 zwróci wystąpień 26 50.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to fetch all available records, set <ph id="ph1">`pageIndex`</ph> to 0, and <ph id="ph2">`pageSize`</ph> to &lt;xref:System.Int32.MaxValue&gt;.</source>
+          <target state="translated">Jeśli chcesz pobrać wszystkie dostępne rekordy, ustaw <ph id="ph1">`pageIndex`</ph> 0 i <ph id="ph2">`pageSize`</ph> do &lt;xref:System.Int32.MaxValue&gt;.&lt;/xref:System.Int32.MaxValue&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo&gt;-derived objects are returned in alphabetical order sorted by &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo.Path%2A&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.Username%2A&gt;, both in ascending order.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo&gt;— Obiekty pochodne są zwracane w porządku alfabetycznym posortowane według &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo.Path%2A&gt;i &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.Username%2A&gt;, zarówno w kolejności rosnącej.&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.Username%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo.Path%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method passes query wildcard characters to the underlying data store.</source>
+          <target state="translated">Ta metoda przekazuje zapytanie symboli wieloznacznych odpowiedni magazyn danych.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Support for wildcard characters is currently dependent on how each provider handles characters such as an asterisk (*), a percent symbol (%), or an underscore (_).</source>
+          <target state="translated">Obsługa symboli wieloznacznych jest obecnie zależne jak każdy dostawca obsługuje znaki, takie jak znak gwiazdki (*), symbol procentu (%) lub podkreślenia (_).</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, for SQL-compliant data stores, you can perform a wildcard search on a partial path with the wildcard character appearing at the beginning, the end, or the middle of the search string text in the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property.</source>
+          <target state="translated">Zazwyczaj dla SQL zgodne z następującą liczbę magazynów danych, można wykonać wyszukiwania symboli wieloznacznych z częściowa ścieżką z symbolem wieloznacznym znajdujących się na początku, końcu lub w środku ciągu wyszukiwania tekstu w &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;Właściwości.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, to find all paths that start with "~/approot", the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property would be set to "~/approot%".</source>
+          <target state="translated">Na przykład, aby znaleźć wszystkie ścieżki zaczynające się od "~/approot" &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;właściwość może być ustawiona na "~/approot%".&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Likewise, a wildcard search on a partial user name could have the wildcard character appear at any point in the text string of the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property.</source>
+          <target state="translated">Podobnie, wyszukiwanie symboli wieloznacznych na nazwę użytkownika z częściowa może mieć znaku wieloznacznego pojawiają się w dowolnym momencie w ciągu tekstowym &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;Właściwości.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, to find all user names that start with "John", the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; parameter would look like "John%".</source>
+          <target state="translated">Na przykład, aby znaleźć wszystkie nazwy użytkowników rozpoczynających się od "Jan" &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;parametr będzie wyglądała "Jan %".&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following query constraints apply:      -   If only <ph id="ph1">`scope`</ph> is provided, and <ph id="ph2">`query`</ph> is <ph id="ph3">`null`</ph> or all the properties on <ph id="ph4">`query`</ph> return either <ph id="ph5">`null`</ph> or default values, then all records matching the indicated <ph id="ph6">`scope`</ph> parameter are returned.</source>
+          <target state="translated">Obowiązują następujące ograniczenia zapytania: — Jeśli tylko <ph id="ph1">`scope`</ph> jest dostępne, i <ph id="ph2">`query`</ph> jest <ph id="ph3">`null`</ph> lub wszystkie właściwości w <ph id="ph4">`query`</ph> zwracać <ph id="ph5">`null`</ph> lub wartości domyślne, a następnie wszystkie rekordy pasujące wskazany <ph id="ph6">`scope`</ph> parametru są zwracane.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property is not <ph id="ph1">`null`</ph>, the returned records are also filtered based on paths that match the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property value.</source>
+          <target state="translated">-Jeśli &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;właściwość nie jest <ph id="ph1">`null`</ph>, zwracane rekordy są również filtrowane na podstawie ścieżki, które odpowiada &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;wartości właściwości.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property is not <ph id="ph1">`null`</ph>, the returned records are also filtered based on user names that match the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property value.</source>
+          <target state="translated">-Jeśli &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;właściwość nie jest <ph id="ph1">`null`</ph>, zwracane rekordy są również nazwy filtrowane na podstawie użytkownika, które pasują &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;wartości właściwości.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property is not equal to &lt;xref:System.DateTime.MaxValue&gt;, then the returned records are also filtered to return only those records associated with inactive users.</source>
+          <target state="translated">-Jeśli &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;właściwość nie jest równa &lt;xref:System.DateTime.MaxValue&gt;, a następnie filtrowanie zwróconych rekordów do zwrócenia tylko te rekordy, które są skojarzone z użytkowników nieaktywnych.&lt;/xref:System.DateTime.MaxValue&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The comparison includes records where the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; property is less than or equal to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property.</source>
+          <target state="translated">Porównanie znajdują się rekordy gdzie &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;Właściwości jest mniejsza lub równa &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;Właściwości.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this method does not validate combinations of query parameters.</source>
+          <target state="translated">Należy pamiętać, że ta metoda nie można zweryfikować kombinacje parametrów zapytania.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, code can request a set of personalization state records associated with a specific user name in the shared scope.</source>
+          <target state="translated">Na przykład kodu mogą żądać zestawu rekordów stanu personalizacji skojarzona z określoną nazwą użytkownika w zakresie udostępnionego.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because user names are not associated with shared information, the returned collection would be empty.</source>
+          <target state="translated">Ponieważ nazwy użytkowników nie są skojarzone z udostępnionych informacji, zwracana Kolekcja może być pusta.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Parameter combinations that have the potential to return a non-empty collection include:      -   &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope in combination with &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;.</source>
+          <target state="translated">Obejmują kombinacje parametrów, które mogą zwracać niepusty kolekcji:- &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;zakresu w połączeniu z &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope in combination with the values for any or all of the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;, and &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; properties.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;zakresu w połączeniu z wartościami dla dowolnego lub wszystkich &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;, i &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;Właściwości.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the personalization information to be queried.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujący można zbadać informacji personalizacji.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This value cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ta wartość nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateQuery"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing a query.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateQuery"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawierający zapytania.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This value can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ta wartość może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The location where the query starts.</source>
+          <target state="translated">Lokalizacja, w którym rozpoczyna się zapytanie.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The number of records to return.</source>
+          <target state="translated">Liczba rekordów do zwrócenia.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The total number of records available.</source>
+          <target state="translated">Całkowita liczba rekordów.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing zero or more <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfo"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>-derived objects.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawierający zero lub więcej <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfo"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>-pochodnych obiektów.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1"> scope</ph><ept id="p1">&lt;/code&gt;</ept> specified is not a valid value from the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1"> scope</ph> <ept id="p1">&lt;/code&gt;</ept> Nie jest prawidłową wartością z <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> wyliczenia.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Returns a count of the number of rows in the underlying data store that exist for the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">scope</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Zwraca liczbę liczbę wierszy w odpowiedni magazyn danych, który istnieje w określonym <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">scope</ph> <ept id="p1">&lt;/code&gt;</ept> parametru.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method passes query wildcard characters to the underlying data store.</source>
+          <target state="translated">Ta metoda przekazuje zapytanie symboli wieloznacznych odpowiedni magazyn danych.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Support for wildcard characters is currently dependent on how each provider handles characters such as an asterisk (*), a percent symbol (%), or an underscore (_).</source>
+          <target state="translated">Obsługa symboli wieloznacznych jest obecnie zależne jak każdy dostawca obsługuje znaki, takie jak znak gwiazdki (*), symbol procentu (%) lub podkreślenia (_).</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, for SQL-compliant data stores, you can perform a wildcard search on a partial path with the wildcard character appearing at the beginning, the end, or the middle of the search string text in the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property.</source>
+          <target state="translated">Zazwyczaj dla SQL zgodne z następującą liczbę magazynów danych, można wykonać wyszukiwania symboli wieloznacznych z częściowa ścieżką z symbolem wieloznacznym znajdujących się na początku, końcu lub w środku ciągu wyszukiwania tekstu w &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;Właściwości.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, to find all paths that start with "~/approot", the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property would be set to "~/approot%".</source>
+          <target state="translated">Na przykład, aby znaleźć wszystkie ścieżki zaczynające się od "~/approot" &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;właściwość może być ustawiona na "~/approot%".&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Likewise, a wildcard search on a partial user name could have the wildcard character appear at any point in the text string of the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property.</source>
+          <target state="translated">Podobnie, wyszukiwanie symboli wieloznacznych na nazwę użytkownika z częściowa może mieć znaku wieloznacznego pojawiają się w dowolnym momencie w ciągu tekstowym &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;Właściwości.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, to find all user names that start with "John", the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; parameter would look like "John%".</source>
+          <target state="translated">Na przykład, aby znaleźć wszystkie nazwy użytkowników rozpoczynających się od "Jan" &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;parametr będzie wyglądała "Jan %".&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following query constraints apply:      -   If only <ph id="ph1">`scope`</ph> is provided, and <ph id="ph2">`query`</ph> is <ph id="ph3">`null`</ph> or all the properties on <ph id="ph4">`query`</ph> return either <ph id="ph5">`null`</ph> or default values, then all records matching the indicated <ph id="ph6">`scope`</ph> parameter are returned.</source>
+          <target state="translated">Obowiązują następujące ograniczenia zapytania: — Jeśli tylko <ph id="ph1">`scope`</ph> jest dostępne, i <ph id="ph2">`query`</ph> jest <ph id="ph3">`null`</ph> lub wszystkie właściwości w <ph id="ph4">`query`</ph> zwracać <ph id="ph5">`null`</ph> lub wartości domyślne, a następnie wszystkie rekordy pasujące wskazany <ph id="ph6">`scope`</ph> parametru są zwracane.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property is not <ph id="ph1">`null`</ph>, the returned records are also filtered based on paths that match the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property value.</source>
+          <target state="translated">-Jeśli &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;właściwość nie jest <ph id="ph1">`null`</ph>, zwracane rekordy są również filtrowane na podstawie ścieżki, które odpowiada &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;wartości właściwości.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; is not <ph id="ph1">`null`</ph>, the returned records are also filtered based on user names that match the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property value.</source>
+          <target state="translated">-Jeśli &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;nie jest <ph id="ph1">`null`</ph>, zwracane rekordy są również nazwy filtrowane na podstawie użytkownika, które pasują &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;wartości właściwości.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property is not equal to &lt;xref:System.DateTime.MaxValue&gt;, then the returned records are also filtered to return only those records associated with inactive users.</source>
+          <target state="translated">-Jeśli &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;właściwość nie jest równa &lt;xref:System.DateTime.MaxValue&gt;, a następnie filtrowanie zwróconych rekordów do zwrócenia tylko te rekordy, które są skojarzone z użytkowników nieaktywnych.&lt;/xref:System.DateTime.MaxValue&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The comparison includes records where the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; property is less than or equal to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property.</source>
+          <target state="translated">Porównanie znajdują się rekordy gdzie &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;Właściwości jest mniejsza lub równa &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;Właściwości.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this method does not validate combinations of query parameters.</source>
+          <target state="translated">Należy pamiętać, że ta metoda nie można zweryfikować kombinacje parametrów zapytania.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, code can request a count of state records associated with inactive users in the shared scope.</source>
+          <target state="translated">Na przykład kodu mogą żądać liczba rekordów stanu skojarzonych z nieaktywnych użytkowników w zakresie udostępnionego.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because there is no concept of inactive customizations, the returned count would be zero.</source>
+          <target state="translated">Ponieważ nie ma żadnych koncepcji nieaktywne dostosowań, liczba zwrócona wynosi zero.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Parameter combinations that have the potential to return a non-empty collection include:      -   &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope in combination with &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;.</source>
+          <target state="translated">Obejmują kombinacje parametrów, które mogą zwracać niepusty kolekcji:- &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;zakresu w połączeniu z &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope in combination with the values for any or all of the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;, and &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; properties.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;zakresu w połączeniu z wartościami dla dowolnego lub wszystkich &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;, i &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;Właściwości.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the personalization information to be queried.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujący można zbadać informacji personalizacji.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This value cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ta wartość nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateQuery"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing a query.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateQuery"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawierający zapytania.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This value can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ta wartość może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The number of rows in the underlying data store that exist for the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">scope</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Liczba wierszy w odpowiedni magazyn danych, które istnieją w określonym <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">scope</ph> <ept id="p1">&lt;/code&gt;</ept> parametru.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1"> scope</ph><ept id="p1">&lt;/code&gt;</ept> specified is not a valid value from the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1"> scope</ph> <ept id="p1">&lt;/code&gt;</ept> Nie jest prawidłową wartością z <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> wyliczenia.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Implements the initialization procedures required for a Microsoft SQL Server personalization provider.</source>
+          <target state="translated">Implementuje procedury inicjowania wymagane dla dostawcy personalizacji programu Microsoft SQL Server.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This method is not intended to be used directly from your code.</source>
+          <target state="translated">Ta metoda nie jest przeznaczona do użycia bezpośrednio w kodzie.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides the initialization procedures for using personalization with a SQL database and is not intended to be used directly from your code.</source>
+          <target state="translated">Ta metoda obejmuje procedury inicjowania korzystania z bazy danych SQL przy użyciu personalizacji i nie jest przeznaczona do użycia bezpośrednio w kodzie.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The application name as it appears in the configuration file.</source>
+          <target state="translated">Nazwa aplikacji, w jakiej jest wyświetlana w pliku konfiguracji.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The configuration settings for the application.</source>
+          <target state="translated">Ustawienia konfiguracji dla aplikacji.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;configSettings&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;configSettings&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Loads personalization data from the underlying data store, based on the specified parameters.</source>
+          <target state="translated">Ładuje dane personalizacji z odpowiedni magazyn danych, na podstawie określonych parametrów.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method uses the <ph id="ph1">`webPartManager`</ph>, <ph id="ph2">`path`</ph>, and <ph id="ph3">`username`</ph> parameters as retrieval keys.</source>
+          <target state="translated">Ta metoda używa <ph id="ph1">`webPartManager`</ph>, <ph id="ph2">`path`</ph>, i <ph id="ph3">`username`</ph> parametrów jako klucze pobierania.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned data contains:      -   The &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; data returned in the <ph id="ph1">`sharedDataBlob`</ph> parameter.</source>
+          <target state="translated">Zawiera dane zwrotne: - &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;dane zwrócone w <ph id="ph1">`sharedDataBlob`</ph> parametru.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Depending on the key values, &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; data is returned in the <ph id="ph1">`userDataBlob`</ph> parameter.</source>
+          <target state="translated">— W zależności od wartości klucza &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;dane są zwracane w <ph id="ph1">`userDataBlob`</ph> parametru.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A non-<ph id="ph1">`null`</ph> value for the <ph id="ph2">`userName`</ph> parameter indicates that &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; data is also retrieved.</source>
+          <target state="translated">Niż<ph id="ph1">`null`</ph> wartość <ph id="ph2">`userName`</ph> parametr wskazuje, że &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;dane są także pobierane.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt; object automatically updates the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; column in the <ph id="ph1">`aspnet_Users`</ph> table each time user-specific personalization data is loaded from the database in the context of a page request.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;Obiektu automatycznie aktualizuje &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;kolumny w <ph id="ph1">`aspnet_Users`</ph> tabeli każdego dane specyficzne dla użytkownika personalizacji czasu są ładowane z bazy danych w kontekście żądania strony.&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior allows other ASP.NET features to use the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; property when managing stale data records as well as determining recent user activity on a site.</source>
+          <target state="translated">Takie zachowanie umożliwia inne funkcje platformy ASP.NET użyć &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;Właściwości związane z zarządzaniem starych danych rejestruje także jako określające ostatnią aktywność użytkowników w witrynie.&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> managing the personalization data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Zarządzanie danych personalizacji.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The path for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be used as the retrieval key.</source>
+          <target state="translated">Ścieżka do personalizacji informacji w <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zakres ma być używany jako klucz pobierania.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The user name for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be used as the retrieval key.</source>
+          <target state="translated">Nazwa użytkownika do personalizacji informacji w <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zakres ma być używany jako klucz pobierania.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The returned data for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope.</source>
+          <target state="translated">Zwrócone dane dla <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zakresu.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The returned data for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope.</source>
+          <target state="translated">Zwrócone dane dla <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zakresu.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Deletes personalization data from the underlying data store.</source>
+          <target state="translated">Usuwa danych personalizacji z odpowiedni magazyn danych.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; uses this method to delete personalization data from the database when a Web site user chooses to reset Web Parts data on a page.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;używa tej metody do usuwania danych personalizacji z bazy danych, gdy witryna sieci Web użytkownik wybierze opcję resetowania danych składników Web Part na stronie.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`username`</ph> is non-<ph id="ph2">`null`</ph>, data with the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope data is deleted; otherwise, data with the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope is deleted.</source>
+          <target state="translated">Jeśli <ph id="ph1">`username`</ph> ma wartość inną niż<ph id="ph2">`null`</ph>, dane z &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;dane zakresu jest usunięty; w przeciwnym razie danych za pomocą &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;zakresu zostaną usunięte.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt; object automatically updates the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; column in the <ph id="ph1">`aspnet_Users`</ph> table each time user-specific personalization data is deleted from the database in the context of a page request.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;Obiektu automatycznie aktualizuje &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;kolumny w <ph id="ph1">`aspnet_Users`</ph> tabeli każdego dane specyficzne dla użytkownika personalizacji czasu są usuwane z bazy danych w kontekście żądania strony.&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior allows other ASP.NET features to use the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; value when managing stale data records as well as determining recent user activity on a site.</source>
+          <target state="translated">Takie zachowanie umożliwia inne funkcje platformy ASP.NET użyć &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;wartość przy Zarządzanie starych danych rejestruje także jako określające ostatnią aktywność użytkowników w witrynie.&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> managing the personalization data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Zarządzanie danych personalizacji.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The path for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be used as the retrieval key.</source>
+          <target state="translated">Ścieżka do personalizacji informacji w <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zakres ma być używany jako klucz pobierania.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The user name for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be used as the retrieval key.</source>
+          <target state="translated">Nazwa użytkownika do personalizacji informacji w <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zakres ma być używany jako klucz pobierania.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Deletes personalization state information from the underlying data store, based on the specified parameters.</source>
+          <target state="translated">Usuwa informacje o stanie personalizacji z odpowiedni magazyn danych, na podstawie określonych parametrów.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No wildcard characters are supported by this method.</source>
+          <target state="translated">Nie symbolu wieloznacznego nie są obsługiwane przez tę metodę.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the following combinations of parameters are allowed:      -   The <ph id="ph1">`scope`</ph> parameter is set, and all other parameters are set to <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">Dozwolone są tylko następujące kombinacje parametrów: - <ph id="ph1">`scope`</ph> ustawiono parametr, a wszystkie pozostałe parametry są ustawione na <ph id="ph2">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This combination deletes all Web Parts personalization data associated with the personalization scope indicated by <ph id="ph1">`scope`</ph>.</source>
+          <target state="translated">Ta kombinacja powoduje usunięcie wszystkich danych personalizacji części sieci Web skojarzony z zakresu personalizacji oznaczany <ph id="ph1">`scope`</ph>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`scope`</ph> parameter is set, and the <ph id="ph2">`paths`</ph> parameter contains at least one value.</source>
+          <target state="translated">- <ph id="ph1">`scope`</ph> Ustawiona i <ph id="ph2">`paths`</ph> parametr zawiera co najmniej jedną wartość.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This combination deletes all Web Parts personalization data for the specified path or paths that are in the personalization scope indicated by <ph id="ph1">`scope`</ph>.</source>
+          <target state="translated">Ta kombinacja spowoduje usunięcie wszystkich danych personalizacji części sieci Web dla określonej ścieżki lub ścieżek, które znajdują się w zakresie personalizacji wskazywanym przez <ph id="ph1">`scope`</ph>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`scope`</ph> parameter is set to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;, the <ph id="ph2">`paths`</ph> parameter is set and contains only one path, and the <ph id="ph3">`usernames`</ph> parameter contains at least one value.</source>
+          <target state="translated">- <ph id="ph1">`scope`</ph> Ustawiono parametr &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;, <ph id="ph2">`paths`</ph> parametr ma wartość i zawiera tylko jedną ścieżkę i <ph id="ph3">`usernames`</ph> parametr zawiera co najmniej jedną wartość.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This combination deletes all user personalization Web Parts data for the given path that is associated with the user or users contained in <ph id="ph1">`usernames`</ph>.</source>
+          <target state="translated">Ta kombinacja usuwa wszystkie użytkownika personalizacji części sieci Web danych dla danej ścieżki skojarzonej z użytkowników, zawarty w <ph id="ph1">`usernames`</ph>.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`scope`</ph> parameter is set to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;, the <ph id="ph2">`paths`</ph> parameter is <ph id="ph3">`null`</ph>, and the <ph id="ph4">`usernames`</ph> parameter contains at least one value.</source>
+          <target state="translated">- <ph id="ph1">`scope`</ph> Ustawiono parametr &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;, <ph id="ph2">`paths`</ph> parametr jest <ph id="ph3">`null`</ph>i <ph id="ph4">`usernames`</ph> parametr zawiera co najmniej jedną wartość.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This combination deletes all per-user personalization Web Parts data, across all paths, associated with the user or users contained in <ph id="ph1">`usernames`</ph>.</source>
+          <target state="translated">Ta kombinacja usuwa wszystkie personalizacji użytkownika danych składników Web Part we wszystkich ścieżek skojarzonych z użytkowników, zawarty w <ph id="ph1">`usernames`</ph>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any other combination of parameter values is invalid and will throw an &lt;xref:System.ArgumentException&gt; exception.</source>
+          <target state="translated">Dowolną kombinację wartości parametrów jest nieprawidłowy i zgłosi &lt;xref:System.ArgumentException&gt;wyjątek.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following two combinations are not allowed:      -   The <ph id="ph1">`usernames`</ph> parameter cannot be provided when the <ph id="ph2">`scope`</ph> parameter is set to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.</source>
+          <target state="translated">Na przykład następujących dwóch kombinacji nie są dozwolone: - <ph id="ph1">`usernames`</ph> nie można dostarczać parametru kiedy <ph id="ph2">`scope`</ph> parametr ma wartość &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`paths`</ph> parameter cannot contain more than one entry when the <ph id="ph2">`usernames`</ph> parameter is not <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">- <ph id="ph1">`paths`</ph> Parametr nie może zawierać więcej niż jednego wpisu podczas <ph id="ph2">`usernames`</ph> parametr nie jest <ph id="ph3">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`paths`</ph> and <ph id="ph2">`usernames`</ph> parameters contained within the respective arrays must meet the following validation rules.</source>
+          <target state="translated"><ph id="ph1">`paths`</ph> i <ph id="ph2">`usernames`</ph> parametry zawarte w odpowiednich tablic muszą spełniać następujące reguły sprawdzania poprawności.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any validation rules fail for any member of the parameter arrays, an &lt;xref:System.ArgumentException&gt; exception is thrown.</source>
+          <target state="translated">Jeśli nie reguł sprawdzania poprawności dla każdego członka tablice parametrów &lt;xref:System.ArgumentException&gt;wyjątku.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The validation rules include:      -   <ph id="ph1">`null`</ph> values are not allowed.</source>
+          <target state="translated">Reguły sprawdzania poprawności obejmują:- <ph id="ph1">`null`</ph> wartości nie są dozwolone.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   An empty string ("") after the string has been trimmed is not allowed.</source>
+          <target state="translated">-Ciąg pusty ("") nie jest dozwolona po ciągu została wycofana.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   No user names contained in the <ph id="ph1">`usernames`</ph> parameter can contain commas.</source>
+          <target state="translated">— Brak nazwy użytkownika zawarte w <ph id="ph1">`usernames`</ph> parametr może zawierać przecinków.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The length of any path in the <ph id="ph1">`paths`</ph> parameter cannot be greater than 256 characters.</source>
+          <target state="translated">-Długość wszystkie ścieżki w <ph id="ph1">`paths`</ph> parametru nie może być większa niż 256 znaków.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The length of any user name in the <ph id="ph1">`usernames`</ph> parameter cannot be greater than 256 characters.</source>
+          <target state="translated">-Długość dowolną nazwę użytkownika w <ph id="ph1">`usernames`</ph> parametru nie może być większa niż 256 znaków.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the personalization information to be queried.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujący można zbadać informacji personalizacji.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>This value cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ta wartość nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The paths for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be deleted.</source>
+          <target state="translated">Ścieżki do personalizacji informacji w <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zakresu do usunięcia.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The user names for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be deleted.</source>
+          <target state="translated">Nazwy użytkowników personalizacji informacji w <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zakresu do usunięcia.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The number of rows deleted.</source>
+          <target state="translated">Liczba usuniętych wierszy.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1"> scope</ph><ept id="p1">&lt;/code&gt;</ept> specified is not a member of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1"> scope</ph> <ept id="p1">&lt;/code&gt;</ept> Nie jest elementem członkowskim <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> wyliczenia.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Deletes user personalization data from the underlying data store, based on the specified parameters.</source>
+          <target state="translated">Usuwa dane personalizacji użytkownika z odpowiedni magazyn danych, na podstawie określonych parametrów.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method's parameters have the following restrictions:      -   The <ph id="ph1">`path`</ph> parameter cannot contain wildcard characters.</source>
+          <target state="translated">Ta metoda parametry mają następujące ograniczenia: - <ph id="ph1">`path`</ph> parametr nie może zawierać symboli wieloznacznych.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the <ph id="ph1">`path`</ph> parameter is non-<ph id="ph2">`null`</ph>, then only per-user personalization records associated with <ph id="ph3">`path`</ph> will be deleted.</source>
+          <target state="translated">-Jeśli <ph id="ph1">`path`</ph> parametr ma wartość inną niż<ph id="ph2">`null`</ph>, a następnie tylko rekordy personalizacji użytkownika skojarzonego z <ph id="ph3">`path`</ph> zostaną usunięte.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Only per-user personalization records associated with users that are considered inactive since the date specified in the <ph id="ph1">`userInactiveSinceDate`</ph> parameter will be deleted.</source>
+          <target state="translated">-Tylko personalizacji użytkownika rekordy skojarzone z użytkownikami, które są traktowane jako nieaktywne od daty określonej w <ph id="ph1">`userInactiveSinceDate`</ph> parametru zostaną usunięte.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exact comparison would be to delete records where the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; property is less than or equal to the <ph id="ph1">`userInactiveSinceDate`</ph> parameter.</source>
+          <target state="translated">Dokładnego porównania będzie można usunąć rekordy gdzie &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;Właściwości jest mniejsza lub równa <ph id="ph1">`userInactiveSinceDate`</ph> parametru.&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If both parameters are provided, then records that match both constraints are deleted.</source>
+          <target state="translated">— Jeśli oba parametry są udostępniane, są usuwane rekordy spełniające oba warunki ograniczające.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`path`</ph> parameter can be <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">- <ph id="ph1">`path`</ph> Parametr może być <ph id="ph2">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`path`</ph> parameter cannot be an empty string after trimming.</source>
+          <target state="translated">- <ph id="ph1">`path`</ph> Parametr nie może być ciągiem pustym po przycięciu.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property cannot be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">- &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;Właściwość nie może być <ph id="ph1">`null`</ph>.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The path of the personalization data to be deleted.</source>
+          <target state="translated">Ścieżka danych personalizacji do usunięcia.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>This value can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> but cannot be an empty string ("").</source>
+          <target state="translated">Ta wartość może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , ale nie może być pustym ciągiem ("").</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The date indicating the last activity.</source>
+          <target state="translated">Data ostatniej aktywności wskazujące.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The count of rows deleted from the underlying data store.</source>
+          <target state="translated">Liczba wierszy usunięte z odpowiedni magazyn danych.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Saves raw personalization data to the underlying Microsoft SQL Server database.</source>
+          <target state="translated">Zapisuje dane pierwotne personalizacji podstawowej bazy danych programu Microsoft SQL Server.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a non-<ph id="ph1">`null`</ph> user name is provided, then the <ph id="ph2">`dataBlob`</ph> parameter contains personalization data for &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope; otherwise, <ph id="ph3">`dataBlob`</ph> is assumed to contain data for &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope.</source>
+          <target state="translated">Jeśli niż<ph id="ph1">`null`</ph> podać nazwę użytkownika, a następnie <ph id="ph2">`dataBlob`</ph> parametr zawiera dane personalizacji &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;zakres; w przeciwnym razie wartość <ph id="ph3">`dataBlob`</ph> przyjęto, że zawiera dane dla &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;zakresu.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt; object automatically updates the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; column in the <ph id="ph1">`aspnet_Users`</ph> table each time user-specific personalization data is saved to the database in the context of a page request.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;Obiektu automatycznie aktualizuje &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;kolumny w <ph id="ph1">`aspnet_Users`</ph> tabeli danych personalizacji użytkownika każdego czasu jest zapisywana w bazie danych w kontekście żądania strony.&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior allows other ASP.NET features to use the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; property when managing stale data records as well as determining recent user activity on a site.</source>
+          <target state="translated">Takie zachowanie umożliwia inne funkcje platformy ASP.NET użyć &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;Właściwości związane z zarządzaniem starych danych rejestruje także jako określające ostatnią aktywność użytkowników w witrynie.&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> managing the personalization data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Zarządzanie danych personalizacji.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the personalization information to be saved.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujący dane personalizacji do zapisania.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>This value cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ta wartość nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The user name for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be used as the key.</source>
+          <target state="translated">Nazwa użytkownika do personalizacji informacji w <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zakres ma być używany jako klucz.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The byte array of data to be saved.</source>
+          <target state="translated">Tablica bajtów danych do zapisania.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

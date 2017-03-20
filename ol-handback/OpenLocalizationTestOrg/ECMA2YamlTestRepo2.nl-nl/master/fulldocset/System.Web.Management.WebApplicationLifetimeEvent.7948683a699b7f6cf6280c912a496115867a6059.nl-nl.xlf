@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae7c5eec63ed0a7a28a8cd9357ba9a7bd40585b5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Management.WebApplicationLifetimeEvent.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6385ac5aa6ff4691c9a5cee3f2e99bfb8bd483fd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5b1937067bab380c90bb9bccd79e6a15be7d72c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a significant event in the lifetime of an application.</source>
+          <target state="translated">Vertegenwoordigt een belangrijke gebeurtenis in de levensduur van een toepassing.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET health monitoring allows production and operations staff to manage deployed Web applications.</source>
+          <target state="translated">ASP.NET-statuscontrole kunt personeel voor productie en bewerkingen voor het beheren van de geïmplementeerde Web-Apps.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Management&gt; namespace contains the health-event types responsible for packaging application health-status data and the provider types responsible for processing this data.</source>
+          <target state="translated">De &lt;xref:System.Web.Management&gt;-naamruimte bevat de typen van de health-gebeurtenissen die verantwoordelijk is voor het verpakken van de toepassingsgegevens van de health-status en de providertypen verantwoordelijk voor het verwerken van deze gegevens.&lt;/xref:System.Web.Management&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also contains supporting types that help during the management of health events.</source>
+          <target state="translated">Het bevat ook ondersteunende typen die bij het beheer van health-gebeurtenissen helpen.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Application lifetime events include events such as application startup and shutdown events.</source>
+          <target state="translated">Toepassing levensduur gebeurtenissen zijn gebeurtenissen zoals het starten van de toepassing en afsluiten.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an application is terminated, you can determine why by viewing the related event message field.</source>
+          <target state="translated">Als een toepassing wordt beëindigd, kunt u waarom bepalen door het veld van het bericht gerelateerde gebeurtenissen weer te geven.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a WebApplicationLifetimeEvent instance occurs, ASP.NET health monitoring updates the Application Lifetime Events performance counter.</source>
+          <target state="translated">Wanneer een exemplaar WebApplicationLifetimeEvent optreedt, ASP.NET-statuscontrole de levensduur van toepassingsgebeurtenissen Prestatiemeter-updates.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can log these events by adding the WebApplicationLifetimeEvent object to the <ph id="ph1">`rules`</ph> subsection of the <ph id="ph2">`healthMonitoring`</ph> section of the configuration file, as shown in the following example.</source>
+          <target state="translated">U kunt deze gebeurtenissen zich aanmelden door het toevoegen van het object WebApplicationLifetimeEvent aan de <ph id="ph1">`rules`</ph> subsectie van het <ph id="ph2">`healthMonitoring`</ph> gedeelte van het configuratiebestand, zoals wordt weergegeven in het volgende voorbeeld.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;rules&gt;     &lt;add name="Application Events"       eventName="Application Lifetime Events"       provider="EventLogProvider"       profile="Default"       minInterval="00:01:00" /&gt;   &lt;/rules&gt;      ```</ph>       The Application Lifetime Events performance counter contains the sum total of all ASP.NET lifetime events.</source>
+          <target state="translated"><ph id="ph1">```   &lt;rules&gt;     &lt;add name="Application Events"       eventName="Application Lifetime Events"       provider="EventLogProvider"       profile="Default"       minInterval="00:01:00" /&gt;   &lt;/rules&gt;      ```</ph>Het prestatiemeteritem levensduur van toepassingsgebeurtenissen bevat de totale som van alle gebeurtenissen voor ASP.NET-levensduur.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To view this performance counter in System Monitor (PerfMon), in the <bpt id="p1">**</bpt>Add Counters<ept id="p1">**</ept> window select <bpt id="p2">**</bpt>ASP.NET<ept id="p2">**</ept> from the <bpt id="p3">**</bpt>Performance object<ept id="p3">**</ept> drop-down list.</source>
+          <target state="translated">Dit prestatiemeteritem in Systeemmonitor (PerfMon) weergeven in de <bpt id="p1">**</bpt>items toevoegen<ept id="p1">**</ept> venster Selecteer <bpt id="p2">**</bpt>ASP.NET<ept id="p2">**</ept> van de <bpt id="p3">**</bpt>prestatie-object<ept id="p3">**</ept> vervolgkeuzelijst.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Select the <bpt id="p1">**</bpt>Application Lifetime Events<ept id="p1">**</ept> performance counter, and click the <bpt id="p2">**</bpt>Add<ept id="p2">**</ept> button.</source>
+          <target state="translated">Selecteer de <bpt id="p1">**</bpt>levensduur van toepassingsgebeurtenissen<ept id="p1">**</ept> prestatiemeteritem en klik op de <bpt id="p2">**</bpt>toevoegen<ept id="p2">**</ept> knop.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Using the System Monitor (PerfMon) with ASP.NET Applications" on <bpt id="p1">[</bpt>MSDN<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37118)</ept>.</source>
+          <target state="translated">Voor meer informatie, Zie 'Systeemmonitor (PerfMon) met ASP.NET-toepassingen' op <bpt id="p1">[</bpt>MSDN<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37118)</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you allow events to be logged by the standard &lt;xref:System.Web.Management.EventLogWebEventProvider&gt;, you can view them in Event Viewer by selecting the <bpt id="p1">**</bpt>Application<ept id="p1">**</ept> log.</source>
+          <target state="translated">Als u gebeurtenissen moeten worden vastgelegd door de standaard toestaan &lt;xref:System.Web.Management.EventLogWebEventProvider&gt;, kunt u deze bekijken in Logboeken door te selecteren de <bpt id="p1">**</bpt>toepassing<ept id="p1">**</ept> logboek&lt;/xref:System.Web.Management.EventLogWebEventProvider&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Event Viewer<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=24845&amp;clcid=0x409)</ept> in the Windows Server 2003 documentation on TechNet.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>logboeken<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=24845&amp;clcid=0x409)</ept> in de documentatie van Windows Server 2003 op TechNet.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because the WebApplicationLifetimeEvent object is a high-volume event, logging it is resource-intensive and might slow down your system.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Omdat het object WebApplicationLifetimeEvent een gebeurtenis hoog volume is, registratie het brongebruik intensief is en uw systeem vertragen.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can also cause other events to be overwritten in the case of the &lt;xref:System.Web.Management.EventLogWebEventProvider&gt; class due to the high volume of events and the way the event logging works.</source>
+          <target state="translated">Het kan ook leiden tot andere gebeurtenissen kunnen worden overschreven in het geval van de &lt;xref:System.Web.Management.EventLogWebEventProvider&gt;klasse vanwege het grote aantal gebeurtenissen en de manier waarop de logboekregistratie werkt.&lt;/xref:System.Web.Management.EventLogWebEventProvider&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In most cases you will be able to use the ASP.NET health-monitoring types as implemented, and you will control the health-monitoring system by specifying values in the <ph id="ph2">`healthMonitoring`</ph> configuration section.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; In de meeste gevallen kunt u zich de ASP.NET-statuscontrole typen gebruiken als ze zijn geïmplementeerd en u de system health monitoring te regelen door te geven waarden in de <ph id="ph2">`healthMonitoring`</ph> configuratiesectie.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also derive from the health-monitoring types to create your own custom events and providers.</source>
+          <target state="translated">U kunt ook afgeleid van de statuscontrole typen voor het maken van uw eigen aangepaste gebeurtenissen en providers.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example of deriving from the WebApplicationLifetimeEvent class, see the example provided in this topic.</source>
+          <target state="translated">Zie het voorbeeld in dit onderwerp voor een voorbeeld van die zijn afgeleid van de klasse WebApplicationLifetimeEvent.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.Management.WebApplicationLifetimeEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the supplied parameters.</source>
+          <target state="translated">Initialiseert de <bpt id="p1">&lt;xref href="System.Web.Management.WebApplicationLifetimeEvent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven parameters.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is used internally by the ASP.NET health-monitoring system.</source>
+          <target state="translated">Deze constructor wordt intern gebruikt door het systeem ASP.NET health monitoring.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will never use it to create an instance of the &lt;xref:System.Web.Management.WebApplicationLifetimeEvent&gt; class, but you can call this constructor when implementing your own event type that inherits from this class.</source>
+          <target state="translated">U wordt nooit gebruikt om het maken van een exemplaar van de &lt;xref:System.Web.Management.WebApplicationLifetimeEvent&gt;klasse, maar u kunt aanroepen voor deze constructor bij het implementeren van uw eigen gebeurtenistype dat kenmerken van deze klasse overneemt.&lt;/xref:System.Web.Management.WebApplicationLifetimeEvent&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The WebApplicationLifetimeEvent constructor is not intended to be used directly from your code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; WebApplicationLifetimeEvent de constructor is niet bedoeld voor rechtstreeks gebruik vanuit uw code.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is called by ASP.NET.</source>
+          <target state="translated">Deze wordt aangeroepen door ASP.NET.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can call the WebApplicationLifetimeEvent constructor when deriving from the &lt;xref:System.Web.Management.WebApplicationLifetimeEvent&gt; class.</source>
+          <target state="translated">U kunt de constructor WebApplicationLifetimeEvent aanroepen als deze is afgeleid van de &lt;xref:System.Web.Management.WebApplicationLifetimeEvent&gt;klasse.&lt;/xref:System.Web.Management.WebApplicationLifetimeEvent&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The message associated with the event.</source>
+          <target state="translated">Het bericht dat is gekoppeld aan de gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The object that is the source of the event.</source>
+          <target state="translated">Het object dat de bron van de gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The code associated with the event.</source>
+          <target state="translated">De code die is gekoppeld aan de gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When you implement a custom event, the event code must be greater than <bpt id="p1">&lt;xref href="System.Web.Management.WebEventCodes.WebExtendedBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wanneer u een aangepaste gebeurtenis implementeert, de gebeurteniscode moet groter dan <bpt id="p1">&lt;xref href="System.Web.Management.WebEventCodes.WebExtendedBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.Management.WebApplicationLifetimeEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the supplied parameters.</source>
+          <target state="translated">Initialiseert de <bpt id="p1">&lt;xref href="System.Web.Management.WebApplicationLifetimeEvent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven parameters.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is used internally by the ASP.NET health-monitoring system.</source>
+          <target state="translated">Deze constructor wordt intern gebruikt door het systeem ASP.NET health monitoring.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will never use it to create an instance of the &lt;xref:System.Web.Management.WebApplicationLifetimeEvent&gt; class, but you can call this constructor when implementing your own event type that inherits from this class.</source>
+          <target state="translated">U wordt nooit gebruikt om het maken van een exemplaar van de &lt;xref:System.Web.Management.WebApplicationLifetimeEvent&gt;klasse, maar u kunt aanroepen voor deze constructor bij het implementeren van uw eigen gebeurtenistype dat kenmerken van deze klasse overneemt.&lt;/xref:System.Web.Management.WebApplicationLifetimeEvent&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The WebApplicationLifetimeEvent constructor is not intended to be used directly from your code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; WebApplicationLifetimeEvent de constructor is niet bedoeld voor rechtstreeks gebruik vanuit uw code.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is called by ASP.NET.</source>
+          <target state="translated">Deze wordt aangeroepen door ASP.NET.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can call the WebApplicationLifetimeEvent constructor when deriving from the &lt;xref:System.Web.Management.WebApplicationLifetimeEvent&gt; class.</source>
+          <target state="translated">U kunt de constructor WebApplicationLifetimeEvent aanroepen als deze is afgeleid van de &lt;xref:System.Web.Management.WebApplicationLifetimeEvent&gt;klasse.&lt;/xref:System.Web.Management.WebApplicationLifetimeEvent&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The message associated with the event.</source>
+          <target state="translated">Het bericht dat is gekoppeld aan de gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The object that is the source of the event.</source>
+          <target state="translated">Het object dat de bron van de gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The code associated with the event.</source>
+          <target state="translated">De code die is gekoppeld aan de gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When you implement a custom event, the event code must be greater than <bpt id="p1">&lt;xref href="System.Web.Management.WebEventCodes.WebExtendedBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wanneer u een aangepaste gebeurtenis implementeert, de gebeurteniscode moet groter dan <bpt id="p1">&lt;xref href="System.Web.Management.WebEventCodes.WebExtendedBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.Management.WebEventCodes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that specifies the detailed identifier for the event.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Web.Management.WebEventCodes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde waarmee de gedetailleerde id voor de gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Used internally to increment performance counters.</source>
+          <target state="translated">Intern gebruikt om prestatiemeteritems te verhogen.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

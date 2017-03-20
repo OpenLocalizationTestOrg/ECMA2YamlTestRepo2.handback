@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8486b4a3baceef65133fc7646f926d0d4a0897b6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ConnectionPoint.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">51b4281c1ab5bd9aafcf619562a2f50c7a6253e4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">008c00333418d822bbbe0672386277e78c83af26</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Serves as the base class for defining connection point objects that enable the consumer control and the provider control in a Web Parts connection to share data.</source>
+          <target state="translated">Służy jako klasa podstawowa dla definiowania połączenia punktu obiektów umożliwiających formantem klienta i dostawcy w połączeniu składników Web Part do udostępniania danych.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Every Web Parts connection consists of two server controls sharing data: one control is the consumer, the other is the provider.</source>
+          <target state="translated">Połączenie każdej części sieci Web składa się z dwóch formantów serwera do udostępniania danych: jeden formant jest konsumenta, drugi dostawca.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a discussion of the essential components of a Web Parts connection, and the connection object itself, see the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt; class overview.</source>
+          <target state="translated">Omówienie niezbędne składniki połączenia części sieci Web, a sam obiekt połączenia, zobacz &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;Przegląd klasy.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Every Web Parts connection requires connection points.</source>
+          <target state="translated">Połączenie każdej części sieci Web wymaga punkty połączenia.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The provider and the consumer control must each have at least one defined ConnectionPoint object (each of them can optionally have multiple connection points) that contains the details for how a control can connect to another control and the type of data it can share.</source>
+          <target state="translated">Dostawcy i kontrola użytkownika musi mieć co najmniej jednego zdefiniowany element ConnectionPoint obiektu (każde z nich można opcjonalnie stosować wiele punktów połączenia) zawierający szczegóły jak formantu można łączyć się inny formant i typu danych, które można go udostępniać.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In an actual connection, the provider has its own type of connection point object (derived from the base ConnectionPoint class), a &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; instance, and the consumer has its own object, a &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; instance.</source>
+          <target state="translated">Rzeczywiste połączenia dostawcy ma własny typ obiektu punktu połączenia (pochodzi od klasy podstawowej Element ConnectionPoint), &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;wystąpienia i że użytkownik ma własną obiekt &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;wystąpienia.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a provider connection point, developers must add a callback method to the provider that will return an implemented interface instance to a consumer.</source>
+          <target state="translated">Aby utworzyć punkt połączenia dostawcy, deweloperzy dodać metody wywołania zwrotnego do dostawcy, który zwróci wystąpienia zaimplementowany interfejs z klientem.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>They must mark the callback method in the source code with a <ph id="ph1">`ConnectionProvider`</ph> code attribute (see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; class).</source>
+          <target state="translated">One należy oznaczyć metody wywołania zwrotnego w kodzie źródłowym z <ph id="ph1">`ConnectionProvider`</ph> kodu atrybutu (patrz &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;klasy).&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, to create a consumer connection point, developers must add a method to the consumer that receives an interface instance, and they must mark that method with a <ph id="ph1">`ConnectionConsumer`</ph> attribute (see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt; class).</source>
+          <target state="translated">Podobnie, aby utworzyć punkt połączenia klienta, deweloperzy musi metody klientowi, który otrzymuje wystąpienie interfejsu i ich należy oznaczyć tej metody z <ph id="ph1">`ConnectionConsumer`</ph> atrybutu (patrz &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;klasy).&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When developers create connections on a Web page, they can be created as static or dynamic connections.</source>
+          <target state="translated">Deweloperzy tworzenia połączeń na stronie sieci Web, tworzone jako statyczne lub dynamiczne połączenia.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Static connections are declared in the markup of a Web page.</source>
+          <target state="translated">Połączenia statyczne są zadeklarowane w znaczniku strony sieci Web.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a static connection is declared, developers can designate which connection points are used for both the consumer and provider by assigning values to the <ph id="ph1">`ProviderConnectionPointID`</ph> and <ph id="ph2">`ConsumerConnectionPointID`</ph> attributes within the <ph id="ph3">`&lt;asp:webpartconnection&gt;`</ph> element tag.</source>
+          <target state="translated">Gdy jest zadeklarowany jako statyczny połączenia, deweloperzy można wyznaczyć punktów połączenia, które są używane dla konsumentów i dostawcy przez przypisywanie wartości do <ph id="ph1">`ProviderConnectionPointID`</ph> i <ph id="ph2">`ConsumerConnectionPointID`</ph> atrybutów w <ph id="ph3">`&lt;asp:webpartconnection&gt;`</ph> tagu elementu.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This approach is especially useful if there are multiple connection points defined within the consumer and provider controls, because it enables the static connection to identify which connection points to use for the connection.</source>
+          <target state="translated">Ta metoda jest szczególnie przydatne, jeśli wiele punktów połączenia zdefiniowanego w kontroli klienta i dostawcy, ponieważ dzięki statyczne połączenie, aby określić które punkty połączenia do użycia na potrzeby połączenia.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Dynamic connections are created programmatically, either by a developer's code or by users through the user interface (UI) provided by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control.</source>
+          <target state="translated">Dynamiczne połączenia są tworzone programowo, przez dewelopera kodu lub przez użytkowników za pomocą interfejsu użytkownika (UI) udostępniane przez &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;kontroli.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a connection in code, developers must get an instance of a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt; object by calling the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectWebParts%2A&gt; method on the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control.</source>
+          <target state="translated">Można utworzyć połączenia w kodzie, deweloperzy musi pobrać wystąpienia &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;obiektu przez wywołanie metody &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectWebParts%2A&gt;Metoda &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontroli.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectWebParts%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before they can call this method, developers must have references to the consumer and provider server controls and their respective connection point objects.</source>
+          <target state="translated">Przed ich można wywołać tej metody, deweloperzy musi mieć odwołania do konsumenta i kontrolki serwera dostawcy i ich obiektami punktu połączenia odpowiednich.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To get references to the connection points for a provider and a consumer control, developers first call the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetProviderConnectionPoints%2A&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt; methods on the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control.</source>
+          <target state="translated">Można pobrać odwołań do punktów połączenia dla dostawcy i kontroli konsumenta, pierwsze wywołanie deweloperzy &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetProviderConnectionPoints%2A&gt;i &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt;metody &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontroli.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetProviderConnectionPoints%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These methods return the appropriate connection point objects, which in turn can be passed to the method for creating a connection.</source>
+          <target state="translated">Te metody zwracają odpowiednie połączenie punktu obiektów, które z kolei mogą zostać przekazane do metody tworzenia połączeń.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the provider's and the consumer's connection point objects both work with the same type of interface, they are compatible and can form a direct connection to share data.</source>
+          <target state="translated">Gdy klienta i dostawcy punktu obiekty połączeń jednocześnie korzystać z tego samego typu interfejsu, są zgodne i utworzenia bezpośredniego połączenia do udostępniania danych.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If they do not work with the same interface type, a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt; object must be used to translate the interface instance from the provider into a type that the consumer can work with.</source>
+          <target state="translated">Jeśli nie działają w tym samym typie interfejsu, &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;obiektu musi być używany do tłumaczenia wystąpienie interfejsu od dostawcy do typu, który użytkownik może współpracować z.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The abstract ConnectionPoint class provides the base details of connection points that are shared by both consumer and provider controls.</source>
+          <target state="translated">Klasa abstrakcyjna Element ConnectionPoint udostępnia podstawowe szczegóły punktów połączenia, które są udostępniane przez formanty zarówno klienta i dostawcy.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Several properties contain these details.</source>
+          <target state="translated">Kilka właściwości zawierają szczegółowe informacje.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.AllowsMultipleConnections%2A&gt; property indicates whether a connection point can participate in more than one connection at a time.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.AllowsMultipleConnections%2A&gt;Właściwość wskazuje, czy punkt połączenia mogą uczestniczyć w więcej niż jedno połączenie naraz.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.AllowsMultipleConnections%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, provider connection points can participate in multiple connections, and consumer connection points cannot.</source>
+          <target state="translated">Domyślnie punkty połączenia dostawcy mogą uczestniczyć w wielu połączeń, a nie punkty połączenia klienta.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.ControlType%2A&gt; property indicates the type of the server control associated with a connection point.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.ControlType%2A&gt;Właściwość wskazuje typ serwera kontroli powiązanej z punktu połączenia.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.ControlType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that not only &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; controls can form connections; any server control, whether an ASP.NET control, a custom control, or a user control, can be enabled to participate in connections if placed in a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; zone.</source>
+          <target state="translated">Należy pamiętać, że nie tylko &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;formanty można tworzyć połączeń; żadnego formantu serwera, czy formant ASP.NET, kontrolkę niestandardową lub kontrolkę użytkownika można włączyć brać udział w połączeniach, jeśli umieszczone w &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;strefy.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DisplayName%2A&gt; property provides a friendly name for the connection point that can be displayed in the UI to assist users who are creating connections.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DisplayName%2A&gt;Właściwość zapewnia przyjazną nazwę dla punktu połączenia, które mogą być wyświetlane w interfejsie użytkownika, aby ułatwić użytkownikom tworzących połączenia.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.ID%2A&gt; property serves as a string identifier for the connection point object itself.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.ID%2A&gt;Właściwość służy jako identyfikator ciągu dla samego obiektu punktu połączenia.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.ID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt; property indicates what type of interface instance the connection point understands.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt;Właściwość wskazuje rozumie, jakiego rodzaju wystąpienie interfejsu punktu połączenia.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Whether a given connection point provides or consumes an instance of that interface is determined by whether it is a &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; or a &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; object.</source>
+          <target state="translated">Określa, czy podany punkt połączenia udostępnia lub wykorzystuje wystąpienie interfejsu jest określany przez czy jest &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;lub &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;obiektu.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConnectionPoint class has one method.</source>
+          <target state="translated">Klasa Element ConnectionPoint ma jedną metodę.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.GetEnabled%2A&gt; method returns a Boolean value indicating whether a connection point is currently able to participate in connections.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.GetEnabled%2A&gt;Metoda zwraca wartość logiczną wskazującą, czy punkt połączenia jest obecnie mogą brać udział w połączeniach.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.GetEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConnectionPoint class also has one public field, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt;.</source>
+          <target state="translated">Klasa Element ConnectionPoint również ma jedno pole publiczne &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field contains a value used to identify the default connection point in a connection.</source>
+          <target state="translated">To pole zawiera wartość używana do identyfikacji domyślnego punktu połączenia w połączeniu.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The attributes for specifying connection point methods have only one required parameter, <ph id="ph2">`displayName`</ph>, so it is possible to create the default connection point attribute without specifying an ID.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Atrybuty do określenia punktu połączenia metody mają tylko jeden wymagany parametr <ph id="ph2">`displayName`</ph>, dzięki czemu można tworzyć domyślny atrybut punktu połączenia bez określania identyfikatora.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In such cases, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt; field supplies a base value to use.</source>
+          <target state="translated">W takich przypadkach &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt;pola dostarcza wartości podstawowej do użycia.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether a connection point supports multiple simultaneous connections.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy punkt połączenia obsługuje wiele równoczesnych połączeń.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; objects have their AllowsMultipleConnections property value set to <ph id="ph1">`true`</ph> (by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; class), because the Web Parts control set by default enables provider connection points to form connections to multiple consumers.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;obiekty mają ich AllowsMultipleConnections wartość ustawioną dla właściwości <ph id="ph1">`true`</ph> (przez &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;klasy), ponieważ formant części sieci Web, domyślnie umożliwia punkty połączenia dostawcy do połączeń formularza do wielu klientów.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; objects have their AllowsMultipleConnections property value set to <ph id="ph1">`false`</ph> (by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt; class) because the Web Parts control set by default allows consumer connection points to establish a connection to only one provider at a time.</source>
+          <target state="translated">Z kolei &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;obiekty mają ustawione na wartość właściwości AllowsMultipleConnections <ph id="ph1">`false`</ph> (przez &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;klasy), ponieważ formant części sieci Web, domyślnie umożliwia połączenia klienta punktów, aby nawiązać połączenie z tylko jednego dostawcę naraz.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can change the default behavior concerning multiple connections by assigning different values to the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.AllowsMultipleConnections%2A?displayProperty=fullName&gt; property (for providers) or the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.AllowsMultipleConnections%2A?displayProperty=fullName&gt; property (for consumers) on the two &lt;xref:System.Attribute&gt; classes used for connection attributes.</source>
+          <target state="translated">Można zmienić domyślne zachowanie dotyczące wielu połączeń, przypisując różne wartości do &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.AllowsMultipleConnections%2A?displayProperty=fullName&gt;Właściwości (dla dostawców) lub &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.AllowsMultipleConnections%2A?displayProperty=fullName&gt;Właściwości (dla użytkowników) w dwóch &lt;xref:System.Attribute&gt;klasy służące do połączeń atrybuty.&lt;/xref:System.Attribute&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.AllowsMultipleConnections%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.AllowsMultipleConnections%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you enable consumer connection points to connect to multiple providers at the same time, your code must deal with any resulting synchronization issues.</source>
+          <target state="translated">Po włączeniu punkty połączenia klienta do nawiązania połączenia wielu dostawców na tym samym czasie kodu musi uwzględniać wynikowy problemów z synchronizacją.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the connection point supports multiple connections; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli punkt połączenia obsługuje wiele połączeń; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; of the server control with which a connection point is associated.</source>
+          <target state="translated">Pobiera &lt;xref:System.Type&gt;formantu serwera, z którym jest skojarzona punktu połączenia.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the ControlType property is often the &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; type.</source>
+          <target state="translated">Wartość właściwości ControlType jest często &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;typu.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, because any type of user control or server control can participate in connections if it is properly enabled and placed in a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; zone, the ControlType property can return one of these other server control types as well.</source>
+          <target state="translated">Jednak ponieważ dowolnego typu kontrolki użytkownika lub kontrolki serwera mogą uczestniczyć w połączenia, jeśli została prawidłowo włączona i umieszczone w &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;strefy, właściwość ControlType można przywrócić jedną z innych serwera kontroli rodzaju również.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When server controls that are not &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; controls are placed in a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; zone, they are wrapped with a &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; object at run time so they can function as &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; controls and participate in connections.</source>
+          <target state="translated">Gdy serwer kontroluje, które nie są &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;formanty są umieszczane w &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;strefy, ich są ujęte w &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;obiektu w czasie wykonywania, mogą stanowić &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;steruje i brać udział w połączeniach.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>But when such controls are involved in connections, the ControlType property value does not return the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; type; it returns the type of the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; object's child control, which is the type of the server or user control.</source>
+          <target state="translated">Ale w przypadku takich kontroli w połączeniach nie zwraca wartości właściwości ControlType &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;Wpisz; zwraca typ &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;formant podrzędny obiektu, który jest typem formantu serwera lub użytkownika.&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; representing the control type.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;reprezentujący typu formantu.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Represents a string used to identify the default connection point within a collection of connection points associated with a server control.</source>
+          <target state="translated">Reprezentuje ciąg używany do identyfikowania punktu połączenia domyślne w kolekcji punktów połączenia skojarzony z formantem serwera.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a connection point is created, it is possible to specify an ID for the connection point in the source code of a consumer or provider &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control, using a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt; or a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; attribute.</source>
+          <target state="translated">Po utworzeniu punktu połączenia jest możliwe określenie Identyfikatora punktu połączenia w kodzie źródłowym konsumenta lub dostawcy &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;kontrolować za pomocą &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;lub &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;atrybutu.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, when an attribute is added to a connection point in the source code, the <ph id="ph1">`ID`</ph> parameter is optional.</source>
+          <target state="translated">Jednak po dodaniu atrybutu do punktu połączenia w kodzie źródłowym <ph id="ph1">`ID`</ph> parametr jest opcjonalny.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the ID is not specified in the attribute, the DefaultID field provides a string that is used to identify the default connection point.</source>
+          <target state="translated">Jeśli identyfikator nie jest określony w atrybucie, DefaultID pole zawiera ciąg, który służy do identyfikowania domyślnego punktu połączenia.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If multiple connection points are defined in a consumer or provider control, it is necessary to specify an ID for each connection point, so that the connection points can be distinguished when creating connections.</source>
+          <target state="translated">Jeśli wiele punktów połączenia są zdefiniowane w formancie użytkownika lub dostawcy, należy określić identyfikator dla każdego punktu połączenia, aby punkty połączenia można rozróżnić podczas tworzenia połączenia.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets a string that serves as a friendly display name to represent a connection point in the user interface (UI).</source>
+          <target state="translated">Pobiera ciąg, który służy jako przyjazną nazwę wyświetlaną reprezentuje punkt połączenia w interfejsie użytkownika (UI).</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a Web Parts connection, the provider and consumer controls for the connection must each specify at least one connection point, a method that enables them to communicate and share data.</source>
+          <target state="translated">Aby utworzyć połączenie części sieci Web, kontrolek dostawcy i klienta dla połączenia każdego określić co najmniej jedno połączenie punkt, metodę, która umożliwia im komunikację i udostępnianie danych.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To identify these connection point methods, a developer specifies an attribute on the selected methods.</source>
+          <target state="translated">Aby zidentyfikować te metody punktu połączenia, Projektant Określa atrybut na wybrane metody zostaną usunięte.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the provider, a <ph id="ph1">`ConnectionProvider`</ph> attribute is set on the selected callback method, and in the consumer, a <ph id="ph2">`ConnectionConsumer`</ph> attribute is set on the method that receives an instance of an interface that contains data from the provider.</source>
+          <target state="translated">W dostawcy <ph id="ph1">`ConnectionProvider`</ph> atrybut jest ustawiony na metodę wywołania zwrotnego wybrany, a w konsumenta, <ph id="ph2">`ConnectionConsumer`</ph> atrybut jest ustawiony na metodę, która otrzymuje wystąpienie interfejsu, który zawiera dane od dostawcy.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For both of these attributes, the one parameter that is always required, regardless of which overload is declared to create the attribute, is the <ph id="ph1">`displayName`</ph> parameter.</source>
+          <target state="translated">W przypadku obu tych atrybutów jest jeden parametr, który jest zawsze wymagane niezależnie od tego, które przeładowanie jest zadeklarowana, aby utworzyć atrybutu, <ph id="ph1">`displayName`</ph> parametru.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The developer must assign a string to be used as a friendly display name for the connection point, and that string becomes the value of the DisplayName property.</source>
+          <target state="translated">Deweloper musi przypisać ciąg ma być używany jako przyjazną nazwę wyświetlaną dla punktu połączenia, a ten ciąg staje się wartość właściwości Nazwa wyświetlana.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DisplayName property value is displayed in the UI of a Web page when users create connections.</source>
+          <target state="translated">Wartość właściwości DisplayName jest wyświetlana w Interfejsie użytkownika strony sieci Web, podczas tworzenia połączenia.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, when the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control is added to the page, it creates a UI for users to create connections between controls.</source>
+          <target state="translated">Na przykład, jeśli &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;formant został dodany do strony, tworzy interfejsu użytkownika dla użytkowników w celu utworzenia połączenia między formantami.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After a user switches a page into connect display mode and clicks a connect verb on a &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control, the connection UI appears.</source>
+          <target state="translated">Po użytkownik zmienia stronę w trybie wyświetlania connect i kliknie zlecenie connect &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;kontrolować, połączenie zostanie wyświetlony interfejs użytkownika.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each control that can participate in a connection is listed in the UI, and next to each control is a drop-down list control that displays the friendly names of its available connection points.</source>
+          <target state="translated">Każdej kontrolki, które mogą uczestniczyć w połączeniu znajduje się w interfejsie użytkownika, a obok każdej kontrolki jest kontrolkę listy rozwijanej, która wyświetla przyjaznych nazw jego dostępnych punktów połączenia.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Users must select at least one connection point to establish a connection.</source>
+          <target state="translated">Użytkownicy muszą zaznaczyć co najmniej jedno połączenie punkt ustanowić połączenie.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The values that appear in the list of connection points are obtained from the DisplayName property.</source>
+          <target state="translated">Wartości, które znajdują się na liście punktów połączenia są uzyskiwane z Właściwość DisplayName.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If developers build a custom UI for creating connections, they can use the DisplayName property in a similar way to provide a friendly name that represents a connection point.</source>
+          <target state="translated">Jeśli deweloperom tworzenie niestandardowego interfejsu użytkownika dla tworzenia połączeń, Właściwość DisplayName może użyć w podobny sposób jak Podaj przyjazną nazwę, która reprezentuje punktu połączenia.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly display name for a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ciąg, który zawiera przyjazną nazwę wyświetlaną dla <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether a connection point can participate in connections.</source>
+          <target state="translated">Zwraca wartość wskazującą, czy punkt połączenia mogą brać udział w połączeniach.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetEnabled method in the base &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt; class always returns <ph id="ph1">`true`</ph>, but derived classes can override the method to return <ph id="ph2">`true`</ph> or <ph id="ph3">`false`</ph> at different times, based on the state of <ph id="ph4">`control`</ph>.</source>
+          <target state="translated">Metoda GetEnabled w podstawowym &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;klasy zawsze zwraca <ph id="ph1">`true`</ph>, ale klasy pochodne mogą zastąpić metodę, aby zwrócić <ph id="ph2">`true`</ph> lub <ph id="ph3">`false`</ph> w różnym czasie, na podstawie stanu <ph id="ph4">`control`</ph>.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or other server control that is associated with a connection point.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> lub innych formantu serwera, który jest skojarzony z punktu połączenia.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control can create a connection point to participate in a connection; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli formant można utworzyć punktu połączenia do udziału w przypadku połączenia; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets a string that contains the identifier for a connection point.</source>
+          <target state="translated">Pobiera ciąg, który zawiera identyfikator punktu połączenia.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a developer declares a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt; or a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; attribute on a method in the source code of a control, so that the method can be used as a connection point, it is not required to declare the <ph id="ph1">`ID`</ph> parameter for the connection point attribute.</source>
+          <target state="translated">Gdy deklaruje dewelopera &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;lub &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;atrybutu dla metody w kodzie źródłowym formantu, aby metody można użyć jako punkt połączenia, nie jest wymagane do deklarowania <ph id="ph1">`ID`</ph> parametr dla atrybutu punktu połączenia.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The only required attribute is the <ph id="ph1">`displayName`</ph> parameter.</source>
+          <target state="translated">Tylko wymaganego atrybutu <ph id="ph1">`displayName`</ph> parametru.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A default ID is assigned to the connection point, using the value from the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt; field.</source>
+          <target state="translated">Domyślny identyfikator jest przypisany do punktu połączenia przy użyciu wartości &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt;pola.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is only one method in a control being used as a connection point, it is unnecessary to specify an ID for the connection point.</source>
+          <target state="translated">Jeśli istnieje tylko jedna metoda w formancie używany jako punkt połączenia, nie trzeba określić identyfikator punktu połączenia.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are multiple methods specified as connection points, you must specify an ID for each one; otherwise, an exception will be thrown.</source>
+          <target state="translated">Jeśli istnieje wiele metod określony jako punkty połączenia, należy określić identyfikator dla każdej z nich; w przeciwnym razie zostanie wygenerowany wyjątek.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By assigning an ID to each connection point, you also make it possible to specify which connection point to use when you declare connections in Web pages or create them in code.</source>
+          <target state="translated">Przypisując identyfikator do każdego punktu połączenia, należy również umożliwić Określ, którego punktu połączenia do użycia podczas zadeklarować połączeń na stronach sieci Web lub utworzyć je w kodzie.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A string that contains the identifier for a connection point.</source>
+          <target state="translated">Ciąg, który zawiera identyfikator punktu połączenia.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the type of the interface used by a connection point.</source>
+          <target state="translated">Pobiera typ interfejsu używanego przez punkt połączenia.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The InterfaceType property indicates what type of interface a connection point uses.</source>
+          <target state="translated">Właściwość InterfaceType wskazuje, jakiego rodzaju interfejsu korzysta z punktu połączenia.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can help to determine whether two controls are compatible and able to form a connection.</source>
+          <target state="translated">Może to ułatwić ustalenie, czy dwa formanty są zgodne i może się komunikować.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the provider connection point's InterfaceType is different from the consumer connection point's InterfaceType, then the two controls are incompatible (meaning that they cannot be directly connected without a transformer), and a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt; object must be used to establish a connection.</source>
+          <target state="translated">Jeśli punkt połączenia dostawcy InterfaceType różni się od InterfaceType punkt połączenia klienta, a następnie dwa formanty są niezgodne (co oznacza, że nie można bezpośrednio połączone bez transformatora), a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;obiektu musi być używany do nawiązania połączenia.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that corresponds to the interface type provided or consumed by a control.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;, który odpowiada typowi interfejsu dostarczona lub zużyte przez formant.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
