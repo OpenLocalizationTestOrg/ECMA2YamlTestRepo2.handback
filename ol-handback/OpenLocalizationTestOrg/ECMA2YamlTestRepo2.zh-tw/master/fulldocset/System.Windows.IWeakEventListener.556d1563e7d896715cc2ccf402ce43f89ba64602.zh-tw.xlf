@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b159c61361fc1aeeded8c197e1856941f66de561</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.IWeakEventListener.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6852cf8924fc71bcce4765f972c51b899480cc14</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1d56b30d9c0ee9e4432291f21994dceab6318294</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides event listening support for classes that expect to receive events through the WeakEvent pattern and a <bpt id="p1">&lt;xref href="System.Windows.WeakEventManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預期會收到事件通過 WeakEvent 模式的類別提供事件接聽支援和<bpt id="p1">&lt;xref href="System.Windows.WeakEventManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.WeakEventManager&gt; (a dispatcher) forwards an event by calling the &lt;xref:System.Windows.IWeakEventListener.ReceiveWeakEvent%2A&gt; method on classes that implement this interface, and that have been added as listeners by calling &lt;xref:System.Windows.WeakEventManager&gt; methods beforehand.</source>
+          <target state="translated">&lt;xref:System.Windows.WeakEventManager&gt;（發送器） 會將事件轉送藉由呼叫&lt;xref:System.Windows.IWeakEventListener.ReceiveWeakEvent%2A&gt;類別來實作此介面，而且已經加入為接聽程式呼叫上的方法&lt;xref:System.Windows.WeakEventManager&gt;方法事先。&lt;/xref:System.Windows.WeakEventManager&gt; &lt;/xref:System.Windows.IWeakEventListener.ReceiveWeakEvent%2A&gt; &lt;/xref:System.Windows.WeakEventManager&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The principal reason for following the WeakEvent pattern is when the event source has an object lifetime that is potentially independent of the event listeners.</source>
+          <target state="translated">對下列 WeakEvent 模式的主要原因時，事件來源的物件存留期可能無關的事件接聽程式。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Using the central event dispatching of a &lt;xref:System.Windows.WeakEventManager&gt; enables the handlers for listeners to be garbage collected (or manually purged) even if the source object lifetime extends beyond the listeners.</source>
+          <target state="translated">使用中央事件分派&lt;xref:System.Windows.WeakEventManager&gt;啟用接聽程式，以進行記憶體回收的處理常式收集 （或以手動方式清除） 即使來源的物件存留期超出接聽程式。&lt;/xref:System.Windows.WeakEventManager&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>By contrast, a normal event hookup using <ph id="ph1">`+=`</ph> or equivalent language-specific event syntax causes the potentially still-connected source to hold a strong reference to the handlers.</source>
+          <target state="translated">相反地，一般事件的連結使用<ph id="ph1">`+=`</ph>或對等語言特有的事件語法會導致潛在連線中的資源來保存強式參考的處理常式。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This keeps the listener references from being garbage collected in a timely fashion.</source>
+          <target state="translated">這可防止由記憶體回收能夠及時接聽程式的參考。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>One common situation where the relationships between sources and listeners suggests the use of this pattern is the handling of update events coming from sources for data bindings.</source>
+          <target state="translated">來源和接聽程式之間的關聯性，建議使用此模式的一個常見情況是來自資料繫結來源更新事件的處理。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can use the WeakEvent pattern to listen for events that are external to your application.</source>
+          <target state="translated">您可以使用 WeakEvent 模式來接聽外部的應用程式的事件。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You only need to define a &lt;xref:System.Windows.WeakEventManager&gt; for it, provide listening behavior in &lt;xref:System.Windows.IWeakEventListener.ReceiveWeakEvent%2A&gt;, and use the &lt;xref:System.Windows.WeakEventManager&gt; to attach the handler references rather than <ph id="ph1">`+=`</ph>.</source>
+          <target state="translated">您只需要定義&lt;xref:System.Windows.WeakEventManager&gt;，接聽在提供的行為&lt;xref:System.Windows.IWeakEventListener.ReceiveWeakEvent%2A&gt;，並使用&lt;xref:System.Windows.WeakEventManager&gt;附加此處理常式參考而非<ph id="ph1">`+=`</ph>。&lt;/xref:System.Windows.WeakEventManager&gt; &lt;/xref:System.Windows.IWeakEventListener.ReceiveWeakEvent%2A&gt; &lt;/xref:System.Windows.WeakEventManager&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Receives events from the centralized event manager.</source>
+          <target state="translated">從集中式的事件管理員接收事件。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The type of the <bpt id="p1">&lt;xref href="System.Windows.WeakEventManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> calling this method.</source>
+          <target state="translated">型別<bpt id="p1">&lt;xref href="System.Windows.WeakEventManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>呼叫這個方法。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Object that originated the event.</source>
+          <target state="translated">產生事件的物件。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Event data.</source>
+          <target state="translated">事件資料。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the listener handled the event.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果接聽程式處理此事件。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It is considered an error by the <bpt id="p1">&lt;xref href="System.Windows.WeakEventManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> handling in <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> to register a listener for an event that the listener does not handle.</source>
+          <target state="translated">它會被視為錯誤的<bpt id="p1">&lt;xref href="System.Windows.WeakEventManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>中處理<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>註冊接聽程式不會處理事件的接聽程式。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Regardless, the method should return <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if it receives an event that it does not recognize or handle.</source>
+          <target state="translated">不論如何，這個方法應傳回<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果收到不會在無法辨識或不處理的事件。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

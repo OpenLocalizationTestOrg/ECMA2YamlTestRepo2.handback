@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81b05796a739bacecb2b4767c2e09a967faf0c94</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.UndoEngine.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9523cef1592ec09e6833410fa1afee4d8d76d41f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e645f4fc50a72e0c2ff000e207f782eb1d17c5e2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies generic undo/redo functionality at design time.</source>
+          <target state="translated">在设计时指定泛型撤消/重做功能。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The UndoEngine abstract class provides a default implementation of undo functionality at design time.</source>
+          <target state="translated">UndoEngine 抽象类提供设计时撤消功能的默认实现。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>An undo unit represents a single unit of undoable work.</source>
+          <target state="translated">撤消单元表示单个可撤消工作单元。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This unit is added to a stack and the user can then walk the stack to undo each action.</source>
+          <target state="translated">此单元添加到堆栈，并且用户可以然后遍历堆栈以撤消每项操作。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Undo units typically are designed to toggle, which means that calling undo twice returns the application to its starting state.</source>
+          <target state="translated">撤消单元通常旨在切换，这意味着调用撤消操作两次返回为起始状态的应用程序。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The UndoEngine class takes advantage of the following characteristics of objects running within the designer:      -   All interesting objects can be persisted to some format by the designer loader.</source>
+          <target state="translated">UndoEngine 类充分利用在设计器内运行的对象的以下特征:-所有关注的对象，可以进行设计器加载程序为某种格式持久化。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   All objects raise property-change notifications when a property is changed.</source>
+          <target state="translated">的所有对象属性更改时都引发属性更改通知。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; offers the idea of transactions, which can be used to fabricate an undo action that spans multiple smaller actions.</source>
+          <target state="translated">-&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;提供事务，可用于构造跨越多个较小的操作的撤消操作的概念。&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>With these features, UndoEngine can fabricate any undo units it needs automatically.</source>
+          <target state="translated">借助这些功能，UndoEngine 可以构造它自动需要的任何撤消单元。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Do not change property values directly.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 不要直接更改属性值。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The UndoEngine class requires you to use the appropriate &lt;xref:System.ComponentModel.TypeDescriptor&gt; to change property values.</source>
+          <target state="translated">UndoEngine 类要求你使用适当&lt;xref:System.ComponentModel.TypeDescriptor&gt;来更改属性值。&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>UndoEngine monitors for change notifications to create undo units, and the units themselves consist of serialized object states.</source>
+          <target state="translated">更改通知创建 UndoEngine 监视器撤消单元，表示，这些单元本身包含序列化的对象状态。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The following table shows the services that must be available when UndoEngine is created.</source>
+          <target state="translated">下表显示创建 UndoEngine 时必须是可用的服务。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;|Saves property and object values for a component before and after a change is made.|   |&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;|Notifies the undo engine of changes made to components.|   |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|Used to track transactions.|      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because the UndoEngine class requires &lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt; and &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;, it is available only at design time.</source>
+          <target state="translated">|服务 |说明 |  |-------------|-----------------|  |&lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;|将一个组件的属性和对象值保存之前和之后进行更改。 |  |&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;|通知撤消引擎对组件所做的更改。 |  |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|用于跟踪事务。 |    &amp;1;&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 由于 UndoEngine 类需要&lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;和&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;，是仅在设计时可用。&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The undo engine tracks transactions and creates a single undo unit that encompasses a transaction.</source>
+          <target state="translated">撤消引擎跟踪事务，并创建单个撤消单元包含一个事务。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>As a result, the undo engine has control over the duration of an undoable action.</source>
+          <target state="translated">因此，撤消引擎可以控制可撤消的操作的持续时间。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Also, because transactions can be named, undoable actions inherit their names from the current transaction.</source>
+          <target state="translated">此外，由于可以命名事务，则可撤消的操作将从当前事务继承其名称。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If no transaction is available and a change is reported, the undo engine creates an undo name based on the type of change (for example, "Change property 'Text'").</source>
+          <target state="translated">如果没有事务可用，且都将报告变更，撤消引擎将创建的更改 （例如，"更改属性 'Text'"） 的类型所基于的撤消名称。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.UndoEngine&gt; requires several services from the <ph id="ph1">`provider`</ph> parameter to be useful.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.UndoEngine&gt;需要从多个服务<ph id="ph1">`provider`</ph>参数很有用。&lt;/xref:System.ComponentModel.Design.UndoEngine&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A parenting service provider.</source>
+          <target state="translated">设置父级服务提供程序。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A required service cannot be found.</source>
+          <target state="translated">找不到所需的服务。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for required services.</source>
+          <target state="translated">请参阅<bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>为所需的服务。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you have removed this service, ensure that you provide a replacement.</source>
+          <target state="translated">如果你已删除此服务，请确保提供了替代。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Creates a new &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;.</source>
+          <target state="translated">创建新的&lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;。&lt;/xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default implementation of the CreateUndoUnit method simply returns a new &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;.</source>
+          <target state="translated">CreateUndoUnit 方法的默认实现只是返回新&lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;。&lt;/xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>By default, &lt;xref:System.ComponentModel.Design.UndoEngine&gt; does nothing with the <ph id="ph1">`primary`</ph> parameter, but some implementations of undo, such as those involving the COM <ph id="ph2">`Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit`</ph> design pattern, may need to identify the difference between a primary unit and its children.</source>
+          <target state="translated">默认情况下，&lt;xref:System.ComponentModel.Design.UndoEngine&gt;不执行任何操作与<ph id="ph1">`primary`</ph>参数，但某些实现的撤消，如那些涉及 COM<ph id="ph2">`Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit`</ph>设计模式，可能需要确定主单元及其子级之间的区别。&lt;/xref:System.ComponentModel.Design.UndoEngine&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name of the unit to create.</source>
+          <target state="translated">要创建的单元的名称。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create the first of a series of nested units; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to create subsequent nested units.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要创建的嵌套单位; 一系列的第一个<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>以便创建后续嵌套的单元。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt; with a specified name.</source>
+          <target state="translated">一个新&lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;具有指定名称。&lt;/xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">释放使用的所有资源<bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">释放由非托管的资源<bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，还可以释放托管的资源。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要释放托管和非托管资源;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>若要仅释放非托管的资源。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Enables or disables the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">启用或禁用<bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is enabled; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>启用; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the requested service.</source>
+          <target state="translated">获取请求的服务。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The type of service to retrieve.</source>
+          <target state="translated">要检索的服务类型。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The requested service, if found.</source>
+          <target state="translated">请求的服务，如果找到。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is required but cannot be found.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>是必需的但找不到。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you have removed this service, ensure that you provide a replacement.</source>
+          <target state="translated">如果你已删除此服务，请确保提供了替代。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets the requested service.</source>
+          <target state="translated">获取请求的服务。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The type of service to retrieve.</source>
+          <target state="translated">要检索的服务类型。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The requested service, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the requested service is not found.</source>
+          <target state="translated">请求的服务，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果找不到请求的服务。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undoing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引发<bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undoing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件数据。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引发<bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件数据。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Occurs immediately before an undo action is performed.</source>
+          <target state="translated">执行撤消操作之前立即发生。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Indicates if an undo action is in progress.</source>
+          <target state="translated">指示是否正在进行撤消操作。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if an undo action is in progress; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果撤消操作正在进行;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Occurs immediately after an undo action is performed.</source>
+          <target state="translated">执行撤消操作后立即发生。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The Undone event is always raised, even if an exception is thrown.</source>
+          <target state="translated">始终引发撤消的事件，即使引发异常。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

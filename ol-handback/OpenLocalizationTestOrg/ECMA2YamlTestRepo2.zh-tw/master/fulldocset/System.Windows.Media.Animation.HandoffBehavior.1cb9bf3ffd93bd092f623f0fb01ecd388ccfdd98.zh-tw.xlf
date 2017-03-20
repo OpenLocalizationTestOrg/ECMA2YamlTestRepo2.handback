@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6bf2ed521d0dadfa1d6d12ff6871eca306fb9b05</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Animation.HandoffBehavior.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8fc1b9ae75a3b53cc973396af9cbdd1065e86c26</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">928f0eb01ac95fc88fe4851450515b288d17a052</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies how new animations interact with any existing ones that are already applied to a property.</source>
+          <target state="translated">指定新動畫已套用至屬性的現有與互動。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>When you apply a &lt;xref:System.Windows.Media.Animation.Storyboard&gt;, &lt;xref:System.Windows.Media.Animation.AnimationTimeline&gt;, or &lt;xref:System.Windows.Media.Animation.AnimationClock&gt; to a property by using Compose, any &lt;xref:System.Windows.Media.Animation.Clock&gt; objects previously associated with that property continue to consume system resources; the timing system will not remove the clocks automatically.</source>
+          <target state="translated">當您將套用&lt;xref:System.Windows.Media.Animation.Storyboard&gt;， &lt;xref:System.Windows.Media.Animation.AnimationTimeline&gt;，或&lt;xref:System.Windows.Media.Animation.AnimationClock&gt;至任何使用撰寫，屬性&lt;xref:System.Windows.Media.Animation.Clock&gt;之前與該屬性相關聯的物件會繼續耗用系統資源; 計時系統將不會自動時鐘移除。&lt;/xref:System.Windows.Media.Animation.Clock&gt; &lt;/xref:System.Windows.Media.Animation.AnimationClock&gt; &lt;/xref:System.Windows.Media.Animation.AnimationTimeline&gt; &lt;/xref:System.Windows.Media.Animation.Storyboard&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To avoid performance issues when you apply a large number of clocks using Compose, you should remove composing clocks from the animated property after they complete.</source>
+          <target state="translated">若要避免效能問題，當您套用大量使用撰寫的時鐘之後, 應該要移除組成時鐘動畫的屬性從它們完成。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>There are several ways to remove a clock:      -   To remove all clocks from a property, use the &lt;xref:System.Windows.Media.Animation.Animatable.ApplyAnimationClock%28System.Windows.DependencyProperty%2CSystem.Windows.Media.Animation.AnimationClock%29&gt; or &lt;xref:System.Windows.Media.Animation.Animatable.BeginAnimation%28System.Windows.DependencyProperty%2CSystem.Windows.Media.Animation.AnimationTimeline%29&gt; method of the animated object.</source>
+          <target state="translated">有數種方式可移除時鐘:-若要從屬性移除所有時鐘，請使用&lt;xref:System.Windows.Media.Animation.Animatable.ApplyAnimationClock%28System.Windows.DependencyProperty%2CSystem.Windows.Media.Animation.AnimationClock%29&gt;或&lt;xref:System.Windows.Media.Animation.Animatable.BeginAnimation%28System.Windows.DependencyProperty%2CSystem.Windows.Media.Animation.AnimationTimeline%29&gt;動畫物件的方法。&lt;/xref:System.Windows.Media.Animation.Animatable.BeginAnimation%28System.Windows.DependencyProperty%2CSystem.Windows.Media.Animation.AnimationTimeline%29&gt; &lt;/xref:System.Windows.Media.Animation.Animatable.ApplyAnimationClock%28System.Windows.DependencyProperty%2CSystem.Windows.Media.Animation.AnimationClock%29&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Specify the property being animated as the first parameter, and <ph id="ph1">`null`</ph> as the second.</source>
+          <target state="translated">指定的第一個參數，要繪製之屬性和<ph id="ph1">`null`</ph>做為第二個。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This will remove all animation clocks from the property.</source>
+          <target state="translated">這會從屬性移除所有動畫時鐘。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   To remove a specific &lt;xref:System.Windows.Media.Animation.AnimationClock&gt; from a list of clocks, use the &lt;xref:System.Windows.Media.Animation.Clock.Controller%2A&gt; property of the &lt;xref:System.Windows.Media.Animation.AnimationClock&gt; to retrieve a &lt;xref:System.Windows.Media.Animation.ClockController&gt;, then call the &lt;xref:System.Windows.Media.Animation.ClockController.Remove%2A&gt; method of the &lt;xref:System.Windows.Media.Animation.ClockController&gt;.</source>
+          <target state="translated">-若要移除&lt;xref:System.Windows.Media.Animation.AnimationClock&gt;的時鐘，清單中使用&lt;xref:System.Windows.Media.Animation.Clock.Controller%2A&gt;屬性&lt;xref:System.Windows.Media.Animation.AnimationClock&gt;來擷取&lt;xref:System.Windows.Media.Animation.ClockController&gt;，然後呼叫此&lt;xref:System.Windows.Media.Animation.ClockController.Remove%2A&gt;方法的&lt;xref:System.Windows.Media.Animation.ClockController&gt;。&lt;/xref:System.Windows.Media.Animation.ClockController&gt;&lt;/xref:System.Windows.Media.Animation.ClockController.Remove%2A&gt;&lt;/xref:System.Windows.Media.Animation.ClockController&gt;&lt;/xref:System.Windows.Media.Animation.AnimationClock&gt;&lt;/xref:System.Windows.Media.Animation.Clock.Controller%2A&gt;&lt;/xref:System.Windows.Media.Animation.AnimationClock&gt;特定</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This is typically done in the &lt;xref:System.Windows.Media.Animation.Clock.Completed&gt; event handler for a clock.</source>
+          <target state="translated">這通常是&lt;xref:System.Windows.Media.Animation.Clock.Completed&gt;時鐘的事件處理常式。&lt;/xref:System.Windows.Media.Animation.Clock.Completed&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Note that only root clocks can be controlled by a &lt;xref:System.Windows.Media.Animation.ClockController&gt;; the &lt;xref:System.Windows.Media.Animation.Clock.Controller%2A&gt; property of a child clock returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">請注意，只有根時鐘可以控制&lt;xref:System.Windows.Media.Animation.ClockController&gt;;&lt;xref:System.Windows.Media.Animation.Clock.Controller%2A&gt;子時鐘的屬性會傳回<ph id="ph1">`null`</ph>。&lt;/xref:System.Windows.Media.Animation.Clock.Controller%2A&gt; &lt;/xref:System.Windows.Media.Animation.ClockController&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Note also that the &lt;xref:System.Windows.Media.Animation.Clock.Completed&gt; event will not be raised if the effective duration of the clock is forever.</source>
+          <target state="translated">也請注意，&lt;xref:System.Windows.Media.Animation.Clock.Completed&gt;是否有效的持續時間的時鐘永遠不會引發事件。&lt;/xref:System.Windows.Media.Animation.Clock.Completed&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In that case, the user must determine when to call &lt;xref:System.Windows.Media.Animation.ClockController.Remove%2A&gt;.</source>
+          <target state="translated">在此情況下，使用者必須決定何時呼叫&lt;xref:System.Windows.Media.Animation.ClockController.Remove%2A&gt;.&lt;/xref:System.Windows.Media.Animation.ClockController.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This is primarily an issue for animations on objects that have a long lifetime.</source>
+          <target state="translated">這是主要的動畫長的存留期的物件上的問題。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When an object is garbage collected, its clocks will also be disconnected and garbage collected.</source>
+          <target state="translated">記憶體回收物件時，將也會中斷其時鐘和記憶體回收。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information about clock objects, see <bpt id="p1">[</bpt>Animation and Timing System Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需時鐘物件的詳細資訊，請參閱<bpt id="p1">[</bpt>動畫和計時系統概觀<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>New animations are combined with existing animations by appending the new animations to the end of the composition chain.</source>
+          <target state="translated">新動畫會與現有動畫結合，藉由附加至撰寫鏈結結尾的新的動畫。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>New animations replace any existing animations on the properties to which they are applied.</source>
+          <target state="translated">新動畫會取代任何現有動畫来套用的屬性。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

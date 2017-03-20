@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b8d893056fbb3ae8d56821de245d2ef1440d2db9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.XmlSiteMapProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">23471fe0fa00f82d78d6759e6752f739ade87d28</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e955d26c39c6827a5b8262d1ff65a56073132be</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The XmlSiteMapProvider class is derived from the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and is the default site map provider for ASP.NET.</source>
+          <target state="translated">XmlSiteMapProvider 类派生自<bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，这是 ASP.NET 的默认 site 映射提供程序。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The XmlSiteMapProvider class generates site map trees from XML files with the file name extension .sitemap.</source>
+          <target state="translated">XmlSiteMapProvider 类从 XML 文件，而文件名称扩展.sitemap 生成站点映射树。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The XmlSiteMapProvider class loads site map data from an XML file that follows a known schema.</source>
+          <target state="translated">XmlSiteMapProvider 类从遵循已知的架构的 XML 文件加载站点地图数据。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The site map data is bounded by <ph id="ph1">`&lt;siteMap&gt;`</ph> tags and consists of nested <ph id="ph2">`&lt;siteMapNode&gt;`</ph> tags.</source>
+          <target state="translated">站点地图数据受<ph id="ph1">`&lt;siteMap&gt;`</ph>标记，并用组成嵌套<ph id="ph2">`&lt;siteMapNode&gt;`</ph>标记。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Two constraints are imposed by the &lt;xref:System.Web.SiteMapProvider&gt; and XmlSiteMapProvider classes on the structure of the site map data:      -   Only one root node can exist.</source>
+          <target state="translated">两个约束所规定的&lt;xref:System.Web.SiteMapProvider&gt;和 XmlSiteMapProvider 类结构的站点将数据映射:-只有一个根节点可以存在。&lt;/xref:System.Web.SiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   For &lt;xref:System.Web.SiteMapNode&gt; objects that specify URLs, the URLs must be unique within the scope of the provider.</source>
+          <target state="translated">-为&lt;xref:System.Web.SiteMapNode&gt;指定 Url，Url 必须是唯一的提供程序作用域内的对象。&lt;/xref:System.Web.SiteMapNode&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>(For nodes that do not specify URLs, all keys must be unique.)       The following code example shows an example of an XML file that can be used with the XmlSiteMapProvider.</source>
+          <target state="translated">（对于不指定 Url 的节点，所有键必须都是唯一的。）     下面的代码示例演示可与 XmlSiteMapProvider 一起使用的 XML 文件的示例。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;siteMap&gt;     &lt;siteMapNode title="RootNode" description="This is the root node of the site map. There can be only one root node." url="Page1.aspx" &gt;       &lt;siteMapNode title="ChildofRootNode" description="Descriptions do not have to be unique." url="Page2.aspx"&gt;         &lt;siteMapNode title="ChildOfChildNode" description="SiteMapNode objects can be nested to any level." url="Page3.aspx"/&gt;       &lt;/siteMapNode&gt;       &lt;siteMapNode title="ChildofRootNode" description="Descriptions do not have to be unique." url="Page4.aspx"/&gt;     &lt;/siteMapNode&gt;   &lt;/siteMap&gt;   ```</ph>       The XmlSiteMapProvider is the default provider for ASP.NET and it reads XML data from a file named Web.sitemap that is located within the directory structure of the ASP.NET application.</source>
+          <target state="translated"><ph id="ph1">```   &lt;siteMap&gt;     &lt;siteMapNode title="RootNode" description="This is the root node of the site map. There can be only one root node." url="Page1.aspx" &gt;       &lt;siteMapNode title="ChildofRootNode" description="Descriptions do not have to be unique." url="Page2.aspx"&gt;         &lt;siteMapNode title="ChildOfChildNode" description="SiteMapNode objects can be nested to any level." url="Page3.aspx"/&gt;       &lt;/siteMapNode&gt;       &lt;siteMapNode title="ChildofRootNode" description="Descriptions do not have to be unique." url="Page4.aspx"/&gt;     &lt;/siteMapNode&gt;   &lt;/siteMap&gt;   ```</ph>XmlSiteMapProvider 是 ASP.NET 的默认提供程序和它从名为 Web.sitemap 位于 ASP.NET 应用程序的目录结构中的文件读取 XML 数据。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>By default, the Web.sitemap file is located at the application root; however, if you want to change the name or location of the file from which the XmlSiteMapProvider loads data, you can override the default configuration in your Web.config file.</source>
+          <target state="translated">默认情况下，Web.sitemap 文件位于应用程序根目录中;但是，如果你想要更改名称或从其 XmlSiteMapProvider 加载数据的文件的位置，则可以重写默认配置在 Web.config 文件。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>By overriding the default configuration settings in your Web.config file, you can tailor the behavior of the XmlSiteMapProvider for each ASP.NET application, as necessary.</source>
+          <target state="translated">通过重写你的 Web.config 文件中的默认配置设置，您可以定制每个 ASP.NET 应用程序，根据需要 XmlSiteMapProvider 的行为。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The following code example demonstrates an example Web.config file, where the XmlSiteMapProvider is still used, but a different site map file is used.</source>
+          <target state="translated">下面的代码示例演示一个示例 Web.config 文件，仍使用 XmlSiteMapProvider，但使用不同的站点映射文件。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Because all providers in a &lt;xref:System.Web.SiteMapProviderCollection&gt; object must be named uniquely, the one that is specified in the Web.config file uses a name other than the default but is also set as the default provider so that it will be used instead of the XmlSiteMapProvider that is specified in the default ASP.NET configuration.</source>
+          <target state="translated">因为中的所有提供程序&lt;xref:System.Web.SiteMapProviderCollection&gt;对象必须具有唯一名称，在 Web.config 文件中指定的一个使用默认值之外的名称，但也将设置为默认的提供程序，以便它将使用而不是默认 ASP.NET 配置中指定 XmlSiteMapProvider。&lt;/xref:System.Web.SiteMapProviderCollection&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can change the name of the site navigation data file, but you cannot change its extension.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 可以更改站点导航数据文件的名称，但不能更改其扩展名。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The XmlSiteMapProvider only reads data from files that are named with the file name extension .sitemap.</source>
+          <target state="translated">XmlSiteMapProvider 的文件的名称中带有文件名称扩展.sitemap，则只读取数据。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Creates a new, unnamed, instance of the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">创建一个新的未命名，实例<bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the collections that are maintained by the current provider.</source>
+          <target state="translated">将添加<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到维护当前提供程序的集合的对象。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`node`</ph> parameter is added to an internal collection, and a parent/child relationship is created between it and <ph id="ph2">`parentNode`</ph>.</source>
+          <target state="translated"><ph id="ph1">`node`</ph>参数添加到内部集合，和它之间创建父/子关系和<ph id="ph2">`parentNode`</ph>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class, derived from the &lt;xref:System.Web.StaticSiteMapProvider&gt; class and the default site map provider for ASP.NET, uses the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property of a &lt;xref:System.Web.SiteMapNode&gt; object as a lookup key in its internal collections, by default.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;类，派生自&lt;xref:System.Web.StaticSiteMapProvider&gt;类和默认站点映射提供程序对 ASP.NET、 使用&lt;xref:System.Web.SiteMapNode.Url%2A&gt;属性&lt;xref:System.Web.SiteMapNode&gt;对象作为其内部的集合，默认情况下中查找键。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt; &lt;/xref:System.Web.StaticSiteMapProvider&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property of the &lt;xref:System.Web.SiteMapNode&gt; is set, it must be unique within the scope of the provider.</source>
+          <target state="translated">如果&lt;xref:System.Web.SiteMapNode.Url%2A&gt;属性&lt;xref:System.Web.SiteMapNode&gt;设置，它必须是唯一的提供程序作用域内。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider.FindSiteMapNode%2A&gt; method attempts to retrieve nodes based on their &lt;xref:System.Web.SiteMapNode.Url%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider.FindSiteMapNode%2A&gt;方法尝试检索其&lt;xref:System.Web.SiteMapNode.Url%2A&gt;.&lt;/xref:System.Web.SiteMapNode.Url%2A&gt;所基于的节点&lt;/xref:System.Web.XmlSiteMapProvider.FindSiteMapNode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Otherwise, you can use the &lt;xref:System.Web.SiteMapNode.Key%2A&gt; property, and the corresponding &lt;xref:System.Web.XmlSiteMapProvider.FindSiteMapNodeFromKey%2A&gt; method, to retrieve nodes.</source>
+          <target state="translated">否则，你可以使用&lt;xref:System.Web.SiteMapNode.Key%2A&gt;属性，以及相应&lt;xref:System.Web.XmlSiteMapProvider.FindSiteMapNodeFromKey%2A&gt;方法，以检索节点。&lt;/xref:System.Web.XmlSiteMapProvider.FindSiteMapNodeFromKey%2A&gt; &lt;/xref:System.Web.SiteMapNode.Key%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the provider.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>将添加到提供程序。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> under which to add <ph id="ph1">`node`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在其下添加<ph id="ph1">`node`</ph>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;parentNode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;parentNode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not the provider associated with <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">node</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">当前<bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>不提供程序关联<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">node</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Links a child site map provider to the current provider.</source>
+          <target state="translated">链接到当前的提供程序的子站点地图提供商提供。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The AddProvider method links <ph id="ph1">`providerName`</ph> to the current provider as a child of the current provider.</source>
+          <target state="translated">AddProvider 方法链接<ph id="ph1">`providerName`</ph>到当前的提供程序为当前的提供程序的子项。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The root node of <ph id="ph1">`providerName`</ph> is added to the hierarchy for the current provider as a child node of <ph id="ph2">`parentNode`</ph>.</source>
+          <target state="translated">根节点<ph id="ph1">`providerName`</ph>作为的子节点添加到当前的提供程序的层次结构<ph id="ph2">`parentNode`</ph>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Because the parent provider calls the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method on <ph id="ph1">`providerName`</ph>, the exceptions that are described in the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method might be thrown.</source>
+          <target state="translated">因为父提供程序调用&lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;方法<ph id="ph1">`providerName`</ph>中, 所述的异常&lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;可能引发方法。&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name of one of the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects currently registered in the &lt;xref:System.Web.SiteMap.Providers*&gt;.</source>
+          <target state="translated">其中一个的名称<bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> &lt;xref:System.Web.SiteMap.Providers*&gt;.&lt;/xref:System.Web.SiteMap.Providers*&gt;中当前已注册的对象</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A site map node of the current site map provider under which the root node and all nodes of the child provider is added.</source>
+          <target state="translated">当前站点地图提供商提供的根节点和子提供程序的所有节点添加一个站点映射节点。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SiteMapNode.Provider*&gt; property of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">parentNode</ph><ept id="p1">&lt;/code&gt;</ept> does not reference the current provider.</source>
+          <target state="translated">&lt;xref:System.Web.SiteMapNode.Provider*&gt;属性<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">parentNode</ph> <ept id="p1">&lt;/code&gt;</ept>不引用当前的提供程序。&lt;/xref:System.Web.SiteMapNode.Provider*&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;parentNode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;parentNode&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph> cannot be resolved.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph>无法解析。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The site map file used by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">providerName</ph><ept id="p1">&lt;/code&gt;</ept> is already in use within the provider hierarchy.</source>
+          <target state="translated">使用的站点映射文件<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">providerName</ph> <ept id="p1">&lt;/code&gt;</ept>已在提供程序层次结构中使用。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-or-       The root node returned by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">providerName</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-返回的根节点<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">providerName</ph> <ept id="p1">&lt;/code&gt;</ept>是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-or-       The root node returned by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">providerName</ph><ept id="p1">&lt;/code&gt;</ept> has a URL or key that is already registered with the parent <bpt id="p2">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-返回的根节点<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">providerName</ph> <ept id="p1">&lt;/code&gt;</ept>具有的 URL 或已向父注册的密钥<bpt id="p2">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Loads the site map information from an XML file and builds it in memory.</source>
+          <target state="translated">从 XML 文件加载站点映射信息并生成它在内存中。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The BuildSiteMap method is called to load and build the site map from persistent storage.</source>
+          <target state="translated">BuildSiteMap 方法调用以加载和生成从持久性存储区站点图。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For the default behavior when security trimming is enabled, see "Remarks" in &lt;xref:System.Web.SiteMapProvider.IsAccessibleToUser%2A&gt;.</source>
+          <target state="translated">对于默认行为时启用了安全修整，请参阅"备注"中&lt;xref:System.Web.SiteMapProvider.IsAccessibleToUser%2A&gt;。&lt;/xref:System.Web.SiteMapProvider.IsAccessibleToUser%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>After the &lt;xref:System.Web.XmlSiteMapProvider&gt; object parses and loads site map data, all loaded &lt;xref:System.Web.SiteMapNode&gt; objects and &lt;xref:System.Web.SiteMapNodeCollection&gt; collections are made read-only.</source>
+          <target state="translated">后&lt;xref:System.Web.XmlSiteMapProvider&gt;对象分析并加载站点地图数据，所有已加载&lt;xref:System.Web.SiteMapNode&gt;对象和&lt;xref:System.Web.SiteMapNodeCollection&gt;集合都变为只读的。&lt;/xref:System.Web.SiteMapNodeCollection&gt; &lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Web.XmlSiteMapProvider&gt; parses the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property from a site map file, it converts application-relative URLs, as well as relative URLs, to application-absolute virtual paths.</source>
+          <target state="translated">当&lt;xref:System.Web.XmlSiteMapProvider&gt;分析&lt;xref:System.Web.SiteMapNode.Url%2A&gt;属性从站点映射文件，它将转换相对于应用程序 Url，以及相对 Url，为应用程序绝对虚拟路径。&lt;/xref:System.Web.SiteMapNode.Url%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; subscribes to file change notifications for the .sitemap file.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;.Sitemap 文件的文件更改通知订阅。&lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If any change is made to the .sitemap file, the &lt;xref:System.Web.XmlSiteMapProvider&gt; is reloaded, and the site map structure is rebuilt.</source>
+          <target state="translated">如果对.sitemap 文件中，进行任何更改&lt;xref:System.Web.XmlSiteMapProvider&gt;都会重新加载，并重新生成站点地图结构。&lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Returns the root <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the site map navigation structure.</source>
+          <target state="translated">返回的根<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的站点地图导航结构。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_siteMapFile" name="siteMapFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is specified but the path lies outside the current directory structure for the application.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_siteMapFile" name="siteMapFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定但是该路径位于外部应用程序的当前目录结构。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A named provider cannot be found in the current site map providers collection.</source>
+          <target state="translated">在当前站点映射提供程序集合中找不到指定的提供者。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;siteMapNode&amp;gt;" name="&amp;lt;siteMapNode&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> referencing a site map file contains an empty string for the <bpt id="p2">&lt;xref uid="langword_csharp_siteMapFile" name="siteMapFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;siteMapNode&amp;gt;" name="&amp;lt;siteMapNode&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>引用站点地图文件包含为空字符串<bpt id="p2">&lt;xref uid="langword_csharp_siteMapFile" name="siteMapFile" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Removes all elements in the collections of child and parent site map nodes and site map providers that the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object internally tracks as part of its state.</source>
+          <target state="translated">在子与父站点映射节点和站点映射提供程序的集合中移除所有元素， <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象内部跟踪其状态的一部分。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class overrides the inherited Clear method to provide additional state cleanup beyond the basic &lt;xref:System.Web.StaticSiteMapProvider.Clear%2A?displayProperty=fullName&gt; implementation, including clearing its child provider tracking and the &lt;xref:System.Web.XmlSiteMapProvider.RootNode%2A&gt; property tracking mechanisms.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;类重写继承的清除方法，以提供其他状态清理超出基本&lt;xref:System.Web.StaticSiteMapProvider.Clear%2A?displayProperty=fullName&gt;实现，包括清除其子提供程序跟踪和&lt;xref:System.Web.XmlSiteMapProvider.RootNode%2A&gt;跟踪机制的属性。&lt;/xref:System.Web.XmlSiteMapProvider.RootNode%2A&gt; &lt;/xref:System.Web.StaticSiteMapProvider.Clear%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the currently requested page.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象，表示当前请求的页。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The site map object that represents the currently requested page.</source>
+          <target state="translated">表示当前请求的页的站点映射对象。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Notifies the file monitor of the Web.sitemap file that the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object no longer requires the file to be monitored.</source>
+          <target state="translated">通知的 Web.sitemap 文件监视文件<bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象不再需要要监视的文件。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class implements the &lt;xref:System.IDisposable.Dispose%2A&gt; method of the &lt;xref:System.IDisposable&gt; interface to release its associated file monitor when the site map file is unloaded from memory.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;类实现&lt;xref:System.IDisposable.Dispose%2A&gt;方法&lt;xref:System.IDisposable&gt;接口以从内存中卸载站点映射文件时释放其关联的文件监视器。&lt;/xref:System.IDisposable&gt; &lt;/xref:System.IDisposable.Dispose%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This overload of the &lt;xref:System.Web.XmlSiteMapProvider.Dispose%2A&gt; method calls the overload that takes a &lt;xref:System.Boolean&gt; parameter and sets the value to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">此重载&lt;xref:System.Web.XmlSiteMapProvider.Dispose%2A&gt;方法调用的重载采用&lt;xref:System.Boolean&gt;参数并将值设置为<ph id="ph1">`true`</ph>。&lt;/xref:System.Boolean&gt; &lt;/xref:System.Web.XmlSiteMapProvider.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Notifies the file monitor of the Web.sitemap file that the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object no longer requires the file to be monitored.</source>
+          <target state="translated">通知的 Web.sitemap 文件监视文件<bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象不再需要要监视的文件。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The Dispose method takes a Boolean parameter indicating whether the method is called by user code.</source>
+          <target state="translated">Dispose 方法采用布尔参数，该值指示是否由用户代码调用方法。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The Dispose method returns <ph id="ph1">`true`</ph> if the Dispose method is called by user code.</source>
+          <target state="translated">Dispose 方法返回<ph id="ph1">`true`</ph>如果的 Dispose 方法调用用户代码。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Otherwise it returns <ph id="ph1">`false`</ph>, if the Dispose method is called by the finalizer thread during run time.</source>
+          <target state="translated">否则它将返回<ph id="ph1">`false`</ph>，如果在运行时过程中的 Dispose 方法调用的终结器线程。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要释放托管和非托管资源;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>若要仅释放非托管的资源。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Retrieves a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the page at the specified URL.</source>
+          <target state="translated">检索<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象，表示指定的 URL 处的页。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; object overrides the &lt;xref:System.Web.StaticSiteMapProvider.FindSiteMapNode%2A&gt; method to ensure that any linked child providers are searched for the node if the implementation of the base class does not return a node for the specified URL.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;对象重写&lt;xref:System.Web.StaticSiteMapProvider.FindSiteMapNode%2A&gt;方法，以确保如果基的类的实现不为指定的 URL 返回节点，任何链接的子提供程序中搜索的节点。&lt;/xref:System.Web.StaticSiteMapProvider.FindSiteMapNode%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`rawUrl`</ph> parameter should be either an absolute virtual path or an application-relative path, depending on how it is specified in the XML site map data file.</source>
+          <target state="translated"><ph id="ph1">`rawUrl`</ph>参数应为绝对虚拟路径或相对于应用程序路径，具体取决于如何在 XML 站点地图数据文件中指定。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class and classes that are derived from it use the URL of a &lt;xref:System.Web.SiteMapNode&gt; object as a key in the various collections that the class maintains.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;类和从它派生的类使用的 URL&lt;xref:System.Web.SiteMapNode&gt;作为类维护的各种集合中的键的对象。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Therefore, these URLs must be unique within the scope of the site map.</source>
+          <target state="translated">因此，这些 Url 必须是唯一的站点图作用域内。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If the URL is not found within the immediate site map data that is managed by the &lt;xref:System.Web.XmlSiteMapProvider&gt;, it calls the FindSiteMapNode on each child provider that is linked to it through the <ph id="ph1">`provider`</ph> attribute of its site map nodes.</source>
+          <target state="translated">如果由立即进行站点地图数据中找不到 URL &lt;xref:System.Web.XmlSiteMapProvider&gt;，它对每个子提供程序链接到它通过调用 FindSiteMapNode<ph id="ph1">`provider`</ph>其站点地图节点的属性。&lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The FindSiteMapNode method indirectly calls the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method to retrieve the top-level node in the site map.</source>
+          <target state="translated">FindSiteMapNode 方法间接调用&lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;方法来检索站点图中的顶级节点。&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Therefore, any exceptions that occur for the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method can also occur when calling the FindSiteMapNode method.</source>
+          <target state="translated">因此，有关发生的任何异常&lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;调用 FindSiteMapNode 方法也会发生方法。&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A URL that identifies the page for which to retrieve a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">标识为其检索页的 URL <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the page identified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">rawURL</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示标识的页的<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">rawURL</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A child provider linked to the current site map provider returned a node that is not valid.</source>
+          <target state="translated">子提供程序链接到当前站点映射提供程序返回了不是有效的节点。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Retrieves a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object based on a specified key.</source>
+          <target state="translated">检索<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>根据指定的键的对象。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class overrides the &lt;xref:System.Web.StaticSiteMapProvider.FindSiteMapNodeFromKey%2A&gt; method to ensure that any linked child providers are searched for the node, if the implementation for the base class does not return a node for <ph id="ph1">`key`</ph>.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;类重写&lt;xref:System.Web.StaticSiteMapProvider.FindSiteMapNodeFromKey%2A&gt;方法，以确保任何链接的子提供程序，来搜索该节点，如果基类实现不返回的节点<ph id="ph1">`key`</ph>。&lt;/xref:System.Web.StaticSiteMapProvider.FindSiteMapNodeFromKey%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; object, derived from the &lt;xref:System.Web.StaticSiteMapProvider&gt; class and the default site map provider for ASP.NET, uses the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property of a &lt;xref:System.Web.SiteMapNode&gt; object as a lookup key in its internal collections, by default.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;对象，派生自&lt;xref:System.Web.StaticSiteMapProvider&gt;类和默认站点映射提供程序对 ASP.NET、 使用&lt;xref:System.Web.SiteMapNode.Url%2A&gt;属性&lt;xref:System.Web.SiteMapNode&gt;对象作为其内部的集合，默认情况下中查找键。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt; &lt;/xref:System.Web.StaticSiteMapProvider&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property of the &lt;xref:System.Web.SiteMapNode&gt; is set, it must be unique within the scope of the provider.</source>
+          <target state="translated">如果&lt;xref:System.Web.SiteMapNode.Url%2A&gt;属性&lt;xref:System.Web.SiteMapNode&gt;设置，它必须是唯一的提供程序作用域内。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If no &lt;xref:System.Web.SiteMapNode.Url%2A&gt; is specified, the &lt;xref:System.Web.XmlSiteMapProvider&gt; automatically generates a &lt;xref:System.Web.SiteMapNode.Key%2A&gt; to track the nodes.</source>
+          <target state="translated">如果没有&lt;xref:System.Web.SiteMapNode.Url%2A&gt;指定，则&lt;xref:System.Web.XmlSiteMapProvider&gt;自动生成&lt;xref:System.Web.SiteMapNode.Key%2A&gt;来跟踪节点。&lt;/xref:System.Web.SiteMapNode.Key%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The FindSiteMapNodeFromKey method might call the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method on any child providers that are associated with the current provider.</source>
+          <target state="translated">FindSiteMapNodeFromKey 方法可能调用&lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;上与当前的提供程序关联的任何子提供程序的方法。&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Therefore, the exceptions that are described in the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method might be thrown.</source>
+          <target state="translated">因此中, 所述的异常&lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;可能引发方法。&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A lookup key with which to search for a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">要搜索的查找键<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the page identified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p2">&lt;/code&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, if security trimming is enabled and the node cannot be shown to the current user or the node is not found by <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">key</ph><ept id="p4">&lt;/code&gt;</ept> in the node collection.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示标识的页的<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p2">&lt;/code&gt;</ept>; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>，如果启用了安全修整和无法向当前用户显示节点或节点找不到<bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">key</ph> <ept id="p4">&lt;/code&gt;</ept>节点集合中。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A child provider linked to the current site map provider returned a node that is not valid.</source>
+          <target state="translated">子提供程序链接到当前站点映射提供程序返回了不是有效的节点。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Returns the child nodes of the site map.</source>
+          <target state="translated">返回子站点映射的节点。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to get child nodes from.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象来获取从子节点。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A collection of site map nodes.</source>
+          <target state="translated">站点地图节点的集合。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Returns the parent node of the site map.</source>
+          <target state="translated">返回站点图的父节点。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to get the parent node from.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象以获取从父节点。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The parent node of the site map.</source>
+          <target state="translated">站点图父节点。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Retrieves the top-level node of the current site map data structure.</source>
+          <target state="translated">检索当前站点地图数据结构的顶级节点。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The GetRootNodeCore method calls the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method to retrieve the top-level node in the site map.</source>
+          <target state="translated">GetRootNodeCore 方法调用&lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;方法来检索站点图中的顶级节点。&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Therefore, any exceptions that occur for the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method can also occur when calling the GetRootNodeCore method.</source>
+          <target state="translated">因此，有关发生的任何异常&lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;调用 GetRootNodeCore 方法也会发生方法。&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the top-level node in the current site map data structure.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，表示当前站点地图数据结构中的顶级节点。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">初始化<bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The Initialize method does not actually build a site map, it only prepares the state of the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to do so.</source>
+          <target state="translated">Initialize 方法不会实际生成站点图，它仅而准备的状态<bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要这样做。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class overrides the inherited Initialize method to apply several attributes, such as the <ph id="ph1">`siteMapFile`</ph> and <ph id="ph2">`description`</ph> attributes, to the <ph id="ph3">`attributes`</ph> collection.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;类重写继承的 Initialize 方法，以应用多个特性，如<ph id="ph1">`siteMapFile`</ph>和<ph id="ph2">`description`</ph>属性，为<ph id="ph3">`attributes`</ph>集合。&lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to initialize.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>初始化。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can contain additional attributes to help initialize <ph id="ph1">`name`</ph>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可以包含其他属性，以帮助初始化<ph id="ph1">`name`</ph>。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>These attributes are read from the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> configuration in the Web.config file.</source>
+          <target state="translated">从读取这些特性<bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Web.config 文件中的配置。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is initialized more than once.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>不止一次初始化。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Removes the specified <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from all node collections that are tracked by the provider.</source>
+          <target state="translated">中移除指定<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>跟踪提供程序的所有节点集合中的对象。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The node to remove from the node collections.</source>
+          <target state="translated">要删除的节点集合中的节点。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Removes a linked child site map provider from the hierarchy for the current provider.</source>
+          <target state="translated">从当前的提供程序的层次结构中删除链接的子站点地图提供商提供。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The RemoveProvider method removes <ph id="ph1">`providerName`</ph> from the hierarchy for the current provider, including any parent/child relationships that are established by the &lt;xref:System.Web.XmlSiteMapProvider.AddProvider%2A&gt; method between site map nodes of the current provider and the removed provider.</source>
+          <target state="translated">RemoveProvider 方法可以删除<ph id="ph1">`providerName`</ph>从当前的提供程序的层次结构，包括建立的任何父/子关系&lt;xref:System.Web.XmlSiteMapProvider.AddProvider%2A&gt;站点地图节点的当前提供程序和已删除的提供程序之间的方法。&lt;/xref:System.Web.XmlSiteMapProvider.AddProvider%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The name of one of the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects currently registered in the &lt;xref:System.Web.SiteMap.Providers*&gt;.</source>
+          <target state="translated">其中一个的名称<bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> &lt;xref:System.Web.SiteMap.Providers*&gt;.&lt;/xref:System.Web.SiteMap.Providers*&gt;中当前已注册的对象</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph> cannot be resolved.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph>无法解析。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph> is not a registered child provider of the current site map provider.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph>不是当前站点地图提供商提供的已注册的子提供程序。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Gets the root node of the site map.</source>
+          <target state="translated">获取站点图的根节点。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The RootNode property calls the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method to retrieve the top-level node in the site map.</source>
+          <target state="translated">RootNode 属性调用&lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;方法来检索站点图中的顶级节点。&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Therefore, any exceptions that occur for the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method can also occur when accessing the RootNode property.</source>
+          <target state="translated">因此，有关发生的任何异常&lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;访问 RootNode 属性也会发生方法。&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SiteMapProvider&gt; and &lt;xref:System.Web.XmlSiteMapProvider&gt; classes permit only one root &lt;xref:System.Web.SiteMapNode&gt; object in a site map.</source>
+          <target state="translated">&lt;xref:System.Web.SiteMapProvider&gt;和&lt;xref:System.Web.XmlSiteMapProvider&gt;类允许只有一个根&lt;xref:System.Web.SiteMapNode&gt;站点地图中的对象。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt; &lt;/xref:System.Web.SiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class overrides the abstract &lt;xref:System.Web.SiteMapProvider.RootNode%2A?displayProperty=fullName&gt; property and provides a simple implementation to track the root node.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;类重写抽象&lt;xref:System.Web.SiteMapProvider.RootNode%2A?displayProperty=fullName&gt;属性并提供一个简单的实现，以跟踪根节点。&lt;/xref:System.Web.SiteMapProvider.RootNode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the root node of the site map; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, if security trimming is enabled and the root node is not accessible to the current user.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示站点图的根节点; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>时，如果启用了安全修整并且根节点不是当前用户可访问。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

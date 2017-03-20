@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e0b6524294d5fb1d1c7e485cb60f7c41aeefaa5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Description.IServiceBehavior.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92dc0ef6c3e02b3e07bd6c78f98a38a21f276a86</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4de12739fe47e212218c4b990f24298d335fc0f7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a mechanism to modify or insert custom extensions across an entire service, including the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">提供一种机制来修改或插入自定义扩展跨整个服务，包括<bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Implement IServiceBehavior to modify, examine, or extend some aspect of service-wide execution at the application level:      -   Use the &lt;xref:System.ServiceModel.Description.IServiceBehavior.ApplyDispatchBehavior%2A&gt; method to change run-time property values or insert custom extension objects such as error handlers, message or parameter interceptors, security extensions, and other custom extension objects.</source>
+          <target state="translated">实现 IServiceBehavior 可以修改、 检查或扩展应用程序级别的服务范围执行的某些方面:-使用&lt;xref:System.ServiceModel.Description.IServiceBehavior.ApplyDispatchBehavior%2A&gt;方法可以更改运行时属性值或插入自定义扩展对象，例如错误处理程序、 消息或参数拦截器、 安全扩展以及其他自定义扩展对象。&lt;/xref:System.ServiceModel.Description.IServiceBehavior.ApplyDispatchBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>-   Use the &lt;xref:System.ServiceModel.Description.IServiceBehavior.Validate%2A&gt; method to examine the description before <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> constructs the executing service to confirm that it can execute properly.</source>
+          <target state="translated">-使用&lt;xref:System.ServiceModel.Description.IServiceBehavior.Validate%2A&gt;方法前检查说明<ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph>构造正在执行的服务，以确认它可以正确执行。&lt;/xref:System.ServiceModel.Description.IServiceBehavior.Validate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>-   Use the &lt;xref:System.ServiceModel.Description.IServiceBehavior.AddBindingParameters%2A&gt; method to pass to a binding element the custom information for the service so that it can support the service correctly.</source>
+          <target state="translated">-使用&lt;xref:System.ServiceModel.Description.IServiceBehavior.AddBindingParameters%2A&gt;方法可以向绑定元素传递服务的自定义信息，以便它可正确的支持服务。&lt;/xref:System.ServiceModel.Description.IServiceBehavior.AddBindingParameters%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>IServiceBehavior objects can make use of any of these methods, but often only one is important; in such cases the unused methods can return without a value.</source>
+          <target state="translated">IServiceBehavior 对象可使用所有这些方法，但通常只一个不太大。在这种情况下未使用的方法可不带值返回。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All of the IServiceBehavior methods pass &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; and &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; objects as a parameters.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 所有 IServiceBehavior 方法传递&lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;和&lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;对象作为参数。&lt;/xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceDescription&gt; parameter is for examination only; if you modify these objects the execution behavior is undefined.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Description.ServiceDescription&gt;参数只用于检查; 如果您修改这些对象的执行行为将不确定。&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To perform the customization task for which it is intended, the IServiceBehavior object must be added to the &lt;xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt; property prior to the construction of the service runtime.</source>
+          <target state="translated">若要执行所针对的自定义任务，必须将 IServiceBehavior 对象添加到&lt;xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt;属性，然后在构造服务运行时。&lt;/xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>There are three ways to do this:      -   Programmatically add the custom service behavior to the &lt;xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt; property prior to the point where the &lt;xref:System.ServiceModel.ICommunicationObject.Open%2A?displayProperty=fullName&gt; method is called on the &lt;xref:System.ServiceModel.ServiceHost?displayProperty=fullName&gt; object.</source>
+          <target state="translated">有三种方法来执行此操作:-以编程方式添加到自定义服务行为&lt;xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt;之前的点的属性其中&lt;xref:System.ServiceModel.ICommunicationObject.Open%2A?displayProperty=fullName&gt;方法调用&lt;xref:System.ServiceModel.ServiceHost?displayProperty=fullName&gt;对象。&lt;/xref:System.ServiceModel.ServiceHost?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.ICommunicationObject.Open%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceDescription.Behaviors%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-   Create a custom attribute that implements IServiceBehavior and use it to mark service classes that are to be modified.</source>
+          <target state="translated">-创建实现 IServiceBehavior 的自定义特性，并使用它来标记要修改的服务类。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When a &lt;xref:System.ServiceModel.ServiceHost&gt; object is constructed, <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> uses reflection to discover the attributes on the service type.</source>
+          <target state="translated">当&lt;xref:System.ServiceModel.ServiceHost&gt;构造对象时，<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>使用反射来发现服务类型上的属性。&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If any attributes implement IServiceBehavior, they are added to the behaviors collection on &lt;xref:System.ServiceModel.Description.ServiceDescription&gt;.</source>
+          <target state="translated">如果有属性实现 IServiceBehavior，它们将添加到&lt;xref:System.ServiceModel.Description.ServiceDescription&gt;.&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt;上的行为集合</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   Extend the &lt;xref:System.ServiceModel.Configuration.BehaviorExtensionElement?displayProperty=fullName&gt; class to support the specification of the behavior in an application or machine configuration file.</source>
+          <target state="translated">扩展&lt;xref:System.ServiceModel.Configuration.BehaviorExtensionElement?displayProperty=fullName&gt;类，以支持的应用程序或计算机配置文件的行为规范。&lt;/xref:System.ServiceModel.Configuration.BehaviorExtensionElement?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>See the Example section for more information.</source>
+          <target state="translated">请参阅示例部分以了解更多信息。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Examples of service behaviors in <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> include the &lt;xref:System.ServiceModel.ServiceBehaviorAttribute&gt; attribute, the &lt;xref:System.ServiceModel.Description.ServiceThrottlingBehavior?displayProperty=fullName&gt;, the &lt;xref:System.ServiceModel.Description.ServiceDebugBehavior?displayProperty=fullName&gt; and the &lt;xref:System.ServiceModel.Description.ServiceMetadataBehavior?displayProperty=fullName&gt; behavior.</source>
+          <target state="translated">中的服务行为的示例<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>包括&lt;xref:System.ServiceModel.ServiceBehaviorAttribute&gt;属性， &lt;xref:System.ServiceModel.Description.ServiceThrottlingBehavior?displayProperty=fullName&gt;、&lt;xref:System.ServiceModel.Description.ServiceDebugBehavior?displayProperty=fullName&gt;和&lt;xref:System.ServiceModel.Description.ServiceMetadataBehavior?displayProperty=fullName&gt;行为。&lt;/xref:System.ServiceModel.Description.ServiceMetadataBehavior?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceDebugBehavior?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceThrottlingBehavior?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.ServiceBehaviorAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Provides the ability to pass custom data to binding elements to support the contract implementation.</source>
+          <target state="translated">提供将自定义数据传递到绑定元素以支持协定实现的功能。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use the AddBindingParameters method to add custom data objects to the <ph id="ph1">`parameters`</ph> collection that binding elements can use to acquire extra information to enable them to support the contract.</source>
+          <target state="translated">使用 AddBindingParameters 方法将添加到自定义数据对象<ph id="ph1">`parameters`</ph>绑定元素可用于获取额外信息，从而使它们能支持协定的集合。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This method is called once for each listen URI.</source>
+          <target state="translated">每个侦听 URI 一次调用此方法。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, if a service has four endpoints, and two of them have the same listen URI, then this method gets called three times.</source>
+          <target state="translated">例如，如果服务有四个终结点，其中两个侦听 URI 相同，则此方法被调用三次。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The reason is that the <ph id="ph1">`bindingParameters`</ph> target each channel stack and there is one channel stack for each listen URI.</source>
+          <target state="translated">原因在于<ph id="ph1">`bindingParameters`</ph>定位所有通道堆栈，并且没有为每个侦听 URI 的一个通道堆栈。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Because each call receives those endpoints at that listen URI, two calls each get a single &lt;xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;, and one call gets a collection of two &lt;xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt; objects.</source>
+          <target state="translated">由于每次调用接收这些终结点在侦听 URI，因此有两个调用各自获得一个&lt;xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;，和一个调用将会获得两个集合&lt;xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;对象。&lt;/xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceEndpoint?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All of the &lt;xref:System.ServiceModel.Description.IServiceBehavior&gt; methods pass &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; and &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; objects as a parameters.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 的所有&lt;xref:System.ServiceModel.Description.IServiceBehavior&gt;方法通过&lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;和&lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;对象作为参数。&lt;/xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IServiceBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceDescription&gt; parameter is for examination and insertion of customizations only; if you otherwise modify these objects the execution behavior is undefined.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Description.ServiceDescription&gt;参数是用于检查和插入仅自定义项; 如果您修改这些对象的执行行为是不确定。&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The service description of the service.</source>
+          <target state="translated">服务的服务说明。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The host of the service.</source>
+          <target state="translated">服务宿主。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The service endpoints.</source>
+          <target state="translated">服务终结点。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Custom objects to which binding elements have access.</source>
+          <target state="translated">自定义的绑定元素可访问的对象。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Provides the ability to change run-time property values or insert custom extension objects such as error handlers, message or parameter interceptors, security extensions, and other custom extension objects.</source>
+          <target state="translated">提供的功能，可以更改运行时属性值或插入自定义扩展对象，例如错误处理程序、 消息或参数拦截器、 安全扩展以及其他自定义扩展对象。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Implement the ApplyDispatchBehavior method to inspect or modify the &lt;xref:System.ServiceModel.ServiceHostBase&gt; object that is being constructed in order to support some custom execution scenario.</source>
+          <target state="translated">实现 ApplyDispatchBehavior 方法可检查或修改&lt;xref:System.ServiceModel.ServiceHostBase&gt;为了支持某些自定义执行方案正在构造的对象。&lt;/xref:System.ServiceModel.ServiceHostBase&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All of the &lt;xref:System.ServiceModel.Description.IServiceBehavior&gt; methods pass &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; and &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; objects as a parameters.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 的所有&lt;xref:System.ServiceModel.Description.IServiceBehavior&gt;方法通过&lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;和&lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;对象作为参数。&lt;/xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IServiceBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceDescription&gt; parameter is for examination and insertion of customizations only; if you otherwise modify these objects the execution behavior is undefined.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Description.ServiceDescription&gt;参数是用于检查和插入仅自定义项; 如果您修改这些对象的执行行为是不确定。&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The service description.</source>
+          <target state="translated">服务说明。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The host that is currently being built.</source>
+          <target state="translated">当前正在生成的主机。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Provides the ability to inspect the service host and the service description to confirm that the service can run successfully.</source>
+          <target state="translated">提供用于检查服务主机和服务说明，从而确定服务可以成功运行。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Use the Validate method to confirm whether the current service can execute properly according to your scenario.</source>
+          <target state="translated">使用了 Validate 方法，以确认是否当前的服务可以根据你的方案正确执行。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All of the &lt;xref:System.ServiceModel.Description.IServiceBehavior&gt; methods pass &lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; and &lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; objects as a parameters.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 的所有&lt;xref:System.ServiceModel.Description.IServiceBehavior&gt;方法通过&lt;xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt;和&lt;xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt;对象作为参数。&lt;/xref:System.ServiceModel.ServiceHostBase?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.ServiceDescription?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IServiceBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Description.ServiceDescription&gt; parameter is for examination and insertion of customizations only; if you otherwise modify these objects the execution behavior is undefined.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Description.ServiceDescription&gt;参数是用于检查和插入仅自定义项; 如果您修改这些对象的执行行为是不确定。&lt;/xref:System.ServiceModel.Description.ServiceDescription&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The service description.</source>
+          <target state="translated">服务说明。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The service host that is currently being constructed.</source>
+          <target state="translated">当前正在构建服务主机。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

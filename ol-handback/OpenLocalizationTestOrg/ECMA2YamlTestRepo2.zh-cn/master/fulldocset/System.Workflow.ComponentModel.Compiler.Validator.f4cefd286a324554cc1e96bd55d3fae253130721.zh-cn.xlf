@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">63eafba92c6e33e4dacbdfc8e30a29575dff3689</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.ComponentModel.Compiler.Validator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e1c5696e4ef462b356de7a253397f36694825a8a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5dcb5f9e4d0f888cbe44e3c6757f5ccf4e31e4da</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Base class for all validator components.</source>
+          <target state="translated">所有验证程序组件的基类。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       The Validator class is used to ensure that activities are configured properly at design time.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>验证程序类用于确保在设计时正确配置活动。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Validators are instantiated during design time when the designer validates the properties assigned to activities; if an activity's parameters are not configured properly, the designer will show smart tag errors for the incorrect values.</source>
+          <target state="translated">在设计时，当设计器验证分配给活动; 的属性中会实例化验证程序如果活动参数配置不正确，设计器将显示不正确的值的智能标记错误。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Validators also run during compile time, and will return validation errors if constraints such as object parent or child type, minimum number of children, etc. are not correct.</source>
+          <target state="translated">此外期间运行的验证程序编译时间，并将返回验证错误，如果例如对象父级或子级类型的约束，子级等的最小数量不正确。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Validators will also run at runtime when a markup-based workflow is instantiated using the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt; method.</source>
+          <target state="translated">基于标记的工作流实例化使用时，验证程序也可以运行在运行时&lt;xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt;方法。&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The main purpose of a Validator is to ensure that errors are known during design time, and are not exposed as exceptions during runtime.</source>
+          <target state="translated">一个验证程序的主要用途是确保错误已知在设计时和在运行时期间没有公开为异常。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Validators are associated with the activities that they validate using the &lt;xref:System.Workflow.ComponentModel.Compiler.ActivityValidatorAttribute.ValidatorTypeName%2A&gt; attribute; all activity validators must inherit from the &lt;xref:System.Workflow.ComponentModel.Compiler.ActivityValidator&gt; class.</source>
+          <target state="translated">验证程序是与它们将验证使用&lt;xref:System.Workflow.ComponentModel.Compiler.ActivityValidatorAttribute.ValidatorTypeName%2A&gt;特性; 验证程序必须从&lt;xref:System.Workflow.ComponentModel.Compiler.ActivityValidator&gt;类&lt;/xref:System.Workflow.ComponentModel.Compiler.ActivityValidator&gt;继承的所有活动&lt;/xref:System.Workflow.ComponentModel.Compiler.ActivityValidatorAttribute.ValidatorTypeName%2A&gt;的活动相关联</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>By default, validators will validate meta properties; they do not validate instance properties which are settable at runtime.</source>
+          <target state="translated">默认情况下，验证程序将验证元属性;它们不会验证实例属性可设置在运行时。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.Validator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.Validator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Helper method to extract the full property name.</source>
+          <target state="translated">若要提取完整属性名称的帮助器方法。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Useful when the validated property is nested.</source>
+          <target state="translated">如果嵌套的验证的属性非常有用。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The method traverses the &lt;xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt; in the stack to build the full name of the property.</source>
+          <target state="translated">此方法遍历&lt;xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt;在堆栈上要生成的属性的完整名称。&lt;/xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example: the name My.Actor.Bas is built using three &lt;xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt; items.</source>
+          <target state="translated">例如︰ My.Actor.Bas 使用三个生成的名称&lt;xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt;项。&lt;/xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If the validated property belongs to an object that is an item in a collection, the method will produce the name of the collection.</source>
+          <target state="translated">如果验证的属性属于一个对象，它在集合中的项，则此方法将生成集合的名称。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> linked to the validation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>与验证链接。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The full property name.</source>
+          <target state="translated">完整的属性名称。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Validates the specified object and returns a collection of validation errors.</source>
+          <target state="translated">验证指定的对象并返回验证错误的集合。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The validation manager linked to the validation.</source>
+          <target state="translated">与验证链接的验证管理器。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be validated.</source>
+          <target state="translated">&lt;xref:System.Object&gt;进行验证。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the validation errors resulting from this operation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含此操作产生的验证错误。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph>为空引用 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>)。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, validates a change based on a specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> being added or removed.</source>
+          <target state="translated">当在派生类中重写时验证基于指定的更改<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>正在添加或移除。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This function is called during the application of changes that are made to the workflow during dynamic updates.</source>
+          <target state="translated">在动态更新在对工作流所做的更改应用的过程中调用此函数。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the base implementation, a null reference (Visual Basic <ph id="ph1">`Nothing`</ph>) is returned.</source>
+          <target state="translated">在基实现中，空引用 (Visual Basic <ph id="ph1">`Nothing`</ph>) 返回。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityChangeAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityChangeAction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> generated by the operation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationError"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>由操作生成。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;action&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;action&lt;/code&gt;</ph>为空引用 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>)。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Helper method to automatically validate the specific objects properties.</source>
+          <target state="translated">若要自动验证特定对象属性的帮助器方法。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The validation manager linked to the validation.</source>
+          <target state="translated">与验证链接的验证管理器。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be validated.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>进行验证。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the validation errors resulting from this operation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含此操作产生的验证错误。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph>为空引用 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>)。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Performs validation on a property and returns a <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the results of that validation.</source>
+          <target state="translated">对属性执行验证并返回<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含验证结果。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If no errors result from the validation, an empty &lt;xref:System.Workflow.ComponentModel.Compiler.ValidationErrorCollection&gt; is returned.</source>
+          <target state="translated">如果没有错误导致的验证，空&lt;xref:System.Workflow.ComponentModel.Compiler.ValidationErrorCollection&gt;返回。&lt;/xref:System.Workflow.ComponentModel.Compiler.ValidationErrorCollection&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Reflection.PropertyInfo&gt; on the subject property.</source>
+          <target state="translated">&lt;xref:System.Reflection.PropertyInfo&gt;有关主题属性。&lt;/xref:System.Reflection.PropertyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The owner of the property.</source>
+          <target state="translated">属性的所有者。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The value of the property.</source>
+          <target state="translated">属性的值。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this operation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对于此操作。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the results of that validation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含验证结果。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

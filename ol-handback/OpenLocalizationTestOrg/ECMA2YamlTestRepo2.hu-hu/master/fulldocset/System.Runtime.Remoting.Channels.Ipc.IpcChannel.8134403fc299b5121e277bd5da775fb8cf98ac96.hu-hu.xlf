@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5fad0a6639385622bd1cb54727b6d4e0d389f93</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Channels.Ipc.IpcChannel.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">69554164e67e0645eb7d66b0a374600d1632b259</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">96c9756f4488defc9a2934cf8be6fbea82a289a5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a channel implementation that uses the IPC protocol to transmit messages.</source>
+          <target state="translated">A csatorna megvalósításának üzenetek IPC protokollt használó biztosít.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Channels are used by the.NET Framework remoting infrastructure to transport remote calls.</source>
+          <target state="translated">.NET-keretrendszer távoli eljáráshívási infrastruktúrában az csatornák használatával átviteli távoli hívások indítása.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a client calls a remote object, the call is serialized into a message that is sent by a client channel and received by a server channel.</source>
+          <target state="translated">Amikor egy ügyfél meghívja a távoli objektumok, a hívás szerializált ügyfél csatorna által küldött és fogadott egy kiszolgáló csatornánként üzenetbe.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the message is received, it is deserialized and processed.</source>
+          <target state="translated">Az üzenet fogadásakor deszerializálni és feldolgozni.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any returned values are transmitted by the server channel and received by the client channel.</source>
+          <target state="translated">Visszaadott értékeket a kiszolgáló csatorna által küldött és az ügyfél csatorna által fogadott.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IpcChannel class is a convenience class combining the functionality of the &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel&gt; class and the &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel&gt; class.</source>
+          <target state="translated">A IpcChannel osztály az kombinálja a funkcióinak &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel&gt;osztály és a &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel&gt;osztálytól&lt;/xref:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel&gt; &lt;/xref:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel&gt; kényelme osztály</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When setting the <ph id="ph2">`exclusiveAddressUse`</ph> property to <ph id="ph3">`false`</ph> in the <ph id="ph4">`properties`</ph> argument, several &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel&gt; objects can be registered for the same named pipe.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Beállításakor a <ph id="ph2">`exclusiveAddressUse`</ph> tulajdonságot <ph id="ph3">`false`</ph> a a <ph id="ph4">`properties`</ph> argumentum, több &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel&gt;objektumok regisztrálható, az azonos nevesített cső.&lt;/xref:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In such a case requests can go to any of the channels registered.</source>
+          <target state="translated">Ebben az esetben kérelmek nyissa meg a regisztrált csatornák bármelyikét.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This setting is considered secure only if ALCs are also used.</source>
+          <target state="translated">Ez a beállítás már tekinthető biztonságosnak, csak akkor, ha ALCs is használhatók.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, activating only a client channel, and not a server channel.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcChannel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály csak egy ügyfél csatornát, és nem a kiszolgáló csatorna aktiválása.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a server channel that listens on the specified IPC port.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcChannel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztályra egy kiszolgáló csatornát, amely a megadott IPC-portot figyeli.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The name of the IPC port.</source>
+          <target state="translated">Az IPC-portról neve.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified configuration properties and sinks.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcChannel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott konfigurációs tulajdonságok és mosdók osztály.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about channel configuration properties, see <bpt id="p1">[</bpt>Channel and Formatter Configuration Properties<ept id="p1">](http://msdn.microsoft.com/en-us/226ecf74-ebbd-4ea0-a701-dcf4441deefe)</ept>.</source>
+          <target state="translated">Csatorna konfigurációs tulajdonságok kapcsolatos további információkért lásd: <bpt id="p1">[</bpt>csatorna és formázó konfigurációs tulajdonságok<ept id="p1">](http://msdn.microsoft.com/en-us/226ecf74-ebbd-4ea0-a701-dcf4441deefe)</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Channel sinks provide a plug-in point that allows access to the underlying messages flowing through the channel as well as the stream used by the transport mechanism to send messages to a remote object.</source>
+          <target state="translated">Csatorna mosdók adja meg a beépülő modul pont, amely lehetővé teszi az alapul szolgáló üzenetek a csatorna, valamint az üzenetek küldése egy távoli objektum az átviteli mechanizmus segítségével adatfolyam átfutó elérésére.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Channel sinks are also responsible for transporting messages between the client and the server.</source>
+          <target state="translated">Csatorna mosdók felelősek is továbbítja az ügyfél és a kiszolgáló között.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Channel sinks are linked together in a chain, and all channel messages flow through this chain of sinks before the message is finally serialized and transported.</source>
+          <target state="translated">Csatorna mosdók egymáshoz kapcsolódó láncban, és minden csatorna üzenetek továbbítását a lánc nyelő keresztül, az üzenet véglegesen szerializált és szállított előtt.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not require sink functionality, set the <ph id="ph1">`clientSinkProvider`</ph> and <ph id="ph2">`serverSinkProvider`</ph> parameters to <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">Ha nincs szüksége a fogadó funkciót, állítsa be a <ph id="ph1">`clientSinkProvider`</ph> és <ph id="ph2">`serverSinkProvider`</ph> paraméterek <ph id="ph3">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When setting the <ph id="ph2">`exclusiveAddressUse`</ph> property to <ph id="ph3">`false`</ph> in the <ph id="ph4">`properties`</ph> argument, several &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel&gt; objects can be registered for the same named pipe.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Beállításakor a <ph id="ph2">`exclusiveAddressUse`</ph> tulajdonságot <ph id="ph3">`false`</ph> a a <ph id="ph4">`properties`</ph> argumentum, több &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel&gt;objektumok regisztrálható, az azonos nevesített cső.&lt;/xref:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In such a case requests can go to any of the channels registered.</source>
+          <target state="translated">Ebben az esetben kérelmek nyissa meg a regisztrált csatornák bármelyikét.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This setting is considered secure only if ALCs are also used.</source>
+          <target state="translated">Ez a beállítás már tekinthető biztonságosnak, csak akkor, ha ALCs is használhatók.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.IDictionary&gt; collection specifying values for configuration properties to be used by the client and server channels.</source>
+          <target state="translated">A &lt;xref:System.Collections.IDictionary&gt;gyűjteményt az ügyfél és kiszolgáló csatornák által használandó konfigurációs tulajdonságok értékeinek megadásával.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation to be used by the client channel.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megvalósítását, hogy az ügyfél csatorna által használható.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IServerChannelSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation to be used by the server channel.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IServerChannelSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megvalósítását, hogy a kiszolgáló csatorna által használható.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified configuration properties and sinks.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcChannel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott konfigurációs tulajdonságok és mosdók osztály.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.IDictionary&gt; collection specifying values for configuration properties to be used by the client and server channels.</source>
+          <target state="translated">A &lt;xref:System.Collections.IDictionary&gt;gyűjteményt az ügyfél és kiszolgáló csatornák által használandó konfigurációs tulajdonságok értékeinek megadásával.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation to be used by the client channel.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megvalósítását, hogy az ügyfél csatorna által használható.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IServerChannelSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation to be used by the server channel.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IServerChannelSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megvalósítását, hogy a kiszolgáló csatorna által használható.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The security descriptor.</source>
+          <target state="translated">A biztonsági leírót.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the channel-specific data.</source>
+          <target state="translated">Lekéri a csatorna vonatkozó adatokat.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although returned as an instance of &lt;xref:System.Object?displayProperty=fullName&gt;, the value of this property can be cast to an instance of &lt;xref:System.Runtime.Remoting.Channels.ChannelDataStore&gt; describing the channel to which the &lt;xref:System.Runtime.Remoting.Channels.Http.HttpServerChannel&gt; object listens.</source>
+          <target state="translated">Bár egy példányát adja vissza a &lt;xref:System.Object?displayProperty=fullName&gt;, ez a tulajdonság értékének is konvertálható példányának &lt;xref:System.Runtime.Remoting.Channels.ChannelDataStore&gt;leíró a csatornát, amelyhez a &lt;xref:System.Runtime.Remoting.Channels.Http.HttpServerChannel&gt;objektum figyeli.&lt;/xref:System.Runtime.Remoting.Channels.Http.HttpServerChannel&gt; &lt;/xref:System.Runtime.Remoting.Channels.ChannelDataStore&gt; &lt;/xref:System.Object?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.ChannelDataStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that contains channel-specific data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.ChannelDataStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> csatorna vonatkozó adatokat tartalmazó példányra.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the name of the current channel.</source>
+          <target state="translated">Lekérdezi a jelenlegi csatorna nevét.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Every registered channel has a unique name.</source>
+          <target state="translated">Minden regisztrált csatorna egyedi névvel rendelkezik.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name is used to retrieve a specific channel when calling &lt;xref:System.Runtime.Remoting.Channels.ChannelServices.GetChannel%2A&gt;.</source>
+          <target state="translated">A név segítségével kérhető le egy adott csatornát &lt;xref:System.Runtime.Remoting.Channels.ChannelServices.GetChannel%2A&gt;.&lt;/xref:System.Runtime.Remoting.Channels.ChannelServices.GetChannel%2A&gt; hívásakor</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default name is "ipc".</source>
+          <target state="translated">Az alapértelmezett név az "ipc".</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that contains the name of the channel.</source>
+          <target state="translated">A &lt;xref:System.String&gt;, amely tartalmazza a csatorna nevét.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the priority of the current channel.</source>
+          <target state="translated">Lekérdezi a jelenlegi csatorna prioritását.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default priority is 20.</source>
+          <target state="translated">Az alapértelmezett érték 20.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An integer that represents the priority assigned to the channel.</source>
+          <target state="translated">A csatorna prioritásuk jelölő egész.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Returns a channel message sink that delivers messages to the specified URL or channel data object.</source>
+          <target state="translated">Egy üzenet csatornagyűjtő, amely lekéri az üzeneteket a megadott URL-cím vagy a csatorna adatok objektumhoz adja vissza.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateMessageSink method returns a channel message sink that delivers messages to either the specified URL or channel data object.</source>
+          <target state="translated">A CreateMessageSink metódus egy üzenet csatornagyűjtő, amely lekéri az üzeneteket a megadott URL-cím vagy a csatorna adatobjektum adja vissza.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`uri`</ph> parameter is <ph id="ph2">`null`</ph>, <ph id="ph3">`remoteChannelData`</ph> is used as a target for the sink.</source>
+          <target state="translated">Ha a <ph id="ph1">`uri`</ph> paraméter <ph id="ph2">`null`</ph>, <ph id="ph3">`remoteChannelData`</ph> a fogadó célként használatos.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Either the <ph id="ph1">`url`</ph> or <ph id="ph2">`remoteChannelData`</ph> parameters can be <ph id="ph3">`null`</ph>, but not both.</source>
+          <target state="translated">Vagy a <ph id="ph1">`url`</ph> vagy <ph id="ph2">`remoteChannelData`</ph> paraméterek lehet <ph id="ph3">`null`</ph>, de soha sem egyszerre mindkettőre.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Channel sinks provide a plug-in point that allows access to the underlying messages flowing through the channel as well as the stream used by the transport mechanism to send messages to a remote object.</source>
+          <target state="translated">Csatorna mosdók adja meg a beépülő modul pont, amely lehetővé teszi az alapul szolgáló üzenetek a csatorna, valamint az üzenetek küldése egy távoli objektum az átviteli mechanizmus segítségével adatfolyam átfutó elérésére.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Channel sinks are linked together in a chain of <ph id="ph1">`ChannelSinkProviders`</ph> and all channel messages flow through this chain of sinks before the message is finally serialized and transported.</source>
+          <target state="translated">Csatorna mosdók egymáshoz kapcsolódó láncában <ph id="ph1">`ChannelSinkProviders`</ph> és az összes csatorna üzenetek továbbítását a lánc nyelő keresztül, az üzenet véglegesen szerializált és szállított előtt.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The URL to which the new sink should deliver messages.</source>
+          <target state="translated">Az URL-címe, amelyhez az új fogadó továbbítsa-üzeneteket.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The channel data object of the remote host to which the new sink should deliver messages.</source>
+          <target state="translated">A csatorna objektum a távoli állomás, amelyhez az új fogadó továbbítsa-üzeneteket.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains a URI of the new channel message sink that delivers messages to the specified URL or channel data object.</source>
+          <target state="translated">Ez a módszer adja vissza, ha egy URI-azonosítója, amely lekéri az üzeneteket a megadott URL-cím vagy a csatorna adatobjektum új csatorna üzenetet fogadó tartalmazza.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Ez a paraméter lett átadva nem inicializált.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A channel message sink that delivers messages to the specified URL or channel data object.</source>
+          <target state="translated">Egy üzenet csatornagyűjtő, amely lekéri az üzeneteket a megadott URL-cím vagy a csatorna adatok objektumhoz.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Returns an array of all the URLs for an object with the specified URI, hosted on the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az az URL-címet egy objektum a megadott URI-azonosítóhoz, az aktuális üzemeltetett tömbjét adja vissza <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcChannel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used by &lt;xref:System.Runtime.Remoting.Channels.ChannelServices.GetUrlsForObject%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Ezt a módszert használja &lt;xref:System.Runtime.Remoting.Channels.ChannelServices.GetUrlsForObject%2A?displayProperty=fullName&gt;.&lt;/xref:System.Runtime.Remoting.Channels.ChannelServices.GetUrlsForObject%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The URI of the object for which URLs are required.</source>
+          <target state="translated">Az objektum, amelynek URL-címei szükséges URI.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An array of the URLs for an object with the specified URI, hosted on the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az URL-címek egy objektum a megadott URI-azonosítóhoz, az aktuális üzemeltetett tömbje <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcChannel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether the current channel is secure.</source>
+          <target state="translated">Lekérdezi vagy beállítja a logikai értéket, amely azt jelzi, hogy a jelenlegi csatorna biztonságos.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property need not be set explicitly, as it is sufficient to set the ensureSecurity parameter of &lt;xref:System.Runtime.Remoting.RemotingConfiguration.Configure%28System.String%2CSystem.Boolean%29&gt;.</source>
+          <target state="translated">Ez a tulajdonság kell nem állítható be explicit módon, mint elegendő &lt;xref:System.Runtime.Remoting.RemotingConfiguration.Configure%28System.String%2CSystem.Boolean%29&gt;.&lt;/xref:System.Runtime.Remoting.RemotingConfiguration.Configure%28System.String%2CSystem.Boolean%29&gt; ensureSecurity-paraméter</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A Boolean value that indicates whether the current instance is secure.</source>
+          <target state="translated">Egy logikai érték, amely azt jelzi, hogy az aktuális példány biztonságos.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Extracts the channel URI and the remote well-known object URI from the specified URL.</source>
+          <target state="translated">A csatorna URI Azonosítóját és a távoli jól ismert objektum URI kibontja a megadott URL-címről.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A URI of an object is a value that uniquely identifies a specific object instance.</source>
+          <target state="translated">Egy objektum URI érték, amely egyedileg azonosítja az egy adott objektum példány.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The URL from which to extract the URI of the remote well-known object.</source>
+          <target state="translated">Az URL-címet a távoli jól ismert objektum URI kibontásához.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains a &lt;xref:System.String&gt; that holds the URI of the remote well-known object.</source>
+          <target state="translated">Ha ez a módszer ad vissza, tartalmazza a &lt;xref:System.String&gt;, amely tartalmazza a távoli jól ismert objektum URI.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Ez a paraméter lett átadva nem inicializált.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The URI of the current channel.</source>
+          <target state="translated">A jelenlegi csatorna URI Azonosítóját.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Instructs the current channel to start listening for requests.</source>
+          <target state="translated">Arra utasítja a jelenlegi csatorna megkezdeni a figyelést a kéréseket.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not necessary to call this method to begin listening on a newly initialized channel.</source>
+          <target state="translated">Nincs szükség az újonnan inicializált csatornán figyelését a metódus.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to restart listening on a channel after the &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcChannel.StopListening%2A&gt; method has been called.</source>
+          <target state="translated">Ezt a módszert újraindítása után egy csatornát figyeli a &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcChannel.StopListening%2A&gt;metódus meghívása.&lt;/xref:System.Runtime.Remoting.Channels.Ipc.IpcChannel.StopListening%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`data`</ph> parameter can be used to pass a specific initialization state to the channel.</source>
+          <target state="translated">A <ph id="ph1">`data`</ph> paraméter használható egy adott inicializálási állapot átadása a csatornát.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not want to pass a specific state to the channel, set <ph id="ph1">`data`</ph> to <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">Ha nem szeretné, hogy egy adott állapotú átadása a csatornát, <ph id="ph1">`data`</ph> való <ph id="ph2">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Optional initialization information.</source>
+          <target state="translated">Nem kötelező inicializálási adatokat.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Instructs the current channel to stop listening for requests.</source>
+          <target state="translated">Arra utasítja a jelenlegi csatorna leállítja a kérések figyelését.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to stop listening on a channel.</source>
+          <target state="translated">Ezt a módszert leállítja a figyelést a következő csatorna.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To restart listening, use the &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcChannel.StartListening%2A&gt; method.</source>
+          <target state="translated">Indítsa újra a figyelést, használja a &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcChannel.StartListening%2A&gt;metódus.&lt;/xref:System.Runtime.Remoting.Channels.Ipc.IpcChannel.StartListening%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`data`</ph> parameter can be used to pass a specific initialization state to the channel.</source>
+          <target state="translated">A <ph id="ph1">`data`</ph> paraméter használható egy adott inicializálási állapot átadása a csatornát.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not want to pass a specific state to the channel, set <ph id="ph1">`data`</ph> to <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">Ha nem szeretné, hogy egy adott állapotú átadása a csatornát, <ph id="ph1">`data`</ph> való <ph id="ph2">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Optional state information for the channel.</source>
+          <target state="translated">A csatorna nem kötelező állapot adatait.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

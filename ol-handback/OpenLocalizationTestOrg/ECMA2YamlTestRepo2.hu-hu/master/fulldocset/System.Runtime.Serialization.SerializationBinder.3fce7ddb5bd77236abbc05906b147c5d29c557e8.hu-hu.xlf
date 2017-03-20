@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b78423b39f66cc3d72f9cd4601f447b61f4f7143</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Serialization.SerializationBinder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d818f6ea64e786fafb60c273dbbaa705904703b0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">510fc774b76d449b95958342ebd81ee01cdf15f8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows users to control class loading and mandate what class to load.</source>
+          <target state="translated">Lehetővé teszi a felhasználók ellenőrzés osztály betöltése, és határozza meg, hogy milyen osztály betöltése.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During serialization, a formatter transmits the information required to create an instance of an object of the correct type and version.</source>
+          <target state="translated">A szerializálás során egy formatter továbbítja a megfelelő típusától és verziójától objektum példányának létrehozásához szükséges adatokat.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This information generally includes the full type name and assembly name of the object.</source>
+          <target state="translated">Ez az információ általában tartalmazza a teljes nevét, és a szerelvény neve az objektum.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The assembly name includes the name, version, and strong name (see <bpt id="p1">[</bpt>Strong-Named Assemblies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>) hash of the assembly.</source>
+          <target state="translated">A szerelvény neve tartalmazza a nevét, verzióját és erős név (lásd: <bpt id="p1">[</bpt>Strong-Named szerelvények<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>) a szerelvény kivonatát.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, deserialization uses this information to create an instance of an identical object (with the exception of any assembly loading restricted by the security policy).</source>
+          <target state="translated">Alapértelmezés szerint a deszerializálás ezt az információt használja (azzal a kivétellel, bármely szerelvény betöltése a biztonsági házirend korlátozza) azonos objektum egy példányát létrehozásához.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some users need to control which class to load, either because the class has moved between assemblies or a different version of the class is required on the server and client.</source>
+          <target state="translated">Egyes felhasználók kell vezérlő mely osztály betöltése, vagy mert az osztály áthelyezte közötti szerelvényeknek vagy az osztály egy másik verziója szükséges a kiszolgáló és az ügyfélen.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SerializationBinder can also be used for security.</source>
+          <target state="translated">SerializationBinder biztonsági is használható.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There might be some security exploits when you are trying to deserialize some data from an untrusted source.</source>
+          <target state="translated">Előfordulhat, egyes biztonsági rések bizonyos, nem megbízható forrásból származó adatok deszerializálása közben.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The binder gives you an opportunity to inspect what types are being loaded in your application domain.</source>
+          <target state="translated">A binder vizsgálja meg, milyen program letölti az alkalmazás-tartomány lehetőséget biztosít.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then either maintain list of denied types or a list of allowed types and restrict which types are being loaded and instantiated.</source>
+          <target state="translated">Ezután a vagy karbantartása visszautasított típusok listája vagy az engedélyezett típusokkal listáját, és korlátozhatja, hogy milyen típusú betöltött és példányként létrehozott.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition you should be mindful of what information is being put out on the wire, you may want to secure (use transport or message security) when sending type names or other data on the wire.</source>
+          <target state="translated">Ezen kívül érdemes szem előtt tartva milyen információkat alatt kerül, a keresztülhaladnak a hálózaton, érdemes lehet biztonságos (használata transport vagy üzenet biztonság) küldésekor típusnevek vagy egyéb adatok a keresztülhaladnak a hálózaton.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  Only use SerializationBinder if you are completely sure of what information is being serialized.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt; SerializationBinder csak használja, ha teljesen meg arról, hogy az milyen információkat szerializált.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Malicious types can cause unexpected behavior.</source>
+          <target state="translated">Rosszindulatú típusok váratlan viselkedést okozhat.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is an abstract base class.</source>
+          <target state="translated">Ez az absztrakt.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All binders extend this class.</source>
+          <target state="translated">Minden kötőanyagok Ez az osztály kiterjesztése.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationBinder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationBinder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, controls the binding of a serialized object to a type.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, szabályozza egy szerializált objektum kötése.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The type of the object the formatter creates a new instance of.</source>
+          <target state="translated">Az objektum típusa a formázó létrehoz egy új példányát.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Specifies the &lt;xref:System.Reflection.Assembly&gt; name of the serialized object.</source>
+          <target state="translated">Megadja a &lt;xref:System.Reflection.Assembly&gt;a szerializált objektum neve.&lt;/xref:System.Reflection.Assembly&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Specifies the &lt;xref:System.Type&gt; name of the serialized object.</source>
+          <target state="translated">Megadja a &lt;xref:System.Type&gt;a szerializált objektum neve.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, controls the binding of a serialized object to a type.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, szabályozza egy szerializált objektum kötése.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Specifies the &lt;xref:System.Reflection.Assembly&gt; name of the serialized object.</source>
+          <target state="translated">Megadja a &lt;xref:System.Reflection.Assembly&gt;a szerializált objektum neve.&lt;/xref:System.Reflection.Assembly&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Specifies the &lt;xref:System.Type&gt; name of the serialized object.</source>
+          <target state="translated">Megadja a &lt;xref:System.Type&gt;a szerializált objektum neve.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The type of the object the formatter creates a new instance of.</source>
+          <target state="translated">Az objektum típusa a formázó létrehoz egy új példányát.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

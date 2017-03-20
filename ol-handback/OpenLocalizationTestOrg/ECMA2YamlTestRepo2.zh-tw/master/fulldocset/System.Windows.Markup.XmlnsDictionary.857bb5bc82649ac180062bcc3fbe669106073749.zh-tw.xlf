@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5dfea6d73d7eba7dc9d2dd9dbf4cf80a6d053c07</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Markup.XmlnsDictionary.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1f343bc41292466beeb5bf8bd387c20d806d4840</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">994ac1554b67c7ab00c1677dad752312a63555e5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a dictionary that contains xmlns mappings for XAML namespaces in WPF.</source>
+          <target state="translated">表示包含在 WPF 中的 XAML 命名空間的 xmlns 對應的字典。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>XmlnsDictionary maps XAML namespace prefixes to the complete XAML namespace URI.</source>
+          <target state="translated">XmlnsDictionary 將 XAML 命名空間前置詞對應至完整的 XML 命名空間 URI。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For XAML usage in applications and XAML namespaces in general, the URI is often not a schema-style URI that includes <ph id="ph1">`http://`</ph>.</source>
+          <target state="translated">在應用程式中的 XAML 用法和一般 XAML 命名空間，URI 通常不是結構描述樣式 URI，包括<ph id="ph1">`http://`</ph>。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It is instead a user-defined mapping to a CLR namespace and assembly.</source>
+          <target state="translated">而是使用者定義對應的 CLR 命名空間和組件。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>That assembly contains the backing types being referred to.</source>
+          <target state="translated">組件包含備份類型所參考。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>XAML Namespaces and Namespace Mapping for WPF XAML<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>XAML 命名空間和 WPF XAML 命名空間對應<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The XmlnsDictionary adds the concept of scope for a XAML namespace.</source>
+          <target state="translated">XmlnsDictionary 加入 XAML 命名空間範圍的概念。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A default &lt;xref:System.Collections.IDictionary&gt; might contain prefix keys and XML namespace URI values.</source>
+          <target state="translated">預設值&lt;xref:System.Collections.IDictionary&gt;可能包含前置詞索引鍵和 XML 命名空間 URI 值。&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The scope concept in XmlnsDictionary parallels the XML concept that a prefix might be redefined.</source>
+          <target state="translated">XmlnsDictionary 中的範圍概念與 XML 的概念，可能會重新定義前置詞。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If so, the redefinition only applies at that level or below in a DOM view of the XML (the previous definition applies at higher level in the DOM).</source>
+          <target state="translated">若是如此，重新定義僅適用於層級或以下版本 （先前的定義適用於在 DOM 中的更高層級） 的 xml DOM 檢視中。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The scope concept is mostly abstracted away in the XmlnsDictionary API, such that you can call APIs such as &lt;xref:System.Windows.Markup.XmlnsDictionary.LookupNamespace%2A&gt; without being concerned about scope.</source>
+          <target state="translated">範圍概念大部分抽象 XmlnsDictionary API 中，您可以呼叫 Api，例如&lt;xref:System.Windows.Markup.XmlnsDictionary.LookupNamespace%2A&gt;而不用擔心範圍。&lt;/xref:System.Windows.Markup.XmlnsDictionary.LookupNamespace%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>However, XmlnsDictionary does expose &lt;xref:System.Windows.Markup.XmlnsDictionary.PushScope%2A&gt; and &lt;xref:System.Windows.Markup.XmlnsDictionary.PopScope%2A&gt; so that a custom &lt;xref:System.Windows.Markup.ParserContext&gt; implementation that changes scope can synchronize with the scope for the XmlnsDictionary.</source>
+          <target state="translated">不過，沒有公開 XmlnsDictionary&lt;xref:System.Windows.Markup.XmlnsDictionary.PushScope%2A&gt;和&lt;xref:System.Windows.Markup.XmlnsDictionary.PopScope%2A&gt;，讓自訂&lt;xref:System.Windows.Markup.ParserContext&gt;變更範圍的實作可以同步處理與 XmlnsDictionary 的範圍。&lt;/xref:System.Windows.Markup.ParserContext&gt; &lt;/xref:System.Windows.Markup.XmlnsDictionary.PopScope%2A&gt; &lt;/xref:System.Windows.Markup.XmlnsDictionary.PushScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # XAML 文字用法</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified dictionary as a copy source.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別為複製來源，使用指定的字典。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>All values from the source <ph id="ph1">`xmlnsDictionary`</ph> including the index entries are copied except for &lt;xref:System.Windows.Markup.XmlnsDictionary.Sealed%2A&gt;, which is set to <ph id="ph2">`false`</ph> in the new instance.</source>
+          <target state="translated">來源中的所有值<ph id="ph1">`xmlnsDictionary`</ph>包括索引項目會複製除了&lt;xref:System.Windows.Markup.XmlnsDictionary.Sealed%2A&gt;，會設定為<ph id="ph2">`false`</ph>新執行個體中。&lt;/xref:System.Windows.Markup.XmlnsDictionary.Sealed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The dictionary on which to base the new <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">依據新字典<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xmlnsDictionary&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xmlnsDictionary&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Adds a prefix-URI pair to this <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">將前置詞 URI 配對加入至這個<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>After initial type-checking, this implementation forwards to the type-safe method &lt;xref:System.Windows.Markup.XmlnsDictionary.Add%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">之後初始型別檢查，這項實作轉送給型別安全方法&lt;xref:System.Windows.Markup.XmlnsDictionary.Add%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Markup.XmlnsDictionary.Add%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The prefix of the XAML namespace to be added.</source>
+          <target state="translated">要加入的 XAML 命名空間前置詞。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The XAML namespace URI the prefix maps to.</source>
+          <target state="translated">XAML 命名空間 URI 的前置詞對應至。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;xmlNamespace&lt;/code&gt;</ph> is not a string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;xmlNamespace&lt;/code&gt;</ph>不是字串。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;xmlNamespace&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;xmlNamespace&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is sealed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>密封格式。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Adds a prefix-URI pair to this <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">將前置詞 URI 配對加入至這個<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The prefix of this XML namespace.</source>
+          <target state="translated">此 XML 命名空間前置詞。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The XML namespace URI the prefix maps to.</source>
+          <target state="translated">XML 命名空間 URI 的前置詞對應至。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;xmlNamespace&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;xmlNamespace&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is sealed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>密封格式。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Removes all entries from this <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這會移除所有項目<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is sealed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>密封格式。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the specified prefix key is in this <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">傳回值，指出指定的前置詞的索引鍵是否在這個<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The prefix key to search for.</source>
+          <target state="translated">若要搜尋前置索引鍵。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the requested prefix key is in the dictionary; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果要求的前置詞索引鍵存在於字典中。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Copies the entries in the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified array.</source>
+          <target state="translated">中的項目複製<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到指定的陣列。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The array to copy the table data into.</source>
+          <target state="translated">要複製到資料表資料的陣列。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The zero-based index in the destination array where copying starts.</source>
+          <target state="translated">要開始複製處之目的地陣列中以零為起始的索引。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Copies the entries in the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified &lt;xref:System.Collections.DictionaryEntry&gt; array.</source>
+          <target state="translated">中的項目複製<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定&lt;xref:System.Collections.DictionaryEntry&gt;陣列。&lt;/xref:System.Collections.DictionaryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The array to copy the table data into.</source>
+          <target state="translated">要複製到資料表資料的陣列。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The zero-based index in the destination array where copying starts.</source>
+          <target state="translated">要開始複製處之目的地陣列中以零為起始的索引。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets the number of items in the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得中的項目數<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The number of items in the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">中的項目數<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Looks up the XAML namespace that corresponds to the default XAML namespace.</source>
+          <target state="translated">查閱對應至預設 XML 命名空間的 XAML 命名空間。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>From a mapping perspective, the default XML namespace is the XML namespace that is mapped to empty string.</source>
+          <target state="translated">對應的觀點而言，預設 XML 命名空間是 XML 命名空間對應至空字串。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In WPF XAML parsing for application purposes, the acting default namespace identifier is <ph id="ph1">[!INCLUDE[TLA#tla_wpfxmlnsv1](~/add/includes/tlasharptla-wpfxmlnsv1-md.md)]</ph>, but that value is not explicitly returned by this API.</source>
+          <target state="translated">在 WPF XAML 剖析中進行應用程式，做預設命名空間識別項是<ph id="ph1">[!INCLUDE[TLA#tla_wpfxmlnsv1](~/add/includes/tlasharptla-wpfxmlnsv1-md.md)]</ph>，但該由這個 API 不明確傳回值。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The namespace that corresponds to the default XML namespace if one exists; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果一個的預設 XML 命名空間對應的命名空間存在。否則， <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Returns a dictionary enumerator that iterates through this <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">傳回字典列舉值逐一查看這<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This API exists so that derived classes can obtain an enumerator where the scoping concept for the XML namespaces is reported as a dimension of the dictionary enumerator.</source>
+          <target state="translated">此 API 的存在，讓衍生的類別可以取得列舉值位置的 XML 命名空間範圍的概念會回報為字典的列舉值的維度。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The dictionary enumerator for this dictionary.</source>
+          <target state="translated">這個字典的字典列舉值。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that iterates through this <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">傳回列舉值逐一查看這<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This API exists so that derived classes can obtain an enumerator.</source>
+          <target state="translated">此 API 的存在，讓衍生的類別可以取得列舉值。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This enumerator provides enumeration over the &lt;xref:System.Windows.Markup.XmlnsDictionary.Keys%2A&gt; collection.</source>
+          <target state="translated">這個列舉值，可透過提供列舉&lt;xref:System.Windows.Markup.XmlnsDictionary.Keys%2A&gt;集合。&lt;/xref:System.Windows.Markup.XmlnsDictionary.Keys%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The enumerator for this dictionary.</source>
+          <target state="translated">這個字典的列舉值。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Retrieves a XAML namespace for the provided prefix string.</source>
+          <target state="translated">擷取所提供的前置詞字串的 XAML 命名空間。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The prefix to retrieve the XAML namespace for.</source>
+          <target state="translated">若要擷取的 XAML 命名空間前置詞。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The requested XAML namespace URI.</source>
+          <target state="translated">要求的 XAML 命名空間 URI。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Returns all possible prefix-XAML namespace mappings (<bpt id="p1">&lt;xref href="System.Xaml.NamespaceDeclaration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values) that are available in the active schema context.</source>
+          <target state="translated">傳回所有可能的前置詞 XAML 命名空間的對應 (<bpt id="p1">&lt;xref href="System.Xaml.NamespaceDeclaration"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值) 可用於作用中的結構描述內容。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>An enumerable set of <bpt id="p1">&lt;xref href="System.Xaml.NamespaceDeclaration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">可列舉集<bpt id="p1">&lt;xref href="System.Xaml.NamespaceDeclaration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To get the prefix strings specifically, get the <ph id="ph1">&amp;lt;</ph>xref:System.Xaml.NamespaceDeclaration.Prefix%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> value from each value returned.</source>
+          <target state="translated">若要特別取得前置詞字串，取得<ph id="ph1">&amp;lt;</ph>xref:System.Xaml.NamespaceDeclaration.Prefix%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>傳回每個值的值。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the size of the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is fixed.</source>
+          <target state="translated">取得值，指出是否大小<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>固定的。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This implementation always returns <ph id="ph1">`false`</ph>, even if &lt;xref:System.Windows.Markup.XmlnsDictionary.IsReadOnly%2A&gt; is <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">這個實作一律會傳回<ph id="ph1">`false`</ph>，即使&lt;xref:System.Windows.Markup.XmlnsDictionary.IsReadOnly%2A&gt;是<ph id="ph2">`true`</ph>。&lt;/xref:System.Windows.Markup.XmlnsDictionary.IsReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the size is fixed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果固定的大小;，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is read-only.</source>
+          <target state="translated">取得值，指出是否<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>處於唯讀狀態。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Markup.XmlnsDictionary&gt; is read-only after &lt;xref:System.Windows.Markup.XmlnsDictionary.Seal%2A&gt; is called.</source>
+          <target state="translated">&lt;xref:System.Windows.Markup.XmlnsDictionary&gt;處於唯讀狀態之後&lt;xref:System.Windows.Markup.XmlnsDictionary.Seal%2A&gt;稱為。&lt;/xref:System.Windows.Markup.XmlnsDictionary.Seal%2A&gt; &lt;/xref:System.Windows.Markup.XmlnsDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dictionary is read-only; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果字典是唯讀的。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether access to this <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is thread safe.</source>
+          <target state="translated">取得值，指出是否存取<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>具備執行緒安全。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if access to this dictionary is thread-safe; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果此字典的存取是安全執行緒，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets or sets the XAML namespace URI associated with the specified prefix.</source>
+          <target state="translated">取得或設定與指定的前置詞的 URI 相關聯的 XAML 命名空間。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_Object"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_Object"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # XAML 文字用法</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The prefix from which to get or set the associated XML namespace URI.</source>
+          <target state="translated">要從中取得或設定相關聯的 XML 命名空間 URI 前置詞。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The corresponding XAML namespace URI.</source>
+          <target state="translated">對應 XAML 命名空間 URI。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph> is not a string       -or-       The value to set is not a string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph>不是字串-或者-要設定的值不是字串。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>       -or-       The value to set is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>       -or-       The value to set is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Gets or sets the XAML namespace URI associated with the specified prefix.</source>
+          <target state="translated">取得或設定與指定的前置詞的 URI 相關聯的 XAML 命名空間。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The prefix from which to get or set the associated namespace.</source>
+          <target state="translated">要從中取得或設定關聯的命名空間前置詞。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The corresponding XML namespace URI.</source>
+          <target state="translated">對應 XML 的命名空間 URI。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>       -or-       The value to set is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>       -or-       The value to set is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Gets a collection of all the keys in the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得集合中的所有索引鍵的<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_Keys"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_Keys"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # XAML 文字用法</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The collection of all the keys in the dictionary.</source>
+          <target state="translated">字典中的所有索引鍵的集合。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Returns the XAML namespace URI that corresponds to the specified XML namespace prefix.</source>
+          <target state="translated">傳回 XAML 命名空間 URI 對應至指定的 XML 命名空間前置詞。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The XAML namespace prefix to look up.</source>
+          <target state="translated">要查閱的 XAML 命名空間前置詞。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The XAML namespace URI that corresponds to the specified prefix if it exists in this <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">XAML 命名空間 URI 對應至指定的前置詞，如果它存在此<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，否則<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;prefix&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Returns the prefix that corresponds to the specified XAML namespace URI.</source>
+          <target state="translated">傳回指定 XAML 命名空間 URI 對應的前置詞。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If you request the prefix for the default namespace, an empty string is returned.</source>
+          <target state="translated">如果您要求的預設命名空間的前置詞，則會傳回空字串。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The XAML namespace URI to look up.</source>
+          <target state="translated">XAML 命名空間 URI 查詢。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The XML prefix that corresponds to the given namespace; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">XML 前置詞對應於指定的命名空間;否則， <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xmlNamespace&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xmlNamespace&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Pops the scope of the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">快顯的範圍<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Use this method only if you are implementing a &lt;xref:System.Windows.Markup.ParserContext&gt; that also works at an element scope level.</source>
+          <target state="translated">使用這個方法，只有當您實作&lt;xref:System.Windows.Markup.ParserContext&gt;，也可在項目範圍層級。&lt;/xref:System.Windows.Markup.ParserContext&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is sealed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>密封格式。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Pushes the scope of the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">推播通知的範圍<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Use this method only if you are implementing a &lt;xref:System.Windows.Markup.ParserContext&gt; that also works at an element scope level.</source>
+          <target state="translated">使用這個方法，只有當您實作&lt;xref:System.Windows.Markup.ParserContext&gt;，也可在項目範圍層級。&lt;/xref:System.Windows.Markup.ParserContext&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is sealed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>密封格式。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Removes the item with the specified prefix key from the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">移除的項目具有指定的前置詞索引鍵，從<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This implementation forwards to the type-safe method &lt;xref:System.Windows.Markup.XmlnsDictionary.Remove%28System.String%29?displayProperty=fullName&gt;.</source>
+          <target state="translated">此實作會將轉送至型別安全方法&lt;xref:System.Windows.Markup.XmlnsDictionary.Remove%28System.String%29?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Markup.XmlnsDictionary.Remove%28System.String%29?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The prefix key to remove.</source>
+          <target state="translated">若要移除前置詞索引鍵。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is sealed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>密封格式。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Removes the item with the specified prefix key from the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">移除的項目具有指定的前置詞索引鍵，從<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The prefix key to remove.</source>
+          <target state="translated">若要移除前置詞索引鍵。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is sealed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>密封格式。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Locks the dictionary so that it cannot be changed.</source>
+          <target state="translated">鎖定字典，使其無法變更。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This must be done before setting the &lt;xref:System.Windows.Markup.XmlnsDictionary&gt; to a property (typically on a &lt;xref:System.Windows.Markup.ParserContext&gt;).</source>
+          <target state="translated">這必須完成，才能設定&lt;xref:System.Windows.Markup.XmlnsDictionary&gt;屬性 (通常在&lt;xref:System.Windows.Markup.ParserContext&gt;)。&lt;/xref:System.Windows.Markup.ParserContext&gt; &lt;/xref:System.Windows.Markup.XmlnsDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Attempting to modify the dictionary after the &lt;xref:System.Windows.Markup.XmlnsDictionary&gt; is sealed throws an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">嘗試修改後的&lt;xref:System.Windows.Markup.XmlnsDictionary&gt;已密封會擲回&lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt;&lt;/xref:System.Windows.Markup.XmlnsDictionary&gt;字典</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is sealed.</source>
+          <target state="translated">取得值，指出是否<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>密封格式。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This property is an alias for &lt;xref:System.Windows.Markup.XmlnsDictionary.IsReadOnly%2A&gt;.</source>
+          <target state="translated">這個屬性是&lt;xref:System.Windows.Markup.XmlnsDictionary.IsReadOnly%2A&gt;.&lt;/xref:System.Windows.Markup.XmlnsDictionary.IsReadOnly%2A&gt;的別名</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dictionary is sealed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果字典密封格式。，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets an object that can be used to synchronize access to the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得物件，可用來同步處理存取具備<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An object that can be used to synchronize access to the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">物件，可用來同步處理存取具備<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.Collections.IDictionary.GetEnumerator%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">如需這個成員的說明，請參閱<ph id="ph1">&amp;lt;</ph>xref:System.Collections.IDictionary.GetEnumerator%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionaryEnumerator&gt; object that can be used to iterate through the collection.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionaryEnumerator&gt;可用來逐一查看集合的物件。&lt;/xref:System.Collections.IDictionaryEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.Collections.IEnumerable.GetEnumerator%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">如需這個成員的說明，請參閱<ph id="ph1">&amp;lt;</ph>xref:System.Collections.IEnumerable.GetEnumerator%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; object that can be used to iterate through the collection.</source>
+          <target state="translated">&lt;xref:System.Collections.IEnumerator&gt;可用來逐一查看集合的物件。&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets a collection of all the values in the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得集合中的所有值的<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>A collection of all the values in the <bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">集合中的所有值的<bpt id="p1">&lt;xref href="System.Windows.Markup.XmlnsDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
