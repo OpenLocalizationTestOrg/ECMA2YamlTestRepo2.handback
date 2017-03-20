@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3673f7293c732deb2f585571b2bad08390948d8d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Diagnostics.EventLogPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3983d00854ed409123b9d7eb0ef3ed8d49561164</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4d672f7627e8a29e157a82611468ceb53b522196</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Controls code access permissions for event logging.</source>
+          <target state="translated">Определяет разрешения доступа к коду для ведения журнала событий.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not grant EventLogPermission to partially trusted code.</source>
+          <target state="translated">Не предоставляйте EventLogPermission коду с частичным доверием.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ability to read and write the event log enables code to perform actions such as issuing event log messages in the name of another application.</source>
+          <target state="translated">Возможность чтения и записи в журнал событий позволяет коду выполнять действия, такие как помещение сообщений журнала событий имя другого приложения.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the event source that is specified by the &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt; property for the event log does not exist, a new event source is created.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек Если источник события, задается &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;свойство для журнала событий не существует, создается новый источник событий.&lt;/xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create an event source in Windows Vista and later versions of Windows, or Windows Server 2003, you must have administrative privileges.</source>
+          <target state="translated">Для создания источника событий в Windows Vista и более поздних версиях Windows или Windows Server 2003, необходимо иметь права администратора.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  The reason for this requirement is that all event logs, including security, must be searched to determine whether the event source is unique.</source>
+          <target state="translated">&gt;&gt; Это требование обусловлено тем, чтобы определить, является ли источник событий уникальный необходимо произвести поиск всех журналов событий, включая безопасность.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting with Windows Vista, users do not have permission to access the security log; therefore, a &lt;xref:System.Security.SecurityException&gt; is thrown.</source>
+          <target state="translated">Начиная с Windows Vista, пользователи не имеют разрешения на доступ к журналу безопасности; Таким образом &lt;xref:System.Security.SecurityException&gt;возникает исключение.&lt;/xref:System.Security.SecurityException&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  Starting with Windows Vista, User Account Control (UAC) determines the privileges of a user.</source>
+          <target state="translated">&gt;&gt; Начиная с Windows Vista привилегии пользователя определяются управления учетных записей (UAC).</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are a member of the Built-in Administrators group, you are assigned two run-time access tokens: a standard user access token and an administrator access token.</source>
+          <target state="translated">Если вы являетесь членом группы администраторов, вы присваивается два маркера доступа на время выполнения: маркер доступа обычного пользователя и маркер доступа администратора.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, you are in the standard user role.</source>
+          <target state="translated">По умолчанию назначена роль обычного пользователя.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To execute the code that accesses the security log, you must first elevate your privileges from standard user to administrator.</source>
+          <target state="translated">Для выполнения кода, который обращается к журнал безопасности, необходимо сначала повысить права доступа со стандартного пользователя до администратора.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can do this when you start an application by right-clicking the application icon and indicating that you want to run as an administrator.</source>
+          <target state="translated">Это можно сделать при запуске приложения, щелкнув значок приложения правой кнопкой мыши и указав, что приложение должно запускаться от имени администратора.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified permission entries.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса с указанными элементами разрешений.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>An array of  objects that represent permission entries.</source>
+          <target state="translated">Массив объектов, представляющих записи разрешений.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventLogPermission.PermissionEntries*&gt; property is set to this value.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventLogPermission.PermissionEntries*&gt;Свойству присвоено значение.&lt;/xref:System.Diagnostics.EventLogPermission.PermissionEntries*&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;permissionAccessEntries&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;permissionAccessEntries&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified permission state.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса с указанным состоянием разрешения.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the permission state (full access or no access to resources).</source>
+          <target state="translated">Одно из значений перечисления, указывающее состояние разрешения (полный доступ или нет доступа к ресурсам).</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid value of <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">state</ph> <ept id="p1">&lt;/code&gt;</ept> Параметр не является допустимым значением для <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified access levels and the name of the computer to use.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класс с указанными уровнями доступа и имя компьютера для использования.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies an access level.</source>
+          <target state="translated">Одно из значений перечисления, указывающее уровень доступа.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The name of the computer on which to read or write events.</source>
+          <target state="translated">Имя компьютера, на котором производится чтение или запись событий.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the collection of permission entries for this permissions request.</source>
+          <target state="translated">Возвращает коллекцию элементов разрешений для данного запроса разрешений.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A collection that contains the permission entries for this permissions request.</source>
+          <target state="translated">Коллекция, содержащая разрешения для этого запроса разрешений.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

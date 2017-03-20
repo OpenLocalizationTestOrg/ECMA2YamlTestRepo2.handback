@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ef5a0217e216b89d3656c391ac24ed333d0bee7a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.DependencyObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8993e930cc698df8e580a6654583385e4bb402cb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dd979f5a7e3a281a1fb43a5cd55931c4bc6b079d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an object that participates in the dependency property system.</source>
+          <target state="translated">Egy objektum, amely részt vesz a függőség tulajdonság rendszer jelöli.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DependencyObject class enables <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> property system services on its many derived classes.</source>
+          <target state="translated">A DependencyObject osztály lehetővé teszi, hogy <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> tulajdonság rendszerszolgáltatások a sok származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The property system's primary function is to compute the values of properties, and to provide system notification about values that have changed.</source>
+          <target state="translated">A tulajdonság rendszer elsődleges funkciója a tulajdonság értékét számítja ki, és adja meg a rendszer értesítést módosult.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Another key class that participates in the property system is &lt;xref:System.Windows.DependencyProperty&gt;.</source>
+          <target state="translated">Egy másik fő osztály, amely részt vesz a tulajdonság rendszer &lt;xref:System.Windows.DependencyProperty&gt;.&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.DependencyProperty&gt; enables the registration of dependency properties into the property system, and provides identification and information about each dependency property, whereas DependencyObject as a base class enables objects to use the dependency properties.</source>
+          <target state="translated">&lt;xref:System.Windows.DependencyProperty&gt;engedélyezi a függőségi tulajdonságok a tulajdonság rendszerbe, és azonosítása és egyes függőségi tulajdonságok biztosít, mivel a DependencyObject és az osztály alaposztálya lehetővé teszi, hogy az objektumok a függőségi tulajdonságok használata.&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DependencyObject services and characteristics include the following:      -   Dependency property hosting support.</source>
+          <target state="translated">DependencyObject szolgáltatások és jellemzői a következők:-támogatás üzemeltető függőség tulajdonság.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You register a dependency property by calling the &lt;xref:System.Windows.DependencyProperty.Register%2A&gt; method, and storing the method's return value as a public static field in your class.</source>
+          <target state="translated">A &lt;xref:System.Windows.DependencyProperty.Register%2A&gt;metódust, és tárolja a metódus visszatérési értéke az a osztálytól nyilvános statikus mezőként&lt;/xref:System.Windows.DependencyProperty.Register%2A&gt; meghívásával regisztrálja a függőség tulajdonság</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Attached property hosting support.</source>
+          <target state="translated">-Támogatási üzemeltető csatolt tulajdonság.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You register an attached property by calling the &lt;xref:System.Windows.DependencyProperty.RegisterAttached%2A&gt; method, and storing the method's return value as a public static read-only field in your class.</source>
+          <target state="translated">A &lt;xref:System.Windows.DependencyProperty.RegisterAttached%2A&gt;metódus, és tárolja a metódus visszatérési értéke, egy nyilvános statikus írásvédett mezőben az a osztálytól&lt;/xref:System.Windows.DependencyProperty.RegisterAttached%2A&gt; meghívásával regisztrálja egy csatolt tulajdonság</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(There are also additional member requirements; note that this represents a <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> specific implementation for attached properties.</source>
+          <target state="translated">(Is további tag követelmények; a vegye figyelembe, hogy ez jelöli egy <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> csatolt tulajdonságok adott implementációja.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details, see <bpt id="p1">[</bpt>Attached Properties Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.) Your attached property can then be set on any class that derives from DependencyObject.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>csatolt tulajdonságok áttekintése<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.) A csatolt tulajdonság majd beállítható bármely osztályt, amely a dependencyobject elemből származik.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Get, set, and clear utility methods for values of any dependency properties that exist on the DependencyObject.</source>
+          <target state="translated">-Get, állítsa be és törölje a DependencyObject a függőségi tulajdonságok értékek segédprogram-metódusokat.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Metadata, coerce value support, property changed notification, and override callbacks for  dependency properties or attached properties.</source>
+          <target state="translated">-Metaadatok, kényszerítési érték támogatása, tulajdonság csatolt tulajdonságainak új és módosított értesítési, és a függőségi tulajdonságok felülbírálás visszahívások.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, the DependencyObject class facilitates the per-owner property metadata for a dependency property.</source>
+          <target state="translated">A DependencyObject osztály könnyíti meg is, a tulajdonos tulajdonság metaadatai egy függőségi tulajdonság esetében.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A common base class for classes derived from &lt;xref:System.Windows.ContentElement&gt;, &lt;xref:System.Windows.Freezable&gt;, or &lt;xref:System.Windows.Media.Visual&gt;.</source>
+          <target state="translated">-A közös alaposztálya származó &lt;xref:System.Windows.ContentElement&gt;, &lt;xref:System.Windows.Freezable&gt;, vagy &lt;xref:System.Windows.Media.Visual&gt;.&lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.ContentElement&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(&lt;xref:System.Windows.UIElement&gt;, another base element class, has a class hierarchy that includes &lt;xref:System.Windows.Media.Visual&gt;.)</source>
+          <target state="translated">(&lt;xref:System.Windows.UIElement&gt;, egy másik a(z) osztály rendelkezik tartalmazó osztály hierarchia &lt;xref:System.Windows.Media.Visual&gt;.)&lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Clears the local value of a property.</source>
+          <target state="translated">Törli a helyi tulajdonság értéke.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The property to be cleared is specified by a <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier.</source>
+          <target state="translated">A törlendő tulajdonság által megadott egy <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> azonosítója.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clearing the property value by calling ClearValue does not necessarily give a dependency property the default value that is specified in the dependency property metadata.</source>
+          <target state="translated">A tulajdonság értékének törlése ClearValue meghívásával nem szükségszerűen függőség tulajdonság az alapértelmezett érték a függőség tulajdonság metaadatai között megadott.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clearing the property only specifically clears whatever local value may have been applied.</source>
+          <target state="translated">A tulajdonság csak a külön törlésével törli bármilyen helyi érték érvényben.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Dependency Property Value Precedence<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>függőség tulajdonság értéke sorrend<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The dependency property to be cleared, identified by a <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object reference.</source>
+          <target state="translated">A függőség tulajdonság törölve, által azonosított egy <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hivatkozási objektumot.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Attempted to call ClearValue on a sealed <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az egy lezárt ClearValue hívását kísérelte meg <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Clears the local value of a read-only property.</source>
+          <target state="translated">Törli a helyi csak olvasható tulajdonság értéke.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The property to be cleared is specified by a <bpt id="p1">&lt;xref href="System.Windows.DependencyPropertyKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A törlendő tulajdonság által megadott egy <bpt id="p1">&lt;xref href="System.Windows.DependencyPropertyKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.DependencyPropertyKey&gt; identifies a read-only dependency property for property system operations.</source>
+          <target state="translated">A &lt;xref:System.Windows.DependencyPropertyKey&gt;azonosítja egy csak olvasható függőség tulajdonság tulajdonság rendszer műveletekhez.&lt;/xref:System.Windows.DependencyPropertyKey&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes that define read-only dependency properties should not expose this key with public access.</source>
+          <target state="translated">Osztályok csak olvasható függőségi tulajdonságok meghatározó kell teszi ezt a kulcsot, hozzáférésű.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A publicly exposed key would provide a public code pathway that negated the read-only character of the property, if methods such as &lt;xref:System.Windows.DependencyObject.ClearValue%2A&gt; or &lt;xref:System.Windows.DependencyObject.SetValue%2A&gt; could be called outside the class or assembly, referencing the key.</source>
+          <target state="translated">Egy nyilvánosan elérhetővé kulcs volna Ha adja meg a nyilvános kód végzett információküldéshez, hogy a tulajdonság csak olvasható karakter negated módszerek, például &lt;xref:System.Windows.DependencyObject.ClearValue%2A&gt;vagy &lt;xref:System.Windows.DependencyObject.SetValue%2A&gt;sikerült hívható meg az osztály vagy a szerelvény, a kulcs hivatkozó kívül.&lt;/xref:System.Windows.DependencyObject.SetValue%2A&gt; &lt;/xref:System.Windows.DependencyObject.ClearValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clearing the property value by calling ClearValue does not necessarily give a dependency property the default value that is specified in the dependency property metadata.</source>
+          <target state="translated">A tulajdonság értékének törlése ClearValue meghívásával nem szükségszerűen függőség tulajdonság az alapértelmezett érték a függőség tulajdonság metaadatai között megadott.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clearing the value only specifically clears whatever local value may have been applied.</source>
+          <target state="translated">Az érték csak a külön törlésével törli bármilyen helyi érték érvényben.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Dependency Property Value Precedence<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>függőség tulajdonság értéke sorrend<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The key for the dependency property to be cleared.</source>
+          <target state="translated">A kulcs törölve lesz a függőségi tulajdonság esetében.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Attempted to call &lt;xref:System.Windows.DependencyObject.ClearValue*&gt; on a sealed <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hívását kísérelte meg &lt;xref:System.Windows.DependencyObject.ClearValue*&gt;az egy lezárt <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.DependencyObject.ClearValue*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Coerces the value of the specified dependency property.</source>
+          <target state="translated">Típusú értékké konvertál, az adott függőségi tulajdonság értékét.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This is accomplished by invoking any <bpt id="p1">&lt;xref href="System.Windows.CoerceValueCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> function specified in property metadata for the dependency property as it exists on the calling <bpt id="p2">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ez érhető el, hogy bármely <bpt id="p1">&lt;xref href="System.Windows.CoerceValueCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megtalálható a hívó a tulajdonság metaadatai között függőség tulajdonsághoz megadott függvény <bpt id="p2">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to being explicitly invoked through calling CoerceValue, the &lt;xref:System.Windows.CoerceValueCallback&gt; for a dependency property is also invoked internally whenever the dependency property value is being re-evaluated by the <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> property system.</source>
+          <target state="translated">Explicit módon hívja CoerceValue, keresztül meghívott mellett a &lt;xref:System.Windows.CoerceValueCallback&gt;függőséget tulajdonság is meghívták belső amikor a függőség tulajdonság értéke van folyamatban újraértékeli a <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> tulajdonság system.&lt;/xref:System.Windows.CoerceValueCallback&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you invoke the CoerceValue method, you are ultimately invoking the coerce value callback for the property that you specify.</source>
+          <target state="translated">A CoerceValue metódus meghívásakor soron meghívott a tulajdonság, melyet a coerce érték visszahívás.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically you will invoke CoerceValue only if you know that a coerce value callback exists, and if you know the callback's criteria for coercion.</source>
+          <target state="translated">Általában CoerceValue által aktivált, csak akkor, ha tudja, hogy létezik-e egy coerce érték visszahívást, és ismeri a kényszerítési a visszahívás feltételeit.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most common scenario for calling CoerceValue is within class handling or property change callbacks of related properties that influence each other's values in a dependent way.</source>
+          <target state="translated">A leggyakoribb forgatókönyvet CoerceValue hívja az osztály kezelésének vagy tulajdonság módosítása visszahívások kapcsolódó tulajdonságok, amelyek befolyásolják a másik fél értékek függő módon belül van.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Dependency Property Callbacks and Validation<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>függőség tulajdonság visszahívások és az érvényesítés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The identifier for the dependency property to coerce.</source>
+          <target state="translated">A függőség tulajdonság megfelelő azonosítója.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dp</ph><ept id="p1">&lt;/code&gt;</ept> or its value were invalid or do not exist.</source>
+          <target state="translated">A megadott <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dp</ph> <ept id="p1">&lt;/code&gt;</ept> vagy annak értéke érvénytelen vagy nem létezik.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Windows.DependencyObjectType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that wraps the <ph id="ph1">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph> type of this instance.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Windows.DependencyObjectType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , burkolja a <ph id="ph1">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph> Ez a példány típusú.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is useful if an object that is returned from a method has a return value type of &lt;xref:System.Windows.DependencyObject&gt; and you want to perform property system specific operations on it depending on its type.</source>
+          <target state="translated">Ez a tulajdonság akkor hasznos, ha olyan objektumot, amely egy metódus által visszaadott visszatérési érték típusú &lt;xref:System.Windows.DependencyObject&gt;és tulajdonság rendszer adott műveleteket végezhet rajta a típusától függően.&lt;/xref:System.Windows.DependencyObject&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example it is more efficient to call &lt;xref:System.Windows.DependencyProperty.GetMetadata%28System.Windows.DependencyObjectType%29&gt; using the &lt;xref:System.Windows.DependencyObjectType&gt; rather than the <ph id="ph1">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph> type.</source>
+          <target state="translated">Például sokkal hatékonyabban hívására &lt;xref:System.Windows.DependencyProperty.GetMetadata%28System.Windows.DependencyObjectType%29&gt;használatával a &lt;xref:System.Windows.DependencyObjectType&gt;helyett a <ph id="ph1">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph> típusa.&lt;/xref:System.Windows.DependencyObjectType&gt; &lt;/xref:System.Windows.DependencyProperty.GetMetadata%28System.Windows.DependencyObjectType%29&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.DependencyObjectType&gt; facilitates faster lookup.</source>
+          <target state="translated">&lt;xref:System.Windows.DependencyObjectType&gt;elősegíti a gyorsabb keresési.&lt;/xref:System.Windows.DependencyObjectType&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.DependencyObjectType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that wraps the <ph id="ph1">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph> type of this instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.DependencyObjectType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , burkolja a <ph id="ph1">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph> Ez a példány típusú.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Determines whether a provided <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is equivalent to the current <bpt id="p2">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Meghatározza, hogy a megadott <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> felel meg az aktuális <bpt id="p2">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation is reference equality only, and does not attempt to evaluate value equality of the contained properties.</source>
+          <target state="translated">Ez a megvalósítás csak hivatkozási egyenlőség, és nem kísérli meg a benne lévő tulajdonságok értékét egyenlő kiértékeléséhez.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to compare to the current instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hasonlítsa össze az aktuális példány számára.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two instances are the same; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a két példányt azonos; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets a hash code for this <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy kivonatoló kódot lekérdezi a <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A signed 32-bit integer hash code.</source>
+          <target state="translated">Egy aláírt 32 bites egész kivonatoló kódot.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Creates a specialized enumerator for determining which dependency properties have locally set values on this <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Létrehoz egy speciális enumerátor segíthetnek meghatározni, melyik függőségi tulajdonságok helyileg állított értékek a <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A <bpt id="p1">*</bpt>local value<ept id="p1">*</ept> is any dependency property value that was set by &lt;xref:System.Windows.DependencyObject.SetValue%2A&gt;, as opposed to other aspects of the property system.</source>
+          <target state="translated">A <bpt id="p1">*</bpt>helyi érték<ept id="p1">*</ept> értéke függőség tulajdonság által megadott &lt;xref:System.Windows.DependencyObject.SetValue%2A&gt;, és nem a tulajdonság rendszer egyéb szempontjait a.&lt;/xref:System.Windows.DependencyObject.SetValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.LocalValueEnumerator&gt; obtained by calling GetLocalValueEnumerator can be used to enumerate properties that have a locally set value on a &lt;xref:System.Windows.DependencyObject&gt; instance.</source>
+          <target state="translated">A &lt;xref:System.Windows.LocalValueEnumerator&gt;hívása GetLocalValueEnumerator is használható, amelyek rendelkeznek egy helyileg beállított enumerálása által kapott értéket a &lt;xref:System.Windows.DependencyObject&gt;példány.&lt;/xref:System.Windows.DependencyObject&gt; &lt;/xref:System.Windows.LocalValueEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each such property is represented in the enumerator by a &lt;xref:System.Windows.LocalValueEntry&gt; object, which has properties that reference the specific &lt;xref:System.Windows.DependencyProperty&gt; and its values.</source>
+          <target state="translated">Minden ilyen tulajdonság által a számbavevő a jelzi egy &lt;xref:System.Windows.LocalValueEntry&gt;objektum, amely az egyes hivatkozó tulajdonságokkal rendelkezik &lt;xref:System.Windows.DependencyProperty&gt;és értékei.&lt;/xref:System.Windows.DependencyProperty&gt; &lt;/xref:System.Windows.LocalValueEntry&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This technique of enumerating over the locally set values can be used for optimization or for other handling of local values, such as to determine which property values of a &lt;xref:System.Windows.DependencyObject&gt; would change if they were cleared.</source>
+          <target state="translated">Ezzel a módszerrel a helyileg beállított keresztül számbavétele az értékek használhatók optimális vagy más célból helyi értékek, például a tulajdonságértékek meghatározásához egy &lt;xref:System.Windows.DependencyObject&gt;abban az esetben, ha tartalma törlődött.&lt;/xref:System.Windows.DependencyObject&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The returned &lt;xref:System.Windows.LocalValueEnumerator&gt; might contain &lt;xref:System.Windows.LocalValueEntry&gt; records for dependency properties that are read-only, or dependency properties where values are calculated by the property system.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; A visszaadott &lt;xref:System.Windows.LocalValueEnumerator&gt;tartalmazhat &lt;xref:System.Windows.LocalValueEntry&gt;függőségi tulajdonságok esetében csak olvasható, vagy ha értékek számítják ki a tulajdonság rendszer függőségi tulajdonságok rekordjait.&lt;/xref:System.Windows.LocalValueEntry&gt; &lt;/xref:System.Windows.LocalValueEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a visual framework element that has an established width through layout will report a local value for &lt;xref:System.Windows.FrameworkElement.ActualWidth%2A&gt;.</source>
+          <target state="translated">Például egy visual keretrendszer elem, amely rendelkezik egy meglévő szélesség keresztül elrendezés tartozik &lt;xref:System.Windows.FrameworkElement.ActualWidth%2A&gt;.&lt;/xref:System.Windows.FrameworkElement.ActualWidth%2A&gt; helyi értéket</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are getting local values in order to reset them, check the &lt;xref:System.Windows.DependencyProperty.ReadOnly%2A&gt; value on the property identifier of each &lt;xref:System.Windows.LocalValueEntry&gt; to verify that the &lt;xref:System.Windows.DependencyProperty&gt; in question is not read-only.</source>
+          <target state="translated">Ha helyi értéket kap ahhoz, hogy visszaállíthatja őket, ellenőrizze a &lt;xref:System.Windows.DependencyProperty.ReadOnly%2A&gt;az egyes tulajdonságazonosító érték &lt;xref:System.Windows.LocalValueEntry&gt;annak ellenőrzésére, hogy a &lt;xref:System.Windows.DependencyProperty&gt;a szóban forgó csak nem olvasható.&lt;/xref:System.Windows.DependencyProperty&gt; &lt;/xref:System.Windows.LocalValueEntry&gt; &lt;/xref:System.Windows.DependencyProperty.ReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A specialized local value enumerator.</source>
+          <target state="translated">Speciális helyi értékszámláló.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Returns the current effective value of a dependency property on this instance of a <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ezen a példányon a függőség tulajdonság jelenlegi hatékony értékét adja vissza egy <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">*</bpt>effective value<ept id="p1">*</ept> is the value of the property that is returned by the property system to any caller that is requesting the value.</source>
+          <target state="translated">A <bpt id="p1">*</bpt>hatékony érték<ept id="p1">*</ept> bármely hívónak kérő az érték a tulajdonság rendszer által visszaadott tulajdonság értéke.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The effective value is the result of the property system having evaluated all the possible inputs that participate in the property system value precedence.</source>
+          <target state="translated">Az érvényes érték a tulajdonság rendszer, hogy értékeli ki a lehetséges bemenetek, hogy a tulajdonság rendszer érték sorrend eredménye.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes coercion and animation.</source>
+          <target state="translated">Ez magában foglalja, kényszerítési és animáció.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Dependency Property Value Precedence<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>függőség tulajdonság értéke sorrend<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will never return &lt;xref:System.Windows.DependencyProperty&gt;.</source>
+          <target state="translated">Ez a módszer soha nem visszaadható &lt;xref:System.Windows.DependencyProperty&gt;.&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.DependencyProperty&gt; is a sentinel value for the property system that is used in various capacities internally and occasionally also exposed through coercion callbacks.</source>
+          <target state="translated">A &lt;xref:System.Windows.DependencyProperty&gt;sentinel érték a tulajdonság rendszerhez használt belső és alkalmanként is közzétéve az kényszerítési visszahívások különböző kapacitások.&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are not sure what the property's type should be, you can query the identifier of the requested dependency property to determine whether there is a more specific &lt;xref:System.Windows.DependencyProperty.PropertyType%2A&gt; that the return value can be converted to.</source>
+          <target state="translated">Ha nem biztos abban, hogy mi a tulajdonság típusának meg kell lennie, a kért függőségi tulajdonság határozza meg, hogy van-e további konkrét azonosítója lekérdezhető &lt;xref:System.Windows.DependencyProperty.PropertyType%2A&gt;, amely az eredményül kapott értéket lehet formátumúvá konvertálni.&lt;/xref:System.Windows.DependencyProperty.PropertyType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier of the property to retrieve the value for.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> használatával kikeresheti az értéket a tulajdonság azonosítója.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Returns the current effective value.</source>
+          <target state="translated">Az aktuális hatékony értékét adja vissza.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dp</ph><ept id="p1">&lt;/code&gt;</ept> or its value was invalid, or the specified <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">dp</ph><ept id="p2">&lt;/code&gt;</ept> does not exist.</source>
+          <target state="translated">A megadott <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dp</ph> <ept id="p1">&lt;/code&gt;</ept> vagy annak értéke érvénytelen, vagy a megadott <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">dp</ph> <ept id="p2">&lt;/code&gt;</ept> nem létezik.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Re-evaluates the effective value for the specified dependency property</source>
+          <target state="translated">Értékelje ki az adott függőségi tulajdonság esetében az érvényes érték</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call InvalidateProperty, any associated and applicable &lt;xref:System.Windows.CoerceValueCallback&gt; or &lt;xref:System.Windows.PropertyChangedCallback&gt; functions registered for that dependency property might be invoked.</source>
+          <target state="translated">InvalidateProperty, minden vonatkozó és alkalmazható hívás esetén &lt;xref:System.Windows.CoerceValueCallback&gt;vagy &lt;xref:System.Windows.PropertyChangedCallback&gt;Funkciók regisztrálva az adott függőségi tulajdonság lehet meghívni.&lt;/xref:System.Windows.PropertyChangedCallback&gt; &lt;/xref:System.Windows.CoerceValueCallback&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling InvalidateProperty on a property that has its local value set will have no effect, because the local value takes precedence over other property system inputs, except for animations.</source>
+          <target state="translated">InvalidateProperty hívása olyan tulajdonságon, amely a helyi értéket hatástalan lesz, mert a helyi elsőbbséget élvez más tulajdonság rendszer bemenetek, kivéve a animációk.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you could call &lt;xref:System.Windows.DependencyObject.ClearValue%2A&gt;, then call InvalidateProperty.</source>
+          <target state="translated">Azonban hívhatja &lt;xref:System.Windows.DependencyObject.ClearValue%2A&gt;, majd hívja a InvalidateProperty.&lt;/xref:System.Windows.DependencyObject.ClearValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Dependency Property Value Precedence<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>függőség tulajdonság értéke sorrend<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling InvalidateProperty is not necessarily applicable for many dependency property scenarios.</source>
+          <target state="translated">Nem feltétlenül alkalmazhatók a sok függőség tulajdonság forgatókönyvben InvalidateProperty hívása.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a dependency property becomes invalidated because of value changes in any of the constituents, the property system invalidates and re-evaluates the dependency property automatically.</source>
+          <target state="translated">A függőség tulajdonság válik Érvénytelenítve az összetevők bármelyikét érték változásai miatt, ha a tulajdonság rendszer érvénytelenné válik, és értékelje ki ismétlődően a függőség tulajdonság automatikusan.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, there are still some appropriate scenarios where InvalidateProperty is useful.</source>
+          <target state="translated">Van azonban még néhány megfelelő forgatókönyvekben, ahol InvalidateProperty hasznos.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In particular, you can use InvalidateProperty inside the coerce value or property changed callback for a different dependency property.</source>
+          <target state="translated">Különösen InvalidateProperty használhatja a coerce belül vagy tulajdonság megváltozott a visszahívás egy másik függőségi tulajdonság esetében.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use InvalidateProperty to force re-evaluation of a binding against a data source that is not able to implement the recommended &lt;xref:System.ComponentModel.INotifyPropertyChanged&gt; notification mechanism (perhaps if consuming data classes that cannot be derived from, or where the data is a static member).</source>
+          <target state="translated">A kötés kapcsolódik egy adatforrásban, amely nem az ajánlott újraértékelése kényszerítése InvalidateProperty is használhatja &lt;xref:System.ComponentModel.INotifyPropertyChanged&gt;értesítési mechanizmus (lehet, hogy ha adatosztályokat, nem kell származnia, vagy ha az adatok egy statikus tag fel).&lt;/xref:System.ComponentModel.INotifyPropertyChanged&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier of the property to invalidate.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érvénytelenné válnak a tulajdonság azonosítója.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this instance is currently sealed (read-only).</source>
+          <target state="translated">Lekérdezi egy érték, amely azt jelzi, hogy ez a példány jelenleg lezárt (csak olvasható).</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is set internally.</source>
+          <target state="translated">Az alapérték belső.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this instance is sealed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha ez a példány lezárt; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Invoked whenever the effective value of any dependency property on this <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has been updated.</source>
+          <target state="translated">Amikor meghívott bármely függőség tulajdonság a hatékony értékének <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> frissítve lett.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The specific dependency property that changed is reported in the event data.</source>
+          <target state="translated">Az adott függőségi tulajdonság megváltozott az eseményadat-jelentésekről.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not intended to generally detect individual property changes or perform invalidations of properties on a per-case basis.</source>
+          <target state="translated">Ez a módszer nem célja, hogy általában észleli az egyes tulajdonságok módosítását, vagy hajtsa végre a Tulajdonságok invalidations eset alapon.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnPropertyChanged is instead intended for modifications of the general invalidation pattern, if certain information is known about wide classifications of properties.</source>
+          <target state="translated">Ha bizonyos adatok széles besorolások tulajdonságok kapcsolatos ismert OnPropertyChanged helyette készült általános érvénytelenítési minta a módosításokat.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, changes in a &lt;xref:System.Windows.Freezable&gt; might be changes in the value types of the &lt;xref:System.Windows.Freezable&gt;, or might be subproperties, where the changes are within other &lt;xref:System.Windows.Freezable&gt; references.</source>
+          <target state="translated">Például megváltozik egy &lt;xref:System.Windows.Freezable&gt;lehet, hogy a érték típusú változásai a &lt;xref:System.Windows.Freezable&gt;, vagy előfordulhat, hogy altulajdonságok, ahol a változtatások vannak más belül &lt;xref:System.Windows.Freezable&gt;hivatkozik.&lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Freezable&gt; override implementation of OnPropertyChanged uses internal information to determine whether the properties are subproperties, and provides appropriate base class logic for either case.</source>
+          <target state="translated">A &lt;xref:System.Windows.Freezable&gt;OnPropertyChanged felülbírálás végrehajtása belső információ segítségével határozza meg, hogy a Tulajdonságok altulajdonságok, és megfelelő alaposztályból logika biztosít mindkét esetben.&lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnPropertyChanged is potentially invoked many times during the life of an object.</source>
+          <target state="translated">OnPropertyChanged potenciálisan meghívták sokszor objektum élettartama során.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you can achieve better performance for the overall property system if you override the metadata of specific properties and then attach &lt;xref:System.Windows.CoerceValueCallback&gt; or &lt;xref:System.Windows.PropertyChangedCallback&gt; functions for individual properties.</source>
+          <target state="translated">Ezért érhet el jobb teljesítményt nyújt az általános tulajdonság rendszer Ha tulajdonságokat metaadatainak felülírására, és csatolja majd &lt;xref:System.Windows.CoerceValueCallback&gt;vagy &lt;xref:System.Windows.PropertyChangedCallback&gt;Funkciók az egyes tulajdonságok.&lt;/xref:System.Windows.PropertyChangedCallback&gt; &lt;/xref:System.Windows.CoerceValueCallback&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you would use this method if a &lt;xref:System.Windows.DependencyObject&gt; includes a significant number of value-interrelated dependency properties, or if it includes logic such as rendering behavior that must be rerun for several related cases of property invalidations.</source>
+          <target state="translated">Azonban volna használni ezt a módszert, ha egy &lt;xref:System.Windows.DependencyObject&gt;jelentős számos olyan értéket kapcsolatban áll egymással függőségi tulajdonságok esetében, vagy ha azt logikát tartalmaz, például a viselkedés megjelenítést alkalmazni kell futtatható több kapcsolódó tulajdonság invalidations eseteit.&lt;/xref:System.Windows.DependencyObject&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Event data that will contain the dependency property identifier of interest, the property metadata for the type, and old and new values.</source>
+          <target state="translated">Esemény adatok, amelyek iránt érdeklődik, a típus tulajdonság metaadatainak és a régi és új értékeinek függőség tulajdonság azonosítóját fogja tartalmazni.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Returns the local value of a dependency property, if it exists.</source>
+          <target state="translated">A függőség tulajdonság helyi értékét adja vissza, ha van ilyen.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should use &lt;xref:System.Windows.DependencyObject.GetValue%2A&gt; for most typical "get" operations for a dependency property.</source>
+          <target state="translated">Használjon &lt;xref:System.Windows.DependencyObject.GetValue%2A&gt;műveleteihez legjellemzőbb "get" függőség tulajdonság.&lt;/xref:System.Windows.DependencyObject.GetValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ReadLocalValue does not return the effective value for a variety of circumstances where the value was not locally set.</source>
+          <target state="translated">ReadLocalValue nem ad vissza az érvényes érték a különböző körülmények között amennyiben az értéke helyileg nincs beállítva.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values that are set by styles, themes, templates, the default value from metadata, or property value inheritance are not considered to be local values.</source>
+          <target state="translated">Stílusok, témák, sablonok által beállított értékek, a metaadatok vagy tulajdonságöröklés érték az alapértelmezett érték nem tekinthetők kell lennie a helyi értékek.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, bindings and other expressions are considered to be local values, after they have been evaluated.</source>
+          <target state="translated">Azonban kötései és egyéb kifejezéseket minősülnek helyi értékek után lehet felmérni.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When no local value is set, this method returns &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;.</source>
+          <target state="translated">Ha nincs helyi érték van beállítva, ez a metódus visszaadja-e &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;.&lt;/xref:System.Windows.DependencyProperty.UnsetValue&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the returned value is other than &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;, you can query the metadata of the requested dependency property to determine whether there is a more specific type that the return value can be converted to.</source>
+          <target state="translated">Ha a visszaadott érték eltérő &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;, kérdezheti le a metaadatokat a kért függőségi tulajdonság határozza meg, hogy van-e az eredményül kapott értéket konvertálható pontosabb típussal.&lt;/xref:System.Windows.DependencyProperty.UnsetValue&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier of the property to retrieve the value for.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> használatával kikeresheti az értéket a tulajdonság azonosítója.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Returns the local value, or returns the sentinel value <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no local value is set.</source>
+          <target state="translated">A helyi értéket ad vissza, vagy sentinel értékét adja vissza <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nem helyi érték beállítása esetén.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Sets the value of a dependency property without changing its value source.</source>
+          <target state="translated">A függőség tulajdonság értékének beállítása érték forrását módosítása nélkül.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used by a component that programmatically sets the value of one of its own properties without disabling an application's declared use of the property.</source>
+          <target state="translated">Ez a módszer egy összetevő, amely programozott módon állítja be a saját tulajdonságok egyikét, anélkül, hogy a tulajdonság egy alkalmazás deklarált használatával letiltása használja.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetCurrentValue method changes the effective value of the property, but existing triggers, data bindings, and styles will continue to work.</source>
+          <target state="translated">A SetCurrentValue metódus megváltoztatja az érvényes érték a tulajdonság, de a meglévő eseményindítók, az adatkötéseket, és stílusok továbbra is működni fog.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The identifier of the dependency property to set.</source>
+          <target state="translated">A függőség tulajdonság beállítása azonosítóját.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The new local value.</source>
+          <target state="translated">Az új helyi értéket.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Attempted to modify a read-only dependency property, or a property on a sealed <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A csak olvasható függőség tulajdonság, vagy az egy lezárt tulajdonság módosítását kísérelte meg <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> was not the correct type as registered for the <ph id="ph2">&lt;code&gt;dp&lt;/code&gt;</ph> property.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph>nem megfelelő típusú volt, mivel a regisztrált a <ph id="ph2">&lt;code&gt;dp&lt;/code&gt;</ph> tulajdonság.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Sets the local value of a dependency property, specified by its dependency property identifier.</source>
+          <target state="translated">A függőség tulajdonság, a függőség tulajdonság azonosítóval megadott helyi értékének beállítása.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the provided type does not match the type that is declared for the dependency property as it was originally registered, an exception is thrown.</source>
+          <target state="translated">Ha a megadott típus nem egyezik meg a típust, a függőségi tulajdonság esetében van deklarálva, mivel eredetileg regisztrálva, a rendszer kivételt hoz létre.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`value`</ph> parameter should always be provided as the appropriate type.</source>
+          <target state="translated">A <ph id="ph1">`value`</ph> paraméter mindig adni a megfelelő típusú.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exception conditions are potentially influenced by the &lt;xref:System.Windows.DependencyProperty.ValidateValueCallback%2A&gt; callback that exists on the dependency property identifier of the dependency property being set.</source>
+          <target state="translated">A kivétel feltételek potenciálisan befolyásol a &lt;xref:System.Windows.DependencyProperty.ValidateValueCallback%2A&gt;visszahívási meglétét a függőség tulajdonság beállítása a függőség tulajdonság azonosítója.&lt;/xref:System.Windows.DependencyProperty.ValidateValueCallback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the value provided might be failing general type-checking conditions (for example, passing a string when the native type is Double).</source>
+          <target state="translated">Ellenkező esetben a megadott érték lehet, hogy hibás általános típus-ellenőrzés feltételek (például egy karakterlánc típusra, ha a natív típusa dupla).</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The identifier of the dependency property to set.</source>
+          <target state="translated">A függőség tulajdonság beállítása azonosítóját.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The new local value.</source>
+          <target state="translated">Az új helyi értéket.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Attempted to modify a read-only dependency property, or a property on a sealed <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A csak olvasható függőség tulajdonság, vagy az egy lezárt tulajdonság módosítását kísérelte meg <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> was not the correct type as registered for the <ph id="ph2">&lt;code&gt;dp&lt;/code&gt;</ph> property.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph>nem megfelelő típusú volt, mivel a regisztrált a <ph id="ph2">&lt;code&gt;dp&lt;/code&gt;</ph> tulajdonság.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Sets the local value of a read-only dependency property, specified by the <bpt id="p1">&lt;xref href="System.Windows.DependencyPropertyKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier of the dependency property.</source>
+          <target state="translated">A csak olvasható függőség tulajdonság által megadott helyi értékének beállítása a <bpt id="p1">&lt;xref href="System.Windows.DependencyPropertyKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a függőség tulajdonság azonosítója.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This signature is generally used when you set values for read-only dependency properties that are defined by your custom classes.</source>
+          <target state="translated">Az aláírás általában akkor használják, ha úgy állítja be az egyéni osztályok által definiált írásvédett függőségi tulajdonságok értékeit.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generally, SetValue is called only from the type that registered that dependency property, which implements the internal logic that provides the determined value for the dependency property.</source>
+          <target state="translated">A SetValue művelet általában csak a regisztrált az adott függőségi tulajdonság, a belső logika, amely a meghatározott értéket ad meg a függőség tulajdonság, amely típusból nevezik.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Read-Only Dependency Properties<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>csak olvasási jogosultsággal rendelkező függőségi tulajdonságok<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the provided type does not match the type that is declared for the dependency property as it was originally registered, an exception is thrown.</source>
+          <target state="translated">Ha a megadott típus nem egyezik meg a típust, a függőségi tulajdonság esetében van deklarálva, mivel eredetileg regisztrálva, a rendszer kivételt hoz létre.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`value`</ph> parameter should always be provided as the appropriate type.</source>
+          <target state="translated">A <ph id="ph1">`value`</ph> paraméter mindig adni a megfelelő típusú.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exception conditions are potentially influenced by the &lt;xref:System.Windows.DependencyProperty.ValidateValueCallback%2A&gt; callback that exists on the dependency property identifier of the dependency property being set.</source>
+          <target state="translated">A kivétel feltételek potenciálisan befolyásol a &lt;xref:System.Windows.DependencyProperty.ValidateValueCallback%2A&gt;visszahívási meglétét a függőség tulajdonság beállítása a függőség tulajdonság azonosítója.&lt;/xref:System.Windows.DependencyProperty.ValidateValueCallback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.DependencyPropertyKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier of the property to set.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.DependencyPropertyKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a beállítandó tulajdonság azonosítója.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The new local value.</source>
+          <target state="translated">Az új helyi értéket.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether serialization processes should serialize the value for the provided dependency property.</source>
+          <target state="translated">Egy érték, amely azt jelzi, hogy szerializálási folyamatok kell szerializálni a megadott függőség tulajdonság értékét adja vissza.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation returns <ph id="ph1">`true`</ph> for all cases in which a dependency property had a local value established on the &lt;xref:System.Windows.DependencyObject&gt;.</source>
+          <target state="translated">Az alapértelmezett implementációja adja vissza <ph id="ph1">`true`</ph> függőség tulajdonság kellett háttércsoport a &lt;xref:System.Windows.DependencyObject&gt;.&lt;/xref:System.Windows.DependencyObject&gt; a helyi értéket minden esetben</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The identifier for the dependency property that should be serialized.</source>
+          <target state="translated">A függőség tulajdonsághoz, amely kell szerializálni azonosítója.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dependency property that is supplied should be value-serialized; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a függőség tulajdonság megadott értéke szerializált; kell lennie Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

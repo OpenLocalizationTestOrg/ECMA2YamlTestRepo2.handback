@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b943f71bc094eab000ce5de06ecb3c2564abbc5b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Messaging.LogicalCallContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">581b2eb47d63601d66765934ae854ca4d3961f96</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">592b80e4b4f2de4418776d410cc3ea3d67dec57d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a set of properties that are carried with the execution code path during remote method calls.</source>
+          <target state="translated">Itt tulajdonságait, távoli hívások során a végrehajtási kód elérési úttal rendelkező tevékenységből áll.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LogicalCallContext class is a version of the &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt; class that is used during method calls to remote application domains.</source>
+          <target state="translated">A LogicalCallContext osztály egy verziója telepítve a &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt;módszer során használt osztály hívások távoli alkalmazástartományok.&lt;/xref:System.Runtime.Remoting.Messaging.CallContext&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt; is a specialized collection object similar to a thread local storage for method calls, and provides data slots that are unique to each logical thread of execution.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt;a speciális gyűjteményobjektum egy szál metódushívások helyi tárolóhoz hasonló, és biztosít minden logikai végrehajtási szállal egyedi adatok tárolóhelye.&lt;/xref:System.Runtime.Remoting.Messaging.CallContext&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The slots are not shared across call contexts on other logical threads.</source>
+          <target state="translated">A tárolóhelyek nem megosztott az más logikai szálak hívás környezetek között.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects can be added to the &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt; as it travels down and up the execution code path, and examined by various objects along the path.</source>
+          <target state="translated">Objektumok adhatók hozzá a &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt;választ le, illetve a hierarchiában felfelé a végrehajtási kód elérési utat, és megvizsgálta a különféle objektumok mentén az elérési út.&lt;/xref:System.Runtime.Remoting.Messaging.CallContext&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a remote method call is made to an object in another &lt;xref:System.AppDomain&gt;, the &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt; class generates a LogicalCallContext that travels along with the remote call.</source>
+          <target state="translated">Ha egy távoli metódus kérés érkezett egy másik objektum &lt;xref:System.AppDomain&gt;, a &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt;osztály hoz létre, amely a távoli hívás együtt mozog a LogicalCallContext.&lt;/xref:System.Runtime.Remoting.Messaging.CallContext&gt; &lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only objects that expose the &lt;xref:System.Runtime.Remoting.Messaging.ILogicalThreadAffinative&gt; interface and are stored in the &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt; are propagated outside the &lt;xref:System.AppDomain&gt; in a LogicalCallContext.</source>
+          <target state="translated">Csak az adott teszi közzé a objektumokat a &lt;xref:System.Runtime.Remoting.Messaging.ILogicalThreadAffinative&gt;felületet, és tárolja a &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt;kívül továbbítódnak a &lt;xref:System.AppDomain&gt;a egy LogicalCallContext.&lt;/xref:System.AppDomain&gt; &lt;/xref:System.Runtime.Remoting.Messaging.CallContext&gt; &lt;/xref:System.Runtime.Remoting.Messaging.ILogicalThreadAffinative&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects that do not support this interface are not transmitted in LogicalCallContext instances with remote method calls.</source>
+          <target state="translated">Ez az interfész nem támogató objektumok LogicalCallContext példányok távoli metódushívások nem átvitele.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This class makes a link demand.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Ez az osztály a hivatkozás lehetővé teszi.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A SecurityException is thrown if the immediate caller does not have infrastructure permission.</source>
+          <target state="translated">Egy SecurityException hiba miatt fordul elő, ha a közvetlen hívónak nincs engedélye infrastruktúra.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See <bpt id="p1">[</bpt>Link Demands<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> for more information.</source>
+          <target state="translated">Lásd: <bpt id="p1">[</bpt>hivatkozás iránti igények kielégítése érdekében<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> további információt.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Creates a new object that is a copy of the current instance.</source>
+          <target state="translated">Új objektumot hoz létre, amely az aktuális példány másolata.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Clone method produces a deep copy of the current &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;.</source>
+          <target state="translated">A Klónozás eljárással hozható létre az aktuális &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;.&lt;/xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt; mély másolatát</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A new object that is a copy of this instance.</source>
+          <target state="translated">Új objektumot, amely ezt a példányt egy példányát.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Empties a data slot with the specified name.</source>
+          <target state="translated">A megadott nevű adatok tárhely kiüríti.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The name of the data slot to empty.</source>
+          <target state="translated">Az adatok hellyel üres neve.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Retrieves an object associated with the specified name from the current instance.</source>
+          <target state="translated">Lekérdezi az aktuális példány a megadott név rendelt objektumot.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name of the item in the call context.</source>
+          <target state="translated">A hívás a környezetben az elem nevét.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The object in the logical call context associated with the specified name.</source>
+          <target state="translated">Az objektum a megadott névhez társított logikai hívás környezetében.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Populates a specified <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the data needed to serialize the current <bpt id="p2">&lt;xref href="System.Runtime.Remoting.Messaging.LogicalCallContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tölti fel a megadott <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> szükség lehet, mert az aktuális adatokkal <bpt id="p2">&lt;xref href="System.Runtime.Remoting.Messaging.LogicalCallContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current method fills the provided &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; with all the data needed to recreate the &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;.</source>
+          <target state="translated">A megadott &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;azokat az adatokat, hozza létre újra a &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;.&lt;/xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt; szükséges&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt; beírja az aktuális módszer</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current method is an implementation of &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;.</source>
+          <target state="translated">Az aktuális metódus &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;.&lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt; megvalósítása</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to populate with data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adatokkal feltölteni.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The contextual information about the source or destination of the serialization.</source>
+          <target state="translated">A cél- és a szerializálásnak környezetfüggő információt.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have SerializationFormatter permission.</source>
+          <target state="translated">A közvetlen hívónak nincs engedélye SerializationFormatter.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.LogicalCallContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains information.</source>
+          <target state="translated">Lekérdezi, hogy egy érték, amely jelzi, hogy az aktuális <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.LogicalCallContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> információkat tartalmaz.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A Boolean value indicating whether the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.LogicalCallContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains information.</source>
+          <target state="translated">Egy logikai érték, amely jelzi, hogy az aktuális <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.LogicalCallContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> információkat tartalmaz.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Stores the specified object in the current instance, and associates it with the specified name.</source>
+          <target state="translated">Az aktuális példány a megadott objektum tárolja, és azt hozzárendeli a megadott névvel.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name with which to associate the new item in the call context.</source>
+          <target state="translated">Az új elem a hívás környezetben társítandó nevet.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The object to store in the call context.</source>
+          <target state="translated">Az objektum hívás környezetében tárolásához.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
