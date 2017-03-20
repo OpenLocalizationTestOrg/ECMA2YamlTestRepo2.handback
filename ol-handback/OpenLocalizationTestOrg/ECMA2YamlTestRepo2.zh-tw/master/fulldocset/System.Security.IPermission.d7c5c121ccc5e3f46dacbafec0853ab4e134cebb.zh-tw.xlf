@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c55270081c089c98b6121c9a2a94d27692659a38</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.IPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5c3d9e953724cab94439bd147172af79a31db93b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6118a9a0b9036c6d7344acc3059c1906bd3e1aa4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines methods implemented by permission types.</source>
+          <target state="translated">定義權限類型所實作的方法。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Permissions in the common language runtime are objects that describe sets of operations that can be secured for specified resources.</source>
+          <target state="translated">Common language runtime 中的權限是物件，描述可以保護指定資源的作業集。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A permission object describes operations or access that is subject to security control; it does not represent access or a right to perform operations.</source>
+          <target state="translated">權限物件描述操作或安全性控制項，受限於的存取它不代表存取或執行作業的權限。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Permissions are used by both application code and the .NET Framework security system in the following ways.</source>
+          <target state="translated">應用程式程式碼和.NET Framework 安全性系統會使用的權限以下列方式。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>-   Code requests the permissions it needs in order to run.</source>
+          <target state="translated">程式碼要求它才能執行需要的權限。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   The security system policy grants permissions to code in order for it to run.</source>
+          <target state="translated">-的安全性系統原則授與權限，才能讓它執行的程式碼。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   Code demands that calling code has a permission.</source>
+          <target state="translated">程式碼會要求呼叫程式碼的權限。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   Code overrides the security stack using assert/deny/permit-only.</source>
+          <target state="translated">程式碼會覆寫安全性堆疊使用判斷提示/拒絕/只允許的。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you write a new permission, you must implement this interface in your class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果您撰寫新的權限，您必須在類別中實作這個介面。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  A permission can be accessed by multiple threads.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 可以由多個執行緒存取權限。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When implementing this interface, you must guarantee that the &lt;xref:System.Security.IPermission.IsSubsetOf%2A&gt;, &lt;xref:System.Security.IPermission.Intersect%2A&gt;, &lt;xref:System.Security.IPermission.Union%2A&gt;, and &lt;xref:System.Security.IPermission.Copy%2A&gt; method implementations are thread safe.</source>
+          <target state="translated">實作這個介面時，您必須保證&lt;xref:System.Security.IPermission.IsSubsetOf%2A&gt;， &lt;xref:System.Security.IPermission.Intersect%2A&gt;， &lt;xref:System.Security.IPermission.Union%2A&gt;，和&lt;xref:System.Security.IPermission.Copy%2A&gt;方法實作都是安全執行緒。&lt;/xref:System.Security.IPermission.Copy%2A&gt; &lt;/xref:System.Security.IPermission.Union%2A&gt; &lt;/xref:System.Security.IPermission.Intersect%2A&gt; &lt;/xref:System.Security.IPermission.IsSubsetOf%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Creates and returns an identical copy of the current permission.</source>
+          <target state="translated">建立並傳回目前權限的相同複本。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A copy of a permission represents the same access to resources as the original permission.</source>
+          <target state="translated">一份權限表示與原始的權限資源相同的存取權。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A copy of the current permission.</source>
+          <target state="translated">一份目前的權限。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Throws a &lt;xref:System.Security.SecurityException&gt; at run time if the security requirement is not met.</source>
+          <target state="translated">&lt;xref:System.Security.SecurityException&gt;如果不是符合安全性需求的執行階段&lt;/xref:System.Security.SecurityException&gt;會擲回</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This method is typically used by secure libraries to ensure that callers have permission to access a resource.</source>
+          <target state="translated">這個方法通常可由安全程式庫來確定呼叫端擁有存取資源的權限。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, a file class in a secure class library calls &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt; for the necessary &lt;xref:System.Security.Permissions.FileIOPermission&gt; before performing a file operation requested by the caller.</source>
+          <target state="translated">例如，檔案中的類別安全類別庫的呼叫&lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt;必要的&lt;xref:System.Security.Permissions.FileIOPermission&gt;之前執行檔案作業的呼叫端要求。&lt;/xref:System.Security.Permissions.FileIOPermission&gt; &lt;/xref:System.Security.CodeAccessPermission.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Although the majority of the classes that implement this interface method satisfy the security criteria by performing a full stack walk, a stack walk is not necessarily performed.</source>
+          <target state="translated">雖然大部分的類別可實作此介面方法會滿足安全性準則執行完整堆疊查核行程，不一定會執行堆疊查核行程。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An example of an implementation that does not perform a stack walk is &lt;xref:System.Security.Permissions.PrincipalPermission.Demand%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">不會執行堆疊查核行程實作的範例為&lt;xref:System.Security.Permissions.PrincipalPermission.Demand%2A?displayProperty=fullName&gt;。&lt;/xref:System.Security.Permissions.PrincipalPermission.Demand%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When a stack walk is performed, the permissions of the code that calls this method are not examined; the check begins from the immediate caller of that code and proceeds up the stack.</source>
+          <target state="translated">執行堆疊查核行程時，就不會檢查呼叫這個方法的程式碼的權限;檢查該程式碼的立即呼叫端從開始，然後進行堆疊。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">呼叫堆疊通常會表示向下成長，使方法呼叫堆疊中較高層呼叫的方法較低的呼叫堆疊中。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt; succeeds only if no &lt;xref:System.Security.SecurityException&gt; is raised.</source>
+          <target state="translated">&lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt;只有當沒有成功&lt;xref:System.Security.SecurityException&gt;，就會引發。&lt;/xref:System.Security.SecurityException&gt;&lt;/xref:System.Security.CodeAccessPermission.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Creates and returns a permission that is the intersection of the current permission and the specified permission.</source>
+          <target state="translated">建立並傳回目前權限和指定的權限交集的權限。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The intersection of two permissions is a permission that describes the set of operations they both describe in common.</source>
+          <target state="translated">兩個權限的交集會描述一組共同兩者描述的作業的權限。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Only a demand that passes both original permissions will pass the intersection.</source>
+          <target state="translated">只有通過這兩個原始的使用權限的需求會通過交集。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The following statements are required to be true for all implementations of the Intersect method.</source>
+          <target state="translated">下列陳述式必須是為所有實作的交集方法，則為 true。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`X`</ph> and <ph id="ph2">`Y`</ph> represent &lt;xref:System.Security.IPermission&gt; object references that are not <ph id="ph3">`null`</ph>.</source>
+          <target state="translated"><ph id="ph1">`X`</ph>和<ph id="ph2">`Y`</ph>代表&lt;xref:System.Security.IPermission&gt;物件參考未<ph id="ph3">`null`</ph>。&lt;/xref:System.Security.IPermission&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-   <ph id="ph1">`X`</ph>.Intersect(<ph id="ph2">`X`</ph>) returns a value equal to <ph id="ph3">`X`</ph>.</source>
+          <target state="translated">-   <ph id="ph1">`X`</ph>.Intersect (<ph id="ph2">`X`</ph>) 傳回的值等於<ph id="ph3">`X`</ph>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-   <ph id="ph1">`X`</ph>.Intersect(<ph id="ph2">`Y`</ph>) returns the same value as <ph id="ph3">`Y`</ph>.Intersect(<ph id="ph4">`X`</ph>).</source>
+          <target state="translated">-   <ph id="ph1">`X`</ph>.Intersect (<ph id="ph2">`Y`</ph>) 傳回相同的值做為<ph id="ph3">`Y`</ph>。Intersect (<ph id="ph4">`X`</ph>)。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-   <ph id="ph1">`X`</ph>.Intersect(<ph id="ph2">`null`</ph>) returns <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">-   <ph id="ph1">`X`</ph>.Intersect (<ph id="ph2">`null`</ph>) 傳回<ph id="ph3">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A permission to intersect with the current permission.</source>
+          <target state="translated">要與目前權限產生交集的權限。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">它必須是類型的相同與目前權限。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the intersection of the current permission and the specified permission.</source>
+          <target state="translated">代表目前權限與指定權限交集的新權限。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This new permission is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the intersection is empty.</source>
+          <target state="translated">這個新權限是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果交集是空的。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not an instance of the same class as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>參數不是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>並不是與目前權限具有相同類別的執行個體。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Determines whether the current permission is a subset of the specified permission.</source>
+          <target state="translated">判斷目前權限是否為指定的權限的子集。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A permission that is to be tested for the subset relationship.</source>
+          <target state="translated">要測試子集關聯性的權限。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This permission must be of the same type as the current permission.</source>
+          <target state="translated">此權限必須是類型的相同與目前權限。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current permission is a subset of the specified permission; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果目前權限是指定的權限的子集否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>參數不是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>而且不屬於相同的類型與目前權限。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Creates a permission that is the union of the current permission and the specified permission.</source>
+          <target state="translated">建立權限聯集的目前的權限與指定權限。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The result of a call to Union is a permission that represents all the operations represented by both the current permission and the specified permission.</source>
+          <target state="translated">要聯集呼叫的結果是權限，表示代表的所有作業目前的權限和指定的權限。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Any demand that passes either permission passes their union.</source>
+          <target state="translated">傳遞其中一個權限的任何要求會傳遞它們的聯集。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following statements are required to be true for all implementations of the Union method.</source>
+          <target state="translated">下列陳述式必須是為所有的聯集的方法實作，則為 true。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`X`</ph> and <ph id="ph2">`Y`</ph> represent &lt;xref:System.Security.IPermission&gt; objects that are not <ph id="ph3">`null`</ph>.</source>
+          <target state="translated"><ph id="ph1">`X`</ph>和<ph id="ph2">`Y`</ph>代表&lt;xref:System.Security.IPermission&gt;不是物件<ph id="ph3">`null`</ph>。&lt;/xref:System.Security.IPermission&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-   <ph id="ph1">`X`</ph>.Union(<ph id="ph2">`X`</ph>) returns an object that has the same value as <ph id="ph3">`X`</ph>.</source>
+          <target state="translated">-   <ph id="ph1">`X`</ph>.等位 (<ph id="ph2">`X`</ph>) 傳回的物件具有相同的值<ph id="ph3">`X`</ph>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-   <ph id="ph1">`X`</ph>.Union(<ph id="ph2">`Y`</ph>) returns an object that has the same value as the object returned by <ph id="ph3">`Y`</ph>.Union(<ph id="ph4">`X`</ph>).</source>
+          <target state="translated">-   <ph id="ph1">`X`</ph>.等位 (<ph id="ph2">`Y`</ph>) 傳回的物件具有相同的值所傳回的物件<ph id="ph3">`Y`</ph>。等位 (<ph id="ph4">`X`</ph>)。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-   <ph id="ph1">`X`</ph>.Union(<ph id="ph2">`null`</ph>) returns an object that has the same value as <ph id="ph3">`X`</ph>.</source>
+          <target state="translated">-   <ph id="ph1">`X`</ph>.等位 (<ph id="ph2">`null`</ph>) 傳回的物件具有相同的值<ph id="ph3">`X`</ph>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A permission to combine with the current permission.</source>
+          <target state="translated">與目前權限結合的權限。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">它必須是類型的相同與目前權限。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the union of the current permission and the specified permission.</source>
+          <target state="translated">新的權限，表示目前的權限與指定權限的聯集。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>參數不是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>而且不屬於相同的類型與目前權限。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

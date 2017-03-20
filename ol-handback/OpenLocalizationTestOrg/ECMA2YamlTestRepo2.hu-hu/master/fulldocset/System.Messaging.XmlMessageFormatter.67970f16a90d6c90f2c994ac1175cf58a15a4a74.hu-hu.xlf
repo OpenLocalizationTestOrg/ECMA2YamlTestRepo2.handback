@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01a29ba8b6be0cb3371461a78f5e89c26bfe42e7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.XmlMessageFormatter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">58ae862bc0b961377f4edc4bc96254dbb3bee309</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c058aa03a560826c952d30e6184c250444ae9e2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Serializes and deserializes objects to or from the body of a message, using the XML format based on the XSD schema definition.</source>
+          <target state="translated">Rendezi sorba, és deserializes objektumok vagy onnan egy üzenet, az XSD-séma definíció alapján XML formátumban.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlMessageFormatter is the default formatter that an instance of &lt;xref:System.Messaging.MessageQueue&gt; uses to serialize messages written to the queue.</source>
+          <target state="translated">A XmlMessageFormatter alapértelmezett formázó, amely egy példánya &lt;xref:System.Messaging.MessageQueue&gt;használja az üzenetek várólistára kerülésének szerializálása.&lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of &lt;xref:System.Messaging.MessageQueue&gt;, an instance of XmlMessageFormatter is created for you and associated with the &lt;xref:System.Messaging.MessageQueue&gt;.</source>
+          <target state="translated">Amikor hoz létre &lt;xref:System.Messaging.MessageQueue&gt;, XmlMessageFormatter példánya létre, és a &lt;xref:System.Messaging.MessageQueue&gt;.&lt;/xref:System.Messaging.MessageQueue&gt; társított&lt;/xref:System.Messaging.MessageQueue&gt; példánya</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify a different formatter by creating it in your code and assigning it to the &lt;xref:System.Messaging.MessageQueue.Formatter%2A&gt; property of your &lt;xref:System.Messaging.MessageQueue&gt;.</source>
+          <target state="translated">Megadhat egy másik formázó hoz létre, a kódban és azt &lt;xref:System.Messaging.MessageQueue.Formatter%2A&gt;a &lt;xref:System.Messaging.MessageQueue&gt;.&lt;/xref:System.Messaging.MessageQueue&gt; tulajdonsága&lt;/xref:System.Messaging.MessageQueue.Formatter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A queue's default XmlMessageFormatter instance can be used to write to the queue, but it cannot be used to read from the queue until you set either the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; or &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; property on the formatter.</source>
+          <target state="translated">A várakozási sorba írni a várólista alapértelmezett XmlMessageFormatter példány nem használható, de a várólista olvasni, amíg azt meg nem használható a &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;vagy &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;formázó tulajdonságának.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can either set one or both of these values on the default formatter instance, or you can create a new instance of the formatter and set the values automatically by passing them as arguments into the appropriate &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">Vagy beállíthatja a következő értékek valamelyikét az alapértelmezett formázó példányon, vagy hozzon létre egy új példányát formázó, és az értékeket automatikusan állítja be a megfelelő mint szerepkör argumentumokban átadott őket &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;konstruktor.&lt;/xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When specifying &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; rather than &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, type existence is checked at compile time rather than read time, reducing possibility for error.</source>
+          <target state="translated">Megadásakor &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;helyett &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, típus fenntartása be van jelölve olvasási idő, csökkenti a lehetősége, hogy a hiba helyett a fordítás során.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; requires every entry to be fully qualified, specifying its assembly name.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;minden bejegyzést kell teljesen minősített, a szerelvény nevének megadása szükséges.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Further, when working with multiple concurrent versions, the version number must also be appended to the target type name as well.</source>
+          <target state="translated">További Ha több egyidejű verziójával működik, a verziószám kell is hozzáfűzi a cél neve is.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">A &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;és &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;Tulajdonságok kérje meg a formázó milyen sémákat próbálkozás üzenet deszerializálása során.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">Ez lehetővé teszi az üzenettörzs értelmezése formázó.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">A példány szerializált üzenet törzsében meg kell felelnie a sémák a céltípusok tömbje képviselt egyik.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">Ha olvassa el az üzenetet &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;, a módszer hoz, amely megfelel a sémában meghatározott típusú objektum, és beolvassa az üzenettörzs be azt.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">A két tulajdonság csak az egyik kell állítani a olvasása az üzenetsorból, de beállíthatja azt is.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">A típusok két tulajdonságai kombinált set lesz.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The decision of which property to use is specific to your application.</source>
+          <target state="translated">A döntés, mely tulajdonság használatához, az alkalmazásra vonatkoznak, szükség.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown when the message is read.</source>
+          <target state="translated">Az üzenettörzs amelynek sémája nem felel meg a tömb vagy tulajdonság típusú típust tartalmaz, ha egy kivételt fog jelezni, amikor az adott üzenet olvasása.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlMessageFormatter is a crucial component of loosely coupled XML-based messaging.</source>
+          <target state="translated">A XmlMessageFormatter része a kritikus fontosságú az üzenetküldési lazán összekapcsolt XML-alapú.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XSD.exe utility uses the XML format is used to generate XML schema, such as when you use the utility to serialize a class used by your application.</source>
+          <target state="translated">A XSD.exe segédprogram használatát az XML-formátuma XML-séma, például az alkalmazás által használt egyik osztály szerializálni a segédprogram használatakor előállítására szolgál.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The class must have a default constructor.</source>
+          <target state="translated">Az osztály egy alapértelmezett konstruktorral kell rendelkezniük.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The format is used again in the reverse process when the utility generates a class based on the schema you distribute to describe your class data.</source>
+          <target state="translated">A formátumot használja újra a fordított folyamat során a segédprogram létrehozza a séma alapján osztály terjesztése leírására osztály adatait.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The use of the utility and the XML schema it generates enables you to avoid redistributing.dll files every time you recompile a class after the implementation of your class has changed.</source>
+          <target state="translated">A segédprogram és a létrehozott XML-séma használata lehetővé teszi, hogy elkerülhetők redistributing.dll fájlok minden alkalommal, amikor egy osztály újrafordítása, miután a osztály megvalósítása megváltozott.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As long as the schema does not change on the client or the server, other changes on either side do not affect the other.</source>
+          <target state="translated">Mindaddig, amíg a séma nem módosítja az ügyfél vagy a kiszolgáló, az egyéb módosítások mindkét oldalon nem befolyásolják a másik.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, without target types set.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a cél nélkül meg kell adnia beállítása.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the constructor is used most frequently when writing to the queue, as target types are not required when writing.</source>
+          <target state="translated">Ez a konstruktor túlterhelés használatos leggyakrabban a várólistára írásakor céltípusok esetén nincs szükség, írása közben.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To read a message from a queue using an instance of &lt;xref:System.Messaging.XmlMessageFormatter&gt; created using this constructor, you must set the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; or &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties so the formatter knows what types to attempt to deserialize.</source>
+          <target state="translated">Üzenet olvasni egy sorból példányának &lt;xref:System.Messaging.XmlMessageFormatter&gt;létre ebben a konstruktorban, meg kell adni a &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;vagy &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;tulajdonságai, a formázó tudja, mit megkísérli visszaállítani a szerializált típusok.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create a new &lt;xref:System.Messaging.MessageQueue&gt;, a default &lt;xref:System.Messaging.XmlMessageFormatter&gt; instance is created, without the target types set.</source>
+          <target state="translated">Amikor létrehoz egy új &lt;xref:System.Messaging.MessageQueue&gt;, egy alapértelmezett &lt;xref:System.Messaging.XmlMessageFormatter&gt;példány létrehozásakor, nincs beállítva a cél típusa.&lt;/xref:System.Messaging.XmlMessageFormatter&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As with a formatter created using this constructor, you must set target types for that formatter instance if you want to read from the queue.</source>
+          <target state="translated">Csakúgy, mint egy formatter létre ebben a konstruktorban, be kell állítani formázó példánynak a céltípusok, ha azt szeretné, hogy a várólista olvasni.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, setting target types passed in as an array of (fully qualified) string values.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály (teljesen minősített) karakterlánc-értékeket egy tömbként átadott céltípusok beállítása.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The constructors with target type parameters are most frequently used when reading from the queue.</source>
+          <target state="translated">A cél típusú paraméterekkel rendelkező konstruktorok leggyakrabban használt olvasása az üzenetsorból.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When writing, it is not necessary to specify target types.</source>
+          <target state="translated">Történő írásakor, nincs szükség a céltípusok megadásához.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt; constructor sets the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; property to the array values passed in through the <ph id="ph1">`targetTypeNames`</ph> parameter.</source>
+          <target state="translated">Ez túlterhelése a &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;konstruktor beállítása a &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;keresztül az átadott tömb értékek tulajdonságot a <ph id="ph1">`targetTypeNames`</ph> paraméter.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property enables a &lt;xref:System.Messaging.MessageQueue&gt; using this &lt;xref:System.Messaging.XmlMessageFormatter&gt; instance to read messages containing objects of given types.</source>
+          <target state="translated">A beállítás lehetővé teszi, hogy ez a tulajdonság egy &lt;xref:System.Messaging.MessageQueue&gt;használó &lt;xref:System.Messaging.XmlMessageFormatter&gt;példány, olvassa el az objektumokat tartalmazó üzenetek megadott típusok.&lt;/xref:System.Messaging.XmlMessageFormatter&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">Mind a &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;és &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;Tulajdonságok kérje meg a formázó milyen sémákat próbálkozás üzenet deszerializálása során.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">Ez lehetővé teszi az üzenettörzs értelmezése formázó.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">A példány szerializált üzenet törzsében meg kell felelnie a sémák a céltípusok tömbje képviselt egyik.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">Ha olvassa el az üzenetet &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;, a módszer hoz, amely megfelel a sémában meghatározott típusú objektum, és beolvassa az üzenettörzs be azt.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">A két tulajdonság csak az egyik kell állítani a olvasása az üzenetsorból, de beállíthatja azt is.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">A típusok két tulajdonságai kombinált set lesz.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The decision of which one to use is specific to your application.</source>
+          <target state="translated">Melyiket használja az egyik adott alkalmazásra.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown at read time.</source>
+          <target state="translated">Az üzenettörzs amelynek sémája nem felel meg a tömb vagy tulajdonság típusú típust tartalmaz, ha egy kivételt fog jelezni, olvasási időpontban.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.String&gt; that specifies the set of possible types that will be deserialized by the formatter from the message provided.</source>
+          <target state="translated">Típusú tömb &lt;xref:System.String&gt;, amely megadja, hogy az üzenetből a formázó által típusok csoportja.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These values must be fully qualified, for example, "MyNamespace.MyOrders, MyOrdersAssemblyName".</source>
+          <target state="translated">Ezek az értékek teljesen minősített, például "MyNamespace.MyOrders, MyOrdersAssemblyName" kell lennie.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetTypeNames</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetTypeNames</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, setting target types passed in as an array of object types.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály típusú objektumokat tömbként átadott céltípusok beállítása.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The constructors with target type parameters are most frequently used when reading from the queue.</source>
+          <target state="translated">A cél típusú paraméterekkel rendelkező konstruktorok leggyakrabban használt olvasása az üzenetsorból.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When writing, it is not necessary to specify target types.</source>
+          <target state="translated">Történő írásakor, nincs szükség a céltípusok megadásához.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt; constructor sets the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; property to the array values passed in through the <ph id="ph1">`targetTypes`</ph> parameter.</source>
+          <target state="translated">Ez túlterhelése a &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;konstruktor beállítása a &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;keresztül az átadott tömb értékek tulajdonságot a <ph id="ph1">`targetTypes`</ph> paraméter.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property enables a &lt;xref:System.Messaging.MessageQueue&gt; using this &lt;xref:System.Messaging.XmlMessageFormatter&gt; instance to read messages containing objects of the given types.</source>
+          <target state="translated">A beállítás lehetővé teszi, hogy ez a tulajdonság egy &lt;xref:System.Messaging.MessageQueue&gt;használó &lt;xref:System.Messaging.XmlMessageFormatter&gt;példány a megadott típusú objektumokat tartalmazó üzenetek olvasásához.&lt;/xref:System.Messaging.XmlMessageFormatter&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">Mind a &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;és &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;Tulajdonságok kérje meg a formázó milyen sémákat próbálkozás üzenet deszerializálása során.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">Ez lehetővé teszi az üzenettörzs értelmezése formázó.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">A példány szerializált üzenet törzsében meg kell felelnie a sémák a céltípusok tömbje képviselt egyik.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">Ha olvassa el az üzenetet &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;, a módszer hoz, amely megfelel a sémában meghatározott típusú objektum, és beolvassa az üzenettörzs be azt.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">A két tulajdonság csak az egyik kell állítani a olvasása az üzenetsorból, de beállíthatja azt is.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">A típusok két tulajdonságai kombinált set lesz.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The decision of which one to use is specific to your application.</source>
+          <target state="translated">Melyiket használja az egyik adott alkalmazásra.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown at read time.</source>
+          <target state="translated">Az üzenettörzs amelynek sémája nem felel meg a tömb vagy tulajdonság típusú típust tartalmaz, ha egy kivételt fog jelezni, olvasási időpontban.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When specifying &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; rather than &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, type existence is checked at compile time rather than read time, reducing possibility for error.</source>
+          <target state="translated">Megadásakor &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;helyett &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, típus fenntartása be van jelölve olvasási idő, csökkenti a lehetősége, hogy a hiba helyett a fordítás során.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; requires every entry to be fully qualified, specifying its assembly name.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;minden bejegyzést kell teljesen minősített, a szerelvény nevének megadása szükséges.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Further, when working with multiple concurrent versions, the version number must also be appended to the target type name as well.</source>
+          <target state="translated">További Ha több egyidejű verziójával működik, a verziószám kell is hozzáfűzi a cél neve is.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;, you can add each object (for example, <ph id="ph1">`MyClass`</ph>) to the list in a way demonstrated by the following C# code.</source>
+          <target state="translated">Használata esetén &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;, adhat hozzá az egyes objektumok (például <ph id="ph1">`MyClass`</ph>) a listára, az alábbi C# kód bemutatott módon.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Type&gt; that specifies the set of possible types that will be deserialized by the formatter from the message provided.</source>
+          <target state="translated">Típusú tömb &lt;xref:System.Type&gt;, amely megadja, hogy az üzenetből a formázó által típusok csoportja.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetTypes</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetTypes</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Determines whether the formatter can deserialize the message.</source>
+          <target state="translated">Meghatározza, hogy a formázó is deszerializálni az üzenet.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When CanRead is called, the formatter attempts to determine if the contents of the message are something it can deserialize.</source>
+          <target state="translated">CanRead meghívásakor formázó kísérli meg meghatározni, ha az üzenet tartalma valami azt is deszerializálni.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The formatter can only deserialize the message if the type in the message body has the same schema as one of the types in the array represented by the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties.</source>
+          <target state="translated">A formázó csak tudja deszerializálni az üzenet, ha a az üzenet törzsében van rendelkezésre álló típusok ugyanazon séma a tömb által képviselt a &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;és &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;Tulajdonságok.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CanRead returns <ph id="ph1">`false`</ph> under the following two circumstances:      -   The message was not formatted using the &lt;xref:System.Messaging.XmlMessageFormatter&gt;.</source>
+          <target state="translated">CanRead adja vissza <ph id="ph1">`false`</ph> körülmények között a következő két:-az üzenet nem lett formázva a &lt;xref:System.Messaging.XmlMessageFormatter&gt;.&lt;/xref:System.Messaging.XmlMessageFormatter&gt; használatával</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The schema of the message body is not among those listed in either the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; or &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; property.</source>
+          <target state="translated">– Az üzenettörzs a séma kívül esik a, akár a &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;vagy &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;tulajdonság.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what types of objects it must be able to deserialize.</source>
+          <target state="translated">A &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;és &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;Tulajdonságok kérje meg a formázó milyen típusú objektumok képesnek kell lennie deszerializálása.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any type is missing from the list, yet is found within the message, CanRead returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Ha bármilyen hiányzik a listából, még az üzenetben található, visszaadja-e a CanRead <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to inspect.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vizsgálata.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the XML formatter can deserialize the message; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az XML-formázó tudja deszerializálni az üzenet; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Neither the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames<bpt id="p1">*</bpt>&gt; nor &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes<ept id="p1">*</ept>&gt; property has been set.</source>
+          <target state="translated">Sem a &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; sem &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; tulajdonság be van állítva.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class whose read/write properties (the sets of target types) are the same as the current <bpt id="p2">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Létrehoz egy példányát a <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály, amelynek olvasási/írási (a céltípusok készletek) tulajdonságok megegyeznek az aktuális <bpt id="p2">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> példány.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates a copy of the formatter and initializes all its properties to the values of this &lt;xref:System.Messaging.XmlMessageFormatter&gt; object.</source>
+          <target state="translated">Ez a módszer formázó másolatát hozza létre, és inicializálja az ezen értékek összes annak tulajdonságait &lt;xref:System.Messaging.XmlMessageFormatter&gt;objektum.&lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An object whose properties are identical to those of this <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance, but whose metadata does not specify it to be a formatter class instance.</source>
+          <target state="translated">Az objektum, amelynek a Tulajdonságok megegyeznek az e <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példánynak, de amelynek metaadatok nem határoz meg, hogy egy formatter osztálypéldányt kell.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Reads the contents from the given message and creates an object that contains the deserialized message.</source>
+          <target state="translated">A tartalom beolvassa az adott üzenethez, és létrehoz egy objektumot, amely tartalmazza a deszerializált üzenet.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">Mind a &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;és &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;Tulajdonságok kérje meg a formázó milyen sémákat próbálkozás üzenet deszerializálása során.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>One of these properties must be set before the message can be deserialized.</source>
+          <target state="translated">Ezen tulajdonságok egyikét, az üzenet deszerializálása is előtt kell beállítani.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">A példány szerializált üzenet törzsében meg kell felelnie a sémák a céltípusok tömbje képviselt egyik.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">Ha olvassa el az üzenetet &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;, a módszer hoz, amely megfelel a sémában meghatározott típusú objektum, és beolvassa az üzenettörzs be azt.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The target types do not have to be specified in order to write to the queue.</source>
+          <target state="translated">A céltípusok nem kell megadni ahhoz, hogy a várólista írni.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, in XML format, to deserialize.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, XML formátumban történő deszerializálásakor.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The deserialized message.</source>
+          <target state="translated">A deszerializált üzenet.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Neither the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames<bpt id="p1">*</bpt>&gt; nor &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes<ept id="p1">*</ept>&gt; property has been set.</source>
+          <target state="translated">Sem a &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; sem &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; tulajdonság be van állítva.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-or-       The instance serialized in the message body does not comply with any of the schemas represented by the types in the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames<bpt id="p1">*</bpt>&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes<ept id="p1">*</ept>&gt; properties.</source>
+          <target state="translated">– vagy – a szerializált üzenet törzsében példány nem felel meg a sémák levő által képviselt egyik a &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; és &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Specifies the set of possible types that will be deserialized by the formatter from the message provided.</source>
+          <target state="translated">Meghatározza, hogy az üzenetből a formázó által típusok csoportja.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both the TargetTypeNames and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">Mindkét a TargetTypeNames és &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;Tulajdonságok kérje meg a formázó milyen sémákat próbálkozás üzenet deszerializálása során.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">Ez lehetővé teszi az üzenettörzs értelmezése formázó.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">A példány szerializált üzenet törzsében meg kell felelnie a sémák a céltípusok tömbje képviselt egyik.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">Ha olvassa el az üzenetet &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;, a módszer hoz, amely megfelel a sémában meghatározott típusú objektum, és beolvassa az üzenettörzs be azt.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">A két tulajdonság csak az egyik kell állítani a olvasása az üzenetsorból, de beállíthatja azt is.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">A típusok két tulajdonságai kombinált set lesz.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The decision of which property to use is specific to your application.</source>
+          <target state="translated">A döntés, mely tulajdonság használatához, az alkalmazásra vonatkoznak, szükség.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown when the message is read.</source>
+          <target state="translated">Az üzenettörzs amelynek sémája nem felel meg a tömb vagy tulajdonság típusú típust tartalmaz, ha egy kivételt fog jelezni, amikor az adott üzenet olvasása.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TargetTypeNames requires every entry to be fully qualified, specifying its assembly name.</source>
+          <target state="translated">TargetTypeNames igényel minden bejegyzést kell teljesen minősített, szerelvény nevét.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Further, when working with multiple concurrent versions, the version number must also be appended to the target type name as well.</source>
+          <target state="translated">További Ha több egyidejű verziójával működik, a verziószám kell is hozzáfűzi a cél neve is.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The target types are only required when reading from the queue.</source>
+          <target state="translated">A célként megadott típusok csak a következők megadása kötelező, ha olvasása az üzenetsorból.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TargetTypeNames and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties do not need to be set to write to the queue.</source>
+          <target state="translated">A TargetTypeNames és &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;Tulajdonságok nem kell írni a várakozási sorba állítható be.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.String&gt; that specifies the types of objects to deserialize from the message body when reading the message.</source>
+          <target state="translated">Típusú tömb &lt;xref:System.String&gt;, amely megadja, hogy az az üzenet törzse deszerializálni az üzenet olvasásakor objektumtípusok.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The TargetTypeNames property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A TargetTypeNames tulajdonság <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies the set of possible types that will be deserialized by the formatter from the message provided.</source>
+          <target state="translated">Meghatározza, hogy az üzenetből a formázó által típusok csoportja.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and TargetTypes properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">Mind a &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;és TargetTypes tulajdonságok kérje meg a formázó milyen sémákat próbálkozás üzenet deszerializálása során.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">Ez lehetővé teszi az üzenettörzs értelmezése formázó.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">A példány szerializált üzenet törzsében meg kell felelnie a sémák a céltípusok tömbje képviselt egyik.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">Ha olvassa el az üzenetet &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;, a módszer hoz, amely megfelel a sémában meghatározott típusú objektum, és beolvassa az üzenettörzs be azt.&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">A két tulajdonság csak az egyik kell állítani a olvasása az üzenetsorból, de beállíthatja azt is.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">A típusok két tulajdonságai kombinált set lesz.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The decision of which property to use is specific to your application.</source>
+          <target state="translated">A döntés, mely tulajdonság használatához, az alkalmazásra vonatkoznak, szükség.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown when the message is read.</source>
+          <target state="translated">Az üzenettörzs amelynek sémája nem felel meg a tömb vagy tulajdonság típusú típust tartalmaz, ha egy kivételt fog jelezni, amikor az adott üzenet olvasása.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The target types are only required when reading from the queue.</source>
+          <target state="translated">A célként megadott típusok csak a következők megadása kötelező, ha olvasása az üzenetsorból.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and TargetTypes properties do not need to be set to write to the queue.</source>
+          <target state="translated">A &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;és TargetTypes tulajdonságok nem kell írni a várólista kell beállítani.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When specifying TargetTypes rather than &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, type existence is checked at compile time rather than read time, reducing possibility for error.</source>
+          <target state="translated">Amikor a TargetTypes megadása helyett &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, típus fenntartása be van jelölve olvasási idő, csökkenti a lehetősége, hogy a hiba helyett a fordítás során.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using TargetTypes, you can add each object (for example, <ph id="ph1">`MyClass`</ph>) to the list in a way demonstrated by the C# code <ph id="ph2">`TargetTypes = new Type[]{typeof(MyClass), typeof (MyOtherClass)};`</ph>.</source>
+          <target state="translated">TargetTypes használatakor is hozzáadhat az egyes objektumok (például <ph id="ph1">`MyClass`</ph>) a C# kóddal bemutatott módon listájához <ph id="ph2">`TargetTypes = new Type[]{typeof(MyClass), typeof (MyOtherClass)};`</ph>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Type&gt; that specifies the types of objects to deserialize from the message body when reading the message.</source>
+          <target state="translated">Típusú tömb &lt;xref:System.Type&gt;, amely megadja, hogy az az üzenet törzse deszerializálni az üzenet olvasásakor objektumtípusok.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The TargetTypes property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A TargetTypes tulajdonság <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Serializes an object into the body of the message.</source>
+          <target state="translated">Rendezi sorba az objektum az az üzenet törzsét.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The target types need not be specified to write to the queue as they must be when reading.</source>
+          <target state="translated">A céltípusok nem adható meg lehet írni a várólista azok olvasásakor kell lennie.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; or &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; property is used by the formatter only when deserializing a message.</source>
+          <target state="translated">A &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;vagy &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;tulajdonság csak akkor használja a formázó által Ha üzenet deszerializálása.&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter&gt; makes use of the &lt;xref:System.Xml.Serialization.XmlSerializer&gt; class, which defines what can be serialized.</source>
+          <target state="translated">A &lt;xref:System.Messaging.XmlMessageFormatter&gt;teszi a &lt;xref:System.Xml.Serialization.XmlSerializer&gt;osztály, amely határozza meg, mit kell szerializálni.&lt;/xref:System.Xml.Serialization.XmlSerializer&gt; &lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only public fields and public properties can be serialized.</source>
+          <target state="translated">Csak nyilvános mezők és nyilvános tulajdonságok törzsparaméter szerializálható.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Structures, structures with arrays, and arrays of structures are all serializable, as long as they do not use the encoded style with the SOAP protocol.</source>
+          <target state="translated">Struktúrák, tömbök és struktúrák tömbök struktúrák lesz minden szerializálható, mindaddig, amíg nem használják a kódolt stílus a SOAP protokoll.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose &lt;xref:System.Messaging.Message.Body*&gt; property will contain the serialized object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> amelynek &lt;xref:System.Messaging.Message.Body*&gt;tulajdonság a szerializált objektum fogja tartalmazni.&lt;/xref:System.Messaging.Message.Body*&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be serialized into the message body.</source>
+          <target state="translated">A &lt;xref:System.Object&gt;szerializálandó az üzenetbe.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

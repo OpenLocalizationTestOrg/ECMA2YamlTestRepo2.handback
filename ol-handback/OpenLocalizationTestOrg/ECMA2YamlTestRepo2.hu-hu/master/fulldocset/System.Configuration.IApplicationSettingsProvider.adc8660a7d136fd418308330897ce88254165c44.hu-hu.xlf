@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8ef4a81e63d98d5377a1e088d3bc8fda86708898</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Configuration.IApplicationSettingsProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">32419ccde0af18475d81cfffc38569056a0968fa</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4cac8c6e666bdc6079041f56316a586a78a6c373</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines extended capabilities for client-based application settings providers.</source>
+          <target state="translated">Az alkalmazás ügyfél-alapú beállítások szolgáltatók határozza meg a kiterjesztett képességeit.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application settings architecture enables you to provide a custom storage mechanism for application settings by creating a custom settings provider, which is a class derived from &lt;xref:System.Configuration.SettingsProvider&gt;.</source>
+          <target state="translated">Az alkalmazás beállításainak architektúra lehetővé teszi, hogy adja meg egy egyéni tárolási mechanizmus az alkalmazásbeállítások hozzon létre egy egyéni beállítások szolgáltatót, amely &lt;xref:System.Configuration.SettingsProvider&gt;.&lt;/xref:System.Configuration.SettingsProvider&gt; -ból származtatott osztályt</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such a class contains the basic functionality for storing and retrieving properties.</source>
+          <target state="translated">Az ilyen osztály tárolásához és a Tulajdonságok beolvasása alapvető funkcióit tartalmazza.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you can add additional standardized functionality by implementing the IApplicationSettingsProvider interface in the custom settings provider.</source>
+          <target state="translated">Azonban további szabványos funkciókat is hozzáadhat a IApplicationSettingsProvider felületet valósít meg az egyéni beállítások szolgáltató.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This interface contains three methods that primarily enable the settings provider to more intelligently handle application version changes.</source>
+          <target state="translated">Ez az interfész tartalmazza, amelyek elsődlegesen lehetővé teszik a beállítások szolgáltatót, amelyet ezután több leíró alkalmazás megváltozik a verzió három módszert.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, the settings provider will store application settings for different versions of an application separately to anticipate the following circumstances:      -   Side-by-side execution of different versions of an application.</source>
+          <target state="translated">Általában a beállításszolgáltató fogja tárolja az alkalmazásbeállításokat az külön-külön várhatóan a következő esetekben az alkalmazások különböző verzióihoz:-az alkalmazás különböző verzióinak egymás melletti végrehajtását.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Retaining application settings when upgrading an application.</source>
+          <target state="translated">-Alkalmazásbeállítások megőrzése a alkalmazás verzióra.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Resetting the application settings to their default values for the currently used version.</source>
+          <target state="translated">-Az alkalmazás beállításainak visszaállítása az alapértelmezett értékekre a jelenleg használt verzió.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.LocalFileSettingsProvider&gt; class implements the IApplicationSettingsProvider interface.</source>
+          <target state="translated">A &lt;xref:System.Configuration.LocalFileSettingsProvider&gt;osztály megvalósítja az IApplicationSettingsProvider felületet.&lt;/xref:System.Configuration.LocalFileSettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The same set of methods contained by IApplicationSettingsProvider is also found in the &lt;xref:System.Configuration.ApplicationSettingsBase&gt; class, enabling the establishment of a predefined communication channel between an application settings wrapper and its settings provider.</source>
+          <target state="translated">Ugyanazokat a módszereket IApplicationSettingsProvider által tartalmazott is megtalálható a &lt;xref:System.Configuration.ApplicationSettingsBase&gt;osztály, amelyek lehetővé teszik az alkalmazás beállításainak burkoló és a beállítások szolgáltató közötti előre definiált kommunikációs csatorna.&lt;/xref:System.Configuration.ApplicationSettingsBase&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This interface is optional.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Ez az interfész nem kötelező megadni.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a provider does not implement this interface, the settings infrastructure will fail without notification if it attempts to access any of the methods defined by this interface.</source>
+          <target state="translated">A szolgáltató nem valósítja meg az illesztő, ha a beállítások infrastruktúra értesítés nélküli meghiúsul, ha megkísérli elérni a módszerekkel, ez az interfész által meghatározott.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Returns the value of the specified settings property for the previous version of the same application.</source>
+          <target state="translated">A régebbi ugyanahhoz az alkalmazáshoz megadott beállítások tulajdonságának értékét adja vissza.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the GetPreviousVersion method in conjunction with the &lt;xref:System.Configuration.IApplicationSettingsProvider.Upgrade%2A&gt; method to migrate application settings during or after the installation of a new version of an application.</source>
+          <target state="translated">A GetPreviousVersion módszer használható együtt a &lt;xref:System.Configuration.IApplicationSettingsProvider.Upgrade%2A&gt;metódus alkalmazás-beállításainak áttelepítése során, vagy egy alkalmazás új verziójának telepítése után.&lt;/xref:System.Configuration.IApplicationSettingsProvider.Upgrade%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describing the current application usage.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az aktuális alkalmazás használati leíró.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Configuration.SettingsProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose value is to be returned.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.SettingsProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> visszaadandó értéke.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the value of the specified property setting as it was last set in the previous version of the application; or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the setting cannot be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> utolsó állították be az alkalmazás; előző verzióját a megadott tulajdonság beállítás értékét tartalmazó vagy <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha a beállítás nem található.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Resets the application settings associated with the specified application to their default values.</source>
+          <target state="translated">Az alkalmazás beállításait az alapértékekre az adott alkalmazáshoz kapcsolódó visszaállítja.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Reset method reinitializes the stored values of the specified application settings group.</source>
+          <target state="translated">A visszaállítási metódus újrainicializálja a megadott beállítások alkalmazáscsoport tárolt értékeit.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, &lt;xref:System.Configuration.DefaultSettingValueAttribute&gt; supplies a default value for a single settings property during property initialization, if it has no stored value.</source>
+          <target state="translated">Ezzel szemben &lt;xref:System.Configuration.DefaultSettingValueAttribute&gt;választékát kínálja egy egyetlen beállítások tulajdonság alapértelmezett értékét tulajdonság az inicializálás során, ha nincs tárolt értékkel rendelkezik.&lt;/xref:System.Configuration.DefaultSettingValueAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The settings provider determines what reasonable defaults are for the specified group of application settings.</source>
+          <target state="translated">A beállítások szolgáltató meghatározza, hogy ésszerű alapértelmezett Mik az alkalmazásbeállítások meghatározott csoportjára.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the implementation in &lt;xref:System.Configuration.LocalFileSettingsProvider&gt; resets user-scoped settings to their shared values in the <ph id="ph1">`application.exe.config`</ph> file; in contrast, it leaves the application-scoped settings unchanged.</source>
+          <target state="translated">Például a megvalósítást &lt;xref:System.Configuration.LocalFileSettingsProvider&gt;alaphelyzetbe állítja a felhasználó által megadott hatókörű beállításokat a megosztott értékeinek a <ph id="ph1">`application.exe.config`</ph> ellentétben az hagyja változatlanul alkalmazásokra kiterjedő hatókörű beállítások; fájlt.&lt;/xref:System.Configuration.LocalFileSettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describing the current application usage.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az aktuális alkalmazás használati leíró.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Indicates to the provider that the application has been upgraded.</source>
+          <target state="translated">A szolgáltató jelzi, hogy az alkalmazás frissítve lett.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This offers the provider an opportunity to upgrade its stored settings as appropriate.</source>
+          <target state="translated">Ez lehetővé teszi, hogy a szolgáltató a megfelelő tárolt beállítások frissítéséhez.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework enables side-by-side installation and execution of different versions of the same application.</source>
+          <target state="translated">A .NET-keretrendszer lehetővé teszi, hogy egymás melletti telepítéséhez és futtatásához a az alkalmazás különböző verzióit.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application settings provider stores the application settings for each version of an application separately to ensure isolation.</source>
+          <target state="translated">Az alkalmazás szolgáltatója tárolja az alkalmazás beállításait minden verzió esetében külön-külön az alkalmazás-elszigetelés érdekében.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you may want to migrate settings from the previous version of an application to the current one.</source>
+          <target state="translated">Azonban érdemes beállítások áttelepítése egy alkalmazást a jelenlegi egy korábbi verziója.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To provide this migration functionality, use the Upgrade method, implemented in a class derived from &lt;xref:System.Configuration.SettingsProvider&gt;.</source>
+          <target state="translated">Adja meg ezt a funkciót, használja a frissítési módszert, &lt;xref:System.Configuration.SettingsProvider&gt;.&lt;/xref:System.Configuration.SettingsProvider&gt; -ból származtatott osztályt megvalósítva</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the Upgrade method in conjunction with the &lt;xref:System.Configuration.IApplicationSettingsProvider.GetPreviousVersion%2A&gt; method to migrate application settings during or after the installation of a new version of an application.</source>
+          <target state="translated">A frissítési módszer használható együtt a &lt;xref:System.Configuration.IApplicationSettingsProvider.GetPreviousVersion%2A&gt;metódus alkalmazás-beállításainak áttelepítése során, vagy egy alkalmazás új verziójának telepítése után.&lt;/xref:System.Configuration.IApplicationSettingsProvider.GetPreviousVersion%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should be suppressed for every application setting that has the &lt;xref:System.Configuration.NoSettingsVersionUpgradeAttribute&gt; is applied to it, or to the entire settings wrapper class, derived from &lt;xref:System.Configuration.ApplicationSettingsBase&gt;.</source>
+          <target state="translated">Ezzel a módszerrel el kell rejteni minden Alkalmazásbeállítás, amely rendelkezik a &lt;xref:System.Configuration.NoSettingsVersionUpgradeAttribute&gt;van, vagy a teljes beállítások burkoló osztály, &lt;xref:System.Configuration.ApplicationSettingsBase&gt;.&lt;/xref:System.Configuration.ApplicationSettingsBase&gt; származik&lt;/xref:System.Configuration.NoSettingsVersionUpgradeAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describing the current application usage.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az aktuális alkalmazás használati leíró.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the settings property group whose values are to be retrieved.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó a beállítások tulajdonságcsoport, amelynek értékei kérhető.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
