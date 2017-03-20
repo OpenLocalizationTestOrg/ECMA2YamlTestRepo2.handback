@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1a58f4258e37de8646e9bfd12202cc63ef6b9f1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.Build.Utilities.MuxLogger.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f46f48136db20cef62644210c7100a4805fda2e6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2154be4bc3b547d29a543508f7b1355f80b13ab5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a multiplexing logger.</source>
+          <target state="translated">Representerar en multiplexing meddelandeloggfiler.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The purpose of this logger is to register and unregister multiple loggers during the build.</source>
+          <target state="translated">Syftet med den här loggaren är att registrera och avregistrera flera loggare under genereringen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Supports the <ph id="ph1">[!INCLUDE[vs_current_short](~/add/includes/ajax-current-ext-md.md)]</ph> IDE scenario in which loggers are registered and unregistered for each project system’s build request.</source>
+          <target state="translated">Stöder den <ph id="ph1">[!INCLUDE[vs_current_short](~/add/includes/ajax-current-ext-md.md)]</ph> IDE-scenariot som loggar tangenttryckningar registreras och för varje projekt system build-begäran.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>One physical build can have multiple logical builds, each with its own set of loggers.</source>
+          <target state="translated">En fysisk build kan ha flera logiska versioner, var och en med sin egen uppsättning loggare.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_MuxLogger" name="MuxLogger" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>registers itself with the build manager as a regular central /l style logger.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref uid="langword_csharp_MuxLogger" name="MuxLogger" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>registreras med build manager som en vanlig centrala /l format meddelandeloggfiler.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It receives messages from the build manager and routes them to the correct logger, based on the logical build that the message came from.</source>
+          <target state="translated">Den tar emot meddelanden från build-hanteraren och vägar dem till rätt loggaren, baserat på den logiska bygga som meddelandet kommer ifrån.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`MuxLogger`</ph>generally functions as follows:      -   The <ph id="ph2">`MuxLogger`</ph> is registered at the beginning of the build manager’s Begin build.</source>
+          <target state="translated">Den <ph id="ph1">`MuxLogger`</ph>vanligtvis fungerar på följande sätt: - <ph id="ph2">`MuxLogger`</ph> är registrerad i början av hanteraren build Begin build.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any loggers registered before the build manager starts the build get the build-started event at the same time as the <ph id="ph1">`MuxLogger`</ph>.</source>
+          <target state="translated">Alla loggar tangenttryckningar registrerad innan build manager startar bygga Kom igång build-händelsen samtidigt som den <ph id="ph1">`MuxLogger`</ph>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any loggers registered after the build manager starts the build get a synthesized build-started event.</source>
+          <target state="translated">Alla loggar tangenttryckningar registrerad när hanteraren build börjar bygga hämta en syntetiskt igång build-händelse.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The event cannot be cached because the timestamp of the build-started event is determined when the event is created, and caching the event would give incorrect build times in the loggers registered to the <ph id="ph1">`MuxLogger`</ph>.</source>
+          <target state="translated">Händelsen kan inte cachelagras på grund tidsstämpel för build-igång-händelsen bestäms när händelsen skapas och cachelagring händelsen skulle ge felaktig build gånger i loggare som registrerats för den <ph id="ph1">`MuxLogger`</ph>.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`MuxLogger`</ph> is initialized by the build manager           The <ph id="ph2">`MuxLogger`</ph> listens to all events on the event source from the build manager and routes events correctly to the registered loggers.</source>
+          <target state="translated">- <ph id="ph1">`MuxLogger`</ph> Har initierats av hanteraren för bygga den <ph id="ph2">`MuxLogger`</ph> lyssnar på alla händelser i händelsekällan från build-hanteraren och skickar händelser korrekt till registrerade loggare.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`MuxLogger`</ph> is shutdown when the build is finished in end build.</source>
+          <target state="translated">- <ph id="ph1">`MuxLogger`</ph> Stängs när versionen har slutförts i slutet build.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At this time, it unregisters any loggers attached to it.</source>
+          <target state="translated">För tillfället Avregistrerar den eventuella loggare som kopplats till den.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`MuxLogger`</ph> logs the build-finished event when the project-finished event for the first project-started event is seen for each logger.</source>
+          <target state="translated">- <ph id="ph1">`MuxLogger`</ph> Loggar händelsen build-slutförts när händelsen projektet färdig för den första händelsen projektet igång visas för varje logg.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`MuxLogger`</ph> registers loggers in the following way:      1.</source>
+          <target state="translated">Den <ph id="ph1">`MuxLogger`</ph> registrerar loggar tangenttryckningar på följande sätt: 1.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The logger is passed to the <ph id="ph1">`MuxLogger.RegisterLogger`</ph> method with a submission ID that is used to route a message to that logger.</source>
+          <target state="translated">Loggaren har överförts till den <ph id="ph1">`MuxLogger.RegisterLogger`</ph> metod med en skicka-ID som används för att skicka ett meddelande till den meddelandeloggfiler.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`MuxLogger`</ph> registers the logger to the <ph id="ph2">`MuxLogger`</ph> event source.</source>
+          <target state="translated">Den <ph id="ph1">`MuxLogger`</ph> registrerar loggaren till den <ph id="ph2">`MuxLogger`</ph> händelsekälla.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the build-started event has already been logged, the <ph id="ph1">`MuxLogger`</ph> creates a new build-started event and sends it to the logger’s event source.</source>
+          <target state="translated">Om du redan igång build-händelse har loggats, den <ph id="ph1">`MuxLogger`</ph> skapar en ny igång build-händelse och skickar den till den loggaren händelsekälla.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`MuxLogger`</ph> unregisters loggers in the following way:      1.</source>
+          <target state="translated">Den <ph id="ph1">`MuxLogger`</ph> Avregistrerar loggare på följande sätt: 1.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a build submission is completed, the <ph id="ph1">`MuxLogger.UnregisterLogger`</ph> method is called with the submission ID for the logger.</source>
+          <target state="translated">När en build-överföring är slutförd, den <ph id="ph1">`MuxLogger.UnregisterLogger`</ph> metoden anropas med skicka-ID för loggaren.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`MuxLogger`</ph> looks up the success state of the project-finished event for the submission ID and logs a build-finished event to the logger.</source>
+          <target state="translated">Den <ph id="ph1">`MuxLogger`</ph> letar upp fungerande tillstånd för händelsen project avslutat för skicka-ID och loggar en färdig build-händelse till loggaren.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`MuxLogger`</ph>cleans up the event source.</source>
+          <target state="translated">Den <ph id="ph1">`MuxLogger`</ph>rensar händelsekällan.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the unregister comes from a thread other than the logging thread and a synchronization issue could occur if unregister is called while events are being logged.</source>
+          <target state="translated">Observera att avregistrera kommer från en annan tråd än tråden som loggning och en synkronisering kan inträffa om unregister anropas när händelser loggas.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the multiplexing logger.</source>
+          <target state="translated">Skapar en ny instans av multiplexing loggaren.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Initialize the <bpt id="p1">&lt;xref uid="langword_csharp_MuxLogger" name="MuxLogger" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance with the specified event source.</source>
+          <target state="translated">Initiera den <bpt id="p1">&lt;xref uid="langword_csharp_MuxLogger" name="MuxLogger" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -instans med den angivna händelsekällan.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The event source.</source>
+          <target state="translated">Händelsekälla.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initialize the <bpt id="p1">&lt;xref uid="langword_csharp_MuxLogger" name="MuxLogger" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance with the specified event source and specified maximum number of nodes.</source>
+          <target state="translated">Initiera den <bpt id="p1">&lt;xref uid="langword_csharp_MuxLogger" name="MuxLogger" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans med det angivna händelsekälla och maximalt antal noder.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The event source.</source>
+          <target state="translated">Händelsekälla.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The maximum number of nodes.</source>
+          <target state="translated">Maximalt antal noder.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets and sets the Parameters attribute, required by the <bpt id="p1">&lt;xref uid="langword_csharp_ILogger" name="ILogger" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Hämtar eller anger attributet parametrar som krävs av den <bpt id="p1">&lt;xref uid="langword_csharp_ILogger" name="ILogger" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gränssnitt.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Returns the Parameters attribute.</source>
+          <target state="translated">Returnerar attributet parametrar.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Registers a logger on the <bpt id="p1">&lt;xref uid="langword_csharp_MuxLogger" name="MuxLogger" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and raises a build-started event if the build-started event has already been logged.</source>
+          <target state="translated">Registrerar en loggaren på den <bpt id="p1">&lt;xref uid="langword_csharp_MuxLogger" name="MuxLogger" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> och genererar en igång build-händelse om redan igång build-händelse har loggats.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The submission ID of the logger being registered.</source>
+          <target state="translated">Skicka-ID för loggaren som registreras.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The logger to register.</source>
+          <target state="translated">Så här registrerar du loggaren.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Shuts down the <bpt id="p1">&lt;xref uid="langword_csharp_MuxLogger" name="MuxLogger" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and clears out any state.</source>
+          <target state="translated">Stänger den <bpt id="p1">&lt;xref uid="langword_csharp_MuxLogger" name="MuxLogger" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> och rensar ut några tillstånd.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Removes the specified logger from the MuxLogger.</source>
+          <target state="translated">Tar bort angivna loggaren från MuxLogger.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The submission ID of the logger to be removed.</source>
+          <target state="translated">Skicka-ID för loggaren ska tas bort.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the method is successful in removing the logger, otherwise, returns <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Returnerar <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om metoden lyckas ta bort loggaren annars returnerar <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets and sets the Verbosity attribute, required by the <bpt id="p1">&lt;xref uid="langword_csharp_ILogger" name="ILogger" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Hämtar eller anger attributet detaljnivå som krävs av den <bpt id="p1">&lt;xref uid="langword_csharp_ILogger" name="ILogger" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gränssnitt.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Returns the Verbosity attribute.</source>
+          <target state="translated">Returnerar attributet detaljnivå.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

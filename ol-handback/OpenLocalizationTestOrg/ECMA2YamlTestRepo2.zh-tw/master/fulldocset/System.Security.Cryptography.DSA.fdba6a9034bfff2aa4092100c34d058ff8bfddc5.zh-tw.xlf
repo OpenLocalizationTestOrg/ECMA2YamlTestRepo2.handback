@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0fe825b0e3302114a18599c28654a920c712ab70</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.DSA.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">927ee373c3b4ccf8191ae08c7fb4f3691269d09e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">832ee39d6867b8e14e50e051b8960671d69786fe</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the abstract base class from which all implementations of the Digital Signature Algorithm (DSA) must inherit.</source>
+          <target state="translated">表示的數位簽章演算法 (DSA) 中的所有實作必須從它都繼承的抽象基底類別。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can use the DSA class and derived classes to create digital signatures that help protect the integrity of your data.</source>
+          <target state="translated">您可以使用 DSA 類別和衍生的類別來建立數位簽章，協助您保護資料的完整性。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; provides an implementation of this class.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;提供此類別的實作&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To use a public-key system to digitally sign a message, the sender first applies a hash function to the message to create a message digest.</source>
+          <target state="translated">若要使用公開金鑰系統以數位方式簽署訊息，寄件者先套用雜湊函式來建立訊息摘要。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The sender then encrypts the message digest with the sender's private key to create the sender's personal signature.</source>
+          <target state="translated">寄件者接著會使用寄件者的私密金鑰來建立個人簽章寄件者的加密訊息摘要。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Upon receiving the message and signature, the receiver decrypts the signature using the sender's public key to recover the message digest and hashes the message using the same hash algorithm that the sender used.</source>
+          <target state="translated">在收到訊息和簽章，接收者會使用寄件者的公開金鑰來復原訊息摘要簽章，並使用雜湊訊息寄件者使用的相同雜湊演算法。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If the message digest that the receiver computes exactly matches the message digest received from the sender, the receiver can assume that the message was not altered while in transit.</source>
+          <target state="translated">如果接收者計算完全相符的訊息摘要寄件者收到的訊息摘要，接收者就可以假設訊息在傳輸過程中沒有遭到竄改。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Note that a signature can be verified by anyone, because the sender's public key is common knowledge.</source>
+          <target state="translated">請注意，可以驗證簽章的任何人，因為寄件者的公開金鑰是通用資訊。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Newer asymmetric algorithms are available.</source>
+          <target state="translated">使用較新的非對稱演算法。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Consider using the &lt;xref:System.Security.Cryptography.RSA&gt; class, the &lt;xref:System.Security.Cryptography.ECDsa&gt; class, or the &lt;xref:System.Security.Cryptography.ECDiffieHellman&gt; class instead of the DSA class.</source>
+          <target state="translated">請考慮使用&lt;xref:System.Security.Cryptography.RSA&gt;類別、&lt;xref:System.Security.Cryptography.ECDsa&gt;類別或&lt;xref:System.Security.Cryptography.ECDiffieHellman&gt;類別，而不是 DSA 類別。&lt;/xref:System.Security.Cryptography.ECDiffieHellman&gt; &lt;/xref:System.Security.Cryptography.ECDsa&gt; &lt;/xref:System.Security.Cryptography.RSA&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use DSA only for compatibility with legacy applications and data.</source>
+          <target state="translated">DSA 只能用於與舊版應用程式和資料的相容性。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This algorithm supports key lengths from 512 bits to 1024 bits in increments of 64 bits.</source>
+          <target state="translated">這個演算法在 64 位元為增量來支援 1024 位元到 512 位元的金鑰長度。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Creates the default cryptographic object used to perform the asymmetric algorithm.</source>
+          <target state="translated">建立用來執行非對稱演算法的預設密碼編譯物件。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A cryptographic object used to perform the asymmetric algorithm.</source>
+          <target state="translated">用來執行非對稱演算法的密碼編譯物件。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Creates the specified cryptographic object used to perform the asymmetric algorithm.</source>
+          <target state="translated">建立指定用來執行非對稱演算法的密碼編譯物件。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For &lt;xref:System.Security.Cryptography.DSA&gt;, use the name System.Security.Cryptography.DSA.</source>
+          <target state="translated">如&lt;xref:System.Security.Cryptography.DSA&gt;，使用名稱 System.Security.Cryptography.DSA。&lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name of the specific implementation of <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use.</source>
+          <target state="translated">名稱的特定實作<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A cryptographic object used to perform the asymmetric algorithm.</source>
+          <target state="translated">用來執行非對稱演算法的密碼編譯物件。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, creates the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated">當在衍生類別中覆寫時，會建立<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>簽章，以指定的資料。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The data to be signed.</source>
+          <target state="translated">要簽署的資料。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The digital signature for the specified data.</source>
+          <target state="translated">指定資料的數位簽章。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, exports the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">當在衍生類別中覆寫時，會將匯出<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include private parameters; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要包含私用參數;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The parameters for <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">參數<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Reconstructs a <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from an XML string.</source>
+          <target state="translated">重新建構<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>從 XML 字串的物件。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The XML string to use to reconstruct the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">要用來重新建構的 XML 字串<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xmlString</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xmlString</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The format of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xmlString</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not valid.</source>
+          <target state="translated">格式<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">xmlString</ph> <ept id="p1">&lt;/code&gt;</ept>參數無效。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, computes the hash value of a specified binary stream by using a specified hashing algorithm.</source>
+          <target state="translated">在衍生類別中覆寫，請使用指定的雜湊演算法計算指定的二進位資料流的雜湊值。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The binary stream to hash.</source>
+          <target state="translated">要雜湊的二進位資料流。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The algorithm to use to hash the data.</source>
+          <target state="translated">要用來雜湊資料的演算法。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The hashed data.</source>
+          <target state="translated">雜湊的資料。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A derived class must override this method.</source>
+          <target state="translated">在衍生的類別必須覆寫這個方法。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, computes the hash value of a specified portion of a byte array by using a specified hashing algorithm.</source>
+          <target state="translated">在衍生類別中覆寫，請使用指定的雜湊演算法計算雜湊值的位元組陣列中的指定部分。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The data to be hashed.</source>
+          <target state="translated">要雜湊的資料。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The index of the first byte in <ph id="ph1">`data`</ph> that is to be hashed.</source>
+          <target state="translated">中的第一個位元組索引<ph id="ph1">`data`</ph>要雜湊。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The number of bytes to hash.</source>
+          <target state="translated">要雜湊的位元組數目。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The algorithm to use to hash the data.</source>
+          <target state="translated">要用來雜湊資料的演算法。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The hashed data.</source>
+          <target state="translated">雜湊的資料。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A derived class must override this method.</source>
+          <target state="translated">在衍生的類別必須覆寫這個方法。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, imports the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">當在衍生類別中覆寫時，匯入指定<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The parameters for <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">參數<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Computes the hash value of the specified byte array using the specified hash algorithm and signs the resulting hash value.</source>
+          <target state="translated">並簽署產生的雜湊值計算雜湊值的指定的位元組陣列，使用指定的雜湊演算法。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The input data for which to compute the hash.</source>
+          <target state="translated">用來計算雜湊輸入的資料。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The hash algorithm to use to create the hash value.</source>
+          <target state="translated">要用來建立雜湊值的雜湊演算法。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The DSA signature for the specified data.</source>
+          <target state="translated">指定資料的 DSA 簽章。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Computes the hash value of the specified stream using the specified hash algorithm and signs the resulting hash value.</source>
+          <target state="translated">並簽署產生的雜湊值計算的雜湊值，指定使用指定的雜湊演算法的資料流。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The input stream for which to compute the hash.</source>
+          <target state="translated">用來計算雜湊輸入資料流。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The hash algorithm to use to create the hash value.</source>
+          <target state="translated">要用來建立雜湊值的雜湊演算法。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The DSA signature for the specified data.</source>
+          <target state="translated">指定資料的 DSA 簽章。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Computes the hash value of a portion of the specified byte array using the specified hash algorithm and signs the resulting hash value.</source>
+          <target state="translated">並簽署產生的雜湊值計算雜湊值的指定的位元組陣列，使用指定的雜湊演算法的一部分。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The input data for which to compute the hash.</source>
+          <target state="translated">用來計算雜湊輸入的資料。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The offset into the array at which to begin using data.</source>
+          <target state="translated">若要開始使用資料的陣列中的位移。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The number of bytes in the array to use as data.</source>
+          <target state="translated">陣列中要用作資料的位元組數目。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The hash algorithm to use to create the hash value.</source>
+          <target state="translated">要用來建立雜湊值的雜湊演算法。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The DSA signature for the specified data.</source>
+          <target state="translated">指定資料的 DSA 簽章。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> is less than zero.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>小於零。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than zero.</source>
+          <target state="translated">-或-<ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph>小於零。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph><ph id="ph2"> + &lt;code&gt;count&lt;/code&gt;</ph> – 1 results in an index that is beyond the upper bound of <ph id="ph3">&lt;code&gt;data&lt;/code&gt;</ph>.</source>
+          <target state="translated">- <ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> <ph id="ph2"> + &lt;code&gt;count&lt;/code&gt;</ph> – 1 造成索引超出上限<ph id="ph3">&lt;code&gt;data&lt;/code&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Creates and returns an XML string representation of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">建立並傳回目前的 XML 字串表示法<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include private parameters; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要包含私用參數;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An XML string encoding of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">目前的 XML 字串編碼方式<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Verifies that a digital signature is valid by calculating the hash value of the specified data using the specified hash algorithm and comparing it to the provided signature.</source>
+          <target state="translated">驗證數位簽章是否有效，計算指定的資料，使用指定的雜湊值的雜湊演算法和比較，來提供的簽章。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The signed data.</source>
+          <target state="translated">帶正負號的資料。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The signature data to be verified.</source>
+          <target state="translated">要驗證的簽章資料。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The hash algorithm used to create the hash value of the data.</source>
+          <target state="translated">用來建立資料的雜湊值的雜湊演算法。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the digital signature is valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>數位簽章是否有效。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;signature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;signature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Verifies that a digital signature is valid by calculating the hash value of the specified stream using the specified hash algorithm and comparing it to the provided signature.</source>
+          <target state="translated">驗證數位簽章是否有效，藉由計算的雜湊值，指定的資料流使用指定的雜湊演算法和比較，來提供的簽章。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The signed data.</source>
+          <target state="translated">帶正負號的資料。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The signature data to be verified.</source>
+          <target state="translated">要驗證的簽章資料。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The hash algorithm used to create the hash value of the data.</source>
+          <target state="translated">用來建立資料的雜湊值的雜湊演算法。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the digital signature is valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>數位簽章是否有效。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;signature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;signature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Verifies that a digital signature is valid by calculating the hash value of the data in a portion of a byte array using the specified hash algorithm and comparing it to the provided signature.</source>
+          <target state="translated">驗證數位簽章是否有效，藉由計算中的部分位元組資料的雜湊值陣列，使用指定的雜湊演算法和比較，來提供的簽章。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The signed data.</source>
+          <target state="translated">帶正負號的資料。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The starting index at which to compute the hash.</source>
+          <target state="translated">用來計算雜湊的起始索引。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The number of bytes to hash.</source>
+          <target state="translated">要雜湊的位元組數目。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The signature data to be verified.</source>
+          <target state="translated">要驗證的簽章資料。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The hash algorithm used to create the hash value of the data.</source>
+          <target state="translated">用來建立資料的雜湊值的雜湊演算法。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the digital signature is valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>數位簽章是否有效。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;signature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;signature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> is less than zero.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>小於零。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than zero.</source>
+          <target state="translated">-或-<ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph>小於零。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph><ph id="ph2"> + &lt;code&gt;count&lt;/code&gt;</ph> – 1 results in an index that is beyond the upper bound of <ph id="ph3">&lt;code&gt;data&lt;/code&gt;</ph>.</source>
+          <target state="translated">- <ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> <ph id="ph2"> + &lt;code&gt;count&lt;/code&gt;</ph> – 1 造成索引超出上限<ph id="ph3">&lt;code&gt;data&lt;/code&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, verifies the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated">當在衍生類別中覆寫時，會驗證<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>簽章，以指定的資料。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The hash of the data signed with <ph id="ph1">`rgbSignature`</ph>.</source>
+          <target state="translated">使用資料的雜湊簽署<ph id="ph1">`rgbSignature`</ph>。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The signature to be verified for <ph id="ph1">`rgbData`</ph>.</source>
+          <target state="translated">若要驗證的簽章<ph id="ph1">`rgbData`</ph>。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">rgbSignature</ph><ept id="p2">&lt;/code&gt;</ept> matches the signature computed using the specified hash algorithm and key on <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">rgbHash</ph><ept id="p3">&lt;/code&gt;</ept>; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">rgbSignature</ph> <ept id="p2">&lt;/code&gt;</ept>上使用指定的雜湊演算法和金鑰計算的簽章相符<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">rgbHash</ph> <ept id="p3">&lt;/code&gt;</ept>，否則<bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
