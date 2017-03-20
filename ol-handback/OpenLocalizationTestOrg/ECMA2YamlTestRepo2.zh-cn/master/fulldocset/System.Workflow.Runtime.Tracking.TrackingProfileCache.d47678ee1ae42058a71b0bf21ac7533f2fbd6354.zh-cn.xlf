@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e370ae9644bc08f4c8068813fa68ff462422b84b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Tracking.TrackingProfileCache.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4761cc47ff0525ce0ad31a8a586d2be4a37476c4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ed49964bbb2bcb76eb066ac01665493169731206</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a method that a host application can use to clear the tracking profile cache.</source>
+          <target state="translated">提供的方法，宿主应用程序可用于清除跟踪配置文件缓存。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       When the workflow runtime engine has one or more tracking services registered with it, the runtime tracking infrastructure must determine whether tracking profiles exist for any workflow that is loaded into memory.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>当工作流运行时引擎具有注册到它的一个或多个跟踪服务时，运行时跟踪基础结构必须确定是否存在针对加载到内存的任何工作流跟踪配置文件。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The runtime tracking infrastructure maintains a cache of tracking profiles which it checks before it requests a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for the workflow from each tracking service.</source>
+          <target state="translated">运行时跟踪基础结构维护的跟踪配置文件，它在它之前将检查缓存请求&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;从每个跟踪服务工作流。&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The TrackingProfileCache class provides a static method, &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfileCache.Clear%2A&gt;, which a host application can use to clear the tracking profile cache.</source>
+          <target state="translated">TrackingProfileCache 类提供一个静态方法， &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfileCache.Clear%2A&gt;，主机应用程序可以用于清除跟踪配置文件缓存。&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfileCache.Clear%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This will force the runtime tracking infrastructure to load tracking profiles from its registered tracking services for any workflow instances that are loaded into memory after the cache is cleared.</source>
+          <target state="translated">这将强制运行时跟踪基础结构从其注册的跟踪服务中针对任何工作流实例后清除了缓存加载到内存中加载跟踪配置文件。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; caching is not supported for markup only workflows.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt;&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;标记仅工作流不支持缓存。&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Clears the tracking profile cache maintained by the runtime tracking infrastructure of all tracking profiles.</source>
+          <target state="translated">清除的跟踪配置文件的所有跟踪配置文件的运行时跟踪基础结构维护缓存。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>After the cache is cleared, the runtime tracking infrastructure will load tracking profiles directly from its registered tracking services for any workflow instances loaded into memory.</source>
+          <target state="translated">清除了缓存后，运行时跟踪基础结构将直接从其注册的跟踪服务中针对任何工作流实例加载到内存中加载跟踪配置文件。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Any workflow instance that is in memory and is running will not need to have its tracking profiles reloaded unless the workflow is unloaded and then reloaded into memory.</source>
+          <target state="translated">任何在内存中并且正在运行的工作流实例将不需要重新加载工作流是卸载，然后重新加载到内存除非其跟踪配置文件。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ae517ef1afcc44a230e891903b8b11bce931ebc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Serialization.IDesignerLoaderHost.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0812b51b0d7259837237b0f3907beeee65fae47c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bf0e236036b877229cf23fec0a2f079b9c357712</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an interface that can extend a designer host to support loading from a serialized state.</source>
+          <target state="translated">提供可以扩展以支持从序列化状态加载设计器宿主的接口。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; can implement this interface to enable support for loading by a &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;可以实现此接口可启用对通过一种&lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;。&lt;/xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;加载的支持&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The designer loader informs the designer host that it needs to invoke a load or reload so that the designer host can perform additional tasks at these times.</source>
+          <target state="translated">设计器加载程序通知设计器宿主需要对其进行调用负载或重新加载，以便设计器宿主可以在这些时间执行其他任务。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This class is isolated from &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; to emphasize that the designer loader, not the designer host, must initiate all loading and reloading of the design document.</source>
+          <target state="translated">此类是与隔离&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;以强调设计器加载程序，而不是设计器的主机，必须启动所有加载和设计文档的重新加载。&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Ends the designer loading operation.</source>
+          <target state="translated">结束设计器加载操作。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt; that loads the design document calls this method to indicate that the load terminated.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;，加载设计文档调用此方法以指示负载终止。&lt;/xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If errors are encountered during loading, they must be passed in the <ph id="ph1">`errorCollection`</ph> parameter as a collection of exceptions.</source>
+          <target state="translated">如果在加载期间遇到错误，必须将它们传递中<ph id="ph1">`errorCollection`</ph>参数作为异常的集合。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If they are not exceptions, the designer loader host can call &lt;xref:System.Object.ToString%2A&gt; on them and pass them as a collection.</source>
+          <target state="translated">如果它们不是异常，设计器加载程序宿主可以调用&lt;xref:System.Object.ToString%2A&gt;对它们并将它们作为集合中传递。&lt;/xref:System.Object.ToString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If the load is successful, then the <ph id="ph1">`errorCollection`</ph> parameter must be either <ph id="ph2">`null`</ph> or an empty collection.</source>
+          <target state="translated">如果负载是成功，则<ph id="ph1">`errorCollection`</ph>参数必须是<ph id="ph2">`null`</ph>或为空集合。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The fully qualified name of the base class of the document that this designer is designing.</source>
+          <target state="translated">此设计器设计文档的基本类完全限定的名称。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the designer is successfully loaded; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果设计器已成功加载;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A collection containing the errors encountered during load, if any.</source>
+          <target state="translated">如果有包含在加载期间，遇到的错误的集合。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If no errors were encountered, pass either an empty collection or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果未不遇到任何错误，将传递空集合或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Reloads the design document.</source>
+          <target state="translated">将重新加载设计文档。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt; calls this method to reload the design document.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;调用此方法以重新加载设计文档。&lt;/xref:System.ComponentModel.Design.Serialization.DesignerLoader&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

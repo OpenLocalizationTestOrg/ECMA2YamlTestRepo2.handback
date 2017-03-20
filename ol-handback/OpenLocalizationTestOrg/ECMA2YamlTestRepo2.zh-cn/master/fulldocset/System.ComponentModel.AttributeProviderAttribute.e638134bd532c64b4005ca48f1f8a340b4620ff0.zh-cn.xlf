@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c8a15d05d0e704231c9841d93e5c5bcadccf2014</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.AttributeProviderAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6169d896d27e2c96f81d614d36724da8a9824bca</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3edc5a5c92c3b97357e5adff91cde99d97ae557d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables attribute redirection.</source>
+          <target state="translated">启用属性重定向。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>There are a few cases in the .NET Framework object model where a property is purposely typed to be vague.</source>
+          <target state="translated">其中一个属性是特意不类型来模糊的.NET Framework 对象模型中有少数情况。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Windows.Forms.DataGridView.DataSource%2A?displayProperty=fullName&gt; property is typed as <ph id="ph1">`object`</ph>.</source>
+          <target state="translated">例如，&lt;xref:System.Windows.Forms.DataGridView.DataSource%2A?displayProperty=fullName&gt;属性被类型化为<ph id="ph1">`object`</ph>。&lt;/xref:System.Windows.Forms.DataGridView.DataSource%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The reason for this is that this property can accept several types of input.</source>
+          <target state="translated">这样做的原因是输入的此属性可以接受多种类型。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Unfortunately, this provides no common place to add metadata to describe the characteristics of the property.</source>
+          <target state="translated">遗憾的是，这提供了常见的位置添加元数据来描述的属性的特征。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Each <ph id="ph1">`DataSource`</ph> property throughout the .NET Framework needs to have identical metadata for type converters, UI type editors, and other services that require metadata.</source>
+          <target state="translated">每个<ph id="ph1">`DataSource`</ph>整个.NET Framework 属性需要具有针对类型转换器、 UI 类型编辑器和其他需要元数据的服务的相同元数据。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The AttributeProviderAttribute remedies this situation.</source>
+          <target state="translated">AttributeProviderAttribute 补救这种情况。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Once this attribute is placed on a property, the rules for obtaining attributes for the property descriptor's &lt;xref:System.ComponentModel.MemberDescriptor.Attributes%2A?displayProperty=fullName&gt; collection differ.</source>
+          <target state="translated">获取规则后此属性放在属性，属性的属性描述符&lt;xref:System.ComponentModel.MemberDescriptor.Attributes%2A?displayProperty=fullName&gt;集合不同。&lt;/xref:System.ComponentModel.MemberDescriptor.Attributes%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Typically, the property descriptor gathers local attributes, and then merges these with attributes from the property type.</source>
+          <target state="translated">通常情况下，属性描述符收集本地特性，然后合并这些与中的属性类型的属性。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this case, the attributes are taken from the type returned from the AttributeProviderAttribute, not from the actual property type.</source>
+          <target state="translated">在这种情况下，属性会返回从 AttributeProviderAttribute，不能从实际的属性类型的类型。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This attribute is used on &lt;xref:System.Windows.Forms.DataGridView.DataSource%2A?displayProperty=fullName&gt; to point the &lt;xref:System.Windows.Forms.DataGridView.DataSource%2A?displayProperty=fullName&gt; object's specific type to &lt;xref:System.ComponentModel.IListSource&gt;, and the appropriate metadata is placed on &lt;xref:System.ComponentModel.IListSource&gt; to enable data binding.</source>
+          <target state="translated">在使用此属性&lt;xref:System.Windows.Forms.DataGridView.DataSource%2A?displayProperty=fullName&gt;以点&lt;xref:System.Windows.Forms.DataGridView.DataSource%2A?displayProperty=fullName&gt;对象的特定类型设置为&lt;xref:System.ComponentModel.IListSource&gt;，和相应的元数据位于&lt;xref:System.ComponentModel.IListSource&gt;以启用数据绑定。&lt;/xref:System.ComponentModel.IListSource&gt; &lt;/xref:System.ComponentModel.IListSource&gt; &lt;/xref:System.Windows.Forms.DataGridView.DataSource%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridView.DataSource%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In so doing, external parties can easily add metadata to all data sources.</source>
+          <target state="translated">这样，外部各方可以轻松地将元数据添加到所有数据源。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Attributes obtained from a type declared in the AttributeProviderAttribute have a priority in between the attributes of the property’s type and the attributes on the property.</source>
+          <target state="translated">获取从 AttributeProviderAttribute 中声明的类型的属性的属性上有属性的类型的属性和属性之间的优先级。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following list, in priority order, shows the full set of available merged attributes:      -   Property Attributes      -   Attribute Provider Attributes      -   Property Type Attributes</source>
+          <target state="translated">下面的列表中，按优先级顺序显示完整的可用合并的属性集:-属性特性的属性提供程序属性-属性类型属性</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.AttributeProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the given type name.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.ComponentModel.AttributeProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用给定的类型名称的类。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The name of the type to specify.</source>
+          <target state="translated">要指定的类型名称。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;typeName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;typeName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.AttributeProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the given type.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.ComponentModel.AttributeProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>具有给定类型的类。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The type to specify.</source>
+          <target state="translated">要指定的类型。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.AttributeProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the given type name and property name.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.ComponentModel.AttributeProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>具有给定的类型名称和属性名称的类。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The name of the type to specify.</source>
+          <target state="translated">要指定的类型名称。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The name of the property for which attributes will be retrieved.</source>
+          <target state="translated">将为其检索特性的属性的名称。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;propertyName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;propertyName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the name of the property for which attributes will be retrieved.</source>
+          <target state="translated">获取将为其检索特性的属性的名称。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The name of the property for which attributes will be retrieved.</source>
+          <target state="translated">将为其检索特性的属性的名称。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the assembly qualified type name passed into the constructor.</source>
+          <target state="translated">获取程序集限定的类型名称传递到构造函数。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The assembly qualified name of the type specified in the constructor.</source>
+          <target state="translated">构造函数中指定类型的程序集限定的名称。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
