@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f7174dee376b49a35d1f252ee47692526479dc35</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.Claims.Claim.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">215cbeea17a2efd7ab6e059656e6c3dfa3c00b94</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">61497a572a943d3ba52c9781e3056b2e0cdc66d8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a claim that is associated with an entity.</source>
+          <target state="translated">Reprezentuje oświadczenie, który jest skojarzony z jednostką.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Identity Model is a claims-based authorization system.</source>
+          <target state="translated">Modelu tożsamości jest systemem autoryzacji opartej na oświadczeniach.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Claims describe the capabilities associated with some entity in the system, often a user of that system.</source>
+          <target state="translated">Oświadczenia opisano możliwości skojarzone z jednostką niektórych w systemie, często użytkownika tego systemu.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of claims associated with a given entity can be thought of as a key.</source>
+          <target state="translated">Zestaw oświadczeń skojarzone z daną jednostkę można traktować jako klucz.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The particular claims define the shape of that key; much like a physical key is used to open a lock in a door.</source>
+          <target state="translated">Konkretne oświadczenia, zdefiniuj kształtu tego klucza; podobne jak w przypadku fizycznego klucz używany do otwierania blokady w drzwi.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this way, claims are used to gain access to resources.</source>
+          <target state="translated">W ten sposób oświadczeń są używane do uzyskania dostępu do zasobów.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Access to a given protected resource is determined by comparing the claims required to access that resource with the claims associated with the entity that attempts access.</source>
+          <target state="translated">Dostęp do chronionego zasobu jest określany przez porównywanie oświadczeń wymagany dostęp do tego zasobu z oświadczeniami skojarzonego z jednostką, która próbuje uzyskać dostęp.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A claim is the expression of a right with respect to a particular value.</source>
+          <target state="translated">Oświadczenia jest wyrażeniem prawa w odniesieniu do określonej wartości.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A right could be read, write, or possess.</source>
+          <target state="translated">Może być prawo do odczytu, zapisu lub posiadać.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value could be a database, a file, a mailbox, or a property.</source>
+          <target state="translated">Wartość może być bazy danych, plików, skrzynki pocztowej lub właściwości.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Claims also have a claim type.</source>
+          <target state="translated">Oświadczenia ma także typ oświadczenia.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The combination of claim type and right provides the mechanism for capabilities being specified with respect to the value.</source>
+          <target state="translated">Kombinacja typu oświadczenia i w prawo zapewnia mechanizm określany względem wartość funkcji.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a claim of type <ph id="ph1">`file`</ph> with the right <ph id="ph2">`read`</ph> over the value <ph id="ph3">`biography.doc`</ph> indicates that the entity with such a claim has read access to the file biography.doc.</source>
+          <target state="translated">Na przykład oświadczenie typu <ph id="ph1">`file`</ph> z prawem <ph id="ph2">`read`</ph> na wartość <ph id="ph3">`biography.doc`</ph> oznacza, że jednostka z roszczenie ma dostęp do odczytu do biography.doc pliku.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A claim of type name with the right &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt; over the value <ph id="ph1">`Martin`</ph> indicates that the entity with the claim possesses a <ph id="ph2">`Name`</ph> property with the value <ph id="ph3">`Martin`</ph>.</source>
+          <target state="translated">Oświadczenie Nazwa typu z prawem &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;na wartość <ph id="ph1">`Martin`</ph> wskazuje, czy jednostka z oświadczeniem posiada <ph id="ph2">`Name`</ph> właściwość z wartością <ph id="ph3">`Martin`</ph>.&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although various claim types and rights are defined as part of Identity Model, the system is extensible.</source>
+          <target state="translated">Mimo że różnych typów oświadczeń i prawa są definiowane jako część modelu tożsamości, system jest otwarty.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The various systems building on top of the Identity Model infrastructure can define claim types and rights as required.</source>
+          <target state="translated">Różnych systemów tworzenia na szczycie infrastruktury można zdefiniować modelu tożsamości oświadczeń, typów i prawa zgodnie z wymaganiami.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified type, resource, and right.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy z określonym typem, zasobów i po prawej.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[vsindigo](~/add/includes/vsindigo-md.md)]</ph> ships a set of pre-defined claim types and rights that are represented as members of the &lt;xref:System.IdentityModel.Claims.ClaimTypes&gt; and &lt;xref:System.IdentityModel.Claims.Rights&gt; classes.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vsindigo](~/add/includes/vsindigo-md.md)]</ph>zestaw oświadczeń wstępnie zdefiniowanych typów, a prawa, który jest dostarczany są reprezentowane jako elementy członkowskie &lt;xref:System.IdentityModel.Claims.ClaimTypes&gt;i &lt;xref:System.IdentityModel.Claims.Rights&gt;klasy.&lt;/xref:System.IdentityModel.Claims.Rights&gt; &lt;/xref:System.IdentityModel.Claims.ClaimTypes&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A uniform resource identifier (URI) that represents a claim type.</source>
+          <target state="translated">Identyfikator URI (URI), który reprezentuje typ oświadczenia.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The object with which the new claim is associated.</source>
+          <target state="translated">Obiekt, z którym skojarzony jest nowe oświadczenie.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The URI of the right associated with the claim.</source>
+          <target state="translated">Identyfikator URI skojarzony z oświadczeniem prawa.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;claimType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;claimType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;right&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;right&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;claimType&lt;/code&gt;</ph> is zero length.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;claimType&lt;/code&gt;</ph>ma zerową długość.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;right&lt;/code&gt;</ph> is zero length.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;right&lt;/code&gt;</ph> ma zerową długość.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the type of the claim.</source>
+          <target state="translated">Pobiera typ oświadczenia.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ClaimType property can be one of the pre-defined claim types that are represented by the static properties of the &lt;xref:System.IdentityModel.Claims.ClaimTypes&gt; class.</source>
+          <target state="translated">Właściwość typu oświadczenia może być jeden z typów oświadczeń wstępnie zdefiniowane reprezentowanych przez statycznej właściwości &lt;xref:System.IdentityModel.Claims.ClaimTypes&gt;klasy.&lt;/xref:System.IdentityModel.Claims.ClaimTypes&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Claim types specify the type of claim that is being asserted, such as an email address.</source>
+          <target state="translated">Typy oświadczeń Określ typ oświadczenia jest potwierdzonego, takie jak adres e-mail.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A URI that represents the type of the claim.</source>
+          <target state="translated">Identyfikator URI, który reprezentuje typ oświadczenia.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents a deny-only specified security identifier (SID).</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który reprezentuje tylko do odmowy określony identyfikator zabezpieczeń (SID).</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The deny-only SID is a SID_AND_ATTRIBUTES structure with the SE_GROUP_USE_FOR_SENY_ONLY flag set.</source>
+          <target state="translated">Identyfikator SID tylko odmowa jest strukturą SID_AND_ATTRIBUTES z ustawioną flagą SE_GROUP_USE_FOR_SENY_ONLY.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;Ta metoda tworzy obiekt ma wartość właściwości przedstawione w poniższej tabeli.&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.DenyOnlySid%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`sid`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">| Właściwość | Wartość |   |--------------|-----------|   | &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;| &lt;xref:System.IdentityModel.Claims.ClaimTypes.DenyOnlySid%2A&gt;|   | &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;| Wartość <ph id="ph1">`sid`</ph> parametru. |   | &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;| &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.DenyOnlySid%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the deny-only SID.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentujący identyfikator SID tylko odmowa.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the SID specified in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">sid</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentuje identyfikator SID określenia w <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">sid</ph> <ept id="p2">&lt;/code&gt;</ept> parametru.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sid&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sid&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified Domain Name System (DNS) name.</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który reprezentuje określona nazwa systemu nazw domen (DNS, Domain Name System).</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;Ta metoda tworzy obiekt ma wartość właściwości przedstawione w poniższej tabeli.&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Dns%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`dns`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;|</source>
+          <target state="translated">| Właściwość | Wartość |   |--------------|-----------|   | &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;| &lt;xref:System.IdentityModel.Claims.ClaimTypes.Dns%2A&gt;|   | &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;| Wartość <ph id="ph1">`dns`</ph> parametru. |   | &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;| &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Dns%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The DNS name of the entity associated with the claim.</source>
+          <target state="translated">Nazwa DNS jednostki skojarzony z oświadczeniem.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ten parametr nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws a &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">Jeśli ten parametr ma <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ta metoda zgłasza &lt;xref:System.ArgumentNullException&gt;wyjątek.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu ta metoda tworzy.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dns</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dns</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified hash value.</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który reprezentuje wartości skrótu określonej.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;Ta metoda tworzy obiekt ma wartość właściwości przedstawione w poniższej tabeli.&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Hash%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`hash`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">| Właściwość | Wartość |   |--------------|-----------|   | &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;| &lt;xref:System.IdentityModel.Claims.ClaimTypes.Hash%2A&gt;|   | &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;| Wartość <ph id="ph1">`hash`</ph> parametru. |   | &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;| &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Hash%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>An array of byte values that specifies a hash value.</source>
+          <target state="translated">Tablica wartości bajtu określa wartość skrótu.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ten parametr nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws a &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">Jeśli ten parametr ma <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ta metoda zgłasza &lt;xref:System.ArgumentNullException&gt;wyjątek.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu ta metoda tworzy.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">hash</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">hash</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified email address.</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który reprezentuje określony adres e-mail.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;Ta metoda tworzy obiekt ma wartość właściwości przedstawione w poniższej tabeli.&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Email%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`mailAddress`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">| Właściwość | Wartość |   |--------------|-----------|   | &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;| &lt;xref:System.IdentityModel.Claims.ClaimTypes.Email%2A&gt;|   | &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;| Wartość <ph id="ph1">`mailAddress`</ph> parametru. |   | &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;| &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Email%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Net.Mail.MailAddress"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the email address this claim represents.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Net.Mail.MailAddress"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , który określa reprezentuje oświadczenie adresu e-mail.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ten parametr nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">Jeśli ten parametr ma <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ta metoda zgłasza &lt;xref:System.ArgumentNullException&gt;wyjątek.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu ta metoda tworzy.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">mailAddress</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">mailAddress</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified name.</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który reprezentuje określonej nazwy.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;Ta metoda tworzy obiekt ma wartość właściwości przedstawione w poniższej tabeli.&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Name%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`name`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">| Właściwość | Wartość |   |--------------|-----------|   | &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;| &lt;xref:System.IdentityModel.Claims.ClaimTypes.Name%2A&gt;|   | &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;| Wartość <ph id="ph1">`name`</ph> parametru. |   | &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;| &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Name%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The name of the entity associated with the claim.</source>
+          <target state="translated">Nazwa jednostki skojarzony z oświadczeniem.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ten parametr nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">Jeśli ten parametr ma <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ta metoda zgłasza &lt;xref:System.ArgumentNullException&gt;wyjątek.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu ta metoda tworzy.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified RSA key.</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który reprezentuje z określonym kluczem RSA.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;Ta metoda tworzy obiekt ma wartość właściwości przedstawione w poniższej tabeli.&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Rsa%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`rsa`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">| Właściwość | Wartość |   |--------------|-----------|   | &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;| &lt;xref:System.IdentityModel.Claims.ClaimTypes.Rsa%2A&gt;|   | &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;| Wartość <ph id="ph1">`rsa`</ph> parametru. |   | &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;| &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Rsa%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents an RSA cryptographic key.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt, który reprezentuje klucza szyfrowania RSA.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ten parametr nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">Jeśli ten parametr ma <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ta metoda zgłasza &lt;xref:System.ArgumentNullException&gt;wyjątek.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu ta metoda tworzy.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rsa</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rsa</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified Service Principal Name (SPN).</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który reprezentuje określonej nazwy usługi (SPN).</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;Ta metoda tworzy obiekt ma wartość właściwości przedstawione w poniższej tabeli.&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Spn%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`spn`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">| Właściwość | Wartość |   |--------------|-----------|   | &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;| &lt;xref:System.IdentityModel.Claims.ClaimTypes.Spn%2A&gt;|   | &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;| Wartość <ph id="ph1">`spn`</ph> parametru. |   | &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;| &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Spn%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The SPN of the entity associated with this claim.</source>
+          <target state="translated">Nazwa SPN jednostki skojarzonej z tym oświadczenia.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ten parametr nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">Jeśli ten parametr ma <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ta metoda zgłasza &lt;xref:System.ArgumentNullException&gt;wyjątek.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu ta metoda tworzy.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">spn</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">spn</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified thumbprint.</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który reprezentuje określony odcisk palca.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;Ta metoda tworzy obiekt ma wartość właściwości przedstawione w poniższej tabeli.&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Thumbprint%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`thumbprint`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">| Właściwość | Wartość |   |--------------|-----------|   | &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;| &lt;xref:System.IdentityModel.Claims.ClaimTypes.Thumbprint%2A&gt;|   | &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;| Wartość <ph id="ph1">`thumbprint`</ph> parametru. |   | &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;| &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Thumbprint%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An array of byte values that specifies the thumbprint of the entity associated with the claim.</source>
+          <target state="translated">Tablica wartości bajtu określa odcisk palca podmiot skojarzony z oświadczeniem.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ten parametr nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">Jeśli ten parametr ma <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ta metoda zgłasza &lt;xref:System.ArgumentNullException&gt;wyjątek.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu ta metoda tworzy.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">thumbprint</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">thumbprint</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified Universal Principal Name (UPN).</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który reprezentuje określony uniwersalnych głównej nazwy (UPN).</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;Ta metoda tworzy obiekt ma wartość właściwości przedstawione w poniższej tabeli.&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Upn%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`upn`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">| Właściwość | Wartość |   |--------------|-----------|   | &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;| &lt;xref:System.IdentityModel.Claims.ClaimTypes.Upn%2A&gt;|   | &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;| Wartość <ph id="ph1">`upn`</ph> parametru. |   | &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;| &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Upn%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The UPN of the entity associated with this claim.</source>
+          <target state="translated">Nazwa UPN jednostki skojarzonej z tym oświadczenia.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ten parametr nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">Jeśli ten parametr ma <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ta metoda zgłasza &lt;xref:System.ArgumentNullException&gt;wyjątek.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu ta metoda tworzy.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">upn</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">upn</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified Uniform Resource Locator (URL).</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który reprezentuje określony URL Uniform Resource Locator ().</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;Ta metoda tworzy obiekt ma wartość właściwości przedstawione w poniższej tabeli.&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Uri%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`uri`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">| Właściwość | Wartość |   |--------------|-----------|   | &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;| &lt;xref:System.IdentityModel.Claims.ClaimTypes.Uri%2A&gt;|   | &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;| Wartość <ph id="ph1">`uri`</ph> parametru. |   | &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;| &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Uri%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Uri&gt; that represents the URL of the entity associated with this claim.</source>
+          <target state="translated">A &lt;xref:System.Uri&gt;reprezentujący adres URL jednostki skojarzonej z tym oświadczenia.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ten parametr nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">Jeśli ten parametr ma <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ta metoda zgłasza &lt;xref:System.ArgumentNullException&gt;wyjątek.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu ta metoda tworzy.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">uri</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">uri</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified security identifier (SID).</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który reprezentuje identyfikator określony zabezpieczeń (SID).</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;Ta metoda tworzy obiekt ma wartość właściwości przedstawione w poniższej tabeli.&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Sid%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`sid`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">| Właściwość | Wartość |   |--------------|-----------|   | &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;| &lt;xref:System.IdentityModel.Claims.ClaimTypes.Sid%2A&gt;|   | &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;| Wartość <ph id="ph1">`sid`</ph> parametru. |   | &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;| &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Sid%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the SID.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentujący identyfikator SID.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the SID specified in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">sid</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentuje identyfikator SID określenia w <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">sid</ph> <ept id="p2">&lt;/code&gt;</ept> parametru.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sid&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sid&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified X.500 distinguished name.</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nazwa wyróżniająca obiektu, który reprezentuje określona X.500.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;Ta metoda tworzy obiekt ma wartość właściwości przedstawione w poniższej tabeli.&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;    &lt;xref:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName%2A&gt;       &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;    The value of the <ph id="ph1">`x500DistinguishedName`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;    &lt;xref:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName%2A&gt;       &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;Wartość <ph id="ph1">`x500DistinguishedName`</ph> parametru.&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;    &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;    &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X500DistinguishedName"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the X.500 distinguished name of the entity associated with the claim.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X500DistinguishedName"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , który określa nazwę wyróżniającą X.500 jednostki skojarzony z oświadczeniem.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ten parametr nie może być <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">Jeśli ten parametr ma <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, ta metoda zgłasza &lt;xref:System.ArgumentNullException&gt;wyjątek.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu ta metoda tworzy.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">x500DistinguishedName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">x500DistinguishedName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets an object that can compare two <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for equality.</source>
+          <target state="translated">Pobiera obiekt, który można porównać dwa <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekty pod kątem równości.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the value of the DefaultComparer property to match any of the pre-defined claim types.</source>
+          <target state="translated">Wartość właściwości DefaultComparer umożliwia pasuje do żadnego z typów oświadczeń wstępnie zdefiniowane.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEqualityComparer%601<ph id="ph2">&amp;gt;</ph> interface implementation that compares two <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEqualityComparer%601<ph id="ph2">&amp;gt;</ph> interfejsu implementację, która porównuje dwa <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektów.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified object represents the same claim as the current <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Określa, czy określony obiekt reprezentuje to samo oświadczenie, ponieważ bieżący <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides the &lt;xref:System.Object.Equals%2A&gt; method to provide equality comparisons for &lt;xref:System.IdentityModel.Claims.Claim&gt; objects.</source>
+          <target state="translated">Ta metoda zastępuje &lt;xref:System.Object.Equals%2A&gt;metodę w celu zapewnienia porównania równości dla &lt;xref:System.IdentityModel.Claims.Claim&gt;obiektów.&lt;/xref:System.IdentityModel.Claims.Claim&gt; &lt;/xref:System.Object.Equals%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The comparison consists of three comparisons on the values of the &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;, &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;, and &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt; properties.</source>
+          <target state="translated">Porównanie składa się z trzech porównania wartości elementu &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;, &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;, i &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;Właściwości.&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt; &lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt; &lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The comparison algorithm that is used on the &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt; property depends upon the value of the &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt; property.</source>
+          <target state="translated">Algorytm porównania, który jest używany w &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;zależy od wartości właściwości &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;Właściwości.&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt; &lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table details the comparison algorithm that is used for the specified claim type.</source>
+          <target state="translated">W poniższej tabeli przedstawiono algorytm porównania, który jest używany dla określonego typu oświadczenia.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Claim type|Comparison|   |----------------|----------------|   |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Dns%2A&gt;|Case insensitive string comparison on the resource.|   |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Hash%2A&gt;|Byte-by-byte comparison.|   |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Rsa%2A&gt;|Byte-by-byte comparison on the Modulus and Exponent parts of the algorithm.|   |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Thumbprint%2A&gt;|Byte-by-byte comparison.|   |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Upn%2A&gt;|SID comparison.|   |&lt;xref:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName%2A&gt;|Normalized X.500 raw data comparison.|</source>
+          <target state="translated">| Typ oświadczenia | Porównanie |   |----------------|----------------|   | &lt;xref:System.IdentityModel.Claims.ClaimTypes.Dns%2A&gt;| Porównanie ciągów bez uwzględniania wielkości liter w zasobie. |   | &lt;xref:System.IdentityModel.Claims.ClaimTypes.Hash%2A&gt;| Porównanie po bicie. |   | &lt;xref:System.IdentityModel.Claims.ClaimTypes.Rsa%2A&gt;| Porównanie po bicie modulo i wykładnik części algorytm. |   | &lt;xref:System.IdentityModel.Claims.ClaimTypes.Thumbprint%2A&gt;| Porównanie po bicie. |   | &lt;xref:System.IdentityModel.Claims.ClaimTypes.Upn%2A&gt;| Porównanie identyfikatora SID. |   | &lt;xref:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName%2A&gt;| Znormalizowany porównanie danych pierwotnych X.500. |&lt;/xref:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName%2A&gt; &lt;/xref:System.IdentityModel.Claims.ClaimTypes.Upn%2A&gt; &lt;/xref:System.IdentityModel.Claims.ClaimTypes.Thumbprint%2A&gt; &lt;/xref:System.IdentityModel.Claims.ClaimTypes.Rsa%2A&gt; &lt;/xref:System.IdentityModel.Claims.ClaimTypes.Hash%2A&gt; &lt;/xref:System.IdentityModel.Claims.ClaimTypes.Dns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The object to compare with the current <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Obiekt do porównania z bieżącym <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p2">&lt;/code&gt;</ept> represents the same claim as the current <bpt id="p3">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>; otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p2">&lt;/code&gt;</ept> reprezentuje to samo oświadczenie, ponieważ bieżący <bpt id="p3">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>; w przeciwnym razie <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Returns a hash code for the current claim.</source>
+          <target state="translated">Zwraca wartość skrótu dla bieżącego oświadczenie.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method generates the same hash code for two objects that are equal according to the &lt;xref:System.IdentityModel.Claims.Claim.Equals%2A&gt; method.</source>
+          <target state="translated">Ta metoda generuje ten sam kod skrótu dla dwóch obiektów, które są takie same, zgodnie z &lt;xref:System.IdentityModel.Claims.Claim.Equals%2A&gt;metody.&lt;/xref:System.IdentityModel.Claims.Claim.Equals%2A&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The hash code for the claim.</source>
+          <target state="translated">Wartość skrótu dla oświadczeń.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Gets the resource with which this <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated.</source>
+          <target state="translated">Pobiera zasób, z której ta <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt jest skojarzony.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The resource with which this <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated.</source>
+          <target state="translated">Zasób, z której ta <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt jest skojarzony.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>A string representation of a uniform resource identifier (URI) that specifies the right associated with this <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Reprezentacja ciągu identyfikator uniform resource identifier (URI) określający prawa skojarzone z tym <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Pre-defined rights are available as static properties of the <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Rights"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Wstępnie zdefiniowane uprawnienia są dostępne jako statycznej właściwości <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Rights"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pre-defined values include &lt;xref:System.IdentityModel.Claims.Rights.Identity%2A&gt;and &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.</source>
+          <target state="translated">Wstępnie zdefiniowane wartości obejmują &lt;xref:System.IdentityModel.Claims.Rights.Identity%2A&gt;i &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt; &lt;/xref:System.IdentityModel.Claims.Rights.Identity%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A URI that specifies the right associated with this <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Identyfikator URI, który określa prawo skojarzony z tym <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>A pre-defined claim that represents the system entity.</source>
+          <target state="translated">Wstępnie zdefiniowane oświadczenie reprezentujące jednostki systemowej.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the system entity.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który reprezentuje jednostki systemowej.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>This <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object has the property values shown in the following table.</source>
+          <target state="translated">To <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt ma wartość właściwości przedstawione w poniższej tabeli.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="translated">Właściwość</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">Wartość</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IdentityModel.Claims.Claim.ClaimType<bpt id="p1">*</bpt><ph id="ph1">&gt;       </ph><ph id="ph2">&lt;/td&gt;</ph><ph id="ph3">&lt;td&gt;</ph> &lt;xref:System.IdentityModel.Claims.ClaimTypes.System<ept id="p1">*</ept><ph id="ph4">&gt;       </ph></source>
+          <target state="translated">&lt;&gt;<bpt id="p1">*</bpt><ph id="ph1">&gt;       </ph><ph id="ph2">&lt;/td&gt;</ph><ph id="ph3">&lt;td&gt;</ph>&lt;&gt;<ept id="p1">*</ept><ph id="ph4">&gt;       </ph></target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IdentityModel.Claims.Claim.Resource<bpt id="p1">*</bpt><ph id="ph1">&gt;       </ph><ph id="ph2">&lt;/td&gt;</ph><ph id="ph3">&lt;td&gt;</ph><bpt id="p2">&lt;xref uid="langword_csharp_System" name="System" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><ph id="ph4">&lt;/td&gt;</ph><ph id="ph5">&lt;/tr&gt;</ph><ph id="ph6">&lt;tr&gt;</ph><ph id="ph7">&lt;td&gt;</ph> &lt;xref:System.IdentityModel.Claims.Claim.Right<ept id="p1">*</ept><ph id="ph8">&gt;       </ph></source>
+          <target state="translated">&lt;&gt;<bpt id="p1">*</bpt><ph id="ph1">&gt;       </ph><ph id="ph2">&lt;/td&gt;</ph><ph id="ph3">&lt;td&gt;</ph><bpt id="p2">&lt;xref uid="langword_csharp_System" name="System" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><ph id="ph4">&lt;/td&gt;</ph><ph id="ph5">&lt;/tr&gt;</ph><ph id="ph6">&lt;tr&gt;</ph><ph id="ph7">&lt;td&gt;</ph>&lt;&gt;<ept id="p1">*</ept><ph id="ph8">&gt;       </ph></target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IdentityModel.Claims.Rights.Identity*&gt;</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Rights.Identity*&gt;&lt;/xref:System.IdentityModel.Claims.Rights.Identity*&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Returns a string representation of this <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Zwraca reprezentację ciągu tego <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string that is returns contains the values of the &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt; and &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt; properties.</source>
+          <target state="translated">Ciąg, który jest zwraca zawiera wartości &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;i &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;Właściwości.&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt; &lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>This <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">To <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
