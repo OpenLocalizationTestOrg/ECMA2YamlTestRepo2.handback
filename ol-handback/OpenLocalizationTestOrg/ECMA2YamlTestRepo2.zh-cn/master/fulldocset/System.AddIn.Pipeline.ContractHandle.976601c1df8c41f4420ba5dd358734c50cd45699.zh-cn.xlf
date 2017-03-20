@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9fbb4c9330849896b576e34e91d06489d762a57f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.AddIn.Pipeline.ContractHandle.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">94a574e29a48dbc75fe7f9b2e66b8953c086eecf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2c6109f130925d52b144884b25d41278898989d0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides methods that control the lifetime of an add-in.</source>
+          <target state="translated">提供方法，用于控制外接程序的生存期。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Because the add-in model provides the ability for add-ins to communicate between application domains and between processes, it cannot rely on the garbage collector to reclaim them.</source>
+          <target state="translated">外接程序模型提供了有关外接程序之间应用程序域和进程之间进行通信的能力，因为它不能依赖垃圾回收器回收它们。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This class provides a reference counting mechanism for the add-in by obtaining a lifetime token to its contract.</source>
+          <target state="translated">此类提供引用计数外接程序的机制，通过获取其协定的生存期标记。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When a ContractHandle object is constructed, it calls the &lt;xref:System.AddIn.Pipeline.ContractBase.AcquireLifetimeToken%2A&gt; method on the contract that is passed to the constructor.</source>
+          <target state="translated">当构造 ContractHandle 对象时，它将调用&lt;xref:System.AddIn.Pipeline.ContractBase.AcquireLifetimeToken%2A&gt;传递给构造函数的协定上的方法。&lt;/xref:System.AddIn.Pipeline.ContractBase.AcquireLifetimeToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When the ContractHandle object is disposed or finalized, it calls the &lt;xref:System.AddIn.Pipeline.ContractBase.RevokeLifetimeToken%2A&gt; method on the contract, which removes its hold on the contract.</source>
+          <target state="translated">当 ContractHandle 对象已释放或终止时，它将调用&lt;xref:System.AddIn.Pipeline.ContractBase.RevokeLifetimeToken%2A&gt;协定，这将删除其保留在协定上的方法。&lt;/xref:System.AddIn.Pipeline.ContractBase.RevokeLifetimeToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Adapters implement the contract.</source>
+          <target state="translated">适配器实现该协定。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The ContractHandle class is designed to be used in a contract-to-view adapter to help pipeline developers manage the lifetime of the contract that is being adapted.</source>
+          <target state="translated">ContractHandle 类旨在用于协定视图适配器以帮助管理正在适配的协定的生存期的管道开发人员。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Typically, an instance of this class is instantiated during the construction of the adapter class and is stored in an instance field of the adapter.</source>
+          <target state="translated">通常情况下，此类的实例的适配器类的构造过程中实例化，并且存储在该适配器的实例字段。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When the adapter class is garbage-collected, the ContractHandle object will also be collected and the ContractHandle object will revoke the lifetime token on the contract.</source>
+          <target state="translated">垃圾回收的适配器类时，还会收集 ContractHandle 对象和 ContractHandle 对象将撤消协定上的生存期标记。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It is recommended that your view-to-contract adapters inherit from the &lt;xref:System.AddIn.Pipeline.ContractBase&gt; class.</source>
+          <target state="translated">建议你查看协定适配器继承&lt;xref:System.AddIn.Pipeline.ContractBase&gt;类。&lt;/xref:System.AddIn.Pipeline.ContractBase&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can then use a default implementation for the members of &lt;xref:System.AddIn.Contract.IContract&gt;, which means you need to implement only the members of your specific contract.</source>
+          <target state="translated">然后使用的成员的默认实现&lt;xref:System.AddIn.Contract.IContract&gt;，这意味着你需要实现只有特定协定的成员。&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.AddIn.Pipeline.ContractHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.AddIn.Pipeline.ContractHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The contract to use in the pipeline.</source>
+          <target state="translated">要在管道中使用的协定。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;contract&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;contract&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets the instance of the add-in-side adapter when the application domain was created.</source>
+          <target state="translated">创建应用程序域时，请获取外接程序端适配器的实例。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The add-in-side adapters are typed as &lt;xref:System.AddIn.Contract.IContract&gt;.</source>
+          <target state="translated">外接程序端适配器将被类型化为&lt;xref:System.AddIn.Contract.IContract&gt;.&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the application domain was previously created by a user, there is no owner.</source>
+          <target state="translated">如果用户由以前创建的应用程序域，则没有所有者。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The application domain to check.</source>
+          <target state="translated">要检查的应用程序域。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the owner of the application domain.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示应用程序域的所有者的对象。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;domain&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;domain&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets the contract used by a pipeline.</source>
+          <target state="translated">获取管道使用的协定。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The contract, which is derived from <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">协定，该类派生自<bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Determines whether an application domain is owned by the specified contract.</source>
+          <target state="translated">确定是否应用程序域由指定的协定。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The contract to check.</source>
+          <target state="translated">要检查的协定。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The application domain to check.</source>
+          <target state="translated">要检查的应用程序域。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the contract owns the application domain; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果协定拥有应用程序域中;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;contract&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;domain&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;contract&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;domain&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Revokes the lifetime token on a contract, regardless of input.</source>
+          <target state="translated">撤消上一个协定，无论输入的生存期标记。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Revokes the lifetime token on the contract regardless of input and optionally releases the managed resources.</source>
+          <target state="translated">调用而不考虑输入协定上的生存期标记，还可以释放托管的资源。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要释放托管和非托管资源;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>若要仅释放非托管的资源。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Releases the resources associated with the <bpt id="p1">&lt;xref href="System.AddIn.Pipeline.ContractHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">释放与关联的资源<bpt id="p1">&lt;xref href="System.AddIn.Pipeline.ContractHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>实例。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This method overrides &lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">此方法将替代&lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt;.&lt;/xref:System.Object.Finalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Application code should not call this method; an object's Finalize method is automatically invoked during garbage collection, unless finalization by the garbage collector has been disabled by a call to the &lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">应用程序代码不应调用此方法。对象的 Finalize 方法过程中将自动调用垃圾回收，除非已通过调用禁用垃圾回收器的终止&lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When called by the garbage collector, this method calls the &lt;xref:System.AddIn.Pipeline.ContractHandle.Dispose%28System.Boolean%29&gt; method.</source>
+          <target state="translated">通过垃圾回收器调用时，此方法调用&lt;xref:System.AddIn.Pipeline.ContractHandle.Dispose%28System.Boolean%29&gt;方法。&lt;/xref:System.AddIn.Pipeline.ContractHandle.Dispose%28System.Boolean%29&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

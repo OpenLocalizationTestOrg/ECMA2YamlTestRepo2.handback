@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">88255d013ec63dafde278e80877be7391eb3c839</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.AddIn.Contract.IContract.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d06089d30543253ee0335074823089b0a1dc1bc8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6b707ae3fd617884192b78742e24b8a98f3ee32d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the base interface for all contracts that are used for communication between components that are updated independently.</source>
+          <target state="translated">表示独立更新的组件之间的通信所用的所有协定的基接口。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The IContract interface defines a contract that independently updated components, such as an application and an add-in, can use to communicate.</source>
+          <target state="translated">IContract 接口定义一个协定，独立更新的组件，如应用程序和外接程序时，可以使用它进行通信。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Components can use IContract to communicate across process or application domain boundaries, or to communicate with other components in the same process or application domain.</source>
+          <target state="translated">组件可以使用 IContract 跨进程通信或应用程序域边界或与中的相同进程或应用程序域的其他组件进行通信。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>IContract serves a similar purpose for components created using the .NET Framework as the <ph id="ph1">`IUnknown`</ph> interface serves for components created using COM.</source>
+          <target state="translated">IContract 有用途类似使用作为.NET Framework 创建的组件<ph id="ph1">`IUnknown`</ph>接口用于创建使用 com。 组件</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To determine whether an object implements a particular contract, use the &lt;xref:System.AddIn.Contract.IContract.QueryContract%2A&gt; method.</source>
+          <target state="translated">若要确定对象是否实现特定的约定，请使用&lt;xref:System.AddIn.Contract.IContract.QueryContract%2A&gt;方法。&lt;/xref:System.AddIn.Contract.IContract.QueryContract%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Specifies that the contract is accessible to a client until the client revokes the contract.</source>
+          <target state="translated">指定的协定是访问客户端，直到客户端在撤消此协定。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Clients of an object that implements &lt;xref:System.AddIn.Contract.IContract&gt; call the AcquireLifetimeToken method to notify the object that the client requires access to the contract.</source>
+          <target state="translated">客户端实现的对象的&lt;xref:System.AddIn.Contract.IContract&gt;调用 AcquireLifetimeToken 方法，以通知对象，客户端需要向该协定的访问权限。&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.AddIn.Contract.IContract&gt; is guaranteed to be usable as long as at least one lifetime token that it passed to a client has not been revoked.</source>
+          <target state="translated">&lt;xref:System.AddIn.Contract.IContract&gt;保证，只要尚未吊销至少一个它传递到客户端的生存期标记为可用。&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To revoke a contract, clients call the &lt;xref:System.AddIn.Contract.IContract.RevokeLifetimeToken%2A&gt; method.</source>
+          <target state="translated">若要撤消一个协定，客户端调用&lt;xref:System.AddIn.Contract.IContract.RevokeLifetimeToken%2A&gt;方法。&lt;/xref:System.AddIn.Contract.IContract.RevokeLifetimeToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A value, also known as a lifetime token, that identifies the client that has acquired the contract.</source>
+          <target state="translated">一个值，也称为一个生存期令牌，它标识已获取协定的客户端。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Returns a hash code for the <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回的哈希代码<bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A hash code for the <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">哈希代码<bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Returns a contract that is implemented by this contract.</source>
+          <target state="translated">返回实现此协定的协定。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The QueryContract method enables &lt;xref:System.AddIn.Contract.IContract&gt; objects to expose other contracts.</source>
+          <target state="translated">该 QueryContract 方法使&lt;xref:System.AddIn.Contract.IContract&gt;对象来公开其他协定。&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>QueryContract serves a purpose similar to that of the <ph id="ph1">`IUnknown.QueryInterface`</ph> method in COM.</source>
+          <target state="translated">QueryContract 起作用类似于<ph id="ph1">`IUnknown.QueryInterface`</ph>COM 中的方法</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The format of the strings used to identify contracts is defined by the &lt;xref:System.AddIn.Contract.IContract&gt; implementation.</source>
+          <target state="translated">用于标识约定的字符串的格式由定义&lt;xref:System.AddIn.Contract.IContract&gt;实现。&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It is recommended that you use the &lt;xref:System.Type.AssemblyQualifiedName%2A&gt; of the contract that is being queried.</source>
+          <target state="translated">建议你使用&lt;xref:System.Type.AssemblyQualifiedName%2A&gt;正在查询的协定。&lt;/xref:System.Type.AssemblyQualifiedName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A string that identifies the contract that is being requested.</source>
+          <target state="translated">一个字符串，标识正在请求的协定。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents a contract that a client is requesting from the current contract; <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the current contract does not support the contract that is requested.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示的客户端请求从当前协定; 一个协定<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>如果当前协定不支持请求的协定。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Indicates whether the specified contract is equal to this <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">该值指示指定的协定是否等于该<bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The contract to compare with this <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">要与此比较的协定<bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">contract</ph><ept id="p2">&lt;/code&gt;</ept> is equal to this <bpt id="p3">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">contract</ph><ept id="p2">&lt;/code&gt;</ept> is equal to this <bpt id="p3">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Returns a string representation of the current <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回当前的字符串表示<bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A string representation of the current <bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">字符串表示形式当前<bpt id="p1">&lt;xref href="System.AddIn.Contract.IContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specifies that the contract is no longer accessible to a client.</source>
+          <target state="translated">指定协定不再是访问客户端。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Clients of an object that implements &lt;xref:System.AddIn.Contract.IContract&gt; call the RevokeLifetimeToken method to notify the object that the client no longer needs the contract.</source>
+          <target state="translated">客户端实现的对象的&lt;xref:System.AddIn.Contract.IContract&gt;调用 RevokeLifetimeToken 方法，以通知对象客户端不再需要该合同。&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.AddIn.Contract.IContract&gt; is guaranteed to be usable as long as at least one lifetime token that it passed to a client has not been revoked.</source>
+          <target state="translated">&lt;xref:System.AddIn.Contract.IContract&gt;保证，只要尚未吊销至少一个它传递到客户端的生存期标记为可用。&lt;/xref:System.AddIn.Contract.IContract&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To acquire a contract, clients call the &lt;xref:System.AddIn.Contract.IContract.AcquireLifetimeToken%2A&gt; method.</source>
+          <target state="translated">获取一个协定，客户端调用&lt;xref:System.AddIn.Contract.IContract.AcquireLifetimeToken%2A&gt;方法。&lt;/xref:System.AddIn.Contract.IContract.AcquireLifetimeToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A value, also known as a lifetime token, that identifies the client that is revoking the contract.</source>
+          <target state="translated">一个值，也称为生存期标记，用于标识正在调用协定的客户端。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

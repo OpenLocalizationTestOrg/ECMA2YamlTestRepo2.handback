@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2df498ff4e91f6120cb3441d670fd811ec850f5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Messaging.CallContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b336aabc63b055320b00681982c14042201c2f05</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f7c74a21df57427f259a5277647130df52db8f04</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a set of properties that are carried with the execution code path.</source>
+          <target state="translated">提供一組都帶有的執行程式碼路徑的屬性。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">這個類別無法被繼承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>CallContext is a specialized collection object similar to a Thread Local Storage for method calls and provides data slots that are unique to each logical thread of execution.</source>
+          <target state="translated">CallContext 類似於方法呼叫的執行緒區域儲存區的特製化的集合物件，提供對每個邏輯執行緒都是唯一的資料位置。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The slots are not shared across call contexts on other logical threads.</source>
+          <target state="translated">位置不會在其他邏輯執行緒上呼叫內容間共用。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Objects can be added to the CallContext as it travels down and back up the execution code path, and examined by various objects along the path.</source>
+          <target state="translated">可以將物件加入至 CallContext，因為它會向下移動和備份執行的程式碼路徑，並檢驗各種物件沿著路徑。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When a remote method call is made to an object in another &lt;xref:System.AppDomain&gt;, the CallContext class generates a &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt; instance that travels along with the remote call.</source>
+          <target state="translated">當進行遠端方法呼叫，以在另一個物件&lt;xref:System.AppDomain&gt;，CallContext 類別會產生&lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;傳輸以及遠端呼叫的執行個體。&lt;/xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt; &lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Only objects that expose the &lt;xref:System.Runtime.Remoting.Messaging.ILogicalThreadAffinative&gt; interface and are stored in the CallContext are propagated outside the &lt;xref:System.AppDomain&gt; in a &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;.</source>
+          <target state="translated">只有物件該公開&lt;xref:System.Runtime.Remoting.Messaging.ILogicalThreadAffinative&gt;介面，並會儲存在 CallContext &lt;xref:System.AppDomain&gt; &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;。&lt;/xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;&lt;/xref:System.AppDomain&gt;外傳播&lt;/xref:System.Runtime.Remoting.Messaging.ILogicalThreadAffinative&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Objects that do not support this interface are not transmitted in &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt; instances with remote method calls.</source>
+          <target state="translated">不支援這個介面的物件就不會傳輸在&lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;具有遠端方法呼叫的執行個體。&lt;/xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All methods in CallContext are static and operate on the call context in the current &lt;xref:System.Threading.Thread&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; CallContext 中的所有方法都是靜態的並在呼叫中的內容目前&lt;xref:System.Threading.Thread&gt;.&lt;/xref:System.Threading.Thread&gt;上運作</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This class makes a link demand.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 這個類別可讓連結要求。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`SecurityException`</ph> is thrown if the immediate caller does not have infrastructure permission.</source>
+          <target state="translated">A<ph id="ph1">`SecurityException`</ph>立即呼叫者沒有基礎結構的權限則會擲回。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Link Demands<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> for more information.</source>
+          <target state="translated">請參閱<bpt id="p1">[</bpt>連結要求<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>如需詳細資訊。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Empties a data slot with the specified name.</source>
+          <target state="translated">清空具有指定名稱的資料位置。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The name of the data slot to empty.</source>
+          <target state="translated">為 empty 之資料插槽的名稱。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">立即呼叫者沒有基礎結構的權限。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Retrieves an object with the specified name from the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.CallContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">擷取具有指定名稱的物件<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.CallContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The name of the item in the call context.</source>
+          <target state="translated">呼叫內容中的項目名稱。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The object in the call context associated with the specified name.</source>
+          <target state="translated">具有指定名稱相關聯的呼叫內容中的物件。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">立即呼叫者沒有基礎結構的權限。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns the headers that are sent along with the method call.</source>
+          <target state="translated">傳回與在方法呼叫一起傳送的標頭。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The headers that are sent along with the method call.</source>
+          <target state="translated">與方法呼叫一起傳送的標頭。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">立即呼叫者沒有基礎結構的權限。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets or sets the host context associated with the current thread.</source>
+          <target state="translated">取得或設定與目前執行緒相關聯的主機內容。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The host context associated with the current thread.</source>
+          <target state="translated">與目前執行緒相關聯的主機內容。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">立即呼叫者沒有基礎結構的權限。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Retrieves an object with the specified name from the logical call context.</source>
+          <target state="translated">從邏輯呼叫內容中擷取具有指定名稱的物件。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The name of the item in the logical call context.</source>
+          <target state="translated">邏輯呼叫內容中的項目名稱。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The object in the logical call context associated with the specified name.</source>
+          <target state="translated">具有指定名稱相關聯的邏輯呼叫內容中的物件。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">立即呼叫者沒有基礎結構的權限。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Stores a given object in the logical call context and associates it with the specified name.</source>
+          <target state="translated">儲存在邏輯呼叫內容中指定的物件，並將它與指定的名稱產生關聯。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The name with which to associate the new item in the logical call context.</source>
+          <target state="translated">與相關聯的邏輯呼叫內容中的新項目名稱。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The object to store in the logical call context, this object must be serializable.</source>
+          <target state="translated">要儲存在邏輯呼叫內容中，此物件的物件必須是可序列化。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">立即呼叫者沒有基礎結構的權限。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Stores a given object and associates it with the specified name.</source>
+          <target state="translated">儲存指定的物件，並將它與指定的名稱產生關聯。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The name with which to associate the new item in the call context.</source>
+          <target state="translated">與相關聯的呼叫內容中的新項目名稱。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The object to store in the call context.</source>
+          <target state="translated">要儲存的呼叫內容中的物件。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">立即呼叫者沒有基礎結構的權限。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Sets the headers that are sent along with the method call.</source>
+          <target state="translated">設定會在方法呼叫一起傳送的標頭。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.Header"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array of the headers that are to be sent along with the method call.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.Header"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>為方法呼叫一起傳送的標頭的陣列。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">立即呼叫者沒有基礎結構的權限。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

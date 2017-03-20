@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">77164873a0f7ac6c4a7e99acc8ed03c5cb9bc600</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.WebPartTracker.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">87c257c1b1cc7e0ec9ca465754d2f494ccbc4a99</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98cc0bdc1367f799a1e3a87e08eea10eb3949223</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Monitors Web Parts connections for circular connections.</source>
+          <target state="translated">监视 Web 部件连接中的循环的连接。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A Web Parts connection is a link or association between two &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; (or other server or user) controls that enables them to share data.</source>
+          <target state="translated">将 Web 部件连接是链接或两个之间的关联&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;（或其他服务器或用户） 控件，使它们可以共享数据。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In every Web Parts connection, one control acts as a provider of data and another as a consumer of data.</source>
+          <target state="translated">在每个 Web 部件连接中，一个控件充当的数据，另一个则使用者的数据提供程序。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When a Web Parts control is both a provider and a consumer, and the provided data depends on the consumed data, there is the possibility of creating a connection that results in an infinite loop between Web Parts controls.</source>
+          <target state="translated">当一个 Web 部件控件的提供程序和使用者，并且提供的数据取决于已消耗的数据时，没有创建会导致无限循环 Web 部件控件之间的连接的可能性。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These loops are called circular connections.</source>
+          <target state="translated">这些循环称为循环的连接。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A developer can prevent a circular connection by using the WebPartTracker class to track the number of connections for a provider connection point and a Web Parts control.</source>
+          <target state="translated">开发人员可以通过使用 WebPartTracker 类来跟踪提供程序连接点和 Web 部件控件的连接数防止循环的连接。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The provider connection point and the control are specified in the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTracker.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">在指定的提供程序连接点和控件&lt;xref:System.Web.UI.WebControls.WebParts.WebPartTracker.%23ctor%2A&gt;构造函数。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTracker.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If a circular connection is detected, the WebPartTracker object sets the &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.ConnectErrorMessage%2A?displayProperty=fullName&gt; property on the provider Web Parts control.</source>
+          <target state="translated">如果检测到循环的连接，则会将设置 WebPartTracker 对象&lt;xref:System.Web.UI.WebControls.WebParts.WebPart.ConnectErrorMessage%2A?displayProperty=fullName&gt;上 Web 部件控件的提供程序的属性。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.ConnectErrorMessage%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTracker.IsCircularConnection%2A&gt; property will return <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.WebPartTracker.IsCircularConnection%2A&gt;属性将返回<ph id="ph1">`true`</ph>。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTracker.IsCircularConnection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartTracker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartTracker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The control to track for circular connections.</source>
+          <target state="translated">要跟踪的循环连接的控件。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The connection point used with <ph id="ph1">`webPart`</ph>.</source>
+          <target state="translated">与使用的连接点<ph id="ph1">`webPart`</ph>。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;webPart&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;providerConnectionPoint&lt;/code&gt;</ph> is not provided.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;webPart&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;providerConnectionPoint&lt;/code&gt;</ph>未提供。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerConnectionPoint&lt;/code&gt;</ph> is not a valid type.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerConnectionPoint&lt;/code&gt;</ph>不是有效类型。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether a provider connection point is involved in more than one connection with a Web Parts control.</source>
+          <target state="translated">获取一个值，该值指示提供程序连接点是否涉及在与 Web 部件控件的多个连接。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the provider connection point is used in more than one connection with the Web Parts control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果提供程序连接点，用于与 Web 部件控件; 的多个连接否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</source>
+          <target state="translated">执行与释放或重置非托管的资源关联的应用程序定义的任务。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.IDisposable.Dispose%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.IDisposable.Dispose%2A?displayProperty=fullName&gt;。&lt;/xref:System.IDisposable.Dispose%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

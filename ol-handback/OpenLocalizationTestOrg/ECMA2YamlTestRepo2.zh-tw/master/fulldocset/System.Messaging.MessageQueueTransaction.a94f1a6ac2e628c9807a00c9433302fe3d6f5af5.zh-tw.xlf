@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">99f7fd01ed185424160e7ef9e3460c98d01ceada</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.MessageQueueTransaction.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">19e477193aba95a235af738dcbd4fd27adf2d249</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e43dbd96f8dd40b5883f6c11e03d22dd2b1525fd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a Message Queuing internal transaction.</source>
+          <target state="translated">提供訊息佇列內部交易。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To send or receive a message as part of a transaction, you can use the MessageQueueTransaction class to create a transaction and pass it to an overload of the &lt;xref:System.Messaging.MessageQueue.Send%2A?displayProperty=fullName&gt; method or the &lt;xref:System.Messaging.MessageQueue.Receive%2A?displayProperty=fullName&gt; method that takes a <ph id="ph1">`transaction`</ph> parameter.</source>
+          <target state="translated">若要傳送或接收訊息的交易的一部份，您可以使用 MessageQueueTransaction 類別建立的交易，並將它傳遞給的多載&lt;xref:System.Messaging.MessageQueue.Send%2A?displayProperty=fullName&gt;方法或&lt;xref:System.Messaging.MessageQueue.Receive%2A?displayProperty=fullName&gt;採用方法<ph id="ph1">`transaction`</ph>參數。&lt;/xref:System.Messaging.MessageQueue.Receive%2A?displayProperty=fullName&gt; &lt;/xref:System.Messaging.MessageQueue.Send%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Messages sent as part of a transaction must be sent to transactional queues.</source>
+          <target state="translated">當做交易之一部分傳送的訊息必須傳送至交易式佇列。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Messages received from transactional queues must be received using a specified transaction.</source>
+          <target state="translated">使用指定的交易必須接收從交易式佇列接收訊息。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In addition to the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, you can receive messages with a specified identifier or specified correlation identifier.</source>
+          <target state="translated">除了&lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;方法，您可以接收訊息與指定的識別項或指定的相互關聯識別項。&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Messaging.MessageQueue.ReceiveById%2A&gt; and &lt;xref:System.Messaging.MessageQueue.ReceiveByCorrelationId%2A&gt; methods for more information about selectively receiving messages from transactional queues.</source>
+          <target state="translated">請參閱&lt;xref:System.Messaging.MessageQueue.ReceiveById%2A&gt;和&lt;xref:System.Messaging.MessageQueue.ReceiveByCorrelationId%2A&gt;選擇性地從交易式佇列接收訊息的詳細資訊的方法。&lt;/xref:System.Messaging.MessageQueue.ReceiveByCorrelationId%2A&gt; &lt;/xref:System.Messaging.MessageQueue.ReceiveById%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Messages sent to transactional queues are removed if the transaction is committed.</source>
+          <target state="translated">如果交易已認可，則會移除傳送至交易式佇列的訊息。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Similarly, messages received from transactional queues are returned to the queue if the transaction is rolled back.</source>
+          <target state="translated">同樣地，從交易式佇列接收的訊息會傳回佇列中，如果交易已回復。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you instantiate a MessageQueueTransaction and pass it to an applicable overload of the &lt;xref:System.Messaging.MessageQueue.Send%2A&gt; method or &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method to send a message to a non-transactional queue or receive a message from a non-transactional queue, the method throws an exception that indicates "Wrong Transaction Usage."</source>
+          <target state="translated">如果您 MessageQueueTransaction 具現化，並將它傳遞至適用於多載的&lt;xref:System.Messaging.MessageQueue.Send%2A&gt;方法或&lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;方法傳送至非交易式佇列的訊息或接收來自非交易式佇列，該方法的訊息會擲回的例外狀況，指出 「 錯誤用法交易 」。&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt; &lt;/xref:System.Messaging.MessageQueue.Send%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>[Visual Basic]       MessageQueueTransaction is threading apartment aware, so if your apartment state is <ph id="ph1">`STA`</ph>, you cannot use the transaction in multiple threads.</source>
+          <target state="translated">[Visual Basic]      MessageQueueTransaction 執行緒 apartment 感知的功能，因此，如果已 apartment 狀態<ph id="ph1">`STA`</ph>，您無法使用多個執行緒中的交易。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Visual Basic sets the state of the main thread to <ph id="ph1">`STA`</ph>, so you must apply the &lt;xref:System.MTAThreadAttribute&gt; in the <ph id="ph2">`Main`</ph> subroutine.</source>
+          <target state="translated">Visual Basic 會將主執行緒的狀態<ph id="ph1">`STA`</ph>，因此您必須先套用&lt;xref:System.MTAThreadAttribute&gt;中<ph id="ph2">`Main`</ph>副程式。&lt;/xref:System.MTAThreadAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Otherwise, sending a transactional message using another thread throws a &lt;xref:System.Messaging.MessageQueueException&gt; exception.</source>
+          <target state="translated">否則，傳送異動式訊息，使用另一個執行緒就會擲回&lt;xref:System.Messaging.MessageQueueException&gt;例外狀況。&lt;/xref:System.Messaging.MessageQueueException&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You apply the &lt;xref:System.MTAThreadAttribute&gt; by using the following fragment.</source>
+          <target state="translated">您套用&lt;xref:System.MTAThreadAttribute&gt;使用下列的片段。&lt;/xref:System.MTAThreadAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;System.MTAThreadAttribute&gt;    public sub Main()   ```</ph>      <ph id="ph2">```vb#      ```</ph></source>
+          <target state="translated"><ph id="ph1">```   &lt;System.MTAThreadAttribute&gt;    public sub Main()   ```</ph>      <ph id="ph2">```vb#      ```</ph></target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This constructor sets the &lt;xref:System.Messaging.MessageQueueTransaction.Status%2A&gt; property to <ph id="ph1">`Initialized`</ph>.</source>
+          <target state="translated">這個建構函式設定&lt;xref:System.Messaging.MessageQueueTransaction.Status%2A&gt;屬性<ph id="ph1">`Initialized`</ph>。&lt;/xref:System.Messaging.MessageQueueTransaction.Status%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Rolls back the pending internal transaction.</source>
+          <target state="translated">復原暫止的內部交易。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Abort marks the unsuccessful completion of a process begun at a call to &lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;.</source>
+          <target state="translated">中止標示&lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;.&lt;/xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;呼叫處開始的程序沒有成功完成</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Typically, one makes a call to &lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt; within a <ph id="ph1">`Try...Catch`</ph> exception-handling block, putting a call to &lt;xref:System.Messaging.MessageQueueTransaction.Commit%2A&gt; in the <ph id="ph2">`Try`</ph> clause, and a call to Abort in the <ph id="ph3">`Catch`</ph> clause.</source>
+          <target state="translated">一般而言，一個會呼叫&lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;內<ph id="ph1">`Try...Catch`</ph>例外狀況處理區塊中，將呼叫&lt;xref:System.Messaging.MessageQueueTransaction.Commit%2A&gt;中<ph id="ph2">`Try`</ph>子句，而且在中止呼叫<ph id="ph3">`Catch`</ph>子句。&lt;/xref:System.Messaging.MessageQueueTransaction.Commit%2A&gt; &lt;/xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Abort rolls back the entire transaction.</source>
+          <target state="translated">中止回復整個交易。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This includes all messages sent or received after the call to &lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;.</source>
+          <target state="translated">這包括傳送或接收至&lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;。&lt;/xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;呼叫之後的所有訊息</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The internal transaction you are attempting to roll back has not started.</source>
+          <target state="translated">您嘗試復原的內部交易尚未啟動。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An internal Message Queuing error occurs.</source>
+          <target state="translated">將內部訊息佇列發生錯誤。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Begins a new Message Queuing internal transaction.</source>
+          <target state="translated">開始新的訊息佇列內部交易。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Begin marks the start of processing that will be committed or rolled back, depending on the success of the transaction.</source>
+          <target state="translated">開始會認可或回復，根據成功的交易處理的開始標記。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If an exception occurs during processing, the entire transaction is rolled back.</source>
+          <target state="translated">如果在處理期間發生例外狀況，會回復整個交易。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This includes all messages sent or received after the call to Begin.</source>
+          <target state="translated">這包括所有的訊息傳送或接收 Begin 呼叫之後。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Typically, one makes a call to Begin within a <ph id="ph1">`Try...Catch`</ph> exception-handling block, putting a call to &lt;xref:System.Messaging.MessageQueueTransaction.Commit%2A&gt; in the <ph id="ph2">`Try`</ph> clause, and a call to &lt;xref:System.Messaging.MessageQueueTransaction.Abort%2A&gt; in the <ph id="ph3">`Catch`</ph> clause.</source>
+          <target state="translated">一般而言，其中一個會呼叫內開始<ph id="ph1">`Try...Catch`</ph>例外狀況處理區塊中，將呼叫&lt;xref:System.Messaging.MessageQueueTransaction.Commit%2A&gt;中<ph id="ph2">`Try`</ph>子句，而呼叫&lt;xref:System.Messaging.MessageQueueTransaction.Abort%2A&gt;中<ph id="ph3">`Catch`</ph>子句。&lt;/xref:System.Messaging.MessageQueueTransaction.Abort%2A&gt; &lt;/xref:System.Messaging.MessageQueueTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The transaction has already been started.</source>
+          <target state="translated">已啟動交易。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An internal Message Queuing error occurs.</source>
+          <target state="translated">將內部訊息佇列發生錯誤。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Commits a pending internal transaction.</source>
+          <target state="translated">認可擱置中的內部交易。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Commit marks the successful completion of processing begun at a call to &lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;.</source>
+          <target state="translated">認可標示&lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;.&lt;/xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;呼叫處開始處理成功完成</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If an exception occurs between the call the &lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt; and the call to Commit, the entire transaction is rolled back.</source>
+          <target state="translated">如果發生例外狀況的呼叫之間&lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;且認可的呼叫，整個交易都會回復。&lt;/xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This includes all messages sent or received after the call to &lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;.</source>
+          <target state="translated">這包括傳送或接收至&lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;。&lt;/xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;呼叫之後的所有訊息</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Typically, one makes a call to &lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt; within a <ph id="ph1">`Try...Catch`</ph> exception-handling block, putting a call to Commit in the <ph id="ph2">`Try`</ph> clause, and a call to &lt;xref:System.Messaging.MessageQueueTransaction.Abort%2A&gt; in the <ph id="ph3">`Catch`</ph> clause.</source>
+          <target state="translated">一般而言，一個會呼叫&lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;內<ph id="ph1">`Try...Catch`</ph>例外狀況處理區塊中，放在認可呼叫<ph id="ph2">`Try`</ph>子句，而呼叫&lt;xref:System.Messaging.MessageQueueTransaction.Abort%2A&gt;中<ph id="ph3">`Catch`</ph>子句。&lt;/xref:System.Messaging.MessageQueueTransaction.Abort%2A&gt; &lt;/xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The transaction you are trying to commit has not started.</source>
+          <target state="translated">您嘗試認可的交易尚未啟動。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An internal Message Queuing error occurs.</source>
+          <target state="translated">將內部訊息佇列發生錯誤。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">所使用的資源全部釋出<bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Calling Dispose allows the resources used by the &lt;xref:System.Messaging.MessageQueueTransaction&gt; to be reallocated for other purposes.</source>
+          <target state="translated">呼叫 Dispose 允許所使用的資源&lt;xref:System.Messaging.MessageQueueTransaction&gt;都重新配置用於其他用途。&lt;/xref:System.Messaging.MessageQueueTransaction&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For more information about <ph id="ph1">`Dispose`</ph>, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需有關<ph id="ph1">`Dispose`</ph>，請參閱<bpt id="p1">[</bpt>清除 Unmanaged 資源上<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Any pending internal transactions are rolled back by Dispose.</source>
+          <target state="translated">任何暫止的內部交易都回復處置。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">所使用的 unmanaged 的資源釋出<bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>並選擇性釋放 managed 的資源。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This method is called by the public &lt;xref:System.Messaging.MessageQueueTransaction.Dispose%2A&gt; method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">這個方法會呼叫公用&lt;xref:System.Messaging.MessageQueueTransaction.Dispose%2A&gt;方法和&lt;xref:System.Object.Finalize%2A&gt;方法。&lt;/xref:System.Object.Finalize%2A&gt; &lt;/xref:System.Messaging.MessageQueueTransaction.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose`</ph>叫用受保護<ph id="ph2">`Dispose(Boolean)`</ph>方法<ph id="ph3">`disposing`</ph>參數設定為<ph id="ph4">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;叫用<ph id="ph1">`Dispose`</ph>與<ph id="ph2">`disposing`</ph>設<ph id="ph3">`false`</ph>。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.Messaging.MessageQueueTransaction&gt; references.</source>
+          <target state="translated">當<ph id="ph1">`disposing`</ph>參數是<ph id="ph2">`true`</ph>，這個方法的任何 managed 物件所持有的資源全部釋出這個&lt;xref:System.Messaging.MessageQueueTransaction&gt;參考。&lt;/xref:System.Messaging.MessageQueueTransaction&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose`</ph> method of each referenced object.</source>
+          <target state="translated">這個方法會叫用<ph id="ph1">`Dispose`</ph>每個參考物件的方法。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示釋放 managed 和 unmanaged 資源，<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示只釋放 unmanaged 的資源。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Releases the resources held by the current instance.</source>
+          <target state="translated">釋放目前的執行個體所持有的資源。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This method overrides &lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">這個方法會覆寫&lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt;.&lt;/xref:System.Object.Finalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Application code should not call this method; an object's Finalize method is automatically invoked during garbage collection, unless finalization by the garbage collector has been disabled by a call to the &lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">應用程式程式碼不應該呼叫這個方法。物件的 Finalize 方法會自動叫用記憶體回收期間，除非已停用記憶體回收行程的最終處理的呼叫所&lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Finalize Methods and Destructors<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>, <bpt id="p2">[</bpt>Cleaning Up Unmanaged Resources<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, and <bpt id="p3">[</bpt>Overriding the Finalize Method<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>Finalize 方法和解構函式<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>，<bpt id="p2">[</bpt>清除 Unmanaged 資源上<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>，和<bpt id="p3">[</bpt>覆寫 Finalize 方法<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets the status of the transaction.</source>
+          <target state="translated">取得交易的狀態。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>When an instance of the &lt;xref:System.Messaging.MessageQueueTransaction&gt; class has been created, the Status is set by the constructor to <ph id="ph1">`Initialized`</ph>.</source>
+          <target state="translated">執行個體時&lt;xref:System.Messaging.MessageQueueTransaction&gt;已建立類別，建構函式來設定狀態<ph id="ph1">`Initialized`</ph>。&lt;/xref:System.Messaging.MessageQueueTransaction&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>After a call to &lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt; but before a call to &lt;xref:System.Messaging.MessageQueueTransaction.Commit%2A&gt; or &lt;xref:System.Messaging.MessageQueueTransaction.Abort%2A&gt;, the Status is <ph id="ph1">`Pending`</ph>.</source>
+          <target state="translated">呼叫之後&lt;xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;之前呼叫，但&lt;xref:System.Messaging.MessageQueueTransaction.Commit%2A&gt;或&lt;xref:System.Messaging.MessageQueueTransaction.Abort%2A&gt;，狀態是  <ph id="ph1">`Pending`</ph>。&lt;/xref:System.Messaging.MessageQueueTransaction.Abort%2A&gt; &lt;/xref:System.Messaging.MessageQueueTransaction.Commit%2A&gt; &lt;/xref:System.Messaging.MessageQueueTransaction.Begin%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransactionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates whether the transaction has been committed, aborted, initialized, or is pending.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Messaging.MessageQueueTransactionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指出是否在交易已認可，中止時，初始化，或已暫止。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
