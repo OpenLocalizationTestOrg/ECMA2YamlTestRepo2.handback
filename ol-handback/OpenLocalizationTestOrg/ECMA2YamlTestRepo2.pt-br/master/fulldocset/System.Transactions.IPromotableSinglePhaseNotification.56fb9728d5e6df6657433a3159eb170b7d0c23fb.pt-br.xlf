@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1a37ed5151ab774f4af8254a8f357a3968590fcc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.IPromotableSinglePhaseNotification.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">09fc049275a05d83f04e84cd86196fcf6d8eff4a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bafc1aa6f3fb4c644475d0cb8d8d3fdb30a0c779</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Describes an object that acts as a commit delegate for a non-distributed transaction internal to a resource manager.</source>
+          <target state="translated">Descreve um objeto que atua como um representante de confirmação de uma transação distribuída não interno para um Gerenciador de recursos.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Promotable Enlistments (PSPE) allow a resource, such as a database, to take ownership of the transaction if it is the only entity participating in the transaction.</source>
+          <target state="translated">Inscrições passível de promoção (PSPE) permitem que um recurso, como um banco de dados para se apropriar da transação se for a única entidade participando da transação.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Later, if needed, the &lt;xref:System.Transactions&gt; infrastructure can still escalate the transaction to MSDTC.</source>
+          <target state="translated">Posteriormente, se necessário, o &lt;xref:System.Transactions&gt;infraestrutura ainda pode escalonar a transação MSDTC.&lt;/xref:System.Transactions&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Optimization Using Single Phase Commit and Promotable Single Phase Notification<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>otimização usando única fase de confirmação e notificação de fase única passível de promoção<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A resource manager that implements this interface delegates control of the commit of it's internal non-distributed transaction to an enlistment on a &lt;xref:System.Transactions&gt; transaction through the &lt;xref:System.Transactions.Transaction.EnlistPromotableSinglePhase%2A&gt; method on the &lt;xref:System.Transactions.Transaction&gt; class.</source>
+          <target state="translated">Um Gerenciador de recursos que implementa essa interface delega o controle da confirmação da sua não distribuídos transação interna para uma inscrição em uma &lt;xref:System.Transactions&gt;transação por meio do &lt;xref:System.Transactions.Transaction.EnlistPromotableSinglePhase%2A&gt;método de &lt;xref:System.Transactions.Transaction&gt;classe.&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Transactions.Transaction.EnlistPromotableSinglePhase%2A&gt; &lt;/xref:System.Transactions&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Transactions.ITransactionPromoter.Promote%2A?displayProperty=fullName&gt; method is called, your implementation of this interface must produce a distributed transaction in the form of a propagation token, and return it to &lt;xref:System.Transactions&gt;.</source>
+          <target state="translated">Se o &lt;xref:System.Transactions.ITransactionPromoter.Promote%2A?displayProperty=fullName&gt;método é chamado, sua implementação desta interface deve produzir uma transação distribuída na forma de um token de propagação e retorná-la para &lt;xref:System.Transactions&gt;.&lt;/xref:System.Transactions&gt; &lt;/xref:System.Transactions.ITransactionPromoter.Promote%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you enlist an object that implements this interface as a participant of a transaction using the &lt;xref:System.Transactions.Transaction.EnlistPromotableSinglePhase%2A&gt; method, the transaction manager then notifies the participant when the transaction is promoted, committed, or rolled back by invoking the &lt;xref:System.Transactions.ITransactionPromoter.Promote%2A&gt; method, the &lt;xref:System.Transactions.IPromotableSinglePhaseNotification.SinglePhaseCommit%2A&gt; method, or the &lt;xref:System.Transactions.IPromotableSinglePhaseNotification.Rollback%2A&gt; method of the object.</source>
+          <target state="translated">Depois que você se inscrever em um objeto que implementa essa interface como um participante de uma transação usando o &lt;xref:System.Transactions.Transaction.EnlistPromotableSinglePhase%2A&gt;método, o Gerenciador de transações notifica o participante quando a transação é promovida, confirmada ou revertida ao chamar o &lt;xref:System.Transactions.ITransactionPromoter.Promote%2A&gt;método, o &lt;xref:System.Transactions.IPromotableSinglePhaseNotification.SinglePhaseCommit%2A&gt;método, ou o &lt;xref:System.Transactions.IPromotableSinglePhaseNotification.Rollback%2A&gt;método do objeto.&lt;/xref:System.Transactions.IPromotableSinglePhaseNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IPromotableSinglePhaseNotification.SinglePhaseCommit%2A&gt; &lt;/xref:System.Transactions.ITransactionPromoter.Promote%2A&gt; &lt;/xref:System.Transactions.Transaction.EnlistPromotableSinglePhase%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Optimization Using Single Phase Commit and Promotable Single Phase Notification<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>otimização usando única fase de confirmação e notificação de fase única passível de promoção<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Notifies a transaction participant that enlistment has completed successfully.</source>
+          <target state="translated">Notifica um participante da transação que a inscrição foi concluída com êxito.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If initialization logic is required to prepare an enlisted object to participate in a transaction, it is preferable to implement that logic in this method instead of in a constructor.</source>
+          <target state="translated">Se a lógica de inicialização é necessária para preparar um objeto inscrito para participar de uma transação, é preferível para implementar essa lógica nesse método, em vez de em um construtor.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this way, the initialization occurs only if the object is successfully enlisted as a transaction participant.</source>
+          <target state="translated">Dessa forma, a inicialização ocorre somente se o objeto com êxito é inscrita como um participante da transação.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>An attempt to enlist or serialize a transaction.</source>
+          <target state="translated">Uma tentativa de se inscrever ou serializar uma transação.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Notifies an enlisted object that the transaction is being rolled back.</source>
+          <target state="translated">Notifica um objeto inscrito que a transação está sendo revertida.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On receiving this notification, the PSPE should always rollback it's internal transaction and then reply with the &lt;xref:System.Transactions.SinglePhaseEnlistment.Aborted%2A&gt; callback method on the <ph id="ph1">`singlePhaseEnlistment`</ph> parameter.</source>
+          <target state="translated">Ao receber esta notificação, o PSPE deve sempre reversão é transação interna e, em seguida, responder com o &lt;xref:System.Transactions.SinglePhaseEnlistment.Aborted%2A&gt;método de retorno de chamada no <ph id="ph1">`singlePhaseEnlistment`</ph> parâmetro.&lt;/xref:System.Transactions.SinglePhaseEnlistment.Aborted%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the PSPE replies with  &lt;xref:System.Transactions.SinglePhaseEnlistment.Committed%2A&gt; or &lt;xref:System.Transactions.SinglePhaseEnlistment.InDoubt%2A&gt;, an &lt;xref:System.InvalidOperationException&gt; is thrown from the callback.</source>
+          <target state="translated">Se o PSPE responde com &lt;xref:System.Transactions.SinglePhaseEnlistment.Committed%2A&gt;ou &lt;xref:System.Transactions.SinglePhaseEnlistment.InDoubt%2A&gt;, uma &lt;xref:System.InvalidOperationException&gt;é gerada no retorno de chamada.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Transactions.SinglePhaseEnlistment.InDoubt%2A&gt; &lt;/xref:System.Transactions.SinglePhaseEnlistment.Committed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to send a response to the transaction manager.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto usado para enviar uma resposta para o Gerenciador de transações.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Notifies an enlisted object that the transaction is being committed.</source>
+          <target state="translated">Notifica um inscrita objeto que a transação está sendo confirmada.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method notifies an enlisted object that the transaction is to be committed.</source>
+          <target state="translated">Este método notifica um objeto inscrito que a transação é confirmada.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`singlePhaseEnlistment`</ph> parameters contain callbacks that allow the implementation of this interface to notify the transaction manager of the outcome of the transaction, since the transaction manager has delegated control of the transaction.</source>
+          <target state="translated">O <ph id="ph1">`singlePhaseEnlistment`</ph> parâmetros conter retornos de chamada que permitem a implementação dessa interface para notificar a transação Gerenciador do resultado da transação, pois o Gerenciador de transações tenha recebido controle da transação.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of a promoted transaction, the transaction manager listens to the transaction outcome and overrides the response being sent.</source>
+          <target state="translated">No caso de uma transação promovida, o Gerenciador de transações escuta para o resultado da transação e substitui a resposta sendo enviada.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On receiving this notification, the resource manager should attempt to commit it's internal transaction (or the distributed transaction if it has been escalated), and invoke one of the callback methods on the <ph id="ph1">`singlePhaseEnlistment`</ph> parameter based on the outcome of committing it's transaction.</source>
+          <target state="translated">Ao receber esta notificação, o Gerenciador de recursos deve tentar confirmar sua transação interna (ou a transação distribuída se ela for escalonada) e chame um dos métodos de retorno de chamada no <ph id="ph1">`singlePhaseEnlistment`</ph> parâmetro com base no resultado da confirmação de transação de TI.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface used to send a response to the transaction manager.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interface usada para enviar uma resposta para o Gerenciador de transações.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

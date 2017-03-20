@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8726a92759c697345e37daf2a6c047e116443cbd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceProcess.ServiceController.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e1f55d6ddab357c6d46a00e1cbe4f84aaf19673</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e908aa01071028bf42f34ded53086d90a1e6aed0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a Windows service and allows you to connect to a running or stopped service, manipulate it, or get information about it.</source>
+          <target state="translated">Representa um serviço do Windows e permite que você se conectar a um serviço em execução ou parado, manipulá-los ou obter informações sobre ele.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the ServiceController class to connect to and control the behavior of existing services.</source>
+          <target state="translated">Você pode usar a classe ServiceController para conectar e controlar o comportamento de serviços existentes.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of the ServiceController class, you set its properties so it interacts with a specific Windows service.</source>
+          <target state="translated">Quando você cria uma instância da classe ServiceController, defina suas propriedades para interagir com um serviço específico do Windows.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then use the class to start, stop, and otherwise manipulate the service.</source>
+          <target state="translated">Você pode usar a classe para iniciar, parar e manipular o serviço.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will most likely use the ServiceController component in an administrative capacity.</source>
+          <target state="translated">Você provavelmente usará o componente ServiceController uma capacidade administrativa.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you could create a Windows or Web application that sends custom commands to a service through the ServiceController instance.</source>
+          <target state="translated">Por exemplo, você pode criar um aplicativo Web ou do Windows que envia comandos personalizados para um serviço até a instância ServiceController.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This would be useful, because the Service Control Manager (SCM) Microsoft Management Console snap-in does not support custom commands.</source>
+          <target state="translated">Isso pode ser útil, porque o snap-in MMC do Gerenciador de controle de serviços (SCM) não oferece suporte a comandos personalizados.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you create an instance of ServiceController, you must set two properties on it to identify the service with which it interacts: the computer name and the name of the service you want to control.</source>
+          <target state="translated">Depois de criar uma instância do ServiceController, você deve definir duas propriedades nele para identificar o serviço com a qual ele interage: o nome do computador e o nome do serviço que você deseja controlar.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  By default, &lt;xref:System.ServiceProcess.ServiceController.MachineName%2A&gt; is set to the local computer, so you do not need to change it unless you want to set the instance to point to another computer.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Por padrão, &lt;xref:System.ServiceProcess.ServiceController.MachineName%2A&gt;é definido para o computador local, então não é necessário alterá-la, a menos que você deseja definir a instância para apontar para outro computador.&lt;/xref:System.ServiceProcess.ServiceController.MachineName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generally, the service author writes code that customizes the action associated with a specific command.</source>
+          <target state="translated">Em geral, o autor do serviço escreve um código que personaliza a ação associada a um comando específico.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a service can contain code to respond to an &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A?displayProperty=fullName&gt; command.</source>
+          <target state="translated">Por exemplo, um serviço pode conter código para responder a um &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A?displayProperty=fullName&gt;comando.&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the custom processing for the &lt;xref:System.ServiceProcess.ServiceController.Pause%2A&gt; task runs before the system pauses the service.</source>
+          <target state="translated">Nesse caso, o processamento personalizado para o &lt;xref:System.ServiceProcess.ServiceController.Pause%2A&gt;tarefa é executada antes do sistema pausa o serviço.&lt;/xref:System.ServiceProcess.ServiceController.Pause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of commands a service can process depends on its properties; for example, you can set the &lt;xref:System.ServiceProcess.ServiceController.CanStop%2A&gt; property for a service to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">O conjunto de comandos que pode processar um serviço depende de suas propriedades. Por exemplo, você pode definir o &lt;xref:System.ServiceProcess.ServiceController.CanStop%2A&gt;propriedade para um serviço <ph id="ph1">`false`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.CanStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This setting renders the <ph id="ph1">`Stop`</ph> command unavailable on that particular service; it prevents you from stopping the service from the SCM by disabling the necessary button.</source>
+          <target state="translated">Essa configuração processa o <ph id="ph1">`Stop`</ph> comando disponível naquele serviço específico; ela impede que você parar o serviço do SCM desativando o botão necessário.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you try to stop the service from your code, the system raises an error and displays the error message "Failed to stop <ph id="ph1">`servicename`</ph>."</source>
+          <target state="translated">Se você tentar interromper o serviço do seu código, o sistema gera um erro e exibe a mensagem de erro "Falha ao parar <ph id="ph1">`servicename`</ph>."</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that is not associated with a specific service.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe que não está associado um serviço específico.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that is associated with an existing service on the local computer.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe que está associado um serviço existente no computador local.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name that identifies the service to the system.</source>
+          <target state="translated">O nome que identifica o serviço no sistema.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This can also be the display name for the service.</source>
+          <target state="translated">Isso também pode ser o nome de exibição para o serviço.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>não é válido.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that is associated with an existing service on the specified computer.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe que está associado um serviço existente no computador especificado.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the <ph id="ph1">`machineName`</ph> parameter, you can use "." to represent the local computer.</source>
+          <target state="translated">Para o <ph id="ph1">`machineName`</ph> parâmetro, você pode usar "." para representar o computador local.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The name that identifies the service to the system.</source>
+          <target state="translated">O nome que identifica o serviço no sistema.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This can also be the display name for the service.</source>
+          <target state="translated">Isso também pode ser o nome de exibição para o serviço.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The computer on which the service resides.</source>
+          <target state="translated">O computador no qual o serviço reside.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>não é válido.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;machineName&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated">- ou - <ph id="ph1">&lt;code&gt;machineName&lt;/code&gt;</ph> é inválido.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the service can be paused and resumed.</source>
+          <target state="translated">Obtém um valor que indica se o serviço pode ser pausado e retomado.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can be paused; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o serviço pode ser pausado; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the service should be notified when the system is shutting down.</source>
+          <target state="translated">Obtém um valor que indica se o serviço deve ser notificado quando o sistema está sendo desligado.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service should be notified when the system is shutting down; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o serviço deve ser notificado quando o sistema está sendo desligado; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the service can be stopped after it has started.</source>
+          <target state="translated">Obtém um valor que indica se o serviço pode ser interrompido depois que ele foi iniciado.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can be stopped and the &lt;xref:System.ServiceProcess.ServiceBase.OnStop*&gt; method called; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o serviço pode ser interrompido e o &lt;xref:System.ServiceProcess.ServiceBase.OnStop*&gt;método chamado; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop*&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Disconnects this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance from the service and frees all the resources that the instance allocated.</source>
+          <target state="translated">Desconecta isso <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da instância do serviço e libera todos os recursos alocada a instância.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Close releases all the handles associated with the &lt;xref:System.ServiceProcess.ServiceController&gt; instance.</source>
+          <target state="translated">Close libera todos os identificadores associados a &lt;xref:System.ServiceProcess.ServiceController&gt;instância.&lt;/xref:System.ServiceProcess.ServiceController&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Continues a service after it has been paused.</source>
+          <target state="translated">Continua um serviço depois que ele foi pausado.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call Continue for a service, its status is first changed to <ph id="ph1">`ContinuePending`</ph> and then, when the Continue method returns, it is changed to <ph id="ph2">`Running`</ph>.</source>
+          <target state="translated">Quando você chama continuar para um serviço, seu status é alterado pela primeira vez para <ph id="ph1">`ContinuePending`</ph> e, em seguida, quando o método Continue retorna, ele é alterado para <ph id="ph2">`Running`</ph>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call Continue for the service until the service controller status is <ph id="ph1">`Paused`</ph>.</source>
+          <target state="translated">Não é possível chamar continuar para o serviço até que o status do controlador de serviço é <ph id="ph1">`Paused`</ph>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the set of services that depends on the service associated with this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Obtém o conjunto de serviços que depende do serviço associado a esta <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DependentServices array represents the services that the system stops if your application calls &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt; for this service.</source>
+          <target state="translated">A matriz DependentServices representa os serviços que o sistema é interrompido se o aplicativo chama &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt;para este serviço.&lt;/xref:System.ServiceProcess.ServiceController.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances, each of which is associated with a service that depends on this service.</source>
+          <target state="translated">Uma matriz de <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instâncias, cada um deles está associada um serviço que depende desse serviço.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets a friendly name for the service.</source>
+          <target state="translated">Obtém ou define um nome amigável para o serviço.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the DisplayName to an empty string (""), but setting the property to <ph id="ph1">`null`</ph> throws an exception.</source>
+          <target state="translated">Você pode definir o DisplayName para uma cadeia de caracteres vazia (""), mas a configuração da propriedade como <ph id="ph1">`null`</ph> lança uma exceção.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The friendly name of the service, which can be used to identify the service.</source>
+          <target state="translated">O nome amigável do serviço, que pode ser usado para identificar o serviço.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The DisplayName is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">É o DisplayName <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Libera os recursos não gerenciados usados pelo <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> e, opcionalmente, libera os recursos gerenciados.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph>method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Este método é chamado pelo público <ph id="ph1">`Dispose()`</ph>método e o &lt;xref:System.Object.Finalize%2A&gt;método.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>invoca o protegido <ph id="ph2">`Dispose(Boolean)`</ph> método com o <ph id="ph3">`disposing`</ph> parâmetro definido como <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;invoca <ph id="ph1">`Dispose`</ph> com <ph id="ph2">`disposing`</ph> definido como <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ServiceProcess.ServiceController&gt; references.</source>
+          <target state="translated">Quando o <ph id="ph1">`disposing`</ph> parâmetro for true, este método libera todos os recursos mantidos por qualquer objeto gerenciado que este &lt;xref:System.ServiceProcess.ServiceController&gt;referências.&lt;/xref:System.ServiceProcess.ServiceController&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Este método chama o <ph id="ph1">`Dispose()`</ph> método de cada objeto referenciado.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para liberar recursos gerenciados e não gerenciados; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para liberar apenas recursos não gerenciados.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Executes a custom command on the service.</source>
+          <target state="translated">Executa um comando personalizado no serviço.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call ExecuteCommand, the status of the service does not change.</source>
+          <target state="translated">Quando você chama ExecuteCommand, não altera o status do serviço.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service was started, the status remains <ph id="ph1">`Running`</ph>.</source>
+          <target state="translated">Se o serviço foi iniciado, o status permanece <ph id="ph1">`Running`</ph>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service was stopped, the status remains <ph id="ph1">`Stopped`</ph>, and so on.</source>
+          <target state="translated">Se o serviço foi interrompido, o status permanece <ph id="ph1">`Stopped`</ph>, e assim por diante.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To process the custom command, the service must override the &lt;xref:System.ServiceProcess.ServiceBase.OnCustomCommand%2A&gt; method and provide a handler for the command identified by the <ph id="ph1">`command`</ph> parameter.</source>
+          <target state="translated">Para processar o comando personalizado, o serviço deve substituir o &lt;xref:System.ServiceProcess.ServiceBase.OnCustomCommand%2A&gt;método e fornecer um manipulador para o comando identificado pelo <ph id="ph1">`command`</ph> parâmetro.&lt;/xref:System.ServiceProcess.ServiceBase.OnCustomCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An application-defined command flag that indicates which custom command to execute.</source>
+          <target state="translated">Um sinalizador de comando definido pelo aplicativo que indica qual comando personalizado a ser executado.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The value must be between 128 and 256, inclusive.</source>
+          <target state="translated">O valor deve estar entre 128 e 256, inclusive.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Retrieves the device driver services on the local computer.</source>
+          <target state="translated">Recupera os serviços do driver de dispositivo no computador local.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetDevices returns only the device driver services from the local computer.</source>
+          <target state="translated">GetDevices retorna somente o dispositivo serviços de driver do computador local.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve the non-device driver services or services that are not drivers, call the &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt; method.</source>
+          <target state="translated">Para recuperar os serviços de driver de dispositivo não ou serviços que não são drivers, chame o &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;método.&lt;/xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">Juntos, os dois métodos fornecem acesso a todos os serviços em um computador.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a device driver service on the local computer.</source>
+          <target state="translated">Uma matriz do tipo <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> no qual cada elemento é associado um serviço de driver de dispositivo no computador local.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Retrieves the device driver services on the specified computer.</source>
+          <target state="translated">Recupera os serviços do driver de dispositivo no computador especificado.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt; returns only the device driver services from the specified computer.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;Retorna somente o dispositivo serviços de driver do computador especificado.&lt;/xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve the non-device driver services or services that are not drivers, call the &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt; method.</source>
+          <target state="translated">Para recuperar os serviços de driver de dispositivo não ou serviços que não são drivers, chame o &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;método.&lt;/xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">Juntos, os dois métodos fornecem acesso a todos os serviços em um computador.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The computer from which to retrieve the device driver services.</source>
+          <target state="translated">O computador do qual recuperar os serviços de driver de dispositivo.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a device driver service on the specified computer.</source>
+          <target state="translated">Uma matriz do tipo <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> no qual cada elemento é associado um serviço de driver de dispositivo no computador especificado.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">machineName</ph><ept id="p1">&lt;/code&gt;</ept> parameter has invalid syntax.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">machineName</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro tem sintaxe inválida.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Retrieves all the services on the local computer, except for the device driver services.</source>
+          <target state="translated">Recupera todos os serviços no computador local, exceto para os serviços de driver de dispositivo.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetServices returns only the non-device driver services and the services that are not drivers from the local computer.</source>
+          <target state="translated">GetServices retorna somente os serviços de driver de dispositivo não e os serviços que não são drivers do computador local.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve device driver services, call the &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt; method.</source>
+          <target state="translated">Para recuperar os serviços de driver de dispositivo, chame o &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;método.&lt;/xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">Juntos, os dois métodos fornecem acesso a todos os serviços em um computador.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a service on the local computer.</source>
+          <target state="translated">Uma matriz do tipo <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> no qual cada elemento é associado um serviço no computador local.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Retrieves all the services on the specified computer, except for the device driver services.</source>
+          <target state="translated">Recupera todos os serviços no computador especificado, exceto para os serviços de driver de dispositivo.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt; returns only the non-device driver services and the services that are not drivers from the specified computer.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;Retorna somente os serviços de driver de dispositivo não e os serviços que não são drivers do computador especificado.&lt;/xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve device driver services, call the &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt; method.</source>
+          <target state="translated">Para recuperar os serviços de driver de dispositivo, chame o &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;método.&lt;/xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">Juntos, os dois métodos fornecem acesso a todos os serviços em um computador.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The computer from which to retrieve the services.</source>
+          <target state="translated">O computador do qual recuperar os serviços.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a service on the specified computer.</source>
+          <target state="translated">Uma matriz do tipo <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> no qual cada elemento é associado um serviço no computador especificado.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">machineName</ph><ept id="p1">&lt;/code&gt;</ept> parameter has invalid syntax.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">machineName</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro tem sintaxe inválida.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the computer on which this service resides.</source>
+          <target state="translated">Obtém ou define o nome do computador no qual este serviço reside.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The computer name is the name of the server that is running this service, without the preceding backslash characters (<ph id="ph1">\\</ph><ph id="ph2">\\</ph>).</source>
+          <target state="translated">O nome do computador é o nome do servidor que está executando esse serviço, sem o caractere de barra invertida anterior (<ph id="ph1">\\</ph><ph id="ph2">\\</ph>).</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The name of the computer that is running the service associated with this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">O nome do computador que está executando o serviço associado a esta <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The default is the local computer (".").</source>
+          <target state="translated">O padrão é o computador local (".").</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The MachineName syntax is invalid.</source>
+          <target state="translated">A sintaxe do nome do computador é inválida.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Suspends a service's operation.</source>
+          <target state="translated">Suspende a operação do serviço.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call &lt;xref:System.ServiceProcess.ServiceController.Continue%2A&gt; for the service until the service controller status is <ph id="ph1">`Paused`</ph>.</source>
+          <target state="translated">Não é possível chamar &lt;xref:System.ServiceProcess.ServiceController.Continue%2A&gt;para o serviço até que o status do controlador de serviço é <ph id="ph1">`Paused`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.Continue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Refreshes property values by resetting the properties to their current values.</source>
+          <target state="translated">Atualiza os valores de propriedade, redefinindo as propriedades para seus valores atuais.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Refresh method causes the &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;, &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;, and &lt;xref:System.ServiceProcess.ServiceController.Status%2A&gt; properties to be reset to their current values when they are next referenced.</source>
+          <target state="translated">O método de atualização faz com que o &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;, &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;, e &lt;xref:System.ServiceProcess.ServiceController.Status%2A&gt;propriedades devem ser redefinidos para seus valores atuais quando eles são referenciados em seguida.&lt;/xref:System.ServiceProcess.ServiceController.Status%2A&gt; &lt;/xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt; &lt;/xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Gets the handle for the service.</source>
+          <target state="translated">Obtém o identificador para o serviço.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; that contains the handle for the service.</source>
+          <target state="translated">Um &lt;xref:System.Runtime.InteropServices.SafeHandle&gt;que contém o identificador para o serviço.&lt;/xref:System.Runtime.InteropServices.SafeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name that identifies the service that this instance references.</source>
+          <target state="translated">Obtém ou define o nome que identifica o serviço que faz referência a essa instância.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceName identifies the service to the Service Control Manager.</source>
+          <target state="translated">O ServiceName identifica o serviço para o Gerenciador de controle de serviço.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing this property causes the &lt;xref:System.ServiceProcess.ServiceController&gt; instance to bind to another service, it does not change what the Service Control Manager's Microsoft Management Console snap-in displays.</source>
+          <target state="translated">A alteração dessa propriedade faz com que o &lt;xref:System.ServiceProcess.ServiceController&gt;instância para vincular a outro serviço, ela não altera o que o serviço Gerenciador de controle do Microsoft Management Console snap-in exibe.&lt;/xref:System.ServiceProcess.ServiceController&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are implementing a custom service, the value of this property must be identical to the name recorded for the service in the &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt; property of the corresponding &lt;xref:System.ServiceProcess.ServiceInstaller&gt; class.</source>
+          <target state="translated">Quando você estiver implementando um serviço personalizado, o valor dessa propriedade deve ser idêntico ao nome registrado para o serviço na &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;propriedade do correspondente &lt;xref:System.ServiceProcess.ServiceInstaller&gt;classe.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In code, the ServiceName is usually set in the <ph id="ph1">`main()`</ph> function of the executable.</source>
+          <target state="translated">No código, o ServiceName geralmente é definido <ph id="ph1">`main()`</ph> função do executável.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you reset the ServiceName property, the method that sets the property sets this instance's &lt;xref:System.ServiceProcess.ServiceController.DisplayName%2A&gt; to an empty string ("").</source>
+          <target state="translated">Quando você redefinir a propriedade ServiceName, o método que define a propriedade define esta instância &lt;xref:System.ServiceProcess.ServiceController.DisplayName%2A&gt;uma cadeia de caracteres vazia ("").&lt;/xref:System.ServiceProcess.ServiceController.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The name that identifies the service that this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance references.</source>
+          <target state="translated">O nome que identifica o serviço que este <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> referências de instância.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">O padrão é uma cadeia de caracteres vazia ("").</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The ServiceName is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">É o ServiceName <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The syntax of the ServiceName property is invalid.</source>
+          <target state="translated">A sintaxe da propriedade ServiceName é inválida.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The set of services that this service depends on.</source>
+          <target state="translated">O conjunto de serviços que esse serviço depende.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any service in the ServicesDependedOn array is not running, you will not be able to start this service.</source>
+          <target state="translated">Se qualquer serviço na matriz ServicesDependedOn não está em execução, você não poderá iniciar esse serviço.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances, each of which is associated with a service that must be running for this service to run.</source>
+          <target state="translated">Uma matriz de <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instâncias, cada um deles está associada um serviço que deve estar em execução para esse serviço seja executado.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets the type of service that this object references.</source>
+          <target state="translated">Obtém o tipo de serviço que faz referência a esse objeto.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The service type indicates how the service is used by the system.</source>
+          <target state="translated">O tipo do serviço indica como o serviço é usado pelo sistema.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the ServiceType property represents a set of flags combined using the bitwise OR operator.</source>
+          <target state="translated">O valor da propriedade ServiceType representa um conjunto de sinalizadores combinadas que usam o operador OR bit a bit.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, used to indicate the network service type.</source>
+          <target state="translated">Uma da <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores, usados para indicar o tipo de serviço de rede.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Starts the service, passing no arguments.</source>
+          <target state="translated">Inicia o serviço, não há argumentos de passagem.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt; for the service until the service controller status is <ph id="ph1">`Running`</ph>.</source>
+          <target state="translated">Não é possível chamar &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt;para o serviço até que o status do controlador de serviço é <ph id="ph1">`Running`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Starts a service, passing the specified arguments.</source>
+          <target state="translated">Inicia um serviço, passando os argumentos especificados.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt; for the service until the service controller status is <ph id="ph1">`Running`</ph>.</source>
+          <target state="translated">Não é possível chamar &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt;para o serviço até que o status do controlador de serviço é <ph id="ph1">`Running`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>An array of arguments to pass to the service when it starts.</source>
+          <target state="translated">Uma matriz de argumentos para passar para o serviço quando ele for iniciado.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The service cannot be started.</source>
+          <target state="translated">O serviço não pode ser iniciado.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-or-       A member of the array is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- ou - é um membro da matriz <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates how the service represented by the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object starts.</source>
+          <target state="translated">Obtém um valor que indica como o serviço representado pelo <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto inicia.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>A value that indicates how the service starts.</source>
+          <target state="translated">Um valor que indica como o serviço é iniciado.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Gets the status of the service that is referenced by this instance.</source>
+          <target state="translated">Obtém o status do serviço que é referenciado por essa instância.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The status indicates the current state of the service.</source>
+          <target state="translated">O status indica o estado atual do serviço.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of possible values includes several that indicate whether a state-changing command is pending.</source>
+          <target state="translated">O conjunto de valores possíveis inclui vários que indicam se um comando de alteração de estado está pendente.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates whether the service is running, stopped, or paused, or whether a start, stop, pause, or continue command is pending.</source>
+          <target state="translated">Uma da <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores que indica se o serviço está em execução, parado ou pausado, ou se um Iniciar, parar, pausar ou continuar o comando está pendente.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Stops this service and any services that are dependent on this service.</source>
+          <target state="translated">Interrompe o serviço e todos os serviços que dependem deste serviço.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any services depend on this service for their operation, they will be stopped before this service is stopped.</source>
+          <target state="translated">Se todos os serviços dependem do serviço para sua operação, ele serão interrompidos antes que esse serviço for interrompido.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt; property contains the set of services that depend on this one.</source>
+          <target state="translated">O &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;propriedade contém o conjunto de serviços que dependem deste.&lt;/xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you stop a service that this service depends on, call the Stop method on this service within the Stop method of the parent service.</source>
+          <target state="translated">Se você parar um serviço que esse serviço depende, chame o método de parada neste serviço de dentro do método de parada do serviço pai.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt; property contains the services that this service depends on.</source>
+          <target state="translated">O &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;propriedade contém os serviços que esse serviço depende.&lt;/xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Ocorreu um erro ao acessar uma API do sistema.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">O serviço não foi encontrado.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Infinitely waits for the service to reach the specified status.</source>
+          <target state="translated">Infinitamente aguarda o serviço alcançar o status especificado.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use WaitForStatus to suspend an application's processing until the service has reached the required status.</source>
+          <target state="translated">Use WaitForStatus para suspender um aplicativo de processamento até que o serviço tiver alcançado o status necessário.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; method waits approximately 250 milliseconds between each status check.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; O &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;método aguarda aproximadamente 250 milissegundos entre cada verificação de status.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; cannot detect the case of the observed service changing to the <ph id="ph1">`desiredStatus`</ph> and then immediately to another status in that interval.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;não é possível detectar o caso do serviço observado alterando para o <ph id="ph1">`desiredStatus`</ph> e imediatamente para outro status no intervalo.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The status to wait for.</source>
+          <target state="translated">O status de espera para.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">desiredStatus</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not any of the values defined in the <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">desiredStatus</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro não é qualquer um dos valores definidos no <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> enumeração.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Waits for the service to reach the specified status or for the specified time-out to expire.</source>
+          <target state="translated">Espera para o serviço de alcançar o status especificado ou para o tempo limite especificado expirar.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; to suspend an application's processing until the service has reached the required status.</source>
+          <target state="translated">Use &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;suspender um aplicativo de processamento da até que o serviço tiver alcançado o status necessário.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; method waits approximately 250 milliseconds between each status check.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; O &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;método aguarda aproximadamente 250 milissegundos entre cada verificação de status.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; cannot detect the case of the observed service changing to the <ph id="ph1">`desiredStatus`</ph> and then immediately to another status in that interval.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;não é possível detectar o caso do serviço observado alterando para o <ph id="ph1">`desiredStatus`</ph> e imediatamente para outro status no intervalo.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The status to wait for.</source>
+          <target state="translated">O status de espera para.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; object specifying the amount of time to wait for the service to reach the specified status.</source>
+          <target state="translated">Um &lt;xref:System.TimeSpan&gt;objeto que especifica a quantidade de tempo de espera para o serviço de alcançar o status especificado.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">desiredStatus</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not any of the values defined in the <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">desiredStatus</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro não é qualquer um dos valores definidos no <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> enumeração.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The value specified for the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter expires.</source>
+          <target state="translated">O valor especificado para o <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro expira.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af928f597d7c93252949cb8c5494902642cfe84c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Security.WSTrustServiceHost.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9589acbe2248bde9846b77828179358c3afb6212</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da59cfefc8ec0841026fba8809ba1afe1ab38d02</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for registering a <bpt id="p2">&lt;xref href="System.IdentityModel.SecurityTokenService"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> The service host will have multiple endpoints registered based on the number of listeners registered in the configuration.</source>
+          <target state="translated">Fornece um <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para registrar um <bpt id="p2">&lt;xref href="System.IdentityModel.SecurityTokenService"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> o host de serviço terá vários pontos de extremidade registrados com base no número de ouvintes registrados na configuração.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the WSTrustServiceHost class provides the following:      -   It adds WS-Trust endpoints to the &lt;xref:System.ServiceModel.ServiceHost&gt; based on the &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.TrustEndpoints%2A&gt; property.</source>
+          <target state="translated">Por padrão, a classe WSTrustServiceHost fornece o seguinte:-adiciona pontos de extremidade WS-Trust para o &lt;xref:System.ServiceModel.ServiceHost&gt;com base no &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.TrustEndpoints%2A&gt;propriedade.&lt;/xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.TrustEndpoints%2A&gt; &lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   It enables metadata over the base addresses if the &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.DisableWsdl%2A&gt; property is set to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">-Habilita metadados sobre os endereços de base se o &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.DisableWsdl%2A&gt;está definida como <ph id="ph1">`false`</ph>.&lt;/xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.DisableWsdl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   It configures the service certificate on the &lt;xref:System.ServiceModel.ServiceHost&gt; service credentials if a WIF configuration section specifies a service certificate.</source>
+          <target state="translated">-Ele configura o certificado de serviço no &lt;xref:System.ServiceModel.ServiceHost&gt;credenciais de serviço se uma seção de configuração do WIF Especifica um certificado de serviço.&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this will override the equivalent service certificate settings in WCF configuration.</source>
+          <target state="translated">Observe que isso substituirá as configurações de certificado de serviço equivalente na configuração do WCF.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   It integrates IdentityModel token handlers into the security processing pipeline by calling the ExtensibleSecurityCredentials.ConfigureServiceHost method on itself.</source>
+          <target state="translated">-Ele se integra IdentityModel manipuladores de token no pipeline de processamento de segurança chamando o método ExtensibleSecurityCredentials.ConfigureServiceHost em si mesmo.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The WSTrustServiceHost class may be overridden to customize this behavior.</source>
+          <target state="translated">A classe WSTrustServiceHost pode ser substituída para personalizar esse comportamento.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Security.WSTrustServiceHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified base addresses and service (STS) configuration settings.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.ServiceModel.Security.WSTrustServiceHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe com os endereços de base especificados e as definições de configuração (STS) de serviço.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A default &lt;xref:System.ServiceModel.Security.WSTrustServiceContract&gt; is created using the specified &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration&gt; instance.</source>
+          <target state="translated">Um padrão &lt;xref:System.ServiceModel.Security.WSTrustServiceContract&gt;é criado usando especificado &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration&gt;instância.&lt;/xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration&gt; &lt;/xref:System.ServiceModel.Security.WSTrustServiceContract&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration&gt; instance is used for one-time initialization of the &lt;xref:System.ServiceModel.ServiceHost&gt;; for this reason, setting properties on the configuration instance after the host is initialized may not result in behavior changes.</source>
+          <target state="translated">O &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration&gt;instância é usada para inicialização única do &lt;xref:System.ServiceModel.ServiceHost&gt;; por esse motivo, as propriedades de configuração na instância de configuração depois de inicializar o host não pode resultar em alterações de comportamento.&lt;/xref:System.ServiceModel.ServiceHost&gt; &lt;/xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Configuration.SecurityTokenServiceConfiguration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the STS settings to use to initialize the service host.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.IdentityModel.Configuration.SecurityTokenServiceConfiguration"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém as configurações de STS para usar para inicializar o host de serviço.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>An array of &lt;xref:System.Uri&gt; that contains the base addresses for the service host.</source>
+          <target state="translated">Uma matriz de &lt;xref:System.Uri&gt;que contém os endereços de base para o host de serviço.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Security.WSTrustServiceHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified base addresses and service contract.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.ServiceModel.Security.WSTrustServiceHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe com os endereços de base especificados e o contrato de serviço.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ServiceModel.Security.WSTrustServiceContract"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the service contract to use.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ServiceModel.Security.WSTrustServiceContract"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que representa o contrato de serviço a ser usado.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>An array of &lt;xref:System.Uri&gt; that contains the base addresses for the service host.</source>
+          <target state="translated">Uma matriz de &lt;xref:System.Uri&gt;que contém os endereços de base para o host de serviço.&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;baseAddresses&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;baseAddresses&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;serviceContract&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;serviceContract&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Loads the service description information from the configuration file and applies it to the runtime that is being constructed.</source>
+          <target state="translated">Carrega as informações de descrição de serviço do arquivo de configuração e aplica-se ao tempo de execução que está sendo construído.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Configures metadata (WSDL) for the service host.</source>
+          <target state="translated">Define metadados (WSDL) para o host de serviço.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method evaluates the base addresses of the service host, and adds mex endpoints for http, https, net.tcp, and net.pipe addresses, only when no mex endpoints have been previously added by the user.</source>
+          <target state="translated">Esse método avalia os endereços base do host do serviço e adiciona pontos de extremidade mex para http, https, NET. TCP e endereços de NET. pipe, somente quando nenhum ponto de extremidade mex foram adicionados anteriormente pelo usuário.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For http and https addresses, HTTP and HTTPS, the GET mechanism for WSDL retrieval is enabled.</source>
+          <target state="translated">Para endereços http e https, HTTP e HTTPS, o mecanismo GET para recuperação de WSDL está habilitado.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Override of the base class method.</source>
+          <target state="translated">Substituição do método da classe base.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Configures the <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceConfiguration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on the service host and then invokes the base implementation.</source>
+          <target state="translated">Configura o <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceConfiguration"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> no host de serviço e, em seguida, invoca a implementação base.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Invokes the &lt;xref:System.ServiceModel.Security.WSTrustServiceHost.UpdateServiceConfiguration%2A&gt; method and then invokes the base implementation.</source>
+          <target state="translated">Invoca o &lt;xref:System.ServiceModel.Security.WSTrustServiceHost.UpdateServiceConfiguration%2A&gt;método e, em seguida, invoca a implementação base.&lt;/xref:System.ServiceModel.Security.WSTrustServiceHost.UpdateServiceConfiguration%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets the security token service (STS) configuration for this this instance.</source>
+          <target state="translated">Obtém a configuração de serviço de token (STS) de segurança para este essa instância.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The STS configuration.</source>
+          <target state="translated">A configuração de STS.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the service contract associated with this instance.</source>
+          <target state="translated">Obtém o contrato de serviço associado a essa instância.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The service contract for this instance.</source>
+          <target state="translated">O contrato de serviço para essa instância.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Overrides the <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.Description.ServiceCredentials.IdentityConfiguration%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> on the &lt;xref:System.ServiceModel.ServiceHostBase.Credentials<bpt id="p1">*</bpt>&gt; property of the service host with the &lt;xref:System.ServiceModel.Security.WSTrustServiceHost.SecurityTokenServiceConfiguration<ept id="p1">*</ept>&gt; property.</source>
+          <target state="translated">Substitui o <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.Description.ServiceCredentials.IdentityConfiguration%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> no &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; propriedades do host do serviço com o &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; propriedade.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa57e2c24a7b9ea0ab8a2481bf979718d0a159ec</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.ISinglePhaseNotification.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba71a7f76f8430a47d795ace14b714a8a1066d5d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c505057f0a8d211221f569e055b68a278afb688d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Describes a resource object that supports single phase commit optimization to participate in a transaction.</source>
+          <target state="translated">Descreve um objeto de recurso que oferece suporte a otimização de confirmação de fase única para participar em uma transação.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should note that even when your resource manager implements this interface to support single phase commit optimization, it is not guaranteed that it receives a single phase commit.</source>
+          <target state="translated">Observe que mesmo quando o Gerenciador de recursos implemente essa interface para oferecer suporte a otimização de confirmação de fase única, não há garantia de que ele recebe uma confirmação de fase única.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transaction manager can still send two phase commit notifications instead.</source>
+          <target state="translated">O Gerenciador de transações ainda pode enviar duas notificações de confirmação de fase em vez disso.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To enlist your resource manager as a participant in a transaction, call the &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt; method or the &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; method of the &lt;xref:System.Transactions.Transaction&gt; class.</source>
+          <target state="translated">Para inscrever seu Gerenciador de recursos como um participante em uma transação, chame o &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;método ou o &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;método de &lt;xref:System.Transactions.Transaction&gt;classe.&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt; &lt;/xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, the <ph id="ph1">`EnlistmentOptions`</ph> parameter should equal to &lt;xref:System.Transactions.EnlistmentOptions&gt; to ensure that a single phase commit is performed.</source>
+          <target state="translated">Especificamente, o <ph id="ph1">`EnlistmentOptions`</ph> deve ser igual ao parâmetro &lt;xref:System.Transactions.EnlistmentOptions&gt;para garantir que uma única confirmação de fase é executada.&lt;/xref:System.Transactions.EnlistmentOptions&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is mistakenly set to &lt;xref:System.Transactions.EnlistmentOptions&gt;, no single phase commit occurs.</source>
+          <target state="translated">Se for definido incorretamente como &lt;xref:System.Transactions.EnlistmentOptions&gt;, nenhum única fase de confirmação ocorre.&lt;/xref:System.Transactions.EnlistmentOptions&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Since the ISinglePhaseNotification interface derives from the &lt;xref:System.Transactions.IEnlistmentNotification&gt; interface, the resource manager must also implement all the methods of the latter for two phase commit notifications.</source>
+          <target state="translated">Desde que a interface ISinglePhaseNotification deriva o &lt;xref:System.Transactions.IEnlistmentNotification&gt;interface, o Gerenciador de recursos também deve implementar todos os métodos do último para duas notificações de confirmação de fase.&lt;/xref:System.Transactions.IEnlistmentNotification&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is the transaction manager's choice as to whether two phase commit or the single phase commit optimization is used with this resource manager.</source>
+          <target state="translated">É a opção do Gerenciador de transações quanto se duas fases confirmação ou a otimização de confirmação de fase única é usada com esse gerenciador de recursos.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, implementing this interface gives the resource manager the opportunity to take advantage of the optimization when it is available.</source>
+          <target state="translated">No entanto, implementar essa interface a oportunidade de Gerenciador de recursos para tirar proveito da otimização de quando ele estiver disponível.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the optimization is used and the transaction manager calls the &lt;xref:System.Transactions.ISinglePhaseNotification.SinglePhaseCommit%2A&gt; method of the enlisted resource, the resource manager should respond to this call by using various methods of the &lt;xref:System.Transactions.SinglePhaseEnlistment&gt; class to inform the transaction manager if the transaction is to be committed or rolled back.</source>
+          <target state="translated">Se a otimização será usada e chama o Gerenciador de transações de &lt;xref:System.Transactions.ISinglePhaseNotification.SinglePhaseCommit%2A&gt;método do recurso inscrito, o Gerenciador de recursos deve responder a essa chamada usando vários métodos para o &lt;xref:System.Transactions.SinglePhaseEnlistment&gt;classe para informar o Gerenciador de transações, se a transação for confirmada ou revertida.&lt;/xref:System.Transactions.SinglePhaseEnlistment&gt; &lt;/xref:System.Transactions.ISinglePhaseNotification.SinglePhaseCommit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Represents the resource manager's implementation of the callback for the single phase commit optimization.</source>
+          <target state="translated">Representa a implementação do Gerenciador de recursos de retorno de chamada para a otimização de confirmação de fase única.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is the transaction manager's choice as to whether two phase commit or the single phase commit optimization is used with this resource manager.</source>
+          <target state="translated">É a opção do Gerenciador de transações quanto se duas fases confirmação ou a otimização de confirmação de fase única é usada com esse gerenciador de recursos.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on single phase and two phase commit, see <bpt id="p1">[</bpt>Committing A Transaction In Single-Phase and Multi-Phase<ept id="p1">](http://msdn.microsoft.com/en-us/74b3cfe1-d33a-45b8-91f4-dfd6f6598c4d)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a fase única e confirmação de duas fases, consulte <bpt id="p1">[</bpt>confirmar A transação em Single-Phase e multifase<ept id="p1">](http://msdn.microsoft.com/en-us/74b3cfe1-d33a-45b8-91f4-dfd6f6598c4d)</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, on this enlistment of the resource manager, either the SinglePhaseCommit method is called, or the two phase commit methods defined in ther &lt;xref:System.Transactions.IEnlistmentNotification&gt; interface are called.</source>
+          <target state="translated">Portanto, nesta inscrição do Gerenciador de recursos, é chamado o método de SinglePhaseCommit ou os dois métodos de confirmação definidos lá da fase &lt;xref:System.Transactions.IEnlistmentNotification&gt;são chamados de interface.&lt;/xref:System.Transactions.IEnlistmentNotification&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your implementation of this method should call either the &lt;xref:System.Transactions.SinglePhaseEnlistment.Committed%2A&gt; method or the &lt;xref:System.Transactions.SinglePhaseEnlistment.Aborted%2A&gt; method of the <ph id="ph1">`singlePhaseEnlistment`</ph> parameter to indicate whether the transaction should be committed or rolled back.</source>
+          <target state="translated">A implementação desse método deve chamar tanto o &lt;xref:System.Transactions.SinglePhaseEnlistment.Committed%2A&gt;método ou o &lt;xref:System.Transactions.SinglePhaseEnlistment.Aborted%2A&gt;método do <ph id="ph1">`singlePhaseEnlistment`</ph> parâmetro para indicar se a transação deve ser confirmada ou revertida.&lt;/xref:System.Transactions.SinglePhaseEnlistment.Aborted%2A&gt; &lt;/xref:System.Transactions.SinglePhaseEnlistment.Committed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transaction manager calls this method when there is only one volatile enlistment that supports single phase commit, or when there are zero or more volatile enlistments and one durable enlistment.</source>
+          <target state="translated">O Gerenciador de transações chama este método quando há apenas uma inscrição voláteis que dá suporte à confirmação de fase única ou quando há zero ou mais volátil inscrições e uma distribuição durável.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the latter case, the volatile enlistments receive &lt;xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt; notifications for two-phase-commit, and the sole durable enlistment receives a single-phase commit notification.</source>
+          <target state="translated">No último caso, as inscrições voláteis recebem &lt;xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt;notificações para duas multifase confirmação e a única inscrição durável recebe uma notificação de confirmação de fase única.&lt;/xref:System.Transactions.IEnlistmentNotification.Prepare%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to send a response to the transaction manager.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> usado para enviar uma resposta para o Gerenciador de transações.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">43471ad8e1e6732b14091bf9c3004b3f166e0b48</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Permissions.StrongNameIdentityPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">52b4b2998bf00cdf20f4de23f9b9d5b74ef3b52d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b296742582310a2cef97ee483ebd3aa4ea93f803</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the identity permission for strong names.</source>
+          <target state="translated">定義強式名稱的識別權限。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">這個類別無法被繼承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  Starting with the <ph id="ph2">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, identity permissions are not used.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; 起始與<ph id="ph2">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>，不會使用身分識別的權限。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>&gt;    &gt;  In the .NET Framework versions 1.0 and 1.1, identity permissions cannot have an &lt;xref:System.Security.Permissions.PermissionState&gt; permission state value.</source>
+          <target state="translated">&gt;&gt; 在.NET framework 1.0 和 1.1 版中，身分識別的權限不能有&lt;xref:System.Security.Permissions.PermissionState&gt;權限狀態的值。&lt;/xref:System.Security.Permissions.PermissionState&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework version 2.0 and later, identity permissions can have any permission state value.</source>
+          <target state="translated">在.NET Framework 2.0 或更新版本中，身分識別的權限可以有任何權限狀態的值。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This means that in version 2.0 and later versions, identity permissions have the same behavior as permissions that implement the &lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt; interface.</source>
+          <target state="translated">這表示在 2.0 版和更新版本中，身分識別的權限具有相同的行為，做為實作的權限&lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt;介面。&lt;/xref:System.Security.Permissions.IUnrestrictedPermission&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>That is, a demand for an identity always succeeds, regardless of the identity of the assembly, if the assembly has been granted full trust.</source>
+          <target state="translated">也就是身分識別的要求一定會成功，不論的身分識別的組件中，如果組件授與完全信任。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use StrongNameIdentityPermission to confirm that the calling code is in a particular strong-named code assembly.</source>
+          <target state="translated">您可以使用 StrongNameIdentityPermission，確認呼叫程式碼是在特定的強式名稱程式碼組件中。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Full demands for StrongNameIdentityPermission succeed only if all the assemblies in the stack have the correct evidence to satisfy the demand.</source>
+          <target state="translated">StrongNameIdentityPermission 為完整的要求成功，只有堆疊中的所有組件具有正確的辨識項，以便滿足要求。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Link demands that use the &lt;xref:System.Security.Permissions.StrongNameIdentityPermissionAttribute&gt; attribute succeed only if the immediate caller has the correct evidence.</source>
+          <target state="translated">連結要求使用&lt;xref:System.Security.Permissions.StrongNameIdentityPermissionAttribute&gt;屬性立即呼叫端沒有正確的辨識項時，才會成功。&lt;/xref:System.Security.Permissions.StrongNameIdentityPermissionAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A strong name identity is based on a cryptographic public key called a binary large object (BLOB),  which is optionally combined with the name and version of a specific assembly.</source>
+          <target state="translated">強式名稱識別為基礎的密碼編譯公開金鑰稱為 「 二進位大型物件 (BLOB)，它會選擇性地結合特定的組件的版本與名稱。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The key defines a unique namespace and provides strong verification that the name is genuine, because the definition of the name must be in an assembly that is signed by the corresponding private key.</source>
+          <target state="translated">索引鍵定義唯一的命名空間，並提供此名稱為正版，所以名稱的定義必須由相對應的私密金鑰所簽署的組件中的強式驗證。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Note that the validity of the strong name key is not dependent on a trust relationship or on any certificate necessarily being issued for the key.</source>
+          <target state="translated">請注意，強式名稱金鑰的有效性不依存的信任關係，或任何索引鍵一定要發行的憑證。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework versions 1.0 and 1.1, demands on the identity permissions are effective even when the calling assembly is fully trusted.</source>
+          <target state="translated">在.NET framework 1.0 和 1.1 版中，要求的識別權限會生效，即使在呼叫組件是完全受信任。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>That is, even if the calling assembly has full trust, a demand for an identity permission fails if the assembly does not meet the demanded criteria.</source>
+          <target state="translated">也就是說，即使呼叫組件包含完全信任，如果組件不符合要求的準則就會失敗識別權限的要求。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework version 2.0 and later, demands for identity permissions are ineffective if the calling assembly has full trust.</source>
+          <target state="translated">在.NET Framework 版本 2.0 和更新版本，要求識別權限都是沒有效率，如果呼叫的組件具有完全信任。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This ensures consistency for all permissions and eliminates the treatment of identity permissions as a special case.</source>
+          <target state="translated">這可確保所有的權限的一致性，並減少識別權限做為特殊案例的處理方式。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For a complete description of strong names, see the &lt;xref:System.Security.Policy.StrongName&gt; reference page.</source>
+          <target state="translated">如需強式名稱的完整說明，請參閱&lt;xref:System.Security.Policy.StrongName&gt;參考頁面。&lt;/xref:System.Security.Policy.StrongName&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about strong-named assemblies, see <bpt id="p1">[</bpt>Strong-Named Assemblies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需有關強式名稱組件的詳細資訊，請參閱<bpt id="p1">[</bpt>強式名稱組件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The StrongNameIdentityPermission class is used to define strong-name requirements for accessing the public members of a type.</source>
+          <target state="translated">StrongNameIdentityPermission 類別用來定義用於存取型別的公用成員的強式名稱需求。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Permissions.StrongNameIdentityPermissionAttribute&gt; attribute can be used to define strong-name requirements at the assembly level.</source>
+          <target state="translated">&lt;xref:System.Security.Permissions.StrongNameIdentityPermissionAttribute&gt;屬性可以用來定義強式名稱組件層級的需求。&lt;/xref:System.Security.Permissions.StrongNameIdentityPermissionAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework version 2.0 and later, you can also use the &lt;xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute&gt; attribute to specify that all nonpublic types in that assembly are visible to another assembly.</source>
+          <target state="translated">在.NET Framework 2.0 或更新版本中，您也可以使用&lt;xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute&gt;屬性來指定該組件中的所有非公用類型的另一個組件中可見。&lt;/xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Friend Assemblies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>Friend 組件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNameIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNameIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別具有指定<bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Creates either a fully restricted (<ph id="ph1">`None`</ph>) or <ph id="ph2">`Unrestricted`</ph> permission.</source>
+          <target state="translated">會建立完全限制 (<ph id="ph1">`None`</ph>) 或<ph id="ph2">`Unrestricted`</ph>權限。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In the .NET Framework versions 1.0 and 1.1, identity permissions cannot have an &lt;xref:System.Security.Permissions.PermissionState&gt; permission state value.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 識別權限不能有 in the.NET Framework 1.0 和 1.1 版，&lt;xref:System.Security.Permissions.PermissionState&gt;權限狀態的值。&lt;/xref:System.Security.Permissions.PermissionState&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework version 2.0 and later, identity permissions can have any permission state value.</source>
+          <target state="translated">在.NET Framework 2.0 或更新版本中，身分識別的權限可以有任何權限狀態的值。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This means that in version 2.0 and later versions, identity permissions have the same behavior as permissions that implement the &lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt; interface.</source>
+          <target state="translated">這表示在 2.0 版和更新版本中，身分識別的權限具有相同的行為，做為實作的權限&lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt;介面。&lt;/xref:System.Security.Permissions.IUnrestrictedPermission&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>That is, a demand for an identity always succeeds, regardless of the identity of the assembly, if the assembly has been granted full trust.</source>
+          <target state="translated">也就是身分識別的要求一定會成功，不論的身分識別的組件中，如果組件授與完全信任。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework versions 1.0 and 1.1, demands on the identity permissions are effective, even when the calling assembly is fully trusted.</source>
+          <target state="translated">在.NET framework 1.0 和 1.1 版中，身分識別權限的要求是有效的即使是完全受信任的呼叫組件。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>That is, although the calling assembly has full trust, a demand for an identity permission fails if the assembly does not meet the demanded criteria.</source>
+          <target state="translated">也就是說，雖然呼叫組件具有完全信任，但識別權限的要求會失敗組件不符合要求的準則。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework version 2.0 and later, demands for identity permissions are ineffective if the calling assembly has full trust.</source>
+          <target state="translated">在.NET Framework 版本 2.0 和更新版本，要求識別權限都是沒有效率，如果呼叫的組件具有完全信任。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This assures consistency for all permissions, eliminating the treatment of identity permissions as a special case.</source>
+          <target state="translated">如此可確保所有的權限，不會識別權限的特殊情況的一致性。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use this constructor with a permission state value of &lt;xref:System.Security.Permissions.PermissionState&gt; to create an identity permission that matches no strong names.</source>
+          <target state="translated">使用這個建構函式的權限狀態值&lt;xref:System.Security.Permissions.PermissionState&gt;建立比對沒有強式名稱識別權限。&lt;/xref:System.Security.Permissions.PermissionState&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If you subsequently set the &lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt; and &lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Version%2A&gt; properties, a specific strong name identity can be represented by the permission.</source>
+          <target state="translated">如果您後續將&lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt;和&lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Version%2A&gt;屬性、 特定的強式名稱身分識別可以由權限。&lt;/xref:System.Security.Permissions.StrongNameIdentityPermission.Version%2A&gt; &lt;/xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid value of <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">state</ph> <ept id="p1">&lt;/code&gt;</ept>參數不是有效的值<bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNameIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class for the specified strong name identity.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNameIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定強式名稱身分識別的類別。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`name`</ph> and <ph id="ph2">`version`</ph> parameters can be <ph id="ph3">`null`</ph> only when the public key is used to identify the assembly.</source>
+          <target state="translated"><ph id="ph1">`name`</ph>和<ph id="ph2">`version`</ph>參數可以是<ph id="ph3">`null`</ph>只當公開金鑰用來識別組件。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An empty string ("") should not be used in place of <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">空字串 ("") 不應取代<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`name`</ph> is an empty string, an &lt;xref:System.ArgumentException&gt; is thrown.</source>
+          <target state="translated">如果<ph id="ph1">`name`</ph>為空字串，&lt;xref:System.ArgumentException&gt;就會擲回。&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information on names and version numbers of assemblies, see <bpt id="p1">[</bpt>Strong-Named Assemblies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需有關名稱和版本號碼的組件的詳細資訊，請參閱<bpt id="p1">[</bpt>強式名稱組件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The public key defining the strong name identity namespace.</source>
+          <target state="translated">定義強式名稱識別命名空間的公開金鑰。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The simple name part of the strong name identity.</source>
+          <target state="translated">強式名稱識別的簡單名稱部分。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This corresponds to the name of the assembly.</source>
+          <target state="translated">這會對應至組件名稱。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The version number of the identity.</source>
+          <target state="translated">身分識別的版本號碼。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">blob</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">blob</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is an empty string ("").</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept>參數為空字串 ("")。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Creates and returns an identical copy of the current permission.</source>
+          <target state="translated">建立並傳回目前權限的相同複本。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A copy of a permission represents the same access to resources as the original permission.</source>
+          <target state="translated">一份權限表示與原始的權限資源相同的存取權。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A copy of the current permission.</source>
+          <target state="translated">一份目前的權限。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Reconstructs a permission with a specified state from an XML encoding.</source>
+          <target state="translated">重新建構具有指定狀態的 XML 編碼方式的權限。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This method is not used by application code.</source>
+          <target state="translated">這個方法不是由應用程式程式碼。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The XML encoding to use to reconstruct the permission.</source>
+          <target state="translated">XML 編碼用來重新建構權限。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">e</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">e</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">e</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid permission element.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">e</ph> <ept id="p1">&lt;/code&gt;</ept>參數不是有效的權限項目。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">e</ph><ept id="p1">&lt;/code&gt;</ept> parameter's version number is not valid.</source>
+          <target state="translated">-或- <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">e</ph> <ept id="p1">&lt;/code&gt;</ept>參數的版本號碼不正確。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Creates and returns a permission that is the intersection of the current permission and the specified permission.</source>
+          <target state="translated">建立並傳回目前權限和指定的權限交集的權限。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The intersection of two permissions is a permission that describes the set of operations they both describe in common.</source>
+          <target state="translated">兩個權限的交集會描述一組共同兩者描述的作業的權限。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Only a demand that passes both original permissions will pass the intersection.</source>
+          <target state="translated">只有通過這兩個原始的使用權限的需求會通過交集。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The intersection of two identical strong name identity permissions is the same permission.</source>
+          <target state="translated">兩個相同的強式名稱身分識別的權限的交集是相同的權限。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The intersection of two different (not wildcard) expressions is an empty permission.</source>
+          <target state="translated">交集的兩個不同 （沒有萬用字元） 的運算式是空的權限。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The intersection of a wildcard expression and a matching strong name is the strong name.</source>
+          <target state="translated">交集的萬用字元運算式和比對的強式名稱是強式名稱。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The intersection of two wildcard expressions that match is the longer, more specific of the two expressions.</source>
+          <target state="translated">比對的兩個萬用字元運算式的交集是較長，更具體的兩個運算式。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A permission to intersect with the current permission.</source>
+          <target state="translated">要與目前權限產生交集的權限。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">它必須是類型的相同與目前權限。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the intersection of the current permission and the specified permission, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the intersection is empty.</source>
+          <target state="translated">代表目前權限與所指定的權限交集的新權限或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果交集是空的。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>參數不是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>而且不屬於相同的類型與目前權限。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Determines whether the current permission is a subset of the specified permission.</source>
+          <target state="translated">判斷目前權限是否為指定的權限的子集。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The current permission is a subset of the specified permission if the current permission specifies a set of operations that is wholly contained by the specified permission.</source>
+          <target state="translated">如果目前權限會指定一組完全包含所指定的權限的作業，目前的權限會是所指定權限的子集。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For example, the other properties being equal, an identity with the &lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt; property containing the wildcard expression MyCompany.MyDepartment.* is identified as a subset of an identity with the &lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt; property MyCompany.MyDepartment.MyFile.</source>
+          <target state="translated">例如，相等的其他屬性，與身分識別&lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt;內含的萬用字元運算式 MyCompany.MyDepartment.* 屬性識別為與身分識別的子集&lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt;屬性 MyCompany.MyDepartment.MyFile。&lt;/xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt; &lt;/xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A permission that is to be tested for the subset relationship.</source>
+          <target state="translated">要測試子集關聯性的權限。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This permission must be of the same type as the current permission.</source>
+          <target state="translated">此權限必須是類型的相同與目前權限。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current permission is a subset of the specified permission; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果目前權限是指定的權限的子集否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>參數不是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>而且不屬於相同的類型與目前權限。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets or sets the simple name portion of the strong name identity.</source>
+          <target state="translated">取得或設定強式名稱識別的簡單名稱部分。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The value of the Name property can be an exact name or can be modified by a wildcard character in the final position; for example, both MyCompany.MyDepartment.MyFile and MyCompany.MyDepartment.* are valid names.</source>
+          <target state="translated">名稱屬性的值可以是完全相同的名稱，或可以修改在最後的位置; 萬用字元例如，MyCompany.MyDepartment.MyFile 和 MyCompany.MyDepartment.* 是有效的名稱。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If you attempt to set the Name property to an empty string (""), an &lt;xref:System.ArgumentException&gt; is thrown.</source>
+          <target state="translated">如果您嘗試將名稱屬性設定為空字串 ("")、&lt;xref:System.ArgumentException&gt;就會擲回。&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The simple name of the identity.</source>
+          <target state="translated">身分識別的簡單名稱。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The value is an empty string ("").</source>
+          <target state="translated">值為空字串 ("")。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The property value cannot be retrieved because it contains an ambiguous identity.</source>
+          <target state="translated">無法擷取屬性值，因為它包含模稜兩可的身分識別。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Gets or sets the public key blob that defines the strong name identity namespace.</source>
+          <target state="translated">取得或設定定義強式名稱識別命名空間的公開金鑰 blob。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNamePublicKeyBlob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the public key of the identity, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there is no key.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNamePublicKeyBlob"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含身分識別的公開金鑰或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果沒有任何索引鍵。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The property value is set to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">屬性值設定為<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The property value cannot be retrieved because it contains an ambiguous identity.</source>
+          <target state="translated">無法擷取屬性值，因為它包含模稜兩可的身分識別。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Creates an XML encoding of the permission and its current state.</source>
+          <target state="translated">建立權限和其目前狀態的 XML 編碼方式。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This method is not typically used by application code.</source>
+          <target state="translated">應用程式程式碼通常不使用這個方法。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An XML encoding of the permission, including any state information.</source>
+          <target state="translated">權限，包括任何狀態資訊的 XML 編碼方式。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Creates a permission that is the union of the current permission and the specified permission.</source>
+          <target state="translated">建立權限聯集的目前的權限與指定權限。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The result of a call to Union is a permission that represents all the operations represented by both the current permission and the specified permission.</source>
+          <target state="translated">要聯集呼叫的結果是權限，表示代表的所有作業目前的權限和指定的權限。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Any demand that passes either permission passes their union.</source>
+          <target state="translated">傳遞其中一個權限的任何要求會傳遞它們的聯集。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The union of a permission and <ph id="ph1">`null`</ph> is the permission that is not <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">權限的聯集和<ph id="ph1">`null`</ph>是不是使用權限<ph id="ph2">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The union of a permission and a subset of that permission is the permission that contains the other.</source>
+          <target state="translated">權限的聯集和該權限的子集是包含其他的權限。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Any other combination results in an &lt;xref:System.ArgumentException&gt; exception being thrown.</source>
+          <target state="translated">任何其他組合會產生&lt;xref:System.ArgumentException&gt;擲回例外狀況。&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A permission to combine with the current permission.</source>
+          <target state="translated">與目前權限結合的權限。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">它必須是類型的相同與目前權限。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the union of the current permission and the specified permission.</source>
+          <target state="translated">新的權限，表示目前的權限與指定權限的聯集。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>參數不是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>而且不屬於相同的類型與目前權限。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-or-       The two permissions are not equal and one is a subset of the other.</source>
+          <target state="translated">-或-兩個權限不相等，且其中一個其他的子集。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Gets or sets the version number of the identity.</source>
+          <target state="translated">取得或設定身分識別的版本號碼。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The version of the identity.</source>
+          <target state="translated">識別的版本。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The property value cannot be retrieved because it contains an ambiguous identity.</source>
+          <target state="translated">無法擷取屬性值，因為它包含模稜兩可的身分識別。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

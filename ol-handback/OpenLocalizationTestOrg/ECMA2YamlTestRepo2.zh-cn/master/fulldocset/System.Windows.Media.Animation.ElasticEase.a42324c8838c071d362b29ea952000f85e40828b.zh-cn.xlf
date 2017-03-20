@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d66329f905bb0597977a3c2b4b641c66b4fb72c7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Animation.ElasticEase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f25e80ec7c953f9138ee038fb16e3f5a274d8e4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2578971d7894f47113a651815602b6aa6d2ec5af</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an easing function that creates an animation that resembles a spring oscillating back and forth until it comes to rest.</source>
+          <target state="translated">表示创建类似于弹簧 rest 直到显示来回振荡的动画的缓动函数。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can control when in the "spring" behavior occurs in an animation by specifying the &lt;xref:System.Windows.Media.Animation.EasingFunctionBase.EasingMode%2A&gt; property value.</source>
+          <target state="translated">您可以控制何时在"春季"行为的发生导致动画是指定&lt;xref:System.Windows.Media.Animation.EasingFunctionBase.EasingMode%2A&gt;属性值。&lt;/xref:System.Windows.Media.Animation.EasingFunctionBase.EasingMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The following graph demonstrates the different values of &lt;xref:System.Windows.Media.Animation.EasingFunctionBase.EasingMode%2A&gt;, where <bpt id="p1">*</bpt>f<ept id="p1">*</ept>(<bpt id="p2">*</bpt>t<ept id="p2">*</ept>) represents the animation progress and <bpt id="p3">*</bpt>t<ept id="p3">*</ept> represents time.</source>
+          <target state="translated">下图演示的不同值&lt;xref:System.Windows.Media.Animation.EasingFunctionBase.EasingMode%2A&gt;，其中<bpt id="p1">*</bpt>f<ept id="p1">*</ept>(<bpt id="p2">*</bpt>t<ept id="p2">*</ept>) 表示的动画进度和<bpt id="p3">*</bpt>t<ept id="p3">*</ept>表示时间。&lt;/xref:System.Windows.Media.Animation.EasingFunctionBase.EasingMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>ElasticEase with graphs of different easingmodes.<ept id="p1">]</ept><bpt id="p2">(~/add/media/elasticease-graph.png "</bpt>ElasticEase with graphs of different easingmodes.<ept id="p2">")</ept></source>
+          <target state="translated"><bpt id="p1">![</bpt>不同缓动模式图的 ElasticEase。<ept id="p1">]</ept><bpt id="p2">(~/add/media/elasticease-graph.png "</bpt>不同缓动模式图的 ElasticEase。<ept id="p2">")</ept></target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can specify how many times the animation oscillates back and forth using the &lt;xref:System.Windows.Media.Animation.ElasticEase.Oscillations%2A&gt; property and how tight the springiness of the oscillations are using the &lt;xref:System.Windows.Media.Animation.ElasticEase.Springiness%2A&gt; property.</source>
+          <target state="translated">你可以指定多少次动画来回反复使用&lt;xref:System.Windows.Media.Animation.ElasticEase.Oscillations%2A&gt;属性并紧程度使用振荡 springiness&lt;xref:System.Windows.Media.Animation.ElasticEase.Springiness%2A&gt;属性。&lt;/xref:System.Windows.Media.Animation.ElasticEase.Springiness%2A&gt; &lt;/xref:System.Windows.Media.Animation.ElasticEase.Oscillations%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because this animation causes values to oscillate back and forth, the animation might interpolate into negative numbers unexpectedly.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 由于此动画导致值来回振动，动画可能意外插入到负数。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This can cause errors when animating properties that do not allow negative numbers.</source>
+          <target state="translated">不支持负数的属性进行动画处理时，这可能导致错误。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, if you apply this animation to the &lt;xref:System.Windows.FrameworkElement.Height%2A&gt; of an object (e.g. from 0 to 200 with an &lt;xref:System.Windows.Media.Animation.EasingFunctionBase.EasingMode%2A&gt; of &lt;xref:System.Windows.Media.Animation.EasingMode&gt;), the animation will attempt to interpolate through negative numbers for &lt;xref:System.Windows.FrameworkElement.Height%2A&gt; which will throw an error.</source>
+          <target state="translated">例如，如果将应用到此动画&lt;xref:System.Windows.FrameworkElement.Height%2A&gt;的对象 (例如从 0 到 200&lt;xref:System.Windows.Media.Animation.EasingFunctionBase.EasingMode%2A&gt;的&lt;xref:System.Windows.Media.Animation.EasingMode&gt;)，动画将尝试插入负数为&lt;xref:System.Windows.FrameworkElement.Height%2A&gt;这将引发错误。&lt;/xref:System.Windows.FrameworkElement.Height%2A&gt; &lt;/xref:System.Windows.Media.Animation.EasingMode&gt; &lt;/xref:System.Windows.Media.Animation.EasingFunctionBase.EasingMode%2A&gt; &lt;/xref:System.Windows.FrameworkElement.Height%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>There are several other easing functions besides ElasticEase which you can explore using the following Silverlight sample.</source>
+          <target state="translated">还有一些其他缓动函数除了你可以使用下面的 Silverlight 示例的 ElasticEase。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Run this sample<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=139798&amp;sref=easing_functions_gallery)</ept>       In addition to using the easing functions included in the run-time, you can create your own custom easing functions by inheriting from &lt;xref:System.Windows.Media.Animation.EasingFunctionBase&gt;.</source>
+          <target state="translated"><bpt id="p1">[</bpt>运行此示例<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=139798&amp;sref=easing_functions_gallery)</ept>除了使用运行时中附带的缓动函数，您可以通过从&lt;xref:System.Windows.Media.Animation.EasingFunctionBase&gt;.&lt;/xref:System.Windows.Media.Animation.EasingFunctionBase&gt;继承创建您自己的自定义缓动函数</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="xamlObjectElementUsage_ElasticEase"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Object Element Usage      <ph id="ph1">```   &lt;ElasticEase .../&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlObjectElementUsage_ElasticEase"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # XAML 对象元素用法<ph id="ph1">```   &lt;ElasticEase .../&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ElasticEase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ElasticEase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> derived class.</source>
+          <target state="translated">创建的新实例<bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>派生类。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When creating a derived class, you must override this method.</source>
+          <target state="translated">在创建派生的类时，必须重写此方法。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Animation classes inherit indirectly from &lt;xref:System.Windows.Freezable&gt;.</source>
+          <target state="translated">动画类间接继承&lt;xref:System.Windows.Freezable&gt;.&lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Because of this, you need to override the &lt;xref:System.Windows.Media.Animation.BackEase.CreateInstanceCore%2A&gt; method to construct a custom animation object.</source>
+          <target state="translated">因此，您需要重写&lt;xref:System.Windows.Media.Animation.BackEase.CreateInstanceCore%2A&gt;方法来构造自定义的动画对象。&lt;/xref:System.Windows.Media.Animation.BackEase.CreateInstanceCore%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The new instance.</source>
+          <target state="translated">新实例。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Provides the logic portion of the easing function that you can override to produce the <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.EasingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> mode of the custom easing function.</source>
+          <target state="translated">提供可以重写以生成的缓动函数的逻辑部分<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.EasingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>模式的自定义缓动函数。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This method transforms normalized time to control the pace of an animation for the &lt;xref:System.Windows.Media.Animation.EasingMode&gt; case of &lt;xref:System.Windows.Media.Animation.EasingFunctionBase.EasingMode%2A&gt;.</source>
+          <target state="translated">此方法转换规范化的时间，以控制节奏的&lt;xref:System.Windows.Media.Animation.EasingMode&gt;用例的&lt;xref:System.Windows.Media.Animation.EasingFunctionBase.EasingMode%2A&gt;.&lt;/xref:System.Windows.Media.Animation.EasingFunctionBase.EasingMode%2A&gt;&lt;/xref:System.Windows.Media.Animation.EasingMode&gt;动画</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You only have to specify your easing function for the &lt;xref:System.Windows.Media.Animation.EasingMode&gt; case because the implementation of the &lt;xref:System.Windows.Media.Animation.EasingFunctionBase.Ease%2A&gt; method transforms <ph id="ph1">`normalizedTime`</ph> for the &lt;xref:System.Windows.Media.Animation.EasingMode&gt; and &lt;xref:System.Windows.Media.Animation.EasingMode&gt; cases.</source>
+          <target state="translated">只需指定你缓动函数&lt;xref:System.Windows.Media.Animation.EasingMode&gt;种情况下，因为的实现&lt;xref:System.Windows.Media.Animation.EasingFunctionBase.Ease%2A&gt;方法转换<ph id="ph1">`normalizedTime`</ph>为&lt;xref:System.Windows.Media.Animation.EasingMode&gt;和&lt;xref:System.Windows.Media.Animation.EasingMode&gt;情况。&lt;/xref:System.Windows.Media.Animation.EasingMode&gt; &lt;/xref:System.Windows.Media.Animation.EasingMode&gt; &lt;/xref:System.Windows.Media.Animation.EasingFunctionBase.Ease%2A&gt; &lt;/xref:System.Windows.Media.Animation.EasingMode&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Normalized time (progress) of the animation.</source>
+          <target state="translated">动画的标准化的时间 （进度）。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A double that represents the transformed progress.</source>
+          <target state="translated">双精度值，该值表示已转换的进度。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of times the target slides back and forth over the animation destination.</source>
+          <target state="translated">获取或设置的次数目标幻灯片来回过动画目标。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[DP_ID_field_label](~/add/includes/dp-id-field-label-md.md)]</ph> &lt;xref:System.Windows.Media.Animation.ElasticEase.OscillationsProperty&gt;      <bpt id="p1">&lt;a name="xamlAttributeUsage_Occilations"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Attribute Usage      <ph id="ph2">```   &lt;ElasticEase Oscillations="int"/&gt;   ```</ph></source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[DP_ID_field_label](~/add/includes/dp-id-field-label-md.md)]</ph>&lt;xref:System.Windows.Media.Animation.ElasticEase.OscillationsProperty&gt; <bpt id="p1">&lt;a name="xamlAttributeUsage_Occilations"&gt;</bpt> <ept id="p1">&lt;/a&gt;</ept> # # XAML 属性用法      <ph id="ph2">```   &lt;ElasticEase Oscillations="int"/&gt;   ```</ph>&lt;/xref:System.Windows.Media.Animation.ElasticEase.OscillationsProperty&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The number of times the target slides back and forth over the animation destination.</source>
+          <target state="translated">目标来回滑过动画目标的次数。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This value must be greater than or equal to 0.</source>
+          <target state="translated">此值必须大于或等于 0。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The default is 3.</source>
+          <target state="translated">默认值为 3。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.Media.Animation.ElasticEase.Oscillations*&gt; dependency property.</source>
+          <target state="translated">标识&lt;xref:System.Windows.Media.Animation.ElasticEase.Oscillations*&gt;依赖项属性。&lt;/xref:System.Windows.Media.Animation.ElasticEase.Oscillations*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets or sets the stiffness of the spring.</source>
+          <target state="translated">获取或设置的弹簧铡度。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The smaller the Springiness value is, the stiffer the spring and the faster the elasticity decreases in intensity over each oscillation.</source>
+          <target state="translated">越小的 Springiness 值是，严格 spring 和越快弹性的强度减小通过每个振荡。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The smaller the Springiness value is, the stiffer the spring and the faster the elasticity decreases in intensity over each oscillation.</source>
+          <target state="translated">越小的 Springiness 值是，严格 spring 和越快弹性的强度减小通过每个振荡。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[DP_ID_field_label](~/add/includes/dp-id-field-label-md.md)]</ph> &lt;xref:System.Windows.Media.Animation.ElasticEase.SpringinessProperty&gt;       The following diagram illustrates the effect of different values of Springiness.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[DP_ID_field_label](~/add/includes/dp-id-field-label-md.md)]</ph>&lt;xref:System.Windows.Media.Animation.ElasticEase.SpringinessProperty&gt;下图说明了不同的 Springiness 值的效果。&lt;/xref:System.Windows.Media.Animation.ElasticEase.SpringinessProperty&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Demonstrates different Springiness values.<ept id="p1">]</ept><bpt id="p2">(~/add/media/elasticease-springiness.png "</bpt>Demonstrates different Springiness values.<ept id="p2">")</ept></source>
+          <target state="translated"><bpt id="p1">![</bpt>演示不同的 Springiness 值。<ept id="p1">]</ept><bpt id="p2">(~/add/media/elasticease-springiness.png "</bpt>演示不同的 Springiness 值。<ept id="p2">")</ept></target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="xamlAttributeUsage_Springiness"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Attribute Usage      <ph id="ph1">```   &lt;ElasticEase Springiness="double"/&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlAttributeUsage_Springiness"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # XAML 属性用法<ph id="ph1">```   &lt;ElasticEase Springiness="double"/&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A positive number that specifies the stiffness of the spring.</source>
+          <target state="translated">指定的弹簧铡度一个正数。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The default value is 3.</source>
+          <target state="translated">默认值为 3。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.Media.Animation.ElasticEase.Springiness*&gt; dependency property.</source>
+          <target state="translated">标识&lt;xref:System.Windows.Media.Animation.ElasticEase.Springiness*&gt;依赖项属性。&lt;/xref:System.Windows.Media.Animation.ElasticEase.Springiness*&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
