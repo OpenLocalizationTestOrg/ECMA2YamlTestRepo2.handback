@@ -1,12 +1,13 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 2
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.XhtmlTextWriter.yml) | InSyncHandedBackSuccess | [Details](#42e81e4681dc40e2c82eb3631bfc033f1029b18883666)
+ [fulldocset\System.Windows.Documents.Typography.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Documents.Typography.yml) | InSyncHandedBackSuccess | [Details](#bcfa368d7b0cbd5a6317c3af22bd4b04ee179b1d84581)
 
 ## Item Details
 ##### <a name='42e81e4681dc40e2c82eb3631bfc033f1029b18883666'></a> Source: [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.XhtmlTextWriter.yml)
@@ -22,6 +23,22 @@
 * Handback Datetime: 2017-03-18 15:35:15
 * Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
 * Bilingual Error:[bilingual_uploading_failed](#42e81e4681dc40e2c82eb3631bfc033f1029b18883666bilingual_uploading_failed)
+* [Back to Top](#report-top)
+
+##### <a name='bcfa368d7b0cbd5a6317c3af22bd4b04ee179b1d84581'></a> Source: [fulldocset\System.Windows.Documents.Typography.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Documents.Typography.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Windows.Documents.Typography.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/blob/8b2a00092eef48e81f04b45a516cb8af7508c8da/fulldocset/System.Windows.Documents.Typography.yml)
+* Handoff File: [System.Windows.Documents.Typography.78bf37e5b40b21a591e94f72cdd3e11dc0445024.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/72db55450b00c424fa5883892a3a66a8a47646cd/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Windows.Documents.Typography.78bf37e5b40b21a591e94f72cdd3e11dc0445024.pt-br.xlf)
+* Handoff Datetime: 2017-03-16 04:26:03
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Windows.Documents.Typography.78bf37e5b40b21a591e94f72cdd3e11dc0445024.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/c47ef11020d91fa5ad16a02c7b724037fb770135/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Windows.Documents.Typography.78bf37e5b40b21a591e94f72cdd3e11dc0445024.pt-br.xlf)
+* Handback Datetime: 2017-03-20 11:50:12
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-ko-kr-nb-no-pt-br-pt-pt-ru-ru-zh-cn
+* Bilingual File: [System.Windows.Documents.Typography.78bf37e5b40b21a591e94f72cdd3e11dc0445024.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/c47ef11020d91fa5ad16a02c7b724037fb770135/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Windows.Documents.Typography.78bf37e5b40b21a591e94f72cdd3e11dc0445024.pt-br.xlf)
+* Bilingual Datetime: 2017-03-20 12:14:43
 * [Back to Top](#report-top)
 
 
