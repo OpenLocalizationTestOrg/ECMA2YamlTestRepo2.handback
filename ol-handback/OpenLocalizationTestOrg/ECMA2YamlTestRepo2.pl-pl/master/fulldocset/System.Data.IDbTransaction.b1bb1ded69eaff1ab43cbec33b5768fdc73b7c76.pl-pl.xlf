@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a49915c0ed00d5b0c2e800d971cf8f697a31022b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.IDbTransaction.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2bbae554a409611527d1af37d572b2a7282255d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a4b58b8640b8ae4550b2ffef94899f19f142dd9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a transaction to be performed at a data source, and is implemented by .NET Framework data providers that access relational databases.</source>
+          <target state="translated">Reprezentuje transakcji do wykonania w źródle danych, a jest implementowany przez dostawców danych .NET Framework, które uzyskują dostęp do relacyjnych baz danych.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IDbTransaction interface allows an inheriting class to implement a Transaction class, which represents the transaction to be performed at a data source.</source>
+          <target state="translated">Interfejs IDbTransaction umożliwia dziedziczące klasy do zaimplementowania klasy transakcji, co stanowi transakcji do wykonania w źródle danych.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about Transaction classes, see <bpt id="p1">[</bpt>Transactions and Concurrency<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji na temat klas transakcji, zobacz <bpt id="p1">[</bpt>transakcji i współbieżność<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application does not create an instance of the IDbTransaction interface directly, but creates an instance of a class that inherits IDbTransaction.</source>
+          <target state="translated">Aplikacja nie tworzy wystąpienie interfejsu IDbTransaction bezpośrednio, ale powoduje utworzenie wystąpienia klasy, która dziedziczy IDbTransaction.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes that inherit IDbTransaction must implement the inherited members, and typically define additional members to add provider-specific functionality.</source>
+          <target state="translated">Klasy, które dziedziczą IDbTransaction musi implementować dziedziczone elementy członkowskie i zwykle zdefiniować dodatkowe elementy członkowskie Dodawanie funkcji specyficznych dla dostawcy.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the IDbTransaction interface defines the &lt;xref:System.Data.IDbTransaction.Commit%2A&gt; method.</source>
+          <target state="translated">Na przykład definiuje interfejs IDbTransaction &lt;xref:System.Data.IDbTransaction.Commit%2A&gt;metody.&lt;/xref:System.Data.IDbTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In turn, the &lt;xref:System.Data.OleDb.OleDbTransaction&gt; class inherits this property, and also defines the &lt;xref:System.Data.OleDb.OleDbTransaction.Begin%2A&gt; method.</source>
+          <target state="translated">Z kolei &lt;xref:System.Data.OleDb.OleDbTransaction&gt;klasy dziedziczy tej właściwości, a także określa &lt;xref:System.Data.OleDb.OleDbTransaction.Begin%2A&gt;metody.&lt;/xref:System.Data.OleDb.OleDbTransaction.Begin%2A&gt; &lt;/xref:System.Data.OleDb.OleDbTransaction&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Commits the database transaction.</source>
+          <target state="translated">Zatwierdza transakcji bazy danych.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>An error occurred while trying to commit the transaction.</source>
+          <target state="translated">Wystąpił błąd podczas próby zatwierdzenia transakcji.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The transaction has already been committed or rolled back.</source>
+          <target state="translated">Transakcja została już zatwierdzona lub wycofana.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-or-       The connection is broken.</source>
+          <target state="translated">- lub - połączenie zostanie przerwane.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Specifies the Connection object to associate with the transaction.</source>
+          <target state="translated">Określa obiekt połączenia skojarzony z transakcją.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A single application may have multiple database connections, each with zero or more transactions.</source>
+          <target state="translated">Pojedynczej aplikacji może mieć wiele połączeń bazy danych, z których każde z nich zero lub więcej transakcji.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property enables you to determine the connection object associated with a particular transaction.</source>
+          <target state="translated">Ta właściwość umożliwia określenie obiektu połączenia skojarzonego z określonej transakcji.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Connection object to associate with the transaction.</source>
+          <target state="translated">Obiekt połączenia skojarzony z transakcją.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Specifies the <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this transaction.</source>
+          <target state="translated">Określa <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dla tej transakcji.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Parallel transactions are not supported.</source>
+          <target state="translated">Transakcje równoległe są nieobsługiwane.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the &lt;xref:System.Data.IsolationLevel&gt; applies to the entire transaction.</source>
+          <target state="translated">W związku z tym &lt;xref:System.Data.IsolationLevel&gt;ma zastosowanie do całej transakcji.&lt;/xref:System.Data.IsolationLevel&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this transaction.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Dla tej transakcji.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_ReadCommitted" name="ReadCommitted" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość domyślna to <bpt id="p1">&lt;xref uid="langword_csharp_ReadCommitted" name="ReadCommitted" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Rolls back a transaction from a pending state.</source>
+          <target state="translated">Przywraca transakcji w stanie oczekiwania.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transaction can only be rolled back from a pending state (after &lt;xref:System.Data.IDbConnection.BeginTransaction%2A&gt; has been called, but before &lt;xref:System.Data.IDbTransaction.Commit%2A&gt; is called).</source>
+          <target state="translated">Transakcja tylko można wycofać w stanie oczekiwania (po &lt;xref:System.Data.IDbConnection.BeginTransaction%2A&gt;została wywołana, ale przed wysłaniem &lt;xref:System.Data.IDbTransaction.Commit%2A&gt;jest nazywany).&lt;/xref:System.Data.IDbTransaction.Commit%2A&gt; &lt;/xref:System.Data.IDbConnection.BeginTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An error occurred while trying to commit the transaction.</source>
+          <target state="translated">Wystąpił błąd podczas próby zatwierdzenia transakcji.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The transaction has already been committed or rolled back.</source>
+          <target state="translated">Transakcja została już zatwierdzona lub wycofana.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-or-       The connection is broken.</source>
+          <target state="translated">- lub - połączenie zostanie przerwane.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

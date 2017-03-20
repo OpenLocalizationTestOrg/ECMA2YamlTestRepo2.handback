@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac4162547698a48fe39e08ff26df179b6f737c0c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xml.XmlTextWriter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ba690d80a1f145c3d4a68bd00055099d6f21223</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a34e831f49b89fd11c3e958e52e11db9d61ef1c8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a writer that provides a fast, non-cached, forward-only way of generating streams or files containing XML data that conforms to the W3C Extensible Markup Language (XML) 1.0 and the Namespaces in XML recommendations.</source>
+          <target state="translated">表示编写器提供生成的流或文件，其中包含符合 W3C 可扩展标记语言 (XML) 1.0 和 XML 建议中的命名空间的 XML 数据的快速、 非缓存、 只进方法。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Starting with the .NET Framework 2.0, we recommend that you use the <ph id="ph1">&amp;lt;</ph>xref:System.Xml.XmlWriter?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> class instead.</source>
+          <target state="translated">从.NET Framework 2.0 开始，我们建议你使用<ph id="ph1">&amp;lt;</ph>xref:System.Xml.XmlWriter?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>类。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This class implements the &lt;xref:System.Xml.XmlWriter&gt; class.</source>
+          <target state="translated">此类实现&lt;xref:System.Xml.XmlWriter&gt;类。&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Starting with the .NET Framework 2.0, we recommend that you create &lt;xref:System.Xml.XmlWriter&gt; instances by using the &lt;xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt; method and the &lt;xref:System.Xml.XmlWriterSettings&gt; class to take advantage of new functionality.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph> 1&gt; 从.NET Framework 2.0 开始，我们建议你创建&lt;xref:System.Xml.XmlWriter&gt;实例使用&lt;xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt;方法和&lt;xref:System.Xml.XmlWriterSettings&gt;类以利用新功能。&lt;/xref:System.Xml.XmlWriterSettings&gt; &lt;/xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt; &lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`XmlTextWriter`</ph> maintains a namespace stack corresponding to all the namespaces defined in the current element stack.</source>
+          <target state="translated"><ph id="ph1">`XmlTextWriter`</ph>维护对应的当前元素堆栈中定义的所有命名空间的命名空间堆栈。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Using <ph id="ph1">`XmlTextWriter`</ph> you can declare namespaces manually.</source>
+          <target state="translated">使用<ph id="ph1">`XmlTextWriter`</ph>可以手动声明命名空间。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   w.WriteStartElement("root");   w.WriteAttributeString("xmlns", "x", null, "urn:1");    w.WriteStartElement("item","urn:1");    w.WriteEndElement();    w.WriteStartElement("item","urn:1");    w.WriteEndElement();   w.WriteEndElement();   ```</ph>       The above C# code produces the following output.</source>
+          <target state="translated"><ph id="ph1">```   w.WriteStartElement("root");   w.WriteAttributeString("xmlns", "x", null, "urn:1");    w.WriteStartElement("item","urn:1");    w.WriteEndElement();    w.WriteStartElement("item","urn:1");    w.WriteEndElement();   w.WriteEndElement();   ```</ph>上面的 C# 代码生成以下输出。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`XmlTextWriter`</ph> promotes the namespace declaration to the root element to avoid having it duplicated on the two child elements.</source>
+          <target state="translated"><ph id="ph1">`XmlTextWriter`</ph>提升到要避免使其重复上两个子元素的根元素的命名空间声明。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The child elements pick up the prefix from the namespace declaration.</source>
+          <target state="translated">子元素选取从命名空间声明的前缀。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;root xmlns:x="urn:1"&gt;    &lt;x:item/&gt;    &lt;x:item/&gt;   &lt;/x:root&gt;   ```</ph>       <ph id="ph2">`XmlTextWriter`</ph> also allows you to override the current namespace declaration.</source>
+          <target state="translated"><ph id="ph1">```   &lt;root xmlns:x="urn:1"&gt;    &lt;x:item/&gt;    &lt;x:item/&gt;   &lt;/x:root&gt;   ```</ph>       <ph id="ph2">`XmlTextWriter`</ph>此外允许你重写当前命名空间声明。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the following example, the namespace URI "123" is overridden by "abc" to produce the XML element <ph id="ph1">`&lt;x:node xmlns:x="abc"/&gt;`</ph>.</source>
+          <target state="translated">在下面的示例中，命名空间 URI"123"已由"abc"要生成的 XML 元素<ph id="ph1">`&lt;x:node xmlns:x="abc"/&gt;`</ph>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   w.WriteStartElement("x","node","123");   w.WriteAttributeString("xmlns","x",null,"abc");   ```</ph>       By using the write methods that take a prefix as an argument you can also specify which prefix to use.</source>
+          <target state="translated"><ph id="ph1">```   w.WriteStartElement("x","node","123");   w.WriteAttributeString("xmlns","x",null,"abc");   ```</ph>通过使用需要作为自变量的前缀的写入方法还可以指定的前缀，以使用。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the following example, two different prefixes are mapped to the same namespace URI to produce the XML text <ph id="ph1">`&lt;x:root xmlns:x="urn:1"&gt;&lt;y:item xmlns:y="urn:1"/&gt;&lt;/x:root&gt;`</ph>.</source>
+          <target state="translated">在下面的示例中，两个不同的前缀映射到相同的命名空间 URI 以产生的 XML 文本<ph id="ph1">`&lt;x:root xmlns:x="urn:1"&gt;&lt;y:item xmlns:y="urn:1"/&gt;&lt;/x:root&gt;`</ph>。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   XmlTextWriter w = new XmlTextWriter(Console.Out);   w.WriteStartElement("x","root","urn:1");    w.WriteStartElement("y","item","urn:1");    w.WriteEndElement();   w.WriteEndElement();   w.Close();   ```</ph>       If there are multiple namespace declarations mapping different prefixes to the same namespace URI, <ph id="ph2">`XmlTextWriter`</ph> walks the stack of namespace declarations backwards and picks the closest one.</source>
+          <target state="translated"><ph id="ph1">```   XmlTextWriter w = new XmlTextWriter(Console.Out);   w.WriteStartElement("x","root","urn:1");    w.WriteStartElement("y","item","urn:1");    w.WriteEndElement();   w.WriteEndElement();   w.Close();   ```</ph>如果有多个命名空间声明将不同的前缀映射到相同的命名空间 URI，<ph id="ph2">`XmlTextWriter`</ph>向后遍历的命名空间声明堆栈并选取最近一个命名空间。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   XmlTextWriter w = new XmlTextWriter(Console.Out);   w.Formatting = Formatting.Indented;   w.WriteStartElement("x","root","urn:1");   w.WriteStartElement("y","item","urn:1");   w.WriteAttributeString("attr","urn:1","123");   w.WriteEndElement();   w.WriteEndElement();   w.Close();   ```</ph>       In the above C# example, because the <ph id="ph2">`WriteAttributeString`</ph> call does not specify a prefix, the writer uses the last prefix pushed onto the namespace stack, and produces the following XML:      <ph id="ph3">```   &lt;x:root xmlns:x="urn:1"&gt;    &lt;y:item y:attr="123" xmlns:y="urn:1" /&gt;   &lt;/x:root&gt;   ```</ph>       If namespace conflicts occur, <ph id="ph4">`XmlTextWriter`</ph> resolves them by generating alternate prefixes.</source>
+          <target state="translated"><ph id="ph1">```   XmlTextWriter w = new XmlTextWriter(Console.Out);   w.Formatting = Formatting.Indented;   w.WriteStartElement("x","root","urn:1");   w.WriteStartElement("y","item","urn:1");   w.WriteAttributeString("attr","urn:1","123");   w.WriteEndElement();   w.WriteEndElement();   w.Close();   ```</ph>在上面的 C# 示例，因为<ph id="ph2">`WriteAttributeString`</ph>调用未指定前缀，编写器使用推送到命名空间堆栈上的最后一个前缀，并生成下面的 XML:<ph id="ph3">```   &lt;x:root xmlns:x="urn:1"&gt;    &lt;y:item y:attr="123" xmlns:y="urn:1" /&gt;   &lt;/x:root&gt;   ```</ph>如果发生命名空间冲突，<ph id="ph4">`XmlTextWriter`</ph>解析它们通过生成的备用前缀。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, if an attribute and element have the same prefix but different namespaces, <ph id="ph1">`XmlWriter`</ph> generates an alternate prefix for the attribute.</source>
+          <target state="translated">例如，如果属性和元素具有相同前缀但不同的命名空间，<ph id="ph1">`XmlWriter`</ph>生成的属性的备用前缀。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The generated prefixes are named <ph id="ph1">`n{i}`</ph> where <ph id="ph2">`i`</ph> is a number beginning at 1.</source>
+          <target state="translated">生成的前缀命名<ph id="ph1">`n{i}`</ph>其中<ph id="ph2">`i`</ph>是从 1 开始的数字。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The number is reset to 1 for each element.</source>
+          <target state="translated">编号重置为 1。 对于每个元素。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Attributes which are associated with a namespace URI must have a prefix (default namespaces do not apply to attributes).</source>
+          <target state="translated">命名空间 URI 与关联的属性必须具有的前缀 （默认值特性不适用于命名空间）。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This conforms to section 5.2 of the W3C Namespaces in XML recommendation.</source>
+          <target state="translated">这符合 XML 建议中的 W3C 命名空间的第 5.2 节。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If an attribute references a namespace URI, but does not specify a prefix, the writer generates a prefix for the attribute.</source>
+          <target state="translated">如果属性引用的命名空间 URI，但未指定前缀，则编写器将生成该属性的前缀。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When writing an empty element, an additional space is added between tag name and the closing tag, for example <ph id="ph1">`&lt;item /&gt;`</ph>.</source>
+          <target state="translated">当编写空元素，额外的空间之间添加标记名称和结束标记，例如<ph id="ph1">`&lt;item /&gt;`</ph>。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This provides compatibility with older browsers.</source>
+          <target state="translated">这提供了与较旧的浏览器兼容性。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When a <ph id="ph1">`String`</ph> is used as method parameter, <ph id="ph2">`null`</ph> and <ph id="ph3">`String.Empty`</ph> are equivalent.</source>
+          <target state="translated">当<ph id="ph1">`String`</ph>作为方法参数，使用<ph id="ph2">`null`</ph>和<ph id="ph3">`String.Empty`</ph>是等效的。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`String.Empty`</ph> follows the W3C rules.</source>
+          <target state="translated"><ph id="ph1">`String.Empty`</ph>遵循 W3C 规则。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To write strongly typed data, use the &lt;xref:System.Xml.XmlConvert&gt; class to convert data types to string.</source>
+          <target state="translated">若要编写强类型化的数据，使用&lt;xref:System.Xml.XmlConvert&gt;类将数据类型转换为字符串。&lt;/xref:System.Xml.XmlConvert&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example, the following C# code converts the data from <ph id="ph1">`Double`</ph> to <ph id="ph2">`String`</ph> and writes the element <ph id="ph3">`&lt;price&gt;19.95&lt;/price&gt;`</ph>.</source>
+          <target state="translated">例如，下面的 C# 代码将转换中的数据<ph id="ph1">`Double`</ph>到<ph id="ph2">`String`</ph>编写元素和<ph id="ph3">`&lt;price&gt;19.95&lt;/price&gt;`</ph>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   Double price = 19.95;   writer.WriteElementString("price", XmlConvert.ToString(price));   ```</ph>       <ph id="ph2">`XmlTextWriter`</ph> does not check for the following:      -   Invalid characters in attribute and element names.</source>
+          <target state="translated"><ph id="ph1">```   Double price = 19.95;   writer.WriteElementString("price", XmlConvert.ToString(price));   ```</ph>       <ph id="ph2">`XmlTextWriter`</ph>不会检查以下:-属性和元素的名称中的无效字符。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-   Unicode characters that do not fit the specified encoding.</source>
+          <target state="translated">不符合指定的编码的 Unicode 字符。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If the Unicode characters do not fit the specified encoding, the <ph id="ph1">`XmlTextWriter`</ph> does not escape the Unicode characters into character entities.</source>
+          <target state="translated">如果指定的编码，不能容纳的 Unicode 字符<ph id="ph1">`XmlTextWriter`</ph>未转义的 Unicode 字符到字符实体。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-   Duplicate attributes.</source>
+          <target state="translated">-重复的属性。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-   Characters in the DOCTYPE public identifier or system identifier.</source>
+          <target state="translated">-DOCTYPE 公共标识符或系统标识符中的字符。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Security Considerations    The following items are things to consider when working with the XmlTextWriter class.</source>
+          <target state="translated">以下各项的安全注意事项是需要使用 XmlTextWriter 类时，请考虑事项。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-   Exceptions thrown by the XmlTextWriter can disclose path information that you do not want bubbled up to the application.</source>
+          <target state="translated">-由 XmlTextWriter 引发的异常可能会泄露你不希望冒泡由应用程序的路径信息。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Your applications must catch exceptions and process them appropriately.</source>
+          <target state="translated">你的应用程序必须捕获异常并进行相应的处理。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-   When you pass the XmlTextWriter to another application the underlying stream is exposed to that application.</source>
+          <target state="translated">-当你将传递 XmlTextWriter 到另一个应用程序基础流会公开给该应用程序。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you need to pass the XmlTextWriter to a semi-trusted application, you should use an &lt;xref:System.Xml.XmlWriter&gt; object created by the &lt;xref:System.Xml.XmlWriter.Create%2A&gt; method instead.</source>
+          <target state="translated">如果你需要将 XmlTextWriter 传递给不完全受信任的应用程序，则应使用&lt;xref:System.Xml.XmlWriter&gt;创建对象&lt;xref:System.Xml.XmlWriter.Create%2A&gt;方法相反。&lt;/xref:System.Xml.XmlWriter.Create%2A&gt; &lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-   The XmlTextWriter does not validate any data that is passed to the &lt;xref:System.Xml.XmlTextWriter.WriteDocType%2A&gt; or &lt;xref:System.Xml.XmlTextWriter.WriteRaw%2A&gt; methods.</source>
+          <target state="translated">-XmlTextWriter 不会验证传递给任何数据&lt;xref:System.Xml.XmlTextWriter.WriteDocType%2A&gt;或&lt;xref:System.Xml.XmlTextWriter.WriteRaw%2A&gt;方法。&lt;/xref:System.Xml.XmlTextWriter.WriteRaw%2A&gt; &lt;/xref:System.Xml.XmlTextWriter.WriteDocType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You should not pass arbitrary data to these methods.</source>
+          <target state="translated">你不应将任意数据传递给这些方法。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-   If the default settings are changed, there is no guarantee that the generated output is well-formed XML data.</source>
+          <target state="translated">-如果更改默认设置，则不能保证生成的输出是格式良好的 XML 数据。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-   Do not accept supporting components, such as an &lt;xref:System.Text.Encoding&gt; object, from an untrusted source.</source>
+          <target state="translated">-不接受支持组件，如&lt;xref:System.Text.Encoding&gt;对象，从受信任的源。&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the <bpt id="p1">&lt;xref uid="langword_csharp_XmlTextWriter" name="XmlTextWriter" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified &lt;xref:System.IO.TextWriter&gt;.</source>
+          <target state="translated">创建的实例<bpt id="p1">&lt;xref uid="langword_csharp_XmlTextWriter" name="XmlTextWriter" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用的指定&lt;xref:System.IO.TextWriter&gt;。&lt;/xref:System.IO.TextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph> &gt;  Starting with the .NET Framework 2.0, we recommend that you create &lt;xref:System.Xml.XmlWriter&gt; instances by using the &lt;xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt; method and the &lt;xref:System.Xml.XmlWriterSettings&gt; class to take advantage of new functionality.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph>1&gt; 从.NET Framework 2.0 中，我们建议你创建&lt;xref:System.Xml.XmlWriter&gt;实例使用&lt;xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt;方法和&lt;xref:System.Xml.XmlWriterSettings&gt;类以利用新功能。&lt;/xref:System.Xml.XmlWriterSettings&gt; &lt;/xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt; &lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
