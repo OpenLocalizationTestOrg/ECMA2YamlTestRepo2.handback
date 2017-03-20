@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1fac560a9fcac20e0aa697208d825c6fba1fd3d9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xml.XmlEntity.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d762074549314fdd7bcf9e40a4790da1e53e22cc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7d7a3f89e2d6759701376b069790ea6bc810a033</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an entity declaration, such as <ph id="ph1">&amp;lt;</ph>!ENTITY... <ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">表示实体声明，如<ph id="ph1">&amp;lt;</ph>！实体...<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Gets the base Uniform Resource Identifier (URI) of the current node.</source>
+          <target state="translated">获取当前节点的基统一资源标识符 (URI)。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A networked XML document is comprised of chunks of data aggregated using various World Wide Web Consortium (W3C) standard inclusion mechanisms and therefore contains nodes that come from different places.</source>
+          <target state="translated">联网的 XML 文档的聚合使用各种 World Wide Web Consortium (W3C) 标准包含机制的数据块组成，因此包含来自不同位置的节点。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`BaseURI`</ph> tells you where these nodes came from.</source>
+          <target state="translated"><ph id="ph1">`BaseURI`</ph>告诉这些节点来自何处。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The value of this property varies depending on the node type.</source>
+          <target state="translated">此属性的值取决于节点类型。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Nodes which are children of external EntityReference nodes return the location of the entity itself.</source>
+          <target state="translated">外部 EntityReference 节点的子级的节点返回的实体本身的位置。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, consider the following XML document:      <ph id="ph1">```   &lt;!DOCTYPE item [   &lt;!ENTITY xyz SYSTEM "a/b.xml"&gt;   ]&gt;   &lt;item num='123'&gt;&amp;xyz;&lt;/item&gt;   ```</ph>       where the external entity <ph id="ph2">`a/b.xml`</ph> contains the XML text <ph id="ph3">`&lt;test&gt;123&lt;/test&gt;`</ph>.</source>
+          <target state="translated">例如，考虑下面的 XML 文档︰<ph id="ph1">```   &lt;!DOCTYPE item [   &lt;!ENTITY xyz SYSTEM "a/b.xml"&gt;   ]&gt;   &lt;item num='123'&gt;&amp;xyz;&lt;/item&gt;   ```</ph>其中的外部实体<ph id="ph2">`a/b.xml`</ph>包含 XML 文本<ph id="ph3">`&lt;test&gt;123&lt;/test&gt;`</ph>。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the document is loaded from http://server/mydata.xml, <ph id="ph1">`BaseURI`</ph> returns the following:      |NodeType|Name|BaseURI|   |--------------|----------|-------------|   |Attribute|num|http://server/mydata.xml|   |Document|#document|http://server/mydata.xml|   |DocumentType|item|http://server/mydata.xml|   |Entity|xyz|http://server/mydata.xml|   |Element|item|http://server/mydata.xml|   |EntityReference|xyz|http://server/mydata.xml|   |Element|test|http://server/a/b.xml|   |Text|#text|http://server/a/b.xml|       <ph id="ph2">`BaseURI`</ph> looks for entity reference boundaries, so if entities are expanded, this information is not preserved and this property returns the location of the <ph id="ph3">`XmlDocument`</ph> object in all cases.</source>
+          <target state="translated">如果从 http://server/mydata.xml，加载该文档<ph id="ph1">`BaseURI`</ph>将返回以下: |NodeType |名称 |BaseURI |  |--------------|----------|-------------|  |属性 | num | http://server/mydata.xml |  |文档 | #document | http://server/mydata.xml |  |DocumentType | 项 | http://server/mydata.xml |  |实体 | xyz | http://server/mydata.xml |  |元素 | 项目 | http://server/mydata.xml |  |EntityReference | xyz | http://server/mydata.xml |  |元素 | 测试 | http://server/a/b.xml |  |文本 | #text | http://server/a/b.xml |      <ph id="ph2">`BaseURI`</ph>查找实体引用边界，因此如果展开实体，不保留此信息和此属性返回的位置<ph id="ph3">`XmlDocument`</ph>在所有情况下的对象。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>As a second example, given the following XML document:      <ph id="ph1">```   &lt;!DOCTYPE Mydata SYSTEM "http://localhost/doctype.dtd"&gt;   &lt;baa&gt;&amp;xyz;&lt;/baa&gt;   ```</ph>       where the document type definition (DTD) file contains the following:      <ph id="ph2">```   &lt;!ENTITY xyz "&lt;E1&gt;My Data&lt;/E1&gt;"&gt;   &lt;!ELEMENT baa #PCDATA&gt;   &lt;!ATTLIST baa attr1 "woof"&gt;   ```</ph>       If the XML document is loaded from http://localhost/mydata.xml, <ph id="ph3">`BaseURI`</ph> returns the following for each of the nodes:      |NodeType|Name|BaseURI|   |--------------|----------|-------------|   |Document|#document|http://localhost/mydata.xml|   |DocumentType|Mydata|http://localhost/doctype.dtd|   |Element|baa|http://localhost/mydata.xml|   |Entity|xyz|http://localhost/doctype.dtd|   |EntityReference|xyz|http://localhost/mydata.xml|   |Attribute|woof|http://localhost/mydata.xml|      &gt; <ph id="ph4">[!NOTE]</ph> &gt;  The base URI of a default attribute is the same as the base URI of the element to which they belong.</source>
+          <target state="translated">作为第二个示例中，给定以下 XML 文档︰<ph id="ph1">```   &lt;!DOCTYPE Mydata SYSTEM "http://localhost/doctype.dtd"&gt;   &lt;baa&gt;&amp;xyz;&lt;/baa&gt;   ```</ph>其中的文档类型定义 (DTD) 文件包含以下︰<ph id="ph2">```   &lt;!ENTITY xyz "&lt;E1&gt;My Data&lt;/E1&gt;"&gt;   &lt;!ELEMENT baa #PCDATA&gt;   &lt;!ATTLIST baa attr1 "woof"&gt;   ```</ph>如果 XML 文档加载从 http://localhost/mydata.xml，<ph id="ph3">`BaseURI`</ph>返回以下项作为每个节点: |NodeType |名称 |BaseURI |  |--------------|----------|-------------|  |文档 | #document | http://localhost/mydata.xml |  |DocumentType |Mydata | http://localhost/doctype.dtd |  |元素 | baa | http://localhost/mydata.xml |  |实体 | xyz | http://localhost/doctype.dtd |  |EntityReference | xyz | http://localhost/mydata.xml |  |属性 | woof | http://localhost/mydata.xml |    &amp;1;&gt; <ph id="ph4">[!NOTE]</ph>&amp;1;&gt; 的默认属性的基本 URI 是它们所属的元素的基 URI 相同。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This property is a Microsoft extension to the Document Object Model (DOM).</source>
+          <target state="translated">此属性是 Microsoft 扩展到文档对象模型 (DOM)。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The location from which the node was loaded.</source>
+          <target state="translated">从其加载节点的位置。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Creates a duplicate of this node.</source>
+          <target state="translated">创建此节点的副本。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Entity nodes cannot be cloned.</source>
+          <target state="translated">无法克隆实体节点。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Calling this method on an <bpt id="p1">&lt;xref href="System.Xml.XmlEntity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object throws an exception.</source>
+          <target state="translated">调用此方法<bpt id="p1">&lt;xref href="System.Xml.XmlEntity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象引发异常。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to recursively clone the subtree under the specified node; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to clone only the node itself.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>递归地克隆指定节点; 下的子树<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>克隆节点本身。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Returns a copy of the <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which the method is called.</source>
+          <target state="translated">返回一份<bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>从中调用该方法。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Entity nodes cannot be cloned.</source>
+          <target state="translated">无法克隆实体节点。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Calling this method on an <bpt id="p1">&lt;xref href="System.Xml.XmlEntity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object throws an exception.</source>
+          <target state="translated">调用此方法<bpt id="p1">&lt;xref href="System.Xml.XmlEntity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象引发异常。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the concatenated values of the entity node and all its children.</source>
+          <target state="translated">获取实体节点及其所有子级的串连的值。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`XmlEntity`</ph> nodes are read-only.</source>
+          <target state="translated"><ph id="ph1">`XmlEntity`</ph>节点是只读的。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Setting this property throws an exception.</source>
+          <target state="translated">设置此属性将引发异常。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This property is a Microsoft extension to the Document Object Model (DOM).</source>
+          <target state="translated">此属性是 Microsoft 扩展到文档对象模型 (DOM)。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The concatenated values of the node and all its children.</source>
+          <target state="translated">节点及其所有子级的串连的值。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Attempting to set the property.</source>
+          <target state="translated">尝试设置属性。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets the markup representing the children of this node.</source>
+          <target state="translated">获取表示此节点的子级的标记。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`XmlEntity`</ph> nodes are read-only.</source>
+          <target state="translated"><ph id="ph1">`XmlEntity`</ph>节点是只读的。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Setting this property throws an exception.</source>
+          <target state="translated">设置此属性将引发异常。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This property is a Microsoft extension to the Document Object Model (DOM).</source>
+          <target state="translated">此属性是 Microsoft 扩展到文档对象模型 (DOM)。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes, String.Empty is returned.</source>
+          <target state="translated">有关<bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>节点，则返回 String.Empty。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Attempting to set the property.</source>
+          <target state="translated">尝试设置属性。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the node is read-only.</source>
+          <target state="translated">获取一个值，该值指示节点是否只读的。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A read-only node is one whose properties, attributes, or children cannot be changed.</source>
+          <target state="translated">只读节点是一个无法更改其属性、 属性或子级。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can remove a read-only node from the tree and insert it somewhere else.</source>
+          <target state="translated">你可以从树中删除只读节点，并将它的其他位置。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the node is read-only; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果该节点是只读的;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes are read-only, this property always returns <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">因为<bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>节点是只读的此属性始终返回<bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the name of the node without the namespace prefix.</source>
+          <target state="translated">获取节点没有命名空间前缀的名称。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes, this property returns the name of the entity.</source>
+          <target state="translated">有关<bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>节点，此属性返回的实体的名称。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the name of the node.</source>
+          <target state="translated">获取节点的名称。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The name of the entity.</source>
+          <target state="translated">实体的名称。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the type of the node.</source>
+          <target state="translated">获取节点的类型。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The node type.</source>
+          <target state="translated">节点类型。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes, the value is XmlNodeType.Entity.</source>
+          <target state="translated">有关<bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>节点，值是 XmlNodeType.Entity。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets the name of the optional NDATA attribute on the entity declaration.</source>
+          <target state="translated">获取实体声明上的可选 n 数据属性的名称。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The name of the NDATA attribute.</source>
+          <target state="translated">N 数据属性的名称。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If there is no NDATA, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is returned.</source>
+          <target state="translated">如果没有任何 NDATA <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>返回。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets the markup representing this node and all its children.</source>
+          <target state="translated">获取表示此节点及其所有子级的标记。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This property is a Microsoft extension to the Document Object Model (DOM).</source>
+          <target state="translated">此属性是 Microsoft 扩展到文档对象模型 (DOM)。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes, String.Empty is returned.</source>
+          <target state="translated">有关<bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>节点，则返回 String.Empty。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Gets the value of the public identifier on the entity declaration.</source>
+          <target state="translated">在实体声明中获取的公共标识符的值。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The public identifier on the entity.</source>
+          <target state="translated">实体上的公共标识符。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If there is no public identifier, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is returned.</source>
+          <target state="translated">如果没有任何公共标识符<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>返回。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the value of the system identifier on the entity declaration.</source>
+          <target state="translated">获取实体声明上的系统标识符的值。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The system identifier on the entity.</source>
+          <target state="translated">实体上的系统标识符。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If there is no system identifier, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is returned.</source>
+          <target state="translated">如果没有任何系统标识符， <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>返回。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Saves all the children of the node to the specified &lt;xref:System.Xml.XmlWriter&gt;.</source>
+          <target state="translated">将节点的所有子级都保存到指定的&lt;xref:System.Xml.XmlWriter&gt;.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes, this method has no effect.</source>
+          <target state="translated">有关<bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>节点，此方法不起作用。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This method is a Microsoft extension to the Document Object Model (DOM).</source>
+          <target state="translated">此方法是 Microsoft 扩展到文档对象模型 (DOM)。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_XmlWriter" name="XmlWriter" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which you want to save.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_XmlWriter" name="XmlWriter" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>到想要保存。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Saves the node to the specified &lt;xref:System.Xml.XmlWriter&gt;.</source>
+          <target state="translated">将节点保存到指定&lt;xref:System.Xml.XmlWriter&gt;。&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes, this method has no effect.</source>
+          <target state="translated">有关<bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>节点，此方法不起作用。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This method is a Microsoft extension to the Document Object Model (DOM).</source>
+          <target state="translated">此方法是 Microsoft 扩展到文档对象模型 (DOM)。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_XmlWriter" name="XmlWriter" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which you want to save.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_XmlWriter" name="XmlWriter" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>到想要保存。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

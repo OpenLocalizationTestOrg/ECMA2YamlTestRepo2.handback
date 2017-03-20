@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb696080c141e7584846980d93c7a8b01d41ce65</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">493bfe39a6283b66e8bee70599332c044cd6d358</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d21d38cef63c1b04687006dcfcb0ebbb861e8301</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Identifies the callback method in a server control acting as the provider in a Web Parts connection, and enables developers to specify details about the provider's connection point.</source>
+          <target state="translated">标识作为 Web 部件连接中中的提供程序的服务器控件中的回调方法，允许开发人员指定关于提供程序的连接点的详细信息。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A Web Parts connection consists of two server controls residing in a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; zone and sharing data by means of an interface instance passed from one control to the other.</source>
+          <target state="translated">Web 部件连接中包含的两个驻留在的服务器控件&lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;区域和通过接口实例的共享的数据从一个控件传递到另。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The control that serves the interface instance is called the provider, and the control that receives the interface instance and processes or displays the data is called the consumer.</source>
+          <target state="translated">提供该接口实例的控件称为提供程序，并接收接口实例和进程或显示的数据的控件称为使用者。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For details on connections, see the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt; class and <bpt id="p1">[</bpt>Web Parts Connections Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关连接的详细信息，请参阅&lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;类和<bpt id="p1">[</bpt>Web 部件连接概述<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The provider control in a connection can be a &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control or any type of server or user control, but it must have a method designated as a callback method.</source>
+          <target state="translated">在连接中，提供程序控件均可以是&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;控件或任何类型的服务器或用户控件，但它必须具有指定为回调方法的方法。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The callback method is invoked during the connection process, and its purpose is to return to the consumer an interface instance that contains data.</source>
+          <target state="translated">在连接过程中，调用回调方法，其目的在于返回给使用者包含数据的接口实例。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To designate the method that serves as the callback method in a provider, you must add a <ph id="ph1">`ConnectionProviderAttribute`</ph> metadata element to the method (the element is based on the ConnectionProviderAttribute class).</source>
+          <target state="translated">若要指定充当提供程序中的回调方法的方法，你必须添加<ph id="ph1">`ConnectionProviderAttribute`</ph>到 （并且该方法类基于元素） 的方法的元数据元素。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In addition to designating the callback method in a provider, the ConnectionProviderAttribute object also enables you to specify certain details about a provider's connection point.</source>
+          <target state="translated">除指定提供程序中的回调方法，并且该方法对象还使您能够指定有关提供程序的连接点的某些详细信息。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A provider connection point is an instance of the &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; class that encapsulates all the details about a provider needed to establish a connection, including the provider's control type, whether it can connect to multiple consumers at the same time, what type of interface the provider serves to consumers, details about the callback method, and a display name that represents the provider connection point in the user interface (UI).</source>
+          <target state="translated">提供程序连接点是的一个实例&lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;类封装所有有关建立的连接，包括提供程序的控件类型，它能否连接到在相同的时间，哪种类型的接口提供程序的多个使用者所必需的提供程序的详细信息提供给使用者，关于详细信息的回调方法，以及表示用户界面 (UI) 中的提供程序连接点的显示名称。&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Every Web Parts connection includes a provider connection point that is associated with the provider control.</source>
+          <target state="translated">每个 Web 部件连接中，包括与提供程序控件相关联的提供程序连接点。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When you add the <ph id="ph1">`ConnectionProviderAttribute`</ph> metadata element to the callback method in a provider, you can also use it to specify the following details about the provider connection point: a display name for the connection point (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt; property), whether the provider can connect to multiple consumers at the same time (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.AllowsMultipleConnections%2A&gt; property), an ID for the connection point (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID%2A&gt; property), and the type of the connection point that the provider uses (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ConnectionPointType%2A&gt; property).</source>
+          <target state="translated">当你将添加<ph id="ph1">`ConnectionProviderAttribute`</ph>向提供程序中的回调方法的元数据元素，还可用它来指定以下有关提供程序连接点的详细信息︰ 连接点的显示名称 （有关详细信息，请参阅&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;属性），是否提供程序可以连接到多个使用者在同一时间 （有关详细信息，请参阅&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.AllowsMultipleConnections%2A&gt;属性），（有关详细信息的连接点的 ID请参阅&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID%2A&gt;属性)，并提供程序使用的连接点的类型 (有关详细信息，请参阅&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ConnectionPointType%2A&gt;属性)。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ConnectionPointType%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.AllowsMultipleConnections%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The four overloads of the constructor for the ConnectionProviderAttribute class each have parameters that allow you to specify values for one or more of these connection point properties when a new instance of the class is created.</source>
+          <target state="translated">每个并且该方法类的构造函数的四个重载具有可用于创建类的新实例时指定的一个或多个这些连接点属性的值的参数。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Most of the properties for a provider connection point can also be set programmatically; setting them using the <ph id="ph1">`ConnectionProviderAttribute`</ph> element is optional.</source>
+          <target state="translated">此外可以以编程方式; 设置为提供程序连接点属性中的大多数设置它们使用<ph id="ph1">`ConnectionProviderAttribute`</ph>元素是可选的。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When you add the <ph id="ph2">`ConnectionProviderAttribute`</ph> metadata element to a callback method in a provider, the only required parameter that you must always specify is the <ph id="ph3">`displayName`</ph> parameter (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.%23ctor%28System.String%29&gt; constructor overload).</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 添加时<ph id="ph2">`ConnectionProviderAttribute`</ph>到回调方法，提供程序中的元数据元素，必须始终指定的唯一所需的参数是<ph id="ph3">`displayName`</ph>参数 (有关详细信息，请参阅&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.%23ctor%28System.String%29&gt;构造函数重载)。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.%23ctor%28System.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The value of this parameter is assigned to the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt; property, and when a user opens the connection UI (created by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control), the display name represents the provider connection point in the UI.</source>
+          <target state="translated">此参数的值分配给&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;属性，并当用户打开连接的用户界面 (由&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件)，显示名称表示 UI 中的提供程序连接点。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you designate multiple callback methods in a provider control, you will have multiple possible connection points to choose from, and when you add the <ph id="ph1">`ConnectionProviderAttribute`</ph> metadata element to each callback method, you should also specify a value for the <ph id="ph2">`id`</ph> parameter, so that each provider connection point has a known, unique identifier.</source>
+          <target state="translated">如果指定提供程序控件中的多个回调方法，你将有多个可能的连接点可供选择，并且当你将添加<ph id="ph1">`ConnectionProviderAttribute`</ph>为每个回调方法的元数据元素，你还应指定的值<ph id="ph2">`id`</ph>参数，以使每个提供程序连接点都具有已知的唯一标识符。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying a display name for the provider connection point.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，指定提供程序连接点的显示名称。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This constructor creates an instance of the attribute that is used with a method of a Web Parts control acting as a provider.</source>
+          <target state="translated">此构造函数创建使用与中充当提供程序的 Web 部件控件的方法的属性的实例。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This method becomes the connection point between the provider and the consumer.</source>
+          <target state="translated">此方法将成为提供程序使用者之间的连接点。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Typically, the way you use this constructor is to declare a <ph id="ph1">`ConnectionProviderAttribute`</ph> metadata element on a method that you want to designate as a callback method in a provider control.</source>
+          <target state="translated">通常情况下，使用此构造函数的方法是声明<ph id="ph1">`ConnectionProviderAttribute`</ph>你想要将指定为提供者控件中的回调方法的方法上的元数据元素。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is a friendly name of the provider connection point that is used by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control to represent a provider's connection point in the UI.</source>
+          <target state="translated"><ph id="ph1">`displayName`</ph>参数是通过使用的提供程序连接点的友好名称&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件来表示 UI 中的提供程序的连接点。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly name for the provider connection point to display in the user interface (UI).</source>
+          <target state="translated">包含的提供程序连接的友好名称的字符串点在用户界面 (UI) 中显示。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying a display name and an ID for the provider connection point.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，指定显示名称和提供程序连接点的 ID。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is a friendly name of the provider connection point that is used by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control to represent a provider's connection point in the UI.</source>
+          <target state="translated"><ph id="ph1">`displayName`</ph>参数是通过使用的提供程序连接点的友好名称&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件来表示 UI 中的提供程序的连接点。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`id`</ph> parameter is used to specify the ID for the provider connection point associated with the specific callback method.</source>
+          <target state="translated"><ph id="ph1">`id`</ph>参数用于指定与特定的回调方法相关联的提供程序连接点的 ID。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A control can have multiple connection points, but the <ph id="ph1">`id`</ph> for each must be unique.</source>
+          <target state="translated">一个控件可拥有多个连接点，但<ph id="ph1">`id`</ph>每必须是唯一的。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Therefore, this overload of the constructor is useful if you have multiple callback methods in your provider control.</source>
+          <target state="translated">因此，如果你提供程序控件中有多个回调方法，则此重载构造函数可。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly name for the provider connection point to display in the user interface (UI).</source>
+          <target state="translated">包含的提供程序连接的友好名称的字符串点在用户界面 (UI) 中显示。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID*&gt;, a unique string value assigned to the provider connection point.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID*&gt;，分配给提供程序连接点的唯一字符串值。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;id&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;id&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying a display name and a specific type of connection point object to use for the provider connection point.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，指定显示名称和特定类型的连接点对象，用于提供程序连接点。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is a friendly name of the provider connection point that is used by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control to represent a provider's connection point in the UI.</source>
+          <target state="translated"><ph id="ph1">`displayName`</ph>参数是通过使用的提供程序连接点的友好名称&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件来表示 UI 中的提供程序的连接点。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`connectionPointType`</ph> parameter must be a &lt;xref:System.Type&gt; derived from &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;.</source>
+          <target state="translated"><ph id="ph1">`connectionPointType`</ph>参数必须是&lt;xref:System.Type&gt;派生自&lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If this parameter is specified, the &lt;xref:System.Type&gt; is used to create the connection point instead of the standard &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; class provided with the Web Parts control set.</source>
+          <target state="translated">如果指定此参数，则&lt;xref:System.Type&gt;用于创建而不是标准的连接点&lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;Web 部件控件集提供的类。&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly name for the provider connection point to display in the user interface (UI).</source>
+          <target state="translated">包含的提供程序连接的友好名称的字符串点在用户界面 (UI) 中显示。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that derives from <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and that you want to specify as the type of connection point object to use with a specific callback method.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;派生自<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，并且你想要指定为类型的连接点对象以与特定的回调方法一起使用。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph> or<ph id="ph2">&lt;code&gt; connectionPointType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>or<ph id="ph2">&lt;code&gt; connectionPointType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;connectionPointType&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;connectionPointType&lt;/code&gt;</ph>不是有效的。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying a display name, an ID, and a specific type of connection point object to use for the provider connection point.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，指定显示名称、 ID 和特定类型的连接点对象，用于提供程序连接点。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is a friendly name of the provider connection point that is used by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control to represent a provider's connection point in the UI.</source>
+          <target state="translated"><ph id="ph1">`displayName`</ph>参数是通过使用的提供程序连接点的友好名称&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件来表示 UI 中的提供程序的连接点。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`id`</ph> parameter is used to specify the ID for the provider connection point associated with the specific callback method.</source>
+          <target state="translated"><ph id="ph1">`id`</ph>参数用于指定与特定的回调方法相关联的提供程序连接点的 ID。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A control can have multiple connection points, but the <ph id="ph1">`id`</ph> for each must be unique.</source>
+          <target state="translated">一个控件可拥有多个连接点，但<ph id="ph1">`id`</ph>每必须是唯一的。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Therefore, this overload of the constructor is useful if you have multiple callback methods in your provider control.</source>
+          <target state="translated">因此，如果你提供程序控件中有多个回调方法，则此重载构造函数可。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`connectionPointType`</ph> parameter must be a &lt;xref:System.Type&gt; derived from &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;.</source>
+          <target state="translated"><ph id="ph1">`connectionPointType`</ph>参数必须是&lt;xref:System.Type&gt;派生自&lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If this parameter is specified, the &lt;xref:System.Type&gt; is used to create the connection point instead of the standard &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; class provided with the Web Parts control set.</source>
+          <target state="translated">如果指定此参数，则&lt;xref:System.Type&gt;用于创建而不是标准的连接点&lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;Web 部件控件集提供的类。&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly name for the provider connection point to display in the user interface (UI).</source>
+          <target state="translated">包含的提供程序连接的友好名称的字符串点在用户界面 (UI) 中显示。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID*&gt;, a unique string value assigned to the provider connection point.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID*&gt;，分配给提供程序连接点的唯一字符串值。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that derives from <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProviderConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and that you want to specify as the type of connection point object to use with a specific callback method.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;派生自<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProviderConnectionPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，并且你想要指定为类型的连接点对象以与特定的回调方法一起使用。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;id, &lt;/code&gt;</ph>or<ph id="ph3">&lt;code&gt; connectionPointType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;id, &lt;/code&gt;</ph>or<ph id="ph3">&lt;code&gt; connectionPointType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;connectionPointType&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;connectionPointType&lt;/code&gt;</ph>不是有效的。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the connection point allows multiple connections.</source>
+          <target state="translated">获取或设置一个值，该值指示连接点是否允许多个连接。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Provider connection points can connect to multiple consumers by default, and this property on the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; attribute is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">提供程序连接点可以连接到默认情况下，多个使用者和此属性上&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;属性设置为<ph id="ph1">`true`</ph>。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the connection point accepts multiple connections; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果连接点接受多个连接;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets the type of the connection point associated with a provider control.</source>
+          <target state="translated">获取与提供程序控件关联的连接点的类型。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This property returns the &lt;xref:System.Type&gt; of the provider connection point.</source>
+          <target state="translated">此属性返回&lt;xref:System.Type&gt;的提供程序连接点。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; must derive from &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;, and when you declare the <ph id="ph1">`connectionPointType`</ph> parameter with a <ph id="ph2">`ConnectionProviderAttribute`</ph> metadata element on a callback method, an instance of the type you declare is used to create a connection point instead of the standard &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; class.</source>
+          <target state="translated">&lt;xref:System.Type&gt;必须派生自&lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;，当声明和<ph id="ph1">`connectionPointType`</ph>参数<ph id="ph2">`ConnectionProviderAttribute`</ph>的回调方法，您声明的类型的实例上的元数据元素用来创建连接点而不是标准&lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;类。&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that indicates the type of the connection point.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;，该值指示连接点的类型。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>An invalid connection point type (one that does not derive from the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProviderConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class) was used.</source>
+          <target state="translated">无效的连接点类型 (一个不是派生自<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProviderConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类) 使用。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the friendly name of the provider connection point.</source>
+          <target state="translated">获取提供程序连接点的友好名称。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This property is the friendly name of a provider connection point.</source>
+          <target state="translated">此属性是提供程序连接点的友好名称。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Its value can be set declaratively, when you add the <ph id="ph1">`displayName`</ph> parameter to a <ph id="ph2">`ConnectionProviderAttribute`</ph> metadata element on a callback method.</source>
+          <target state="translated">其值时，可以设置以声明方式，你将添加<ph id="ph1">`displayName`</ph>参数<ph id="ph2">`ConnectionProviderAttribute`</ph>的回调方法的元数据元素。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>It can also be set programmatically by a derived class, by using the protected &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayNameValue%2A&gt; property.</source>
+          <target state="translated">它也可以设置以编程方式由派生类中，通过使用受保护&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayNameValue%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayNameValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>When you are searching through a connection point collection, you should use the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID%2A&gt; property, because the ID property must be unique, but the DisplayName property need not be.</source>
+          <target state="translated">如果你要搜索整个连接点集合，则应使用&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID%2A&gt;属性，因为 ID 属性必须是唯一的但 DisplayName 属性不需要。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The DisplayName property of a provider connection point is displayed to users when a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control is on the page, the connection user interface (UI) is open, and the users are in a view where they are allowed to select connection points to establish a connection.</source>
+          <target state="translated">向用户显示提供程序连接点的 DisplayName 属性时&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件是在页上，连接用户界面 (UI) 处于打开状态，且用户位于他们能够选择要建立连接的连接点的视图。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A string containing a friendly display name for the provider connection point.</source>
+          <target state="translated">包含提供程序连接点的友好显示名称的字符串。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string used as the value of the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName*&gt; property, for use in localization scenarios.</source>
+          <target state="translated">获取或设置用作的值的字符串&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName*&gt;属性，以便在本地化方案中使用。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName*&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This extra property exists so that you can derive from &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; and provide a localized version.</source>
+          <target state="translated">此额外属性存在，以便你可以从派生&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;和提供的本地化的版本。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The derived localizable &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; attribute will maintain a private Boolean field to indicate whether it has been localized.</source>
+          <target state="translated">派生可本地化&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;属性将保留一个专用的布尔字段，以指示是否已本地化。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>On the first access to the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt; property, it will look up the localized string, and then use the DisplayNameValue property to assign the localized value to the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt; property.</source>
+          <target state="translated">第一次访问&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;属性，它将查找本地化的字符串，并将 DisplayNameValue 属性以便将本地化的值赋给&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;属性。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A string that is used as the value of &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName*&gt;.</source>
+          <target state="translated">一个字符串，用作&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName*&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName*&gt;的值</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Gets a string that represents the unique identity of the provider connection point object.</source>
+          <target state="translated">获取一个字符串，表示提供程序连接点对象的唯一标识。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If searching through a connection point collection, you should use the ID property to locate a particular connection point.</source>
+          <target state="translated">如果搜索连接点集合，你应使用的 ID 属性来查找特定的连接点。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This property can be used to distinguish between two connection points of the same name.</source>
+          <target state="translated">此属性可以用于区分具有相同名称的两个连接点。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Provider connection points can have the same &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt; property value, but the ID property must be different.</source>
+          <target state="translated">提供程序连接点可以具有相同&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;属性值，但 ID 属性必须不同。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The unique ID assigned to the provider connection point.</source>
+          <target state="translated">分配给提供程序连接点的唯一 ID。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The default value is &lt;xref:System.String&gt;.</source>
+          <target state="translated">默认值为&lt;xref:System.String&gt;。&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

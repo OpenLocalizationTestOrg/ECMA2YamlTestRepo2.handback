@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84001643cee21329e2b20587531460d50085f65f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.ITypeDescriptorFilterService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">382c0c88a6eaca76f6f9e41a471e309860d62604</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67eb26302d7d96bfe2932f82f40a90746cac1513</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an interface to modify the set of member descriptors for a component in design mode.</source>
+          <target state="translated">Biedt een interface voor het wijzigen van de reeks lid descriptors voor een onderdeel in de ontwerpmodus.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ITypeDescriptorFilterService interface provides an interface that allows modification of the properties, events, and class-level attributes of a component at design time.</source>
+          <target state="translated">De interface ITypeDescriptorFilterService biedt een interface waarmee de wijziging van de eigenschappen, gebeurtenissen en klasseniveau kenmerken van een onderdeel in de ontwerpfase.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This modification occurs through the set of descriptors that a component provides through a &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated">Deze wijziging vindt plaats via de set van descriptors die een onderdeel via een &lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt; biedt</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type descriptor will query a component's site for the ITypeDescriptorFilterService service and, if it exists, the type descriptor will pass all metadata it has collected to this service.</source>
+          <target state="translated">De TypeDescriptor een query uit op de site van een onderdeel voor de service ITypeDescriptorFilterService en, indien aanwezig, de TypeDescriptor alle metagegevens die deze heeft verzameld bij deze service wordt doorgegeven.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The service can then modify the metadata by adding, removing, and altering existing characteristics of the component.</source>
+          <target state="translated">De service kan de metagegevens wijzigen door toe te voegen of te verwijderen of wijzigen van bestaande kenmerken van het onderdeel.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the properties of a component can be modified through a call to the &lt;xref:System.ComponentModel.Design.ITypeDescriptorFilterService.FilterProperties%2A&gt; method.</source>
+          <target state="translated">Bijvoorbeeld, de eigenschappen van een onderdeel kunnen worden gewijzigd door een aanroep van de &lt;xref:System.ComponentModel.Design.ITypeDescriptorFilterService.FilterProperties%2A&gt;methode.&lt;/xref:System.ComponentModel.Design.ITypeDescriptorFilterService.FilterProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The filter service obtains a dictionary that contains property names and their property descriptors of type &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.</source>
+          <target state="translated">De filterservice verkrijgt een woordenlijst met de namen van eigenschappen en hun descriptors eigenschap van het type &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The modifications are implemented using the following logic.</source>
+          <target state="translated">De wijzigingen worden geïmplementeerd met behulp van de volgende logica.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Modification|Implementation|   |------------------|--------------------|   |Removal|Delete the corresponding entry in the dictionary.|   |Addition|Add the appropriate entry to the dictionary.|   |Alteration|Call existing property descriptor methods, replace the associated property descriptor entry, or replace the entire property key/value pair in the dictionary.|       The return value of &lt;xref:System.ComponentModel.Design.ITypeDescriptorFilterService.FilterProperties%2A&gt; determines if this set of properties is fixed.</source>
+          <target state="translated">| Wijziging | Implementatie |   |------------------|--------------------|   | Verwijderen | Verwijderen van de bijbehorende vermelding in de woordenlijst. |   | Toevoeging | De desbetreffende vermelding toevoegen aan de woordenlijst. |   | Wijziging | Bestaande eigenschap descriptor methoden aanroepen, de gekoppelde eigenschap descriptor-vermelding vervangen of vervang de volledige eigenschap sleutel-waardepaar in de woordenlijst. |       De retourwaarde van &lt;xref:System.ComponentModel.Design.ITypeDescriptorFilterService.FilterProperties%2A&gt;bepaalt u of deze reeks eigenschappen is opgelost.&lt;/xref:System.ComponentModel.Design.ITypeDescriptorFilterService.FilterProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method returns <ph id="ph1">`true`</ph>, the &lt;xref:System.ComponentModel.TypeDescriptor&gt; for this component can cache the results.</source>
+          <target state="translated">Als deze methode retourneert <ph id="ph1">`true`</ph>, wordt de &lt;xref:System.ComponentModel.TypeDescriptor&gt;voor dit onderdeel de resultaten in cache.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This cache is maintained until either the component is garbage collected or the &lt;xref:System.ComponentModel.TypeDescriptor.Refresh%2A&gt; method of the type descriptor is called.</source>
+          <target state="translated">Deze cache wordt gehandhaafd tot ofwel het onderdeel is de garbage collector zijn verzameld of de &lt;xref:System.ComponentModel.TypeDescriptor.Refresh%2A&gt;methode van het TypeDescriptor wordt aangeroepen.&lt;/xref:System.ComponentModel.TypeDescriptor.Refresh%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Filters the attributes that a component exposes through a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Filtert de kenmerken die een onderdeel beschikbaar via maakt een <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called when a user requests a set of attributes for a component.</source>
+          <target state="translated">Deze methode wordt aangeroepen wanneer een gebruiker een set kenmerken voor een component aanvraagt.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The attributes are added to the dictionary with the attribute's &lt;xref:System.Attribute.TypeId%2A&gt; as the keys and the actual attribute as the value.</source>
+          <target state="translated">De kenmerken worden toegevoegd aan het woordenboek met het kenmerk &lt;xref:System.Attribute.TypeId%2A&gt;Als de sleutels en het werkelijke kenmerk als de waarde.&lt;/xref:System.Attribute.TypeId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implementers of this service can add, remove, or alter existing attribute entries in the dictionary.</source>
+          <target state="translated">Implementeerders van deze service kunnen toevoegen, verwijderen of aanpassen van bestaande kenmerk vermeldingen in de woordenlijst.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The component to filter the attributes of.</source>
+          <target state="translated">Het onderdeel voor het filteren van de kenmerken van.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A dictionary of attributes that can be modified.</source>
+          <target state="translated">Een woordenlijst van kenmerken die kunnen worden gewijzigd.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the set of filtered attributes is to be cached; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the filter service must query again.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als u de set gefilterde kenmerken op in de cache opgeslagen; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de filterservice moet query opnieuw uitvoert.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Filters the events that a component exposes through a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De gebeurtenissen gefilterd met een onderdeel via wordt een <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called when a user requests a set of events for a component.</source>
+          <target state="translated">Deze methode wordt aangeroepen wanneer een gebruiker een reeks gebeurtenissen voor een component aanvraagt.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The events are added to the dictionary with the event names as the keys and the corresponding &lt;xref:System.ComponentModel.EventDescriptor&gt; objects as the values.</source>
+          <target state="translated">De gebeurtenissen worden toegevoegd aan de woordenlijst met de gebeurtenisnamen van de als de sleutels en de bijbehorende &lt;xref:System.ComponentModel.EventDescriptor&gt;objecten als de waarden.&lt;/xref:System.ComponentModel.EventDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implementers of this service can add, remove, or alter event entries in the dictionary.</source>
+          <target state="translated">Implementeerders van deze service kunnen toevoegen, verwijderen of aanpassen van de gebeurtenisvermeldingen in de woordenlijst.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The component to filter events for.</source>
+          <target state="translated">De component gebeurtenissen voor filteren.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A dictionary of events that can be modified.</source>
+          <target state="translated">Een woordenlijst van gebeurtenissen die kunnen worden gewijzigd.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the set of filtered events is to be cached; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the filter service must query again.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als u de reeks gebeurtenissen gefilterd op in de cache opgeslagen; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de filterservice moet query opnieuw uitvoert.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Filters the properties that a component exposes through a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Filtert de eigenschappen die een onderdeel beschikbaar via maakt een <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called when a user requests a set of properties for a component.</source>
+          <target state="translated">Deze methode wordt aangeroepen wanneer een gebruiker een set eigenschappen voor een component aanvraagt.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The properties are added to the dictionary with the property names as the keys and the corresponding &lt;xref:System.ComponentModel.PropertyDescriptor&gt; objects as the values.</source>
+          <target state="translated">De eigenschappen worden toegevoegd aan de woordenlijst met de namen van eigenschappen als de sleutels en de bijbehorende &lt;xref:System.ComponentModel.PropertyDescriptor&gt;objecten als de waarden.&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implementers of this service can add, remove, or alter property entries in the dictionary.</source>
+          <target state="translated">Implementeerders van deze service kunnen toevoegen, verwijderen of wijzigen van de eigenschap vermeldingen in de woordenlijst.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The component to filter properties for.</source>
+          <target state="translated">Het onderdeel in de filtereigenschappen van het voor.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A dictionary of properties that can be modified.</source>
+          <target state="translated">Een woordenlijst van eigenschappen die kunnen worden gewijzigd.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the set of filtered properties is to be cached; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the filter service must query again.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als u de set gefilterde eigenschappen op in de cache opgeslagen; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de filterservice moet query opnieuw uitvoert.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

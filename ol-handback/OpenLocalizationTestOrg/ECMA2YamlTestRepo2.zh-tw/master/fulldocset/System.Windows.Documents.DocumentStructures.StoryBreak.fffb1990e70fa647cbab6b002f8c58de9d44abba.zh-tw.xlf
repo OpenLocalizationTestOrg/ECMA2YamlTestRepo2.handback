@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">706f7e432f76467941d5c3db8ab208a6ba087eaf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Documents.DocumentStructures.StoryBreak.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">011685c766c8829e962ab18346b386b4fcdb277b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c8b6348150550a275a3968404000bd9fb7db4129</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Identifies the start or end of story composed of one or more <bpt id="p1">&lt;xref href="System.Windows.Documents.DocumentStructures.StoryFragment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> elements.</source>
+          <target state="translated">識別的開始或結束組成一或多個劇本<bpt id="p1">&lt;xref href="System.Windows.Documents.DocumentStructures.StoryFragment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>項目。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A StoryBreak can only be a child element of a &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;.</source>
+          <target state="translated">StoryBreak 只能&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;.&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;的子項目</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Additionally, a StoryBreak can only be the first child, last child, or both the first and last child elements in a &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;.</source>
+          <target state="translated">此外，StoryBreak 只能是第一個子系、 最後一個子系或&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;.&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;這兩個的第一個和最後一個子項目</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The location of the StoryBreak element in a &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; indicates if the story is contained in additional fragments, and if the additional fragments either precede or follow the current fragment.</source>
+          <target state="translated">StoryBreak 中項目的位置&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;表示，如果本文包含在其他片段中，如果其他片段之前，或依照目前的片段。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A StoryBreak as the first element in a &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; indicates the start of a story.</source>
+          <target state="translated">中的第一個項目為 StoryBreak&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;指出劇本的開始。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;!-- Fragment 1 --&gt;   &lt;StoryFragment&gt;     &lt;StoryBreak /&gt;   &lt;!-- Identifies the start of a story when          --&gt;                      &lt;!-- immediately after an opening &lt;StoryFragment&gt;. --&gt;     &lt;ParagraphStructure&gt;       &lt;NamedElement NameReference="a" /&gt;       &lt;NamedElement NameReference="b" /&gt;     &lt;/ParagraphStructure&gt;   &lt;/StoryFragment&gt;   &lt;!-- Story continues in the next &lt;StoryFragment&gt;.  --&gt;   ```</ph>       A StoryBreak as the last element in a &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; indicates the end of a story.</source>
+          <target state="translated"><ph id="ph1">```   &lt;!-- Fragment 1 --&gt;   &lt;StoryFragment&gt;     &lt;StoryBreak /&gt;   &lt;!-- Identifies the start of a story when          --&gt;                      &lt;!-- immediately after an opening &lt;StoryFragment&gt;. --&gt;     &lt;ParagraphStructure&gt;       &lt;NamedElement NameReference="a" /&gt;       &lt;NamedElement NameReference="b" /&gt;     &lt;/ParagraphStructure&gt;   &lt;/StoryFragment&gt;   &lt;!-- Story continues in the next &lt;StoryFragment&gt;.  --&gt;   ```</ph>中的最後一個元素的 StoryBreak&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;表示本文的結尾。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;!-- Fragment 2 --&gt;   &lt;StoryFragment&gt;    &lt;!-- Story continued from prior &lt;StoryFragment&gt;.    --&gt;     &lt;ParagraphStructure&gt;         &lt;NamedElement NameReference="c" /&gt;     &lt;/ParagraphStructure&gt;     &lt;StoryBreak /&gt;   &lt;!-- Identifies the end of a story when             --&gt;                      &lt;!-- immediately before a closing &lt;/StoryFragment&gt;. --&gt;   &lt;/StoryFragment&gt;   ```</ph>       A story that is contained in a single &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; will have two StoryBreak elements as the first and last child elements of the fragment.</source>
+          <target state="translated"><ph id="ph1">```   &lt;!-- Fragment 2 --&gt;   &lt;StoryFragment&gt;    &lt;!-- Story continued from prior &lt;StoryFragment&gt;.    --&gt;     &lt;ParagraphStructure&gt;         &lt;NamedElement NameReference="c" /&gt;     &lt;/ParagraphStructure&gt;     &lt;StoryBreak /&gt;   &lt;!-- Identifies the end of a story when             --&gt;                      &lt;!-- immediately before a closing &lt;/StoryFragment&gt;. --&gt;   &lt;/StoryFragment&gt;   ```</ph>本文包含在單一&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;片段的第一個和最後一個子元素將有兩個 StoryBreak 項目。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;!-- Fragments 1 and 2 Merged --&gt;   &lt;ParagraphStructure&gt;     &lt;NamedElement NameReference="a" /&gt;     &lt;NamedElement NameReference="b" /&gt;     &lt;NamedElement NameReference="c" /&gt;   &lt;/ParagraphStructure&gt;   ```</ph>       &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; elements that are entirely contained on one page will start and end with StoryBreak elements since the content is completely contained in a single fragment.</source>
+          <target state="translated"><ph id="ph1">```   &lt;!-- Fragments 1 and 2 Merged --&gt;   &lt;ParagraphStructure&gt;     &lt;NamedElement NameReference="a" /&gt;     &lt;NamedElement NameReference="b" /&gt;     &lt;NamedElement NameReference="c" /&gt;   &lt;/ParagraphStructure&gt;   ```</ph>       &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;項目完全包含在單一頁面將會啟動，並在結尾 StoryBreak 項目，因為內容完全包含於單一的片段。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The position of StoryBreak elements in a &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; is useful when you want to access content in either forward or reverse direction in the document.</source>
+          <target state="translated">StoryBreak 中的項目位置&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;時，您想要存取文件中的正向或反向方向中的內容。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example when merging fragments in forward order, a &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; that ends with a StoryBreak indicates the end of the story and that there are no more fragments to merge.</source>
+          <target state="translated">例如當合併片段正向順序&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;StoryBreak 結束表示結束了，而且沒有任何多個片段合併。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Similarly when merging story fragments in reverse order, a &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; that starts with a StoryBreak indicates the start of the story and that there are no prior fragments to merge.</source>
+          <target state="translated">同樣地當合併劇本片段反向順序&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;開頭 StoryBreak 指出本文開頭而且沒有任何先前的片段，以合併。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The ability to process story fragments in either forward or reverse directions is important for many application uses.</source>
+          <target state="translated">處理劇本片段正向或反向方向的能力是很重要的許多應用程式使用。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example, a paragraph that spans page breaks is divided into multiple story fragments, one fragment for each page.</source>
+          <target state="translated">例如，跨越分頁符號的段落分成多個劇本片段，每個頁面一個片段。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A user interface that provides a triple-click feature to select and copy a whole paragraph to the clipboard must be able to merge multiple story fragments when a paragraph spans multiple pages.</source>
+          <target state="translated">提供按三下功能，以選取並複製到剪貼簿的整個段落的使用者介面必須能段落跨越多個頁面時，合併多個劇本片段。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Additionally if the user triple-clicks on part of a paragraph that starts on the first page, the application must identify that the &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; starts with a StoryBreak but does not end with a StoryBreak.</source>
+          <target state="translated">此外使用者 triple-按一下組件的段落開頭的第一頁上，如果應用程式必須識別，&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;開頭 StoryBreak 但未以 StoryBreak 結尾。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This would indicate that the &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; that is contained on the next page must be loaded and added to the end of the current fragment.</source>
+          <target state="translated">這表示，&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;包含在下一個頁面必須載入並加入至目前的片段結尾。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Similarly if the user triple-clicks on part of the paragraph located on the last page, the application must identify that the &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; ends with a StoryBreak but does not begin with a StoryBreak.</source>
+          <target state="translated">同樣的使用者 triple-按一下段落最後一頁上的部分，如果應用程式必須識別， &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;StoryBreak 的結尾，但不是以 StoryBreak。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This would indicate that the &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; that is contained on previous page must be loaded and added to the start of the current fragment.</source>
+          <target state="translated">這表示，&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;也就是包含在先前的頁面必須載入並加入至目前片段開頭。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The application should also be able to process both forward and reverse directions for the case of large paragraphs that span three or more pages and where the user's selection point is on an inner page.</source>
+          <target state="translated">應用程式也應該能夠處理大型段落跨越三個或多個頁面的大小寫的正向與反向說明，且使用者的選取範圍點的位置是內部的頁面。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Since a &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; is limited to a single page, the use of StoryBreak elements allow each &lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; to contain well-formed XML but still have a hierarchical structure across an entire document.</source>
+          <target state="translated">因為&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;僅限於單一頁面上，使用的項目可讓每個 StoryBreak&lt;xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;包含格式正確的 XML，但仍有跨整份文件的階層式結構。&lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt; &lt;/xref:System.Windows.Documents.DocumentStructures.StoryFragment&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Documents.DocumentStructures.StoryBreak"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Documents.DocumentStructures.StoryBreak"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
