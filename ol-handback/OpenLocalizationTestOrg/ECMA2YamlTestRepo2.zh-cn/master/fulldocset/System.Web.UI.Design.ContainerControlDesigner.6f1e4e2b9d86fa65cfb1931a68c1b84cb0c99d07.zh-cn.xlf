@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f1afc3cfffe128746633cfb44ce2a40c4cf35b0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.Design.ContainerControlDesigner.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5f6b4da9bba734465351be3060a2f10c3594f2d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8cc2c1b3b5f71b8f497187113c5bc1cae9eadece</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides designer functionality for controls that contain child controls or properties that can be modified at design time.</source>
+          <target state="translated">包含可以在设计时修改的属性或子控件的控件提供设计器的功能。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The ContainerControlDesigner class provides a base designer class for controls that can be modified on the design surface.</source>
+          <target state="translated">ContainerControlDesigner 类提供的可修改设计图面的控件的基本设计器类。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This includes controls that contain child controls or editable inner properties.</source>
+          <target state="translated">这包括包含可编辑的内部属性或子控件的控件。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The ContainerControlDesigner provides a single framed region to represent the control, and automatically handles rendering the control at design time.</source>
+          <target state="translated">ContainerControlDesigner 提供单个组帧的区域以表示控件，并在设计时呈现控件时自动处理。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Apply the &lt;xref:System.Web.UI.ParseChildrenAttribute&gt; attribute on the associated control to determine the design-time behavior of the ContainerControlDesigner.</source>
+          <target state="translated">应用&lt;xref:System.Web.UI.ParseChildrenAttribute&gt;上要确定 ContainerControlDesigner 的设计时行为的关联控件的属性。&lt;/xref:System.Web.UI.ParseChildrenAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Apply the &lt;xref:System.Web.UI.ParseChildrenAttribute&gt; settings on the associated control as follows:      -   <ph id="ph1">`false`</ph> to indicate that the ContainerControlDesigner represents the contents of the editable design region as child controls.</source>
+          <target state="translated">应用&lt;xref:System.Web.UI.ParseChildrenAttribute&gt;设置关联的控件，如下所示:-<ph id="ph1">`false`</ph>以指示 ContainerControlDesigner 表示为子控件的可编辑的设计区域的内容。&lt;/xref:System.Web.UI.ParseChildrenAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   <ph id="ph1">`true`</ph> to indicate that the ContainerControlDesigner represents the contents of the editable design region as editable inner properties of the control.</source>
+          <target state="translated">-<ph id="ph1">`true`</ph>以指示 ContainerControlDesigner 为可编辑的控件的内部属性表示可编辑设计区域的内容。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Control developers can derive and extend a custom designer from one of several base designers depending on the kind of control that is being developed, as defined in the following list:      -   Controls that allow child controls to be added to it at design time can derive from the ContainerControlDesigner class.</source>
+          <target state="translated">控件开发人员可以派生和扩展自定义设计器从一个具体取决于正在开发的控件类型的几个基本设计器，如以下列表中定义:-允许在设计时添加到它的子控件的控件可以从 ContainerControlDesigner 类派生。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Web.UI.Design.WebControls.PanelContainerDesigner&gt; class is derived from the ContainerControlDesigner class and represents a &lt;xref:System.Web.UI.WebControls.Panel&gt; control on the design surface.</source>
+          <target state="translated">例如，&lt;xref:System.Web.UI.Design.WebControls.PanelContainerDesigner&gt;类派生自 ContainerControlDesigner 类，它表示&lt;xref:System.Web.UI.WebControls.Panel&gt;设计图面上的控件。&lt;/xref:System.Web.UI.WebControls.Panel&gt; &lt;/xref:System.Web.UI.Design.WebControls.PanelContainerDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-   Controls that have one or more child controls, and might also have an editable designer region where controls can be added at design time, can derive from the &lt;xref:System.Web.UI.Design.WebControls.CompositeControlDesigner&gt; class.</source>
+          <target state="translated">的可以从&lt;xref:System.Web.UI.Design.WebControls.CompositeControlDesigner&gt;类&lt;/xref:System.Web.UI.Design.WebControls.CompositeControlDesigner&gt;派生控件的一个或多个子控件，并且可能具有可编辑设计器区域，在设计时添加控件</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-   Controls that require custom design-time processing can derive from the base &lt;xref:System.Web.UI.Design.ControlDesigner&gt; class.</source>
+          <target state="translated">的需要自定义设计时处理控件可以派生自基的&lt;xref:System.Web.UI.Design.ControlDesigner&gt;类。&lt;/xref:System.Web.UI.Design.ControlDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The ContainerControlDesigner class replaces the obsolete &lt;xref:System.Web.UI.Design.ReadWriteControlDesigner&gt; class.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; ContainerControlDesigner 类替换已过时的&lt;xref:System.Web.UI.Design.ReadWriteControlDesigner&gt;类。&lt;/xref:System.Web.UI.Design.ReadWriteControlDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.ComponentModel.DesignerAttribute&gt; attribute to associate a custom designer class together with a custom control implementation.</source>
+          <target state="translated">使用&lt;xref:System.ComponentModel.DesignerAttribute&gt;特性将以及自定义控件实现的自定义设计器类相关联。&lt;/xref:System.ComponentModel.DesignerAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For detailed information about how to use control designers with custom controls, see <bpt id="p1">[</bpt>Walkthrough: Creating a Basic Control Designer for a Web Server Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关如何使用自定义控件的控件设计器的详细信息，请参阅<bpt id="p1">[</bpt>演练︰ 为 Web 服务器控件中创建基本的控件设计器<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.Design.ContainerControlDesigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.Design.ContainerControlDesigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Adds the style attributes for the control at design time.</source>
+          <target state="translated">在设计时添加控件的样式特性。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The AddDesignTimeCssAttributes method adds a set of style attributes for the design-time representation of the control.</source>
+          <target state="translated">AddDesignTimeCssAttributes 方法将添加一的组控件的设计时表示的样式特性。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The style attribute values are added to the <ph id="ph1">`styleAttributes`</ph> collection, keyed by the style attribute name.</source>
+          <target state="translated">样式特性值添加到<ph id="ph1">`styleAttributes`</ph>集合，由样式属性名称进行键控。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, you can access the height value in the collection as <ph id="ph1">`styleAttributes["height"]`</ph> for C# or <ph id="ph2">`styleAttributes("height")`</ph> for Microsoft Visual Basic.</source>
+          <target state="translated">例如，可以访问集合中作为高度值<ph id="ph1">`styleAttributes["height"]`</ph>对于 C# 或<ph id="ph2">`styleAttributes("height")`</ph>为 Microsoft Visual Basic。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the associated control is not derived from the &lt;xref:System.Web.UI.WebControls.WebControl&gt; class, the AddDesignTimeCssAttributes method does not add attribute values to the <ph id="ph1">`styleAttributes`</ph> collection.</source>
+          <target state="translated">如果关联的控件不派生自&lt;xref:System.Web.UI.WebControls.WebControl&gt;类，AddDesignTimeCssAttributes 方法不会添加到的属性值<ph id="ph1">`styleAttributes`</ph>集合。&lt;/xref:System.Web.UI.WebControls.WebControl&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A keyed collection of style attributes.</source>
+          <target state="translated">样式特性是键控的集合。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating if the control can be resized at design time.</source>
+          <target state="translated">获取一个值，该值指示是否控件可以在设计时调整大小。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The base implementation for the AllowResize property returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">AllowResize 属性的基实现返回<ph id="ph1">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This indicates that the designer supports resizing of the control on the design surface.</source>
+          <target state="translated">这表示设计器支持的设计图面上的控件调整大小。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the control can be resized; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果控件可以调整大小;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the caption that is displayed for a control at design time.</source>
+          <target state="translated">获取控件设计时显示的标题。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The FrameCaption string is the caption that is displayed in the frame around the editable region of the control on the design surface.</source>
+          <target state="translated">FrameCaption 字符串是控件的显示在设计图面上的可编辑区域周围的框架的标题。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default caption for a &lt;xref:System.Web.UI.Design.ContainerControlDesigner&gt; frame is the &lt;xref:System.Web.UI.Design.ControlDesigner.ID%2A&gt; property of the designer instance.</source>
+          <target state="translated">默认标题&lt;xref:System.Web.UI.Design.ContainerControlDesigner&gt;帧是&lt;xref:System.Web.UI.Design.ControlDesigner.ID%2A&gt;的设计器的实例的属性。&lt;/xref:System.Web.UI.Design.ControlDesigner.ID%2A&gt; &lt;/xref:System.Web.UI.Design.ContainerControlDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This is typically the same as the run-time &lt;xref:System.Web.UI.Control.ID%2A&gt; property of the control.</source>
+          <target state="translated">这通常是运行时相同&lt;xref:System.Web.UI.Control.ID%2A&gt;的控件属性。&lt;/xref:System.Web.UI.Control.ID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The string used for the control frame caption at design time, if the control has a design-time caption; otherwise, an empty string ("").</source>
+          <target state="translated">在设计时使用的控件框架标题，如果控件具有设计时标题; 的字符串否则为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the style that is applied to the control frame at design time.</source>
+          <target state="translated">获取在设计时应用于控件框架的样式。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The FrameStyle property indicates the style properties of the frame around the editable region of the control on the design surface.</source>
+          <target state="translated">FrameStyle 属性指示的样式属性的设计图面上的控件的可编辑区域周围的框架。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the control frame at design time.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在设计时控件帧。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns the collection of style attributes for the control at design time.</source>
+          <target state="translated">返回在设计时的控件的样式属性的集合。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The GetDesignTimeCssAttributes method returns a collection of style attributes for the design-time representation of the control.</source>
+          <target state="translated">GetDesignTimeCssAttributes 方法返回控件的设计时表示的样式属性的集合。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To examine a style attribute value at design time for a control, use the style attribute name as a key to the returned collection.</source>
+          <target state="translated">若要在控件的设计时检查样式属性值，请作为键与返回的集合使用的样式属性名称。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Style attribute values are stored as strings in the collection.</source>
+          <target state="translated">样式属性值存储为集合中的字符串。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, you can access the height value in the collection as <ph id="ph1">`styleAttributes["height"]`</ph> for C# or <ph id="ph2">`styleAttributes("height")`</ph> for Microsoft Visual Basic.</source>
+          <target state="translated">例如，可以访问集合中作为高度值<ph id="ph1">`styleAttributes["height"]`</ph>对于 C# 或<ph id="ph2">`styleAttributes("height")`</ph>为 Microsoft Visual Basic。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the associated control is not derived from the &lt;xref:System.Web.UI.WebControls.WebControl&gt; class, the GetDesignTimeCssAttributes method returns an empty collection.</source>
+          <target state="translated">如果关联的控件不派生自&lt;xref:System.Web.UI.WebControls.WebControl&gt;类，GetDesignTimeCssAttributes 方法返回一个空集合。&lt;/xref:System.Web.UI.WebControls.WebControl&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A collection of style attributes applied to the control on the design surface.</source>
+          <target state="translated">应用到设计图面上的控件的样式属性的集合。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The style attribute names are keys used to access the style attribute values in the &lt;xref:System.Collections.IDictionary&gt;.</source>
+          <target state="translated">样式属性名称是用于访问&lt;xref:System.Collections.IDictionary&gt;.&lt;/xref:System.Collections.IDictionary&gt;中的样式属性值的密钥</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Returns the HTML markup that is used to represent the control at design time.</source>
+          <target state="translated">返回用于在设计时表示控件的 HTML 标记。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Use the GetDesignTimeHtml method to get the HTML for the control.</source>
+          <target state="translated">GetDesignTimeHtml 方法用于获取控件的 HTML。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Child controls that are contained in the editable design region are rendered using their associated control designers.</source>
+          <target state="translated">使用及其关联的控件设计器呈现的可编辑的设计区域中包含的子控件。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The GetDesignTimeHtml method initializes a new &lt;xref:System.Web.UI.Design.EditableDesignerRegion&gt; object for the editable region of associated control, and then returns the region through the <ph id="ph1">`regions`</ph> collection.</source>
+          <target state="translated">GetDesignTimeHtml 方法初始化新&lt;xref:System.Web.UI.Design.EditableDesignerRegion&gt;对象关联的控件，然后又返回的可编辑区域的区域通过<ph id="ph1">`regions`</ph>集合。&lt;/xref:System.Web.UI.Design.EditableDesignerRegion&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A collection of designer regions.</source>
+          <target state="translated">设计器区域的集合。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An HTML markup string that represents the control.</source>
+          <target state="translated">一个表示控件的 HTML 标记字符串。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Returns the content for the editable region of the control at design time.</source>
+          <target state="translated">在设计时返回控件的可编辑区域的内容。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.Design.ContainerControlDesigner&gt; class implements a single designer region instead of a collection of designer regions.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Design.ContainerControlDesigner&gt;类实现单个的设计器区域，而不是设计器区域的集合。&lt;/xref:System.Web.UI.Design.ContainerControlDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Therefore, the <ph id="ph1">`region`</ph> parameter is ignored, and the GetEditableDesignerRegionContent method returns the content for the single designer region that is contained in the control designer.</source>
+          <target state="translated">因此，<ph id="ph1">`region`</ph>参数将被忽略，并且该 GetEditableDesignerRegionContent 方法在控件设计器中返回单个包含的设计器区域的内容。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An editable design region contained within the control.</source>
+          <target state="translated">在控件内包含的可编辑的设计区域。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The persisted content of the region contained within the <bpt id="p1">&lt;xref href="System.Web.UI.Design.ContainerControlDesigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">中包含的区域的保持的内容<bpt id="p1">&lt;xref href="System.Web.UI.Design.ContainerControlDesigner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Returns the persistable content of the control at design time.</source>
+          <target state="translated">在设计时返回控件的持久内容。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The GetPersistenceContent method returns <ph id="ph1">`null`</ph> to indicate that the &lt;xref:System.Web.UI.Design.ContainerControlDesigner&gt; class does not have persisted inner content.</source>
+          <target state="translated">GetPersistenceContent 方法返回<ph id="ph1">`null`</ph>，则指示&lt;xref:System.Web.UI.Design.ContainerControlDesigner&gt;类不一定保持内部内容。&lt;/xref:System.Web.UI.Design.ContainerControlDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets a value that specifies whether to use the HTML <bpt id="p1">&lt;xref uid="langword_csharp_nowrap" name="nowrap" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attribute on tables.</source>
+          <target state="translated">获取一个值，指定是否使用 HTML <bpt id="p1">&lt;xref uid="langword_csharp_nowrap" name="nowrap" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表上的属性。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use the HTML <bpt id="p2">&lt;xref uid="langword_csharp_nowrap" name="nowrap" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> attribute on tables; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要使用 HTML <bpt id="p2">&lt;xref uid="langword_csharp_nowrap" name="nowrap" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>属性表; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Sets the content for the editable region of the control at design time.</source>
+          <target state="translated">在设计时设置控件的可编辑区域的内容。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.Design.ContainerControlDesigner&gt; class implements a single designer region instead of a collection of designer regions.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Design.ContainerControlDesigner&gt;类实现单个的设计器区域，而不是设计器区域的集合。&lt;/xref:System.Web.UI.Design.ContainerControlDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Therefore, the <ph id="ph1">`region`</ph> parameter is ignored, and the SetEditableDesignerRegionContent method sets the content for the single designer region that is contained in the control designer.</source>
+          <target state="translated">因此，<ph id="ph1">`region`</ph>将忽略参数，并 SetEditableDesignerRegionContent 方法设置控件设计器中的单个包含的设计器区域的内容。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An editable design region contained within the control.</source>
+          <target state="translated">在控件内包含的可编辑的设计区域。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Content to assign for the editable design region.</source>
+          <target state="translated">要为可编辑的设计区域分配的内容。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
