@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15b9a1f3b6cdd0f4e2e52d9bd81e8f3e838c3e2e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Interop.IKeyboardInputSink.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">778f3276c3ce94eb45a8873d9bb8ab80c24adc26</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">55a01909041b186e03a5af5fe749c2c00d6fd755</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a keyboard sink for components that manages tabbing, accelerators, and mnemonics across interop boundaries and between HWNDs.</source>
+          <target state="translated">Предоставляет приемник клавиатуры для компонентов, которыми управляет переходов, сочетания клавиш и мнемоник между границами взаимодействия и между HWND.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This interface implements keyboard message management in <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph><ph id="ph2">-</ph><ph id="ph3">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph> interoperation scenarios.</source>
+          <target state="translated">Этот интерфейс реализует управление сообщениями от клавиатуры в <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> <ph id="ph2">-</ph> <ph id="ph3">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph> сценарии взаимодействия.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A keyboard sink handles input from particular subsets of the overall keyboard input model for <ph id="ph1">[!INCLUDE[TLA#tla_win32](~/add/includes/tlasharptla-win32-md.md)]</ph> and <ph id="ph2">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>, and enables some keyboard input to be processed and directed to HWNDs other than the one with current keyboard focus.</source>
+          <target state="translated">Приемник клавиатуры обрабатывает входные данные из определенных подмножеств общей модели ввода клавиатуры для <ph id="ph1">[!INCLUDE[TLA#tla_win32](~/add/includes/tlasharptla-win32-md.md)]</ph> и <ph id="ph2">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>и позволяет обрабатывать и направляются в HWND, отличной от с текущий фокус ввода клавиатуры.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your component contains other components, and maintains a tab order, your component must also implement &lt;xref:System.Windows.Interop.IKeyboardInputSite&gt; and keep track of which component has focus.</source>
+          <target state="translated">Если компонент содержит другие компоненты и поддерживает порядок перехода, также должен реализовывать компонент &lt;xref:System.Windows.Interop.IKeyboardInputSite&gt;и отслеживать какой компонент имеет фокус.&lt;/xref:System.Windows.Interop.IKeyboardInputSite&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a discussion of the input architecture specifically implemented for <ph id="ph1">[!INCLUDE[TLA#tla_winforms](~/add/includes/ajax-current-ext-md.md)]</ph> interop, see <bpt id="p1">[</bpt>Windows Forms and WPF Interoperability Input Architecture<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Сведения о реализации архитектуры ввода специально для <ph id="ph1">[!INCLUDE[TLA#tla_winforms](~/add/includes/ajax-current-ext-md.md)]</ph> взаимодействия, см. в разделе <bpt id="p1">[</bpt>Windows Forms и архитектура ввода взаимодействия WPF<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Interop.HwndSource&gt; and &lt;xref:System.Windows.Interop.HwndHost&gt; each implement the IKeyboardInputSink interface, through explicit interface definitions.</source>
+          <target state="translated">&lt;xref:System.Windows.Interop.HwndSource&gt;и &lt;xref:System.Windows.Interop.HwndHost&gt;каждый из которых реализует интерфейс IKeyboardInputSink через явные определения интерфейса.&lt;/xref:System.Windows.Interop.HwndHost&gt;&lt;/xref:System.Windows.Interop.HwndSource&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The explicit definitions supply default behaviors, and can also be accessed if necessary through an IKeyboardInputSink interface cast of &lt;xref:System.Windows.Interop.HwndSource&gt; or &lt;xref:System.Windows.Interop.HwndHost&gt;.</source>
+          <target state="translated">Явные определения укажите поведение по умолчанию и можно получить при необходимости через интерфейс IKeyboardInputSink приведение или &lt;xref:System.Windows.Interop.HwndSource&gt; &lt;xref:System.Windows.Interop.HwndHost&gt;.&lt;/xref:System.Windows.Interop.HwndHost&gt; &lt;/xref:System.Windows.Interop.HwndSource&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the sink or one of its contained components has focus.</source>
+          <target state="translated">Возвращает значение, указывающее, имеет ли приемник или один из его дочерних компонентов фокус.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is necessary for forwarding &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt; calls to child components with focus from within the &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt; implementation.</source>
+          <target state="translated">Этот метод необходим для пересылки &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;вызовы компонентов дочернего с упором изнутри &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;реализации.&lt;/xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt; &lt;/xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call HasFocusWithin recursively until you reach the level of specific focus and forward &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt; there.</source>
+          <target state="translated">Вызовите HasFocusWithin рекурсивно, пока не достигнете уровня конкретные данные и прямого &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;существует.&lt;/xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the sink or one of its contained components has focus; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если приемник или один из его дочерних компонентов имеет фокус; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Gets or sets a reference to the component's container's <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Возвращает или задает ссылку на контейнер компонента <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSite"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> интерфейса.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property should initially be set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Это свойство изначально должно быть присвоено <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any container that adds the sink to its components list will set KeyboardInputSite before any other methods are called, and it can be set multiple times after that.</source>
+          <target state="translated">Любой контейнер, добавляет в список компонентов приемник установит KeyboardInputSite прежде, чем все другие методы вызываются, и его можно задать несколько раз после этого.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should set the property to <ph id="ph1">`null`</ph> again before disposal.</source>
+          <target state="translated">Свойству необходимо присвоить значение <ph id="ph1">`null`</ph> еще раз перед реализацией.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A reference to the container's <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Ссылка на контейнер <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSite"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> интерфейса.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Called when one of the mnemonics (access keys) for this sink is invoked.</source>
+          <target state="translated">Вызывается, когда вызывается один из клавиш доступа для этого приемника.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">[!INCLUDE[TLA#tla_win](~/add/includes/ajax-current-ext-md.md)]</ph> message must be WM_CHAR, WM_SYSCHAR, WM_DEADCHAR or WM_SYSDEADCHAR.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA#tla_win](~/add/includes/ajax-current-ext-md.md)]</ph> Сообщение должно быть WM_CHAR, WM_SYSCHAR, WM_DEADCHAR или WM_SYSDEADCHAR.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the component has contained components, the message must be passed in your implementation by calling each contained component's OnMnemonic method.</source>
+          <target state="translated">Если компонент содержит автономные компоненты, сообщения должны передаваться в реализации с помощью вызова метода OnMnemonic автономной каждого компонента.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An interface that returns <ph id="ph1">`true`</ph> from &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt; will not call OnMnemonic.</source>
+          <target state="translated">Интерфейс, который возвращает <ph id="ph1">`true`</ph> из &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;не будет вызывать OnMnemonic.&lt;/xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implementations can choose to perform all specific key combination handling in &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateChar%2A&gt;.and bypass OnMnemonic.</source>
+          <target state="translated">Можно выбрать выполнение всех определенное сочетание клавиш, обработка в реализации &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateChar%2A&gt;и обходить OnMnemonic.&lt;/xref:System.Windows.Interop.IKeyboardInputSink.TranslateChar%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The message for the mnemonic and associated data.</source>
+          <target state="translated">Сообщение, назначенный и связанных данных.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Do not modify this message structure.</source>
+          <target state="translated">Не изменяйте структуру этого сообщения.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It is passed by reference for performance reasons only.</source>
+          <target state="translated">Он передается по ссылке только из соображений производительности.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Modifier keys.</source>
+          <target state="translated">Клавиши-модификаторы.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the message was handled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если сообщение было обработано; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Registers the <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSink"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface of a contained component.</source>
+          <target state="translated">Регистрирует <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSink"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> интерфейса автономной компонента.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Components with child components should maintain internal collections of sites and use this method to add a new sink and return the new site.</source>
+          <target state="translated">Компоненты с дочерними компонентами должны поддерживать внутренние коллекции узлов и использовать этот метод для добавления нового приемника и возврата нового узла.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You only need to maintain the site collection, because the sink can be obtained from the site.</source>
+          <target state="translated">Необходимо только поддерживать коллекцию узлов, поскольку приемник может быть получен с сайта.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSink"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> sink of the contained component.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSink"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Приемника компонента автономной.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> site of the contained component.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSite"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Узла автономной компонента.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Sets focus on either the first tab stop or the last tab stop of the sink.</source>
+          <target state="translated">Устанавливает фокус на первую или последнюю позицию табуляции приемника.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Input.FocusNavigationDirection&gt; and &lt;xref:System.Windows.Input.FocusNavigationDirection&gt; are the only relevant values that should be passed to this method in the &lt;xref:System.Windows.Input.TraversalRequest&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Input.FocusNavigationDirection&gt;и &lt;xref:System.Windows.Input.FocusNavigationDirection&gt;не только соответствующие значения, которые должны передаваться в этот метод в &lt;xref:System.Windows.Input.TraversalRequest&gt;.&lt;/xref:System.Windows.Input.TraversalRequest&gt; &lt;/xref:System.Windows.Input.FocusNavigationDirection&gt;&lt;/xref:System.Windows.Input.FocusNavigationDirection&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Specifies whether focus should be set to the first or the last tab stop.</source>
+          <target state="translated">Указывает, следует ли установить фокус на первой или последней позиции табуляции.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the focus has been set as requested; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, if there are no tab stops.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если фокус установлен по запросу; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, если нет позиций табуляции.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Processes keyboard input at the keydown message level.</source>
+          <target state="translated">Обрабатывает ввод с клавиатуры на уровне сообщений keydown.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The message must either be WM_KEYDOWN or WM_SYSKEYDOWN.</source>
+          <target state="translated">Сообщения должны быть WM_KEYDOWN или WM_SYSKEYDOWN.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the component is unable to handle the input translations and has child components that might have translations, it typically calls TranslateAccelerator method on the child component that holds the current focus before returning a result.</source>
+          <target state="translated">Если компонент не может обработать входные переводы и содержит дочерние компоненты, которые могут иметь переводы, обычно вызывает метод метода TranslateAccelerator на дочерние компонента, который содержит текущий фокус до возвращения результата.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message cannot be handled immediately, you can re-dispatch it from within the TranslateAccelerator implementation if necessary, and then return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Если сообщение не обрабатывается немедленно, можно повторно отправить его из метода TranslateAccelerator в реализации при необходимости и возвращается <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A primary scenario for translating accelerator keys is handling the VK_TAB keydown message and determining whether to set focus within the component, to call &lt;xref:System.Windows.Interop.IKeyboardInputSink.TabInto%2A&gt; to a child component, or to call &lt;xref:System.Windows.Interop.IKeyboardInputSite.OnNoMoreTabStops%2A&gt; on the parent site because the tab sequence has reached the beginning or end bounds.</source>
+          <target state="translated">Основной сценарий для перевода сочетания клавиш обработки сообщения keydown VK_TAB и определения, следует ли установить фокус в компоненте, для вызова &lt;xref:System.Windows.Interop.IKeyboardInputSink.TabInto%2A&gt;дочернего компонента, или вызов &lt;xref:System.Windows.Interop.IKeyboardInputSite.OnNoMoreTabStops%2A&gt;для родительского сайта, так как последовательность перехода достигнуто начало или конец границы.&lt;/xref:System.Windows.Interop.IKeyboardInputSite.OnNoMoreTabStops%2A&gt; &lt;/xref:System.Windows.Interop.IKeyboardInputSink.TabInto%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Certain components may choose to not handle the tab key in this fashion.</source>
+          <target state="translated">Некоторые компоненты, можно не обрабатывать нажатие клавиши tab таким образом.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The message and associated data.</source>
+          <target state="translated">Сообщение и связанные с ними данные.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Do not modify this structure.</source>
+          <target state="translated">Не изменяйте эту структуру.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>It is passed by reference for performance reasons only.</source>
+          <target state="translated">Он передается по ссылке только из соображений производительности.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Modifier keys.</source>
+          <target state="translated">Клавиши-модификаторы.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the message was handled by the method implementation; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если сообщение было обработано реализацией метода; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Processes WM_CHAR, WM_SYSCHAR, WM_DEADCHAR, and WM_SYSDEADCHAR input messages before &lt;xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic*&gt; is called.</source>
+          <target state="translated">Обработка входящих сообщений WM_CHAR, WM_SYSCHAR, WM_DEADCHAR и WM_SYSDEADCHAR перед &lt;xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic*&gt;называется.&lt;/xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic*&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you implement this method to return <ph id="ph1">`true`</ph>, the input architecture will not call &lt;xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic%2A&gt; for that key message.</source>
+          <target state="translated">При реализации этого метода для возврата <ph id="ph1">`true`</ph>, архитектура ввода, не будет вызывать &lt;xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic%2A&gt;для ключа сообщения.&lt;/xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The message and associated data.</source>
+          <target state="translated">Сообщение и связанные с ними данные.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Do not modify this structure.</source>
+          <target state="translated">Не изменяйте эту структуру.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>It is passed by reference for performance reasons only.</source>
+          <target state="translated">Он передается по ссылке только из соображений производительности.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Modifier keys.</source>
+          <target state="translated">Клавиши-модификаторы.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the message was processed and &lt;xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic*&gt; should not be called; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если сообщение было обработано и &lt;xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic*&gt;не должен быть вызван; в противном случае — <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

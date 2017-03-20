@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c717b36d0a6075fe1c04136eda5dc7caa2564151</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Policy.NetCodeGroup.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b42edf7c01aecc23b7912aee541616cd7602951</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3666e05ed38e03d8c128672f7155ae5335d8233</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Grants Web permission to the site from which the assembly was downloaded.</source>
+          <target state="translated">Предоставляет разрешение веб сайт, из которого была загружена сборка.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Этот класс не наследуется.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Code groups are the building blocks of code access security policy.</source>
+          <target state="translated">Группы кода являются составными частями политики разграничения доступа кода.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each policy level consists of a root code group that can have one or more child code groups.</source>
+          <target state="translated">Каждый уровень политики состоит из корневой группы кода, который может иметь один или несколько дочерних групп кода.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each child code group can have its own child code groups; this behavior extends to any number of levels, forming a tree.</source>
+          <target state="translated">Каждую дочернюю группу кода может иметь свои собственные дочерние группы кода; Такое поведение распространяется на любое количество уровней, образующие дерево.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each code group has a membership condition that determines if a given assembly belongs to the group, based on the evidence for that assembly.</source>
+          <target state="translated">Каждой группы кода имеется условие членства, определяет ли данная сборка принадлежит к группе, на основе свидетельства для этой сборки.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only code groups whose membership conditions match a given assembly, along with their child code groups, apply code access security policy.</source>
+          <target state="translated">Группы кода, условия членства которых соответствуют данной сборке, а также их дочерние группы кода, применяются политики безопасности доступа кода.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>NetCodeGroup has the same merge semantics as that of &lt;xref:System.Security.Policy.UnionCodeGroup&gt;; it forms the union of the &lt;xref:System.Security.Policy.PolicyStatement&gt; objects of all matching child code groups and the &lt;xref:System.Security.Policy.PolicyStatement&gt; it generates from the input &lt;xref:System.Security.Policy.Url&gt; evidence.</source>
+          <target state="translated">NetCodeGroup имеет ту же семантику слияния, что и &lt;xref:System.Security.Policy.UnionCodeGroup&gt;; он формирует объединение &lt;xref:System.Security.Policy.PolicyStatement&gt;объектов все подходящие дочерние группы кода и &lt;xref:System.Security.Policy.PolicyStatement&gt;создает из входного &lt;xref:System.Security.Policy.Url&gt;свидетельство.&lt;/xref:System.Security.Policy.Url&gt; &lt;/xref:System.Security.Policy.PolicyStatement&gt; &lt;/xref:System.Security.Policy.PolicyStatement&gt; &lt;/xref:System.Security.Policy.UnionCodeGroup&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, NetCodeGroup returns a permission containing a dynamically calculated &lt;xref:System.Net.WebPermission&gt; that grants connect access to the site from which the code is run; &lt;xref:System.Security.Policy.UnionCodeGroup&gt; simply returns a static permission set.</source>
+          <target state="translated">Тем не менее NetCodeGroup возвращает разрешение, содержащий динамически вычисленная &lt;xref:System.Net.WebPermission&gt;, предоставляющее доступ к узлу, с которого выполняется код; &lt;xref:System.Security.Policy.UnionCodeGroup&gt;просто возвращает статический набор разрешений.&lt;/xref:System.Security.Policy.UnionCodeGroup&gt; &lt;/xref:System.Net.WebPermission&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a NetCodeGroup is created, it contains the default connection access rules shown in the following table.</source>
+          <target state="translated">При создании NetCodeGroup в нем правила доступа соединения по умолчанию, показанные в следующей таблице.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|URI Scheme|Rule|   |----------------|----------|   |file|No connection access to the origin server is permitted.|   |http|HTTP and HTTPS access is permitted using the origin port.|   |https|HTTPS access is permitted using the origin port.|       You can control the scheme and port that code is permitted to use when connecting back to its site of origin by passing a &lt;xref:System.Security.Policy.CodeConnectAccess&gt; object with the appropriate &lt;xref:System.Security.Policy.CodeConnectAccess.Scheme%2A&gt; and &lt;xref:System.Security.Policy.CodeConnectAccess.Port%2A&gt; property values to the &lt;xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt; method.</source>
+          <target state="translated">| Схема URI | Правило |   |----------------|----------|   | файл | Запрещен доступ на исходный сервер подключения. |   | http | HTTP и HTTPS доступ разрешается с использованием порта источника. |   | https | HTTPS доступ разрешается с использованием порта источника. |       Можно выбрать схему и порт, который разрешается использовать при подключении к исходному узлу, передав код &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объекта с помощью соответствующих &lt;xref:System.Security.Policy.CodeConnectAccess.Scheme%2A&gt;и &lt;xref:System.Security.Policy.CodeConnectAccess.Port%2A&gt;значения свойств следует &lt;xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt;метод.&lt;/xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess.Port%2A&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess.Scheme%2A&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can create a connection access rule that applies when the origin scheme is not present in the evidence or is not recognized by specifying &lt;xref:System.Security.Policy.NetCodeGroup.AbsentOriginScheme&gt; ("") as the scheme.</source>
+          <target state="translated">Можно создать правило доступа соединения, которое применяется, когда схема источника не присутствует в свидетельстве или не распознан, указав &lt;xref:System.Security.Policy.NetCodeGroup.AbsentOriginScheme&gt;("») как схему.&lt;/xref:System.Security.Policy.NetCodeGroup.AbsentOriginScheme&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also create a connection access rule that applies when there is no connection access rule with a matching scheme by specifying &lt;xref:System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme&gt; ("*") as the scheme.</source>
+          <target state="translated">Можно также создать правило доступа соединения, которое применяется, если нет правил доступа соединения с соответствующей схемой, указав &lt;xref:System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme&gt;(«*») как схему.&lt;/xref:System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If code does not submit the URI scheme as evidence, access is permitted using any scheme back to the origin site.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек Если кода отсутствует схема URI в качестве свидетельства, доступ разрешается с использованием любой схемы обратно в исходном сайте.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Policy.NetCodeGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Security.Policy.NetCodeGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Security.Policy.NetCodeGroup&gt; is created, it contains the default connection access rules shown in the following table.</source>
+          <target state="translated">Когда &lt;xref:System.Security.Policy.NetCodeGroup&gt;будет создан, он содержит правила доступа соединения по умолчанию, показанные в следующей таблице.&lt;/xref:System.Security.Policy.NetCodeGroup&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Scheme|Rule|   |------------|----------|   |file|No connection access to the origin server is permitted.|   |http|HTTP and HTTPS access is permitted using the origin port.|   |https|HTTPS access is permitted using the origin port.|</source>
+          <target state="translated">| Схема | Правило |   |------------|----------|   | файл | Запрещен доступ на исходный сервер подключения. |   | http | HTTP и HTTPS доступ разрешается с использованием порта источника. |   | https | HTTPS доступ разрешается с использованием порта источника. |</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A membership condition that tests evidence to determine whether this code group applies code access security policy.</source>
+          <target state="translated">Условие членства, проверяющее свидетельство для определения, применяет ли эта группа кода политику разграничения доступа кода.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">membershipCondition</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">membershipCondition</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The type of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">membershipCondition</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not valid.</source>
+          <target state="translated">Тип <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">membershipCondition</ph> <ept id="p1">&lt;/code&gt;</ept> указан недопустимый параметр.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Contains a value used to specify connection access for code with an unknown or unrecognized origin scheme.</source>
+          <target state="translated">Содержит значение, используемое для задания доступа для подключения для кода с помощью схемы Неизвестный или нераспознанный источника.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When calling the &lt;xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt; method, you specify a scheme and an associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; object.</source>
+          <target state="translated">При вызове &lt;xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt;метода, укажите схему и связанный с ним &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объекта.&lt;/xref:System.Security.Policy.CodeConnectAccess&gt; &lt;/xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects that you add to the &lt;xref:System.Security.Policy.NetCodeGroup&gt; using AbsentOriginScheme as the origin scheme are applied when the code's origin scheme is not present in its evidence, or is not a scheme recognized by the &lt;xref:System.Security.Policy.NetCodeGroup&gt; object.</source>
+          <target state="translated">Любой &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объекты, добавленные к &lt;xref:System.Security.Policy.NetCodeGroup&gt;с помощью AbsentOriginScheme как схема источника применяются, когда схема источника кода не присутствует в ее свидетельства, или схема не распознается &lt;xref:System.Security.Policy.NetCodeGroup&gt;объекта.&lt;/xref:System.Security.Policy.NetCodeGroup&gt; &lt;/xref:System.Security.Policy.NetCodeGroup&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify the &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects to use when the code's origin scheme does not match any of the schemes contained in the set of origin schemes added to the current &lt;xref:System.Security.Policy.NetCodeGroup&gt; object, use the &lt;xref:System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme&gt; value.</source>
+          <target state="translated">Чтобы указать &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объектов для использования, когда схема источника кода не соответствует схем, содержащихся в наборе схем источника добавлен к текущему &lt;xref:System.Security.Policy.NetCodeGroup&gt;, используйте &lt;xref:System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme&gt;значение.&lt;/xref:System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme&gt; &lt;/xref:System.Security.Policy.NetCodeGroup&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the AbsentOriginScheme field is an empty string ("").</source>
+          <target state="translated">Значение поля AbsentOriginScheme является пустая строка (»»).</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Adds the specified connection access to the current code group.</source>
+          <target state="translated">Добавляет указанное соединение доступ к текущей группы кода.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add multiple &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects for the same <ph id="ph1">`origin scheme`</ph>.</source>
+          <target state="translated">Можно добавить несколько &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объектов для одного идентификатора <ph id="ph1">`origin scheme`</ph>.&lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an <ph id="ph1">`origin scheme`</ph> already has one or more associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects, specifying <ph id="ph2">`null`</ph> for <ph id="ph3">`connectAccess`</ph> has no effect.</source>
+          <target state="translated">Если <ph id="ph1">`origin scheme`</ph> уже имеется один или несколько связанных &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объектов, указав <ph id="ph2">`null`</ph> для <ph id="ph3">`connectAccess`</ph> не делает ничего.&lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the origin scheme does not have associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects, specifying <ph id="ph1">`null`</ph> for <ph id="ph2">`connectAccess`</ph> prevents code with an origin scheme that matches <ph id="ph3">`originScheme`</ph> from accessing its origin server.</source>
+          <target state="translated">Если схема источника не связаны &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объектов, указав <ph id="ph1">`null`</ph> для <ph id="ph2">`connectAccess`</ph> позволяет предотвратить кода с помощью схемы источника, который соответствует <ph id="ph3">`originScheme`</ph> доступ к своему исходному серверу.&lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; containing the scheme to match against the code's scheme.</source>
+          <target state="translated">Объект &lt;xref:System.String&gt;содержащий схему для сравнения со схемой кода.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Policy.CodeConnectAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the scheme and port code can use to connect back to its origin server.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Policy.CodeConnectAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , задающий код схемы и порта можно использовать для подключения к своему исходному серверу.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;originScheme&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;originScheme&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;originScheme&lt;/code&gt;</ph> contains characters that are not permitted in schemes.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;originScheme&lt;/code&gt;</ph>содержит символы, которые не разрешены в схемах.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;originScheme&lt;/code&gt;</ph><ph id="ph2"> = </ph><bpt id="p1">&lt;xref href="System.Security.Policy.NetCodeGroup.AbsentOriginScheme"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph3">&lt;code&gt;connectAccess&lt;/code&gt;</ph> specifies <bpt id="p2">&lt;xref href="System.Security.Policy.CodeConnectAccess.OriginScheme"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> as its scheme.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;originScheme&lt;/code&gt;</ph><ph id="ph2"> = </ph><bpt id="p1">&lt;xref href="System.Security.Policy.NetCodeGroup.AbsentOriginScheme"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph3">&lt;code&gt;connectAccess&lt;/code&gt;</ph> specifies <bpt id="p2">&lt;xref href="System.Security.Policy.CodeConnectAccess.OriginScheme"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> as its scheme.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Contains a value used to specify any other unspecified origin scheme.</source>
+          <target state="translated">Содержит значение, используемое для указания любого другая схема не указан источник.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When calling the &lt;xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt; method, you specify a scheme and an associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; object.</source>
+          <target state="translated">При вызове &lt;xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt;метода, укажите схему и связанный с ним &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объекта.&lt;/xref:System.Security.Policy.CodeConnectAccess&gt; &lt;/xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the value of the AnyOtherOriginScheme field to specify the &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects that should be used for any scheme that is not explicitly contained in the set of origin schemes added to the current &lt;xref:System.Security.Policy.NetCodeGroup&gt; object.</source>
+          <target state="translated">Можно использовать для задания значения поля AnyOtherOriginScheme &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объекты, которые должны использоваться для любой схемы, явно не входит в набор схем источника добавлен к текущему &lt;xref:System.Security.Policy.NetCodeGroup&gt;объекта.&lt;/xref:System.Security.Policy.NetCodeGroup&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects specified with the AnyOtherOriginScheme field are only used if the code's origin scheme does not match any of the schemes contained in the set of origin schemes added to the current &lt;xref:System.Security.Policy.NetCodeGroup&gt; object.</source>
+          <target state="translated">&lt;xref:System.Security.Policy.CodeConnectAccess&gt;Объекты, указанные в поле AnyOtherOriginScheme используются только в том случае, если схема источника кода не соответствует схем, содержащихся в наборе схем источника добавлен к текущему &lt;xref:System.Security.Policy.NetCodeGroup&gt;объекта.&lt;/xref:System.Security.Policy.NetCodeGroup&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify the &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects to apply when the code's origin scheme is not available in its evidence or is not recognized, use the &lt;xref:System.Security.Policy.NetCodeGroup.AbsentOriginScheme&gt; value.</source>
+          <target state="translated">Чтобы указать &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объекты, применяемую, когда схема источника кода не доступен в ее свидетельства или не распознан, используют &lt;xref:System.Security.Policy.NetCodeGroup.AbsentOriginScheme&gt;значение.&lt;/xref:System.Security.Policy.NetCodeGroup.AbsentOriginScheme&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the AnyOtherOriginScheme field is "*".</source>
+          <target state="translated">Значение поля AnyOtherOriginScheme — «*».</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a string representation of the attributes of the policy statement for the code group.</source>
+          <target state="translated">Возвращает строковое представление атрибутов инструкции политики для группы кода.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Makes a deep copy of the current code group.</source>
+          <target state="translated">Создает глубокую копию текущей группы кода.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method makes a deep copy of the code group, meaning that copies of all objects the code group contains are also made.</source>
+          <target state="translated">Этот метод создает глубокую копию группы кода, это означает, что все объекты, которые содержит группа кода создаются также копии.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An equivalent copy of the current code group, including its membership conditions and child code groups.</source>
+          <target state="translated">Эквивалентная копия текущей группы кода, включая условия членства и дочерние группы кода.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified code group is equivalent to the current code group.</source>
+          <target state="translated">Определяет, эквивалентен ли указанная группа кода текущей группы кода.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following data are used to determine the equality of two &lt;xref:System.Security.Policy.NetCodeGroup&gt; objects:      -   The &lt;xref:System.Security.Policy.CodeGroup.Name%2A&gt; and &lt;xref:System.Security.Policy.CodeGroup.Description%2A&gt; properties.</source>
+          <target state="translated">Следующие данные используются для определения равенства двух объектов &lt;xref:System.Security.Policy.NetCodeGroup&gt;объектов: - &lt;xref:System.Security.Policy.CodeGroup.Name%2A&gt;и &lt;xref:System.Security.Policy.CodeGroup.Description%2A&gt;Свойства.&lt;/xref:System.Security.Policy.CodeGroup.Description%2A&gt; &lt;/xref:System.Security.Policy.CodeGroup.Name%2A&gt; &lt;/xref:System.Security.Policy.NetCodeGroup&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Security.Policy.CodeGroup.MembershipCondition%2A&gt; property.</source>
+          <target state="translated">- &lt;xref:System.Security.Policy.CodeGroup.MembershipCondition%2A&gt;Свойство.&lt;/xref:System.Security.Policy.CodeGroup.MembershipCondition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The set of origin schemes and the associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects.</source>
+          <target state="translated">-Набор схемы источника и связанный с ним &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объектов.&lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Policy.NetCodeGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to compare with the current code group.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Policy.NetCodeGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Объект для сравнения с текущей группы кода.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified code group is equivalent to the current code group; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если указанная группа кода эквивалентна текущей группы кода; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets the connection access information for the current code group.</source>
+          <target state="translated">Получает информацию доступа для подключения для текущей группы кода.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In each dictionary entry, the &lt;xref:System.Collections.DictionaryEntry.Key%2A&gt; property value is the origin scheme, and the &lt;xref:System.Collections.DictionaryEntry.Value%2A&gt; property value is the array of associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects.</source>
+          <target state="translated">В каждой записи словаря &lt;xref:System.Collections.DictionaryEntry.Key%2A&gt;значением свойства является схема источника и &lt;xref:System.Collections.DictionaryEntry.Value%2A&gt;массив является значение свойства связанного &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объектов.&lt;/xref:System.Security.Policy.CodeConnectAccess&gt; &lt;/xref:System.Collections.DictionaryEntry.Value%2A&gt; &lt;/xref:System.Collections.DictionaryEntry.Key%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects, &lt;xref:System.Collections.DictionaryEntry.Value%2A?displayProperty=fullName&gt; returns an empty array.</source>
+          <target state="translated">Если нет связанных &lt;xref:System.Security.Policy.CodeConnectAccess&gt;объектов, &lt;xref:System.Collections.DictionaryEntry.Value%2A?displayProperty=fullName&gt;возвращает пустой массив.&lt;/xref:System.Collections.DictionaryEntry.Value%2A?displayProperty=fullName&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.DictionaryEntry&gt; array containing connection access information.</source>
+          <target state="translated">Объект &lt;xref:System.Collections.DictionaryEntry&gt;массив, содержащий сведения о соединении доступа.&lt;/xref:System.Collections.DictionaryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the hash code of the current code group.</source>
+          <target state="translated">Возвращает хэш-код текущей группы кода.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The hash code of the current code group.</source>
+          <target state="translated">Хэш-код текущей группы кода.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the logic to use for merging groups.</source>
+          <target state="translated">Возвращает алгоритм, используемый для объединения групп.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The string "Union".</source>
+          <target state="translated">Строка «Объединение».</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets the name of the <bpt id="p1">&lt;xref href="System.Security.NamedPermissionSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the code group.</source>
+          <target state="translated">Возвращает имя <bpt id="p1">&lt;xref href="System.Security.NamedPermissionSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для группы кода.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Always the string "Same site Web."</source>
+          <target state="translated">Всегда строка «Же веб-узел.»</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Removes all connection access information for the current code group.</source>
+          <target state="translated">Удаляет все сведения о соединении доступа для текущей группы кода.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to remove the system-supplied default connection access rules.</source>
+          <target state="translated">Этот метод служит для удаления правила доступа для подключения по умолчанию, предоставляемый системой.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default rules are shown in the following table.</source>
+          <target state="translated">В следующей таблице показаны правила по умолчанию.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Scheme|Rule|   |------------|----------|   |file|No connection access to the origin server is permitted.|   |http|HTTP and HTTPS access is permitted using the origin port.|   |https|HTTPS access is permitted using the origin port.|</source>
+          <target state="translated">| Схема | Правило |   |------------|----------|   | файл | Запрещен доступ на исходный сервер подключения. |   | http | HTTP и HTTPS доступ разрешается с использованием порта источника. |   | https | HTTPS доступ разрешается с использованием порта источника. |</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Resolves policy for the code group and its descendants for a set of evidence.</source>
+          <target state="translated">Обрабатывает политику для группы кода и ее дочерних элементов, используя набор свидетельств.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Given evidence for an assembly to be loaded, this method evaluates the code group by first checking the membership condition against the specified evidence.</source>
+          <target state="translated">Свидетельство для загрузки сборки, этому методу передается оценивает группу кода с проверки условия членства на заданном свидетельстве.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is a match, this method returns a policy statement for the code group, including evaluation of child code groups.</source>
+          <target state="translated">Если соответствие, этот метод возвращает инструкцию политики для группы кода, включая оценку дочерних групп кода.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The operation of this method is as follows:       If the membership condition does not match the specified evidence, return <ph id="ph1">`null`</ph>; otherwise, set the permission set to be returned (P) equal to the code group's policy statement and continue.</source>
+          <target state="translated">Этот метод работает следующим образом: если условие членства не соответствует указанному свидетельству, возвращают <ph id="ph1">`null`</ph>; в противном случае — набор разрешений, который требуется вернуть (P), эквивалентный инструкции политики группы кода и продолжить.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For each child code group, resolve the code group with the same evidence; if the result is not <ph id="ph1">`null`</ph>, return that policy statement.</source>
+          <target state="translated">Для каждой дочерней группы кода разрешить группу кода с тем же свидетельством; Если результат не <ph id="ph1">`null`</ph>, возвращает инструкцию политики.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no child code group matched, return P (the parent's policy statement).</source>
+          <target state="translated">Если соответствия не дочернюю группу кода, возвращать P (инструкция политики родительского элемента).</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Policy.Evidence"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the assembly.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Policy.Evidence"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для сборки.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Policy.PolicyStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that consists of the permissions granted by the code group with optional attributes, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the code group does not apply (the membership condition does not match the specified evidence).</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Policy.PolicyStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , включающая в себя разрешения, предоставленные группой кода, с дополнительными атрибутами, или <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Если группа кода не применяется (условие членства не соответствует указанному свидетельству).</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">evidence</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">evidence</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>More than one code group (including the parent code group and any child code groups) is marked <bpt id="p1">&lt;xref href="System.Security.Policy.PolicyStatementAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Более одной группы кода (включая родительские и дочерние группы кода) помечена <bpt id="p1">&lt;xref href="System.Security.Policy.PolicyStatementAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Resolves matching code groups.</source>
+          <target state="translated">Обрабатывает согласующиеся группы кода.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Given evidence for an assembly to be loaded, this method evaluates the code group by first checking the membership condition against the specified evidence.</source>
+          <target state="translated">Свидетельство для загрузки сборки, этому методу передается оценивает группу кода с проверки условия членства на заданном свидетельстве.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is a match, this method returns a root code group.</source>
+          <target state="translated">Если соответствие, этот метод возвращает корневую группу кода.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The code group that is returned may contain child code groups, which, in turn, may also have child code groups, so the return value reflects the complete set of code groups that were matched by the evidence provided.</source>
+          <target state="translated">Группы кода, который возвращается может содержать дочерние группы кода, которые в свою очередь, могут также иметь дочерние группы кода, поэтому возвращаемое значение отражает полный набор групп кода, которые были сопоставлены с учетом свидетельств, предоставленных.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The evidence for the assembly.</source>
+          <target state="translated">Свидетельство для сборки.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The complete set of code groups that were matched by the evidence.</source>
+          <target state="translated">Полный набор групп кода, которые были сопоставлены свидетельство.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">evidence</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">evidence</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
