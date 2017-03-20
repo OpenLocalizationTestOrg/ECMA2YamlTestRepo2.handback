@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af9bced2de01de8bb0ebaf377610d9c0d03d41ea</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.IPendingWork.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a9099dbff8d6c3223bb9a99c590e49389cbb72bb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8c3d5482da4a5b36338236c3dfee478fc0ffc26f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides methods to participate in a work batch.</source>
+          <target state="translated">Fornece métodos para participar de um lote de trabalho.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       The IPendingWork interface is provided for services that want to participate in the workflow runtime engine batching mechanism.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>A interface IPendingWork é fornecida para os serviços que desejam participar no mecanismo de tempo de execução de fluxo de trabalho mecanismo de processamento em lotes.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The batching mechanism is especially useful for services that use a durable store.</source>
+          <target state="translated">O mecanismo de envio em lote é especialmente útil para serviços que usam um armazenamento durável.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is often important in these cases to maintain consistency between the durable store used by the service and the internal state of the workflow runtime engine.</source>
+          <target state="translated">Geralmente é importante para manter a consistência entre o armazenamento durável usado pelo serviço e o estado interno do mecanismo de tempo de execução do fluxo de trabalho nesses casos.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want your service to participate in workflow transaction batching provided by the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;, you must implement the methods defined by the IPendingWork interface.</source>
+          <target state="translated">Se você quiser que o seu serviço para participar de lotes de transações de fluxo de trabalho fornecida pelo &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;, você deve implementar os métodos definidos pela interface IPendingWork.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow runtime engine will call the &lt;xref:System.Workflow.Runtime.IPendingWork.Commit%2A&gt; method on your service to commit the batch.</source>
+          <target state="translated">O mecanismo de tempo de execução do fluxo de trabalho chamará o &lt;xref:System.Workflow.Runtime.IPendingWork.Commit%2A&gt;método no seu serviço para confirmar o lote.&lt;/xref:System.Workflow.Runtime.IPendingWork.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt; class implements the IPendingWork interface.</source>
+          <target state="translated">O &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;classe implementa a interface IPendingWork.&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Commits the list of work items by using the specified <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Confirma a lista de itens de trabalho usando especificado <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow runtime engine calls the Commit method when its semantics dictate that the pending work in the work batch should be committed.</source>
+          <target state="translated">O mecanismo de tempo de execução do fluxo de trabalho chama o método Commit quando sua semântica ditam que o trabalho pendente no lote de trabalho deve ser confirmado.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When it reaches a commit point, the workflow runtime engine calls the Commit method on each &lt;xref:System.Workflow.Runtime.IPendingWork&gt; object in its work batch; the workflow runtime engine passes the Commit method the collection of items associated with that &lt;xref:System.Workflow.Runtime.IPendingWork&gt; object.</source>
+          <target state="translated">Quando chega a um ponto de confirmação, o mecanismo de tempo de execução do fluxo de trabalho chama o método Commit em cada &lt;xref:System.Workflow.Runtime.IPendingWork&gt;objeto em seu lote de trabalho; o mecanismo de tempo de execução do fluxo de trabalho passa o método Commit a coleção de itens associados que &lt;xref:System.Workflow.Runtime.IPendingWork&gt;objeto.&lt;/xref:System.Workflow.Runtime.IPendingWork&gt; &lt;/xref:System.Workflow.Runtime.IPendingWork&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Either all of the work in a batch succeeds or none of it succeeds.</source>
+          <target state="translated">Todo o trabalho em um lote obtenha êxito ou nada é bem-sucedida.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should throw an exception if any of the work items passed to the Commit method in your implementation cannot be committed.</source>
+          <target state="translated">Você deve lançar uma exceção se qualquer um dos itens de trabalho passados para o método Commit em sua implementação não pode ser confirmada.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on your implementation, you may want to perform some rollback in your Commit method if it cannot commit its work items.</source>
+          <target state="translated">Dependendo da implementação, convém executar alguns reversão em seu método de confirmação, se ele não é possível confirmar seus itens de trabalho.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the workflow runtime engine successfully commits all of the work in the work batch, it calls &lt;xref:System.Workflow.Runtime.IPendingWork.Complete%2A&gt; with the <ph id="ph1">`succeeded`</ph> parameter set to <ph id="ph2">`true`</ph>; otherwise, it calls &lt;xref:System.Workflow.Runtime.IPendingWork.Complete%2A&gt; with <ph id="ph3">`succeeded`</ph> set to <ph id="ph4">`false`</ph>.</source>
+          <target state="translated">Se o mecanismo de tempo de execução do fluxo de trabalho confirmar todo o trabalho em lote de trabalho com êxito, ele chama &lt;xref:System.Workflow.Runtime.IPendingWork.Complete%2A&gt;com o <ph id="ph1">`succeeded`</ph> parâmetro definido como <ph id="ph2">`true`</ph>; caso contrário, ele chama &lt;xref:System.Workflow.Runtime.IPendingWork.Complete%2A&gt;com <ph id="ph3">`succeeded`</ph> definido como <ph id="ph4">`false`</ph>.&lt;/xref:System.Workflow.Runtime.IPendingWork.Complete%2A&gt; &lt;/xref:System.Workflow.Runtime.IPendingWork.Complete%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the pending work.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associados com o trabalho pendente.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The work items to be committed.</source>
+          <target state="translated">Os itens de trabalho para ser confirmada.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Called when the transaction has completed.</source>
+          <target state="translated">Chamado quando a transação foi concluída.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`succeeded`</ph> is <ph id="ph2">`true`</ph>, the transaction succeeded and any resources used by the work batch may be released.</source>
+          <target state="translated">Se <ph id="ph1">`succeeded`</ph> é <ph id="ph2">`true`</ph>, a transação foi bem-sucedida e qualquer recurso usado pelo lote de trabalho pode ser liberado.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`succeeded`</ph> is <ph id="ph2">`false`</ph>, the transaction failed.</source>
+          <target state="translated">Se <ph id="ph1">`succeeded`</ph> é <ph id="ph2">`false`</ph>, a transação falhou.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on your implementation, you can perform any appropriate roll back on the work in the work batch when the transaction fails.</source>
+          <target state="translated">Dependendo da implementação, você pode executar qualquer roll apropriado no trabalho em lote de trabalho quando a transação falhar.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the transaction succeeded; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a transação foi bem-sucedida. Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; of work items.</source>
+          <target state="translated">Um &lt;xref:System.Collections.ICollection&gt;de itens de trabalho.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Allows the items in the work batch to assert whether they must commit immediately.</source>
+          <target state="translated">Permite que os itens no lote de trabalho declarar se deve confirmar imediatamente.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If MustCommit returns <ph id="ph1">`false`</ph>, the work can be postponed to a future commit point.</source>
+          <target state="translated">Se retornar MustCommit <ph id="ph1">`false`</ph>, o trabalho pode ser adiado para um ponto de confirmação futuras.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any of the items must be committed, then return <ph id="ph1">`true`</ph> and all items will be committed at the current commit point.</source>
+          <target state="translated">Se qualquer um dos itens deve ser confirmada, em seguida, retornar <ph id="ph1">`true`</ph> e todos os itens serão confirmados no ponto de confirmação atual.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a discussion about possible commit points, see the &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt; class.</source>
+          <target state="translated">Para obter uma discussão sobre pontos de confirmação possíveis, consulte a &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;classe.&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; of work items.</source>
+          <target state="translated">Um &lt;xref:System.Collections.ICollection&gt;de itens de trabalho.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if any item in the collection must be committed immediately; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se qualquer item na coleção deve ser confirmada imediatamente. Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

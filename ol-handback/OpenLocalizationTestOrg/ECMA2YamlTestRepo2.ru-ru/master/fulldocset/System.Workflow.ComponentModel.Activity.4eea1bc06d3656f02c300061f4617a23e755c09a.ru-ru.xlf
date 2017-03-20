@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05a3f9e49c9a3e6710e894c20231f08522d37731</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.ComponentModel.Activity.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cbcb546de2c895f154a566912620ecdb14783dfd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">95393d125132ce93318bdb120f6a978b5c28801a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the fundamental building block of workflows.</source>
+          <target state="translated">Представляет основной строительный блок рабочих процессов.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Activity is the base class for all activities.</source>
+          <target state="translated">Действие является базовым классом для всех действий.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       An Activity is the fundamental building block of workflows.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>Действие — основной строительный блок рабочих процессов.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An Activity defines a set of properties and events, such as any class, along with execution logic that defines the activity's run-time behavior.</source>
+          <target state="translated">Действие определяет набор свойств и событий, таких как любой класс, одновременно с логикой выполнения, который определяет поведение во время выполнения действия.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A set of additional components can be associated with an Activity.</source>
+          <target state="translated">Набор дополнительных компонентов можно связать с действием.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These include, but are not limited to a validator, a code generator, custom serializers, and a designer.</source>
+          <target state="translated">Возможные, но не ограничиваются проверяющий элемент управления, генератор кода, пользовательские сериализаторы, а также конструктор.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All activities share a common set of properties defined on the Activity base class.</source>
+          <target state="translated">Все действия имеют общий набор свойств, определенных в базовом классе действия.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each Activity can declare its own additional properties according to its requirements by extending this class.</source>
+          <target state="translated">Каждое действие можно объявить свои собственные дополнительные свойства, расширяя данный класс.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because Activity derives from &lt;xref:System.Workflow.ComponentModel.DependencyObject&gt;, properties can be defined as standard CLR properties and as dependency properties.</source>
+          <target state="translated">Поскольку действие является производным от &lt;xref:System.Workflow.ComponentModel.DependencyObject&gt;, свойства, которые могут быть определены как стандартные свойства среды CLR и свойства зависимостей.&lt;/xref:System.Workflow.ComponentModel.DependencyObject&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The execution logic of an Activity fulfills a contract that exists between any Activity and the workflow runtime.</source>
+          <target state="translated">Логика выполнения действия выполняет контракта, который существует между любого действия и средой выполнения рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must document the execution logic of any Activity in a functional sense, so that a workflow developer who uses the Activity knows how it behaves.</source>
+          <target state="translated">Логика выполнения действия, выполняемые с функциональной точки зрения должно документов, разработчик рабочих процессов, использующий действие знает, как ведет себя.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The execution logic itself is hidden from the workflow developer who includes the activity in a workflow, because the execution logic is part of a contract that exists strictly between the workflow runtime and the Activity.</source>
+          <target state="translated">Сама логика выполнения скрыта от разработчик рабочего процесса, включающего действие в рабочем процессе, так как логика выполнения является частью контракта, существующего только между средой выполнения рабочих процессов и действия.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, while initializing the &lt;xref:System.Workflow.ComponentModel.Activity.Name*&gt;.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса при инициализации &lt;xref:System.Workflow.ComponentModel.Activity.Name*&gt;.&lt;/xref:System.Workflow.ComponentModel.Activity.Name*&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The name to associate with this instance.</source>
+          <target state="translated">Имя, связанное с данным экземпляром.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The name must conform to the variable naming conventions for the programming language that is being used in the Workflow project, and must be unique in the workflow.</source>
+          <target state="translated">Имя должно соответствовать правилам именования переменных языка программирования, который используется в проекте рабочего процесса и должно быть уникальным в рабочем процессе.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>является пустой ссылкой (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> в Visual Basic).</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the &lt;xref:System.Guid&gt; of the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that is associated with the <bpt id="p3">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Представляющий &lt;xref:System.Guid&gt;из <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> , связанный с <bpt id="p3">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to cancel execution of an activity that is currently executing.</source>
+          <target state="translated">Вызывается средой выполнения рабочего процесса для отмены выполнения действий, которые в данный момент.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the instance to cancel.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Содержащий экземпляр для отмены.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The status at the end of the operation that determines whether the activity remains in the canceling state or transitions to the closed state.</source>
+          <target state="translated">Состояние в конце операции, определяет ли действия остается в состоянии отмены, или переходит в состояние closed.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Occurs when the activity execution is canceled.</source>
+          <target state="translated">Происходит при отмене выполнения действия.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[crdefault](~/add/includes/ajax-current-ext-md.md)]</ph><bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[crdefault](~/add/includes/ajax-current-ext-md.md)]</ph><bpt id="p1">[</bpt>NIB: При возникновении события<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.ComponentModel.Activity.Cancel%2A&gt; method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">&lt;xref:System.Workflow.ComponentModel.Activity.Cancel%2A&gt;Метод также позволяет производным классам обрабатывать событие, не присоединяя делегат.&lt;/xref:System.Workflow.ComponentModel.Activity.Cancel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[crabout](~/add/includes/ajax-current-ext-md.md)]</ph> handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[crabout](~/add/includes/ajax-current-ext-md.md)]</ph>обработке событий см. в разделе <bpt id="p1">[</bpt>NIB: Потребление событий<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that targets the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity.Canceling"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , ориентированном <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity.Canceling"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You indirectly access each public property and event of this type by the resolution of a corresponding dependency property.</source>
+          <target state="translated">Происходит неявное обращение ко всем открытым свойствам и событиям данного типа при разрешении соответствующего свойства зависимостей.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency property is the public static field named <ph id="ph1">`XProperty`</ph> or <ph id="ph2">`XEvent`</ph>, where X is the corresponding property.</source>
+          <target state="translated">Это свойство зависимостей является открытым статическим полем с именем <ph id="ph1">`XProperty`</ph> или <ph id="ph2">`XEvent`</ph>, где X — соответствующее свойство.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Creates a deep copy of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Создает глубокую копию <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Uses a &lt;xref:System.IO.MemoryStream&gt; to copy the activity and creates a new activity by deserializing from that particular &lt;xref:System.IO.MemoryStream&gt;.</source>
+          <target state="translated">Использует &lt;xref:System.IO.MemoryStream&gt;для получения копии действия и создает новое действие путем десериализации из этого конкретного &lt;xref:System.IO.MemoryStream&gt;.&lt;/xref:System.IO.MemoryStream&gt; &lt;/xref:System.IO.MemoryStream&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A deep copy of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Глубокая копия <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Occurs when an <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has completed execution.</source>
+          <target state="translated">Происходит, когда <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> завершила выполнение.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[crdefault](~/add/includes/ajax-current-ext-md.md)]</ph><bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[crdefault](~/add/includes/ajax-current-ext-md.md)]</ph><bpt id="p1">[</bpt>NIB: При возникновении события<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Closed method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Закрытый метод также позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that targets the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity.Closed"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , ориентированном <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity.Closed"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You indirectly access each public property and event of this type by the resolution of a corresponding dependency property.</source>
+          <target state="translated">Происходит неявное обращение ко всем открытым свойствам и событиям данного типа при разрешении соответствующего свойства зависимостей.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency property is the public static field named <ph id="ph1">`XProperty`</ph> or <ph id="ph2">`XEvent`</ph>, where X is the corresponding property.</source>
+          <target state="translated">Это свойство зависимостей является открытым статическим полем с именем <ph id="ph1">`XProperty`</ph> или <ph id="ph2">`XEvent`</ph>, где X — соответствующее свойство.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Occurs when running a compensation method on the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Происходит при выполнении метода компенсации <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[crdefault](~/add/includes/ajax-current-ext-md.md)]</ph><bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[crdefault](~/add/includes/ajax-current-ext-md.md)]</ph><bpt id="p1">[</bpt>NIB: При возникновении события<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Compensating method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод Compensating также позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that targets the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity.Compensating"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , ориентированном <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity.Compensating"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You indirectly access each public property and event of this type by the resolution of a corresponding dependency property.</source>
+          <target state="translated">Происходит неявное обращение ко всем открытым свойствам и событиям данного типа при разрешении соответствующего свойства зависимостей.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency property is the public static field named <ph id="ph1">`XProperty`</ph> or <ph id="ph2">`XEvent`</ph>, where X is the corresponding property.</source>
+          <target state="translated">Это свойство зависимостей является открытым статическим полем с именем <ph id="ph1">`XProperty`</ph> или <ph id="ph2">`XEvent`</ph>, где X — соответствующее свойство.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets or sets the user-defined description of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает или задает описание определяемых пользователем <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is a meta property, which means it cannot be changed at runtime.</source>
+          <target state="translated">Это свойство является метасвойством, что означает, что его нельзя изменить во время выполнения.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Meta properties do not change after a property instance is created at runtime, so the property must be set to a literal value at design time.</source>
+          <target state="translated">Метасвойства не изменяются после создания экземпляра свойства во время выполнения, поэтому необходимо задать свойства литеральное значение во время разработки.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The text description of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Текстовое описание <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether this instance is enabled for execution and validation.</source>
+          <target state="translated">Возвращает или задает значение, указывающее, включен ли этот экземпляр для выполнения и проверки подлинности.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`false`</ph>, all child activities are treated as if this value is <ph id="ph2">`false`</ph> for them also.</source>
+          <target state="translated">Если <ph id="ph1">`false`</ph>, все дочерние действия будут считаться это значение является <ph id="ph2">`false`</ph> для них также.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is a meta property, which means it cannot be changed at runtime.</source>
+          <target state="translated">Это свойство является метасвойством, что означает, что его нельзя изменить во время выполнения.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Meta properties do not change after a property instance is created at runtime, so the property must be set to a literal value at design time.</source>
+          <target state="translated">Метасвойства не изменяются после создания экземпляра свойства во время выполнения, поэтому необходимо задать свойства литеральное значение во время разработки.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if enabled for execution and validation; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если параметр включен, выполнение и проверка; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> в противном случае.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to execute an activity.</source>
+          <target state="translated">Вызывается средой выполнения рабочего процесса для выполнения действия.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt; is used to get information about the currently running activity and workflow, and is also used to obtain services from the runtime environment.</source>
+          <target state="translated">&lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt;Используется для получения сведений о текущем запущенном действии и рабочего процесса, а также используется для получения служб от среды выполнения.&lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The running occurs synchronously, returning control to the caller when the activity is completed or reaches an intermediate state.</source>
+          <target state="translated">Выполнение происходит синхронно, возврат управления вызывающему объекту, когда действие завершено или достигло промежуточного состояния.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to associate with this <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and execution.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для связи с этим <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> и выполнения.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the run task, which determines whether the activity remains in the executing state, or transitions to the closed state.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для выполнения задачи, которая определяет действия остается в состоянии выполнения, или переходит в состояние closed.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is run.</source>
+          <target state="translated">Происходит, когда <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> выполняется.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[crdefault](~/add/includes/ajax-current-ext-md.md)]</ph><bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[crdefault](~/add/includes/ajax-current-ext-md.md)]</ph><bpt id="p1">[</bpt>NIB: При возникновении события<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Executing method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Выполнение метода также позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that targets the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity.Executing"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event, which occurs when the activity is executed.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , ориентированном <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity.Executing"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> событие, возникающее при выполнении действия.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You indirectly access each public property and event of this type by the resolution of a corresponding dependency property.</source>
+          <target state="translated">Происходит неявное обращение ко всем открытым свойствам и событиям данного типа при разрешении соответствующего свойства зависимостей.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency property is the public static field named <ph id="ph1">`XProperty`</ph> or <ph id="ph2">`XEvent`</ph>, where X is the corresponding property.</source>
+          <target state="translated">Это свойство зависимостей является открытым статическим полем с именем <ph id="ph1">`XProperty`</ph> или <ph id="ph2">`XEvent`</ph>, где X — соответствующее свойство.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the last attempt to run this instance.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> последней попытки запуска данного экземпляра.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is only useful when a workflow instance is running.</source>
+          <target state="translated">Это свойство полезно, только если экземпляр рабочего процесса выполняется.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the last attempt to run this instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Последней попытки запуска данного экземпляра.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Gets the current <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of this instance.</source>
+          <target state="translated">Возвращает текущий <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> данного экземпляра.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is only useful when a workflow instance is running.</source>
+          <target state="translated">Это свойство полезно, только если экземпляр рабочего процесса выполняется.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of this instance.</source>
+          <target state="translated">Текущий <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> данного экземпляра.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Occurs when an exception is raised during the running of the instance.</source>
+          <target state="translated">Происходит, когда возникает исключение во время выполнения экземпляра.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[crabout](~/add/includes/ajax-current-ext-md.md)]</ph> handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[crabout](~/add/includes/ajax-current-ext-md.md)]</ph>обработке событий см. в разделе <bpt id="p1">[</bpt>NIB: Потребление событий<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity.Faulting"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Представляющий <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity.Faulting"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You indirectly access each public property and event of this type by the resolution of a corresponding dependency property.</source>
+          <target state="translated">Происходит неявное обращение ко всем открытым свойствам и событиям данного типа при разрешении соответствующего свойства зависимостей.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency property is the public static field named <ph id="ph1">`XProperty`</ph> or <ph id="ph2">`XEvent`</ph>, where X is the corresponding property.</source>
+          <target state="translated">Это свойство зависимостей является открытым статическим полем с именем <ph id="ph1">`XProperty`</ph> или <ph id="ph2">`XEvent`</ph>, где X — соответствующее свойство.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Returns the instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose name is requested from the set of all activities running under the root activity of this instance, which is within the workflow.</source>
+          <target state="translated">Возвращает экземпляр <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , имя которого запрошено, из набора всех действий, выполняемых в рамках корневого действия данного экземпляра, который находится внутри рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling <ph id="ph1">`GetActivityByName`</ph> from within the constructor of a custom activity is not supported and can have unexpected results.</source>
+          <target state="translated">Вызов <ph id="ph1">`GetActivityByName`</ph> из конструктора пользовательского действия не поддерживается и может иметь непредвиденные результаты.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The name of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to search for.</source>
+          <target state="translated">Имя <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для поиска.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose name is requested from the set of all activities running under the root activity of this instance.</source>
+          <target state="translated">Экземпляр <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , имя которого запрошено, из набора всех действий, выполняемых в рамках корневого действия данного экземпляра.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;activityQualifiedID&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;activityQualifiedID&lt;/code&gt;</ph>является пустой ссылкой (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> в Visual Basic).</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Returns the instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose name is requested from the set of all activities under the root the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> of this instance if the second parameter is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> and under the current <bpt id="p4">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> if the second parameter is <bpt id="p5">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает экземпляр <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , имя которого запрошено, из набора всех действий в корневом каталоге <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> экземпляра, если второй параметр — <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> и в рамках текущего <bpt id="p4">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept> Если второй параметр — <bpt id="p5">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p5">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Returns the instance of the &lt;xref:System.Workflow.ComponentModel.Activity&gt; whose name is requested from the set of all activities under the root the &lt;xref:System.Workflow.ComponentModel.Activity&gt; of this instance if the second parameter is <ph id="ph1">`false`</ph> and under the current &lt;xref:System.Workflow.ComponentModel.Activity&gt; if the second parameter is <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Возвращает экземпляр &lt;xref:System.Workflow.ComponentModel.Activity&gt;, имя которого запрошено, из набора всех действий в корневом каталоге &lt;xref:System.Workflow.ComponentModel.Activity&gt;экземпляра, если второй параметр — <ph id="ph1">`false`</ph> и в рамках текущего &lt;xref:System.Workflow.ComponentModel.Activity&gt;Если второй параметр — <ph id="ph2">`true`</ph>.&lt;/xref:System.Workflow.ComponentModel.Activity&gt; &lt;/xref:System.Workflow.ComponentModel.Activity&gt; &lt;/xref:System.Workflow.ComponentModel.Activity&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling <ph id="ph1">`GetActivityByName`</ph> from within the constructor of a custom activity is not supported and can have unexpected results.</source>
+          <target state="translated">Вызов <ph id="ph1">`GetActivityByName`</ph> из конструктора пользовательского действия не поддерживается и может иметь непредвиденные результаты.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The name of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to search for.</source>
+          <target state="translated">Имя <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для поиска.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The value that indicates whether to limit the search to activities contained within this instance.</source>
+          <target state="translated">Значение, указывающее, следует ли ограничить поиск действий, содержащихся в данном экземпляре.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose name is requested from the set of all activities under the root the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> of this instance if the second parameter is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> and under the current <bpt id="p4">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> if the second parameter is <bpt id="p5">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Экземпляр <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , имя которого запрошено, из набора всех действий в корневом каталоге <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> экземпляра, если второй параметр — <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> и в рамках текущего <bpt id="p4">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept> Если второй параметр — <bpt id="p5">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p5">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;activityQualifiedID&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;activityQualifiedID&lt;/code&gt;</ph>является пустой ссылкой (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> в Visual Basic).</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Called when an exception is raised within the context of the execution of this instance.</source>
+          <target state="translated">Вызывается, когда возникает исключение в контексте выполнения данного экземпляра.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default method tries to call the &lt;xref:System.Workflow.ComponentModel.Activity.Cancel%2A&gt; method and returns the result of this attempt.</source>
+          <target state="translated">Метод по умолчанию пытается вызвать &lt;xref:System.Workflow.ComponentModel.Activity.Cancel%2A&gt;метод и возвращает результат попытки.&lt;/xref:System.Workflow.ComponentModel.Activity.Cancel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для данного экземпляра.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Exception&gt; that caused this fault.</source>
+          <target state="translated">&lt;xref:System.Exception&gt;, Вызвавшее этот сбой.&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that results from an attempt to cancel this instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Полученный в результате попытки отменить этот экземпляр.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;exception&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;exception&lt;/code&gt;</ph>является пустой ссылкой (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> в Visual Basic).</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to initialize an activity during the construction of a new workflow instance.</source>
+          <target state="translated">Вызывается средой выполнения рабочего процесса для инициализации действия во время создания нового экземпляра рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This method is called during the construction of a dynamic <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Этот метод вызывается во время создания динамического <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IServiceProvider&gt; that provides the initialization service.</source>
+          <target state="translated">&lt;xref:System.IServiceProvider&gt;, Предоставляющий службу инициализации.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing " name="Nothing " href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph>является пустой ссылкой (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing " name="Nothing " href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>в Visual Basic).</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets information about whether the activity is executing within the default <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the workflow instance.</source>
+          <target state="translated">Возвращает сведения о том, выполняется ли действие в значение по умолчанию <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> экземпляра рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the activity is executing within the default <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> of the workflow instance, otherwise returns <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Если действие выполняется в рамках значение по умолчанию <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> экземпляра рабочего процесса, в противном случае возвращает <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Loads an instance of an <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from a &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">Загружает экземпляр <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> из &lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Stream&gt; from which to load.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;Загрузки.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that owns the context for the deserialized <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Которому принадлежит контекст для десериализованного <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>An instance of an <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from a &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">Экземпляр <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> из &lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>является пустой ссылкой (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> в Visual Basic).</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Loads an instance of an <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from a &lt;xref:System.IO.Stream&gt; using the custom <bpt id="p2">&lt;xref href="System.Runtime.Serialization.IFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for deserialization.</source>
+          <target state="translated">Загружает экземпляр <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> из &lt;xref:System.IO.Stream&gt;с помощью пользовательского <bpt id="p2">&lt;xref href="System.Runtime.Serialization.IFormatter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> для десериализации.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The target &lt;xref:System.IO.Stream&gt; of the load operation.</source>
+          <target state="translated">Целевой объект &lt;xref:System.IO.Stream&gt;операции загрузки.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that owns the context for the deserialized <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Которому принадлежит контекст для десериализованного <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.IFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to read from the &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Serialization.IFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для чтения из &lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>An instance of an <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from a &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">Экземпляр <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> из &lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;formatter&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;formatter&lt;/code&gt;</ph>является пустой ссылкой (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of this instance.</source>
+          <target state="translated">Возвращает или задает имя данного экземпляра.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>This name must conform to the variable naming convention of the programming language that is being used in the Workflow project.</source>
+          <target state="translated">Это имя должно соответствовать соглашению об именах переменных языка программирования, который используется в проекте рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Default value for this is the empty string.</source>
+          <target state="translated">Значение по умолчанию является пустой строкой.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is a meta property, which means it cannot be changed at runtime.</source>
+          <target state="translated">Это свойство является метасвойством, что означает, что его нельзя изменить во время выполнения.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Meta properties do not change after a property instance is created at runtime, so the property must be set to a literal value at design time.</source>
+          <target state="translated">Метасвойства не изменяются после создания экземпляра свойства во время выполнения, поэтому необходимо задать свойства литеральное значение во время разработки.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The name of this instance.</source>
+          <target state="translated">Имя данного экземпляра.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime whenever an <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is loaded.</source>
+          <target state="translated">Вызывается средой выполнения рабочих процессов каждый раз, когда <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> загружается.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>For example, this method is called during the creation of an <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as well as every time the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is reincarnated when a workflow instance is loaded from persistent storage.</source>
+          <target state="translated">Например, этот метод вызывается во время создания <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> а также каждый раз <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> повторном воплощении объекта при загрузке экземпляра рабочего процесса из постоянного хранилища.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IServiceProvider&gt; that provides the service.</source>
+          <target state="translated">&lt;xref:System.IServiceProvider&gt;, Предоставляющий службу.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime whenever an <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is unloaded.</source>
+          <target state="translated">Вызывается средой выполнения рабочих процессов каждый раз, когда <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> выгрузкой.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>For example, this method is called during completion of an <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as well as every time the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is unloaded when a workflow instance is persisted.</source>
+          <target state="translated">Например, этот метод вызывается при завершении работы <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> а также каждый раз <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> выгружается, когда экземпляр рабочего процесса сохранен.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IServiceProvider&gt; that provides the service.</source>
+          <target state="translated">&lt;xref:System.IServiceProvider&gt;, Предоставляющий службу.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime as part of the activity's transition to the closed state.</source>
+          <target state="translated">Вызывается средой выполнения рабочего процесса является частью перехода действия в закрытое состояние.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides the activity with an opportunity to clean up resources utilized during its execution.</source>
+          <target state="translated">Этот метод позволяет действию очистить ресурсы, которые использовались в процессе его выполнения.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IServiceProvider&gt; that provides the service.</source>
+          <target state="translated">&lt;xref:System.IServiceProvider&gt;, Предоставляющий службу.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains this <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.CompositeActivity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , содержащий это <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Returnsa null reference(<ph id="ph1">`Nothing`</ph> in Visual Basic) if &lt;xref:System.Workflow.ComponentModel.Activity&gt; is a workflow or a root &lt;xref:System.Workflow.ComponentModel.Activity&gt;.</source>
+          <target state="translated">Возвращает объект пустая ссылка (<ph id="ph1">`Nothing`</ph> в Visual Basic) Если &lt;xref:System.Workflow.ComponentModel.Activity&gt;рабочего процесса или корневого &lt;xref:System.Workflow.ComponentModel.Activity&gt;.&lt;/xref:System.Workflow.ComponentModel.Activity&gt; &lt;/xref:System.Workflow.ComponentModel.Activity&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a parent to this <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Являющийся родительским для этого <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Gets the qualified name of the activity.</source>
+          <target state="translated">Возвращает полное имя действия.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Qualified activity names are always unique in a workflow instance.</source>
+          <target state="translated">Полные имена действий всегда уникальны в экземпляре рабочего процесса.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The qualified name is the name of this instance with the name of the custom activity that contains this instance appended to the front.</source>
+          <target state="translated">Полное имя — имя этого экземпляра с именем пользовательского действия, которое содержит этот экземпляр прикреплен к началу.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The qualified name of the instance.</source>
+          <target state="translated">Полное имя экземпляра.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Raises an <bpt id="p1">&lt;xref href="System.Reflection.MemberTypes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the specified dependency property.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Reflection.MemberTypes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> связанный с заданным свойством зависимостей.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this <bpt id="p2">&lt;xref href="System.Reflection.MemberTypes"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Связанный с этим <bpt id="p2">&lt;xref href="System.Reflection.MemberTypes"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; source of the <bpt id="p1">&lt;xref href="System.Reflection.MemberTypes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Источник <bpt id="p1">&lt;xref href="System.Reflection.MemberTypes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.EventArgs&gt; associated with the <bpt id="p1">&lt;xref href="System.Reflection.MemberTypes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;Связанных с <bpt id="p1">&lt;xref href="System.Reflection.MemberTypes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Registers the specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the status change event.</source>
+          <target state="translated">Регистрирует указанный <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для события изменения состояния.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to register.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для регистрации.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The object that implements the Event Listener interface for this registration.</source>
+          <target state="translated">Объект, реализующий интерфейс Eventlistener для регистрации.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;dependencyProp&lt;/code&gt;</ph> is not one of the following:      -   <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity.ExecutingEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.CancelingEvent"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><bpt id="p3">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.ClosedEvent"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><bpt id="p4">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.CompensatingEvent"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><bpt id="p5">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.FaultingEvent"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept><bpt id="p6">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.StatusChangedEvent"&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;dependencyProp&lt;/code&gt;</ph>не является одним из следующих действий:-<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity.ExecutingEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.CancelingEvent"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><bpt id="p3">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.ClosedEvent"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><bpt id="p4">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.CompensatingEvent"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><bpt id="p5">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.FaultingEvent"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept><bpt id="p6">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.StatusChangedEvent"&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Writes the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a &lt;xref:System.IO.Stream&gt; for persistence.</source>
+          <target state="translated">Записывает <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для &lt;xref:System.IO.Stream&gt;для сохраняемости.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Stream&gt; to which to save the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;Для сохранения <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>является пустой ссылкой (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> в Visual Basic).</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Writes the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a &lt;xref:System.IO.Stream&gt; for persistence using the custom <bpt id="p2">&lt;xref href="System.Runtime.Serialization.IFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> provided for serialization.</source>
+          <target state="translated">Записывает <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для &lt;xref:System.IO.Stream&gt;для сохранения, применяя пользовательский <bpt id="p2">&lt;xref href="System.Runtime.Serialization.IFormatter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> для сериализации.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Soap formatters are not supported by Windows Workflow Foundation.</source>
+          <target state="translated">Модули форматирования SOAP не поддерживаются в Windows Workflow Foundation.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The target &lt;xref:System.IO.Stream&gt; of the save operation.</source>
+          <target state="translated">Целевой объект &lt;xref:System.IO.Stream&gt;сохранения операции.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The binary or custom <bpt id="p1">&lt;xref href="System.Runtime.Serialization.IFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the serialization.</source>
+          <target state="translated">Двоичный или пользовательский <bpt id="p1">&lt;xref href="System.Runtime.Serialization.IFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для сериализации.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;formatter&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;formatter&lt;/code&gt;</ph>является пустой ссылкой (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>This instance is in design mode.</source>
+          <target state="translated">Данный экземпляр находится в режиме конструктора.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of a running <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> changes.</source>
+          <target state="translated">Происходит, когда <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> выполняющийся <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> изменений.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[crdefault](~/add/includes/ajax-current-ext-md.md)]</ph><bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[crdefault](~/add/includes/ajax-current-ext-md.md)]</ph><bpt id="p1">[</bpt>NIB: При возникновении события<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The StatusChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод StatusChanged также позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When an activity (Activity A) subscribes to a different activity's (Activity B) <ph id="ph2">`StatusChanged`</ph> event, the <ph id="ph3">`Activity`</ph> property of the associated &lt;xref:System.Workflow.ComponentModel.ActivityExecutionStatusChangedEventArgs&gt; refers to the activity subscribed to (Activity B), and the associated <ph id="ph4">`Sender`</ph> object refers to the execution context of the subscribing activity (Activity A).</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек когда действие (действие А) подписывается на другого действия (действие Б) <ph id="ph2">`StatusChanged`</ph> событий, <ph id="ph3">`Activity`</ph> свойства связанного &lt;xref:System.Workflow.ComponentModel.ActivityExecutionStatusChangedEventArgs&gt;относится к действию выполнена подписка (действие Б) и связанное с ним <ph id="ph4">`Sender`</ph> объект относится к контексту выполнения подписанного действия (действие А).&lt;/xref:System.Workflow.ComponentModel.ActivityExecutionStatusChangedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that targets the <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity.StatusChanged"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Представляет <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , ориентированном <bpt id="p2">&lt;xref href="System.Workflow.ComponentModel.Activity.StatusChanged"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You indirectly access each public property and event of this type by the resolution of a corresponding dependency property.</source>
+          <target state="translated">Происходит неявное обращение ко всем открытым свойствам и событиям данного типа при разрешении соответствующего свойства зависимостей.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency property is the public static field named <ph id="ph1">`XProperty`</ph> or <ph id="ph2">`XEvent`</ph>, where X is the corresponding property.</source>
+          <target state="translated">Это свойство зависимостей является открытым статическим полем с именем <ph id="ph1">`XProperty`</ph> или <ph id="ph2">`XEvent`</ph>, где X — соответствующее свойство.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Provides a string that represents this instance.</source>
+          <target state="translated">Возвращает строку, представляющую данный экземпляр.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string returned is a combination of the &lt;xref:System.Workflow.ComponentModel.Activity.QualifiedName%2A&gt; and the &lt;xref:System.Type.FullName%2A&gt; of the type of this instance.</source>
+          <target state="translated">Возвращаемая строка представляет собой сочетание &lt;xref:System.Workflow.ComponentModel.Activity.QualifiedName%2A&gt;и &lt;xref:System.Type.FullName%2A&gt;типа этого экземпляра.&lt;/xref:System.Type.FullName%2A&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.QualifiedName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>This instance.</source>
+          <target state="translated">Этот экземпляр.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Informs the run-time tracking infrastructure of pending tracking information.</source>
+          <target state="translated">Информирует Инфраструктура отслеживания среды выполнения отложенные сведения об отслеживании.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object&gt; that contains the tracking information.</source>
+          <target state="translated">&lt;xref:System.Object&gt;содержащий информацию об отслеживании.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;userData&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;userData&lt;/code&gt;</ph>является пустой ссылкой (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> в Visual Basic).</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Informs the run-time tracking infrastructure of pending tracking information.</source>
+          <target state="translated">Информирует Инфраструктура отслеживания среды выполнения отложенные сведения об отслеживании.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The key to the user data that has changed.</source>
+          <target state="translated">Ключ к пользовательским данным, которая была изменена.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object&gt; that contains the tracking information.</source>
+          <target state="translated">&lt;xref:System.Object&gt;содержащий информацию об отслеживании.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;userData&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;userData&lt;/code&gt;</ph>является пустой ссылкой (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> в Visual Basic).</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, provides un-initialization by a service provider for the activity.</source>
+          <target state="translated">При переопределении в производном классе обеспечивает деинициализацию поставщиком услуг для действия.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides the activity with an opportunity to clean up resources allocated during initialization.</source>
+          <target state="translated">Этот метод позволяет действию очистить ресурсы, выделенные во время инициализации.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Uninitialize is called when an activity instance is guaranteed not to perform any more execution.</source>
+          <target state="translated">Отмена инициализации вызывается, когда экземпляр действия гарантированно не выполнять любые дополнительные.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For activities that do not implement &lt;xref:System.Workflow.ComponentModel.ICompensatableActivity&gt;, this occurs immediately after the activity closes, or, if the activity never executed, at workflow completion.</source>
+          <target state="translated">Для действий, которые не реализуют &lt;xref:System.Workflow.ComponentModel.ICompensatableActivity&gt;, это происходит сразу после закрытия действия, или если не выполняется действие при завершении рабочего процесса.&lt;/xref:System.Workflow.ComponentModel.ICompensatableActivity&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For &lt;xref:System.Workflow.ComponentModel.ICompensatableActivity&gt; activities, this occurs either after compensation or at workflow completion.</source>
+          <target state="translated">Для &lt;xref:System.Workflow.ComponentModel.ICompensatableActivity&gt;действий, это происходит при завершении рабочего процесса или после компенсации.&lt;/xref:System.Workflow.ComponentModel.ICompensatableActivity&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IServiceProvider&gt; that provides the service.</source>
+          <target state="translated">&lt;xref:System.IServiceProvider&gt;, Предоставляющий службу.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Un-registers the specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the status change event.</source>
+          <target state="translated">Отменяет регистрацию указанного <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для события изменения состояния.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to un-register.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для отмены регистрации.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The object that implements the Event Listener interface for this registration.</source>
+          <target state="translated">Объект, реализующий интерфейс Eventlistener для регистрации.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;dependencyProp&lt;/code&gt;</ph> is not one of the following:      -   <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity.ExecutingEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.CancelingEvent"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><bpt id="p3">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.ClosedEvent"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><bpt id="p4">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.CompensatingEvent"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><bpt id="p5">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.FaultingEvent"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept><bpt id="p6">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.StatusChangedEvent"&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;dependencyProp&lt;/code&gt;</ph>не является одним из следующих действий:-<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity.ExecutingEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.CancelingEvent"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><bpt id="p3">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.ClosedEvent"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><bpt id="p4">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.CompensatingEvent"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><bpt id="p5">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.FaultingEvent"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept><bpt id="p6">      -   &lt;xref href="System.Workflow.ComponentModel.Activity.StatusChangedEvent"&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Guid&gt; associated with the instance.</source>
+          <target state="translated">Возвращает &lt;xref:System.Guid&gt;связанный с экземпляром.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; associated with the instance.</source>
+          <target state="translated">&lt;xref:System.Guid&gt;Связанный с экземпляром.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

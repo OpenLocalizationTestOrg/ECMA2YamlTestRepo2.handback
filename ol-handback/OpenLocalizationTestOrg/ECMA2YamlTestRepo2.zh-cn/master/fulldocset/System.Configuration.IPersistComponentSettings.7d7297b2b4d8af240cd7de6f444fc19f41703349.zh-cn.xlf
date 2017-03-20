@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">655ffbffba4695505f8ca982cc23dfc732582cbb</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Configuration.IPersistComponentSettings.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6fd5bd04fe114749807726110f0c828e0302f526</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3110686e11c84e8129aa29efc4ba41c6713a3c3d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines standard functionality for controls or libraries that store and retrieve application settings.</source>
+          <target state="translated">定义控件或库用于存储和检索应用程序设置的标准功能。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Typically, you can add application settings support to an application by creating a settings wrapper class, which is derived from &lt;xref:System.Configuration.ApplicationSettingsBase&gt;, and then add special properties to this class.</source>
+          <target state="translated">通常情况下，你可以添加应用程序设置支持对应用程序通过创建设置包装器类，该类派生自&lt;xref:System.Configuration.ApplicationSettingsBase&gt;，然后将特殊属性添加到此类。&lt;/xref:System.Configuration.ApplicationSettingsBase&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>However, this approach does not sufficiently encapsulate application settings for a control so that its container is shielded from the details.</source>
+          <target state="translated">但是，此方法不足够的封装应用程序设置的控件，以便其容器进行隔离的详细信息。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The IPersistComponentSettings interface provides an application with a standard interface for communicating application settings state change requests to a control, component, or library module.</source>
+          <target state="translated">IPersistComponentSettings 接口提供通信控件、 组件或库模块的应用程序设置状态更改请求的标准接口的应用程序。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Design-time tools also depend on this interface to properly manage controls and components.</source>
+          <target state="translated">设计时工具还依赖于此接口，以便正确地管理控件和组件。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Reads the control's application settings into their corresponding properties and updates the control's state.</source>
+          <target state="translated">读取到其对应的属性的控件的应用程序设置并更新控件的状态。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In general, the LoadComponentSettings method performs two essential operations:      -   It causes each application settings instance contained by the control to refresh the values of its application settings properties, typically by calling their &lt;xref:System.Configuration.ApplicationSettingsBase.Reload%2A&gt; methods.</source>
+          <target state="translated">一般情况下，LoadComponentSettings 方法执行两个基本操作:-它将导致控件后，若要刷新其应用程序设置属性的值通常通过调用包含的每个应用程序设置实例其&lt;xref:System.Configuration.ApplicationSettingsBase.Reload%2A&gt;方法。&lt;/xref:System.Configuration.ApplicationSettingsBase.Reload%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   As required, it updates those general properties that depend on these reloaded settings properties.</source>
+          <target state="translated">-根据需要，它会更新这些属性依赖于这些重新加载的设置的常规属性。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, if the settings class contained a <ph id="ph1">`location`</ph> settings property, LoadComponentSettings should ensure that the control's &lt;xref:System.Windows.Forms.Control.Location%2A&gt; property is updated to reflect this reloaded setting.</source>
+          <target state="translated">例如，如果将设置类包含<ph id="ph1">`location`</ph>设置属性，LoadComponentSettings 应确保控件的&lt;xref:System.Windows.Forms.Control.Location%2A&gt;属性更新以反映此重新加载的设置。&lt;/xref:System.Windows.Forms.Control.Location%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Resets the control's application settings properties to their default values.</source>
+          <target state="translated">将控件的应用程序设置属性重置为其默认值。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The implementation of the ResetComponentSettings method typically calls the &lt;xref:System.Configuration.ApplicationSettingsBase.Reset%2A&gt; method on each instance of an application settings class it contains.</source>
+          <target state="translated">ResetComponentSettings 方法的实现通常调用&lt;xref:System.Configuration.ApplicationSettingsBase.Reset%2A&gt;它包含应用程序设置类的每个实例上的方法。&lt;/xref:System.Configuration.ApplicationSettingsBase.Reset%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Persists the control's application settings properties.</source>
+          <target state="translated">仍然存在控件的应用程序设置属性。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The SaveComponentSettings method writes the values of the control's application settings properties to the associated data store.</source>
+          <target state="translated">SaveComponentSettings 方法将写入关联的数据存储控件的应用程序设置属性的值。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The data store and serialization technique the method uses is determined by the settings provider associated with each settings class through the &lt;xref:System.Configuration.SettingsProviderAttribute&gt;.</source>
+          <target state="translated">由通过&lt;xref:System.Configuration.SettingsProviderAttribute&gt;.&lt;/xref:System.Configuration.SettingsProviderAttribute&gt;每个设置类关联的设置提供程序确定该方法使用的数据存储区和序列化技术</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can override the choice of the settings provider by using the &lt;xref:System.Configuration.ISettingsProviderService&gt; interface.</source>
+          <target state="translated">你可以使用重写设置提供程序的选择&lt;xref:System.Configuration.ISettingsProviderService&gt;接口。&lt;/xref:System.Configuration.ISettingsProviderService&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the &lt;xref:System.Configuration.IPersistComponentSettings.SaveSettings%2A&gt; property is <ph id="ph2">`true`</ph>, the control should call SaveComponentSettings in its own &lt;xref:System.Windows.Forms.Control.Dispose%2A&gt; method so that the control's configuration data is stored automatically before the application ends.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 如果&lt;xref:System.Configuration.IPersistComponentSettings.SaveSettings%2A&gt;属性是<ph id="ph2">`true`</ph>，该控件应调用 SaveComponentSettings 其自己&lt;xref:System.Windows.Forms.Control.Dispose%2A&gt;方法，以便在应用程序结束之前自动存储控件的配置数据。&lt;/xref:System.Windows.Forms.Control.Dispose%2A&gt; &lt;/xref:System.Configuration.IPersistComponentSettings.SaveSettings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the control should automatically persist its application settings properties.</source>
+          <target state="translated">获取或设置一个值，该值指示控件是否应自动保持其应用程序设置属性。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If a control contains configuration data, it will typically persist this data in response to an explicit call to the &lt;xref:System.Configuration.IPersistComponentSettings.SaveComponentSettings%2A&gt; method or sometimes implicitly when the control's &lt;xref:System.Windows.Forms.Control.Dispose%2A&gt; method is invoked.</source>
+          <target state="translated">如果控件包含配置数据，它通常会将此数据以显式调用的响应保存&lt;xref:System.Configuration.IPersistComponentSettings.SaveComponentSettings%2A&gt;方法或有时隐式时控件的&lt;xref:System.Windows.Forms.Control.Dispose%2A&gt;调用方法。&lt;/xref:System.Windows.Forms.Control.Dispose%2A&gt; &lt;/xref:System.Configuration.IPersistComponentSettings.SaveComponentSettings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The SaveSettings property determines whether a control automatically persists its configuration data when it is disposed.</source>
+          <target state="translated">首先属性确定释放绕道后是否控件将自动保存其配置数据。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The default value of SaveSettings depends on the implementation of the control.</source>
+          <target state="translated">前面的默认值取决于控件的实现。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The documentation for the control should indicate whether it uses application settings, what data is persisted, and what the default value of the SaveSettings property is.</source>
+          <target state="translated">控件的文档应指示其是否使用应用程序设置、 哪些数据保持不变，和前面属性的默认值是什么。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control should automatically persist its state; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果控件应自动持久保存其状态;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value of the application settings key for the current instance of the control.</source>
+          <target state="translated">获取或设置控件的当前实例的应用程序设置键的值。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Use the SettingsKey property to disambiguate groups of application settings properties when there are multiple instances of the same wrapper class.</source>
+          <target state="translated">使用 SettingsKey 属性来消除歧义的应用程序设置属性组时有多个实例相同的包装器类。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, if a control contains an associated wrapper class, then placing multiple instances of the same control in the same application will typically result in multiple instances of the wrapper class.</source>
+          <target state="translated">例如，如果控件包含关联的包装类，然后将同一个控件中的多个实例放在同一应用程序通常会在多个实例的包装类。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A settings key is required only when the configuration data differs on a per-instance basis; for example, the location of dynamically positioned controls.</source>
+          <target state="translated">仅当基于每个实例; 不同的配置数据时，才需要设置键例如，动态定位控件的位置。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following general rules apply to the use of SettingsKey:      -   A control, like any class, may contain zero or more application settings classes, derived from &lt;xref:System.Configuration.ApplicationSettingsBase&gt;.</source>
+          <target state="translated">以下一般规则适用于 SettingsKey 的使用:-一个控件，像任何类可能包含零个或多个应用程序设置类，派生自&lt;xref:System.Configuration.ApplicationSettingsBase&gt;.&lt;/xref:System.Configuration.ApplicationSettingsBase&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Each settings class contains its own &lt;xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A?displayProperty=fullName&gt; property, which helps disambiguate multiple instances of that class.</source>
+          <target state="translated">每个设置类包含其自己的&lt;xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A?displayProperty=fullName&gt;属性，从而可帮助消除歧义该类的多个实例&lt;/xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-   A control should separate its per-instance data and its shared data into different settings classes.</source>
+          <target state="translated">-A 控件应其每个实例数据和共享的数据分成不同的设置类。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-   For a control with any per-instance configuration data, the <ph id="ph1">`get`</ph> accessor of the SettingsKey property should default to the &lt;xref:System.Windows.Forms.Control.Name%2A&gt; of the control.</source>
+          <target state="translated">-对于与任何每个实例的配置数据，控件<ph id="ph1">`get`</ph>SettingsKey 属性访问器应默认为&lt;xref:System.Windows.Forms.Control.Name%2A&gt;的控件。&lt;/xref:System.Windows.Forms.Control.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In most cases the name of the control will be unique within an application.</source>
+          <target state="translated">在大多数情况下将是唯一应用程序中的控件的名称。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If the control contains only shared configuration data, <ph id="ph1">`get`</ph> should default to <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">如果控件包含共享配置数据仅<ph id="ph1">`get`</ph>应默认为<ph id="ph2">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`set`</ph> accessor for this property should be implemented to distinguish between settings classes containing per-instance and shared configuration data.</source>
+          <target state="translated">-<ph id="ph1">`set`</ph>应实现此属性访问器包含每个实例和共享的配置数据的设置类之间进行区分。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For each settings class containing per-instance data, <ph id="ph1">`set`</ph> should just pass-through to the &lt;xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A?displayProperty=fullName&gt; property of the settings class.</source>
+          <target state="translated">为包含每个实例数据，每个设置类<ph id="ph1">`set`</ph>应仅传递到&lt;xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A?displayProperty=fullName&gt;属性的设置类。&lt;/xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For settings classes containing shared data, <ph id="ph1">`set`</ph> should perform no action for that settings class.</source>
+          <target state="translated">对于包含共享的数据，设置类<ph id="ph1">`set`</ph>应为该类设置执行任何操作。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; containing the settings key for the current instance of the control.</source>
+          <target state="translated">A&lt;xref:System.String&gt;包含控件的当前实例的设置键。&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

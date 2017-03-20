@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">047a47233397b068c960f70a697eedf99455095d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Hosting.IStopListeningRegisteredObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e9160a86e217802dc9baf58de390f1adfc57329</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d38249b1883a3473bf2b45d4735ff2e092038fc7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Listens for <ph id="ph1">`GL_STOP_LISTENING`</ph> notifications from IIS.</source>
+          <target state="translated">[在.NET Framework 4.5.1 及更新版本中支援]      會接聽<ph id="ph1">`GL_STOP_LISTENING`</ph>從 IIS 的通知。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can implement the IStopListeningRegisteredObject interface by passing an object to the &lt;xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A&gt; method.</source>
+          <target state="translated">您可以實作 IStopListeningRegisteredObject 介面將物件傳遞至&lt;xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A&gt;方法。&lt;/xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The passed object listens for <ph id="ph1">`GL_STOP_LISTENING`</ph> notifications from IIS.</source>
+          <target state="translated">傳遞的物件會接聽<ph id="ph1">`GL_STOP_LISTENING`</ph>從 IIS 的通知。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can call this implementation when ASP.NET receives a <ph id="ph1">`GL_STOP_LISTENING`</ph> notification from IIS, which signals that IIS is no longer listening for new requests for this application.</source>
+          <target state="translated">您可以呼叫此實作中，當 ASP.NET 收到<ph id="ph1">`GL_STOP_LISTENING`</ph>從 IIS，以指示 IIS 已經不再接聽新的要求此應用程式的通知。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The web server can allow requests that are in progress to run to completion.</source>
+          <target state="translated">Web 伺服器可以讓進行中，才能執行到完成的要求。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If your application processes long running requests, you might want to have the application listen for these IIS notifications to gracefully wind down the request.</source>
+          <target state="translated">如果您長時間執行要求的應用程式程序，您可能想要有這些 IIS 通知，以依正常程序要求風力接聽應用程式。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.Hosting.IStopListeningRegisteredObject.StopListening%2A&gt; method contrasts with the &lt;xref:System.Web.Hosting.IRegisteredObject.Stop%2A&gt; method, which signals immediate application shutdown.</source>
+          <target state="translated">&lt;xref:System.Web.Hosting.IStopListeningRegisteredObject.StopListening%2A&gt;方法的相反&lt;xref:System.Web.Hosting.IRegisteredObject.Stop%2A&gt;方法，以指示應用程式立即關閉。&lt;/xref:System.Web.Hosting.IRegisteredObject.Stop%2A&gt; &lt;/xref:System.Web.Hosting.IStopListeningRegisteredObject.StopListening%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Stops listening for new requests.</source>
+          <target state="translated">[在.NET Framework 4.5.1 及更新版本中支援]      停止接聽新的要求。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The StopListening method is supported only when running in IIS integrated mode.</source>
+          <target state="translated">只有在 IIS 整合模式執行時，才支援 StopListening 方法。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The ASP.NET runtime does not guarantee that the StopListening method will ever fire.</source>
+          <target state="translated">ASP.NET 執行階段不保證，StopListening 方法會引發。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The StopListening method must not throw exceptions, otherwise the behavior is undefined and the process will likely be terminated.</source>
+          <target state="translated">StopListening 方法未擲回例外狀況，否則行為是未定義，而且可能會終止處理程序。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Further, to avoid creating deadlocks, the StopListening method should not block execution.</source>
+          <target state="translated">此外，若要避免建立死結，StopListening 方法不應該封鎖執行。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  In many applications the StopListening method can run at the same time as the &lt;xref:System.AppDomain.Unload%2A&gt; method.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 在許多應用程式 StopListening 方法可以在同時間執行&lt;xref:System.AppDomain.Unload%2A&gt;方法。&lt;/xref:System.AppDomain.Unload%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.AppDomain&gt; unload occurs, the StopListening method might be forcibly aborted before it finishes executing.</source>
+          <target state="translated">如果&lt;xref:System.AppDomain&gt;發生卸載，StopListening 方法可能會被強制中止之前執行完成。&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
