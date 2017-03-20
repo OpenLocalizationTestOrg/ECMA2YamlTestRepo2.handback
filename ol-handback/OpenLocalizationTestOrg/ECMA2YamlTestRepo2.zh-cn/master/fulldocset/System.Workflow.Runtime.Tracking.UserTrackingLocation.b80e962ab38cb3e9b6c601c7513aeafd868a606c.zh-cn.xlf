@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f86e9cf2dce7cad440e1c2877b5b7c8c11d81bcc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Tracking.UserTrackingLocation.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7391865065acd238284faa57d0f0cd19e359ce5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f582cb6900d3dd17d46260ccd37d553f88082435</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines an activity-qualified location that corresponds to a user event in the potential execution path of a root workflow instance.</source>
+          <target state="translated">定义根工作流实例的可能执行路径中的用户事件相对应的活动限定位置。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       An activity designer or a workflow designer may use any of the overloaded &lt;xref:System.Workflow.ComponentModel.Activity.TrackData%2A?displayProperty=fullName&gt; and &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%2A?displayProperty=fullName&gt; methods to instrument the workflow to emit data to the runtime tracking infrastructure as a user event.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>活动设计器或工作流设计器可以使用任何重载&lt;xref:System.Workflow.ComponentModel.Activity.TrackData%2A?displayProperty=fullName&gt;和&lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%2A?displayProperty=fullName&gt;方法来检测工作流以将数据发出到运行时跟踪基础结构即用户事件。&lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%2A?displayProperty=fullName&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.TrackData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The data emitted is referred to as user data.</source>
+          <target state="translated">发出的数据称为用户数据。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Unlike activity status events, and workflow status events, which occur only on activity or workflow status changes, user events can occur at any location that is instrumented in a workflow.</source>
+          <target state="translated">与活动状态事件和工作流状态事件，只会在活动或工作流状态更改发生，不同用户事件可以在工作流中检测到的任何位置发生。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A UserTrackingLocation defines the matching parameters for such a location by specifying the type of the user data, the type of the activity from which it must be emitted, a collection of conditions that can more precisely qualify an instance or instances of this activity, an optional key name with which the user data must be associated, whether derived types of the user data should be matched, and whether user data emitted from activities derived from the type of the specified activity should be matched.</source>
+          <target state="translated">UserTrackingLocation 通过指定的用户数据，该类型的类型来定义此类位置的匹配参数的从中它必须发出的活动，可以更精确地限定实例或此活动，用户数据必须与该关联，一个可选键名称的实例的条件的集合是否派生的类型的用户数据应匹配以及是否应匹配派生自指定活动的类型的活动从发出用户数据。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  A single UserTrackingLocation may refer to more than one actual location in the potential execution path of a workflow instance.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 单个 UserTrackingLocation 可以引用工作流实例的可能执行路径中的多个实际位置。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You may add a UserTrackingLocation to either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A?displayProperty=fullName&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A?displayProperty=fullName&gt; in order to define the match parameters for a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint&gt; in a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.</source>
+          <target state="translated">您可以为&lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A?displayProperty=fullName&gt;或者&lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A?displayProperty=fullName&gt;为了定义匹配参数&lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint&gt;中&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;。&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A?displayProperty=fullName&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A?displayProperty=fullName&gt;添加 UserTrackingLocation</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>There are three general conditions which must be met in the following order for the UserTrackingLocation to be matched by the runtime tracking infrastructure: the activity that has emitted a user event must match the set of activities specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;, &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;, &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.Conditions%2A&gt;, and &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedActivityTypes%2A&gt;; the key, if one exists, associated with the user data must match &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;; and, the type of the user data emitted by the user event must match the set of user data types specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;, &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;, and &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedArgumentTypes%2A&gt;.</source>
+          <target state="translated">有三种 UserTrackingLocation 运行时跟踪基础结构匹配的以下顺序必须满足这些常规情况︰ 已发出用户事件的活动必须与匹配的&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;，由指定的活动集&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;， &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.Conditions%2A&gt;，和&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedActivityTypes%2A&gt;; 存在的项，如果一个、 关联与用户数据必须匹配&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;; 并且，用户事件发出的用户数据的类型必须匹配的一套&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;由指定的用户数据类型, &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;, and &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedArgumentTypes%2A&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedArgumentTypes%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedActivityTypes%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.Conditions%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Only if all three of these conditions are met, does the runtime tracking infrastructure consider the UserTrackingLocation matched.</source>
+          <target state="translated">仅当满足所有这三个条件，运行时跟踪基础结构会考虑匹配 UserTrackingLocation。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To configure a UserTrackingLocation, you must set either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; to specify the type of the user data to be matched and either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; to specify the type of the activity from which the user data must be emitted to be matched.</source>
+          <target state="translated">若要配置 UserTrackingLocation，你必须设置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;来指定要匹配的用户数据类型并&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;以指定从中必须发出用户数据要匹配的活动类型。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You may add &lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingCondition&gt; objects to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.Conditions%2A&gt; to more completely qualify the activity from which the user data must be emitted.</source>
+          <target state="translated">您可以添加&lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingCondition&gt;对象添加到&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.Conditions%2A&gt;来更完全地限定必须从中发出用户数据的活动。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.Conditions%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.ActivityTrackingCondition&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You may set &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedArgumentTypes%2A&gt; to specify that user data derived from the user data type specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; should be matched, and you may set &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedActivityTypes%2A&gt; to specify that user data emitted from activities derived from the activity type specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; should be matched.</source>
+          <target state="translated">您可以设置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedArgumentTypes%2A&gt;指定派生自用户数据类型由指定用户数据&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;应匹配，并且可以设置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedActivityTypes%2A&gt;指定从派生自指定的活动类型的活动中发出用户数据&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;应匹配。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedActivityTypes%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedArgumentTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You may set &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt; to specify that only user data associated with the specified key name should be matched for this UserTrackingLocation.</source>
+          <target state="translated">您可以设置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;若要指定该唯一用户与指定的密钥名称关联的数据应为此 UserTrackingLocation 匹配。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt; is a null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic), the runtime tracking structure will not try to match the key associated with the user data.</source>
+          <target state="translated">如果&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;为空引用 (<ph id="ph1">`Nothing`</ph>在 Visual Basic 中)，运行时跟踪结构将不会尝试匹配与用户数据关联的密钥。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The default constructor initializes an empty &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">默认构造函数会初始化一个空&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You must specify both the type of the user data to match and the type of the activity from which it must be emitted in order to be matched.</source>
+          <target state="translated">你必须指定要匹配的用户数据的类型和从其它必须发出要匹配的活动的类型。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Therefore, to configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; you must explicitly set either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; to specify the type of an activity from which user data must be emitted to be matched, and you must also explicitly set either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; to specify the type of the user data to be matched.</source>
+          <target state="translated">因此，若要配置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;你必须显式设置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;若要指定的一种活动从中发出用户数据必须匹配，并且必须还显式设置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;以指定要匹配的用户数据类型。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You may further configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">您可以进一步配置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;通过设置其他属性。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the unqualified name of the common language runtime (CLR) type of the user data.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用的用户数据的公共语言运行时 (CLR) 类型的非限定的名称。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This constructor initializes a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; that matches user data of the specified type emitted from the workflow.</source>
+          <target state="translated">此构造函数初始化&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;与匹配的指定类型从工作流发出用户数据。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You must specify the unqualified name of the &lt;xref:System.Type&gt; of the user data to be matched for <ph id="ph1">`argumentTypeName`</ph>.</source>
+          <target state="translated">必须指定的非限定的名称&lt;xref:System.Type&gt;要为匹配的用户数据<ph id="ph1">`argumentTypeName`</ph>。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You must explicitly set either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; in your code to properly configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">您必须显式设置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;代码来正确配置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You may further qualify the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">你可能会进一步限定&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;通过设置其他属性。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the CLR type of the user data to be matched.</source>
+          <target state="translated">要匹配的用户数据的 CLR 类型的非限定的名称。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the common language runtime (CLR) type of the user data.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用的用户数据的公共语言运行时 (CLR) 类型。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This constructor initializes a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; that matches user data of the specified type emitted from the workflow.</source>
+          <target state="translated">此构造函数初始化&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;与匹配的指定类型从工作流发出用户数据。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You must explicitly set either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; in your code to properly configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">您必须显式设置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;代码来正确配置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You may further qualify the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">你可能会进一步限定&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;通过设置其他属性。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the user data to be matched.</source>
+          <target state="translated">&lt;xref:System.Type&gt;要匹配的用户数据。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the unqualified name of the common language runtime (CLR) type of the user data and the unqualified name of the CLR type of the activity from which the user data must be emitted.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用的用户数据的公共语言运行时 (CLR) 类型和必须从中发出用户数据的活动的 CLR 类型的非限定的名称的非限定的名称。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This constructor initializes a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; that matches all user data of the specified type emitted from activities of the specified type.</source>
+          <target state="translated">此构造函数初始化&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;与匹配的指定类型的活动从发出的指定类型的所有用户数据。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You must specify the unqualified name of the &lt;xref:System.Type&gt; of the activity and of the user data.</source>
+          <target state="translated">必须指定的非限定的名称&lt;xref:System.Type&gt;的活动和用户数据。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example the unqualified name of the &lt;xref:System.Type&gt; of a &lt;xref:System.Workflow.Activities.CodeActivity&gt; activity is "Code".</source>
+          <target state="translated">例如的非限定的名称的&lt;xref:System.Type&gt;的&lt;xref:System.Workflow.Activities.CodeActivity&gt;活动为"Code"。&lt;/xref:System.Workflow.Activities.CodeActivity&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You may further qualify the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">你可能会进一步限定&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;通过设置其他属性。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the CLR type of the user data to be matched.</source>
+          <target state="translated">要匹配的用户数据的 CLR 类型的非限定的名称。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the CLR type of the activity from which the user data must be emitted.</source>
+          <target state="translated">必须从中发出用户数据的活动的 CLR 类型的非限定的名称。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the unqualified name of the common language runtime (CLR) type of the user data and the CLR type of the activity from which the user data must be emitted.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用的用户数据的公共语言运行时 (CLR) 类型和必须从中发出用户数据的活动的 CLR 类型的非限定的名称。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This constructor initializes a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; that matches all user data of the specified type emitted from activities of the specified type.</source>
+          <target state="translated">此构造函数初始化&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;与匹配的指定类型的活动从发出的指定类型的所有用户数据。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You must specify the unqualified name of the &lt;xref:System.Type&gt; of the user data.</source>
+          <target state="translated">必须指定的非限定的名称&lt;xref:System.Type&gt;的用户数据。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You may further qualify the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">你可能会进一步限定&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;通过设置其他属性。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the CLR type of the user data to be matched.</source>
+          <target state="translated">要匹配的用户数据的 CLR 类型的非限定的名称。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the activity from which the user data must be emitted.</source>
+          <target state="translated">&lt;xref:System.Type&gt;必须从中发出用户数据的活动。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the common language runtime (CLR) type of the user data and unqualified name of the CLR type of the activity from which the user data must be emitted.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>通过使用用户数据和必须从中发出用户数据的活动的 CLR 类型的非限定的名称的公共语言运行时 (CLR) 类型的类。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This constructor initializes a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; that matches all user data of the specified type emitted from activities of the specified type.</source>
+          <target state="translated">此构造函数初始化&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;与匹配的指定类型的活动从发出的指定类型的所有用户数据。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You must specify the unqualified name of the &lt;xref:System.Type&gt; of the activity.</source>
+          <target state="translated">必须指定的非限定的名称&lt;xref:System.Type&gt;的活动。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example the unqualified name of the &lt;xref:System.Type&gt; of a &lt;xref:System.Workflow.Activities.CodeActivity&gt; activity is "Code".</source>
+          <target state="translated">例如的非限定的名称的&lt;xref:System.Type&gt;的&lt;xref:System.Workflow.Activities.CodeActivity&gt;活动为"Code"。&lt;/xref:System.Workflow.Activities.CodeActivity&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You may further qualify the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">你可能会进一步限定&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;通过设置其他属性。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the user data to be matched.</source>
+          <target state="translated">&lt;xref:System.Type&gt;要匹配的用户数据。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the CLR type of the activity from which the user data must be emitted.</source>
+          <target state="translated">必须从中发出用户数据的活动的 CLR 类型的非限定的名称。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the common language runtime (CLR) type of the user data and the CLR type of the activity from which the user data must be emitted.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>通过使用用户数据的公共语言运行时 (CLR) 类型和必须从中发出用户数据的活动的 CLR 类型的类。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This constructor initializes a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; that matches all user data of the specified type emitted from activities of the specified type.</source>
+          <target state="translated">此构造函数初始化&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;与匹配的指定类型的活动从发出的指定类型的所有用户数据。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You may further qualify the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">你可能会进一步限定&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;通过设置其他属性。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the user data to be matched.</source>
+          <target state="translated">&lt;xref:System.Type&gt;要匹配的用户数据。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the activity from which the user data must be emitted.</source>
+          <target state="translated">&lt;xref:System.Type&gt;必须从中发出用户数据的活动。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets or sets the common language runtime (CLR) type of the activity from which the user data must be emitted to be tracked.</source>
+          <target state="translated">获取或设置从中必须发出用户数据要跟踪的活动的公共语言运行时 (CLR) 类型。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you want to specify the type of the activity in a version-independent manner, use &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;.</source>
+          <target state="translated">如果你想要独立于版本的方式指定的活动类型，使用&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You must specify either ActivityType or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; to properly configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">你必须指定 ActivityType 或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;正确配置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the activity from which the data must be emitted.</source>
+          <target state="translated">&lt;xref:System.Type&gt;必须从中发出数据的活动。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets or sets the unqualified name of the common language runtime (CLR) type of the activity from which the user data must be emitted to be tracked.</source>
+          <target state="translated">获取或设置从中必须发出用户数据要跟踪的活动的公共语言运行时 (CLR) 类型的非限定的名称。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You must specify the unqualified name of the type of the activity.</source>
+          <target state="translated">必须指定的活动类型的非限定的名称。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, to specify the unqualified name of a &lt;xref:System.Workflow.Activities.CodeActivity&gt; activity, set ActivityTypeName to "Code".</source>
+          <target state="translated">例如，若要指定的非限定的名称&lt;xref:System.Workflow.Activities.CodeActivity&gt;活动，设置为"Code"ActivityTypeName。&lt;/xref:System.Workflow.Activities.CodeActivity&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>ActivityTypeName provides a much easier way to specify the type of the activity that emits the user data when you author a profile directly in XML.</source>
+          <target state="translated">ActivityTypeName 提供更为轻松地以指定的一种创作直接在 XML 中的配置文件时发出用户数据的活动。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>ActivityTypeName also provides a version-independent way of referring to the type of the activity.</source>
+          <target state="translated">ActivityTypeName 还提供了独立于版本的方法来引用活动的类型。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You must specify either ActivityTypeName or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; to properly configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">你必须指定 ActivityTypeName 或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;正确配置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the &lt;xref:System.Type&gt; of the activity from which the data must be emitted.</source>
+          <target state="translated">非限定的名称&lt;xref:System.Type&gt;必须从中发出数据的活动。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets or sets the common language runtime (CLR) type of the user data to be tracked.</source>
+          <target state="translated">获取或设置要跟踪的用户数据的公共语言运行时 (CLR) 类型。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you want to specify the type of the user data in a version-independent manner, use &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;.</source>
+          <target state="translated">如果你想要独立于版本的方式指定的用户数据类型，使用&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You must specify either ArgumentType or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; to properly configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">你必须指定 ArgumentType 或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;正确配置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the user data to be tracked.</source>
+          <target state="translated">&lt;xref:System.Type&gt;要跟踪的用户数据。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Gets or sets the unqualified name of the common language runtime (CLR) type of the user data to be tracked.</source>
+          <target state="translated">获取或设置要跟踪的用户数据的公共语言运行时 (CLR) 类型的非限定的名称。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>ArgumentTypeName provides a much easier way to specify the type of the user data when you author a profile directly in XML.</source>
+          <target state="translated">ArgumentTypeName 提供更简单的方法时编写直接在 XML 配置文件指定的用户数据类型。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>ArgumentTypeName also provides a version-independent way of referring to the type of the user data.</source>
+          <target state="translated">ArgumentTypeName 还提供了一种为用户数据的类型引用的独立于版本的方法。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You must specify either ArgumentTypeName or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; to properly configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">你必须指定 ArgumentTypeName 或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;正确配置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the &lt;xref:System.Type&gt; of the user data.</source>
+          <target state="translated">非限定的名称&lt;xref:System.Type&gt;的用户数据。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets a collection of conditions that are used to qualify the activity from which the user data must be emitted to be tracked.</source>
+          <target state="translated">获取一个条件用于限定从中必须发出用户数据要跟踪的活动集合。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can use Conditions to more precisely define the instance of the activity type specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; from which the user event must be emitted to match the tracking location.</source>
+          <target state="translated">你可以使用条件更精确地定义由指定的活动类型的实例&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;或&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;从中用户事件必须是发出以匹配跟踪位置。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For example, if you want to match only &lt;xref:System.Workflow.Activities.CodeActivity&gt; activities with an &lt;xref:System.Workflow.ComponentModel.Activity.Name%2A&gt; equal to "MyCode", you can set &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; to "Code" and add an &lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingCondition&gt; to Conditions that specifies that the ID property of the activity instance must be equal to "MyCode".</source>
+          <target state="translated">例如，如果你想要仅匹配&lt;xref:System.Workflow.Activities.CodeActivity&gt;活动&lt;xref:System.Workflow.ComponentModel.Activity.Name%2A&gt;等于"MyCode"，可以设置&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;为"Code"并添加&lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingCondition&gt;到指定的活动实例的 ID 属性必须等于"MyCode"的条件。&lt;/xref:System.Workflow.Runtime.Tracking.ActivityTrackingCondition&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.Name%2A&gt; &lt;/xref:System.Workflow.Activities.CodeActivity&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Every &lt;xref:System.Workflow.Runtime.Tracking.TrackingCondition&gt; in Conditions must be true for the activity to be matched.</source>
+          <target state="translated">每个&lt;xref:System.Workflow.Runtime.Tracking.TrackingCondition&gt;在条件为真，要匹配的活动。&lt;/xref:System.Workflow.Runtime.Tracking.TrackingCondition&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingConditionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used to qualify the activity from which the user data must be emitted.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingConditionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用于限定必须从中发出用户数据的活动。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Get or sets the name with which the user data must be associated for the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be matched.</source>
+          <target state="translated">获取或设置用户数据必须与针对关联的名称<bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要匹配。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>An activity designer or a workflow designer can use either &lt;xref:System.Workflow.ComponentModel.Activity.TrackData%28System.String%2CSystem.Object%29?displayProperty=fullName&gt; or &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%28System.String%2CSystem.Object%29?displayProperty=fullName&gt; to associate a string key with the user data that is emitted in a user event.</source>
+          <target state="translated">活动设计器或工作流设计器可以使用&lt;xref:System.Workflow.ComponentModel.Activity.TrackData%28System.String%2CSystem.Object%29?displayProperty=fullName&gt;或&lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%28System.String%2CSystem.Object%29?displayProperty=fullName&gt;要与用户事件中发出用户数据关联字符串键。&lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%28System.String%2CSystem.Object%29?displayProperty=fullName&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.TrackData%28System.String%2CSystem.Object%29?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If KeyName is not a null reference (<ph id="ph1">`Nothing`</ph>), the key associated with the user data must match the value of KeyName for the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; to be matched.</source>
+          <target state="translated">如果键名不是 null 引用 (<ph id="ph1">`Nothing`</ph>)，与用户数据关联的密钥必须与匹配的值为 KeyName&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;要匹配。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If KeyName is a null reference (<ph id="ph1">`Nothing`</ph>), the runtime tracking infrastructure does not check for a matching key to determine whether the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; is matched.</source>
+          <target state="translated">键名是否为 null 引用 (<ph id="ph1">`Nothing`</ph>)，运行时跟踪基础结构不会检查匹配键来确定是否&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;匹配。&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_string" name="string" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> key with which the user data must be associated for the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to be matched or a null reference (<bpt id="p3">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_string" name="string" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>密钥与用户数据必须与针对关联<bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>要匹配或为空引用 (<bpt id="p3">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>在 Visual Basic 中)。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the user data should be tracked when it is emitted from activities derived from the activity type specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">获取或设置一个值，该值指示是否用户数据时应对进行跟踪它，将发出从派生自指定的活动类型的活动&lt;&gt; <bpt id="p1">*</bpt>1&gt; 或&lt;&gt; <ept id="p1">*</ept>1&gt;。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user data should be tracked when it is emitted from activities derived from the type specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType<bpt id="p2">*</bpt>&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName<ept id="p2">*</ept>&gt;; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果从派生自指定的类型的活动发出时应对用户数据进行跟踪&lt;&gt; <bpt id="p2">*</bpt>1&gt; 或&lt;&gt; <ept id="p2">*</ept>1&gt;; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The User tracking location is a way to filter user tracked data.</source>
+          <target state="translated">用户跟踪位置是一种方法来筛选用户跟踪数据。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The user can filter by the type of the user tracked data by specifying the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">用户可以按用户跟踪数据的类型筛选通过指定&lt;&gt; <bpt id="p1">*</bpt>1&gt; 或&lt;&gt; <ept id="p1">*</ept>1&gt;。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Setting the <bpt id="p1">&lt;xref uid="langword_csharp_MatchDerrivedArgumentTypes" name="MatchDerrivedArgumentTypes" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value to <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> specifies that the user tracked data can be of type ArgumentType/ArgumentTypeName or a type derived from the ArgumentType/ArgumentTypeName.</source>
+          <target state="translated">设置<bpt id="p1">&lt;xref uid="langword_csharp_MatchDerrivedArgumentTypes" name="MatchDerrivedArgumentTypes" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <bpt id="p2">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>值赋给<bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>指定的用户跟踪数据可以是类型 ArgumentType/ArgumentTypeName 或从 ArgumentType/ArgumentTypeName 派生的类型。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if user data derived from the type of the user data specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType<bpt id="p2">*</bpt>&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName<ept id="p2">*</ept>&gt; should be tracked; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果从指定的用户数据的类型派生的用户数据&lt;&gt; <bpt id="p2">*</bpt>1&gt; 或&lt;&gt; <ept id="p2">*</ept>1&gt; 跟踪; 否则为应为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

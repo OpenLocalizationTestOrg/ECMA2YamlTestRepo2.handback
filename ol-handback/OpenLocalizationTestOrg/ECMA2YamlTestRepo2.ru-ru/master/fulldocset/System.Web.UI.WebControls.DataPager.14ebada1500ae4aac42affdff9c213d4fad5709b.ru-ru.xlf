@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">768f76cb20c96d395c33036ef4c12478c14fb108</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.DataPager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f19b1e8653f9e4ec2652d162d811f0e3fccd170</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee0d1d0217897223e6c41104637bfd8cb38fab27</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides paging functionality for data-bound controls that implement the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.IPageableItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface, such as the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ListView"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Предоставляет функциональные возможности для разбиения на страницы для элементов управления с привязкой к данным, реализующих <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.IPageableItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> интерфейса, такие как <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.ListView"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Pager Fields<ept id="p2">](#pager_fields)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Page Properties<ept id="p3">](#page_properties)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Accessibility<ept id="p4">](#Accessibility)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Declarative Syntax<ept id="p5">](#DeclarativeSyntax)</ept>      <bpt id="p6">&lt;a name="introduction"&gt;</bpt><ept id="p6">&lt;/a&gt;</ept>    ## Introduction    The DataPager class is used to page data and to display navigation controls for data-bound controls that implement the &lt;xref:System.Web.UI.WebControls.IPageableItemContainer&gt; interface.</source>
+          <target state="translated">В этом разделе:- <bpt id="p1">[</bpt>Введение<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>поля страничного навигатора<ept id="p2">](#pager_fields)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>свойства страницы<ept id="p3">](#page_properties)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>специальных возможностей<ept id="p4">](#Accessibility)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>декларативный синтаксис<ept id="p5">](#DeclarativeSyntax)</ept> <bpt id="p6">&lt;a name="introduction"&gt;</bpt> <ept id="p6">&lt;/a&gt;</ept> ## введение DataPager класс используется для разбиения на страницы данных и отображения элементов управления навигацией для привязки к данным элементы управления, реализующие &lt;xref:System.Web.UI.WebControls.IPageableItemContainer&gt;интерфейса.&lt;/xref:System.Web.UI.WebControls.IPageableItemContainer&gt;      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(An example of a control that implements the interface is the &lt;xref:System.Web.UI.WebControls.ListView&gt; control.)       You can associate the DataPager control with the data-bound control by using the &lt;xref:System.Web.UI.WebControls.DataPager.PagedControlID%2A&gt; property.</source>
+          <target state="translated">(Является примером элемента управления, который реализует интерфейс &lt;xref:System.Web.UI.WebControls.ListView&gt;элемента управления.)&lt;/xref:System.Web.UI.WebControls.ListView&gt;       Элемент контроля DataPager можно связать с элементом управления с привязкой к данным с помощью &lt;xref:System.Web.UI.WebControls.DataPager.PagedControlID%2A&gt;свойство.&lt;/xref:System.Web.UI.WebControls.DataPager.PagedControlID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can put the DataPager control inside the data-bound control hierarchy.</source>
+          <target state="translated">Кроме того можно поместить элемент контроля DataPager внутри иерархии элементов управления с привязкой к данным.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the &lt;xref:System.Web.UI.WebControls.ListView&gt; control, you can put the DataPager control inside the &lt;xref:System.Web.UI.WebControls.ListView.LayoutTemplate%2A?displayProperty=fullName&gt; template.</source>
+          <target state="translated">Например, в &lt;xref:System.Web.UI.WebControls.ListView&gt;элемента управления, можно поместить в элемент контроля DataPager &lt;xref:System.Web.UI.WebControls.ListView.LayoutTemplate%2A?displayProperty=fullName&gt;шаблона.&lt;/xref:System.Web.UI.WebControls.ListView.LayoutTemplate%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.ListView&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can customize the number of items that are displayed for each page of data by changing the &lt;xref:System.Web.UI.WebControls.DataPager.PageSize%2A&gt; property.</source>
+          <target state="translated">Можно настроить количество элементов, отображаемых для каждой страницы данных, изменив &lt;xref:System.Web.UI.WebControls.DataPager.PageSize%2A&gt;свойство.&lt;/xref:System.Web.UI.WebControls.DataPager.PageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also change the way a page is submitted to the server by setting the &lt;xref:System.Web.UI.WebControls.DataPager.QueryStringField%2A&gt; property.</source>
+          <target state="translated">Можно также изменить способ отправки страницы на сервер, установив &lt;xref:System.Web.UI.WebControls.DataPager.QueryStringField%2A&gt;свойство.&lt;/xref:System.Web.UI.WebControls.DataPager.QueryStringField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="pager_fields"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Pager Fields    In order for the DataPager control to display navigation controls, you must add pager fields to the control.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="pager_fields"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## Пейджер поля в порядке DataPager элемента управления для отображения элементов управления навигацией необходимо добавить поля страничного навигатора для элемента управления.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The pager fields derive from the &lt;xref:System.Web.UI.WebControls.DataPagerField&gt; class.</source>
+          <target state="translated">Поля страничного навигатора, являются производными от &lt;xref:System.Web.UI.WebControls.DataPagerField&gt;класса.&lt;/xref:System.Web.UI.WebControls.DataPagerField&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists the pager field types that you can use.</source>
+          <target state="translated">В следующей таблице перечислены типы полей страничного навигатора, которые можно использовать.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Pager field type|Description|   |----------------------|-----------------|   |&lt;xref:System.Web.UI.WebControls.NextPreviousPagerField&gt;|Enables users to navigate through pages one page at a time, or to jump to the first or last page.|   |&lt;xref:System.Web.UI.WebControls.NumericPagerField&gt;|Enables users to select a page by page number.|   |&lt;xref:System.Web.UI.WebControls.TemplatePagerField&gt;|Enables you to create a custom paging UI.|       To declaratively add pager fields to the DataPager control, add a <ph id="ph1">`Fields`</ph> element to the DataPager control.</source>
+          <target state="translated">| Тип поля страничного навигатора | Описание |   |----------------------|-----------------|   | &lt;xref:System.Web.UI.WebControls.NextPreviousPagerField&gt;| Позволяет пользователям перемещаться по одной странице страниц за раз или переходить к первой или последней странице. |   | &lt;xref:System.Web.UI.WebControls.NumericPagerField&gt;| Позволяет пользователям выбрать страницу по номеру. |   | &lt;xref:System.Web.UI.WebControls.TemplatePagerField&gt;| Можно создать пользовательское разбиение по страницам пользовательского интерфейса. |       Чтобы декларативно добавить элемент контроля DataPager поля страничного навигатора, добавьте <ph id="ph1">`Fields`</ph> элемент контроля DataPager.&lt;/xref:System.Web.UI.WebControls.TemplatePagerField&gt; &lt;/xref:System.Web.UI.WebControls.NumericPagerField&gt; &lt;/xref:System.Web.UI.WebControls.NextPreviousPagerField&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then add the pager fields to the <ph id="ph1">`Fields`</ph> element.</source>
+          <target state="translated">Затем можно добавить поля страничного навигатора <ph id="ph1">`Fields`</ph> элемента.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The pager fields are added to the &lt;xref:System.Web.UI.WebControls.DataPager.Fields%2A&gt; collection in the order that they appear in the <ph id="ph1">`Fields`</ph> element.</source>
+          <target state="translated">Добавляются поля страничного навигатора &lt;xref:System.Web.UI.WebControls.DataPager.Fields%2A&gt;коллекцию в том порядке, в котором они появляются в <ph id="ph1">`Fields`</ph> элемент.&lt;/xref:System.Web.UI.WebControls.DataPager.Fields%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.DataPager.Fields%2A&gt; collection enables you to programmatically manage the pager fields in the DataPager control.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.DataPager.Fields%2A&gt;Коллекции дает возможность программно управлять полями страничного навигатора в элементе управления DataPager.&lt;/xref:System.Web.UI.WebControls.DataPager.Fields%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="page_properties"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Page Properties    The following table lists read-only properties of the DataPager control that specify characteristics of the page of data.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="page_properties"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## Свойства страницы следующей таблице перечислены свойства только для чтения элемента управления DataPager, указывающем на страницу данных.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These properties are usually used for binding expressions in the &lt;xref:System.Web.UI.WebControls.TemplatePagerField&gt; object.</source>
+          <target state="translated">Эти свойства обычно используются для привязки выражений в &lt;xref:System.Web.UI.WebControls.TemplatePagerField&gt;объекта.&lt;/xref:System.Web.UI.WebControls.TemplatePagerField&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Description|   |--------------|-----------------|   |&lt;xref:System.Web.UI.WebControls.DataPager.MaximumRows%2A&gt;|The maximum number of records that are displayed for each page of data.|   |&lt;xref:System.Web.UI.WebControls.DataPager.StartRowIndex%2A&gt;|The index of the first record that is displayed on a page of data.|   |&lt;xref:System.Web.UI.WebControls.DataPager.TotalRowCount%2A&gt;|The total number of records that are available in the underlying data source.|      <bpt id="p1">&lt;a name="Accessibility"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Accessibility    The default markup that is rendered default for this control might not comply with accessibility standards, such as the Web Content Accessibility Guidelines 1.0 (WCAG) priority 1 guidelines.</source>
+          <target state="translated">| Свойство | Описание |   |--------------|-----------------|   | &lt;xref:System.Web.UI.WebControls.DataPager.MaximumRows%2A&gt;| Максимальное число записей, отображаемых для каждой страницы данных. |   | &lt;xref:System.Web.UI.WebControls.DataPager.StartRowIndex%2A&gt;| Индекс первой записи, которая отображается на странице данных. |   | &lt;xref:System.Web.UI.WebControls.DataPager.TotalRowCount%2A&gt;| Общее количество записей, доступных в источнике данных. |      <bpt id="p1">&lt;a name="Accessibility"&gt;</bpt> <ept id="p1">&lt;/a&gt;</ept> ## Специальных возможностей разметки по умолчанию, который подготавливается к просмотру по умолчанию для этого элемента управления может не соответствовать стандартам специальных возможностей, таким как веб-содержимого 1.0 (WCAG) с приоритетом 1.&lt;/xref:System.Web.UI.WebControls.DataPager.TotalRowCount%2A&gt; &lt;/xref:System.Web.UI.WebControls.DataPager.StartRowIndex%2A&gt; &lt;/xref:System.Web.UI.WebControls.DataPager.MaximumRows%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details about accessibility support for this control, see <bpt id="p1">[</bpt>ASP.NET Controls and Accessibility<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения о поддержке специальных возможностей для этого элемента управления см. в разделе <bpt id="p1">[</bpt>элементов управления ASP.NET и специальные возможности<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="DeclarativeSyntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:DataPager       EnableTheming="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       PagedControlID="string"       PageSize="integer"       runat="server"       SkinID="string"       Visible="True|False"   &gt;           &lt;Fields&gt;               &lt;asp:NextPreviousPagerField                   ButtonCssClass="string"                   ButtonType="Button|Image|Link"                   FirstPageImageUrl="string"                   FirstPageText="string"                   LastPageImageUrl="string"                   LastPageText="string"                   NextPageImageUrl="string"                   NextPageText="string"                   PreviousPageImageUrl="string"                   PreviousPageText="string"                   RenderDisabledButtonsAsLabels="True|False"                   RenderNonBreakingSpacesBetweenControls="True|False"                   ShowFirstPageButton="True|False"                   ShowLastPageButton="True|False"                   ShowNextPageButton="True|False"                   ShowPreviousPageButton="True|False"                   Visible="True|False"               /&gt;               &lt;asp:NumericPagerField                   ButtonCount="integer"                   ButtonType="Button|Image|Link"                   CurrentPageLabelCssClass="string"                   NextPageImageUrl="string"                   NextPageText="string"                   NextPreviousButtonCssClass="string"                   NumericButtonCssClass="string"                 PreviousPageImageUrl="string"                   PreviousPageText="string"                   RenderNonBreakingSpacesBetweenControls="True|False"                   Visible="True|False"               /&gt;               &lt;asp:TemplatePagerField                   OnPagerCommand="PagerCommand event handler"                   Visible="True|False"               /&gt;           &lt;/Fields&gt;   &lt;/asp:DataPager&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="DeclarativeSyntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## Декларативного синтаксиса<ph id="ph1">```   &lt;asp:DataPager       EnableTheming="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       PagedControlID="string"       PageSize="integer"       runat="server"       SkinID="string"       Visible="True|False"   &gt;           &lt;Fields&gt;               &lt;asp:NextPreviousPagerField                   ButtonCssClass="string"                   ButtonType="Button|Image|Link"                   FirstPageImageUrl="string"                   FirstPageText="string"                   LastPageImageUrl="string"                   LastPageText="string"                   NextPageImageUrl="string"                   NextPageText="string"                   PreviousPageImageUrl="string"                   PreviousPageText="string"                   RenderDisabledButtonsAsLabels="True|False"                   RenderNonBreakingSpacesBetweenControls="True|False"                   ShowFirstPageButton="True|False"                   ShowLastPageButton="True|False"                   ShowNextPageButton="True|False"                   ShowPreviousPageButton="True|False"                   Visible="True|False"               /&gt;               &lt;asp:NumericPagerField                   ButtonCount="integer"                   ButtonType="Button|Image|Link"                   CurrentPageLabelCssClass="string"                   NextPageImageUrl="string"                   NextPageText="string"                   NextPreviousButtonCssClass="string"                   NumericButtonCssClass="string"                 PreviousPageImageUrl="string"                   PreviousPageText="string"                   RenderNonBreakingSpacesBetweenControls="True|False"                   Visible="True|False"               /&gt;               &lt;asp:TemplatePagerField                   OnPagerCommand="PagerCommand event handler"                   Visible="True|False"               /&gt;           &lt;/Fields&gt;   &lt;/asp:DataPager&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To dynamically add a &lt;xref:System.Web.UI.WebControls.DataPager&gt; control to a page, create a new &lt;xref:System.Web.UI.WebControls.DataPager&gt; object.</source>
+          <target state="translated">Для динамического добавления &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления на страницу, создайте новый &lt;xref:System.Web.UI.WebControls.DataPager&gt;объекта.&lt;/xref:System.Web.UI.WebControls.DataPager&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set its properties, and then add it to the &lt;xref:System.Web.UI.Control.Controls%2A&gt; collection of a container control, such as a &lt;xref:System.Web.UI.WebControls.PlaceHolder&gt; control.</source>
+          <target state="translated">Задайте его свойства, а затем добавить его в &lt;xref:System.Web.UI.Control.Controls%2A&gt;коллекцию контейнера элемента управления, такого как &lt;xref:System.Web.UI.WebControls.PlaceHolder&gt;управления.&lt;/xref:System.Web.UI.WebControls.PlaceHolder&gt; &lt;/xref:System.Web.UI.Control.Controls%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Adds HTML attributes and styles to be rendered in the browser to the specified <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Добавляет атрибуты и стили для отображения в браузере в указанный HTML <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddAttributesToRender method is primarily used by control developers to insert additional attributes and styles in the &lt;xref:System.Web.UI.HtmlTextWriter&gt; output stream for a &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Метод AddAttributesToRender в основном используется разработчиками элементов управления для вставки дополнительных атрибутов и стилей в &lt;xref:System.Web.UI.HtmlTextWriter&gt;выходной поток для &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt; &lt;/xref:System.Web.UI.HtmlTextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An object that represents the output stream to render HTML content to the browser.</source>
+          <target state="translated">Объект, представляющий выходной поток для отрисовки HTML-содержимого в браузер.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets a collection of custom attribute name/value pairs for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Возвращает коллекцию пар имя значение настраиваемого атрибута для <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Attributes collection to manage the attribute name/value pairs that are declared in the opening tag of the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control, but that are not directly supported by the class.</source>
+          <target state="translated">Использовать коллекцию атрибутов для управления пары имя/значение атрибута, которые объявлены в открывающем теге элемента &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления, но которые напрямую не поддерживаются класса.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can programmatically add or remove attributes to the collection.</source>
+          <target state="translated">Можно программным способом добавить или удалить атрибуты в коллекцию.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A collection of custom attribute name/value pairs.</source>
+          <target state="translated">Коллекция пар имя значение настраиваемого атрибута.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Connects events to event handler methods in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Подключается к методы обработки событий в события <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConnectToEvents method specifies the &lt;xref:System.Web.UI.WebControls.DataPager.OnTotalRowCountAvailable%2A&gt; method as the handler for the &lt;xref:System.Web.UI.WebControls.IPageableItemContainer.TotalRowCountAvailable?displayProperty=fullName&gt; event of the control specified in <ph id="ph1">`container`</ph>.</source>
+          <target state="translated">Указывает метод ConnectToEvents &lt;xref:System.Web.UI.WebControls.DataPager.OnTotalRowCountAvailable%2A&gt;метод в качестве обработчика для &lt;xref:System.Web.UI.WebControls.IPageableItemContainer.TotalRowCountAvailable?displayProperty=fullName&gt;события элемента управления, указанный в <ph id="ph1">`container`</ph>.&lt;/xref:System.Web.UI.WebControls.IPageableItemContainer.TotalRowCountAvailable?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.DataPager.OnTotalRowCountAvailable%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`container`</ph> parameter must contain a data-bound control that implements the &lt;xref:System.Web.UI.WebControls.IPageableItemContainer&gt; interface, such as a &lt;xref:System.Web.UI.WebControls.ListView&gt; control.</source>
+          <target state="translated"><ph id="ph1">`container`</ph> Параметр должен содержать элемент управления с привязкой к данным, реализующий &lt;xref:System.Web.UI.WebControls.IPageableItemContainer&gt;интерфейса, такие как &lt;xref:System.Web.UI.WebControls.ListView&gt;управления.&lt;/xref:System.Web.UI.WebControls.ListView&gt; &lt;/xref:System.Web.UI.WebControls.IPageableItemContainer&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is primarily used by control developers to extend the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек этот метод используется преимущественно разработчиками элементов управления для расширения &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The data-bound control that raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.IPageableItemContainer.TotalRowCountAvailable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Элемент управления с привязкой к данным, вызывает <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.IPageableItemContainer.TotalRowCountAvailable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;container&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;container&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the child controls for the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control in the UI hierarchy.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий дочерние элементы управления для <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> элемента управления в иерархии пользовательского интерфейса.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add controls to the collection, remove controls from the collection, or iterate through the server controls in the collection.</source>
+          <target state="translated">Добавление элементов управления в коллекции, удалить из коллекции элементов управления или итерации серверных элементов управления в коллекции.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The collection of child controls for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Коллекция дочерних элементов управления для <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Creates the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPagerField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that are contained by the &lt;xref:System.Web.UI.WebControls.DataPager.Fields*&gt; property of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Создает <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPagerField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объектов, содержащихся в &lt;xref:System.Web.UI.WebControls.DataPager.Fields*&gt;свойство <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> управления.&lt;/xref:System.Web.UI.WebControls.DataPager.Fields*&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreatePagerFields method is used by the &lt;xref:System.Web.UI.WebControls.DataPager.PageSize%2A&gt; property and by the &lt;xref:System.Web.UI.WebControls.DataPager.OnTotalRowCountAvailable%2A&gt; method to create the &lt;xref:System.Web.UI.WebControls.DataPagerField&gt; objects that are contained by the &lt;xref:System.Web.UI.WebControls.DataPager.Fields%2A&gt; property.</source>
+          <target state="translated">Метод CreatePagerFields используется &lt;xref:System.Web.UI.WebControls.DataPager.PageSize%2A&gt;свойство и &lt;xref:System.Web.UI.WebControls.DataPager.OnTotalRowCountAvailable%2A&gt;метод для создания &lt;xref:System.Web.UI.WebControls.DataPagerField&gt;объектов, содержащихся в &lt;xref:System.Web.UI.WebControls.DataPager.Fields%2A&gt;свойство.&lt;/xref:System.Web.UI.WebControls.DataPager.Fields%2A&gt; &lt;/xref:System.Web.UI.WebControls.DataPagerField&gt; &lt;/xref:System.Web.UI.WebControls.DataPager.OnTotalRowCountAvailable%2A&gt; &lt;/xref:System.Web.UI.WebControls.DataPager.PageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method calls the &lt;xref:System.Web.UI.WebControls.DataPagerField.CreateDataPagers%2A?displayProperty=fullName&gt; method to create the user interface (UI) controls for each field in the collection.</source>
+          <target state="translated">Этот метод вызывает метод &lt;xref:System.Web.UI.WebControls.DataPagerField.CreateDataPagers%2A?displayProperty=fullName&gt;метод для создания пользователя элементов управления пользовательского интерфейса для каждого поля в коллекции.&lt;/xref:System.Web.UI.WebControls.DataPagerField.CreateDataPagers%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The pager fields are created in the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control in the order that the pager fields appear in the &lt;xref:System.Web.UI.WebControls.DataPager.Fields%2A&gt; collection.</source>
+          <target state="translated">Поля страничного навигатора, создаются в &lt;xref:System.Web.UI.WebControls.DataPager&gt;элемента управления в порядке, в котором отображаются поля страничного навигатора в &lt;xref:System.Web.UI.WebControls.DataPager.Fields%2A&gt;коллекции.&lt;/xref:System.Web.UI.WebControls.DataPager.Fields%2A&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the pager field classes that derive from the &lt;xref:System.Web.UI.WebControls.DataPagerField&gt; class and that can be created in the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">В следующей таблице показаны страничного навигатора поле классы, производные от &lt;xref:System.Web.UI.WebControls.DataPagerField&gt;класса и может быть создано в &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt; &lt;/xref:System.Web.UI.WebControls.DataPagerField&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Pager field type|Description|   |----------------------|-----------------|   |&lt;xref:System.Web.UI.WebControls.NextPreviousPagerField&gt;|Enables users to navigate through pages of data one page at a time, or to jump to the first or last page of data.|   |&lt;xref:System.Web.UI.WebControls.NumericPagerField&gt;|Enables users to select a page of data by page number.|   |&lt;xref:System.Web.UI.WebControls.TemplatePagerField&gt;|Enables you to create a custom paging UI.|</source>
+          <target state="translated">| Тип поля страничного навигатора | Описание |   |----------------------|-----------------|   | &lt;xref:System.Web.UI.WebControls.NextPreviousPagerField&gt;| Позволяет пользователям перемещаться по страницам данных на одну страницу за раз или переходить к первой или последней странице данных. |   | &lt;xref:System.Web.UI.WebControls.NumericPagerField&gt;| Позволяет пользователям выбрать страницу данных по номеру страницы. |   | &lt;xref:System.Web.UI.WebControls.TemplatePagerField&gt;| Можно создать пользовательское разбиение по страницам пользовательского интерфейса. |&lt;/xref:System.Web.UI.WebControls.TemplatePagerField&gt; &lt;/xref:System.Web.UI.WebControls.NumericPagerField&gt; &lt;/xref:System.Web.UI.WebControls.NextPreviousPagerField&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Binds the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control and all its child controls to a data source.</source>
+          <target state="translated">Привязывает <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления и всех его дочерних элементов управления к источнику данных.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation of the DataBind method overrides the base class implementation.</source>
+          <target state="translated">Эта реализация метода DataBind переопределяет реализацию базового класса.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The overridden method verifies that all child controls have been created before binding them to a data source.</source>
+          <target state="translated">Переопределенный метод проверяет, что все дочерние элементы управления были созданы до их привязки к источнику данных.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPagerField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that represent the pager fields that are specified in a <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Возвращает коллекцию <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPagerField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекты, представляющие поля страничного навигатора, которые указаны в <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The pager fields are displayed in the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control in the order that the pager fields appear in the Fields collection.</source>
+          <target state="translated">Поля страничного навигатора, отображаются в &lt;xref:System.Web.UI.WebControls.DataPager&gt;элемента управления в порядке, в котором отображаются поля страничного навигатора в коллекции полей.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the pager field classes that derive from the &lt;xref:System.Web.UI.WebControls.DataPagerField&gt; class and that can be used in the Fields collection.</source>
+          <target state="translated">В следующей таблице показаны страничного навигатора поле классы, производные от &lt;xref:System.Web.UI.WebControls.DataPagerField&gt;класса и может использоваться в коллекции полей.&lt;/xref:System.Web.UI.WebControls.DataPagerField&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Pager field type|Description|   |----------------------|-----------------|   |&lt;xref:System.Web.UI.WebControls.NextPreviousPagerField&gt;|Enables users to navigate through pages of data one page at a time, or to jump to the first or last page of data.|   |&lt;xref:System.Web.UI.WebControls.NumericPagerField&gt;|Enables users to select a page of data by page number.|   |&lt;xref:System.Web.UI.WebControls.TemplatePagerField&gt;|Enables you to create a custom paging UI.|       To declaratively specify the pager fields for a &lt;xref:System.Web.UI.WebControls.DataPager&gt; control, put a <ph id="ph1">`Fields`</ph> element inside the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">| Тип поля страничного навигатора | Описание |   |----------------------|-----------------|   | &lt;xref:System.Web.UI.WebControls.NextPreviousPagerField&gt;| Позволяет пользователям перемещаться по страницам данных на одну страницу за раз или переходить к первой или последней странице данных. |   | &lt;xref:System.Web.UI.WebControls.NumericPagerField&gt;| Позволяет пользователям выбрать страницу данных по номеру страницы. |   | &lt;xref:System.Web.UI.WebControls.TemplatePagerField&gt;| Можно создать пользовательское разбиение по страницам пользовательского интерфейса. |       Для декларативного указания полей страничного навигатора для &lt;xref:System.Web.UI.WebControls.DataPager&gt;контроля, поместите <ph id="ph1">`Fields`</ph> внутри &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt; &lt;/xref:System.Web.UI.WebControls.TemplatePagerField&gt; &lt;/xref:System.Web.UI.WebControls.NumericPagerField&gt; &lt;/xref:System.Web.UI.WebControls.NextPreviousPagerField&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then list the pager fields you want to include between the opening and closing <ph id="ph1">`&lt;Fields&gt;`</ph> tags.</source>
+          <target state="translated">После этого можно перечислить поля страничного навигатора, необходимо включить между открывающим и закрывающим <ph id="ph1">`&lt;Fields&gt;`</ph> тегов.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can programmatically add pager fields to the Fields collection.</source>
+          <target state="translated">Можно программно добавить поля страничного навигатора для коллекции полей.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, it is easier to list the pager fields declaratively in the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Однако проще список полей страничного навигатора, декларативно в &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A collection object that contains all the pager fields that are specified in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Объект коллекции, содержащий все поля страничного навигатора, которые указаны в <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Retrieves the data-bound control that is associated with the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Возвращает элемент управления с привязкой к данным, связанный с <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data-bound control retrieved by this method references a data source object that contains the data that the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control pages.</source>
+          <target state="translated">Элемент управления с привязкой к данным, получены с помощью данного метода ссылается на объект источника данных, который содержит данные, &lt;xref:System.Web.UI.WebControls.DataPager&gt;управлять страницами.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control to be able to page this data, the data-bound control must implement the &lt;xref:System.Web.UI.WebControls.IPageableItemContainer&gt; interface.</source>
+          <target state="translated">Для &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления для этого данные страницы, элемент управления с привязкой к данным необходимо реализовать &lt;xref:System.Web.UI.WebControls.IPageableItemContainer&gt;интерфейса.&lt;/xref:System.Web.UI.WebControls.IPageableItemContainer&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindPageableItemContainer method checks whether the &lt;xref:System.Web.UI.WebControls.DataPager.PagedControlID%2A&gt; property is set to the ID of a data-bound control.</source>
+          <target state="translated">Метод проверяет FindPageableItemContainer ли &lt;xref:System.Web.UI.WebControls.DataPager.PagedControlID%2A&gt;присваивается идентификатор элемента управления с привязкой к данным.&lt;/xref:System.Web.UI.WebControls.DataPager.PagedControlID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.WebControls.DataPager.PagedControlID%2A&gt; property is not set, the FindPageableItemContainer method goes up the stack of naming containers to look for a data-bound control.</source>
+          <target state="translated">Если &lt;xref:System.Web.UI.WebControls.DataPager.PagedControlID%2A&gt;свойство не задано, метод FindPageableItemContainer выполняется переход вверх по стеку именования контейнеров для поиска элемента управления с привязкой к данным.&lt;/xref:System.Web.UI.WebControls.DataPager.PagedControlID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control is inside the &lt;xref:System.Web.UI.WebControls.ListView.LayoutTemplate%2A?displayProperty=fullName&gt; template of a &lt;xref:System.Web.UI.WebControls.ListView&gt; control, the &lt;xref:System.Web.UI.WebControls.DataPager.PagedControlID%2A&gt; property does not have to be set.</source>
+          <target state="translated">Например если &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления находится внутри &lt;xref:System.Web.UI.WebControls.ListView.LayoutTemplate%2A?displayProperty=fullName&gt;шаблон &lt;xref:System.Web.UI.WebControls.ListView&gt;элемента управления, &lt;xref:System.Web.UI.WebControls.DataPager.PagedControlID%2A&gt;свойство не требуется задать.&lt;/xref:System.Web.UI.WebControls.DataPager.PagedControlID%2A&gt; &lt;/xref:System.Web.UI.WebControls.ListView&gt; &lt;/xref:System.Web.UI.WebControls.ListView.LayoutTemplate%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because the FindPageableItemContainer method can automatically find the &lt;xref:System.Web.UI.WebControls.ListView&gt; control by examining the control tree.</source>
+          <target state="translated">Это, поскольку метод FindPageableItemContainer смогут автоматически находить &lt;xref:System.Web.UI.WebControls.ListView&gt;управления путем проверки в дерево управления.&lt;/xref:System.Web.UI.WebControls.ListView&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The data-bound control that is associated with the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Элемент управления с привязкой к данным, связанные с <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A control that implements the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.IPageableItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface was not found on the page.</source>
+          <target state="translated">Элемент управления, реализующий <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.IPageableItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> интерфейс не найден на странице.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-or-       The control specified by the &lt;xref:System.Web.UI.WebControls.DataPager.PagedControlID*&gt; property does not implement the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.IPageableItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">- или - управления, указанный в &lt;xref:System.Web.UI.WebControls.DataPager.PagedControlID*&gt;не реализует свойство <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.IPageableItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> интерфейса.&lt;/xref:System.Web.UI.WebControls.DataPager.PagedControlID*&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control does not have a naming container.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления не имеет контейнера именования.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Loads the state information for the properties in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control that must be persisted between postbacks, even when the &lt;xref:System.Web.UI.Control.EnableViewState*&gt; property is set to <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Загружает сведения о состоянии для свойств в <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления, который должен быть сохранен между обратными передачами данных, даже если &lt;xref:System.Web.UI.Control.EnableViewState*&gt;свойству <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Web.UI.Control.EnableViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by control developers to extend the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Этот метод используется преимущественно разработчиками элементов управления для расширения &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An object that represents the state of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Объект, представляющий состояние <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>There is no data-bound control associated with the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Элемент управления с привязкой к данным отсутствует связанный с <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Restores view-state information for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control that was saved by the &lt;xref:System.Web.UI.WebControls.DataPager.SaveViewState*&gt; method during a previous page request.</source>
+          <target state="translated">Восстанавливает сведения о состоянии представления для <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления, которые были сохранены в &lt;xref:System.Web.UI.WebControls.DataPager.SaveViewState*&gt;метод во время предыдущего запроса страницы.&lt;/xref:System.Web.UI.WebControls.DataPager.SaveViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">Этот метод в основном используется <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> инфраструктуру и не предназначен для использования непосредственно из программного кода.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, control developers can override this method to specify how a custom server control restores its view state.</source>
+          <target state="translated">Однако разработчики элементов управления можно переопределить этот метод, чтобы задать способ восстановления состояния представления в серверного элемента управления.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET State Management Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>управлении<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An object that represents the state to be restored.</source>
+          <target state="translated">Объект, представляющий восстанавливаемое состояние.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets the maximum number of records that are displayed for each page of data.</source>
+          <target state="translated">Возвращает максимальное число записей, которые отображаются для каждой страницы данных.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the MaximumRows property to retrieve the size of a page of data.</source>
+          <target state="translated">Свойство MaximumRows используется для получения размера страницы данных.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MaximumRows property contains the same value as the &lt;xref:System.Web.UI.WebControls.DataPager.PageSize%2A&gt;property.</source>
+          <target state="translated">Свойство MaximumRows содержит то же значение, что &lt;xref:System.Web.UI.WebControls.DataPager.PageSize%2A&gt;свойство.&lt;/xref:System.Web.UI.WebControls.DataPager.PageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can change the value of this property by setting the &lt;xref:System.Web.UI.WebControls.DataPager.PageSize%2A&gt; property.</source>
+          <target state="translated">Значение этого свойства можно изменить, задав &lt;xref:System.Web.UI.WebControls.DataPager.PageSize%2A&gt;свойство.&lt;/xref:System.Web.UI.WebControls.DataPager.PageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The maximum number of records that are displayed for each page of data.</source>
+          <target state="translated">Максимальное число записей, отображаемых для каждой страницы данных.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Determines whether an event for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is passed up the page's user interface (UI) server control hierarchy</source>
+          <target state="translated">Определяет, является ли это событие для <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления передается вверх по иерархии серверных элементов управления страницы пользовательского интерфейса (UI)</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The source of the event.</source>
+          <target state="translated">Источник события.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The event data.</source>
+          <target state="translated">Данные события.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the event has been sent to the parent control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если событие было отправлено в родительском элементе управления; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When notified by this method, Web server controls must perform any initialization steps that are required in order to create and set up an instance.</source>
+          <target state="translated">При получении уведомления с помощью данного метода веб-сервера управления необходимо выполнить инициализацию, необходимых для создания и настройки экземпляра.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this stage of the server control's life cycle, the control's view state has not yet been populated.</source>
+          <target state="translated">На этом этапе жизненного цикла серверного элемента управления состояние представления элемента управления имеет еще не заполнены.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Additionally, you cannot access other server controls when this method is called, regardless of whether it is a child or parent to this control.</source>
+          <target state="translated">Кроме того другие серверные элементы управления недоступны при вызове этого метода, даже если он является потомком или родителем для данного элемента управления.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other server controls are not guaranteed to be created and ready for access.</source>
+          <target state="translated">Другие серверные элементы управления не обязательно будет создана и готова для доступа.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>NIB: при возникновении события<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnInit method also enables derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnInit также позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The event data.</source>
+          <target state="translated">Данные события.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Load"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Web.UI.Control.Load"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnLoad method notifies the server control that it should perform actions that are common to each HTTP request for the page that it is associated with.</source>
+          <target state="translated">Метод OnLoad уведомляет серверный элемент управления, который он должен выполнить действия, которые являются общими для каждого HTTP-запроса страницы, связанной с ними.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At this stage in the page life cycle, server controls in the hierarchy are created and initialized.</source>
+          <target state="translated">На этом этапе жизненного цикла страницы серверные элементы управления в иерархии создаются и инициализируются.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>View state is restored, and form controls reflect values that were posted from the client.</source>
+          <target state="translated">Восстанавливается состояние представления и элементы управления форм отображают значения, полученные от клиента.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation also invokes the &lt;xref:System.Web.UI.WebControls.DataPager.FindPageableItemContainer%2A&gt; method to find the container control that implements the &lt;xref:System.Web.UI.WebControls.IPageableItemContainer&gt; interface, and it initializes the page properties.</source>
+          <target state="translated">Эта реализация также вызывает &lt;xref:System.Web.UI.WebControls.DataPager.FindPageableItemContainer%2A&gt;способ поиска контейнерный элемент управления, реализующий &lt;xref:System.Web.UI.WebControls.IPageableItemContainer&gt;интерфейс, который инициализирует свойства страницы.&lt;/xref:System.Web.UI.WebControls.IPageableItemContainer&gt; &lt;/xref:System.Web.UI.WebControls.DataPager.FindPageableItemContainer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>NIB: при возникновении события<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnLoad method also enables derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnLoad также позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The event data.</source>
+          <target state="translated">Данные события.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A container control that implements the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.IPageableItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface was not found.</source>
+          <target state="translated">Контейнерный элемент управления, который реализует <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.IPageableItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> интерфейс не найден.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Handles the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.IPageableItemContainer.TotalRowCountAvailable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Обрабатывает <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.IPageableItemContainer.TotalRowCountAvailable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.ListView&gt; control raises the &lt;xref:System.Web.UI.WebControls.IPageableItemContainer.TotalRowCountAvailable?displayProperty=fullName&gt; event when the total number of records in its underlying data source is available.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.ListView&gt;Управления вызывает &lt;xref:System.Web.UI.WebControls.IPageableItemContainer.TotalRowCountAvailable?displayProperty=fullName&gt;событие, когда общее число записей в источнике данных доступен.&lt;/xref:System.Web.UI.WebControls.IPageableItemContainer.TotalRowCountAvailable?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.ListView&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnTotalRowCountAvailable method is a handler for this event and is responsible for updating the page-related properties and recreating the pager field objects.</source>
+          <target state="translated">Метод OnTotalRowCountAvailable обработчика этого события и отвечает за обновление свойств страницы и повторного создания объектов полей страничного навигатора.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The source of the event.</source>
+          <target state="translated">Источник события.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The event data.</source>
+          <target state="translated">Данные события.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Gets or sets the &lt;xref:System.Web.UI.Control.ID*&gt; of the control that contains the data that will be paged by the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Возвращает или задает &lt;xref:System.Web.UI.Control.ID*&gt;элемента управления, содержащий данные, будут передавать сообщения по <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.&lt;/xref:System.Web.UI.Control.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the PagedControlID property to specify the &lt;xref:System.Web.UI.Control.ID%2A&gt; of the control that contains the data that will be paged by the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Позволяет указать свойства PagedControlID &lt;xref:System.Web.UI.Control.ID%2A&gt;элемента управления, содержащий данные, будут передавать сообщения по &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt; &lt;/xref:System.Web.UI.Control.ID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The specified control must implement the &lt;xref:System.Web.UI.WebControls.IPageableItemContainer&gt; interface and must use the same naming container as the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Указанный элемент управления должен реализовать &lt;xref:System.Web.UI.WebControls.IPageableItemContainer&gt;интерфейса и необходимо использовать в том же контейнере именования, что &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt; &lt;/xref:System.Web.UI.WebControls.IPageableItemContainer&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a control that you can specify is the &lt;xref:System.Web.UI.WebControls.ListView&gt; control.</source>
+          <target state="translated">Пример элемента управления, можно указать — &lt;xref:System.Web.UI.WebControls.ListView&gt;управления.&lt;/xref:System.Web.UI.WebControls.ListView&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is an empty string or <ph id="ph1">`null`</ph>, the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control checks whether its container control implements the &lt;xref:System.Web.UI.WebControls.IPageableItemContainer&gt; interface.</source>
+          <target state="translated">Если это свойство является пустой строкой или <ph id="ph1">`null`</ph>, &lt;xref:System.Web.UI.WebControls.DataPager&gt;элемент управления проверяет, реализует ли элемент управления контейнера &lt;xref:System.Web.UI.WebControls.IPageableItemContainer&gt;интерфейса.&lt;/xref:System.Web.UI.WebControls.IPageableItemContainer&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the &lt;xref:System.Web.UI.WebControls.ListView&gt; control, the PagedControlID property does not have to be set if you put the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control inside the &lt;xref:System.Web.UI.WebControls.ListView.LayoutTemplate%2A?displayProperty=fullName&gt; template.</source>
+          <target state="translated">Например, в &lt;xref:System.Web.UI.WebControls.ListView&gt;элементом управления, свойства PagedControlID не должно устанавливаться, если поместить &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления внутри &lt;xref:System.Web.UI.WebControls.ListView.LayoutTemplate%2A?displayProperty=fullName&gt;шаблона.&lt;/xref:System.Web.UI.WebControls.ListView.LayoutTemplate%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt; &lt;/xref:System.Web.UI.WebControls.ListView&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control can automatically find the &lt;xref:System.Web.UI.WebControls.ListView&gt; control by examining the control tree.</source>
+          <target state="translated">Это вызвано &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления смогут автоматически находить &lt;xref:System.Web.UI.WebControls.ListView&gt;управления путем проверки в дерево управления.&lt;/xref:System.Web.UI.WebControls.ListView&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property is stored in view state.</source>
+          <target state="translated">Значение этого свойства хранится в состоянии представления.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.Control.ID*&gt; of the control that contains the data that will be paged by the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Control.ID*&gt;Элемента управления, который содержит данные, будут передавать сообщения по <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.&lt;/xref:System.Web.UI.Control.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The default is an empty string, which indicates that this property is not set.</source>
+          <target state="translated">Значение по умолчанию — пустая строка, которая указывает, что это свойство не задано.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of records that are displayed for each page of data.</source>
+          <target state="translated">Возвращает или задает число записей, отображаемых для каждой страницы данных.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the PageSize property to specify the size of a page of data.</source>
+          <target state="translated">Свойство PageSize для указания размера страницы данных.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you have multiple &lt;xref:System.Web.UI.WebControls.DataPager&gt; controls in a page that are bound to the same &lt;xref:System.Web.UI.WebControls.ListView&gt; control, be sure to set the PageSize property of these controls to the same value.</source>
+          <target state="translated">Если имеется несколько &lt;xref:System.Web.UI.WebControls.DataPager&gt;элементов управления на странице, привязанных к одному &lt;xref:System.Web.UI.WebControls.ListView&gt;управления, убедитесь, что значение свойства PageSize этих элементов управления и то же значение.&lt;/xref:System.Web.UI.WebControls.ListView&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.WebControls.DataPager&gt; controls are set to use different page sizes, the last &lt;xref:System.Web.UI.WebControls.DataPager&gt; control to be initialized determines the actual page size of the &lt;xref:System.Web.UI.WebControls.ListView&gt; control.</source>
+          <target state="translated">Если &lt;xref:System.Web.UI.WebControls.DataPager&gt;элементы управления настроены для использования другой страницы размеры, последний &lt;xref:System.Web.UI.WebControls.DataPager&gt;инициализировать элемент управления определяет фактический размер &lt;xref:System.Web.UI.WebControls.ListView&gt;управления.&lt;/xref:System.Web.UI.WebControls.ListView&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The number of records that are displayed for each page of data.</source>
+          <target state="translated">Количество записей, которые отображаются для каждой страницы данных.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The default is 10.</source>
+          <target state="translated">Значение по умолчанию — 10.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The PageSize property is set to a value less than 1.</source>
+          <target state="translated">Свойства PageSize задано значение меньше 1.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the query string field.</source>
+          <target state="translated">Возвращает или задает имя поля строки запроса.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the QueryStringField property to specify that the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control uses an HTTP GET command to navigate through the pages.</source>
+          <target state="translated">Указывает, что свойство QueryStringField &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления использует команду HTTP GET для перехода по страницам.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In GET requests, a query string field that consists of a name/value pair is added to the URL of the page.</source>
+          <target state="translated">В GET-запросах URL-адрес страницы добавляется поля строки запроса, который состоит из пары имя значение.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name is set by using the QueryStringField property.</source>
+          <target state="translated">Имя задается с помощью свойства QueryStringField.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value is the corresponding page number.</source>
+          <target state="translated">Значение — соответствующий номер страницы.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If QueryStringField is an empty string or <ph id="ph1">`null`</ph>, the control uses an HTTP POST command to navigate through the pages.</source>
+          <target state="translated">Если QueryStringField является пустой строкой или <ph id="ph1">`null`</ph>, элемент управления использует команду HTTP POST для перехода по страницам.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property is useful if you want to have all the pages of data indexed by a search engine.</source>
+          <target state="translated">Задание этого свойства полезно в том случае, если вы хотите все страницы данных проиндексирован поисковой системы.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This occurs because the control produces a different URL for each page of data.</source>
+          <target state="translated">Это происходит, поскольку элемент управления создает другой URL-адрес для каждой страницы данных.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the QueryStringField property, the following conditions might apply:      -   You have more than one &lt;xref:System.Web.UI.WebControls.DataPager&gt; control in a page and they reference the same data-bound control.</source>
+          <target state="translated">Свойству QueryStringField может применяются следующие условия:-иметь несколько &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления в страницу и они ссылка же привязкой к данным.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, make sure that the QueryStringField property of these &lt;xref:System.Web.UI.WebControls.DataPager&gt; controls is set to the same value.</source>
+          <target state="translated">В этом случае убедитесь, что свойство QueryStringField из этих &lt;xref:System.Web.UI.WebControls.DataPager&gt;элементов управления присвоено то же значение.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   You have more than one &lt;xref:System.Web.UI.WebControls.DataPager&gt; control in a page and they reference different data-bound controls.</source>
+          <target state="translated">-У вас есть несколько &lt;xref:System.Web.UI.WebControls.DataPager&gt;элемента управления в страницу и они ссылку различных элементов управления с привязкой к данным.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, make sure that the QueryStringField property of these &lt;xref:System.Web.UI.WebControls.DataPager&gt; controls is set to different values.</source>
+          <target state="translated">В этом случае убедитесь, что свойство QueryStringField из этих &lt;xref:System.Web.UI.WebControls.DataPager&gt;элементов управления устанавливается на разные значения.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you set the &lt;xref:System.Web.UI.WebControls.DataPager&gt; controls to the same value, the associated data-bound controls will be paginated at the same time, because they will use the same query-string field.</source>
+          <target state="translated">Если задать &lt;xref:System.Web.UI.WebControls.DataPager&gt;элементы управления то же значение, связанные элементы управления с привязкой к данным будет разбиваться на страницы в то же время, так как они будут использовать одинаковые поля строки запроса.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not follow the previous guidelines, unexpected paging behavior can occur.</source>
+          <target state="translated">Если не следовать предыдущей инструкции может возникнуть непредвиденное поведение разбиения на страницы.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, no exception will be thrown by the control.</source>
+          <target state="translated">Однако исключение не будет создано с помощью элемента управления.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If QueryStringField property is not an empty string or <ph id="ph1">`null`</ph>, the value of the &lt;xref:System.Web.UI.WebControls.NextPreviousPagerField.ButtonType%2A&gt; property of &lt;xref:System.Web.UI.WebControls.NumericPagerField&gt; or &lt;xref:System.Web.UI.WebControls.NextPreviousPagerField&gt; objects is ignored.</source>
+          <target state="translated">Если свойство QueryStringField не является пустой строкой или <ph id="ph1">`null`</ph>, значение &lt;xref:System.Web.UI.WebControls.NextPreviousPagerField.ButtonType%2A&gt;Свойства &lt;xref:System.Web.UI.WebControls.NumericPagerField&gt;или &lt;xref:System.Web.UI.WebControls.NextPreviousPagerField&gt;объектов учитывается.&lt;/xref:System.Web.UI.WebControls.NextPreviousPagerField&gt; &lt;/xref:System.Web.UI.WebControls.NumericPagerField&gt; &lt;/xref:System.Web.UI.WebControls.NextPreviousPagerField.ButtonType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, these objects use the &lt;xref:System.Web.UI.WebControls.HyperLink&gt; control to create their navigation buttons.</source>
+          <target state="translated">В этом случае эти объекты используют &lt;xref:System.Web.UI.WebControls.HyperLink&gt;управления для создания их кнопок навигации.&lt;/xref:System.Web.UI.WebControls.HyperLink&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The name of the query string field.</source>
+          <target state="translated">Имя поля строки запроса.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The default is an empty string, which indicates that the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control will use a HTTP POST command to navigate through the pages.</source>
+          <target state="translated">Значение по умолчанию — пустая строка, который указывает, что <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления будет использовать команду HTTP POST для перехода по страницам.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Creates child controls of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control at design time.</source>
+          <target state="translated">Создает дочерние элементы управления <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления во время разработки.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RecreateChildControls method is the implementation of the &lt;xref:System.Web.UI.WebControls.DataPager.System%23Web%23UI%23WebControls%23ICompositeControlDesignerAccessor%23RecreateChildControls%2A&gt; interface method.</source>
+          <target state="translated">Метод RecreateChildControls — это реализация &lt;xref:System.Web.UI.WebControls.DataPager.System%23Web%23UI%23WebControls%23ICompositeControlDesignerAccessor%23RecreateChildControls%2A&gt;метод интерфейса.&lt;/xref:System.Web.UI.WebControls.DataPager.System%23Web%23UI%23WebControls%23ICompositeControlDesignerAccessor%23RecreateChildControls%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is primarily used by control developers to extend the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек этот метод используется преимущественно разработчиками элементов управления для расширения &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Sends the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control content to the specified <bpt id="p2">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object, which writes the content to be rendered to the browser.</source>
+          <target state="translated">Отправляет <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержимое указанного элемента управления <bpt id="p2">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> объекту, который записывает содержимое для отображения в браузере.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Render method writes the content of the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control and its child controls to the browser by using the specified &lt;xref:System.Web.UI.HtmlTextWriter&gt; object.</source>
+          <target state="translated">Метод Render записывает содержимое &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления и его дочерние элементы в браузере, используя указанный &lt;xref:System.Web.UI.HtmlTextWriter&gt;объекта.&lt;/xref:System.Web.UI.HtmlTextWriter&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is primarily used by control developers to extend the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек этот метод используется преимущественно разработчиками элементов управления для расширения &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The object that receives the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control content.</source>
+          <target state="translated">Объект, получающий <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержимого элемента управления.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Renders the HTML opening tag of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control to the specified writer.</source>
+          <target state="translated">Отображает HTML-код, открывающий тег элемента <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления в указанное средство записи.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by control developers to extend the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Этот метод используется преимущественно разработчиками элементов управления для расширения &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>An object that represents the output stream to render HTML content to the browser.</source>
+          <target state="translated">Объект, представляющий выходной поток для отрисовки HTML-содержимого в браузер.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Renders the contents of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control to the specified writer.</source>
+          <target state="translated">Подготовка содержимого <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления в указанное средство записи.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RenderContents method calls the &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; method to render its contents.</source>
+          <target state="translated">Вызовы метода RenderContents &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;метод для отображения ее содержимого.&lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is primarily used by control developers to extend the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек этот метод используется преимущественно разработчиками элементов управления для расширения &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>An object that represents the output stream to render HTML content to the browser.</source>
+          <target state="translated">Объект, представляющий выходной поток для отрисовки HTML-содержимого в браузер.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Saves the state of the properties in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control that must be persisted between postbacks, even when the &lt;xref:System.Web.UI.Control.EnableViewState*&gt; property is set to <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Сохраняет состояние свойств в <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления, который должен быть сохранен между обратными передачами данных, даже если &lt;xref:System.Web.UI.Control.EnableViewState*&gt;свойству <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Web.UI.Control.EnableViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is primarily used by control developers to extend the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Этот метод используется преимущественно разработчиками элементов управления для расширения &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Returns the current view state of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Возвращает текущее состояние представления объекта <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>If there is no view state associated with the control, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Если ни одно состояние представления, связанные с элементом управления, этот метод возвращает <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Saves any changes to an <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's view-state that have occurred since the time the page was posted back to the server.</source>
+          <target state="translated">Сохраняет любые изменения <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> состояние представления элемента управления, произошедшие с момента страница была отправлена на сервер.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>View state is the accumulation of the values of a server control's properties.</source>
+          <target state="translated">Состояние представления — это совокупность значений свойств элемента управления.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These values are automatically put in the server control's &lt;xref:System.Web.UI.Control.ViewState%2A&gt; property, which is an instance of the &lt;xref:System.Web.UI.StateBag&gt; class.</source>
+          <target state="translated">Эти значения автоматически помещаются в серверный элемент управления &lt;xref:System.Web.UI.Control.ViewState%2A&gt;Свойства, которое является экземпляром &lt;xref:System.Web.UI.StateBag&gt;класса.&lt;/xref:System.Web.UI.StateBag&gt; &lt;/xref:System.Web.UI.Control.ViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property's value is then persisted to a string object after the save-state stage of the server control life cycle.</source>
+          <target state="translated">Значение этого свойства сохраняется в строковый объект после сохранения состояния этапа жизненного цикла серверного элемента управления.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET State Management Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>управлении<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When view state is saved, this string object is sent to the browser as a variable that is stored in a hidden element in the page.</source>
+          <target state="translated">При сохранении состояния представления, объект-строка отправляется браузеру как переменную, которая хранится в скрытом элементе на странице.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create custom server controls, you can improve efficiency by overriding this method and modifying the server control's <ph id="ph1">`ViewState`</ph> property.</source>
+          <target state="translated">При создании пользовательских серверных элементов управления, можно повысить производительность следует переопределить этот метод и изменить серверного элемента управления <ph id="ph1">`ViewState`</ph> свойство.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET State Management Overview<ept id="p1">](../Topic/ASP.NET%20State%20Management%20Overview.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>управлении<ept id="p1">](../Topic/ASP.NET%20State%20Management%20Overview.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is primarily used by control developers to extend the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек этот метод используется преимущественно разработчиками элементов управления для расширения &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's current view state.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> текущее состояние представления элемента управления.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>If there is no view state associated with the control, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Если ни одно состояние представления, связанные с элементом управления, этот метод возвращает <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Sets the page-related properties in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Задает свойства страницы <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetPageProperties method sets new values for the &lt;xref:System.Web.UI.WebControls.DataPager.StartRowIndex%2A&gt; and &lt;xref:System.Web.UI.WebControls.DataPager.MaximumRows%2A&gt; properties.</source>
+          <target state="translated">Метод SetPageProperties устанавливает новые значения для &lt;xref:System.Web.UI.WebControls.DataPager.StartRowIndex%2A&gt;и &lt;xref:System.Web.UI.WebControls.DataPager.MaximumRows%2A&gt;Свойства.&lt;/xref:System.Web.UI.WebControls.DataPager.MaximumRows%2A&gt; &lt;/xref:System.Web.UI.WebControls.DataPager.StartRowIndex%2A&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also invokes the &lt;xref:System.Web.UI.WebControls.IPageableItemContainer.SetPageProperties%2A?displayProperty=fullName&gt; method to update the page-related properties in the associated data-bound control.</source>
+          <target state="translated">Он также вызывает &lt;xref:System.Web.UI.WebControls.IPageableItemContainer.SetPageProperties%2A?displayProperty=fullName&gt;метод для обновления страницы свойств связанного элемента управления с привязкой к данным.&lt;/xref:System.Web.UI.WebControls.IPageableItemContainer.SetPageProperties%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The index of the first record on the page of data.</source>
+          <target state="translated">Индекс первой записи на странице данных.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The maximum number of items on a single page of data.</source>
+          <target state="translated">Максимальное количество элементов на одной странице данных.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to rebind the control after the properties are set; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>необходимо повторно привязать элемент управления после установки свойств; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>There is no data-bound control associated with the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Элемент управления с привязкой к данным отсутствует связанный с <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Gets the index of the first record that is displayed on a page of data .</source>
+          <target state="translated">Возвращает индекс первой записи, которая отображается на странице данных.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The index of the first record that is displayed on a page of data.</source>
+          <target state="translated">Индекс первой записи, которая отображается на странице данных.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Retrieves the attribute value with the specified name from the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Возвращает значение атрибута с указанным именем из <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Этот член представляет явную реализацию члена интерфейса.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.DataPager&gt; instance is cast to an &lt;xref:System.Web.UI.IAttributeAccessor&gt; interface.</source>
+          <target state="translated">Он может использоваться только если &lt;xref:System.Web.UI.WebControls.DataPager&gt;экземпляр приводится к &lt;xref:System.Web.UI.IAttributeAccessor&gt;интерфейс.&lt;/xref:System.Web.UI.IAttributeAccessor&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The name of the attribute.</source>
+          <target state="translated">Имя атрибута.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The value of the attribute.</source>
+          <target state="translated">Значение атрибута.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Sets an attribute of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control with the specified name and value.</source>
+          <target state="translated">Задает атрибут <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления с указанным именем и значением.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Этот член представляет явную реализацию члена интерфейса.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Web.UI.WebControls.DataPager&gt; instance is cast to an &lt;xref:System.Web.UI.IAttributeAccessor&gt; interface.</source>
+          <target state="translated">Он может использоваться только если &lt;xref:System.Web.UI.WebControls.DataPager&gt;экземпляр приводится к &lt;xref:System.Web.UI.IAttributeAccessor&gt;интерфейс.&lt;/xref:System.Web.UI.IAttributeAccessor&gt; &lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The name of the attribute to set.</source>
+          <target state="translated">Имя атрибута.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The value of the attribute.</source>
+          <target state="translated">Значение атрибута.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Creates the child controls of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control at design time.</source>
+          <target state="translated">Создает дочерние элементы управления <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления во время разработки.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ICompositeControlDesignerAccessor.RecreateChildControls method enables a designer for the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control to re-create the control's child controls at design time.</source>
+          <target state="translated">Метод ICompositeControlDesignerAccessor.RecreateChildControls позволяет дизайнеру для &lt;xref:System.Web.UI.WebControls.DataPager&gt;элемента управления для повторного создания дочернего элемента управления во время разработки.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ICompositeControlDesignerAccessor.RecreateChildControls interface method invokes the &lt;xref:System.Web.UI.WebControls.DataPager.RecreateChildControls%2A&gt; method, which contains the actual implementation and which can be extended by control developers.</source>
+          <target state="translated">Вызывает метод интерфейса ICompositeControlDesignerAccessor.RecreateChildControls &lt;xref:System.Web.UI.WebControls.DataPager.RecreateChildControls%2A&gt;метод, который содержит фактическую реализацию и которого могут быть расширены разработчиками элементов управления.&lt;/xref:System.Web.UI.WebControls.DataPager.RecreateChildControls%2A&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Gets the HTML element that is used to render the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Возвращает HTML-элемент, который используется для отрисовки <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TagKey property returns an HTML element that is used by the &lt;xref:System.Web.UI.WebControls.DataPager.RenderBeginTag%2A&gt; method to write the appropriate markup for the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Свойство тега Возвращает HTML-элемент, используемый &lt;xref:System.Web.UI.WebControls.DataPager.RenderBeginTag%2A&gt;метод для записи соответствующую разметку для &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt; &lt;/xref:System.Web.UI.WebControls.DataPager.RenderBeginTag%2A&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property overrides the base implementation to always return &lt;xref:System.Web.UI.HtmlTextWriterTag?displayProperty=fullName&gt;.</source>
+          <target state="translated">Это свойство переопределяет базовую реализацию, чтобы он всегда возвращал &lt;xref:System.Web.UI.HtmlTextWriterTag?displayProperty=fullName&gt;.&lt;/xref:System.Web.UI.HtmlTextWriterTag?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This property is primarily used by control developers to extend the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек это свойство используется преимущественно разработчиками элементов управления для расширения &lt;xref:System.Web.UI.WebControls.DataPager&gt;управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriterTag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriterTag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Gets the total number of records that are retrieved by the underlying data source object that is referenced by the associated data-bound control.</source>
+          <target state="translated">Возвращает общее количество записей, извлекаемых в базовом объекте источника данных, на который ссылается связанного элемента управления с привязкой к данным.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The total number of records that are retrieved by the underlying data source object.</source>
+          <target state="translated">Общее количество записей, извлекаемых в базовом объекте источника данных.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Tracks view-state changes to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control so that they can be stored in the control's <bpt id="p2">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Отслеживает изменения состояния представления для <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataPager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> управления, чтобы они могут храниться в элементе управления <bpt id="p2">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>This object can be accessed through the &lt;xref:System.Web.UI.Control.ViewState*&gt; property.</source>
+          <target state="translated">Этот объект может осуществляться через &lt;xref:System.Web.UI.Control.ViewState*&gt;свойство.&lt;/xref:System.Web.UI.Control.ViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TrackViewState method is called automatically at the end of the &lt;xref:System.Web.UI.Control.Init&gt; event in the &lt;xref:System.Web.UI.WebControls.DataPager&gt; control's life cycle.</source>
+          <target state="translated">Метод TrackViewState вызывается автоматически в конце &lt;xref:System.Web.UI.Control.Init&gt;события в &lt;xref:System.Web.UI.WebControls.DataPager&gt;жизненного цикла.&lt;/xref:System.Web.UI.WebControls.DataPager&gt; &lt;/xref:System.Web.UI.Control.Init&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method alerts ASP.NET to monitor changes to the &lt;xref:System.Web.UI.WebControls.DataPager&gt; server control's view state.</source>
+          <target state="translated">Этот метод оповещает ASP.NET, чтобы отслеживать изменения в &lt;xref:System.Web.UI.WebControls.DataPager&gt;состояния представления серверного элемента управления.&lt;/xref:System.Web.UI.WebControls.DataPager&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

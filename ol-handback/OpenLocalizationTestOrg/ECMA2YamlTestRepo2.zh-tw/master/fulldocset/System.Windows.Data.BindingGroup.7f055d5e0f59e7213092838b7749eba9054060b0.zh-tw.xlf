@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f19dbcb99699f66af9c5b5a72bf5b073afd67923</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Data.BindingGroup.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c593bcf283211be7ddcca3a449ac3587a32cd29</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa51b80e68eeef8b6fca7b34384b4c461cbdae09</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Contains a collection of bindings and <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that are used to validate an object.</source>
+          <target state="translated">包含繫結的集合和<bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>用來驗證物件的物件。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A BindingGroup creates a relationship between multiple bindings, which can be validated and updated together.</source>
+          <target state="translated">某個 BindingGroup 建立多個繫結，會進行驗證並一起更新之間的關聯性。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For example, suppose that an application prompts the user to enter an address.</source>
+          <target state="translated">例如，假設應用程式會提示使用者輸入的位址。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The application then populates an object of type <ph id="ph1">`Address`</ph>, which has the properties, <ph id="ph2">`Street`</ph>, <ph id="ph3">`City`</ph>, <ph id="ph4">`ZipCode`</ph>, and <ph id="ph5">`Country`</ph>, with the values that the user provided.</source>
+          <target state="translated">應用程式接著會填入型別的物件<ph id="ph1">`Address`</ph>，其中包含屬性， <ph id="ph2">`Street`</ph>， <ph id="ph3">`City`</ph>， <ph id="ph4">`ZipCode`</ph>，和<ph id="ph5">`Country`</ph>，與使用者提供的值。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The application has a panel that contains four &lt;xref:System.Windows.Controls.TextBox&gt; controls, each of which is data bound to one of the object’s properties.</source>
+          <target state="translated">應用程式必須包含四個面板&lt;xref:System.Windows.Controls.TextBox&gt;控制項，其中每一個都是資料繫結至其中一個物件的屬性。&lt;/xref:System.Windows.Controls.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can use a &lt;xref:System.Windows.Controls.ValidationRule&gt; in a BindingGroup to validate the <ph id="ph1">`Address`</ph> object.</source>
+          <target state="translated">您可以使用&lt;xref:System.Windows.Controls.ValidationRule&gt;中驗證某個 BindingGroup<ph id="ph1">`Address`</ph>物件。&lt;/xref:System.Windows.Controls.ValidationRule&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If the bindings participate in the same BindingGroup, you can ensure that the zip-code is valid for the country of the address.</source>
+          <target state="translated">如果繫結參與相同的 BindingGroup，您可以確保，郵遞區號就是有效的地址的國家/地區。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You set the &lt;xref:System.Windows.FrameworkElement.BindingGroup%2A&gt; property on &lt;xref:System.Windows.FrameworkElement&gt; or &lt;xref:System.Windows.FrameworkContentElement&gt;.</source>
+          <target state="translated">設定&lt;xref:System.Windows.FrameworkElement.BindingGroup%2A&gt;&lt;xref:System.Windows.FrameworkElement&gt;或&lt;xref:System.Windows.FrameworkContentElement&gt;.&lt;/xref:System.Windows.FrameworkContentElement&gt;&lt;/xref:System.Windows.FrameworkElement&gt;上屬性&lt;/xref:System.Windows.FrameworkElement.BindingGroup%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Child elements inherit the BindingGroup from their parent elements, just as with any other inheritable property.</source>
+          <target state="translated">子項目會 BindingGroup 繼承其父項目，如同任何其他可繼承的屬性。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A binding on a descendent element is added to a BindingGroup if one of the following situations occurs:      -   The binding's source and the &lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt; of the element that has the BindingGroup are the same object and the &lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt; property is not set.</source>
+          <target state="translated">子系的項目上的繫結會新增至某個 BindingGroup，如果發生下列情況之一:-繫結的來源和&lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt;具有 BindingGroup 的項目是相同的物件和&lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt;屬性未設定。&lt;/xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt; &lt;/xref:System.Windows.FrameworkElement.DataContext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt; property of the binding is equal to the &lt;xref:System.Windows.Data.BindingGroup.Name%2A&gt; of the &lt;xref:System.Windows.FrameworkContentElement.BindingGroup%2A&gt; and they are not explicitly set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">-&lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt;繫結屬性等於&lt;xref:System.Windows.Data.BindingGroup.Name%2A&gt;的&lt;xref:System.Windows.FrameworkContentElement.BindingGroup%2A&gt;和未明確設定<ph id="ph1">`null`</ph>。&lt;/xref:System.Windows.FrameworkContentElement.BindingGroup%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup.Name%2A&gt; &lt;/xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the example of the address, suppose that the &lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt; of the &lt;xref:System.Windows.Controls.Panel&gt; is set to the object of type <ph id="ph1">`Address`</ph>.</source>
+          <target state="translated">在位址的範例中，假設&lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt;的&lt;xref:System.Windows.Controls.Panel&gt;設定類型的物件為<ph id="ph1">`Address`</ph>。&lt;/xref:System.Windows.Controls.Panel&gt; &lt;/xref:System.Windows.FrameworkElement.DataContext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The binding for each &lt;xref:System.Windows.Controls.TextBox&gt; is added to the BindingGroup of the panel.</source>
+          <target state="translated">每個繫結&lt;xref:System.Windows.Controls.TextBox&gt;加入至面板的 BindingGroup。&lt;/xref:System.Windows.Controls.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You add &lt;xref:System.Windows.Controls.ValidationRule&gt; objects to a BindingGroup.</source>
+          <target state="translated">您將加入&lt;xref:System.Windows.Controls.ValidationRule&gt;物件以某個 BindingGroup。&lt;/xref:System.Windows.Controls.ValidationRule&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The BindingGroup is passed as the first parameter of the &lt;xref:System.Windows.Controls.ValidationRule.Validate%2A&gt; method when the &lt;xref:System.Windows.Controls.ValidationRule&gt; runs.</source>
+          <target state="translated">當做第一個參數傳遞的 BindingGroup&lt;xref:System.Windows.Controls.ValidationRule.Validate%2A&gt;方法時&lt;xref:System.Windows.Controls.ValidationRule&gt;執行。&lt;/xref:System.Windows.Controls.ValidationRule&gt; &lt;/xref:System.Windows.Controls.ValidationRule.Validate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Windows.Data.BindingGroup.TryGetValue%2A&gt; or &lt;xref:System.Windows.Data.BindingGroup.GetValue%28System.Object%2CSystem.String%29&gt; method on that BindingGroup to get the proposed values of the object, and the &lt;xref:System.Windows.Data.BindingGroup.Items%2A&gt; property to get the sources of the bindings.</source>
+          <target state="translated">您可以使用&lt;xref:System.Windows.Data.BindingGroup.TryGetValue%2A&gt;或&lt;xref:System.Windows.Data.BindingGroup.GetValue%28System.Object%2CSystem.String%29&gt;方法以取得建議的值的物件，該 BindingGroup 和&lt;xref:System.Windows.Data.BindingGroup.Items%2A&gt;屬性來取得繫結來源。&lt;/xref:System.Windows.Data.BindingGroup.Items%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup.GetValue%28System.Object%2CSystem.String%29&gt; &lt;/xref:System.Windows.Data.BindingGroup.TryGetValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A BindingGroup updates the sources of the binding at the same time instead of each binding being updated separately.</source>
+          <target state="translated">某個 BindingGroup 更新在相同的時間，而不是個別更新每個繫結的繫結來源。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When you call one of the methods to validate the data (&lt;xref:System.Windows.Data.BindingGroup.ValidateWithoutUpdate%2A&gt;, &lt;xref:System.Windows.Data.BindingGroup.UpdateSources%2A&gt;, or &lt;xref:System.Windows.Data.BindingGroup.CommitEdit%2A&gt;), the binding for each &lt;xref:System.Windows.Controls.TextBox&gt; in the example is validated and potentially updated.</source>
+          <target state="translated">當您呼叫其中一個方法來驗證資料 (&lt;xref:System.Windows.Data.BindingGroup.ValidateWithoutUpdate%2A&gt;， &lt;xref:System.Windows.Data.BindingGroup.UpdateSources%2A&gt;，或&lt;xref:System.Windows.Data.BindingGroup.CommitEdit%2A&gt;)，每個繫結&lt;xref:System.Windows.Controls.TextBox&gt;中則是驗證，而且可能更新。&lt;/xref:System.Windows.Controls.TextBox&gt; &lt;/xref:System.Windows.Data.BindingGroup.CommitEdit%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup.UpdateSources%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup.ValidateWithoutUpdate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When a binding is part of a BindingGroup, the source of the binding is not updated until you call &lt;xref:System.Windows.Data.BindingGroup.UpdateSources%2A&gt; or &lt;xref:System.Windows.Data.BindingGroup.CommitEdit%2A&gt; on the BindingGroup, unless you explicitly set the &lt;xref:System.Windows.Data.Binding.UpdateSourceTrigger%2A&gt; property.</source>
+          <target state="translated">屬於某個 BindingGroup 繫結時，繫結來源不會更新直到您呼叫&lt;xref:System.Windows.Data.BindingGroup.UpdateSources%2A&gt;或&lt;xref:System.Windows.Data.BindingGroup.CommitEdit%2A&gt;上 BindingGroup，除非您明確設定&lt;xref:System.Windows.Data.Binding.UpdateSourceTrigger%2A&gt;屬性。&lt;/xref:System.Windows.Data.Binding.UpdateSourceTrigger%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup.CommitEdit%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup.UpdateSources%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Begins an edit transaction on the sources in the <bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">編輯上開始交易中的來源<bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the sources in the &lt;xref:System.Windows.Data.BindingGroup&gt; support discarding pending changes, you can call BeginEdit to begin the edit transaction, call &lt;xref:System.Windows.Data.BindingGroup.CommitEdit%2A&gt; to save the pending changes, call &lt;xref:System.Windows.Data.BindingGroup.CancelEdit%2A&gt; to discard the pending changes.</source>
+          <target state="translated">如果在來源&lt;xref:System.Windows.Data.BindingGroup&gt;支援並捨棄暫止的變更，您可以呼叫 BeginEdit 開始編輯異動，呼叫&lt;xref:System.Windows.Data.BindingGroup.CommitEdit%2A&gt;來儲存暫止的變更，請呼叫&lt;xref:System.Windows.Data.BindingGroup.CancelEdit%2A&gt;捨棄暫止的變更。&lt;/xref:System.Windows.Data.BindingGroup.CancelEdit%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup.CommitEdit%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For each object in &lt;xref:System.Windows.Data.BindingGroup.Items%2A&gt; that implements &lt;xref:System.ComponentModel.IEditableObject&gt;, BeginEdit calls &lt;xref:System.ComponentModel.IEditableObject.BeginEdit%2A?displayProperty=fullName&gt;</source>
+          <target state="translated">中每個物件&lt;xref:System.Windows.Data.BindingGroup.Items%2A&gt;實作&lt;xref:System.ComponentModel.IEditableObject&gt;，BeginEdit 呼叫&lt;xref:System.ComponentModel.IEditableObject.BeginEdit%2A?displayProperty=fullName&gt;&lt;/xref:System.ComponentModel.IEditableObject.BeginEdit%2A?displayProperty=fullName&gt;&lt;/xref:System.ComponentModel.IEditableObject&gt;&lt;/xref:System.Windows.Data.BindingGroup.Items%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Windows.Data.BindingExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that contains information for each Binding in the <bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得集合的<bpt id="p1">&lt;xref href="System.Windows.Data.BindingExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，其中包含每個繫結中的資訊<bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Windows.Data.BindingExpression&gt; belongs to a &lt;xref:System.Windows.Data.BindingGroup&gt; if one of the following cases occurs:      -   The binding's source and the &lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt; of the element that has the &lt;xref:System.Windows.Data.BindingGroup&gt; are the same object and the &lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt; is not set.</source>
+          <target state="translated">A&lt;xref:System.Windows.Data.BindingExpression&gt;屬於&lt;xref:System.Windows.Data.BindingGroup&gt;如果發生下列情況之一:-繫結的來源和&lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt;有的項目&lt;xref:System.Windows.Data.BindingGroup&gt;是相同的物件和&lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt;未設定。&lt;/xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup&gt; &lt;/xref:System.Windows.FrameworkElement.DataContext%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup&gt; &lt;/xref:System.Windows.Data.BindingExpression&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt; property of the binding and the &lt;xref:System.Windows.Data.BindingGroup.Name%2A&gt; of the &lt;xref:System.Windows.Data.BindingGroup&gt; are set to the same non-null value and the &lt;xref:System.Windows.Data.BindingGroup&gt; belongs to a parent element of the binding's target element.</source>
+          <target state="translated">-&lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt;繫結屬性和&lt;xref:System.Windows.Data.BindingGroup.Name%2A&gt;的&lt;xref:System.Windows.Data.BindingGroup&gt;設定為相同的非 null 值和&lt;xref:System.Windows.Data.BindingGroup&gt;所屬之父項目的繫結的目標項目。&lt;/xref:System.Windows.Data.BindingGroup&gt; &lt;/xref:System.Windows.Data.BindingGroup&gt; &lt;/xref:System.Windows.Data.BindingGroup.Name%2A&gt; &lt;/xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-   You add a &lt;xref:System.Windows.Data.BindingExpression&gt; to BindingExpressions.</source>
+          <target state="translated">-您將加入&lt;xref:System.Windows.Data.BindingExpression&gt;至 BindingExpressions。&lt;/xref:System.Windows.Data.BindingExpression&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Windows.Data.BindingExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that contains information for each binding in the <bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">集合<bpt id="p1">&lt;xref href="System.Windows.Data.BindingExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，其中包含每個繫結中的資訊<bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Ends the edit transaction and discards the pending changes.</source>
+          <target state="translated">結束編輯異動並捨棄暫止的變更。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This method causes the sources to discard the pending changes, if a source object is capable of doing so and end the edit transaction.</source>
+          <target state="translated">這個方法會導致捨棄暫止的變更，是否能夠執行這項作業的來源物件，並結束編輯異動的來源。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Then the method updates the target properties with the saved source values.</source>
+          <target state="translated">然後方法會使用儲存的來源值更新目標內容。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For each object in &lt;xref:System.Windows.Data.BindingGroup.Items%2A&gt; that implements &lt;xref:System.ComponentModel.IEditableObject&gt;, CancelEdit calls &lt;xref:System.ComponentModel.IEditableObject.CancelEdit%2A?displayProperty=fullName&gt;</source>
+          <target state="translated">中每個物件&lt;xref:System.Windows.Data.BindingGroup.Items%2A&gt;實作&lt;xref:System.ComponentModel.IEditableObject&gt;，CancelEdit 呼叫&lt;xref:System.ComponentModel.IEditableObject.CancelEdit%2A?displayProperty=fullName&gt;&lt;/xref:System.ComponentModel.IEditableObject.CancelEdit%2A?displayProperty=fullName&gt;&lt;/xref:System.ComponentModel.IEditableObject&gt;&lt;/xref:System.Windows.Data.BindingGroup.Items%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets whether each source in the binding can discard pending changes and restore the original values.</source>
+          <target state="translated">取得是否繫結中的每個來源可以捨棄暫止的變更並還原原始值。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A source can discard pending changes if it implements &lt;xref:System.ComponentModel.IEditableObject&gt;.</source>
+          <target state="translated">來源可以捨棄暫止的變更，如果它實作&lt;xref:System.ComponentModel.IEditableObject&gt;.&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if each source in the binding can discard pending changes and restore the original values; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果繫結中的每個來源可以捨棄暫止的變更並還原原始的值;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Runs all the <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects and updates the binding sources if all validation rules succeed.</source>
+          <target state="translated">執行所有<bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，並在成功驗證的所有規則如果更新繫結來源。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If every &lt;xref:System.Windows.Controls.ValidationRule&gt; succeeds, this method causes the sources to commit the pending changes and end the edit transaction, if a source object is capable of doing so.</source>
+          <target state="translated">如果每個&lt;xref:System.Windows.Controls.ValidationRule&gt;成功，這個方法會使認可暫止的變更並結束編輯異動，如果來源的來源物件能夠過程&lt;/xref:System.Windows.Controls.ValidationRule&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For each object in &lt;xref:System.Windows.Data.BindingGroup.Items%2A&gt; that implements &lt;xref:System.ComponentModel.IEditableObject&gt;, CommitEdit calls &lt;xref:System.ComponentModel.IEditableObject.EndEdit%2A?displayProperty=fullName&gt;</source>
+          <target state="translated">中每個物件&lt;xref:System.Windows.Data.BindingGroup.Items%2A&gt;實作&lt;xref:System.ComponentModel.IEditableObject&gt;，CommitEdit 呼叫&lt;xref:System.ComponentModel.IEditableObject.EndEdit%2A?displayProperty=fullName&gt;&lt;/xref:System.ComponentModel.IEditableObject.EndEdit%2A?displayProperty=fullName&gt;&lt;/xref:System.ComponentModel.IEditableObject&gt;&lt;/xref:System.Windows.Data.BindingGroup.Items%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if every <bpt id="p2">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> succeeds and the values are committed to the sources; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果每個<bpt id="p2">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>成功，值為來源認可，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Returns the proposed value for the specified property and item.</source>
+          <target state="translated">傳回指定的屬性和項目的建議的值。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Use this method in the &lt;xref:System.Windows.Controls.ValidationRule.Validate%2A?displayProperty=fullName&gt; method to get the value to be committed to the source.</source>
+          <target state="translated">使用這個方法在&lt;xref:System.Windows.Controls.ValidationRule.Validate%2A?displayProperty=fullName&gt;方法來取得值，才能認可至來源。&lt;/xref:System.Windows.Controls.ValidationRule.Validate%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The type of the return value depends on the stage at which the &lt;xref:System.Windows.Controls.ValidationRule&gt; occurs.</source>
+          <target state="translated">傳回值的類型取決於此時階段&lt;xref:System.Windows.Controls.ValidationRule&gt;，就會發生。&lt;/xref:System.Windows.Controls.ValidationRule&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, if a &lt;xref:System.Windows.Controls.TextBox&gt; is data bound to a property of type integer and the &lt;xref:System.Windows.Controls.ValidationRule&gt; that calls GetValue has its &lt;xref:System.Windows.Controls.ValidationRule.ValidationStep%2A&gt; set to &lt;xref:System.Windows.Controls.ValidationStep&gt;, the method returns a string.</source>
+          <target state="translated">例如，如果&lt;xref:System.Windows.Controls.TextBox&gt;資料繫結至型別整數的屬性和&lt;xref:System.Windows.Controls.ValidationRule&gt;呼叫 GetValue 的其&lt;xref:System.Windows.Controls.ValidationRule.ValidationStep%2A&gt;設&lt;xref:System.Windows.Controls.ValidationStep&gt;，方法會傳回字串。&lt;/xref:System.Windows.Controls.ValidationStep&gt; &lt;/xref:System.Windows.Controls.ValidationRule.ValidationStep%2A&gt; &lt;/xref:System.Windows.Controls.ValidationRule&gt; &lt;/xref:System.Windows.Controls.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Controls.ValidationRule&gt; has its &lt;xref:System.Windows.Controls.ValidationRule.ValidationStep%2A&gt; set to &lt;xref:System.Windows.Controls.ValidationStep&gt;, the method returns whatever type that is returned by the binding's converter.</source>
+          <target state="translated">如果&lt;xref:System.Windows.Controls.ValidationRule&gt;具有其&lt;xref:System.Windows.Controls.ValidationRule.ValidationStep%2A&gt;設&lt;xref:System.Windows.Controls.ValidationStep&gt;，方法會傳回任何繫結的轉換器所傳回的類型。&lt;/xref:System.Windows.Controls.ValidationStep&gt; &lt;/xref:System.Windows.Controls.ValidationRule.ValidationStep%2A&gt; &lt;/xref:System.Windows.Controls.ValidationRule&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In this example, GetValue usually returns an integer.</source>
+          <target state="translated">在此範例中，GetValue 通常會傳回一個整數。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The object that contains the specified property.</source>
+          <target state="translated">包含指定之屬性的物件。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The property whose proposed value to get.</source>
+          <target state="translated">此屬性若要取得其建議的值。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The proposed property value.</source>
+          <target state="translated">建議的屬性值。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>There is not a binding for the specified item and property.</source>
+          <target state="translated">不在指定的項目和屬性的繫結。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The value of the specified property is not available, due to a conversion error or because an earlier validation rule failed.</source>
+          <target state="translated">指定屬性的值不是可用的因為發生轉換錯誤，或先前的驗證規則失敗。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has a failed validation rule.</source>
+          <target state="translated">取得值，指出是否<bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>有失敗的驗證規則。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has a failed validation rule; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>有失敗的驗證規則，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains a proposed value that has not been written to the source.</source>
+          <target state="translated">取得或設定值，指出是否<bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含尚未寫入來源的建議的值。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains a proposed value that has not been written to the source; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>包含建議的值，但尚未寫入至來源，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets the sources that are used by the Binding objects in the <bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得使用中的繫結物件的來源<bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Each object that is used as a source is added into the Items property once, even if the object is used as the source for multiple bindings.</source>
+          <target state="translated">當做來源使用的每個物件已加入項目屬性一次，即使物件當做來源使用的多重繫結。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Often, there is just one item in Items, which is the object that is the &lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt; of the element that uses the &lt;xref:System.Windows.Data.BindingGroup&gt;.</source>
+          <target state="translated">通常，是只在一個項目中的項目，也就是&lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt;使用&lt;xref:System.Windows.Data.BindingGroup&gt;.&lt;/xref:System.Windows.Data.BindingGroup&gt;項目的&lt;/xref:System.Windows.FrameworkElement.DataContext%2A&gt;物件</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It is possible for a &lt;xref:System.Windows.Data.BindingGroup&gt; to have multiple sources, however.</source>
+          <target state="translated">可能會&lt;xref:System.Windows.Data.BindingGroup&gt;有多個來源，不過。&lt;/xref:System.Windows.Data.BindingGroup&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For example, if Binding objects share the same &lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt; but use different source objects, each object that is used as a source is in Items.</source>
+          <target state="translated">例如，如果繫結物件共用相同&lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt;，但使用不同的來源物件，當做來源使用的每個物件中的項目。&lt;/xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>There can also be multiple objects in Items if the path of a Binding resolves to a nested property of the source.</source>
+          <target state="translated">可以也有多個物件中的項目如果繫結路徑解析為巢狀屬性的來源。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For example, suppose a &lt;xref:System.Windows.Controls.TextBox&gt; control's binding is a part of a &lt;xref:System.Windows.Data.BindingGroup&gt; and its &lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt; is a <ph id="ph1">`Customer`</ph> object, which has a property of type <ph id="ph2">`Address`</ph>.</source>
+          <target state="translated">例如，假設&lt;xref:System.Windows.Controls.TextBox&gt;控制項的繫結所屬&lt;xref:System.Windows.Data.BindingGroup&gt;及其&lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt;是<ph id="ph1">`Customer`</ph>，該物件具有型別的屬性<ph id="ph2">`Address`</ph>。&lt;/xref:System.Windows.FrameworkElement.DataContext%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup&gt; &lt;/xref:System.Windows.Controls.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Data.Binding.Path%2A&gt; of the &lt;xref:System.Windows.Data.Binding&gt; is the <ph id="ph1">`Address.ZipCode`</ph> property, the <ph id="ph2">`Address`</ph> is added to the Items property.</source>
+          <target state="translated">如果&lt;xref:System.Windows.Data.Binding.Path%2A&gt;的&lt;xref:System.Windows.Data.Binding&gt;是<ph id="ph1">`Address.ZipCode`</ph>屬性，<ph id="ph2">`Address`</ph>會加入至項目屬性。&lt;/xref:System.Windows.Data.Binding&gt; &lt;/xref:System.Windows.Data.Binding.Path%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The sources that are used by the Binding objects in the <bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">中的繫結物件所使用的來源<bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name that identifies the <bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which can be used to include and exclude Binding objects in the <bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得或設定識別的名稱<bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，可用來包含或排除在繫結物件<bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If Name is <ph id="ph1">`null`</ph>, bindings that have a source that is the same object as the &lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt; of the element that has the &lt;xref:System.Windows.Data.BindingGroup&gt; participate in the &lt;xref:System.Windows.Data.BindingGroup&gt;.</source>
+          <target state="translated">如果名稱是<ph id="ph1">`null`</ph>，是相同的物件為&lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt;具有&lt;xref:System.Windows.Data.BindingGroup&gt;參與&lt;xref:System.Windows.Data.BindingGroup&gt;.&lt;/xref:System.Windows.Data.BindingGroup&gt;&lt;/xref:System.Windows.Data.BindingGroup&gt;的項目之&lt;/xref:System.Windows.FrameworkElement.DataContext%2A&gt;來源的繫結</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can include bindings that have a source that is different from the &lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt; of the parent element that has the &lt;xref:System.Windows.Data.BindingGroup&gt; by setting Name of the &lt;xref:System.Windows.Data.BindingGroup&gt; and the &lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt; property of a binding to the same value.</source>
+          <target state="translated">您可以包含有不同的來源的繫結&lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt;有父項目的&lt;xref:System.Windows.Data.BindingGroup&gt;所設定的名稱&lt;xref:System.Windows.Data.BindingGroup&gt;和&lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt;為相同的值繫結的屬性。&lt;/xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup&gt; &lt;/xref:System.Windows.Data.BindingGroup&gt; &lt;/xref:System.Windows.FrameworkElement.DataContext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can exclude bindings that have the same source as &lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt; of the parent element that has the &lt;xref:System.Windows.Data.BindingGroup&gt; by setting Name of the &lt;xref:System.Windows.Data.BindingGroup&gt; and the &lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt; property of a binding to different values.</source>
+          <target state="translated">您可以排除具有相同的來源繫結&lt;xref:System.Windows.FrameworkElement.DataContext%2A&gt;有父項目的&lt;xref:System.Windows.Data.BindingGroup&gt;所設定的名稱&lt;xref:System.Windows.Data.BindingGroup&gt;和&lt;xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt;繫結至不同的值的屬性。&lt;/xref:System.Windows.Data.BindingBase.BindingGroupName%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup&gt; &lt;/xref:System.Windows.Data.BindingGroup&gt; &lt;/xref:System.Windows.FrameworkElement.DataContext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The name that identifies the <bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">識別的名稱<bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets or sets whether the <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Controls.Validation.Error?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> event occurs when the state of a <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> changes.</source>
+          <target state="translated">取得或設定是否<ph id="ph1">&amp;lt;</ph>xref:System.Windows.Controls.Validation.Error?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>就會發生事件時的狀態<bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>變更。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Controls.Validation.Error?displayProperty=fullName&gt; attached event occurs on the element that has the &lt;xref:System.Windows.Data.BindingGroup&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Controls.Validation.Error?displayProperty=fullName&gt;附加的事件發生在具有&lt;xref:System.Windows.Data.BindingGroup&gt;.&lt;/xref:System.Windows.Data.BindingGroup&gt;的項目上&lt;/xref:System.Windows.Controls.Validation.Error?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Controls.Validation.Error?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> event occurs when the state of a <bpt id="p2">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> changes; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<ph id="ph1">&amp;lt;</ph>xref:System.Windows.Controls.Validation.Error?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>就會發生事件時的狀態<bpt id="p2">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>變更; 否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets the object that this <bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is assigned to.</source>
+          <target state="translated">取得物件，這<bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指派給。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The object that this <bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is assigned to.</source>
+          <target state="translated">物件這個<bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指派給。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> reuses target values that have not been committed to the source.</source>
+          <target state="translated">取得或設定值，指出是否<bpt id="p1">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>重複使用目標有尚未認可至來源的值。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A proposed value is a value that has been changed on the target of a binding, but has not been committed to the source.</source>
+          <target state="translated">建議的值是值已變更，繫結的目標，但尚未認可至來源。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For example, suppose that there is a two-way binding on a &lt;xref:System.Windows.Controls.TextBox&gt; and the &lt;xref:System.Windows.Data.Binding.UpdateSourceTrigger%2A&gt; property is set to &lt;xref:System.Windows.Data.UpdateSourceTrigger&gt;.</source>
+          <target state="translated">例如，假設是雙向繫結上&lt;xref:System.Windows.Controls.TextBox&gt;的&lt;xref:System.Windows.Data.Binding.UpdateSourceTrigger%2A&gt;屬性設定為&lt;xref:System.Windows.Data.UpdateSourceTrigger&gt;.&lt;/xref:System.Windows.Data.UpdateSourceTrigger&gt; &lt;/xref:System.Windows.Data.Binding.UpdateSourceTrigger%2A&gt; &lt;/xref:System.Windows.Controls.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If the user changes the value of the &lt;xref:System.Windows.Controls.TextBox&gt;, the proposed value is the value that is in the &lt;xref:System.Windows.Controls.TextBox&gt; before it is committed to source.</source>
+          <target state="translated">如果使用者變更的值&lt;xref:System.Windows.Controls.TextBox&gt;，建議的值是在值&lt;xref:System.Windows.Controls.TextBox&gt;認可至來源之前。&lt;/xref:System.Windows.Controls.TextBox&gt; &lt;/xref:System.Windows.Controls.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>When SharesProposedValues is <ph id="ph1">`true`</ph>, the &lt;xref:System.Windows.Data.BindingGroup&gt; uses the proposed value when one binding leaves the BindingGroup and another Binding with the same source joins the BindingGroup.</source>
+          <target state="translated">SharesProposedValues 時<ph id="ph1">`true`</ph>、&lt;xref:System.Windows.Data.BindingGroup&gt;一個繫結離開 BindingGroup 和另一個繫結與相同來源聯結 BindingGroup 時，請使用建議的值。&lt;/xref:System.Windows.Data.BindingGroup&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For example, suppose that an application enables a user to edit multiple fields and update the source object by clicking a button.</source>
+          <target state="translated">例如，假設應用程式可讓使用者編輯多個欄位，並按一下按鈕以更新的來源物件。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>When a field is not being edited, the application displays it in a &lt;xref:System.Windows.Controls.TextBlock&gt;.</source>
+          <target state="translated">當欄位不正在編輯時，應用程式就會將它顯示在&lt;xref:System.Windows.Controls.TextBlock&gt;.&lt;/xref:System.Windows.Controls.TextBlock&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When the user begins to edit a field, the application replaces the &lt;xref:System.Windows.Controls.TextBlock&gt; with a &lt;xref:System.Windows.Controls.TextBox&gt;.</source>
+          <target state="translated">當使用者開始編輯欄位，應用程式會取代&lt;xref:System.Windows.Controls.TextBlock&gt;使用&lt;xref:System.Windows.Controls.TextBox&gt;.&lt;/xref:System.Windows.Controls.TextBox&gt; &lt;/xref:System.Windows.Controls.TextBlock&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When the user finishes editing that field, the application replaces the &lt;xref:System.Windows.Controls.TextBox&gt; with a &lt;xref:System.Windows.Controls.TextBlock&gt;.</source>
+          <target state="translated">當使用者完成編輯該欄位時，應用程式會取代&lt;xref:System.Windows.Controls.TextBox&gt;&lt;xref:System.Windows.Controls.TextBlock&gt;.&lt;/xref:System.Windows.Controls.TextBlock&gt;與&lt;/xref:System.Windows.Controls.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Because the source is not updated until the user clicks the button, there must be a way for the &lt;xref:System.Windows.Controls.TextBlock&gt; to display the proposed value.</source>
+          <target state="translated">因為直到使用者按一下按鈕時，就不會更新來源，必須是方法，讓&lt;xref:System.Windows.Controls.TextBlock&gt;顯示建議的值。&lt;/xref:System.Windows.Controls.TextBlock&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>By setting SharesProposedValues to <ph id="ph1">`true`</ph>, the application will display the user's changes to a field even when the source has not been updated.</source>
+          <target state="translated">藉由設定為 SharesProposedValues <ph id="ph1">`true`</ph>，應用程式就會顯示使用者的變更至欄位即使來源尚未更新。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> reuses target values that have not been committed to the source; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>重複使用目標值中有尚未認可至來源，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Attempts to get the proposed value for the specified property and item.</source>
+          <target state="translated">嘗試取得指定的屬性和項目中的建議的值。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>TryGetValue returns <ph id="ph1">`false`</ph> if there is not a binding for the specified item and property or if the value of the specified property is not available, due to a conversion error or because an earlier validation rule failed.</source>
+          <target state="translated">傳回 TryGetValue<ph id="ph1">`false`</ph>如果沒有指定的項目和屬性的繫結或指定屬性的值不是可用的因為發生轉換錯誤，或因為先前的驗證規則失敗。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Use this method in the &lt;xref:System.Windows.Controls.ValidationRule.Validate%2A?displayProperty=fullName&gt; method to get the value to be committed to the source.</source>
+          <target state="translated">使用這個方法在&lt;xref:System.Windows.Controls.ValidationRule.Validate%2A?displayProperty=fullName&gt;方法來取得值，才能認可至來源。&lt;/xref:System.Windows.Controls.ValidationRule.Validate%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The type <ph id="ph1">`value`</ph> depends on the stage at which the &lt;xref:System.Windows.Controls.ValidationRule&gt; occurs.</source>
+          <target state="translated">型別<ph id="ph1">`value`</ph>取決於此時階段&lt;xref:System.Windows.Controls.ValidationRule&gt;，就會發生。&lt;/xref:System.Windows.Controls.ValidationRule&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For example, if a &lt;xref:System.Windows.Controls.TextBox&gt; is data bound to a property of type integer, <ph id="ph1">`value`</ph> is a string if the &lt;xref:System.Windows.Controls.ValidationRule&gt; that calls TryGetValue has its &lt;xref:System.Windows.Controls.ValidationRule.ValidationStep%2A&gt; set to &lt;xref:System.Windows.Controls.ValidationStep&gt;.</source>
+          <target state="translated">例如，如果&lt;xref:System.Windows.Controls.TextBox&gt;資料繫結至型別整數的屬性<ph id="ph1">`value`</ph>是一個字串，如果&lt;xref:System.Windows.Controls.ValidationRule&gt;呼叫 TryGetValue 都有其&lt;xref:System.Windows.Controls.ValidationRule.ValidationStep%2A&gt;設定為&lt;xref:System.Windows.Controls.ValidationStep&gt;.&lt;/xref:System.Windows.Controls.ValidationStep&gt; &lt;/xref:System.Windows.Controls.ValidationRule.ValidationStep%2A&gt; &lt;/xref:System.Windows.Controls.ValidationRule&gt; &lt;/xref:System.Windows.Controls.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Controls.ValidationRule&gt; has its &lt;xref:System.Windows.Controls.ValidationRule.ValidationStep%2A&gt; set to &lt;xref:System.Windows.Controls.ValidationStep&gt;, the type of <ph id="ph1">`value`</ph> is whatever type that is returned by the binding's converter.</source>
+          <target state="translated">如果&lt;xref:System.Windows.Controls.ValidationRule&gt;具有其&lt;xref:System.Windows.Controls.ValidationRule.ValidationStep%2A&gt;設&lt;xref:System.Windows.Controls.ValidationStep&gt;的型別<ph id="ph1">`value`</ph>是任何類型，由繫結的轉換器。&lt;/xref:System.Windows.Controls.ValidationStep&gt; &lt;/xref:System.Windows.Controls.ValidationRule.ValidationStep%2A&gt; &lt;/xref:System.Windows.Controls.ValidationRule&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>In this example, <ph id="ph1">`value`</ph> is usually an integer.</source>
+          <target state="translated">在此範例中，<ph id="ph1">`value`</ph>通常是整數。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The object that contains the specified property.</source>
+          <target state="translated">包含指定之屬性的物件。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The property whose proposed value to get.</source>
+          <target state="translated">此屬性若要取得其建議的值。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an object that represents the proposed property value.</source>
+          <target state="translated">這個方法傳回時，包含表示建議的屬性值的物件。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if value is the proposed value for the specified property; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果值為指定的屬性; 建議的值否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Runs the converter on the binding and the <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that have the &lt;xref:System.Windows.Controls.ValidationRule.ValidationStep*&gt; property set to <bpt id="p2">&lt;xref href="System.Windows.Controls.ValidationStep"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.Windows.Controls.ValidationStep"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref href="System.Windows.Controls.ValidationStep"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> and saves the values of the targets to the source objects if all the validation rules succeed.</source>
+          <target state="translated">繫結上執行轉換器和<bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件&lt;xref:System.Windows.Controls.ValidationRule.ValidationStep*&gt;屬性設定為<bpt id="p2">&lt;xref href="System.Windows.Controls.ValidationStep"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>， <bpt id="p3">&lt;xref href="System.Windows.Controls.ValidationStep"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>，或<bpt id="p4">&lt;xref href="System.Windows.Controls.ValidationStep"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>並將之目標的值儲存到來源物件，如果所有的驗證規則都成功。&lt;/xref:System.Windows.Controls.ValidationRule.ValidationStep*&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This method updates the source if every &lt;xref:System.Windows.Controls.ValidationRule&gt; succeeds, but it does not cause the sources to commit the pending changes and end the edit transaction.</source>
+          <target state="translated">這個方法會更新來源，如果每個&lt;xref:System.Windows.Controls.ValidationRule&gt;成功，但不會造成要認可暫止的變更並結束編輯異動的來源。&lt;/xref:System.Windows.Controls.ValidationRule&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>That is, if the source object implements &lt;xref:System.ComponentModel.IEditableObject&gt;.</source>
+          <target state="translated">也就是說，如果來源物件實作&lt;xref:System.ComponentModel.IEditableObject&gt;.&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Calling this method does not cause &lt;xref:System.ComponentModel.IEditableObject.EndEdit%2A&gt; to be called.</source>
+          <target state="translated">呼叫這個方法不會造成&lt;xref:System.ComponentModel.IEditableObject.EndEdit%2A&gt;呼叫。&lt;/xref:System.ComponentModel.IEditableObject.EndEdit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Data.BindingGroup.CommitEdit%2A&gt; method to have the sources commit the pending changes.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Data.BindingGroup.CommitEdit%2A&gt;方法，讓認可暫止的變更的來源。&lt;/xref:System.Windows.Data.BindingGroup.CommitEdit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if all validation rules succeed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果所有的驗證規則都成功。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to include the <bpt id="p1">&lt;xref href="System.Windows.Controls.NotifyDataErrorValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得或設定值，指出是否要包含<bpt id="p1">&lt;xref href="System.Windows.Controls.NotifyDataErrorValidationRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>When ValidatesOnNotifyDataError is <ph id="ph1">`true`</ph>, the binding checks for and reports errors that are raised by a data source that implements &lt;xref:System.ComponentModel.INotifyDataErrorInfo&gt;.</source>
+          <target state="translated">ValidatesOnNotifyDataError 時<ph id="ph1">`true`</ph>，繫結檢查，並報告的資料來源所實作&lt;xref:System.ComponentModel.INotifyDataErrorInfo&gt;.&lt;/xref:System.ComponentModel.INotifyDataErrorInfo&gt;所引發的錯誤</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include the <bpt id="p2">&lt;xref href="System.Windows.Controls.NotifyDataErrorValidationRule"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要包含<bpt id="p2">&lt;xref href="System.Windows.Controls.NotifyDataErrorValidationRule"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Runs the converter on the binding and the <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that have the &lt;xref:System.Windows.Controls.ValidationRule.ValidationStep*&gt; property set to <bpt id="p2">&lt;xref href="System.Windows.Controls.ValidationStep"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref href="System.Windows.Controls.ValidationStep"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">繫結上執行轉換器和<bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件&lt;xref:System.Windows.Controls.ValidationRule.ValidationStep*&gt;屬性設定為<bpt id="p2">&lt;xref href="System.Windows.Controls.ValidationStep"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>或<bpt id="p3">&lt;xref href="System.Windows.Controls.ValidationStep"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。&lt;/xref:System.Windows.Controls.ValidationRule.ValidationStep*&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The sources are not updated when you call this method.</source>
+          <target state="translated">當您呼叫這個方法時，不會更新來源。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the validation rules succeed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果成功驗證規則。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that caused the <bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to be invalid.</source>
+          <target state="translated">取得集合的<bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件造成<bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>可能無效。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that caused <bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to be invalid.</source>
+          <target state="translated">集合<bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件造成<bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>可能無效。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are no errors.</source>
+          <target state="translated">值是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>是否有任何錯誤。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that validate the source objects in the <bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得集合的<bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>驗證中的來源物件的物件<bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When a &lt;xref:System.Windows.Controls.ValidationRule&gt; is added to a &lt;xref:System.Windows.Data.BindingGroup&gt;, the &lt;xref:System.Windows.Data.BindingGroup&gt; is passed in as the first parameter of the &lt;xref:System.Windows.Controls.ValidationRule.Validate%2A&gt; method.</source>
+          <target state="translated">當&lt;xref:System.Windows.Controls.ValidationRule&gt;加入至&lt;xref:System.Windows.Data.BindingGroup&gt;、&lt;xref:System.Windows.Data.BindingGroup&gt;的第一個參數會被&lt;xref:System.Windows.Controls.ValidationRule.Validate%2A&gt;方法。&lt;/xref:System.Windows.Controls.ValidationRule.Validate%2A&gt; &lt;/xref:System.Windows.Data.BindingGroup&gt; &lt;/xref:System.Windows.Data.BindingGroup&gt; &lt;/xref:System.Windows.Controls.ValidationRule&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>You can get the proposed values of the object by using the &lt;xref:System.Windows.Data.BindingGroup.TryGetValue%2A&gt; or &lt;xref:System.Windows.Data.BindingGroup.GetValue%28System.Object%2CSystem.String%29&gt; method.</source>
+          <target state="translated">您可以使用，以取得物件的建議的值&lt;xref:System.Windows.Data.BindingGroup.TryGetValue%2A&gt;或&lt;xref:System.Windows.Data.BindingGroup.GetValue%28System.Object%2CSystem.String%29&gt;方法。&lt;/xref:System.Windows.Data.BindingGroup.GetValue%28System.Object%2CSystem.String%29&gt; &lt;/xref:System.Windows.Data.BindingGroup.TryGetValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You can get the objects that are the sources of the bindings from the &lt;xref:System.Windows.Data.BindingGroup.Items%2A&gt; property.</source>
+          <target state="translated">您可以取得來自繫結來源物件&lt;xref:System.Windows.Data.BindingGroup.Items%2A&gt;屬性。&lt;/xref:System.Windows.Data.BindingGroup.Items%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that validate the source objects in the <bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">集合<bpt id="p1">&lt;xref href="System.Windows.Controls.ValidationRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>驗證中的來源物件的物件<bpt id="p2">&lt;xref href="System.Windows.Data.BindingGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

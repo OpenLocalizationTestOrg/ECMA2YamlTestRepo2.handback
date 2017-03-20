@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2a83557deca84a1d9bd23f57313a198fd86fcaa</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.DataGridViewColumn.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f61a87f906f4c343905a19188d38ecb2393c9f9f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">30b26397a51cd5677d52f86ac724e91d43cd5fa0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a column in a <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">表示中的資料行<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The DataGridViewColumn class represents a logical column in a &lt;xref:System.Windows.Forms.DataGridView&gt; control.</source>
+          <target state="translated">DataGridViewColumn 類別代表邏輯的資料行中&lt;xref:System.Windows.Forms.DataGridView&gt;控制項。&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can retrieve columns through the &lt;xref:System.Windows.Forms.DataGridView.Columns%2A&gt; collection of the control.</source>
+          <target state="translated">您可以擷取的資料行&lt;xref:System.Windows.Forms.DataGridView.Columns%2A&gt;控制項的集合。&lt;/xref:System.Windows.Forms.DataGridView.Columns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Unlike a &lt;xref:System.Windows.Forms.DataGridViewRow&gt;, which contains the actual collection of cells in a &lt;xref:System.Windows.Forms.DataGridView&gt;, DataGridViewColumn is used mainly to adjust the appearance and behavior of the column user interface (UI), such as column width and cell style.</source>
+          <target state="translated">不同於&lt;xref:System.Windows.Forms.DataGridViewRow&gt;，其中包含實際的集合中的資料格&lt;xref:System.Windows.Forms.DataGridView&gt;，DataGridViewColumn 主要用來調整的外觀和行為的資料行的使用者介面 (UI)，例如資料行寬度和儲存格樣式。&lt;/xref:System.Windows.Forms.DataGridView&gt; &lt;/xref:System.Windows.Forms.DataGridViewRow&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information about cell styles, see <bpt id="p1">[</bpt>Cell Styles in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需儲存格樣式的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form DataGridView 控制項中的儲存格樣式<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Types that derive from DataGridViewColumn typically initialize the &lt;xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt; property to a new instance of a related type derived from the &lt;xref:System.Windows.Forms.DataGridViewCell&gt; class.</source>
+          <target state="translated">通常衍生自 DataGridViewColumn 的型別初始化&lt;xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt;相關的型別衍生自&lt;xref:System.Windows.Forms.DataGridViewCell&gt;類別&lt;/xref:System.Windows.Forms.DataGridViewCell&gt;的新執行個體的屬性&lt;/xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Any column properties that relate to the appearance or behavior of individual cells are wrappers for the corresponding properties of the template cell.</source>
+          <target state="translated">與相關聯的外觀或行為個別儲存格的任何資料行屬性是對應的範本資料格屬性的包裝函式。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Changing one of these properties on the column automatically changes the value on the cell template and on all cells in the column.</source>
+          <target state="translated">變更其中一個屬性的資料行上會自動變更儲存格樣板和資料行中的所有資料格上的值。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To override the specified value for individual cells, set the cell values after you set the column value.</source>
+          <target state="translated">若要覆寫指定個別資料格的值，設定資料格的值，設定資料行的值之後。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class to the default state.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別的預設狀態。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using an existing <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> as a template.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別使用的現有<bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>做為範本。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This constructor sets the &lt;xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt; property to the value of the <ph id="ph1">`cellTemplate`</ph> parameter.</source>
+          <target state="translated">這個建構函式設定&lt;xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt;屬性設為值的<ph id="ph1">`cellTemplate`</ph>參數。&lt;/xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>An existing <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use as a template.</source>
+          <target state="translated">現有<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>當做範本使用。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Gets or sets the mode by which the column automatically adjusts its width.</source>
+          <target state="translated">取得或設定之資料行自動調整其寬度的模式。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The automatic sizing behavior of the column is determined by the value of the &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt; property, which is the same as the value of the AutoSizeMode property for all values except &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, which indicates that the value is inherited from the &lt;xref:System.Windows.Forms.DataGridView.AutoSizeColumnsMode%2A?displayProperty=fullName&gt; property instead.</source>
+          <target state="translated">資料行的自動調整大小行為取決於值&lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;屬性，這是所有值的 AutoSizeMode 屬性的值相同但&lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;，表示值繼承自&lt;xref:System.Windows.Forms.DataGridView.AutoSizeColumnsMode%2A?displayProperty=fullName&gt;屬性改為。&lt;/xref:System.Windows.Forms.DataGridView.AutoSizeColumnsMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt; property value is &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, the column is resized along with other columns in that mode.</source>
+          <target state="translated">當&lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;屬性值是&lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;，以及在該模式的其他資料行重新調整大小之資料行。&lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>All fill-mode columns in the control divide the available space in proportions determined by their &lt;xref:System.Windows.Forms.DataGridViewColumn.FillWeight%2A&gt; property values.</source>
+          <target state="translated">在控制項中的所有填滿模式資料行分割可用空間比例取決於其&lt;xref:System.Windows.Forms.DataGridViewColumn.FillWeight%2A&gt;屬性值。&lt;/xref:System.Windows.Forms.DataGridViewColumn.FillWeight%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The width available for fill mode is determined by subtracting the widths of all other columns from the width of the client area of the control.</source>
+          <target state="translated">適用於填滿模式寬度取決於減去從用戶端區域控制項的寬度的所有資料行的寬度。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If this width is smaller than the combined &lt;xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt; values of all fill-mode columns, the horizontal scroll bar is displayed, all fill-mode columns are shown with their minimum widths, and user column-resizing is disabled.</source>
+          <target state="translated">如果此寬度小於結合&lt;xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt;所有填滿模式資料行的值，會顯示水平捲軸、 最小寬度，以顯示所有填滿模式資料行和使用者資料行調整已停用。&lt;/xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information about column fill mode, see <bpt id="p1">[</bpt>Column Fill Mode in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需有關資料行填入模式的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form DataGridView 控制項中的資料行填入模式<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt; property is set to any other value except &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, the column will manage its width so that its cell values are fully displayed without clipping.</source>
+          <target state="translated">當&lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;屬性設定為以外的任何其他值&lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;，資料行要管理其寬度，使其儲存格的值完全顯示而不裁剪。&lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In content-based sizing modes, size adjustments occur whenever cell contents change or, if &lt;xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt; is enabled, whenever row heights change.</source>
+          <target state="translated">在以內容為基礎的調整大小模式調整大小發生或儲存格內容變更時，&lt;xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt;啟用時，每當資料列高度變更時。&lt;/xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Some content-based sizing modes let you limit the size adjustment to the currently displayed rows in order to increase performance.</source>
+          <target state="translated">某些以內容為基礎的調整大小模式可讓您限制目前所顯示的資料列的大小調整，以提升效能。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Only columns with a &lt;xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt; property value of <ph id="ph1">`true`</ph> are resized, and changing the visibility of a column does not cause resizing to occur.</source>
+          <target state="translated">只有包含資料行&lt;xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt;屬性值為<ph id="ph1">`true`</ph>而調整大小，而且變更的資料行可見性不會進行調整大小。&lt;/xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Additionally, when columns are set to automatically resize, the user cannot adjust the column widths with the mouse.</source>
+          <target state="translated">此外，當資料行自動調整設定，使用者將無法調整資料行寬度，使用滑鼠。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To adjust column widths programmatically, use the &lt;xref:System.Windows.Forms.DataGridView&gt; control's &lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumn%2A&gt; or &lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumns%2A&gt; methods or set the column &lt;xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt; property.</source>
+          <target state="translated">若要以程式設計方式調整資料行寬度，請使用&lt;xref:System.Windows.Forms.DataGridView&gt;控制項的&lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumn%2A&gt;或&lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumns%2A&gt;方法或一組資料行&lt;xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt;屬性。&lt;/xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoResizeColumns%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoResizeColumn%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information about content-based automatic sizing, see <bpt id="p1">[</bpt>Sizing Options in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需以內容為基礎的自動調整大小的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form DataGridView 控制項中的調整大小選項<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that determines whether the column will automatically adjust its width and how it will determine its preferred width.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>決定資料行是否自動調整其寬度，以及如何判斷其慣用的寬度的值。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The specified value when setting this property is a <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is not valid.</source>
+          <target state="translated">指定的值設定這個屬性時是<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>無效。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The specified value when setting this property results in an &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode<bpt id="p1">*</bpt>&gt; value of <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for a visible column when column headers are hidden.       -or-       The specified value when setting this property results in an &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode<ept id="p1">*</ept>&gt; value of <bpt id="p3">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> for a visible column that is frozen.</source>
+          <target state="translated">指定的值設定這個屬性時導致&lt;&gt; <bpt id="p1">*</bpt>&gt; 值<bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>時隱藏資料行行首的可見資料行。      -或-指定的值設定這個屬性時導致&lt;&gt; <ept id="p1">*</ept>&gt; 值<bpt id="p3">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>已凍結的可見資料行。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets or sets the template used to create new cells.</source>
+          <target state="translated">取得或設定用來建立新的儲存格的樣板。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The constructors for the &lt;xref:System.Windows.Forms.DataGridViewColumn&gt; class initialize this property.</source>
+          <target state="translated">建構函式&lt;xref:System.Windows.Forms.DataGridViewColumn&gt;類別初始化這個屬性。&lt;/xref:System.Windows.Forms.DataGridViewColumn&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The default constructor sets the property to <ph id="ph1">`null`</ph>; the other constructor copies the cell template from its parameter.</source>
+          <target state="translated">預設建構函式會將屬性設定為<ph id="ph1">`null`</ph>; 其他建構函式會從它的參數複製儲存格樣板。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Changing the properties of the cell template will not immediately affect the user interface (UI) of the column's existing cells.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 變更儲存格範本的內容不會立即影響資料行的現有儲存格的使用者介面 (UI)。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>These changes are only apparent after the column is regenerated (for example, by sorting the column or through a call to the &lt;xref:System.Windows.Forms.DataGridView.InvalidateColumn%2A?displayProperty=fullName&gt; method).</source>
+          <target state="translated">重新產生資料行後，才明顯這些變更 (例如，則資料行排序或透過呼叫&lt;xref:System.Windows.Forms.DataGridView.InvalidateColumn%2A?displayProperty=fullName&gt;方法)。&lt;/xref:System.Windows.Forms.DataGridView.InvalidateColumn%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that all other cells in the column are modeled after.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，後建立模型資料行中的所有資料格。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the run-time type of the cell template.</source>
+          <target state="translated">取得儲存格樣板的執行階段類型。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The base type of the &lt;xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt; is &lt;xref:System.Windows.Forms.DataGridViewCell&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt;為&lt;xref:System.Windows.Forms.DataGridViewCell&gt;。&lt;/xref:System.Windows.Forms.DataGridViewCell&gt;&lt;/xref:System.Windows.Forms.DataGridViewColumn.CellTemplate%2A&gt;基底類型</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Use this property to determine the actual derived type.</source>
+          <target state="translated">使用這個屬性來判斷實際的衍生型別。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used as a template for this column.</source>
+          <target state="translated">&lt;xref:System.Type&gt;的<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>做為範本，此資料行。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creates an exact copy of this band.</source>
+          <target state="translated">建立這個頻外的完全相同複本。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the cloned <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewBand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示複製<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewBand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets or sets the shortcut menu for the column.</source>
+          <target state="translated">取得或設定資料行的捷徑功能表。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The shortcut menu appears when a user clicks the right mouse button in the column's display area.</source>
+          <target state="translated">當使用者按一下滑鼠右鍵在資料行的顯示區域，則會出現快顯功能表。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.ContextMenuStrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the current <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.ContextMenuStrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>目前相關聯<bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the data source property or database column to which the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is bound.</source>
+          <target state="translated">取得或設定資料來源屬性或資料庫資料行名稱的<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>繫結。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt; property is set to <ph id="ph1">`true`</ph>, each column automatically sets its DataPropertyName property to the name of a property or database column in the data source specified by the &lt;xref:System.Windows.Forms.DataGridView.DataSource%2A&gt; property.</source>
+          <target state="translated">當&lt;xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt;屬性設定為<ph id="ph1">`true`</ph>，每個資料行自動設定其 DataPropertyName 屬性的屬性或資料庫的資料行名稱所指定的資料來源中&lt;xref:System.Windows.Forms.DataGridView.DataSource%2A&gt;屬性。&lt;/xref:System.Windows.Forms.DataGridView.DataSource%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This binding can also be performed manually, which is useful when you want to display only a subset of the properties or database columns available in the data source.</source>
+          <target state="translated">這個繫結也可以執行手動的方式，當您想要顯示資料來源中的屬性或資料庫資料行的子集時，會很有用。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In such cases, set the &lt;xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt; property to <ph id="ph1">`false`</ph>, and then manually add each &lt;xref:System.Windows.Forms.DataGridViewColumn&gt;, setting the value of each DataPropertyName property to the properties or database columns in the data source that you want to display.</source>
+          <target state="translated">在這種情況下，設定&lt;xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt;屬性<ph id="ph1">`false`</ph>，然後手動加入每個&lt;xref:System.Windows.Forms.DataGridViewColumn&gt;、 每個 DataPropertyName 屬性的值設定屬性，或資料庫中您想要顯示的資料來源的資料行。&lt;/xref:System.Windows.Forms.DataGridViewColumn&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The case-insensitive name of the property or database column associated with the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">與相關聯的屬性或資料庫資料行不區分大小寫名稱<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets or sets the column's default cell style.</source>
+          <target state="translated">取得或設定資料行的預設儲存格樣式。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.DataGridView&gt; control displays its cells using the styles indicated by the cell &lt;xref:System.Windows.Forms.DataGridViewCell.InheritedStyle%2A&gt; property, which inherits styles from other properties of type &lt;xref:System.Windows.Forms.DataGridViewCellStyle&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.DataGridView&gt;控制項會顯示其儲存格，使用以資料格&lt;xref:System.Windows.Forms.DataGridViewCell.InheritedStyle%2A&gt;屬性，後者繼承自其他屬性的型別&lt;xref:System.Windows.Forms.DataGridViewCellStyle&gt;.&lt;/xref:System.Windows.Forms.DataGridViewCellStyle&gt;樣式&lt;/xref:System.Windows.Forms.DataGridViewCell.InheritedStyle%2A&gt;的樣式&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For cells in this column, the styles specified through the DefaultCellStyle property override the styles specified through the &lt;xref:System.Windows.Forms.DataGridView.DefaultCellStyle%2A?displayProperty=fullName&gt; property, but are overridden by the styles specified through the &lt;xref:System.Windows.Forms.DataGridView.RowsDefaultCellStyle%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.DataGridView.AlternatingRowsDefaultCellStyle%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.DataGridViewRow.DefaultCellStyle%2A?displayProperty=fullName&gt;, and &lt;xref:System.Windows.Forms.DataGridViewCell.Style%2A?displayProperty=fullName&gt; properties.</source>
+          <target state="translated">此資料行中的資料格，DefaultCellStyle 屬性透過指定的樣式會覆寫透過指定樣式&lt;xref:System.Windows.Forms.DataGridView.DefaultCellStyle%2A?displayProperty=fullName&gt;屬性，但透過指定的樣式會覆寫&lt;xref:System.Windows.Forms.DataGridView.RowsDefaultCellStyle%2A?displayProperty=fullName&gt;， &lt;xref:System.Windows.Forms.DataGridView.AlternatingRowsDefaultCellStyle%2A?displayProperty=fullName&gt;， &lt;xref:System.Windows.Forms.DataGridViewRow.DefaultCellStyle%2A?displayProperty=fullName&gt;，和&lt;xref:System.Windows.Forms.DataGridViewCell.Style%2A?displayProperty=fullName&gt;屬性。&lt;/xref:System.Windows.Forms.DataGridViewCell.Style%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridViewRow.DefaultCellStyle%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridView.AlternatingRowsDefaultCellStyle%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridView.RowsDefaultCellStyle%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridView.DefaultCellStyle%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Cell Styles in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form DataGridView 控制項中的儲存格樣式<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCellStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the default style of the cells in the column.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCellStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示資料行中的資料格的預設樣式。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets or sets the display order of the column relative to the currently displayed columns.</source>
+          <target state="translated">取得或設定相對於目前所顯示的資料行的資料行的顯示順序。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Unlike the &lt;xref:System.Windows.Forms.DataGridViewBand.Index%2A&gt; property, the DisplayIndex property corresponds to the current position of the column as displayed by the user interface (UI).</source>
+          <target state="translated">不同於&lt;xref:System.Windows.Forms.DataGridViewBand.Index%2A&gt;屬性的 DisplayIndex 屬性會對應至資料行的目前位置顯示使用者介面 (UI)。&lt;/xref:System.Windows.Forms.DataGridViewBand.Index%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>By default, each column's DisplayIndex is set to numbers of increasing order, which reflects the order in which they were added.</source>
+          <target state="translated">根據預設，每個資料行的 DisplayIndex 設數目遞增次序順序，會反映出所加入的順序。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt; property value does not affect the DisplayIndex value.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt;屬性值不會影響 DisplayIndex 值。&lt;/xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To determine the display position of a column based on its visibility or other state, use the &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.GetFirstColumn%2A&gt;, &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.GetLastColumn%2A&gt;, or &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.GetNextColumn%2A&gt; method of the &lt;xref:System.Windows.Forms.DataGridViewColumnCollection&gt; class.</source>
+          <target state="translated">若要判斷其可見性或其他狀態為基礎的資料行的顯示位置，請使用&lt;xref:System.Windows.Forms.DataGridViewColumnCollection.GetFirstColumn%2A&gt;， &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.GetLastColumn%2A&gt;，或&lt;xref:System.Windows.Forms.DataGridViewColumnCollection.GetNextColumn%2A&gt;方法的&lt;xref:System.Windows.Forms.DataGridViewColumnCollection&gt;類別。&lt;/xref:System.Windows.Forms.DataGridViewColumnCollection&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnCollection.GetNextColumn%2A&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnCollection.GetLastColumn%2A&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnCollection.GetFirstColumn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Every column in the control has a unique DisplayIndex value.</source>
+          <target state="translated">在控制項中的每個資料行具有唯一的 DisplayIndex 值。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The values start with 0 and proceed in numerical order without skipping any values.</source>
+          <target state="translated">值從 0 開始，數字的順序繼續進行，不需略過任何值。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>When you change the DisplayIndex value for a column, the DisplayIndex values for other columns are changed to reflect the new order.</source>
+          <target state="translated">當您變更資料行的 DisplayIndex 值時，其他資料行的 DisplayIndex 值會變更以反映新的訂單。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If the column has an associated &lt;xref:System.Windows.Forms.DataGridView&gt; control, setting this property will cause the control to redraw itself.</source>
+          <target state="translated">如果資料行都具有相關聯&lt;xref:System.Windows.Forms.DataGridView&gt;控制，設定這個屬性會讓控制項重繪其本身。&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The zero-based position of the column as it is displayed in the associated <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or -1 if the band is not contained within a control.</source>
+          <target state="translated">資料行以零為起始的位置會顯示於相關聯<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，則為-1 不包含在控制項中的頻外。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&amp;lt;</ph>xref:System.Windows.Forms.DataGridViewElement.DataGridView%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> is not <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the specified value when setting this property is less than 0 or greater than or equal to the number of columns in the control.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>xref:System.Windows.Forms.DataGridViewElement.DataGridView%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>不<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和指定的值時將此屬性設定為小於 0 或大於或等於控制項中的資料行數目。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Forms.DataGridViewElement.DataGridView%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the specified value when setting this property is less than -1.</source>
+          <target state="translated">- <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Forms.DataGridViewElement.DataGridView%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和指定的值時將此屬性設定為小於-1。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-or-       The specified value when setting this property is equal to <ph id="ph1">&amp;lt;</ph>xref:System.Int32.MaxValue?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">-等於設定這個屬性時所指定的值<ph id="ph1">&amp;lt;</ph>xref:System.Int32.MaxValue?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewBand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">所使用的 unmanaged 的資源釋出<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewBand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>並選擇性釋放 managed 的資源。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示釋放 managed 和 unmanaged 資源，<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示只釋放 unmanaged 的資源。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is disposed.</source>
+          <target state="translated">發生時<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>處置。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets or sets the width, in pixels, of the column divider.</source>
+          <target state="translated">取得或設定像素為單位的資料行分割線的寬度。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This property is useful to provide a visual boundary between frozen columns and columns that can scroll.</source>
+          <target state="translated">這個屬性是提供視覺化界限凍結的資料行和可捲動的資料行之間非常有用。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The extra edge is part of the current column, although it will take on the foreground color of the associated &lt;xref:System.Windows.Forms.DataGridView&gt;.</source>
+          <target state="translated">額外的邊緣是目前的資料行的一部分，雖然它會在相關聯的&lt;xref:System.Windows.Forms.DataGridView&gt;.&lt;/xref:System.Windows.Forms.DataGridView&gt;的前景色彩</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The extra edge does not extend the area in which users can double-click to automatically resize a column.</source>
+          <target state="translated">額外的邊不擴充的區域中的使用者可以按兩下自動調整資料行。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To resize a column, the user must double-click on the boundary between the divider and the adjacent column.</source>
+          <target state="translated">若要調整資料行，使用者必須按兩下分割線與相鄰的資料行之間的界限。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The thickness, in pixels, of the divider (the column's right margin).</source>
+          <target state="translated">以像素的分割線 （資料行的右邊界） 的粗細。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that represents the width of the column when it is in fill mode relative to the widths of other fill-mode columns in the control.</source>
+          <target state="translated">取得或設定值，表示資料行的寬度，相對於控制項中其他的填滿模式資料行填入模式中時。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt; property value is &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, the column is resized along with other columns in that mode so that all visible columns in the control exactly fill the horizontal width of the available display area.</source>
+          <target state="translated">當&lt;xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;屬性值是&lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;，資料行重新調整大小及處於該模式的其他資料行，讓控制項中的所有可見資料行完全填滿可用顯示區域的水平寬度。&lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.InheritedAutoSizeMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>All fill-mode columns in the control divide the available space in proportions determined by their FillWeight property values.</source>
+          <target state="translated">在控制項中的所有填滿模式資料行分割比例取決於其 FillWeight 屬性值中的可用空間。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For more information about column fill mode, see <bpt id="p1">[</bpt>Column Fill Mode in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需有關資料行填入模式的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form DataGridView 控制項中的資料行填入模式<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The maximum sum of FillWeight values for all columns in a &lt;xref:System.Windows.Forms.DataGridView&gt; control is 65535.</source>
+          <target state="translated">最大的中的所有資料行的 FillWeight 值總和&lt;xref:System.Windows.Forms.DataGridView&gt;控制項為 65535。&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Single&gt; representing the width of the column when it is in fill mode relative to the widths of other fill-mode columns.</source>
+          <target state="translated">A&lt;xref:System.Single&gt;表示資料行的寬度，相對於其他填滿模式資料行的填滿模式中時。&lt;/xref:System.Single&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The default is 100.</source>
+          <target state="translated">預設值為 100。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The specified value when setting this property is less than or equal to 0.</source>
+          <target state="translated">設定這個屬性時所指定的值小於或等於 0。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether a column will move when a user scrolls the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control horizontally.</source>
+          <target state="translated">取得或設定值，指出使用者捲動時，是否會移動資料行<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制水平。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>When a column is frozen, all the columns to its left (or to its right in right-to-left languages) are frozen as well.</source>
+          <target state="translated">當資料行凍結時，也會凍結的左側 （或其權限，以由右至左語言） 的所有資料行。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The frozen and unfrozen columns form two groups.</source>
+          <target state="translated">凍結和解除凍結的資料行形成兩個群組。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If column repositioning is enabled by setting the &lt;xref:System.Windows.Forms.DataGridView.AllowUserToOrderColumns%2A&gt; property to <ph id="ph1">`true`</ph>, the user cannot drag a column from one group to the other.</source>
+          <target state="translated">如果資料行重新調整位置來設定啟用&lt;xref:System.Windows.Forms.DataGridView.AllowUserToOrderColumns%2A&gt;屬性<ph id="ph1">`true`</ph>，使用者無法將資料行從一個群組另。&lt;/xref:System.Windows.Forms.DataGridView.AllowUserToOrderColumns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to freeze the column; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要凍結資料行，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Calculates the ideal width of the column based on the specified criteria.</source>
+          <target state="translated">計算指定的準則為基礎的資料行的理想寬度。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This property is used by the content-based automatic sizing feature of the &lt;xref:System.Windows.Forms.DataGridView&gt; control to determine the ideal width of a column.</source>
+          <target state="translated">這個屬性由以內容為基礎的自動調整大小功能使用的&lt;xref:System.Windows.Forms.DataGridView&gt;控制項來決定資料行的理想寬度。&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`fixedHeight`</ph> parameter value of <ph id="ph2">`false`</ph> calculates the column width based on calculated row heights that will achieve ideal cell height-to-width ratios.</source>
+          <target state="translated">A<ph id="ph1">`fixedHeight`</ph>參數值的<ph id="ph2">`false`</ph>計算資料行寬度，以達到理想的儲存格的高度與寬度比例的導出資料列高度為基礎。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>For cell contents to wrap onto multiple lines, the cell style in effect for the cell must have a &lt;xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt; property value of &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;.</source>
+          <target state="translated">儲存格的內容分成多行換行，為作用中的資料格的儲存格樣式必須是&lt;xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt;&lt;xref:System.Windows.Forms.DataGridViewTriState&gt;.&lt;/xref:System.Windows.Forms.DataGridViewTriState&gt;屬性值&lt;/xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>For more information about automatic sizing, see <bpt id="p1">[</bpt>Sizing Options in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需自動調整大小的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form DataGridView 控制項中的調整大小選項<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that specifies an automatic sizing mode.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，指定自動調整大小模式。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to calculate the width of the column based on the current row heights; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to calculate the width with the expectation that the row heights will be adjusted.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要計算根據目前的資料列高度; 資料行的寬度<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>計算時會將調整資料列高度的寬度。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The ideal width, in pixels, of the column.</source>
+          <target state="translated">理想的寬度，以像素的資料行。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;autoSizeColumnMode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or <bpt id="p3">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;autoSizeColumnMode&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or <bpt id="p3">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;autoSizeColumnMode&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;autoSizeColumnMode&lt;/code&gt;</ph>不是有效<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumnHeaderCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the column header.</source>
+          <target state="translated">取得或設定<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumnHeaderCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示資料行標頭。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The header of a column is typically used to display a column label.</source>
+          <target state="translated">資料行的標頭通常用於顯示資料行標籤。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Depending on the current values of the &lt;xref:System.Windows.Forms.DataGridViewColumn.SortMode%2A&gt; and &lt;xref:System.Windows.Forms.DataGridView.SelectionMode%2A?displayProperty=fullName&gt; properties, users can also click the column header to sort or select the column.</source>
+          <target state="translated">根據目前的值&lt;xref:System.Windows.Forms.DataGridViewColumn.SortMode%2A&gt;和&lt;xref:System.Windows.Forms.DataGridView.SelectionMode%2A?displayProperty=fullName&gt;屬性，使用者也可以按一下資料行標頭來排序，或選取的資料行。&lt;/xref:System.Windows.Forms.DataGridView.SelectionMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.SortMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumnHeaderCell"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the header cell for the column.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumnHeaderCell"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示資料行的標頭資料格。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Gets or sets the caption text on the column's header cell.</source>
+          <target state="translated">取得或設定資料行行首儲存格上的標題文字。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This property is useful only when the column has an associated header cell.</source>
+          <target state="translated">只有當資料行具有相關聯的標頭資料格時，這個屬性是很有用。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Windows.Forms.DataGridViewBand.HeaderCellCore%2A&gt; property.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Windows.Forms.DataGridViewBand.HeaderCellCore%2A&gt;屬性。&lt;/xref:System.Windows.Forms.DataGridViewBand.HeaderCellCore%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  There is no corresponding header text property for rows.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 沒有對應的標頭文字屬性的資料列。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>To display labels in row headers, you must handle the &lt;xref:System.Windows.Forms.DataGridView.CellPainting?displayProperty=fullName&gt; event and paint your own labels when &lt;xref:System.Windows.Forms.DataGridViewCellPaintingEventArgs.ColumnIndex%2A?displayProperty=fullName&gt; is -1.</source>
+          <target state="translated">若要顯示資料列標頭標籤，您必須處理&lt;xref:System.Windows.Forms.DataGridView.CellPainting?displayProperty=fullName&gt;事件和繪製自己標籤時&lt;xref:System.Windows.Forms.DataGridViewCellPaintingEventArgs.ColumnIndex%2A?displayProperty=fullName&gt;為-1。&lt;/xref:System.Windows.Forms.DataGridViewCellPaintingEventArgs.ColumnIndex%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridView.CellPainting?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; with the desired text.</source>
+          <target state="translated">A&lt;xref:System.String&gt;與想要的文字。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">預設為空字串 ("")。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets the sizing mode in effect for the column.</source>
+          <target state="translated">取得資料行的作用中調整大小模式。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The automatic sizing behavior of the column is determined by the value of the InheritedAutoSizeMode property, which is the same as the value of the &lt;xref:System.Windows.Forms.DataGridViewColumn.AutoSizeMode%2A&gt; property for all values except &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, which indicates that the value is inherited from the &lt;xref:System.Windows.Forms.DataGridView.AutoSizeColumnsMode%2A?displayProperty=fullName&gt; property instead.</source>
+          <target state="translated">資料行的自動調整大小行為取決於 InheritedAutoSizeMode 屬性，也就是值相同的值的&lt;xref:System.Windows.Forms.DataGridViewColumn.AutoSizeMode%2A&gt;以外的所有值的屬性&lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;，表示值繼承自&lt;xref:System.Windows.Forms.DataGridView.AutoSizeColumnsMode%2A?displayProperty=fullName&gt;屬性改為。&lt;/xref:System.Windows.Forms.DataGridView.AutoSizeColumnsMode%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.AutoSizeMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>When the InheritedAutoSizeMode property value is &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, the column is resized along with other columns in that mode so that all visible columns in the control exactly fill the horizontal width of the available display area.</source>
+          <target state="translated">當 InheritedAutoSizeMode 屬性值是&lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;，資料行重新調整大小及處於該模式的其他資料行，讓控制項中的所有可見資料行完全填滿可用顯示區域的水平寬度。&lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>All fill-mode columns in the control divide the available space in proportions determined by their &lt;xref:System.Windows.Forms.DataGridViewColumn.FillWeight%2A&gt; property values.</source>
+          <target state="translated">在控制項中的所有填滿模式資料行分割可用空間比例取決於其&lt;xref:System.Windows.Forms.DataGridViewColumn.FillWeight%2A&gt;屬性值。&lt;/xref:System.Windows.Forms.DataGridViewColumn.FillWeight%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For more information about column fill mode, see <bpt id="p1">[</bpt>Column Fill Mode in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需有關資料行填入模式的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form DataGridView 控制項中的資料行填入模式<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>When the InheritedAutoSizeMode property is set to any other value except &lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;, the column will manage its width so that its cell values are fully displayed without clipping.</source>
+          <target state="translated">當 InheritedAutoSizeMode 屬性設定為以外的任何其他值&lt;xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;，資料行要管理其寬度，使其儲存格的值完全顯示而不裁剪。&lt;/xref:System.Windows.Forms.DataGridViewAutoSizeColumnMode&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>In content-based sizing modes, size adjustments occur whenever cell contents change or, if &lt;xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt; is enabled, whenever row heights change.</source>
+          <target state="translated">在以內容為基礎的調整大小模式調整大小發生或儲存格內容變更時，&lt;xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt;啟用時，每當資料列高度變更時。&lt;/xref:System.Windows.Forms.DataGridViewCellStyle.WrapMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Some content-based sizing modes let you limit the size adjustment to the currently displayed rows in order to increase performance.</source>
+          <target state="translated">某些以內容為基礎的調整大小模式可讓您限制目前所顯示的資料列的大小調整，以提升效能。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Only columns with a &lt;xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt; property value of <ph id="ph1">`true`</ph> are resized, and changing the visibility of a column does not cause resizing to occur.</source>
+          <target state="translated">只有包含資料行&lt;xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt;屬性值為<ph id="ph1">`true`</ph>而調整大小，而且變更的資料行可見性不會進行調整大小。&lt;/xref:System.Windows.Forms.DataGridViewColumn.Visible%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Additionally, when columns are set to automatically resize, the user cannot adjust the column widths with the mouse.</source>
+          <target state="translated">此外，當資料行自動調整設定，使用者將無法調整資料行寬度，使用滑鼠。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>To adjust column widths programmatically, use the &lt;xref:System.Windows.Forms.DataGridView&gt; control's &lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumn%2A&gt; or &lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumns%2A&gt; methods or set the column &lt;xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt; property.</source>
+          <target state="translated">若要以程式設計方式調整資料行寬度，請使用&lt;xref:System.Windows.Forms.DataGridView&gt;控制項的&lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumn%2A&gt;或&lt;xref:System.Windows.Forms.DataGridView.AutoResizeColumns%2A&gt;方法或一組資料行&lt;xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt;屬性。&lt;/xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoResizeColumns%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoResizeColumn%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>For more information about content-based automatic sizing, see <bpt id="p1">[</bpt>Sizing Options in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需以內容為基礎的自動調整大小的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form DataGridView 控制項中的調整大小選項<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value in effect for the column.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewAutoSizeColumnMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>作用中的資料行的值。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets the cell style currently applied to the column.</source>
+          <target state="translated">取得目前套用至資料行的儲存格樣式。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>This property is useful to determine which cell styles are applied to all cells in a column regardless of any row styles that are also applied to the cells.</source>
+          <target state="translated">這個屬性是有助於判斷哪些儲存格樣式會套用至資料行，不論任何也會套用至資料格的資料列樣式的所有資料格。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The column InheritedStyle property inherits its values from the &lt;xref:System.Windows.Forms.DataGridViewColumn.DefaultCellStyle%2A&gt; and the &lt;xref:System.Windows.Forms.DataGridView.DefaultCellStyle%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">資料行 InheritedStyle 屬性繼承其值從&lt;xref:System.Windows.Forms.DataGridViewColumn.DefaultCellStyle%2A&gt;和&lt;xref:System.Windows.Forms.DataGridView.DefaultCellStyle%2A?displayProperty=fullName&gt;屬性。&lt;/xref:System.Windows.Forms.DataGridView.DefaultCellStyle%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.DefaultCellStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>For more information about cell style inheritance, see <bpt id="p1">[</bpt>Cell Styles in the Windows Forms DataGridView Control<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需儲存格樣式繼承的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form DataGridView 控制項中的儲存格樣式<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCellStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the cell style used to display the column.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewCellStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，代表用來顯示資料行的儲存格樣式。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the column is bound to a data source.</source>
+          <target state="translated">取得值，指出是否繫結至資料來源的資料行。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>A column becomes bound to a data source if it is part of a data-bound &lt;xref:System.Windows.Forms.DataGridView&gt;.</source>
+          <target state="translated">資料行變成 「 繫結至資料來源如果它是資料繫結&lt;xref:System.Windows.Forms.DataGridView&gt;.&lt;/xref:System.Windows.Forms.DataGridView&gt;的一部分</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>A column can become part of a data-bound &lt;xref:System.Windows.Forms.DataGridView&gt; if the column is automatically created when the &lt;xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt; property is set to <ph id="ph1">`true`</ph>, or if the column's &lt;xref:System.Windows.Forms.DataGridViewColumn.DataPropertyName%2A&gt; property is set when the column is manually added to the &lt;xref:System.Windows.Forms.DataGridView&gt;.</source>
+          <target state="translated">資料行可以成為資料繫結的一部分&lt;xref:System.Windows.Forms.DataGridView&gt;如果資料行時，會自動建立&lt;xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt;屬性設定為<ph id="ph1">`true`</ph>，或如果資料行的&lt;xref:System.Windows.Forms.DataGridViewColumn.DataPropertyName%2A&gt;屬性設定當資料行以手動方式加入至&lt;xref:System.Windows.Forms.DataGridView&gt;。&lt;/xref:System.Windows.Forms.DataGridView&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.DataPropertyName%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView.AutoGenerateColumns%2A&gt; &lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the column is connected to a data source; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料行連接到資料來源;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets or sets the minimum width, in pixels, of the column.</source>
+          <target state="translated">取得或設定最小寬度，以像素的資料行。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The MinimumWidth property sets a limit on how narrow the column can be resized in the user interface (UI).</source>
+          <target state="translated">MinimumWidth 屬性如何縮小資料行所能調整使用者介面 (UI) 中設定的限制。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt; property can override the MinimumWidth property.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt;屬性可以覆寫 MinimumWidth 屬性。&lt;/xref:System.Windows.Forms.DataGridViewColumn.Width%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The number of pixels, from 2 to &lt;xref:System.Int32&gt;, that specifies the minimum width of the column.</source>
+          <target state="translated">以像素為單位，從 2 到數目&lt;xref:System.Int32&gt;，指定資料行的最小寬度。&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The default is 5.</source>
+          <target state="translated">預設為 5。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The value is less than 2 or greater than <ph id="ph1">&amp;lt;</ph>xref:System.Int32?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">值是小於 2 或更高<ph id="ph1">&amp;lt;</ph>xref:System.Int32?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the column.</source>
+          <target state="translated">取得或設定資料行的名稱。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>This property represents a formal name associated with the column that can be used to identify the column in a collection.</source>
+          <target state="translated">這個屬性代表可以用來識別集合中的資料行的資料行相關聯的正式名稱。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.Remove%2A&gt; and &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.Contains%2A&gt; methods of the &lt;xref:System.Windows.Forms.DataGridViewColumnCollection&gt; class use the Name property.</source>
+          <target state="translated">例如，&lt;xref:System.Windows.Forms.DataGridViewColumnCollection.Remove%2A&gt;和&lt;xref:System.Windows.Forms.DataGridViewColumnCollection.Contains%2A&gt;方法&lt;xref:System.Windows.Forms.DataGridViewColumnCollection&gt;類別使用的名稱屬性。&lt;/xref:System.Windows.Forms.DataGridViewColumnCollection&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnCollection.Contains%2A&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnCollection.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The name is case-insensitive.</source>
+          <target state="translated">名稱不區分大小寫。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.DataGridView&gt; will treat <ph id="ph1">`column1`</ph> and <ph id="ph2">`COLUMN1`</ph> as the same column.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.DataGridView&gt;會將<ph id="ph1">`column1`</ph>和<ph id="ph2">`COLUMN1`</ph>做為相同的資料行。&lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that contains the name of the column.</source>
+          <target state="translated">A &lt;xref:System.String&gt;，其中包含的資料行名稱。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">預設為空字串 ("")。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the user can edit the column's cells.</source>
+          <target state="translated">取得或設定值，指出使用者是否可以編輯資料行的資料格。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The ReadOnly property affects the &lt;xref:System.Windows.Forms.DataGridViewCell.ReadOnly%2A?displayProperty=fullName&gt; property of each cell in the column.</source>
+          <target state="translated">唯讀屬性會影響&lt;xref:System.Windows.Forms.DataGridViewCell.ReadOnly%2A?displayProperty=fullName&gt;資料行中每個資料格的屬性。&lt;/xref:System.Windows.Forms.DataGridViewCell.ReadOnly%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user cannot edit the column's cells; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果使用者無法編輯資料行的資料格。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This property is set to <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for a column that is bound to a read-only data source.</source>
+          <target state="translated">這個屬性設定為<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>繫結至唯讀的資料來源的資料行。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the column is resizable.</source>
+          <target state="translated">取得或設定值，指出資料行是否可調整大小。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>If the Resizable property is &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;, the user will not be able to manually adjust the column width.</source>
+          <target state="translated">如果可以調整大小屬性為&lt;xref:System.Windows.Forms.DataGridViewTriState&gt;，使用者不能手動調整資料行寬度。&lt;/xref:System.Windows.Forms.DataGridViewTriState&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>By default, the Resizable property value is based on the &lt;xref:System.Windows.Forms.DataGridView.AllowUserToResizeColumns%2A?displayProperty=fullName&gt; property value.</source>
+          <target state="translated">根據預設，可調整大小的屬性值根據&lt;xref:System.Windows.Forms.DataGridView.AllowUserToResizeColumns%2A?displayProperty=fullName&gt;屬性值。&lt;/xref:System.Windows.Forms.DataGridView.AllowUserToResizeColumns%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>If you explicitly set Resizable to &lt;xref:System.Windows.Forms.DataGridViewTriState&gt; or &lt;xref:System.Windows.Forms.DataGridViewTriState&gt;, however, the control value is ignored.</source>
+          <target state="translated">如果您明確設定為可以調大小&lt;xref:System.Windows.Forms.DataGridViewTriState&gt;或&lt;xref:System.Windows.Forms.DataGridViewTriState&gt;，不過，則會忽略控制項值。&lt;/xref:System.Windows.Forms.DataGridViewTriState&gt; &lt;/xref:System.Windows.Forms.DataGridViewTriState&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Set Resizable to &lt;xref:System.Windows.Forms.DataGridViewTriState&gt; to restore the value-inheritance behavior.</source>
+          <target state="translated">若要設定可以調大小&lt;xref:System.Windows.Forms.DataGridViewTriState&gt;還原值繼承行為。&lt;/xref:System.Windows.Forms.DataGridViewTriState&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Because &lt;xref:System.Windows.Forms.DataGridViewTriState&gt; restores the value inheritance, the Resizable property will never return a &lt;xref:System.Windows.Forms.DataGridViewTriState&gt; value unless the column has not been added to a &lt;xref:System.Windows.Forms.DataGridView&gt; control.</source>
+          <target state="translated">因為&lt;xref:System.Windows.Forms.DataGridViewTriState&gt;還原繼承的值，永遠不會傳回可調整大小屬性&lt;xref:System.Windows.Forms.DataGridViewTriState&gt;值，除非資料行尚未加入至&lt;xref:System.Windows.Forms.DataGridView&gt;控制項。&lt;/xref:System.Windows.Forms.DataGridView&gt; &lt;/xref:System.Windows.Forms.DataGridViewTriState&gt; &lt;/xref:System.Windows.Forms.DataGridViewTriState&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>If you need to determine whether the Resizable property value of a column is inherited, check its &lt;xref:System.Windows.Forms.DataGridViewElement.State%2A&gt; property.</source>
+          <target state="translated">如果您需要判斷是否要繼承的資料行可調整大小的屬性值，請檢查其&lt;xref:System.Windows.Forms.DataGridViewElement.State%2A&gt;屬性。&lt;/xref:System.Windows.Forms.DataGridViewElement.State%2A&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Forms.DataGridViewElement.State%2A&gt; property value includes the &lt;xref:System.Windows.Forms.DataGridViewElementStates&gt; flag, the Resizable property value is not inherited.</source>
+          <target state="translated">如果&lt;xref:System.Windows.Forms.DataGridViewElement.State%2A&gt;屬性值包含&lt;xref:System.Windows.Forms.DataGridViewElementStates&gt;旗標，可調整大小的屬性值不會繼承。&lt;/xref:System.Windows.Forms.DataGridViewElementStates&gt; &lt;/xref:System.Windows.Forms.DataGridViewElement.State%2A&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewTriState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewTriState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewTriState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewTriState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets or sets the site of the column.</source>
+          <target state="translated">取得或設定資料行的站台。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the column, if any.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>資料行相關聯，如果有的話。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Gets or sets the sort mode for the column.</source>
+          <target state="translated">取得或設定資料行的排序模式。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>When a &lt;xref:System.Windows.Forms.DataGridView&gt; control is sorted using a column with a SortMode property value of &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;, a sorting glyph is automatically displayed in the column header.</source>
+          <target state="translated">當&lt;xref:System.Windows.Forms.DataGridView&gt;使用資料行的 SortMode 屬性值與排序控制項&lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;，排序圖像會自動顯示在資料行標頭。&lt;/xref:System.Windows.Forms.DataGridViewColumnSortMode&gt; &lt;/xref:System.Windows.Forms.DataGridView&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Starting in the <ph id="ph1">[!INCLUDE[net_2015](~/add/includes/net-2015-md.md)]</ph>, the sorting glyph is resized according to the system DPI settings when the app.config file contains the following entry:      <ph id="ph2">```   &lt;appSettings&gt;     &lt;add key="EnableWindowsFormsHighDpiAutoResizing" value="true" /&gt;   &lt;/appSettings&gt;   ```</ph>       When the control is sorted using a column with a SortMode property value of &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;, you must display the sorting glyph yourself through the &lt;xref:System.Windows.Forms.DataGridViewColumnHeaderCell.SortGlyphDirection%2A&gt; property.</source>
+          <target state="translated">從開始<ph id="ph1">[!INCLUDE[net_2015](~/add/includes/net-2015-md.md)]</ph>，當 app.config 檔案包含下列項目根據系統 DPI 設定來調整排序圖像︰<ph id="ph2">```   &lt;appSettings&gt;     &lt;add key="EnableWindowsFormsHighDpiAutoResizing" value="true" /&gt;   &lt;/appSettings&gt;   ```</ph>時使用的資料行的 SortMode 屬性值與排序控制項&lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;，您必須顯示排序圖像自行透過&lt;xref:System.Windows.Forms.DataGridViewColumnHeaderCell.SortGlyphDirection%2A&gt;屬性。&lt;/xref:System.Windows.Forms.DataGridViewColumnHeaderCell.SortGlyphDirection%2A&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The default sort mode of a &lt;xref:System.Windows.Forms.DataGridViewTextBoxColumn&gt; is &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.DataGridViewTextBoxColumn&gt;為&lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;。&lt;/xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;&lt;/xref:System.Windows.Forms.DataGridViewTextBoxColumn&gt;預設排序模式</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The default sort mode for other column types is &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;.</source>
+          <target state="translated">其他資料行類型的預設排序模式是&lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;.&lt;/xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The SortMode value does not prevent you from sorting a column programmatically, although other restrictions may apply.</source>
+          <target state="translated">SortMode 值不會阻止您排序資料行，以程式設計的方式，雖然可能適用其他限制。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Windows.Forms.DataGridView.Sort%2A&gt; method.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Windows.Forms.DataGridView.Sort%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataGridView.Sort%2A&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>A SortMode property value of &lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt; will not prevent the &lt;xref:System.Windows.Forms.DataGridView.ColumnHeaderMouseClick?displayProperty=fullName&gt; event from occurring, but it will prevent the header from changing its appearance when it is clicked.</source>
+          <target state="translated">SortMode 屬性值&lt;xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;也不會阻止&lt;xref:System.Windows.Forms.DataGridView.ColumnHeaderMouseClick?displayProperty=fullName&gt;事件發生，但它會造成無法按下時會變更其外觀的標頭。&lt;/xref:System.Windows.Forms.DataGridView.ColumnHeaderMouseClick?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumnSortMode&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumnSortMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the criteria used to order the rows based on the cell values in a column.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.DataGridViewColumnSortMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定用來排序資料行儲存格的值為基礎的資料列的準則。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The value assigned to the property conflicts with &lt;xref:System.Windows.Forms.DataGridView.SelectionMode*&gt;.</source>
+          <target state="translated">指派給屬性與&lt;xref:System.Windows.Forms.DataGridView.SelectionMode*&gt;.&lt;/xref:System.Windows.Forms.DataGridView.SelectionMode*&gt;衝突的值</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text used for ToolTips.</source>
+          <target state="translated">取得或設定用於工具提示的文字。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The column's ToolTip displays when the mouse pointer rests on the column header.</source>
+          <target state="translated">滑鼠指標停留在資料行標頭上時，會顯示資料行的工具提示。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The text to display as a ToolTip for the column.</source>
+          <target state="translated">要顯示為資料行的工具提示文字。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Gets a string that describes the column.</source>
+          <target state="translated">取得描述資料行的字串。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>This method overrides the &lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">這個方法會覆寫&lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Object.ToString%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The returned string contains the &lt;xref:System.Windows.Forms.DataGridViewColumn.Name%2A&gt; and &lt;xref:System.Windows.Forms.DataGridViewBand.Index%2A&gt; properties of the &lt;xref:System.Windows.Forms.DataGridViewColumn&gt;.</source>
+          <target state="translated">傳回的字串包含&lt;xref:System.Windows.Forms.DataGridViewColumn.Name%2A&gt;和&lt;xref:System.Windows.Forms.DataGridViewBand.Index%2A&gt;&lt;xref:System.Windows.Forms.DataGridViewColumn&gt;.&lt;/xref:System.Windows.Forms.DataGridViewColumn&gt;屬性&lt;/xref:System.Windows.Forms.DataGridViewBand.Index%2A&gt;&lt;/xref:System.Windows.Forms.DataGridViewColumn.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that describes the column.</source>
+          <target state="translated">A&lt;xref:System.String&gt;描述資料行。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Gets or sets the data type of the values in the column's cells.</source>
+          <target state="translated">取得或設定值的資料類型資料行的資料格中。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>This property is used when filtering or sorting the columns with respect to the contents of their cells.</source>
+          <target state="translated">這個屬性用於篩選或排序的資料行，其儲存格的內容。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that describes the run-time class of the values stored in the column's cells.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;描述儲存在資料行的資料格的值的執行階段類別。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the column is visible.</source>
+          <target state="translated">取得或設定值，指出資料行是否為可見。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Use this property to hide a column from view while keeping the column in the &lt;xref:System.Windows.Forms.DataGridView&gt;.</source>
+          <target state="translated">使用這個屬性來隱藏檢視同時&lt;xref:System.Windows.Forms.DataGridView&gt;。&lt;/xref:System.Windows.Forms.DataGridView&gt;保留資料行中的資料行</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>To completely remove a column, use the &lt;xref:System.Windows.Forms.DataGridViewColumnCollection.Remove%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">若要完全移除資料行，使用&lt;xref:System.Windows.Forms.DataGridViewColumnCollection.Remove%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Windows.Forms.DataGridViewColumnCollection.Remove%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>To hide a column that is automatically generated when binding to a data source, set this property in a &lt;xref:System.Windows.Forms.DataGridView.DataBindingComplete&gt; event handler.</source>
+          <target state="translated">若要隱藏的資料行，當繫結至資料來源，以設定此屬性會自動產生&lt;xref:System.Windows.Forms.DataGridView.DataBindingComplete&gt;事件處理常式。&lt;/xref:System.Windows.Forms.DataGridView.DataBindingComplete&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the column is visible; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料行是可見的。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Gets or sets the current width of the column.</source>
+          <target state="translated">取得或設定目前的資料行寬度。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>If the specified value when setting this property is less than the value of the &lt;xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt; property, the &lt;xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt; property value is used instead.</source>
+          <target state="translated">如果指定的值設定這個屬性時的值少於&lt;xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt;屬性，&lt;xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt;改為使用屬性值。&lt;/xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt; &lt;/xref:System.Windows.Forms.DataGridViewColumn.MinimumWidth%2A&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The width, in pixels, of the column.</source>
+          <target state="translated">寬度 （以像素的資料行）。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The default is 100.</source>
+          <target state="translated">預設值為 100。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The specified value when setting this property is greater than 65536.</source>
+          <target state="translated">設定這個屬性時所指定的值大於 65536。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

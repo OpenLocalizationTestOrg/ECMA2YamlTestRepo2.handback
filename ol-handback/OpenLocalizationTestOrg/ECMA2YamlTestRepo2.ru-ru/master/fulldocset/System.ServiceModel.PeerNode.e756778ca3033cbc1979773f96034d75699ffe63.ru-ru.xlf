@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b32176d6089fbbc162329a5d737b8d1019d7145</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.PeerNode.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7aaa79ec403146daf6303070b016f4e253f0913b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cc877a1d3b71f4be4bd47f8fb52425748b7fef15</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the instance of of a peer node used by an application participating in a specific peer mesh.</source>
+          <target state="translated">Определяет экземпляр однорангового узла, используемого приложением, участвующих в конкретной сетке узлов.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A peer node can host multiple peer channels within the mesh as long as they share a common URI and host name in the &lt;xref:System.ServiceModel.EndpointAddress&gt; supplied to the binding for each channel.</source>
+          <target state="translated">Одноранговый узел может содержать несколько одноранговых каналов в сетке, пока они совместно используют общий URI и имя узла в &lt;xref:System.ServiceModel.EndpointAddress&gt;предоставленном привязке для каждого канала.&lt;/xref:System.ServiceModel.EndpointAddress&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If two or more peer channels defined for a peer node are created with separate bindings, then the &lt;xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;, &lt;xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt;, and &lt;xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt; properties must be identical on all bindings.</source>
+          <target state="translated">Если два или более одноранговых каналов, определенных для однорангового узла, созданы с помощью разных привязок, то &lt;xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;, &lt;xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt;, и &lt;xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt;свойства должны быть идентичными для всех привязок.&lt;/xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt; &lt;/xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt; &lt;/xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a subsequent channel binding is created after the first one for the same peer node instance, then the &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; property on this and subsequent bindings must be less than or equal to the value of &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; property as set on the first channel binding.</source>
+          <target state="translated">Если последующая привязка канала создается после первой для того же экземпляра однорангового узла, а затем &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;Свойства для данного и последующей привязок должно быть меньше или равно значение &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;Свойства, заданному для первой привязки канала.&lt;/xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; &lt;/xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the peer node is online and able to send messages to neighboring nodes in the peer mesh.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли одноранговый узел подключен к сети и может отправлять сообщения в соседние узлы в сетке.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>"Online" indicates that a peer node has available neighbor nodes.</source>
+          <target state="translated">«Документация» указывает, что одноранговый узел имеет доступных соседних узлов.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>"Offline" indicates that a peer node has no available neighbors.</source>
+          <target state="translated">««Offline» указывает, что одноранговый узел имеет нет доступных соседних узлов.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the peer node is online; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если одноранговый узел подключен к сети; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Gets and sets a custom filter for messages received over the peer channel.</source>
+          <target state="translated">Возвращает и задает настраиваемый фильтр для сообщений, полученных по одноранговому каналу.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The message filter must be a derived type and should be recast to that type to use any custom features defined on it.</source>
+          <target state="translated">Фильтр сообщений должен принадлежать к унаследованному типу и должен преобразовываться в этот тип, чтобы использовать все пользовательские функции, определенные в нем.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.ServiceModel.PeerMessagePropagationFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a custom message filter.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ServiceModel.PeerMessagePropagationFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>содержащий пользовательский фильтр сообщений.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">Канал не открыт для прослушивания.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Signals when the peer node goes offline from the peer mesh.</source>
+          <target state="translated">Сигнализирует одноранговый узел переходит в автономный режим из узла сетки.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An offline peer node has no neighbor nodes within the peer mesh to which it can connect.</source>
+          <target state="translated">Автономный одноранговый узел не имеет соседних узлов в одноранговой сети, к которому можно подключиться.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Signals when a peer node comes online within the peer mesh.</source>
+          <target state="translated">Сообщает, когда одноранговый узел станет доступной в сетке.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An online peer node has at least one neighbor node within the peer mesh to which it is connected.</source>
+          <target state="translated">Подключенный одноранговый узел имеет по крайней мере один соседний узел в одноранговой сети, к которому он подключен.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the network port on which the peer node is listening.</source>
+          <target state="translated">Возвращает сетевой порт, прослушиваемый одноранговым узлом.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Int32&gt; that specifies the network port on which the peer node is listening.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;которая указывает сетевой порт, прослушиваемый одноранговым узлом.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">Канал не открыт для прослушивания.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Refreshes the connection with the peer mesh.</source>
+          <target state="translated">Обновляет подключение к одноранговой сети.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">Канал не открыт для прослушивания.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The refresh operation timed out.</source>
+          <target state="translated">Истекло время ожидания операции обновления.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A network error occurred during the refresh attempt.</source>
+          <target state="translated">Произошла сетевая ошибка при попытке обновления.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The connection aborted during the refresh attempt.</source>
+          <target state="translated">Подключение прервано во время попытки обновления.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The connection faulted during the refresh attempt.</source>
+          <target state="translated">Сбой подключения при попытке обновления.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Provides a string representation of a peer node.</source>
+          <target state="translated">Предоставляет строковое представление однорангового узла.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; value that contains the mesh ID of the peer node if the mesh ID is set; otherwise, it returns the type.</source>
+          <target state="translated">&lt;xref:System.String&gt;значение, содержащее идентификатор сетки однорангового узла, если идентификатор сетки задан; в противном случае он возвращает тип.&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

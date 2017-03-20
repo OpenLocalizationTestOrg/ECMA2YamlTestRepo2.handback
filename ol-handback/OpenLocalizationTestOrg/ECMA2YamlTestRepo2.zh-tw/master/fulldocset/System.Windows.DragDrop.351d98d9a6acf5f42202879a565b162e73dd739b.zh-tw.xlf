@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c475ee6c641ea6197bc4e9a308608bec347c0745</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.DragDrop.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f9d3a1d343751bc7fc47719a15bb92ffd1e683e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5af2d74debf53ffa96569c75a508974014d516bc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides helper methods and fields for initiating drag-and-drop operations, including a method to begin a drag-and-drop operation, and facilities for adding and removing drag-and-drop related event handlers.</source>
+          <target state="translated">提供 helper 方法和欄位啟始拖放作業，包括方法開始拖放作業，並新增和移除拖放相關的事件處理常式的功能。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Drag-and-drop commonly refers to a method of data transfer that involves using a mouse (or some other pointing device) to select one or more objects, dragging these objects over some desired drop target in the <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph>, and dropping them.</source>
+          <target state="translated">拖放一般是指涉及使用滑鼠 （或其他一些指標裝置） 選取一或多個物件，這些物件拖曳中一些想要的置放目標的資料傳輸方法<ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph>，並且卸除它們。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A drag-and-drop operation is analogous to a copy (or cut)-and-paste operation that is used to transfer data from one object or application to another.</source>
+          <target state="translated">拖放作業相當於複本 （或剪下）-和-貼上用來將資料從一個物件或應用程式之間傳輸的作業。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Drag-and-drop operations typically involve two parties: a drag source from which the dragged data originates and a drop target which receives the dropped data.</source>
+          <target state="translated">拖放作業通常牽涉到兩個合作對象︰ 從拖曳來源被拖曳的資料來源以及在置放目標會接收已卸除的資料。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The events and methods required for drag-and-drop operations are defined in the DragDrop class.</source>
+          <target state="translated">拖放類別中定義的事件和拖放作業所需的方法。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The drag-and-drop events are attached events that can be attached to any &lt;xref:System.Windows.UIElement&gt; or &lt;xref:System.Windows.ContentElement&gt;.</source>
+          <target state="translated">拖放事件都是可附加至任何&lt;xref:System.Windows.UIElement&gt;或&lt;xref:System.Windows.ContentElement&gt;.&lt;/xref:System.Windows.ContentElement&gt;&lt;/xref:System.Windows.UIElement&gt;的附加的事件</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The drag source and drop target may be UI elements in the same application or in different applications.</source>
+          <target state="translated">拖曳來源和置放目標可能會在相同的應用程式或不同的應用程式的 UI 項目。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>However, the drop target must know how to process the data being passed by the drag source.</source>
+          <target state="translated">不過，在置放目標必須知道如何處理拖曳來源傳遞的資料。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Windows.UIElement&gt; and &lt;xref:System.Windows.ContentElement&gt; classes contain aliases for the drag-and-drop events so that the events appear in the class members list when these classes are inherited as a base class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;&lt;xref:System.Windows.UIElement&gt;和&lt;xref:System.Windows.ContentElement&gt;類別包含拖放事件的別名，讓事件出現在類別成員清單時，這些類別繼承基底類別。&lt;/xref:System.Windows.ContentElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When you attach an event handler to a drag-and-drop event on one of these classes, the handler is attached to the underlying DragDrop event and they receive the same instance of event data.</source>
+          <target state="translated">事件處理常式附加至這些類別的其中一個上拖放事件時，此處理常式附加至基本的拖放事件，而且它們會接收事件資料的相同執行個體。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, see &lt;xref:System.Windows.UIElement.Drop?displayProperty=fullName&gt;.</source>
+          <target state="translated">例如，請參閱&lt;xref:System.Windows.UIElement.Drop?displayProperty=fullName&gt;.&lt;/xref:System.Windows.UIElement.Drop?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The drag source initiates a drag-and-drop operation by calling the static &lt;xref:System.Windows.DragDrop.DoDragDrop%2A&gt; method and passing the transferred data to it.</source>
+          <target state="translated">拖曳來源藉由呼叫靜態&lt;xref:System.Windows.DragDrop.DoDragDrop%2A&gt;方法和傳遞傳送的資料。 請&lt;/xref:System.Windows.DragDrop.DoDragDrop%2A&gt;啟始拖放作業</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>An element typically handles the following events when it is a drag source:      -   &lt;xref:System.Windows.DragDrop.GiveFeedback&gt;      -   &lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt;       An element typically handles the following events when it is a drop target:      -   &lt;xref:System.Windows.DragDrop.DragEnter&gt;      -   &lt;xref:System.Windows.DragDrop.DragLeave&gt;      -   &lt;xref:System.Windows.DragDrop.DragOver&gt;      -   &lt;xref:System.Windows.DragDrop.Drop&gt;       For more information and examples, see <bpt id="p1">[</bpt>Drag and Drop Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">項目通常會處理下列事件時拖曳來源:- &lt;xref:System.Windows.DragDrop.GiveFeedback&gt;-&lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt;項目通常會處理下列事件時，它在置放目標:- &lt;xref:System.Windows.DragDrop.DragEnter&gt;- &lt;xref:System.Windows.DragDrop.DragLeave&gt;- &lt;xref:System.Windows.DragDrop.DragOver&gt;-&lt;xref:System.Windows.DragDrop.Drop&gt;如需詳細資訊和範例，請參閱<bpt id="p1">[</bpt>拖曳和卸除概觀<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Windows.DragDrop.Drop&gt; &lt;/xref:System.Windows.DragDrop.DragOver&gt; &lt;/xref:System.Windows.DragDrop.DragLeave&gt; &lt;/xref:System.Windows.DragDrop.DragEnter&gt; &lt;/xref:System.Windows.DragDrop.QueryContinueDrag&gt; &lt;/xref:System.Windows.DragDrop.GiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Windows.DragDrop.DragEnter&gt; event handler to a specified dependency object.</source>
+          <target state="translated">新增&lt;xref:System.Windows.DragDrop.DragEnter&gt;事件處理常式加入指定相依性物件。&lt;/xref:System.Windows.DragDrop.DragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.DragEnter&gt; event occurs when an object is dragged into the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.DragEnter&gt;物件拖曳至目的範圍時，就會發生事件。&lt;/xref:System.Windows.DragDrop.DragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This method adds a handler for the bubbling version of the &lt;xref:System.Windows.DragDrop.DragEnter&gt; event.</source>
+          <target state="translated">這個方法會加入處理常式的反昇新版&lt;xref:System.Windows.DragDrop.DragEnter&gt;事件。&lt;/xref:System.Windows.DragDrop.DragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To add a handler for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.AddPreviewDragEnterHandler%2A&gt;.</source>
+          <target state="translated">若要加入的通道的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.AddPreviewDragEnterHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.AddPreviewDragEnterHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to which to add the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，以加入事件處理常式。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be added.</source>
+          <target state="translated">參考要加入的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Windows.DragDrop.DragLeave&gt; event handler to a specified dependency object.</source>
+          <target state="translated">新增&lt;xref:System.Windows.DragDrop.DragLeave&gt;事件處理常式加入指定相依性物件。&lt;/xref:System.Windows.DragDrop.DragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.DragLeave&gt; event occurs when an object is dragged out of the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.DragLeave&gt;物件拖出的項目界限，就會發生事件。&lt;/xref:System.Windows.DragDrop.DragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This method adds a handler for the bubbling version of the &lt;xref:System.Windows.DragDrop.DragLeave&gt; event.</source>
+          <target state="translated">這個方法會加入處理常式的反昇新版&lt;xref:System.Windows.DragDrop.DragLeave&gt;事件。&lt;/xref:System.Windows.DragDrop.DragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To add a handler for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.AddPreviewDragLeaveHandler%2A&gt;.</source>
+          <target state="translated">若要加入的通道的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.AddPreviewDragLeaveHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.AddPreviewDragLeaveHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to which to add the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，以加入事件處理常式。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be added.</source>
+          <target state="translated">參考要加入的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Windows.DragDrop.DragOver&gt; event handler to a specified dependency object.</source>
+          <target state="translated">新增&lt;xref:System.Windows.DragDrop.DragOver&gt;事件處理常式加入指定相依性物件。&lt;/xref:System.Windows.DragDrop.DragOver&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.DragOver&gt; event occurs when an object is dragged over the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.DragOver&gt;項目的界限拖曳物件時，就會發生事件。&lt;/xref:System.Windows.DragDrop.DragOver&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This method adds a handler for the bubbling version of the &lt;xref:System.Windows.DragDrop.DragOver&gt; event.</source>
+          <target state="translated">這個方法會加入處理常式的反昇新版&lt;xref:System.Windows.DragDrop.DragOver&gt;事件。&lt;/xref:System.Windows.DragDrop.DragOver&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To add a handler for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.AddPreviewDragOverHandler%2A&gt;.</source>
+          <target state="translated">若要加入的通道的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.AddPreviewDragOverHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.AddPreviewDragOverHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to which to add the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，以加入事件處理常式。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be added.</source>
+          <target state="translated">參考要加入的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Windows.DragDrop.Drop&gt; event handler to a specified dependency object.</source>
+          <target state="translated">新增&lt;xref:System.Windows.DragDrop.Drop&gt;事件處理常式加入指定相依性物件。&lt;/xref:System.Windows.DragDrop.Drop&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.Drop&gt; event occurs when an object is dropped within an element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.Drop&gt;物件卸除的項目範圍內時，就會發生事件。&lt;/xref:System.Windows.DragDrop.Drop&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This method adds a handler for the bubbling version of the &lt;xref:System.Windows.DragDrop.Drop&gt; event.</source>
+          <target state="translated">這個方法會加入處理常式的反昇新版&lt;xref:System.Windows.DragDrop.Drop&gt;事件。&lt;/xref:System.Windows.DragDrop.Drop&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To add a handler for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.AddPreviewDropHandler%2A&gt;.</source>
+          <target state="translated">若要加入的通道的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.AddPreviewDropHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.AddPreviewDropHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to which to add the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，以加入事件處理常式。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be added.</source>
+          <target state="translated">參考要加入的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Windows.DragDrop.GiveFeedback&gt; event handler to a specified dependency object.</source>
+          <target state="translated">新增&lt;xref:System.Windows.DragDrop.GiveFeedback&gt;事件處理常式加入指定相依性物件。&lt;/xref:System.Windows.DragDrop.GiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.GiveFeedback&gt; event occurs during a drag operation.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.GiveFeedback&gt;拖曳作業期間發生的事件。&lt;/xref:System.Windows.DragDrop.GiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This method adds a handler for the bubbling version of the &lt;xref:System.Windows.DragDrop.GiveFeedback&gt; event.</source>
+          <target state="translated">這個方法會加入處理常式的反昇新版&lt;xref:System.Windows.DragDrop.GiveFeedback&gt;事件。&lt;/xref:System.Windows.DragDrop.GiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To add a handler for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.AddPreviewGiveFeedbackHandler%2A&gt;.</source>
+          <target state="translated">若要加入的通道的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.AddPreviewGiveFeedbackHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.AddPreviewGiveFeedbackHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to which to add the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，以加入事件處理常式。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be added.</source>
+          <target state="translated">參考要加入的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt; event handler to a specified dependency object.</source>
+          <target state="translated">新增&lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt;事件處理常式加入指定相依性物件。&lt;/xref:System.Windows.DragDrop.PreviewDragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt; event occurs when an object is dragged into the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt;物件拖曳至目的範圍時，就會發生事件。&lt;/xref:System.Windows.DragDrop.PreviewDragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This method adds a handler for the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt; event.</source>
+          <target state="translated">這個方法會加入處理常式的通道版本&lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewDragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To add a handler for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.AddDragEnterHandler%2A&gt;.</source>
+          <target state="translated">若要加入此事件反昇版本的處理常式，請參閱&lt;xref:System.Windows.DragDrop.AddDragEnterHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.AddDragEnterHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to which to add the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，以加入事件處理常式。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be added.</source>
+          <target state="translated">參考要加入的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt; event handler to a specified dependency object.</source>
+          <target state="translated">新增&lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt;事件處理常式加入指定相依性物件。&lt;/xref:System.Windows.DragDrop.PreviewDragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt; event occurs when an object is dragged out of the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt;物件拖出的項目界限，就會發生事件。&lt;/xref:System.Windows.DragDrop.PreviewDragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This method adds a handler for the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt; event.</source>
+          <target state="translated">這個方法會加入處理常式的通道版本&lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewDragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To add a handler for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.AddDragLeaveHandler%2A&gt;.</source>
+          <target state="translated">若要加入此事件反昇版本的處理常式，請參閱&lt;xref:System.Windows.DragDrop.AddDragLeaveHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.AddDragLeaveHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to which to add the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，以加入事件處理常式。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be added.</source>
+          <target state="translated">參考要加入的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Windows.DragDrop.PreviewDragOver&gt; event handler to a specified dependency object.</source>
+          <target state="translated">新增&lt;xref:System.Windows.DragDrop.PreviewDragOver&gt;事件處理常式加入指定相依性物件。&lt;/xref:System.Windows.DragDrop.PreviewDragOver&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewDragOver&gt; event occurs when n object is dragged over the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDragOver&gt;n 個物件拖曳的項目邊框上方時，就會發生事件。&lt;/xref:System.Windows.DragDrop.PreviewDragOver&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This method adds a handler for the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewDragOver&gt; event.</source>
+          <target state="translated">這個方法會加入處理常式的通道版本&lt;xref:System.Windows.DragDrop.PreviewDragOver&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewDragOver&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To add a handler for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.AddDragOverHandler%2A&gt;.</source>
+          <target state="translated">若要加入此事件反昇版本的處理常式，請參閱&lt;xref:System.Windows.DragDrop.AddDragOverHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.AddDragOverHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to which to add the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，以加入事件處理常式。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be added.</source>
+          <target state="translated">參考要加入的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Windows.DragDrop.PreviewDrop&gt; event handler to a specified dependency object.</source>
+          <target state="translated">新增&lt;xref:System.Windows.DragDrop.PreviewDrop&gt;事件處理常式加入指定相依性物件。&lt;/xref:System.Windows.DragDrop.PreviewDrop&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewDrop&gt; event occurs when an object is dropped within an element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDrop&gt;物件卸除的項目範圍內時，就會發生事件。&lt;/xref:System.Windows.DragDrop.PreviewDrop&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This method adds a handler for the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewDrop&gt; event.</source>
+          <target state="translated">這個方法會加入處理常式的通道版本&lt;xref:System.Windows.DragDrop.PreviewDrop&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewDrop&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To add a handler for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.AddDropHandler%2A&gt;.</source>
+          <target state="translated">若要加入此事件反昇版本的處理常式，請參閱&lt;xref:System.Windows.DragDrop.AddDropHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.AddDropHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to which to add the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，以加入事件處理常式。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be added.</source>
+          <target state="translated">參考要加入的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt; event handler to a specified dependency object.</source>
+          <target state="translated">新增&lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;事件處理常式加入指定相依性物件。&lt;/xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt; event occurs during a drag operation.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;拖曳作業期間發生的事件。&lt;/xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This method adds a handler for the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt; event.</source>
+          <target state="translated">這個方法會加入處理常式的通道版本&lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To add a handler for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.AddGiveFeedbackHandler%2A&gt;.</source>
+          <target state="translated">若要加入此事件反昇版本的處理常式，請參閱&lt;xref:System.Windows.DragDrop.AddGiveFeedbackHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.AddGiveFeedbackHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to which to add the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，以加入事件處理常式。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be added.</source>
+          <target state="translated">參考要加入的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt; event handler to a specified dependency object.</source>
+          <target state="translated">新增&lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;事件處理常式加入指定相依性物件。&lt;/xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt; event occurs during a drag-and-drop operation, and enables the drag source to determine whether the drag-and-drop operation should be canceled.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;事件發生於拖放作業，並可讓拖曳來源能夠決定是否應取消拖放作業。&lt;/xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This method adds a handler for the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt; event.</source>
+          <target state="translated">這個方法會加入處理常式的通道版本&lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To add a handler for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.AddQueryContinueDragHandler%2A&gt;.</source>
+          <target state="translated">若要加入此事件反昇版本的處理常式，請參閱&lt;xref:System.Windows.DragDrop.AddQueryContinueDragHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.AddQueryContinueDragHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to which to add the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，以加入事件處理常式。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be added.</source>
+          <target state="translated">參考要加入的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt; event handler to a specified dependency object.</source>
+          <target state="translated">新增&lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt;事件處理常式加入指定相依性物件。&lt;/xref:System.Windows.DragDrop.QueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt; event occurs during a drag-and-drop operation, and enables the drag source to determine whether the drag-and-drop operation should be canceled.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt;事件發生於拖放作業，並可讓拖曳來源能夠決定是否應取消拖放作業。&lt;/xref:System.Windows.DragDrop.QueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This method adds a handler for the bubbling version of the &lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt; event.</source>
+          <target state="translated">這個方法會加入處理常式的反昇新版&lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt;事件。&lt;/xref:System.Windows.DragDrop.QueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To add a handler for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.AddPreviewQueryContinueDragHandler%2A&gt;.</source>
+          <target state="translated">若要加入的通道的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.AddPreviewQueryContinueDragHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.AddPreviewQueryContinueDragHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) to which to add the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>)，以加入事件處理常式。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be added.</source>
+          <target state="translated">參考要加入的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Initiates a drag-and-drop operation.</source>
+          <target state="translated">啟始拖放作業。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>It is the responsibility of your application to determine when a drag occurs, and then initiate the drag-and-drop operation.</source>
+          <target state="translated">負責應用程式，判斷拖曳，就會發生，然後再啟始拖放作業。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Typically, this is when a &lt;xref:System.Windows.UIElement.MouseDown&gt; and &lt;xref:System.Windows.UIElement.MouseMove&gt; sequence of events occurs over the element to be dragged.</source>
+          <target state="translated">一般而言，這是當&lt;xref:System.Windows.UIElement.MouseDown&gt;和&lt;xref:System.Windows.UIElement.MouseMove&gt;事件的順序來拖曳出來，放在元素上方，就會發生。&lt;/xref:System.Windows.UIElement.MouseMove&gt; &lt;/xref:System.Windows.UIElement.MouseDown&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>You initiate the drag-and-drop operation by calling the static DoDragDrop method and passing the transferred data to it.</source>
+          <target state="translated">您可以起始拖放作業呼叫靜態 DoDragDrop 方法並傳遞給它來傳送的資料。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The DoDragDrop method will automatically wrap the data in a &lt;xref:System.Windows.DataObject&gt; if necessary.</source>
+          <target state="translated">DoDragDrop 方法會自動換行中的資料&lt;xref:System.Windows.DataObject&gt;視。&lt;/xref:System.Windows.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For greater control over the data format, you can wrap the data in a &lt;xref:System.Windows.DataObject&gt; before passing it to the DoDragDrop method.</source>
+          <target state="translated">為了進一步控制資料格式的詳細資訊，您可以將資料包裝在&lt;xref:System.Windows.DataObject&gt;再將它傳遞至 DoDragDrop 方法。&lt;/xref:System.Windows.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The value returned from the DoDragDrop method is the value of the &lt;xref:System.Windows.DragEventArgs.Effects%2A?displayProperty=fullName&gt; property set in the drop target’s &lt;xref:System.Windows.DragDrop.Drop&gt; event handler.</source>
+          <target state="translated">從 DoDragDrop 方法傳回的值是值&lt;xref:System.Windows.DragEventArgs.Effects%2A?displayProperty=fullName&gt;中拖放目標屬性設定&lt;xref:System.Windows.DragDrop.Drop&gt;事件處理常式。&lt;/xref:System.Windows.DragDrop.Drop&gt; &lt;/xref:System.Windows.DragEventArgs.Effects%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If the return value does not match one of the <ph id="ph1">`allowedEffects`</ph> specified in the call to DoDragDrop, the drag-and-drop operation is not performed.</source>
+          <target state="translated">如果傳回的值不符合其中一個<ph id="ph1">`allowedEffects`</ph>DoDragDrop 呼叫中指定，拖放作業不會執行。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>A reference to the dependency object that is the source of the data being dragged.</source>
+          <target state="translated">正在拖曳的資料來源的相依性物件的參考。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A data object that contains the data being dragged.</source>
+          <target state="translated">資料物件，其中包含正在拖曳的資料。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.DragDropEffects"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies permitted effects of the drag-and-drop operation.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.DragDropEffects"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定允許拖放作業的效果。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.DragDropEffects"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the final effect that was performed during the drag-and-drop operation.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.DragDropEffects"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，指定拖放作業時執行的最終效果。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;dragSource&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;dragSource&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.DragDrop.DragEnter&gt; attached event.</source>
+          <target state="translated">識別&lt;xref:System.Windows.DragDrop.DragEnter&gt;附加事件。&lt;/xref:System.Windows.DragDrop.DragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.DragEnter&gt; event occurs when an object is dragged into the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.DragEnter&gt;物件拖曳至目的範圍時，就會發生事件。&lt;/xref:System.Windows.DragDrop.DragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This field identifies the bubbling version of the &lt;xref:System.Windows.DragDrop.DragEnter&gt; event.</source>
+          <target state="translated">此欄位會識別反昇新版&lt;xref:System.Windows.DragDrop.DragEnter&gt;事件。&lt;/xref:System.Windows.DragDrop.DragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For an identifier for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.PreviewDragEnterEvent&gt;.</source>
+          <target state="translated">此事件的通道版本識別項，請參閱&lt;xref:System.Windows.DragDrop.PreviewDragEnterEvent&gt;.&lt;/xref:System.Windows.DragDrop.PreviewDragEnterEvent&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.DragDrop.DragLeave&gt; attached event</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.DragLeave&gt;附加事件&lt;/xref:System.Windows.DragDrop.DragLeave&gt;的識別</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.DragLeave&gt; event occurs when an object is dragged out of the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.DragLeave&gt;物件拖出的項目界限，就會發生事件。&lt;/xref:System.Windows.DragDrop.DragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This field identifies the bubbling version of the &lt;xref:System.Windows.DragDrop.DragLeave&gt; event.</source>
+          <target state="translated">此欄位會識別反昇新版&lt;xref:System.Windows.DragDrop.DragLeave&gt;事件。&lt;/xref:System.Windows.DragDrop.DragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>For an identifier for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.PreviewDragLeaveEvent&gt;.</source>
+          <target state="translated">此事件的通道版本識別項，請參閱&lt;xref:System.Windows.DragDrop.PreviewDragLeaveEvent&gt;.&lt;/xref:System.Windows.DragDrop.PreviewDragLeaveEvent&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.DragDrop.DragOver&gt; attached event</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.DragOver&gt;附加事件&lt;/xref:System.Windows.DragDrop.DragOver&gt;的識別</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.DragOver&gt; event occurs when an object is dragged over the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.DragOver&gt;項目的界限拖曳物件時，就會發生事件。&lt;/xref:System.Windows.DragDrop.DragOver&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This field identifies the bubbling version of the &lt;xref:System.Windows.DragDrop.DragOver&gt; event.</source>
+          <target state="translated">此欄位會識別反昇新版&lt;xref:System.Windows.DragDrop.DragOver&gt;事件。&lt;/xref:System.Windows.DragDrop.DragOver&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For an identifier for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.PreviewDragOverEvent&gt;.</source>
+          <target state="translated">此事件的通道版本識別項，請參閱&lt;xref:System.Windows.DragDrop.PreviewDragOverEvent&gt;.&lt;/xref:System.Windows.DragDrop.PreviewDragOverEvent&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.DragDrop.Drop&gt; attached event</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.Drop&gt;附加事件&lt;/xref:System.Windows.DragDrop.Drop&gt;的識別</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.Drop&gt; event occurs when an object is dropped within an element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.Drop&gt;物件卸除的項目範圍內時，就會發生事件。&lt;/xref:System.Windows.DragDrop.Drop&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>This field identifies the bubbling version of the &lt;xref:System.Windows.DragDrop.Drop&gt; event.</source>
+          <target state="translated">此欄位會識別反昇新版&lt;xref:System.Windows.DragDrop.Drop&gt;事件。&lt;/xref:System.Windows.DragDrop.Drop&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>For an identifier for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.PreviewDropEvent&gt;.</source>
+          <target state="translated">此事件的通道版本識別項，請參閱&lt;xref:System.Windows.DragDrop.PreviewDropEvent&gt;.&lt;/xref:System.Windows.DragDrop.PreviewDropEvent&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.DragDrop.GiveFeedback&gt; attached event</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.GiveFeedback&gt;附加事件&lt;/xref:System.Windows.DragDrop.GiveFeedback&gt;的識別</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.GiveFeedback&gt; event occurs during a drag operation.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.GiveFeedback&gt;拖曳作業期間發生的事件。&lt;/xref:System.Windows.DragDrop.GiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This field identifies the bubbling version of the &lt;xref:System.Windows.DragDrop.GiveFeedback&gt; event.</source>
+          <target state="translated">此欄位會識別反昇新版&lt;xref:System.Windows.DragDrop.GiveFeedback&gt;事件。&lt;/xref:System.Windows.DragDrop.GiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For an identifier for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.PreviewGiveFeedbackEvent&gt;.</source>
+          <target state="translated">此事件的通道版本識別項，請參閱&lt;xref:System.Windows.DragDrop.PreviewGiveFeedbackEvent&gt;.&lt;/xref:System.Windows.DragDrop.PreviewGiveFeedbackEvent&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt; attached event</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt;附加事件&lt;/xref:System.Windows.DragDrop.PreviewDragEnter&gt;的識別</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt; event occurs when an object is dragged into the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt;物件拖曳至目的範圍時，就會發生事件。&lt;/xref:System.Windows.DragDrop.PreviewDragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This field identifies the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt; event.</source>
+          <target state="translated">此欄位會識別的通道版本&lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewDragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For an identifier for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.DragEnterEvent&gt;.</source>
+          <target state="translated">此事件反昇版本識別項，請參閱&lt;xref:System.Windows.DragDrop.DragEnterEvent&gt;.&lt;/xref:System.Windows.DragDrop.DragEnterEvent&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt; attached event</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt;附加事件&lt;/xref:System.Windows.DragDrop.PreviewDragLeave&gt;的識別</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt; event occurs when an object is dragged out of the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt;物件拖出的項目界限，就會發生事件。&lt;/xref:System.Windows.DragDrop.PreviewDragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This field identifies the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt; event.</source>
+          <target state="translated">此欄位會識別的通道版本&lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewDragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For an identifier for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.DragLeaveEvent&gt;.</source>
+          <target state="translated">此事件反昇版本識別項，請參閱&lt;xref:System.Windows.DragDrop.DragLeaveEvent&gt;.&lt;/xref:System.Windows.DragDrop.DragLeaveEvent&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.DragDrop.PreviewDragOver&gt; attached event</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDragOver&gt;附加事件&lt;/xref:System.Windows.DragDrop.PreviewDragOver&gt;的識別</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewDragOver&gt; event occurs when n object is dragged over the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDragOver&gt;n 個物件拖曳的項目邊框上方時，就會發生事件。&lt;/xref:System.Windows.DragDrop.PreviewDragOver&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This field identifies the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewDragOver&gt; event.</source>
+          <target state="translated">此欄位會識別的通道版本&lt;xref:System.Windows.DragDrop.PreviewDragOver&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewDragOver&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>For an identifier for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.DragOverEvent&gt;.</source>
+          <target state="translated">此事件反昇版本識別項，請參閱&lt;xref:System.Windows.DragDrop.DragOverEvent&gt;.&lt;/xref:System.Windows.DragDrop.DragOverEvent&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.DragDrop.PreviewDrop&gt; attached event</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDrop&gt;附加事件&lt;/xref:System.Windows.DragDrop.PreviewDrop&gt;的識別</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewDrop&gt; event occurs when an object is dropped within an element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDrop&gt;物件卸除的項目範圍內時，就會發生事件。&lt;/xref:System.Windows.DragDrop.PreviewDrop&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>This field identifies the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewDrop&gt; event.</source>
+          <target state="translated">此欄位會識別的通道版本&lt;xref:System.Windows.DragDrop.PreviewDrop&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewDrop&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>For an identifier for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.DropEvent&gt;.</source>
+          <target state="translated">此事件反昇版本識別項，請參閱&lt;xref:System.Windows.DragDrop.DropEvent&gt;.&lt;/xref:System.Windows.DragDrop.DropEvent&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt; attached event</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;附加事件&lt;/xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;的識別</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt; event occurs during a drag operation.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;拖曳作業期間發生的事件。&lt;/xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>This field identifies the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt; event.</source>
+          <target state="translated">此欄位會識別的通道版本&lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For an identifier for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.GiveFeedbackEvent&gt;.</source>
+          <target state="translated">此事件反昇版本識別項，請參閱&lt;xref:System.Windows.DragDrop.GiveFeedbackEvent&gt;.&lt;/xref:System.Windows.DragDrop.GiveFeedbackEvent&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt; attached event</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;附加事件&lt;/xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;的識別</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt; event occurs during a drag-and-drop operation, and enables the drag source to determine whether the drag-and-drop operation should be canceled.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;事件發生於拖放作業，並可讓拖曳來源能夠決定是否應取消拖放作業。&lt;/xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>This field identifies the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt; event.</source>
+          <target state="translated">此欄位會識別的通道版本&lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For an identifier for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.QueryContinueDragEvent&gt;.</source>
+          <target state="translated">此事件反昇版本識別項，請參閱&lt;xref:System.Windows.DragDrop.QueryContinueDragEvent&gt;.&lt;/xref:System.Windows.DragDrop.QueryContinueDragEvent&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt; attached event</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt;附加事件&lt;/xref:System.Windows.DragDrop.QueryContinueDrag&gt;的識別</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt; event occurs during a drag-and-drop operation, and enables the drag source to determine whether the drag-and-drop operation should be canceled.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt;事件發生於拖放作業，並可讓拖曳來源能夠決定是否應取消拖放作業。&lt;/xref:System.Windows.DragDrop.QueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This field identifies the bubbling version of the &lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt; event.</source>
+          <target state="translated">此欄位會識別反昇新版&lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt;事件。&lt;/xref:System.Windows.DragDrop.QueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>For an identifier for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.PreviewQueryContinueDragEvent&gt;.</source>
+          <target state="translated">此事件的通道版本識別項，請參閱&lt;xref:System.Windows.DragDrop.PreviewQueryContinueDragEvent&gt;.&lt;/xref:System.Windows.DragDrop.PreviewQueryContinueDragEvent&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Removes a &lt;xref:System.Windows.DragDrop.DragEnter&gt; event handler from a specified dependency object.</source>
+          <target state="translated">移除&lt;xref:System.Windows.DragDrop.DragEnter&gt;從所指定相依性物件的事件處理常式。&lt;/xref:System.Windows.DragDrop.DragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.DragEnter&gt; event occurs when an object is dragged into the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.DragEnter&gt;物件拖曳至目的範圍時，就會發生事件。&lt;/xref:System.Windows.DragDrop.DragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>This method removes a handler for the bubbling version of the &lt;xref:System.Windows.DragDrop.DragEnter&gt; event.</source>
+          <target state="translated">這個方法會移除的處理常式的反昇新版&lt;xref:System.Windows.DragDrop.DragEnter&gt;事件。&lt;/xref:System.Windows.DragDrop.DragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>To remove a handler for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.RemovePreviewDragEnterHandler%2A&gt;.</source>
+          <target state="translated">若要移除的通道的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.RemovePreviewDragEnterHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.RemovePreviewDragEnterHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) from which to remove the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) 要從中移除事件處理常式。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be removed.</source>
+          <target state="translated">參考要移除的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Removes a &lt;xref:System.Windows.DragDrop.DragLeave&gt; event handler from a specified dependency object.</source>
+          <target state="translated">移除&lt;xref:System.Windows.DragDrop.DragLeave&gt;從所指定相依性物件的事件處理常式。&lt;/xref:System.Windows.DragDrop.DragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.DragLeave&gt; event occurs when an object is dragged out of the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.DragLeave&gt;物件拖出的項目界限，就會發生事件。&lt;/xref:System.Windows.DragDrop.DragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>This method removes a handler for the bubbling version of the &lt;xref:System.Windows.DragDrop.DragLeave&gt; event.</source>
+          <target state="translated">這個方法會移除的處理常式的反昇新版&lt;xref:System.Windows.DragDrop.DragLeave&gt;事件。&lt;/xref:System.Windows.DragDrop.DragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>To remove a handler for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.RemovePreviewDragLeaveHandler%2A&gt;.</source>
+          <target state="translated">若要移除的通道的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.RemovePreviewDragLeaveHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.RemovePreviewDragLeaveHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) from which to remove the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) 要從中移除事件處理常式。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be removed.</source>
+          <target state="translated">參考要移除的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Removes a &lt;xref:System.Windows.DragDrop.DragOver&gt; event handler from a specified dependency object.</source>
+          <target state="translated">移除&lt;xref:System.Windows.DragDrop.DragOver&gt;從所指定相依性物件的事件處理常式。&lt;/xref:System.Windows.DragDrop.DragOver&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.DragOver&gt; event occurs when an object is dragged over the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.DragOver&gt;項目的界限拖曳物件時，就會發生事件。&lt;/xref:System.Windows.DragDrop.DragOver&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>This method removes a handler for the bubbling version of the &lt;xref:System.Windows.DragDrop.DragOver&gt; event.</source>
+          <target state="translated">這個方法會移除的處理常式的反昇新版&lt;xref:System.Windows.DragDrop.DragOver&gt;事件。&lt;/xref:System.Windows.DragDrop.DragOver&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>To remove a handler for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.RemovePreviewDragOverHandler%2A&gt;.</source>
+          <target state="translated">若要移除的通道的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.RemovePreviewDragOverHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.RemovePreviewDragOverHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) from which to remove the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) 要從中移除事件處理常式。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be removed.</source>
+          <target state="translated">參考要移除的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Removes a &lt;xref:System.Windows.DragDrop.Drop&gt; event handler from a specified dependency object.</source>
+          <target state="translated">移除&lt;xref:System.Windows.DragDrop.Drop&gt;從所指定相依性物件的事件處理常式。&lt;/xref:System.Windows.DragDrop.Drop&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.Drop&gt; event occurs when an object is dropped within an element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.Drop&gt;物件卸除的項目範圍內時，就會發生事件。&lt;/xref:System.Windows.DragDrop.Drop&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>This method removes a handler for the bubbling version of the &lt;xref:System.Windows.DragDrop.Drop&gt; event.</source>
+          <target state="translated">這個方法會移除的處理常式的反昇新版&lt;xref:System.Windows.DragDrop.Drop&gt;事件。&lt;/xref:System.Windows.DragDrop.Drop&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>To remove a handler for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.RemovePreviewDropHandler%2A&gt;.</source>
+          <target state="translated">若要移除的通道的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.RemovePreviewDropHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.RemovePreviewDropHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) from which to remove the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) 要從中移除事件處理常式。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be removed.</source>
+          <target state="translated">參考要移除的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Removes a &lt;xref:System.Windows.DragDrop.GiveFeedback&gt; event handler from a specified dependency object.</source>
+          <target state="translated">移除&lt;xref:System.Windows.DragDrop.GiveFeedback&gt;從所指定相依性物件的事件處理常式。&lt;/xref:System.Windows.DragDrop.GiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.GiveFeedback&gt; event occurs during a drag operation.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.GiveFeedback&gt;拖曳作業期間發生的事件。&lt;/xref:System.Windows.DragDrop.GiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>This method removes a handler for the bubbling version of the &lt;xref:System.Windows.DragDrop.GiveFeedback&gt; event.</source>
+          <target state="translated">這個方法會移除的處理常式的反昇新版&lt;xref:System.Windows.DragDrop.GiveFeedback&gt;事件。&lt;/xref:System.Windows.DragDrop.GiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>To remove a handler for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.RemovePreviewGiveFeedbackHandler%2A&gt;.</source>
+          <target state="translated">若要移除的通道的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.RemovePreviewGiveFeedbackHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.RemovePreviewGiveFeedbackHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) from which to remove the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) 要從中移除事件處理常式。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be removed.</source>
+          <target state="translated">參考要移除的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Removes a &lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt; event handler from a specified dependency object.</source>
+          <target state="translated">移除&lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt;從所指定相依性物件的事件處理常式。&lt;/xref:System.Windows.DragDrop.PreviewDragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt; event occurs when an object is dragged into the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt;物件拖曳至目的範圍時，就會發生事件。&lt;/xref:System.Windows.DragDrop.PreviewDragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>This method removes a handler for the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt; event.</source>
+          <target state="translated">這個方法會移除的處理常式的通道版本&lt;xref:System.Windows.DragDrop.PreviewDragEnter&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewDragEnter&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>To remove a handler for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.RemoveDragEnterHandler%2A&gt;.</source>
+          <target state="translated">若要移除反昇的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.RemoveDragEnterHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.RemoveDragEnterHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) from which to remove the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) 要從中移除事件處理常式。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be removed.</source>
+          <target state="translated">參考要移除的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Removes a &lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt; event handler from a specified dependency object.</source>
+          <target state="translated">移除&lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt;從所指定相依性物件的事件處理常式。&lt;/xref:System.Windows.DragDrop.PreviewDragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt; event occurs when an object is dragged out of the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt;物件拖出的項目界限，就會發生事件。&lt;/xref:System.Windows.DragDrop.PreviewDragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>This method removes a handler for the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt; event.</source>
+          <target state="translated">這個方法會移除的處理常式的通道版本&lt;xref:System.Windows.DragDrop.PreviewDragLeave&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewDragLeave&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>To remove a handler for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.RemoveDragLeaveHandler%2A&gt;.</source>
+          <target state="translated">若要移除反昇的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.RemoveDragLeaveHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.RemoveDragLeaveHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) from which to remove the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) 要從中移除事件處理常式。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be removed.</source>
+          <target state="translated">參考要移除的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Removes a &lt;xref:System.Windows.DragDrop.PreviewDragOver&gt; event handler from a specified dependency object.</source>
+          <target state="translated">移除&lt;xref:System.Windows.DragDrop.PreviewDragOver&gt;從所指定相依性物件的事件處理常式。&lt;/xref:System.Windows.DragDrop.PreviewDragOver&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewDragOver&gt; event occurs when n object is dragged over the element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDragOver&gt;n 個物件拖曳的項目邊框上方時，就會發生事件。&lt;/xref:System.Windows.DragDrop.PreviewDragOver&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>This method removes a handler for the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewDragOver&gt; event.</source>
+          <target state="translated">這個方法會移除的處理常式的通道版本&lt;xref:System.Windows.DragDrop.PreviewDragOver&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewDragOver&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>To remove a handler for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.RemoveDragOverHandler%2A&gt;.</source>
+          <target state="translated">若要移除反昇的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.RemoveDragOverHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.RemoveDragOverHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) from which to remove the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) 要從中移除事件處理常式。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be removed.</source>
+          <target state="translated">參考要移除的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Removes a &lt;xref:System.Windows.DragDrop.PreviewDrop&gt; event handler from a specified dependency object.</source>
+          <target state="translated">移除&lt;xref:System.Windows.DragDrop.PreviewDrop&gt;從所指定相依性物件的事件處理常式。&lt;/xref:System.Windows.DragDrop.PreviewDrop&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewDrop&gt; event occurs when an object is dropped within an element's bounds.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewDrop&gt;物件卸除的項目範圍內時，就會發生事件。&lt;/xref:System.Windows.DragDrop.PreviewDrop&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>This method removes a handler for the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewDrop&gt; event.</source>
+          <target state="translated">這個方法會移除的處理常式的通道版本&lt;xref:System.Windows.DragDrop.PreviewDrop&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewDrop&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>To remove a handler for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.RemoveDropHandler%2A&gt;.</source>
+          <target state="translated">若要移除反昇的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.RemoveDropHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.RemoveDropHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) from which to remove the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) 要從中移除事件處理常式。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be removed.</source>
+          <target state="translated">參考要移除的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Removes a &lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt; event handler from a specified dependency object.</source>
+          <target state="translated">移除&lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;從所指定相依性物件的事件處理常式。&lt;/xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt; event occurs during a drag operation.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;拖曳作業期間發生的事件。&lt;/xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>This method removes a handler for the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt; event.</source>
+          <target state="translated">這個方法會移除的處理常式的通道版本&lt;xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewGiveFeedback&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>To remove a handler for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.RemoveGiveFeedbackHandler%2A&gt;.</source>
+          <target state="translated">若要移除反昇的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.RemoveGiveFeedbackHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.RemoveGiveFeedbackHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) from which to remove the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) 要從中移除事件處理常式。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be removed.</source>
+          <target state="translated">參考要移除的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Removes a &lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt; event handler from a specified dependency object.</source>
+          <target state="translated">移除&lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;從所指定相依性物件的事件處理常式。&lt;/xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt; event occurs during a drag-and-drop operation, and enables the drag source to determine whether the drag-and-drop operation should be canceled.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;事件發生於拖放作業，並可讓拖曳來源能夠決定是否應取消拖放作業。&lt;/xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>This method removes a handler for the tunneling version of the &lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt; event.</source>
+          <target state="translated">這個方法會移除的處理常式的通道版本&lt;xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;事件。&lt;/xref:System.Windows.DragDrop.PreviewQueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>To remove a handler for the bubbling version of this event, see &lt;xref:System.Windows.DragDrop.RemoveQueryContinueDragHandler%2A&gt;.</source>
+          <target state="translated">若要移除反昇的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.RemoveQueryContinueDragHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.RemoveQueryContinueDragHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) from which to remove the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) 要從中移除事件處理常式。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be removed.</source>
+          <target state="translated">參考要移除的處理常式方法的委派。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Removes a &lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt; event handler from a specified dependency object.</source>
+          <target state="translated">移除&lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt;從所指定相依性物件的事件處理常式。&lt;/xref:System.Windows.DragDrop.QueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt; event occurs during a drag-and-drop operation, and enables the drag source to determine whether the drag-and-drop operation should be canceled.</source>
+          <target state="translated">&lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt;事件發生於拖放作業，並可讓拖曳來源能夠決定是否應取消拖放作業。&lt;/xref:System.Windows.DragDrop.QueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>This method removes a handler for the bubbling version of the &lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt; event.</source>
+          <target state="translated">這個方法會移除的處理常式的反昇新版&lt;xref:System.Windows.DragDrop.QueryContinueDrag&gt;事件。&lt;/xref:System.Windows.DragDrop.QueryContinueDrag&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>To remove a handler for the tunneling version of this event, see &lt;xref:System.Windows.DragDrop.RemovePreviewQueryContinueDragHandler%2A&gt;.</source>
+          <target state="translated">若要移除的通道的版本，此事件處理常式，請參閱&lt;xref:System.Windows.DragDrop.RemovePreviewQueryContinueDragHandler%2A&gt;.&lt;/xref:System.Windows.DragDrop.RemovePreviewQueryContinueDragHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The dependency object (a <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>) from which to remove the event handler.</source>
+          <target state="translated">相依性物件 ( <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.ContentElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>) 要從中移除事件處理常式。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>A delegate that references the handler method to be removed.</source>
+          <target state="translated">參考要移除的處理常式方法的委派。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

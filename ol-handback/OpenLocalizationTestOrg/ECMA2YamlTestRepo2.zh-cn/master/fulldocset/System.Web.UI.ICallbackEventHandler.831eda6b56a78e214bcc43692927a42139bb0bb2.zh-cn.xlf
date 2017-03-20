@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ccaedab3f276b135f18f7a34012b83324d757dd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.ICallbackEventHandler.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b53c9e7f5301d20357215c3d147b344c0cccc4a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">002507fb8eb7493616b61840e3c3ad1080900681</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Used to indicate that a control can be the target of a callback event on the server.</source>
+          <target state="translated">用于指示控件可以作为目标的服务器上的回调事件。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Implement the ICallbackEventHandler interface for any custom control that needs to receive callback events.</source>
+          <target state="translated">实现任何自定义控件，需要接收回调事件 ICallbackEventHandler 接口。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Implementing Client Callbacks Without Postbacks<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>实现客户端回调而无需回发<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Examples of controls that implement the ICallbackEventHandler interface include the &lt;xref:System.Web.UI.WebControls.GridView&gt;, &lt;xref:System.Web.UI.WebControls.DetailsView&gt;, and &lt;xref:System.Web.UI.WebControls.TreeView&gt; controls.</source>
+          <target state="translated">实现 ICallbackEventHandler 接口的控件示例包括&lt;xref:System.Web.UI.WebControls.GridView&gt;， &lt;xref:System.Web.UI.WebControls.DetailsView&gt;，和&lt;xref:System.Web.UI.WebControls.TreeView&gt;控件。&lt;/xref:System.Web.UI.WebControls.TreeView&gt; &lt;/xref:System.Web.UI.WebControls.DetailsView&gt; &lt;/xref:System.Web.UI.WebControls.GridView&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When a callback event targets a control that implements the ICallbackEventHandler interface, the &lt;xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt; method is called to handle the event, passing the event argument as a parameter and the &lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt; method returns the result of the callback.</source>
+          <target state="translated">当回调事件实现 ICallbackEventHandler 接口，以控件为目标时&lt;xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt;调用方法来处理该事件，作为参数传递的事件自变量和&lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;方法会返回结果的回调。&lt;/xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt; &lt;/xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Controls that retrieve data from a data source control during callback can do so synchronously or asynchronously.</source>
+          <target state="translated">同步或异步，将在回调过程从数据源控件中检索数据的控件可以这样做。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ASP.NET controls like &lt;xref:System.Web.UI.WebControls.GridView&gt;, &lt;xref:System.Web.UI.WebControls.DetailsView&gt;, and &lt;xref:System.Web.UI.WebControls.TreeView&gt; are implemented synchronously.</source>
+          <target state="translated">ASP.NET 控件喜欢&lt;xref:System.Web.UI.WebControls.GridView&gt;， &lt;xref:System.Web.UI.WebControls.DetailsView&gt;，和&lt;xref:System.Web.UI.WebControls.TreeView&gt;以同步方式实现。&lt;/xref:System.Web.UI.WebControls.TreeView&gt; &lt;/xref:System.Web.UI.WebControls.DetailsView&gt; &lt;/xref:System.Web.UI.WebControls.GridView&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Synchronous callbacks do not prevent the user from working in the browser.</source>
+          <target state="translated">同步回调不会阻止用户在浏览器中工作。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In synchronous mode, only one callback at a time can execute, with the last callback taking precedence.</source>
+          <target state="translated">在同步模式下，还可以执行一次只有一个回调，最后一个回调优先。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When a Web control is implemented to support asynchronous behavior, multiple callbacks can be raised simultaneously.</source>
+          <target state="translated">当 Web 控件实现以支持异步行为时，可以同时引发多个回调。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For details on asynchronous programming, see <bpt id="p1">[</bpt>Event-based Asynchronous Pattern (EAP)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关异步编程的详细信息，请参阅<bpt id="p1">[</bpt>基于事件的异步模式 (EAP)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can specify whether callback events originating from the user interface rendered by a control implementing the ICallbackEventHandler interface are validated.</source>
+          <target state="translated">你可以指定是否验证来自由实现 ICallbackEventHandler 接口控件呈现的用户界面的回调事件。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Validation of events is a good security practice.</source>
+          <target state="translated">验证事件是一种很好的安全做法。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>However, for performance reasons you can disable it.</source>
+          <target state="translated">但是，出于性能原因可以禁用它。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To control whether event validation is performed on callback events, set the <ph id="ph1">`enableEventValidation`</ph> attribute of the <bpt id="p1">[</bpt>@ Page<ept id="p1">](http://msdn.microsoft.com/en-us/f06cf9e5-22bb-461d-8b8f-549e53ff40a4)</ept> directive or the <ph id="ph2">`enableEventValidation`</ph> attribute of the <bpt id="p2">[</bpt>pages Element (ASP.NET Settings Schema)<ept id="p2">](http://msdn.microsoft.com/en-us/4123bb66-3fe4-4d62-b70e-33758656b458)</ept> of the Web.config file.</source>
+          <target state="translated">控制是否事件验证回调事件，请将设置<ph id="ph1">`enableEventValidation`</ph>属性<bpt id="p1">[</bpt>@ Page<ept id="p1">](http://msdn.microsoft.com/en-us/f06cf9e5-22bb-461d-8b8f-549e53ff40a4)</ept>指令或<ph id="ph2">`enableEventValidation`</ph>属性<bpt id="p2">[</bpt>页元素 （ASP.NET 设置架构）<ept id="p2">](http://msdn.microsoft.com/en-us/4123bb66-3fe4-4d62-b70e-33758656b458)</ept>的 Web.config 文件。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you set the &lt;xref:System.Web.UI.Page.EnableEventValidation%2A&gt; property in code, set it in the <ph id="ph1">`Page_Init`</ph> phase of page processing.</source>
+          <target state="translated">如果你设置&lt;xref:System.Web.UI.Page.EnableEventValidation%2A&gt;属性在代码中，将其设置<ph id="ph1">`Page_Init`</ph>的页处理阶段。&lt;/xref:System.Web.UI.Page.EnableEventValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information on balancing the security benefit of event validation with its performance cost, see <bpt id="p1">[</bpt>ASP.NET Performance Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">平衡与其性能成本的事件验证的安全优势的详细信息，请参阅<bpt id="p1">[</bpt>ASP.NET 性能概述<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Returns the results of a callback event that targets a control.</source>
+          <target state="translated">返回的结果以控件为目标的回调事件。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Exceptions thrown in &lt;xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt; will not prevent GetCallbackResult from being called and returning a result.</source>
+          <target state="translated">中引发的异常&lt;xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt;不会阻止 GetCallbackResult 调用并返回结果。&lt;/xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To prevent GetCallbackResult from returning a result, set a flag when an exception is thrown in &lt;xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt; and return an empty string from GetCallbackResult.</source>
+          <target state="translated">若要防止 GetCallbackResult 返回结果，设置一个标志中引发异常时&lt;xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt;并从 GetCallbackResult 返回空字符串。&lt;/xref:System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The result of the callback.</source>
+          <target state="translated">回调的结果。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Processes a callback event that targets a control.</source>
+          <target state="translated">处理控件为目标的回调事件。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`null`</ph> is used as the event argument parameter, the string is serialized to "null" and sent back to the server.</source>
+          <target state="translated">当<ph id="ph1">`null`</ph>使用作为事件自变量参数，该字符串序列化为"null"，然后发送回服务器。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Because there is no way to distinguish between <ph id="ph1">`null`</ph> and "null", you should avoid using <ph id="ph2">`null`</ph> argument parameters with callbacks.</source>
+          <target state="translated">因为没有方法来区分<ph id="ph1">`null`</ph>和"null"，则应避免使用<ph id="ph2">`null`</ph>回调的自变量参数。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Exceptions thrown in RaiseCallbackEvent will not prevent &lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt; from being called and returning a result.</source>
+          <target state="translated">RaiseCallbackEvent 中引发的异常将不会阻止&lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;从调用并返回结果。&lt;/xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To prevent &lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt; from returning a result, set a flag when an exception is thrown in RaiseCallbackEvent and return an empty string from &lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;.</source>
+          <target state="translated">若要防止&lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;返回结果，设置一个标志 RaiseCallbackEvent 中引发异常时，并返回从&lt;xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;.&lt;/xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;空字符串&lt;/xref:System.Web.UI.ICallbackEventHandler.GetCallbackResult%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A string that represents an event argument to pass to the event handler.</source>
+          <target state="translated">一个字符串，表示要传递到事件处理程序的事件参数。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

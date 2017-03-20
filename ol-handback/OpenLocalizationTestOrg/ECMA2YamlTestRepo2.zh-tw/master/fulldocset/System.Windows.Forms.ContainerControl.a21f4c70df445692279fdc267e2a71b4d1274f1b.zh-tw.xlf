@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0d924d58dea7ef971a724121d2481ce24c5aa907</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.ContainerControl.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">704e5148a079185e9713e3b6e4986214bcb23222</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57478781d4a0277bb5f461713656a55d24d705fc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides focus-management functionality for controls that can function as a container for other controls.</source>
+          <target state="translated">提供可用來做為其他控制項的容器的控制項焦點管理功能。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A ContainerControl represents a control that can function as a container for other controls and provides focus management.</source>
+          <target state="translated">ContainerControl 代表控制項，可用來做為其他控制項的容器，並提供焦點管理。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Controls that inherit from this class can track the active control they contain, even when the focus moves somewhere within a different container.</source>
+          <target state="translated">繼承自這個類別的控制項可以追蹤作用中的控制項，它們包含，即使當焦點移不同的容器內的某處。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>ContainerControl objects provide a logical boundary for contained controls.</source>
+          <target state="translated">ContainerControl 物件包含的控制項提供一種邏輯界限。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The container control can capture the TAB key press and move focus to the next control in the collection.</source>
+          <target state="translated">容器控制項可以擷取索引標籤上的按鍵，並將焦點移至集合中的下一個控制項。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The container control does not receive focus; the focus is always set to the first child control in the collection of contained controls.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 容器控制項無法接收焦點，則焦點一定會設定為包含的控制項集合中的第一個子控制項。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You do not typically inherit directly from the ContainerControl class.</source>
+          <target state="translated">您不通常會繼承直接從 ContainerControl 類別。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Forms.Form&gt;, &lt;xref:System.Windows.Forms.UserControl&gt;, and &lt;xref:System.Windows.Forms.UpDownBase&gt; classes inherit from ContainerControl.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.Form&gt;&lt;xref:System.Windows.Forms.UserControl&gt;，和&lt;xref:System.Windows.Forms.UpDownBase&gt;類別繼承自 ContainerControl。&lt;/xref:System.Windows.Forms.UpDownBase&gt; &lt;/xref:System.Windows.Forms.UserControl&gt;&lt;/xref:System.Windows.Forms.Form&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets or sets the active control on the container control.</source>
+          <target state="translated">取得或設定容器控制項上的現用控制項。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The ActiveControl property activates or retrieves the active control on the container control.</source>
+          <target state="translated">ActiveControl 屬性就會啟動，或擷取容器控制項上的現用控制項。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In order to receive a valid value from this property, the object that calls it must either contain or be contained in the control it is calling.</source>
+          <target state="translated">若要接收有效的值，這個屬性，會呼叫它的物件必須包含或包含在它呼叫的控制項。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If one form tries to call another form's ActiveControl properties, it will receive an undefined value.</source>
+          <target state="translated">如果一種形式會嘗試呼叫另一種形式 ActiveControl 屬性，它將會收到未定義的值。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In this case, you need to define your own communication mechanism between the forms to pass this data.</source>
+          <target state="translated">在此情況下，您需要定義您自己形式來傳遞這項資料之間的通訊機制。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is currently active on the <bpt id="p2">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>上目前作用中<bpt id="p2">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> assigned could not be activated.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指派無法啟動。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Adjusts the scroll bars on the container based on the current control positions and the control currently selected.</source>
+          <target state="translated">調整容器上目前控制項的位置以及目前選取的控制項上的捲軸。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to show the scroll bars; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要顯示捲軸。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets or sets the dimensions that the control was designed to.</source>
+          <target state="translated">取得或設定設計控制項的維度。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The AutoScaleDimensions property represents the DPI or font setting of the screen that the control was scaled to or designed for.</source>
+          <target state="translated">AutoScaleDimensions 屬性會表示控制項已調整為或設計為在螢幕的 DPI 或字型設定。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Specifically, at design time this property will be set by the Windows Forms designer to the value your monitor is currently using.</source>
+          <target state="translated">具體而言，在設計階段，此屬性會設定由 Windows Form 設計工具的值監視器目前正在使用。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Then, when the form loads at run time, if the &lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt; property is different from the AutoScaleDimensions, the &lt;xref:System.Windows.Forms.ContainerControl.PerformAutoScale%2A&gt; method will be called to perform scaling of the control and all of its children.</source>
+          <target state="translated">然後，當表單載入時在執行階段，如果&lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;屬性是不同於 AutoScaleDimensions&lt;xref:System.Windows.Forms.ContainerControl.PerformAutoScale%2A&gt;方法會呼叫以執行縮放控制項和所有子系。&lt;/xref:System.Windows.Forms.ContainerControl.PerformAutoScale%2A&gt; &lt;/xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Afterwards, AutoScaleDimensions will be updated to reflect the new scaling size.</source>
+          <target state="translated">之後，AutoScaleDimensions 會更新以反映新的調整大小。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需自動調整的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form 中的自動調整<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the dots per inch (DPI) or <bpt id="p2">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> size that the control was designed to.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含每英吋點數 (DPI) 或<bpt id="p2">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>設計控制項的大小。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The width or height of the <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value is less than 0 when setting this value.</source>
+          <target state="translated">寬度或高度<bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值小於 0 時將此值設定。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the scaling factor between the current and design-time automatic scaling dimensions.</source>
+          <target state="translated">取得目前和設計階段自動縮放維度之間的縮放比例。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The AutoScaleFactor property represents the scaling factor between the &lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt; and &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; properties.</source>
+          <target state="translated">AutoScaleFactor 屬性表示之間的縮放比例&lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;和&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;屬性。&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; &lt;/xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This value is calculated when it is required.</source>
+          <target state="translated">在需要時，會計算此值。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, if &lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt; is (192, 144) and &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; is (96, 96) then the AutoScaleFactor is (2.0, 1.5).</source>
+          <target state="translated">比方說，如果&lt;xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;是 （192、 144） 和&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;是 （96，96） 是 AutoScaleFactor （2.0，1.5）。&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; &lt;/xref:System.Windows.Forms.ContainerControl.CurrentAutoScaleDimensions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需自動調整的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form 中的自動調整<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the scaling ratio between the current and design-time scaling automatic scaling dimensions.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含目前和設計階段調整自動縮放維度之間的縮放比例。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets the automatic scaling mode of the control.</source>
+          <target state="translated">取得或設定控制項的自動縮放模式。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The AutoScaleMode property specifies the current automatic scaling mode of this control.</source>
+          <target state="translated">AutoScaleMode 屬性會指定此控制項的目前自動縮放模式。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Scaling by &lt;xref:System.Windows.Forms.AutoScaleMode&gt; is useful if you want to have a control or form stretch or shrink according to the size of the fonts in the operating system, and should be used when the absolute size of the control or form does not matter.</source>
+          <target state="translated">依據縮放&lt;xref:System.Windows.Forms.AutoScaleMode&gt;您想要的控制項或表單放大或縮小根據作業系統中的字型的大小，並且在控制項或表單的絕對大小並不重要時，應使用就很有用。&lt;/xref:System.Windows.Forms.AutoScaleMode&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Scaling by &lt;xref:System.Windows.Forms.AutoScaleMode&gt; is useful when you want to size a control or form relative to the screen.</source>
+          <target state="translated">依據縮放&lt;xref:System.Windows.Forms.AutoScaleMode&gt;當您想要調整大小的控制項或表單與相對螢幕時非常有用。&lt;/xref:System.Windows.Forms.AutoScaleMode&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For example, you may want to use dots per inch (DPI) scaling on a control displaying a chart or other graphic so that it always occupies a certain percentage of the screen.</source>
+          <target state="translated">例如，您可以使用每英吋點數 (DPI) 縮放比例，使它一定會佔用某個百分比的螢幕顯示的圖表或其他圖形的控制項。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需自動調整的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form 中的自動調整<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the current scaling mode.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，代表目前的縮放模式。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that is not valid was used to set this property.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.AutoScaleMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>不是有效的值用來設定這個屬性。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether controls in this container will be automatically validated when the focus changes.</source>
+          <target state="translated">取得或設定值，這個值會指出是否在這個容器中的控制項將會自動驗證在焦點改變時。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The default value for AutoValidate will differ for each control.</source>
+          <target state="translated">AutoValidate 的預設值將會針對每個控制項不同。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For more details on implicit validation, see <bpt id="p1">[</bpt>User Input Validation in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需有關隱含驗證的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form 中的使用者輸入驗證<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Setting this property to a new value will raise the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidateChanged&gt; event.</source>
+          <target state="translated">將此屬性設定為新值將會引發&lt;xref:System.Windows.Forms.ContainerControl.AutoValidateChanged&gt;事件。&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidateChanged&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumerated value that indicates whether contained controls are implicitly validated on focus change.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>列舉值，指出是否要包含的控制項隱含驗證在焦點改變。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that is not valid was used to set this property.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.AutoValidate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>不是有效的值用來設定這個屬性。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt; property changes.</source>
+          <target state="translated">發生時&lt;xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt;屬性變更。&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the control.</source>
+          <target state="translated">取得或設定<bpt id="p1">&lt;xref href="System.Windows.Forms.BindingContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the &lt;xref:System.Windows.Forms.Control.ImeMode*&gt; property can be set to an active value, to enable IME support.</source>
+          <target state="translated">取得值，指出是否&lt;xref:System.Windows.Forms.Control.ImeMode*&gt;屬性可以設定為使用中的值，以啟用 IME 支援。&lt;/xref:System.Windows.Forms.Control.ImeMode*&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph> and later, IME functionality is handled by the framework and native IME support for individual controls is disabled.</source>
+          <target state="translated">在<ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>稍後，IME 功能由架構，會停用原生個別控制項的 IME 支援。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A user control that derives from the &lt;xref:System.Windows.Forms.ContainerControl&gt; class can enable native IME support by overriding this property to return <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">衍生自使用者控制項&lt;xref:System.Windows.Forms.ContainerControl&gt;類別可以藉由覆寫此屬性以傳回啟用輸入法的原生支援<ph id="ph1">`true`</ph>。&lt;/xref:System.Windows.Forms.ContainerControl&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>However, the application is then responsible for making sure that there are no conflicts between the native IME and the Windows Forms IME.</source>
+          <target state="translated">不過，應用程式會負責確保沒有原生的輸入法和 Windows Form 輸入法之間的衝突。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This scenario is not supported.</source>
+          <target state="translated">不支援此案例。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在所有情況下。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the required creation parameters when the control handle is created.</source>
+          <target state="translated">建立控制代碼時，取得必要的建立參數。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.CreateParams"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the required creation parameters when the handle to the control is created.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.CreateParams"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含必要的建立參數時在建立控制項之控制代碼。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the current run-time dimensions of the screen.</source>
+          <target state="translated">取得目前螢幕的執行階段維度。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The CurrentAutoScaleDimensions property represents the reference dimensions on the current screen.</source>
+          <target state="translated">CurrentAutoScaleDimensions 屬性代表在目前畫面的參考維度。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>In contrast, the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; property represents the design-time reference dimensions of the design environment for the current control, while the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleFactor%2A&gt; property is the ratio of the two.</source>
+          <target state="translated">相反地，&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;屬性代表目前的控制項的設計環境的設計階段的參考維度時&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleFactor%2A&gt;屬性是兩個的比例。&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleFactor%2A&gt; &lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The interpretation of the dimension value depends on the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt; property in the following ways:      -   If the mode is &lt;xref:System.Windows.Forms.AutoScaleMode&gt;, this property represents the resolution of the screen, in dots per inch.</source>
+          <target state="translated">維度值的解譯取決於&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;屬性如下:-如果模式是&lt;xref:System.Windows.Forms.AutoScaleMode&gt;，這個屬性表示畫面上，每英吋的解析度。&lt;/xref:System.Windows.Forms.AutoScaleMode&gt; &lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-   If the mode is &lt;xref:System.Windows.Forms.AutoScaleMode&gt;, this property represents the average font character size in pixels.</source>
+          <target state="translated">-如果模式是&lt;xref:System.Windows.Forms.AutoScaleMode&gt;，這個屬性表示的平均字元字型大小像素為單位。&lt;/xref:System.Windows.Forms.AutoScaleMode&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt; property is set to &lt;xref:System.Windows.Forms.AutoScaleMode&gt;, CurrentAutoScaleDimensions is set equal to &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;.</source>
+          <target state="translated">如果&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;屬性設定為&lt;xref:System.Windows.Forms.AutoScaleMode&gt;、 CurrentAutoScaleDimensions 設為等於&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt;.&lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleDimensions%2A&gt; &lt;/xref:System.Windows.Forms.AutoScaleMode&gt; &lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需自動調整的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form 中的自動調整<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the current dots per inch (DPI) or <bpt id="p2">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> size of the screen.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.SizeF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含目前每英吋點數 (DPI) 或<bpt id="p2">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>的螢幕大小。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A Win32 device context could not be created for the current screen.</source>
+          <target state="translated">無法建立目前螢幕的 Win32 裝置內容。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and its child controls and optionally releases the managed resources.</source>
+          <target state="translated">所使用的 unmanaged 的資源釋出<bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>以及它的子系控制項，並選擇性釋放 managed 的資源。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示釋放 managed 和 unmanaged 資源，<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示只釋放 unmanaged 的資源。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ContainerControl.AutoValidateChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Windows.Forms.ContainerControl.AutoValidateChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The OnAutoValidateChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnAutoValidateChanged 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Raises the &lt;xref:System.Windows.Forms.Control.CreateControl*&gt; method.</source>
+          <target state="translated">引發&lt;xref:System.Windows.Forms.Control.CreateControl*&gt;方法。&lt;/xref:System.Windows.Forms.Control.CreateControl*&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.FontChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Windows.Forms.Control.FontChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Changing the font used by a &lt;xref:System.Windows.Forms.ContainerControl&gt; will cause the layout to be recalculated and reapplied to the contained controls if the &lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt; property has a value of &lt;xref:System.Windows.Forms.AutoScaleMode&gt;.</source>
+          <target state="translated">變更所使用的字型&lt;xref:System.Windows.Forms.ContainerControl&gt;會導致重新計算並重新套用到包含的控制項，如果配置&lt;xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt;屬性的值為&lt;xref:System.Windows.Forms.AutoScaleMode&gt;.&lt;/xref:System.Windows.Forms.AutoScaleMode&gt; &lt;/xref:System.Windows.Forms.ContainerControl.AutoScaleMode%2A&gt; &lt;/xref:System.Windows.Forms.ContainerControl&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The OnFontChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnFontChanged 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Layout"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Layout"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.LayoutEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.LayoutEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含事件資料。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.ParentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Windows.Forms.Control.ParentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets the form that the container control is assigned to.</source>
+          <target state="translated">取得被指派容器控制項的表單。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Form"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that the container control is assigned to.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.Form"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，被指派容器控制項。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This property will return null if the control is hosted inside of Internet Explorer or in another hosting context where there is no parent form.</source>
+          <target state="translated">這個屬性會傳回 null，如果控制項裝載在 Internet Explorer 內，或在另一個裝載的內容中沒有任何父表單。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Performs scaling of the container control and its children.</source>
+          <target state="translated">執行容器控制項及其子系的縮放。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>An explicit call to the PerformAutoScale method is typically only required after programmatic changes to the layout during run time.</source>
+          <target state="translated">明確呼叫 PerformAutoScale 方法通常是在執行階段以程式設計方式變更配置之後，才需要。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>PerformAutoScale is implicitly called from the &lt;xref:System.Windows.Forms.ContainerControl.OnLayout%2A&gt; method.</source>
+          <target state="translated">PerformAutoScale 隱含呼叫自&lt;xref:System.Windows.Forms.ContainerControl.OnLayout%2A&gt;方法。&lt;/xref:System.Windows.Forms.ContainerControl.OnLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>PerformAutoScale is recursive; each child control, if it is a container, will have its version of this method called when the container's version executes.</source>
+          <target state="translated">PerformAutoScale 是遞迴。每個子控制項，如果它是容器，將有容器的版本執行時呼叫這個方法其版本。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For more information about automatic scaling, see <bpt id="p1">[</bpt>Automatic Scaling in Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需自動調整的詳細資訊，請參閱<bpt id="p1">[</bpt>Windows Form 中的自動調整<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Processes a command key.</source>
+          <target state="translated">處理命令按鍵。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, passed by reference, that represents the window message to process.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，表示要處理的視窗訊息的參考所傳遞。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that represents the key to process.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，表示要處理的按鍵。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the character was processed by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果字元已由控制項處理否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Processes a dialog character.</source>
+          <target state="translated">處理對話方塊字元。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The character to process.</source>
+          <target state="translated">要處理的字元。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the character was processed by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果字元已由控制項處理否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Processes a dialog key.</source>
+          <target state="translated">處理對話方塊按鍵。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that represents the key to process.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，表示要處理的按鍵。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key was processed by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果金鑰已處理的控制項，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Processes a mnemonic character.</source>
+          <target state="translated">處理助憶鍵字元。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The character to process.</source>
+          <target state="translated">要處理的字元。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the character was processed as a mnemonic by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果字元當成助憶鍵處理的控制。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Selects the next available control and makes it the active control.</source>
+          <target state="translated">選取下一個可用的控制項，並使它成為作用中的控制項。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A control with its &lt;xref:System.Windows.Forms.Control.TabStop%2A&gt; property set to <ph id="ph1">`false`</ph> cannot be selected, so the next available control will be selected.</source>
+          <target state="translated">與控制項及其&lt;xref:System.Windows.Forms.Control.TabStop%2A&gt;屬性設定為<ph id="ph1">`false`</ph>無法選取，就會選取下一個可用的控制項。&lt;/xref:System.Windows.Forms.Control.TabStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to cycle forward through the controls in the <bpt id="p2">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>順向循環中的控制項<bpt id="p2">&lt;xref href="System.Windows.Forms.ContainerControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a control is selected; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果已選取的控制項。，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Activates a child control.</source>
+          <target state="translated">啟動子控制項。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Optionally specifies the direction in the tab order to select the control from.</source>
+          <target state="translated">若要選取的控制項定位順序中，選擇性地指定方向。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to specify the direction of the control to select; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要指定要選取; 控制項的方向否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to move forward in the tab order; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to move backward in the tab order.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在定位順序中向前移動<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>定位順序中向後移動。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Activates the specified control.</source>
+          <target state="translated">啟動指定的控制項。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`control`</ph> parameter must be a child of the container control.</source>
+          <target state="translated"><ph id="ph1">`control`</ph>參數必須是容器控制項的子系。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to activate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>啟動。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control is successfully activated; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果控制項已成功啟動。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>When overridden by a derived class, updates which button is the default button.</source>
+          <target state="translated">當由衍生類別覆寫時，更新哪個按鈕為預設按鈕。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.ContainerControl&gt; class does not provide an implementation for the UpdateDefaultButton method.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.ContainerControl&gt;類別並未提供 UpdateDefaultButton 方法的實作。&lt;/xref:System.Windows.Forms.ContainerControl&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Classes that inherit this method must implement UpdateDefaultButton to update the default button.</source>
+          <target state="translated">繼承這個方法的類別必須實作 UpdateDefaultButton 更新預設按鈕。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Verifies the value of the control losing focus by causing the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> events to occur, in that order.</source>
+          <target state="translated">確認的方法是讓失焦的控制項值<bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和<bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>事件發生時，依此順序。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.ContainerControl.Validate%2A&gt; method validates the last child control that is not validated and its ancestors up through, but not including, the current container control.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.ContainerControl.Validate%2A&gt;方法會驗證不會進行驗證的最後一個子控制項和其祖系組成，但不是包含目前的容器控制項。&lt;/xref:System.Windows.Forms.ContainerControl.Validate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>This overloaded version always performs validation, regardless of the value of the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt; property of the control's parent.</source>
+          <target state="translated">這個多載的版本一律會執行驗證，不論值&lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;控制項的父代的屬性。&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Therefore use it to unconditionally force validation.</source>
+          <target state="translated">因此請使用它來無條件地強制執行驗證。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if validation is successful; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果驗證成功。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>If called from the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers, this method will always return <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果已從呼叫<bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>事件處理常式，這個方法一律會傳回<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Verifies the value of the control that is losing focus; conditionally dependent on whether automatic validation is turned on.</source>
+          <target state="translated">確認正失去焦點，控制項的值有條件地相依於是否已開啟自動驗證。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.ContainerControl.Validate%2A&gt; method validates the last child control that is not validated and its ancestors up through, but not including, the current container control.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.ContainerControl.Validate%2A&gt;方法會驗證不會進行驗證的最後一個子控制項和其祖系組成，但不是包含目前的容器控制項。&lt;/xref:System.Windows.Forms.ContainerControl.Validate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>This overloaded version performs validation based on the following conditions:      -   If the <ph id="ph1">`checkAutoValidate`</ph> parameter is <ph id="ph2">`true`</ph>, validation always occurs for child controls that are not validated.</source>
+          <target state="translated">這個多載的版本會執行驗證，根據下列條件:-如果<ph id="ph1">`checkAutoValidate`</ph>參數是<ph id="ph2">`true`</ph>，驗證一律不會進行驗證的子控制項，就會發生。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>-   If the <ph id="ph1">`checkAutoValidate`</ph> parameter is <ph id="ph2">`false`</ph>, validation occurs only if the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt; property of the control's parent is enabled.</source>
+          <target state="translated">-如果<ph id="ph1">`checkAutoValidate`</ph>參數是<ph id="ph2">`false`</ph>，驗證時才會發生&lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;是否啟用控制項的父代的屬性。&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the value of the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt; property is used to determine if validation should be performed; if <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, validation is unconditionally performed.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，值&lt;xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt;屬性用來判斷如果應該執行驗證; 如果<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，無條件執行驗證。&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate*&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if validation is successful; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果驗證成功。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If called from the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers, this method will always return <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果已從呼叫<bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>事件處理常式，這個方法一律會傳回<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Causes all of the child controls within a control that support validation to validate their data.</source>
+          <target state="translated">會導致所有子控制項內支援驗證，以驗證其資料的控制項。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>ValidateChildren will descend a control's hierarchy and examine each control to see if it supports validation.</source>
+          <target state="translated">ValidateChildren 會下降控制項階層架構，並檢查每個控制項以查看它是否支援驗證。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>If the control can be selected by the user and its &lt;xref:System.Windows.Forms.Control.CausesValidation%2A&gt; property is <ph id="ph1">`true`</ph>, ValidateChildren will cause the &lt;xref:System.Windows.Forms.Control.Validating&gt; event to occur.</source>
+          <target state="translated">如果使用者可以選取控制項及其&lt;xref:System.Windows.Forms.Control.CausesValidation%2A&gt;屬性是<ph id="ph1">`true`</ph>，會導致 ValidateChildren&lt;xref:System.Windows.Forms.Control.Validating&gt;事件發生。&lt;/xref:System.Windows.Forms.Control.Validating&gt; &lt;/xref:System.Windows.Forms.Control.CausesValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>If any of the controls cancel the &lt;xref:System.Windows.Forms.Control.Validating&gt; event, this method will return <ph id="ph1">`false`</ph>; otherwise, it will return <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">如果任何控制項取消&lt;xref:System.Windows.Forms.Control.Validating&gt;事件，這個方法會傳回<ph id="ph1">`false`</ph>; 否則它會傳回<ph id="ph2">`true`</ph>。&lt;/xref:System.Windows.Forms.Control.Validating&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If a control is bound to a data source, and the &lt;xref:System.Windows.Forms.Control.Validating&gt; event occurs, it will cause the control to push its current data back to the data source.</source>
+          <target state="translated">如果控制項已繫結至資料來源，而&lt;xref:System.Windows.Forms.Control.Validating&gt;事件發生時，它會導致目前的資料推到資料來源控制項。&lt;/xref:System.Windows.Forms.Control.Validating&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Calling ValidateChildren is equivalent to calling &lt;xref:System.Windows.Forms.ContainerControl.ValidateChildren%2A&gt; with a &lt;xref:System.Windows.Forms.ValidationConstraints&gt; of &lt;xref:System.Windows.Forms.ValidationConstraints&gt;.</source>
+          <target state="translated">呼叫 ValidateChildren 就相當於呼叫&lt;xref:System.Windows.Forms.ContainerControl.ValidateChildren%2A&gt;&lt;xref:System.Windows.Forms.ValidationConstraints&gt;的&lt;xref:System.Windows.Forms.ValidationConstraints&gt;。&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;與&lt;/xref:System.Windows.Forms.ContainerControl.ValidateChildren%2A&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if all of the children validated successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果所有子系的控制項都驗證成功;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>If called from the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers, this method will always return <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果已從呼叫<bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>事件處理常式，這個方法一律會傳回<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Causes all of the child controls within a control that support validation to validate their data.</source>
+          <target state="translated">會導致所有子控制項內支援驗證，以驗證其資料的控制項。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>ValidateChildren will examine all the children of the current control, causing the &lt;xref:System.Windows.Forms.Control.Validating&gt; event to occur on a control if it meets the criteria spelled out by &lt;xref:System.Windows.Forms.ValidationConstraints&gt;.</source>
+          <target state="translated">ValidateChildren 就會檢查所有控制項的子系目前，造成&lt;xref:System.Windows.Forms.Control.Validating&gt;&lt;xref:System.Windows.Forms.ValidationConstraints&gt;。&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;拼出的符合準則時，才在控制項上所發生的事件&lt;/xref:System.Windows.Forms.Control.Validating&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>You may use several &lt;xref:System.Windows.Forms.ValidationConstraints&gt; parameters at once by combining them with a bitwise OR operator.</source>
+          <target state="translated">您可以使用數個&lt;xref:System.Windows.Forms.ValidationConstraints&gt;參數一次將其與位元 OR 運算子結合。&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Combining parameters with a bitwise OR operator will result in a logical AND operation.</source>
+          <target state="translated">結合的位元 OR 運算子的參數，將會導致邏輯 AND 運算。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For example, calling <ph id="ph1">`ValidateChildren(ValidationConstraints.ImmediateChildren | ValidationConstraints.Enabled)`</ph> will only raise the &lt;xref:System.Windows.Forms.Control.Validating&gt; event on controls that are both immediate children of the container AND are enabled.</source>
+          <target state="translated">例如，呼叫<ph id="ph1">`ValidateChildren(ValidationConstraints.ImmediateChildren | ValidationConstraints.Enabled)`</ph>只會引發&lt;xref:System.Windows.Forms.Control.Validating&gt;之容器的這兩個直屬子系，而且已啟用控制項的事件。&lt;/xref:System.Windows.Forms.Control.Validating&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Regardless of which parameters you specify for this method, a control must have its &lt;xref:System.Windows.Forms.Control.CausesValidation%2A&gt; property set to <ph id="ph1">`true`</ph> in order for its &lt;xref:System.Windows.Forms.Control.Validating&gt; event to occur.</source>
+          <target state="translated">不論您指定此方法的參數，控制項必須有其&lt;xref:System.Windows.Forms.Control.CausesValidation%2A&gt;屬性設定為<ph id="ph1">`true`</ph>為了讓其&lt;xref:System.Windows.Forms.Control.Validating&gt;事件發生。&lt;/xref:System.Windows.Forms.Control.Validating&gt; &lt;/xref:System.Windows.Forms.Control.CausesValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>You should also set the &lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt; property of the control or of the control's container to <ph id="ph1">`false`</ph> if you want validation to happen only when you call ValidateChildren, and not when the user shifts focus from the control.</source>
+          <target state="translated">您也應該設定&lt;xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;屬性或控制項的容器控制項的<ph id="ph1">`false`</ph>您是否只有在您呼叫 ValidateChildren 時，就可能發生的驗證，而不會在使用者將焦點從控制項。&lt;/xref:System.Windows.Forms.ContainerControl.AutoValidate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>If a control is bound to a data source, and the &lt;xref:System.Windows.Forms.Control.Validating&gt; event occurs, it will cause the control to push its current data back to the data source.</source>
+          <target state="translated">如果控制項已繫結至資料來源，而&lt;xref:System.Windows.Forms.Control.Validating&gt;事件發生時，它會導致目前的資料推到資料來源控制項。&lt;/xref:System.Windows.Forms.Control.Validating&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>You cannot achieve the opposite effect of a &lt;xref:System.Windows.Forms.ValidationConstraints&gt; parameter by applying a bitwise negation operator.</source>
+          <target state="translated">您無法達成的相反效果&lt;xref:System.Windows.Forms.ValidationConstraints&gt;藉由套用位元否定運算運算子的參數。&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>For example, if you supply the negative value of the &lt;xref:System.Windows.Forms.ValidationConstraints&gt; field to ValidateChildren, it will not validate all children that are not visible on the container.</source>
+          <target state="translated">例如，如果您提供的負值&lt;xref:System.Windows.Forms.ValidationConstraints&gt;欄位至 ValidateChildren，不會驗證不會顯示在容器的所有子系。&lt;/xref:System.Windows.Forms.ValidationConstraints&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Supplying any negative parameter to ValidateChildren will have no effect on the container or its children.</source>
+          <target state="translated">提供 ValidateChildren 任何負數參數不會影響容器或其子系上。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Places restrictions on which controls have their <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event raised.</source>
+          <target state="translated">將的限制對其控制項有其<bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>引發的事件。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if all of the children validated successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果所有子系的控制項都驗證成功;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If called from the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers, this method will always return <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果已從呼叫<bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Validated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>事件處理常式，這個方法一律會傳回<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Processes Windows messages.</source>
+          <target state="translated">處理 Windows 訊息。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The Windows <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to process.</source>
+          <target state="translated">Windows <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>至處理序。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
