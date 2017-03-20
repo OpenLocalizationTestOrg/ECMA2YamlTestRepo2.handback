@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a1695270365dbfbb86358dd2662a857400b32eb</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.TextFormatting.TextFormatter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3fd875ec8e78d344a5e00a3db5903c7ee6f2dbf9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d0bb67b8c5d8ae4f2d0d91415b1dc8a38c3b32f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides services for formatting text and breaking text lines using a custom text layout client.</source>
+          <target state="translated">提供格式化文字和分隔文字行，使用自訂文字配置用戶端的服務。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>TextFormatter is the <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> text engine that provides services for formatting text and breaking text lines.</source>
+          <target state="translated">TextFormatter 是<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>提供服務，用於格式化文字和分隔文字行的文字引擎。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>TextFormatter can handle different text character formats and paragraph styles, and includes support for international text layout.</source>
+          <target state="translated">TextFormatter 可以處理不同的文字字元格式和段落樣式，並包含國際文字配置的支援。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Unlike a traditional text <ph id="ph1">[!INCLUDE[TLA#tla_api](~/add/includes/tlasharptla-api-md.md)]</ph>, the TextFormatter interacts with a text layout client through a set of callback methods.</source>
+          <target state="translated">不同於傳統文字<ph id="ph1">[!INCLUDE[TLA#tla_api](~/add/includes/tlasharptla-api-md.md)]</ph>，與透過回呼方法的一組文字配置用戶端互動 TextFormatter。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It requires the client to provide these methods in an implementation of the &lt;xref:System.Windows.Media.TextFormatting.TextSource&gt; class.</source>
+          <target state="translated">它需要用戶端提供這些方法實作的&lt;xref:System.Windows.Media.TextFormatting.TextSource&gt;類別。&lt;/xref:System.Windows.Media.TextFormatting.TextSource&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The following diagram illustrates the interaction of the text formatter client and the text layout client.</source>
+          <target state="translated">下圖說明文字的格式器用戶端和文字配置用戶端互動。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Diagram of text layout client and TextFormatter<ept id="p1">]</ept><bpt id="p2">(~/add/media/textformatter01.png "</bpt>Diagram of text layout client and TextFormatter<ept id="p2">")</ept>   Interaction between the text layout client and the TextFormatter object      ## Text Formatting Services    TextFormatter provides support for text features, such as OpenType typography, as well as support for text run, line, and paragraph level features.</source>
+          <target state="translated"><bpt id="p1">![</bpt>文字配置用戶端和 TextFormatter 的圖表<ept id="p1">]</ept><bpt id="p2">(~/add/media/textformatter01.png "</bpt>文字配置用戶端和 TextFormatter 的圖表<ept id="p2">")</ept>文字配置用戶端和 TextFormatter 物件之間的互動 # # 文字格式設定的服務 TextFormatter 提供文字的功能，例如 OpenType 印刷樣式，以及支援執行文字、 線條與段落層級功能的支援。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following table is a list of the key TextFormatter supported services for text features.</source>
+          <target state="translated">下表是一份文字功能的重要 TextFormatter 支援服務。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>|Feature|Description|   |-------------|-----------------|   |Background brush|The &lt;xref:System.Windows.Media.Brush&gt; that is used for the background color.</source>
+          <target state="translated">|功能 |描述 |  |-------------|-----------------|  |背景筆刷 |&lt;xref:System.Windows.Media.Brush&gt;所用的背景色彩。&lt;/xref:System.Windows.Media.Brush&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextRunProperties.BackgroundBrush%2A&gt; property.|   |Baseline alignment|Determines the baseline distance of the line.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextRunProperties.BackgroundBrush%2A&gt;屬性。 |  |基準對齊 |決定線條的基準距離。&lt;/xref:System.Windows.Media.TextFormatting.TextRunProperties.BackgroundBrush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextRunProperties.BaselineAlignment%2A&gt; property.|   |Font linking|Provides font linking through the use of composite fonts.|   |Foreground brush|The &lt;xref:System.Windows.Media.Brush&gt; that is used for the foreground color.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextRunProperties.BaselineAlignment%2A&gt;屬性。 |  |字型連結 |提供連結使用複合字型的字型。 |  |前景筆刷 |&lt;xref:System.Windows.Media.Brush&gt;所用的前景色彩。&lt;/xref:System.Windows.Media.Brush&gt; &lt;/xref:System.Windows.Media.TextFormatting.TextRunProperties.BaselineAlignment%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextRunProperties.ForegroundBrush%2A&gt; property.|   |OpenType|Advanced OpenType typographic features, such contextual alternates and standard ligatures.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextRunProperties.ForegroundBrush%2A&gt;屬性。 |  |OpenType |進階 OpenType 印刷樣式功能，這類內容替代字和標準連音符號。&lt;/xref:System.Windows.Media.TextFormatting.TextRunProperties.ForegroundBrush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextRunTypographyProperties&gt; class properties.|   |Typeface|Determines the typeface, as well as, weight, style, and stretch.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextRunTypographyProperties&gt;類別屬性。 |  |字體 |決定以及，加權，樣式，並延伸的字樣。&lt;/xref:System.Windows.Media.TextFormatting.TextRunTypographyProperties&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextRunProperties.Typeface%2A&gt; property.|   |Text decoration|Provides support for &lt;xref:System.Windows.TextDecoration&gt; objects, such as underline or strikethrough.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextRunProperties.Typeface%2A&gt;屬性。 |  |文字裝飾 |提供的支援&lt;xref:System.Windows.TextDecoration&gt;物件，例如底線或刪除線。&lt;/xref:System.Windows.TextDecoration&gt; &lt;/xref:System.Windows.Media.TextFormatting.TextRunProperties.Typeface%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextRunProperties.TextDecorations%2A&gt; property.|   |Text effects|Provides support for &lt;xref:System.Windows.Media.TextEffect&gt; objects.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextRunProperties.TextDecorations%2A&gt;屬性。 |  |文字效果 |提供的支援&lt;xref:System.Windows.Media.TextEffect&gt;物件。&lt;/xref:System.Windows.Media.TextEffect&gt; &lt;/xref:System.Windows.Media.TextFormatting.TextRunProperties.TextDecorations%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextRunProperties.TextEffects%2A&gt; property.|       The following table is a list of the key TextFormatter supported services for paragraph-level features.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextRunProperties.TextEffects%2A&gt;屬性。 |      下表是一份段落層級功能的重要 TextFormatter 支援服務。&lt;/xref:System.Windows.Media.TextFormatting.TextRunProperties.TextEffects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>|Feature|Description|   |-------------|-----------------|   |Flow direction|Flow direction of the paragraph—left-to-right, or right-to-left.</source>
+          <target state="translated">|功能 |描述 |  |-------------|-----------------|  |流程方向 |資料流程方向段落 — 左到右或從右到左。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextParagraphProperties.FlowDirection%2A&gt; property.|   |Line indentation|Indentation for each line in the paragraph.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextParagraphProperties.FlowDirection%2A&gt;屬性。 |  |行縮排 |段落中的每一行的縮排。&lt;/xref:System.Windows.Media.TextFormatting.TextParagraphProperties.FlowDirection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextParagraphProperties.Indent%2A&gt; property.|   |Marker|Marker characteristics of the first line in the paragraph.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextParagraphProperties.Indent%2A&gt;屬性。 |  |標記 |標記特性的段落中的第一行。&lt;/xref:System.Windows.Media.TextFormatting.TextParagraphProperties.Indent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextParagraphProperties.TextMarkerProperties%2A&gt; property.|   |Paragraph indentation|Indentation for the first line in the paragraph.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextParagraphProperties.TextMarkerProperties%2A&gt;屬性。 |  |段落縮排 |在一段中的第一行縮排。&lt;/xref:System.Windows.Media.TextFormatting.TextParagraphProperties.TextMarkerProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextParagraphProperties.ParagraphIndent%2A&gt; property.|   |Tabs|Includes support for tab alignment and tab leader.|   |Width|Determine minimum and maximum paragraph width.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextParagraphProperties.ParagraphIndent%2A&gt;屬性。 |  |索引標籤 |包含支援的索引標籤對齊和定位點前置字元。 |  |寬度 |判斷最小和最大的段落寬度。&lt;/xref:System.Windows.Media.TextFormatting.TextParagraphProperties.ParagraphIndent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextFormatter.FormatMinMaxParagraphWidth%2A&gt; methods.|   |Word wrap|Determine how text wraps when it reaches the flow edge.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextFormatter.FormatMinMaxParagraphWidth%2A&gt;方法。 |  |自動換行 |決定文字換行到達流程邊緣時。&lt;/xref:System.Windows.Media.TextFormatting.TextFormatter.FormatMinMaxParagraphWidth%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextParagraphProperties.TextWrapping%2A&gt; property.|       The following table is a list of the key TextFormatter supported services for line-level features.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextParagraphProperties.TextWrapping%2A&gt;屬性。 |      下表是一份金鑰 TextFormatter 支援服務的程式行層級功能。&lt;/xref:System.Windows.Media.TextFormatting.TextParagraphProperties.TextWrapping%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>|Feature|Description|   |-------------|-----------------|   |Alignment|Text alignment—left, right, centered, or justified.</source>
+          <target state="translated">|功能 |描述 |  |-------------|-----------------|  |對齊 |文字對齊 — 左、 右、 置中對齊或對齊。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextParagraphProperties.TextAlignment%2A&gt; property.|   |Line height|Height of the line.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextParagraphProperties.TextAlignment%2A&gt;屬性。 |  |行高度 |線條的高度。&lt;/xref:System.Windows.Media.TextFormatting.TextParagraphProperties.TextAlignment%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextLine.Height%2A&gt; property.|   |Line collapsing|Line collapsing support.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextLine.Height%2A&gt;屬性。 |  |行摺疊 |行摺疊的支援。&lt;/xref:System.Windows.Media.TextFormatting.TextLine.Height%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextLine.Collapse%2A&gt; method.|   |Black box measurement|Represents the metrics used to lay out a character in a device font.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextLine.Collapse%2A&gt;方法。 |  |黑箱度量 |代表用來配置中的裝置字型度量資訊。&lt;/xref:System.Windows.Media.TextFormatting.TextLine.Collapse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.CharacterMetrics&gt; class.|   |Caret support|Caret navigation and editing support.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.CharacterMetrics&gt;類別。 |  |插入號支援 |插入號巡覽和編輯的支援。&lt;/xref:System.Windows.Media.CharacterMetrics&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextLine&gt; character hit properties, such as &lt;xref:System.Windows.Media.TextFormatting.TextLine.GetNextCaretCharacterHit%2A&gt; and &lt;xref:System.Windows.Media.TextFormatting.TextLine.GetPreviousCaretCharacterHit%2A&gt;.|       The following table is a list of the key TextFormatter supported services for text run-level features.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextLine&gt;字元叫用屬性，例如&lt;xref:System.Windows.Media.TextFormatting.TextLine.GetNextCaretCharacterHit%2A&gt;和&lt;xref:System.Windows.Media.TextFormatting.TextLine.GetPreviousCaretCharacterHit%2A&gt;。 |      下表是一份文字執行層級功能的重要 TextFormatter 支援服務。&lt;/xref:System.Windows.Media.TextFormatting.TextLine.GetPreviousCaretCharacterHit%2A&gt; &lt;/xref:System.Windows.Media.TextFormatting.TextLine.GetNextCaretCharacterHit%2A&gt; &lt;/xref:System.Windows.Media.TextFormatting.TextLine&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>|Feature|Description|   |-------------|-----------------|   |Hidden run|Range of characters that are not visible.</source>
+          <target state="translated">|功能 |描述 |  |-------------|-----------------|  |隱藏的執行 |不會顯示的字元範圍。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Windows.Media.TextFormatting.TextHidden&gt; object.|   |Breaking|Line and paragraph breaking.|</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Media.TextFormatting.TextHidden&gt;物件。 |  |重大 |折線與段落中斷。 |&lt;/xref:System.Windows.Media.TextFormatting.TextHidden&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">建立的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This is a static method.</source>
+          <target state="translated">這是靜態方法。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A new instance of <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新執行個體<bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified formatting mode.</source>
+          <target state="translated">建立的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用指定的格式模式的類別。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This is a static method.</source>
+          <target state="translated">這是靜態方法。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormattingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the text layout for the <bpt id="p2">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.TextFormattingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定的文字配置<bpt id="p2">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A new instance of <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新執行個體<bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Releases all managed and unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">所使用的所有 managed 和 unmanaged 資源釋出<bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextLine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used for formatting and displaying document content.</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextLine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>用於格式化及顯示文件內容。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents the text source for the line.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，表示線條的文字來源。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; value that specifies the character index of the starting character in the line.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;列中指定起始字元的字元索引的值。&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Double&gt; value that specifies the width of the paragraph that the line fills.</source>
+          <target state="translated">A&lt;xref:System.Double&gt;指定一行填滿的段落寬度的值。&lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextParagraphProperties"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents paragraph properties, such as flow direction, alignment, or indentation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextParagraphProperties"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，表示段落屬性，例如方向、 對齊或縮排。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextLineBreak"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that specifies the text formatter state, in terms of where the previous line in the paragraph was broken by the text formatting process.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextLineBreak"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，指定文字的格式器狀態，以其中段落中的上一行已因格式化程序的文字。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextLine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents a line of text that can be displayed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextLine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，表示可以顯示的文字行。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextLine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used for formatting and displaying document content.</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextLine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>用於格式化及顯示文件內容。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This method is used to improve performance in applications where the &lt;xref:System.Windows.Media.TextFormatting.TextLine&gt; has significant performance implications.</source>
+          <target state="translated">這個方法用來改善效能，應用程式在其中&lt;xref:System.Windows.Media.TextFormatting.TextLine&gt;有顯著的效能含意。&lt;/xref:System.Windows.Media.TextFormatting.TextLine&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the text source for the line.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，表示線條的文字來源。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; value that specifies the character index of the starting character in the line.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;列中指定起始字元的字元索引的值。&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Double&gt; value that specifies the width of the paragraph that the line fills.</source>
+          <target state="translated">A&lt;xref:System.Double&gt;指定一行填滿的段落寬度的值。&lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextParagraphProperties"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents paragraph properties, such as flow direction, alignment, or indentation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextParagraphProperties"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，表示段落屬性，例如方向、 對齊或縮排。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextLineBreak"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies the text formatter state, in terms of where the previous line in the paragraph was broken by the text formatting process.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextLineBreak"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，指定文字格式器的狀態，以其中段落中的上一行已因格式化程序的文字。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextRunCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the caching mechanism for the layout of text.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextRunCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，代表文字的版面配置的快取機制。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextLine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents a line of text that can be displayed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextLine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，表示可以顯示的文字行。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Returns a value that represents the smallest and largest possible paragraph width that can fully contain the specified text content.</source>
+          <target state="translated">傳回值，表示可以完全包含指定的文字內容的最小和最大的可能段落寬度。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The following text uses the minimum paragraph width for the source text, which displays as multiple lines.</source>
+          <target state="translated">下列的文字使用之原始程式文字，後者會顯示為多行的最小段落寬度。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The minimum paragraph width corresponds to the word that has the greatest width—in this case, the word "jumped".</source>
+          <target state="translated">最小段落寬度對應至具有最大寬度的文字，在此情況下，word"跳標籤 」。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Notice that multiple words can appear on the same line, as long as the total width does not exceed the minimum paragraph width.</source>
+          <target state="translated">請注意，多個文字可以出現在同一行，只要總寬度不超過最小段落寬度。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Text Formatter using the minimum paragraph width<ept id="p1">]</ept><bpt id="p2">(~/add/media/textformatter03.png "</bpt>Text Formatter using the minimum paragraph width<ept id="p2">")</ept>   Minimum paragraph width</source>
+          <target state="translated"><bpt id="p1">![</bpt>使用最小段落寬度的文字格式子<ept id="p1">]</ept><bpt id="p2">(~/add/media/textformatter03.png "</bpt>使用最小段落寬度的文字格式子<ept id="p2">")</ept>最小段落寬度</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the text source for the line.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，表示線條的文字來源。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; value that specifies the character index of the starting character in the line.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;列中指定起始字元的字元索引的值。&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextParagraphProperties"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents paragraph properties, such as flow direction, alignment, or indentation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextParagraphProperties"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，表示段落屬性，例如方向、 對齊或縮排。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.MinMaxParagraphWidth"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents the smallest and largest possible paragraph width that can fully contain the specified text content.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.MinMaxParagraphWidth"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>代表完全可以包含指定的文字內容的最小和最大的可能段落寬度的值。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Returns a value that represents the smallest and largest possible paragraph width that can fully contain the specified text content.</source>
+          <target state="translated">傳回值，表示可以完全包含指定的文字內容的最小和最大的可能段落寬度。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the text source for the line.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，表示線條的文字來源。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; value that specifies the character index of the starting character in the line.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;列中指定起始字元的字元索引的值。&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextParagraphProperties"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents paragraph properties, such as flow direction, alignment, or indentation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextParagraphProperties"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，表示段落屬性，例如方向、 對齊或縮排。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextRunCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the caching mechanism for the layout of text.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextRunCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，代表文字的版面配置的快取機制。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.MinMaxParagraphWidth"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents the smallest and largest possible paragraph width that can fully contain the specified text content.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.MinMaxParagraphWidth"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>代表完全可以包含指定的文字內容的最小和最大的可能段落寬度的值。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c9a36fa407756482063031954b726696caf422d8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Hosting.ApplicationActivator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">003ced9e4f722efdd5a588cc190e1d650791b743</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">069ca4d9790d60082baf920e47505746d1b15ce9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the base class for the activation of manifest-based assemblies.</source>
+          <target state="translated">啟動時的資訊清單為主的組件提供基底類別。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>There is a single designated instance of the ApplicationActivator class in each &lt;xref:System.AppDomain&gt; to which all activation calls are routed.</source>
+          <target state="translated">沒有單一的指定執行個體中每個 ApplicationActivator 類別的&lt;xref:System.AppDomain&gt;呼叫路由傳送至所有啟用。&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AppDomainManager&gt; for the current &lt;xref:System.AppDomain&gt; can provide its own custom ApplicationActivator for this purpose.</source>
+          <target state="translated">&lt;xref:System.AppDomainManager&gt;目前&lt;xref:System.AppDomain&gt;可以針對此用途提供它自己的自訂 ApplicationActivator。&lt;/xref:System.AppDomain&gt; &lt;/xref:System.AppDomainManager&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If a custom ApplicationActivator is not provided, an instance of the default ApplicationActivator is created.</source>
+          <target state="translated">如果未提供自訂 ApplicationActivator 的預設執行個體 ApplicationActivator 會建立。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The following steps describe the behavior of the default &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt; method implementation:      1.</source>
+          <target state="translated">下列步驟說明的預設行為&lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt;方法實作︰ 1。&lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Checks if the &lt;xref:System.ActivationContext&gt; of the add-in to be activated matches the &lt;xref:System.ActivationContext&gt; of the current domain; if not, proceeds to step 2.</source>
+          <target state="translated">如果會檢查&lt;xref:System.ActivationContext&gt;增益集是已啟用的相符項目&lt;xref:System.ActivationContext&gt;目前的網域; 如果不是，繼續進行步驟 2。&lt;/xref:System.ActivationContext&gt; &lt;/xref:System.ActivationContext&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Otherwise, executes the assembly and returns the result wrapped in an object handle.</source>
+          <target state="translated">否則，執行的組件，並傳回結果中的物件控制代碼包裝。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Activates the add-in in a new &lt;xref:System.AppDomain&gt;.</source>
+          <target state="translated">啟動新的&lt;xref:System.AppDomain&gt;。&lt;/xref:System.AppDomain&gt;增益集</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following steps are taken to initialize a new &lt;xref:System.AppDomain&gt; using the &lt;xref:System.Runtime.Hosting.ActivationArguments&gt; for the add-in.</source>
+          <target state="translated">若要初始化新&lt;xref:System.AppDomain&gt;&lt;xref:System.Runtime.Hosting.ActivationArguments&gt;的增益集。&lt;/xref:System.Runtime.Hosting.ActivationArguments&gt;使用&lt;/xref:System.AppDomain&gt;的是採取下列步驟</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Creates a new &lt;xref:System.AppDomainSetup&gt; object using an &lt;xref:System.Runtime.Hosting.ActivationArguments&gt; object containing the activation context for the add-in.</source>
+          <target state="translated">建立新&lt;xref:System.AppDomainSetup&gt;的&lt;xref:System.Runtime.Hosting.ActivationArguments&gt;增益集的啟動內容物件，其包含&lt;/xref:System.Runtime.Hosting.ActivationArguments&gt;的物件使用&lt;/xref:System.AppDomainSetup&gt;的</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Calls the &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; method to create a new domain using the &lt;xref:System.AppDomainSetup&gt; object.</source>
+          <target state="translated">呼叫&lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;方法來建立新的網域使用&lt;xref:System.AppDomainSetup&gt;物件。&lt;/xref:System.AppDomainSetup&gt; &lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; method calls the &lt;xref:System.Security.HostSecurityManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt; method to acquire an &lt;xref:System.Security.Policy.ApplicationTrust&gt; object for the add-in.</source>
+          <target state="translated">&lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;方法會呼叫&lt;xref:System.Security.HostSecurityManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt;方法，以取得&lt;xref:System.Security.Policy.ApplicationTrust&gt;物件的增益集。&lt;/xref:System.Security.Policy.ApplicationTrust&gt; &lt;/xref:System.Security.HostSecurityManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt; &lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun%2A&gt; property returns <ph id="ph1">`true`</ph>, the add-in is executed.</source>
+          <target state="translated">如果&lt;xref:System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun%2A&gt;屬性會傳回<ph id="ph1">`true`</ph>，執行增益集。&lt;/xref:System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If not, &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; throws a &lt;xref:System.Security.Policy.PolicyException&gt; indicating that execution permission could not be acquired.</source>
+          <target state="translated">如果沒有，&lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;會擲回&lt;xref:System.Security.Policy.PolicyException&gt;指出無法取得執行權限。&lt;/xref:System.Security.Policy.PolicyException&gt; &lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the add-in is trusted to run, then a new &lt;xref:System.AppDomain&gt; is created and configured for the &lt;xref:System.ActivationContext&gt; of the add-in, and the add-in is loaded and executed.</source>
+          <target state="translated">如果增益集就會信任執行，則新&lt;xref:System.AppDomain&gt;會建立並設定&lt;xref:System.ActivationContext&gt;增益集，以及增益集載入並執行。&lt;/xref:System.ActivationContext&gt; &lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The result of the activation of the add-in is returned, wrapped in an object handle.</source>
+          <target state="translated">會傳回結果的增益集啟動，包裝在物件控制代碼。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A custom activator can tailor the activation of an add-in to a particular set of circumstances.</source>
+          <target state="translated">自訂啟動項可以量身訂作增益集以一組特定的情況下的啟動。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example, a custom activator could find an existing &lt;xref:System.AppDomain&gt; to activate this add-in instead of creating a new domain every time.</source>
+          <target state="translated">例如，自訂 activator 無法尋找現有&lt;xref:System.AppDomain&gt;啟動這個增益集而不是每次建立新的網域。&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following steps describe the behavior of a custom ApplicationActivator that activates an add-in in an existing &lt;xref:System.AppDomain&gt;:      1.</source>
+          <target state="translated">下列步驟描述的行為就會啟動增益集的現有自訂 ApplicationActivator &lt;xref:System.AppDomain&gt;: 1。&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The custom activator finds a domain that has the same &lt;xref:System.ActivationContext&gt; as the add-in that is being activated.</source>
+          <target state="translated">自訂啟動程式會尋找具有相同的網域&lt;xref:System.ActivationContext&gt;做為 正在啟用增益集。&lt;/xref:System.ActivationContext&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.ActivationContext&gt; has never been seen before in the process, the custom activator creates a new &lt;xref:System.AppDomain&gt; for this &lt;xref:System.ActivationContext&gt; by calling the &lt;xref:System.AppDomain.CreateDomain%2A&gt; method directly, or delegating this activity to the &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; in the base class.</source>
+          <target state="translated">如果&lt;xref:System.ActivationContext&gt;從未發生過之前在此程序，自訂啟動項新建立&lt;xref:System.AppDomain&gt;這個&lt;xref:System.ActivationContext&gt;呼叫的&lt;xref:System.AppDomain.CreateDomain%2A&gt;直接的方法或委派此活動可&lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;在基底類別。&lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; &lt;/xref:System.AppDomain.CreateDomain%2A&gt; &lt;/xref:System.ActivationContext&gt; &lt;/xref:System.AppDomain&gt; &lt;/xref:System.ActivationContext&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If there is an existing domain with the same &lt;xref:System.ActivationContext&gt;, then the activator can delegate the &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt; method call to the ApplicationActivator in the target domain.</source>
+          <target state="translated">如果沒有現有的網域具有相同&lt;xref:System.ActivationContext&gt;，然後啟動項可以委派&lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt;方法呼叫的目標網域 ApplicationActivator。&lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt; &lt;/xref:System.ActivationContext&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Note that this would be a cross-domain call to an ApplicationActivator that resides in the target &lt;xref:System.AppDomain&gt;.</source>
+          <target state="translated">請注意，這會是位於目標&lt;xref:System.AppDomain&gt;.&lt;/xref:System.AppDomain&gt; ApplicationActivator 跨網域呼叫</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Hosting.ApplicationActivator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Runtime.Hosting.ApplicationActivator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the application to be activated, using the specified activation context.</source>
+          <target state="translated">建立要啟用應用程式的執行個體使用指定的啟動內容。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This method is intended for the manifest-based activation of applications.</source>
+          <target state="translated">這個方法僅供資訊清單型啟用的應用程式。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ActivationContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the application to activate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ActivationContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可識別要啟動應用程式。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a wrapper for the return value of the application execution.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>也就是應用程式執行的傳回值包裝函式。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The return value must be unwrapped to access the real object.</source>
+          <target state="translated">傳回值必須解除包裝以存取實際物件。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;activationContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;activationContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the application to be activated, using the specified activation context  and custom activation data.</source>
+          <target state="translated">建立要啟用應用程式的執行個體使用指定的啟動內容和自訂啟動資料。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This method is intended for the manifest-based activation of applications.</source>
+          <target state="translated">這個方法僅供資訊清單型啟用的應用程式。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The activation data consists of information such as the query string portion of a URL.</source>
+          <target state="translated">啟用資料包含的資訊，例如 URL 查詢字串部分。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ActivationContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the application to activate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ActivationContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可識別要啟動應用程式。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Custom activation data.</source>
+          <target state="translated">自訂啟動資料。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a wrapper for the return value of the application execution.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>也就是應用程式執行的傳回值包裝函式。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The return value must be unwrapped to access the real object.</source>
+          <target state="translated">傳回值必須解除包裝以存取實際物件。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;activationContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;activationContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Creates an instance of an application using the specified <bpt id="p1">&lt;xref href="System.AppDomainSetup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">建立使用指定的應用程式的執行個體<bpt id="p1">&lt;xref href="System.AppDomainSetup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This method is intended for the manifest-based activation of applications.</source>
+          <target state="translated">這個方法僅供資訊清單型啟用的應用程式。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.AppDomainSetup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object whose &lt;xref:System.AppDomainSetup.ActivationArguments*&gt; property identifies the application to activate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.AppDomainSetup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，其&lt;xref:System.AppDomainSetup.ActivationArguments*&gt;屬性會識別要啟動應用程式。&lt;/xref:System.AppDomainSetup.ActivationArguments*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a wrapper for the return value of the application execution.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>也就是應用程式執行的傳回值包裝函式。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The return value must be unwrapped to access the real object.</source>
+          <target state="translated">傳回值必須解除包裝以存取實際物件。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AppDomainSetup.ActivationArguments*&gt; property of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">adSetup</ph><ept id="p1"> &lt;/code&gt;</ept>is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The &lt;xref:System.AppDomainSetup.ActivationArguments*&gt; property of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">adSetup</ph><ept id="p1"> &lt;/code&gt;</ept>is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.AppDomainSetup.ActivationArguments*&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The application instance failed to execute because the policy settings on the current application domain do not provide permission for this application to run.</source>
+          <target state="translated">應用程式執行個體無法執行，因為目前的應用程式定義域上的原則設定不會提供執行此應用程式的權限。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

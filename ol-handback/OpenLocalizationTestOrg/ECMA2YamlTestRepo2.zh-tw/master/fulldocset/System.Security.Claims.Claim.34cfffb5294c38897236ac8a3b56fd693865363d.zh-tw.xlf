@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c215bbd5e7edd14be095df950c5bb0fa830185ba</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Claims.Claim.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">08feeec6e114d92a6d967d5290dbe9b3e1b13be1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">02a30af582dad39f927f5190aacddb73f812b2ec</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a claim.</source>
+          <target state="translated">表示的宣告。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A claim is a statement about a subject by an issuer.</source>
+          <target state="translated">宣告是由簽發者主旨有關的陳述式。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Claims represent attributes of the subject that are useful in the context of authentication and authorization operations.</source>
+          <target state="translated">宣告表示主體的屬性，可用於驗證和授權的作業內容。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Subjects and issuers are both entities that are part of an identity scenario.</source>
+          <target state="translated">主體和簽發者是這兩個實體的身分識別案例的一部分。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Some typical examples of a subject are: a user, an application or service, a device, or a computer.</source>
+          <target state="translated">一些典型的例子的主旨是︰ 使用者、 應用程式或服務、 裝置或電腦。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Some typical examples of an issuer are: the operating system, an application.</source>
+          <target state="translated">簽發者的一些典型範例是︰ 作業系統、 應用程式。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>a service, a role provider, an identity provider, or a federation provider.</source>
+          <target state="translated">服務、 角色提供者、 身分識別提供者或同盟提供者。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An issuer delivers claims by issuing security tokens, typically through a Security Token Service (STS).</source>
+          <target state="translated">簽發者傳遞宣告發行安全性權杖，通常透過安全性權杖服務 (STS)。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>(In WIF, you can build an STS by deriving from the &lt;xref:System.IdentityModel.SecurityTokenService&gt; class.) On occasion, the collection of claims received from an issuer can be extended by subject attributes stored directly at the resource.</source>
+          <target state="translated">(在 WIF，您可以藉由衍生自建置 STS&lt;xref:System.IdentityModel.SecurityTokenService&gt;類別)&lt;/xref:System.IdentityModel.SecurityTokenService&gt;在某些情況下，主體屬性儲存在資源直接可以擴充的收到來自簽發者的宣告集合。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A claim can be evaluated to determine access rights to data and other secured resources during the process of authorization and can also be used to make or express authentication decisions about a subject.</source>
+          <target state="translated">宣告可以評估以判斷資料的存取權限及其他授權的過程中保護的資源，並也可用來進行，或有關主旨 express 驗證決策。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Beginning with .NET 4.5, the Windows Identity Foundation (WIF) classes, which implement claims-based identity, have been fully integrated into the .NET Framework.</source>
+          <target state="translated">從.NET 4.5 開始，Windows Identity Foundation (WIF) 類別，實作宣告型身分識別，已完全整合到.NET Framework。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The claims concept is implemented by the Claim class.</source>
+          <target state="translated">宣告概念是由宣告類別實作。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The following describes important properties of the Claim class:      -   The &lt;xref:System.Security.Claims.Claim.Type%2A&gt; property is a string (typically a URI) that contains the semantic information about the claim; it tells you what the value of the claim means.</source>
+          <target state="translated">下列程式碼說明宣告類別的重要屬性:-&lt;xref:System.Security.Claims.Claim.Type%2A&gt;屬性是包含宣告的語意資訊的字串 (通常是 URI)，它會告訴您的宣告值的表示。&lt;/xref:System.Security.Claims.Claim.Type%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, a claim with a claim type of &lt;xref:System.Security.Claims.ClaimTypes.GivenName&gt; (“http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname”) represents a user’s first name.</source>
+          <target state="translated">例如，具有宣告類型的宣告&lt;xref:System.Security.Claims.ClaimTypes.GivenName&gt;(「 http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname 」) 代表使用者的名字。&lt;/xref:System.Security.Claims.ClaimTypes.GivenName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The value of the &lt;xref:System.Security.Claims.Claim.Type%2A&gt; property can be one of the well-known claim types defined in the &lt;xref:System.Security.Claims.ClaimTypes&gt; class, or it can be an arbitrary URI as defined by the issuer.</source>
+          <target state="translated">值&lt;xref:System.Security.Claims.Claim.Type%2A&gt;屬性可以是其中一個定義中的已知宣告型別&lt;xref:System.Security.Claims.ClaimTypes&gt;類別，或它可以是任意 URI 所定義的簽發者。&lt;/xref:System.Security.Claims.ClaimTypes&gt; &lt;/xref:System.Security.Claims.Claim.Type%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, a claim type of “urn:spendinglimit” might represent a user attribute which makes sense within the business context of the issuer.</source>
+          <target state="translated">例如，"urn: spendinglimit"的宣告類型可能代表使用者屬性的簽發者的商務內容中有意義。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Security.Claims.Claim.Value%2A&gt; property contains the value of the claim.</source>
+          <target state="translated">-&lt;xref:System.Security.Claims.Claim.Value%2A&gt;屬性包含宣告的值。&lt;/xref:System.Security.Claims.Claim.Value%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In order to reduce dependencies and simplify administration, in WIF the value of a claim is represented only as a string.</source>
+          <target state="translated">為了減少相依性並簡化管理，在 WIF 中的宣告的值是僅以字串表示。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more complex value types, it is recommended that you use standard XML schema types to indicate how the value is meant to be serialized into and deserialized from a string.</source>
+          <target state="translated">對於更複雜的數值類型，建議您使用標準的 XML 結構描述類型，表示值是預定要序列化成以及從字串還原序列化的方式。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Security.Claims.Claim.ValueType%2A&gt; property contains a string that identifies the type information for the value.</source>
+          <target state="translated">-&lt;xref:System.Security.Claims.Claim.ValueType%2A&gt;屬性包含識別值的類型資訊的字串。&lt;/xref:System.Security.Claims.Claim.ValueType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This property should be used to understand the format of the value and to provide information about how to deserialize it.</source>
+          <target state="translated">這個屬性應該用來了解值的格式，並提供如何將它還原序列化的相關資訊。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If your solution requires complex value types, it is recommended that you use standard XML schema types in the &lt;xref:System.Security.Claims.Claim.ValueType%2A&gt; property to indicate how the &lt;xref:System.Security.Claims.Claim.Value%2A&gt; property is meant to be serialized into and deserialized from a string.</source>
+          <target state="translated">如果您的方案需要複雜的實值類型，建議您使用標準的 XML 結構描述型別中&lt;xref:System.Security.Claims.Claim.ValueType%2A&gt;屬性，指出如何&lt;xref:System.Security.Claims.Claim.Value%2A&gt;屬性是用來序列化，從字串還原序列化。&lt;/xref:System.Security.Claims.Claim.Value%2A&gt; &lt;/xref:System.Security.Claims.Claim.ValueType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property is a &lt;xref:System.Security.Claims.ClaimsIdentity&gt; object that represents the subject of the claim.</source>
+          <target state="translated">-&lt;xref:System.Security.Claims.Claim.Subject%2A&gt;屬性是&lt;xref:System.Security.Claims.ClaimsIdentity&gt;物件，表示宣告主體。&lt;/xref:System.Security.Claims.ClaimsIdentity&gt; &lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The subject of the claim is the entity (typically the user who is requesting access to a resource) about which the claim is asserted.</source>
+          <target state="translated">宣告主體相關的宣告會判斷提示是實體 （通常要求資源的存取權限的使用者）。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.ClaimsIdentity&gt; contains, among its properties, a collection of claims that describe the properties and attributes of the subject as attested to by one or more issuers.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.ClaimsIdentity&gt;包含，其屬性，包括描述屬性的宣告的集合和屬性主體為要通過證明，由一或多個簽發者。&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; property contains the name of the entity that issued the claim.</source>
+          <target state="translated">-&lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;屬性包含之實體的發出宣告的名稱。&lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The issuer of a claim is represented in WIF by a string that contains a name taken from a list of well-known issuers that is maintained by the issuer name registry.</source>
+          <target state="translated">宣告簽發者都會在 WIF 的字串，包含取自由簽發者名稱登錄所維護的已知的簽發者清單的名稱。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The issuer name registry is an instance of a class that derives from the &lt;xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt; class.</source>
+          <target state="translated">簽發者名稱登錄是從&lt;xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt;類別&lt;/xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt;衍生類別的執行個體</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The issuer name registry associates a mnemonic name to the cryptographic material needed to verify the signatures of tokens produced by the corresponding issuer.</source>
+          <target state="translated">簽發者名稱登錄的名稱相關聯助憶鍵來驗證相對應的簽發者所產生的語彙基元的簽章所需的加密編譯內容。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry&gt; class, available out of the box with .NET 4.5, associates the mnemonic name for each issuer with its corresponding X.509 certificate.</source>
+          <target state="translated">例如， &lt;xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry&gt;.NET 4.5 現成可用類別會將每個簽發者的助憶鍵名稱關聯其相對應的 X.509 憑證。&lt;/xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The list of well-known issuers is typically built at startup time by the issuer name registry.</source>
+          <target state="translated">在啟動時由簽發者名稱登錄通常建置的已知的簽發者清單。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The list used by the &lt;xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry&gt; is specified in the application configuration file.</source>
+          <target state="translated">使用的清單&lt;xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry&gt;應用程式組態檔中指定。&lt;/xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; property contains the name of the entity that originally issued the claim.</source>
+          <target state="translated">-&lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;屬性包含原始簽發宣告之實體的名稱。&lt;/xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This property is designed to facilitate scenarios where a claim may pass through multiple issuers before it is presented by the client to the RP application; such as federation scenarios.</source>
+          <target state="translated">這個屬性被設計為 dbtype_iunknown，宣告才會透過多個簽發者呈現至 RP 應用程式中，用戶端例如同盟案例。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can examine the &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; property to determine the entity that originally issued the claim.</source>
+          <target state="translated">您可以檢查&lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;屬性來判斷原本發出宣告的實體。&lt;/xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The name is taken from the list of well-known issuers maintained by the issuer name registry, as in the case of the &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; property.</source>
+          <target state="translated">名稱來自已知的簽發者簽發者名稱登錄中，如同的情況所維護的清單&lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;屬性。&lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The security claim.</source>
+          <target state="translated">安全性宣告。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified reader, and subject.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別指定的讀取器和主旨。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The binary reader.</source>
+          <target state="translated">二進位讀取器。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The subject that this claim describes.</source>
+          <target state="translated">這個宣告描述的主旨。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified security claim, and subject.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別指定的安全性宣告和主旨。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The security claim.</source>
+          <target state="translated">安全性宣告。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The subject that this claim describes.</source>
+          <target state="translated">這個宣告描述的主旨。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified claim type, and value.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別具有指定的宣告類型和值。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property is set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.Claim.Subject%2A&gt;屬性設定為<ph id="ph1">`null`</ph>。&lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; and &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; properties are set to &lt;xref:System.Security.Claims.ClaimsIdentity.DefaultIssuer&gt;.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;&lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;屬性會設為&lt;xref:System.Security.Claims.ClaimsIdentity.DefaultIssuer&gt;.&lt;/xref:System.Security.Claims.ClaimsIdentity.DefaultIssuer&gt;&lt;/xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;和&lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.Claim.ValueType%2A&gt; property is set to &lt;xref:System.Security.Claims.ClaimValueTypes.String?displayProperty=fullName&gt;</source>
+          <target state="translated">&lt;xref:System.Security.Claims.Claim.ValueType%2A&gt;屬性設定為&lt;xref:System.Security.Claims.ClaimValueTypes.String?displayProperty=fullName&gt;&lt;/xref:System.Security.Claims.ClaimValueTypes.String?displayProperty=fullName&gt;&lt;/xref:System.Security.Claims.Claim.ValueType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The claim type.</source>
+          <target state="translated">宣告類型。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The claim value.</source>
+          <target state="translated">宣告值。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified claim type, value, and value type.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別指定的宣告類型、 值和實值型別。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property is set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.Claim.Subject%2A&gt;屬性設定為<ph id="ph1">`null`</ph>。&lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; and &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; properties are set to &lt;xref:System.Security.Claims.ClaimsIdentity.DefaultIssuer&gt;.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;&lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;屬性會設為&lt;xref:System.Security.Claims.ClaimsIdentity.DefaultIssuer&gt;.&lt;/xref:System.Security.Claims.ClaimsIdentity.DefaultIssuer&gt;&lt;/xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;和&lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The claim type.</source>
+          <target state="translated">宣告類型。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The claim value.</source>
+          <target state="translated">宣告值。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The claim value type.</source>
+          <target state="translated">宣告值類型。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，然後<bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>用。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified claim type, value, value type, and issuer.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>與指定的宣告類型、 值、 值類型和簽發者的類別。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property is set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.Claim.Subject%2A&gt;屬性設定為<ph id="ph1">`null`</ph>。&lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; property is set according to the value of the <ph id="ph1">`issuer`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;屬性設定的值根據<ph id="ph1">`issuer`</ph>參數。&lt;/xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The claim type.</source>
+          <target state="translated">宣告類型。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The claim value.</source>
+          <target state="translated">宣告值。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The claim value type.</source>
+          <target state="translated">宣告值類型。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，然後<bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>用。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The claim issuer.</source>
+          <target state="translated">宣告簽發者。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If this parameter is empty or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsIdentity.DefaultIssuer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">如果這個參數是空的或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，然後<bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsIdentity.DefaultIssuer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>用。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified claim type, value, value type, issuer,  and original issuer.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>與指定的宣告類型、 值、 實值型別、 簽發者和原始簽發者的類別。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property is set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.Claim.Subject%2A&gt;屬性設定為<ph id="ph1">`null`</ph>。&lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The claim type.</source>
+          <target state="translated">宣告類型。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The claim value.</source>
+          <target state="translated">宣告值。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The claim value type.</source>
+          <target state="translated">宣告值類型。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，然後<bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>用。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The claim issuer.</source>
+          <target state="translated">宣告簽發者。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If this parameter is empty or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsIdentity.DefaultIssuer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">如果這個參數是空的或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，然後<bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsIdentity.DefaultIssuer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>用。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The original issuer of the claim.</source>
+          <target state="translated">宣告的原始簽發者。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If this parameter is empty or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then the &lt;xref:System.Security.Claims.Claim.OriginalIssuer<bpt id="p2">*</bpt>&gt; property is set to the value of the &lt;xref:System.Security.Claims.Claim.Issuer<ept id="p2">*</ept>&gt; property.</source>
+          <target state="translated">如果這個參數是空的或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，然後在&lt;&gt; <bpt id="p2">*</bpt>&gt; 屬性設定的值為&lt;&gt; <ept id="p2">*</ept>&gt; 屬性。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified claim type, value, value type, issuer, original issuer and subject.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別指定的宣告類型、 值、 實值型別、 簽發者、 原始簽發者和主旨。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The claim type.</source>
+          <target state="translated">宣告類型。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The claim value.</source>
+          <target state="translated">宣告值。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The claim value type.</source>
+          <target state="translated">宣告值類型。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，然後<bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>用。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The claim issuer.</source>
+          <target state="translated">宣告簽發者。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If this parameter is empty or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsIdentity.DefaultIssuer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">如果這個參數是空的或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，然後<bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsIdentity.DefaultIssuer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>用。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The original issuer of the claim.</source>
+          <target state="translated">宣告的原始簽發者。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If this parameter is empty or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then the &lt;xref:System.Security.Claims.Claim.OriginalIssuer<bpt id="p2">*</bpt>&gt; property is set to the value of the &lt;xref:System.Security.Claims.Claim.Issuer<ept id="p2">*</ept>&gt; property.</source>
+          <target state="translated">如果這個參數是空的或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，然後在&lt;&gt; <bpt id="p2">*</bpt>&gt; 屬性設定的值為&lt;&gt; <ept id="p2">*</ept>&gt; 屬性。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The subject that this claim describes.</source>
+          <target state="translated">這個宣告描述的主旨。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Returns a new <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object copied from this object.</source>
+          <target state="translated">傳回新<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>從這個物件複製的物件。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The new claim does not have a subject.</source>
+          <target state="translated">新的宣告並沒有主體。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This is a shallow copy operation.</source>
+          <target state="translated">這是淺層複製作業。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property of the new &lt;xref:System.Security.Claims.Claim&gt; object is set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.Claim.Subject%2A&gt;屬性的新&lt;xref:System.Security.Claims.Claim&gt;物件設定為<ph id="ph1">`null`</ph>。&lt;/xref:System.Security.Claims.Claim&gt; &lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The new claim object.</source>
+          <target state="translated">新的宣告物件。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Returns a new <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object copied from this object.</source>
+          <target state="translated">傳回新<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>從這個物件複製的物件。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The subject of the new claim is set to the specified ClaimsIdentity.</source>
+          <target state="translated">新宣告主體設定為指定的 ClaimsIdentity。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This is a shallow copy operation.</source>
+          <target state="translated">這是淺層複製作業。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property of the new &lt;xref:System.Security.Claims.Claim&gt; object is set to the value of the <ph id="ph1">`identity`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.Claim.Subject%2A&gt;屬性的新&lt;xref:System.Security.Claims.Claim&gt;物件設定的值為<ph id="ph1">`identity`</ph>參數。&lt;/xref:System.Security.Claims.Claim&gt; &lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The intended subject of the new claim.</source>
+          <target state="translated">新宣告的預期的主旨。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The new claim object.</source>
+          <target state="translated">新的宣告物件。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Returns &lt;xref:System.Byte&gt;.</source>
+          <target state="translated">傳回&lt;xref:System.Byte&gt;.&lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets the issuer of the claim.</source>
+          <target state="translated">取得宣告的簽發者。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The value of the Issuer property is a name that is taken from a list of well-known issuers maintained by the issuer name registry.</source>
+          <target state="translated">簽發者屬性的值是取自簽發者名稱登錄所維護的已知的簽發者清單的名稱。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The issuer name registry is an instance of a class that derives from the &lt;xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt; class.</source>
+          <target state="translated">簽發者名稱登錄是從&lt;xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt;類別&lt;/xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt;衍生類別的執行個體</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The issuer name registry associates a mnemonic name (the issuer name) with the cryptographic material that is needed to verify signatures of tokens produced by the issuer; for example, an X.509 certificate.</source>
+          <target state="translated">簽發者名稱登錄的名稱相關聯助憶鍵 （簽發者名稱） 與已驗證所需的簽章的權杖簽發者; 所產生的加密編譯內容例如，X.509 憑證。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>A name that refers to the issuer of the claim.</source>
+          <target state="translated">指的是宣告簽發者名稱。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets the original issuer of the claim.</source>
+          <target state="translated">取得宣告的原始簽發者。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Contains the name of the entity that originally issued the claim.</source>
+          <target state="translated">包含原始簽發宣告之實體的名稱。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This property is designed to facilitate scenarios where a claim may pass through multiple issuers before it is presented by the client to the RP application; such as federation scenarios.</source>
+          <target state="translated">這個屬性被設計為 dbtype_iunknown，宣告才會透過多個簽發者呈現至 RP 應用程式中，用戶端例如同盟案例。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The value of the OriginalIssuer property is a name that is taken from a list of well-known issuers maintained by the issuer name registry.</source>
+          <target state="translated">OriginalIssuer 屬性的值是取自簽發者名稱登錄所維護的已知的簽發者清單的名稱。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The issuer name registry is an instance of a class that derives from the &lt;xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt; class.</source>
+          <target state="translated">簽發者名稱登錄是從&lt;xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt;類別&lt;/xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt;衍生類別的執行個體</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The issuer name registry associates a mnemonic name (the issuer name) with the cryptographic material that is needed to verify signatures of tokens produced by the issuer; for example, an X.509 certificate.</source>
+          <target state="translated">簽發者名稱登錄的名稱相關聯助憶鍵 （簽發者名稱） 與已驗證所需的簽章的權杖簽發者; 所產生的加密編譯內容例如，X.509 憑證。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Except for delegation and federation scenarios, the &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; property and the OriginalIssuer property will usually have the same value.</source>
+          <target state="translated">委派和同盟案例中，除了&lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;屬性和 OriginalIssuer 屬性通常會有相同的值。&lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If the value of the OriginalIssuer property differs from the value of the &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; property, the claim was first issued by the original issuer and was subsequently re-issued by the issuer.</source>
+          <target state="translated">如果 OriginalIssuer 屬性的值不同的值從&lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;屬性宣告的原始簽發者首次發出和後續重新發行者所發行。&lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>A name that refers to the original issuer of the claim.</source>
+          <target state="translated">指的是宣告的原始簽發者名稱。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets a dictionary that contains additional properties associated with this claim.</source>
+          <target state="translated">取得字典，其中包含與此宣告相關聯的其他屬性。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The Properties property provides a dictionary of name-value pairs that allows metadata or other information about the claim to be associated with it.</source>
+          <target state="translated">Properties 屬性提供名稱 / 值組的字典，讓中繼資料或其他資訊要與它相關聯的宣告。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>For claims generated from SAML tokens, this dictionary may contain keys given by the constants in the &lt;xref:System.Security.Claims.ClaimProperties&gt; class.</source>
+          <target state="translated">產生的 SAML 權杖的宣告，此字典可以包含索引鍵指定的&lt;xref:System.Security.Claims.ClaimProperties&gt;類別&lt;/xref:System.Security.Claims.ClaimProperties&gt;中的常數</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A dictionary that contains additional properties associated with the claim.</source>
+          <target state="translated">字典，其中包含與此宣告相關聯的其他屬性。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The properties are represented as name-value pairs.</source>
+          <target state="translated">屬性會表示為名稱 / 值組。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets the subject of the claim.</source>
+          <target state="translated">取得宣告的主體。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The subject is the entity about which the claim is asserted.</source>
+          <target state="translated">主體是了解哪種判斷提示宣告的實體。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Some typical examples are a user, an application or service, a device, or a computer.</source>
+          <target state="translated">一些典型的範例包括使用者、 應用程式或服務、 裝置或電腦。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The subject is represented by a &lt;xref:System.Security.Claims.ClaimsIdentity&gt;, which contains a collection of claims that describe it.</source>
+          <target state="translated">主旨是以來表示&lt;xref:System.Security.Claims.ClaimsIdentity&gt;，其中包含描述該宣告的集合&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The subject of the claim.</source>
+          <target state="translated">宣告主體。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Returns a string representation of this <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">傳回這個字串表示<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The string that is returned contains the values of the &lt;xref:System.Security.Claims.Claim.Type%2A&gt; and &lt;xref:System.Security.Claims.Claim.Value%2A&gt; properties in the following format:.”Type: Value”.</source>
+          <target state="translated">所傳回的字串包含&lt;xref:System.Security.Claims.Claim.Type%2A&gt;的值和&lt;xref:System.Security.Claims.Claim.Value%2A&gt;屬性，以下列格式:。 」類型︰ 值 」。&lt;/xref:System.Security.Claims.Claim.Value%2A&gt; &lt;/xref:System.Security.Claims.Claim.Type%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The string representation of this <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">這個字串表示<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets the claim type of the claim.</source>
+          <target state="translated">取得宣告的宣告型別。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The Type property provides the semantic content of the claim, that is, it states what the claim is about.</source>
+          <target state="translated">此型別屬性會提供語意宣告的內容，也就是指出宣告是關於。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>For example, a claim with a claim type of &lt;xref:System.Security.Claims.ClaimTypes.GivenName&gt; (“http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname”) represents a user’s first name.</source>
+          <target state="translated">例如，具有宣告類型的宣告&lt;xref:System.Security.Claims.ClaimTypes.GivenName&gt;(「 http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname 」) 代表使用者的名字。&lt;/xref:System.Security.Claims.ClaimTypes.GivenName&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The claim type is typically a URI; however, you are not limited to any specific format other than that it must be representable as a string.</source>
+          <target state="translated">宣告類型通常是 URI;不過，您並不限於任何特定格式以外，它必須是可表示為字串。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The only general requirement is that the claim issuer and the claim consumer must agree about the meaning of the claim.</source>
+          <target state="translated">只有一般的需求是宣告簽發者和宣告取用者必須同意相關宣告的意義。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Constants for the well-known claim types used by Windows Identity Foundation (WIF) are available through the &lt;xref:System.Security.Claims.ClaimTypes&gt; class.</source>
+          <target state="translated">常數，用來使用 Windows Identity Foundation (WIF) 的已知宣告型別都是透過&lt;xref:System.Security.Claims.ClaimTypes&gt;類別。&lt;/xref:System.Security.Claims.ClaimTypes&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The claim value is provided by the &lt;xref:System.Security.Claims.Claim.Value%2A&gt; property.</source>
+          <target state="translated">宣告值係由&lt;xref:System.Security.Claims.Claim.Value%2A&gt;屬性。&lt;/xref:System.Security.Claims.Claim.Value%2A&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The claim type.</source>
+          <target state="translated">宣告類型。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets the value of the claim.</source>
+          <target state="translated">取得宣告的值。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The value of a claim is represented only as a string.</source>
+          <target state="translated">宣告的值是僅以字串表示。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>For more complex value types, it is recommended that you use standard XML schema types to indicate how the value is meant to be serialized and deserialized to and from a string.</source>
+          <target state="translated">對於更複雜的數值類型，建議您使用標準的 XML 結構描述類型，表示值用來進行序列化和還原序列化與字串的方式。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.Claim.ValueType%2A&gt; property provides the underlying syntactic type information about the value.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.Claim.ValueType%2A&gt;屬性提供值的相關的基礎語法的類型資訊。&lt;/xref:System.Security.Claims.Claim.ValueType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Claims.Claim.Type%2A&gt; property provides the semantic information about the value; that is, it provides the meaning of the value and tells a claim consumer how to interpret it.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.Claim.Type%2A&gt;屬性提供值的語意資訊; 亦即，它提供值的意義，並指出宣告消費者如何解譯它。&lt;/xref:System.Security.Claims.Claim.Type%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The claim value.</source>
+          <target state="translated">宣告值。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Gets the value type of the claim.</source>
+          <target state="translated">取得宣告的值型別。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The ValueType property contains a string that identifies the type information of the value.</source>
+          <target state="translated">ValueType 屬性包含識別值的型別資訊的字串。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>This property can be used to understand the format of the value and to provide information about how to serialize and deserialize the value.</source>
+          <target state="translated">這個屬性可用來了解值的格式，並提供如何序列化和還原序列化值的相關資訊。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>If your solution requires complex value types, it is recommended that you use standard XML schema types in the ValueType property to indicate how the &lt;xref:System.Security.Claims.Claim.Value%2A&gt; property is meant to be serialized and deserialized from a string.</source>
+          <target state="translated">如果您的方案需要複雜的實值類型，建議的 ValueType 屬性中使用標準的 XML 結構描述類型，以指出如何&lt;xref:System.Security.Claims.Claim.Value%2A&gt;屬性用來進行序列化和從字串還原序列化。&lt;/xref:System.Security.Claims.Claim.Value%2A&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The claim value type.</source>
+          <target state="translated">宣告值類型。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Writes this <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the writer.</source>
+          <target state="translated">將這個<bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>至寫入器。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The writer to write this claim</source>
+          <target state="translated">寫入器寫入這個宣告</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The user data to claim</source>
+          <target state="translated">宣告的使用者資料</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

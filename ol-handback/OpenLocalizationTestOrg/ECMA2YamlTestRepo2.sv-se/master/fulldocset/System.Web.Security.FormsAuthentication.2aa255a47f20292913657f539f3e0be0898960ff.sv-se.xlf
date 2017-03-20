@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f78857544d6ac9faf75c4f713ec1dea53c315fea</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Security.FormsAuthentication.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">48693291cd23c71c28fb29620b22ade587ed7c55</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">75a63e6fb1dfd98629135ca71aa3afec4b54fdda</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages forms-authentication services for Web applications.</source>
+          <target state="translated">Hanterar formulärautentisering tjänster för webbprogram.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Den här klassen kan inte ärvas.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Forms authentication enables user and password validation for Web applications that do not require Windows authentication.</source>
+          <target state="translated">Formulärautentisering kan användare och verifiering av lösenord för webbprogram som inte kräver Windows-autentisering.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With forms authentication, user information is stored in an external data source, such as a &lt;xref:System.Web.Security.Membership&gt; database, or in the configuration file for an application.</source>
+          <target state="translated">Med formulärautentisering, lagras användarinformationen i en extern datakälla som en &lt;xref:System.Web.Security.Membership&gt;databas, eller i konfigurationsfilen för ett program.&lt;/xref:System.Web.Security.Membership&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once a user is authenticated, forms authentication maintains an authentication ticket in a cookie or in the URL so that an authenticated user does not need to supply credentials with each request.</source>
+          <target state="translated">När en användare autentiseras upprätthåller formulärautentisering en autentiseringsbiljett i en cookie eller URL: en så att en autentiserad användare inte behöver ange autentiseringsuppgifter för varje begäran.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Forms authentication is enabled by setting the <ph id="ph1">`mode`</ph> attribute of the  configuration element to <ph id="ph2">`Forms`</ph>.</source>
+          <target state="translated">Formulär för autentisering är aktiverat genom att ange den <ph id="ph1">`mode`</ph> attribut för konfigurationselementet till <ph id="ph2">`Forms`</ph>.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can require that all requests to an application contain a valid user authentication ticket by using the  configuration element to deny the request of any unknown user, as shown in the following example.</source>
+          <target state="translated">Du kan kräva att alla begäranden till ett program innehåller en giltig användare autentiseringsbiljetten med hjälp av konfigurationselementet för att neka en begäran för en okänd användare som visas i följande exempel.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;system.web&gt;     &lt;authentication mode="Forms"&gt;       &lt;forms loginUrl="login.aspx" /&gt;     &lt;/authentication&gt;     &lt;authorization&gt;       &lt;deny users="?" /&gt;     &lt;/authorization&gt;   &lt;/system.web&gt;   ```</ph>       In the previous example, any request for an ASP.NET page that is part of the application requires a valid user name that is supplied by forms authentication.</source>
+          <target state="translated"><ph id="ph1">```   &lt;system.web&gt;     &lt;authentication mode="Forms"&gt;       &lt;forms loginUrl="login.aspx" /&gt;     &lt;/authentication&gt;     &lt;authorization&gt;       &lt;deny users="?" /&gt;     &lt;/authorization&gt;   &lt;/system.web&gt;   ```</ph>I exemplet ovan kräver ett giltigt användarnamn som tillhandahålls av formulär för autentisering i begäran om en ASP.NET-sida som ingår i programmet.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no user name exists, then the request is redirected to the configured &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;.</source>
+          <target state="translated">Om det finns inget användarnamn, sedan omdirigeras begäran till konfigurerade &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;.&lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FormsAuthentication class provides access to methods and properties that you can use in an application that authenticates users.</source>
+          <target state="translated">Klassen FormsAuthentication ger åtkomst till metoder och egenskaper som du kan använda i ett program som autentiserar användare.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt; method redirects a browser to the configured &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt; for users to log into an application.</source>
+          <target state="translated">Den &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;metoden omdirigerar en webbläsare till den konfigurerade &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;för användare att logga in på ett program.&lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt; method redirects an authenticated user back to the original protected URL that was requested or to the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;Metoden omdirigerar en autentiserad användare tillbaka till den ursprungliga skyddade URL: en som begärdes eller &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are also methods that enable you to manage forms-authentication tickets, if needed.</source>
+          <target state="translated">Det finns också metoder som gör det möjligt att hantera formulär för autentisering biljetter, om det behövs.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is not intended to be used from your code.</source>
+          <target state="translated">Den här konstruktorn är inte avsedd att användas från din kod.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Validates a user name and password against credentials stored in the configuration file for an application.</source>
+          <target state="translated">Verifierar ett användarnamn och lösenord mot autentiseringsuppgifter som lagras i konfigurationsfilen för ett program.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Authenticate method verifies user credentials that are stored in the  section of the application configuration file.</source>
+          <target state="translated">Autentiseringsmetoden kontrollerar autentiseringsuppgifterna som lagras i avsnittet i programmets konfigurationsfil.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can use ASP.NET membership to store user credentials and call the &lt;xref:System.Web.Security.MembershipProvider.ValidateUser%2A&gt; to verify the credentials.</source>
+          <target state="translated">Du kan också använda ASP.NET-medlemskap för att lagra autentiseringsuppgifter och anrop i &lt;xref:System.Web.Security.MembershipProvider.ValidateUser%2A&gt;verifiera autentiseringsuppgifterna.&lt;/xref:System.Web.Security.MembershipProvider.ValidateUser%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Managing Users by Using Membership<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>hantera användare med hjälp av medlemskap<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For improved security, you can encrypt passwords stored in the configuration file for an application by using the &lt;xref:System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile%2A&gt; method.</source>
+          <target state="translated">För ökad säkerhet kan du kryptera lösenord ska lagras i konfigurationsfilen för ett program med hjälp av den &lt;xref:System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile%2A&gt;metoden.&lt;/xref:System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The user name.</source>
+          <target state="translated">Användarnamnet.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The password for the user.</source>
+          <target state="translated">Lösenord för användaren.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user name and password are valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om användarnamnet och lösenordet är giltiga. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the value of the domain of the forms-authentication cookie.</source>
+          <target state="translated">Hämtar värdet för domänen i cookien för formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CookieDomain property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`domain`</ph> attribute of the  configuration element.</source>
+          <target state="translated">CookieDomain egenskapens värde har angetts i konfigurationsfilen för ett ASP.NET-program med hjälp av den <ph id="ph1">`domain`</ph> attribut för konfigurationselementet.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CookieDomain property value determines the &lt;xref:System.Web.HttpCookie.Domain%2A&gt; that the cookie will be used for.</source>
+          <target state="translated">Egenskapsvärdet CookieDomain anger &lt;xref:System.Web.HttpCookie.Domain%2A&gt;cookien kommer att använda efter.&lt;/xref:System.Web.HttpCookie.Domain%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.HttpCookie.Domain*&gt; of the forms-authentication cookie.</source>
+          <target state="translated">Den &lt;xref:System.Web.HttpCookie.Domain*&gt;cookien för formulär för autentisering.&lt;/xref:System.Web.HttpCookie.Domain*&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">Standardvärdet är en tom sträng ("").</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the application is configured for cookieless forms authentication.</source>
+          <target state="translated">Hämtar ett värde som anger om programmet är konfigurerat för cookieless formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CookieMode property reflects the value for the <ph id="ph1">`cookieless`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Egenskapen CookieMode är värdet för den <ph id="ph1">`cookieless`</ph> attribut för konfigurationselementet.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CookieMode property determines whether the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; value will be stored in a session cookie in the browser or stored in the &lt;xref:System.Web.HttpRequest.QueryString%2A&gt; property.</source>
+          <target state="translated">Egenskapen CookieMode bestämmer om den &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;värdet kommer att lagras i en sessionscookie i webbläsaren eller lagras i den &lt;xref:System.Web.HttpRequest.QueryString%2A&gt;egenskapen.&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; value is stored in the URI, the length of the generated URI may be longer than the maximum length allowed.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; När den &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;värdet lagras i URI: N, längden på den genererade URI kan vara längre än den tillåtna maxlängden.&lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is most likely to occur when the &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt; property is set to the application name and the application name is long (40 or more characters), when user names in the application are long, or when long &lt;xref:System.Web.Security.FormsAuthenticationTicket.UserData%2A&gt; strings are stored in the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; value.</source>
+          <target state="translated">Detta beror sannolikt att inträffa när den &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt;egenskap är inställd på programmets namn och namnet på programmet är lång (minst&amp;40; tecken), när användaren namnen i programmet är lång eller när långa &lt;xref:System.Web.Security.FormsAuthenticationTicket.UserData%2A&gt;strängar lagras i den &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;värde.&lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.UserData%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the generated URI is too long, the Web server will return a <ph id="ph1">`400 - Bad Request`</ph> error.</source>
+          <target state="translated">Om den genererade URI är för lång, webbservern returnerar en <ph id="ph1">`400 - Bad Request`</ph> fel.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates whether the application is configured for cookieless forms authentication.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden som anger om programmet är konfigurerat för cookieless formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the application is configured to support cookieless forms authentication.</source>
+          <target state="translated">Hämtar ett värde som anger om programmet är konfigurerad för att stödja cookieless formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CookiesSupported property returns a value based on the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; value and the capabilities of the browser.</source>
+          <target state="translated">Egenskapen CookiesSupported returnerar ett värde baserat på den &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;värde och funktionerna i webbläsaren.&lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; property is set to &lt;xref:System.Web.HttpCookieMode&gt;, the CookiesSupported property will return <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">-Om den &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;egenskap är inställd på &lt;xref:System.Web.HttpCookieMode&gt;, returnerar egenskapen CookiesSupported <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; property is set to &lt;xref:System.Web.HttpCookieMode&gt;, the CookiesSupported property will return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">-Om den &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;egenskap är inställd på &lt;xref:System.Web.HttpCookieMode&gt;, returnerar egenskapen CookiesSupported <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; property is set to &lt;xref:System.Web.HttpCookieMode&gt;, the CookiesSupported property will return <ph id="ph1">`true`</ph> if the browser supports cookies and cookies are enabled; otherwise, the CookiesSupported property will return <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">-Om den &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;egenskap är inställd på &lt;xref:System.Web.HttpCookieMode&gt;, returnerar egenskapen CookiesSupported <ph id="ph1">`true`</ph> om webbläsaren stöder cookies och cookies är aktiverade, annars egenskapen CookiesSupported returnerar <ph id="ph2">`false`</ph>.&lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt; property is set to &lt;xref:System.Web.HttpCookieMode&gt;, the CookiesSupported property will return <ph id="ph1">`true`</ph> if the &lt;xref:System.Web.HttpRequest.Browser%2A&gt; for the current &lt;xref:System.Web.HttpContext.Request%2A&gt; supports both cookies and redirecting with cookies; otherwise, the CookiesSupported property will return <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">-Om den &lt;xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;egenskap är inställd på &lt;xref:System.Web.HttpCookieMode&gt;, egenskapen CookiesSupported returnerar <ph id="ph1">`true`</ph> om den &lt;xref:System.Web.HttpRequest.Browser%2A&gt;för aktuellt &lt;xref:System.Web.HttpContext.Request%2A&gt;stöder cookies och omdirigera med cookies; annars egenskapen CookiesSupported returnerar <ph id="ph2">`false`</ph>.&lt;/xref:System.Web.HttpContext.Request%2A&gt; &lt;/xref:System.Web.HttpRequest.Browser%2A&gt; &lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookieMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the application is configured to support cookieless forms authentication; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om programmet har konfigurerats för att stödja cookieless formulärautentisering; Annars <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object based on the encrypted forms-authentication ticket passed to the method.</source>
+          <target state="translated">Skapar en <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt baserat på krypterade formulärautentisering biljetten överförs till metoden.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The encrypted authentication ticket.</source>
+          <target state="translated">Krypterade autentiseringsbiljetten.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedTicket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid ticket, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned.</source>
+          <target state="translated">Om den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedTicket</ph> <ept id="p1">&lt;/code&gt;</ept> parametern är inte en giltig biljett <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> returneras.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets the URL that the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class will redirect to if no redirect URL is specified.</source>
+          <target state="translated">Hämtar URL som den <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen omdirigerar till om någon omdirigering URL anges.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefaultUrl property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`defaultUrl`</ph> attribute of the  configuration element.</source>
+          <target state="translated">DefaultUrl egenskapens värde har angetts i konfigurationsfilen för ett ASP.NET-program med hjälp av den <ph id="ph1">`defaultUrl`</ph> attribut för konfigurationselementet.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefaultUrl property is used by the &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt; method if no return URL is included in the request.</source>
+          <target state="translated">Egenskapen DefaultUrl används av den &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;metoden om inga Retur-URL som ingår i begäran.&lt;/xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, the &lt;xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt; method will return the DefaultUrl if no return URL is included in the request.</source>
+          <target state="translated">På liknande sätt den &lt;xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt;metoden returnerar DefaultUrl om ingen retur-URL som ingår i begäran.&lt;/xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The URL that the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class will redirect to if no redirect URL is specified.</source>
+          <target state="translated">URL-Adressen som den <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen omdirigerar till om någon omdirigering URL anges.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default is "default.aspx."</source>
+          <target state="translated">Standardvärdet är "default.aspx."</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether authenticated users can be redirected to URLs in other Web applications.</source>
+          <target state="translated">Hämtar ett värde som anger om autentiserade användare kan omdirigeras till URL: er i andra webbprogram.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EnableCrossAppRedirects property value is set using the <ph id="ph1">`enableCrossAppRedirects`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Egenskapsvärdet EnableCrossAppRedirects ställs in med den <ph id="ph1">`enableCrossAppRedirects`</ph> attribut för konfigurationselementet.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EnableCrossAppRedirects property is checked within the &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt; method when the redirect URL does not point to a page in the current application.</source>
+          <target state="translated">Egenskapen EnableCrossAppRedirects är markerat i den &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;metoden när omdirigeringen URL: en inte pekar på en sida i det aktuella programmet.&lt;/xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If EnableCrossAppRedirects is <ph id="ph1">`true`</ph>, then the redirect is performed; if EnableCrossAppRedirects is <ph id="ph2">`false`</ph>, the browser is redirected to the page defined in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Om EnableCrossAppRedirects <ph id="ph1">`true`</ph>, och sedan omdirigeringen utförs; om EnableCrossAppRedirects <ph id="ph2">`false`</ph>, webbläsaren omdirigeras till sidan som definierats i den &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;egenskapen.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When you redirect pages across applications, you must make sure that specific attributes in the  configuration element are duplicated across the authenticated applications.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; När du dirigerar sidor i program, måste du se till att specifika attribut i konfigurationselementet dupliceras mellan de autentiserade program.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information and an example, see <bpt id="p1">[</bpt>Forms Authentication Across Applications<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information och exempel finns i <bpt id="p1">[</bpt>formulär för program<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When cross-application redirects are allowed, your site is vulnerable to an exploit that directs users to a malicious Web site but uses the login page for your site.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; När flera program omdirigeringar tillåts din webbplats är sårbara för en exploatering som leder användarna till en webbplats, men använder inloggningssidan för webbplatsen.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Always verify that the redirect URL that is returned by the &lt;xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt; method is a URL that you expect so that you can make sure that you allow redirects only to approved Web sites.</source>
+          <target state="translated">Kontrollera alltid att omdirigerings-URL som returneras av den &lt;xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt;metoden är en URL som du förväntar dig så att du kan se till att du omdirigerar endast till godkända webbplatser.&lt;/xref:System.Web.Security.FormsAuthentication.GetRedirectUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must also verify that the redirect URL uses the appropriate protocol (HTTP or HTTPS).</source>
+          <target state="translated">Du måste också kontrollera att rätt protokoll (HTTP eller HTTPS) används för omdirigerings-URL.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To perform these verifications, you can add a postback event handler to your login page, or you can add a handler for the &lt;xref:System.Web.UI.WebControls.Login.LoggedIn&gt; event of the &lt;xref:System.Web.UI.WebControls.Login&gt; control.</source>
+          <target state="translated">Du kan lägga till en hanterare för återanslående till din inloggningssidan om du vill utföra dessa kontroller eller du kan lägga till en hanterare för den &lt;xref:System.Web.UI.WebControls.Login.LoggedIn&gt;händelsen för den &lt;xref:System.Web.UI.WebControls.Login&gt;kontroll.&lt;/xref:System.Web.UI.WebControls.Login&gt; &lt;/xref:System.Web.UI.WebControls.Login.LoggedIn&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if authenticated users can be redirected to URLs in other Web applications; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om autentiserade användare kan omdirigeras till URL: er i andra webbprogram. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Enables forms authentication.</source>
+          <target state="translated">Aktiverar formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property is <ph id="ph1">`null`</ph>, that property is set to the default URL value from the <ph id="ph2">`configurationData`</ph> parameter.</source>
+          <target state="translated">Om den &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;egenskapen är <ph id="ph1">`null`</ph>, att egenskapen har angetts till standardvärdet URL från den <ph id="ph2">`configurationData`</ph> parameter.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt; property is <ph id="ph1">`null`</ph>, that property is set to the login URL value from the <ph id="ph2">`configurationData`</ph> parameter.</source>
+          <target state="translated">Om den &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;egenskapen är <ph id="ph1">`null`</ph>, egenskapsuppsättning till inloggnings-URL-värdet från den <ph id="ph2">`configurationData`</ph> parameter.&lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A name-value collection that contains values for "defaultUrl" and/or "loginUrl".</source>
+          <target state="translated">En samling med namn-värde som innehåller värden för "defaultUrl" och/eller "loginUrl".</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The parameter can be null if there are no values for the default URL or the login URL.</source>
+          <target state="translated">Parametern kan vara null om det inte finns några värden för standard-URL eller inloggnings-URL.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The application is not in the pre-start initialization phase.</source>
+          <target state="translated">Programmet finns inte i förinläsningen-fasen.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Creates a string containing an encrypted forms-authentication ticket suitable for use in an HTTP cookie.</source>
+          <target state="translated">Skapar en sträng som innehåller en krypterad formulärautentisering biljett som är lämplig för användning i en HTTP-cookie.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with which to create the encrypted forms-authentication ticket.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som du vill skapa den kryptera formulärautentisering biljetten.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A string containing an encrypted forms-authentication ticket.</source>
+          <target state="translated">En sträng som innehåller en krypterad formulärautentisering biljett.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;ticket&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;ticket&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets the name of the cookie used to store the forms-authentication ticket.</source>
+          <target state="translated">Hämtar namnet på den cookie som används för att lagra biljetten för formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FormsCookieName property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`name`</ph> attribute of the  configuration element.</source>
+          <target state="translated">FormsCookieName egenskapens värde har angetts i konfigurationsfilen för ett ASP.NET-program med hjälp av den <ph id="ph1">`name`</ph> attribut för konfigurationselementet.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FormsCookieName is used to reference the cookie that stores the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; information.</source>
+          <target state="translated">FormsCookieName används för att referera till den cookie som visar den &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;information.&lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The name of the cookie used to store the forms-authentication ticket.</source>
+          <target state="translated">Namnet på den cookie som används för att lagra biljetten för formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The default is ".ASPXAUTH".</source>
+          <target state="translated">Standardvärdet är ". ASPXAUTH".</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the path for the forms-authentication cookie.</source>
+          <target state="translated">Hämtar sökvägen för cookien för formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FormsCookiePath property value is set in the configuration file for an ASP.NET application using the <ph id="ph1">`path`</ph> attribute of the  configuration element.</source>
+          <target state="translated">FormsCookiePath egenskapens värde har angetts i konfigurationsfilen för en ASP.NET-program med den <ph id="ph1">`path`</ph> attribut för konfigurationselementet.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FormsCookiePath specifies the &lt;xref:System.Web.HttpCookie.Path%2A&gt; for the cookie that stores the &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; information.</source>
+          <target state="translated">Anger FormsCookiePath den &lt;xref:System.Web.HttpCookie.Path%2A&gt;för cookie som visar den &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;information.&lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt; &lt;/xref:System.Web.HttpCookie.Path%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The path of the cookie where the forms-authentication ticket information is stored.</source>
+          <target state="translated">Sökvägen till cookien där formulärautentisering biljett information lagras.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default is "/".</source>
+          <target state="translated">Standardvärdet är "/".</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Creates an authentication cookie for a given user name.</source>
+          <target state="translated">Skapar en autentiseringscookie för ett angivet användarnamn.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This does not set the cookie as part of the outgoing response, so that an application can have more control over how the cookie is issued.</source>
+          <target state="translated">Detta anger inte cookien som en del av utgående svar så att ett program kan ha mer kontroll över hur cookien utfärdas.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The path of the cookie is determined by the &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt; property.</source>
+          <target state="translated">Sökvägen på cookien som bestäms av den &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt;egenskapen.&lt;/xref:System.Web.Security.FormsAuthentication.FormsCookiePath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The name of the authenticated user.</source>
+          <target state="translated">Namnet på den autentiserade användaren.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Så här skapar du en beständig cookie (en som sparas mellan webbläsarsessioner); Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains encrypted forms-authentication ticket information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.HttpCookie"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller krypterade formulärautentisering biljett information.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The default value for the &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath*&gt; property is used.</source>
+          <target state="translated">Standardvärdet för den &lt;xref:System.Web.Security.FormsAuthentication.FormsCookiePath*&gt;egenskapen används.&lt;/xref:System.Web.Security.FormsAuthentication.FormsCookiePath*&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Creates an authentication cookie for a given user name.</source>
+          <target state="translated">Skapar en autentiseringscookie för ett angivet användarnamn.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This does not set the cookie as part of the outgoing response.</source>
+          <target state="translated">Detta anger inte cookien som en del av utgående svar.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The name of the authenticated user.</source>
+          <target state="translated">Namnet på den autentiserade användaren.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Så här skapar du en beständig cookie (en som sparas mellan webbläsarsessioner); Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.HttpCookie.Path*&gt; of the authentication cookie.</source>
+          <target state="translated">Den &lt;xref:System.Web.HttpCookie.Path*&gt;i autentiseringscookien.&lt;/xref:System.Web.HttpCookie.Path*&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains encrypted forms-authentication ticket information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.HttpCookie"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller krypterade formulärautentisering biljett information.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Returns the redirect URL for the original request that caused the redirect to the login page.</source>
+          <target state="translated">Returnerar omdirigerings-URL för den ursprungliga begäran som orsakade att omdirigeras till inloggningssidan.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this method when you want to perform the redirect in your application code instead of using the &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt; method.</source>
+          <target state="translated">Du kan använda den här metoden när du vill utföra omdirigeringen i din programkod istället för att använda den &lt;xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;metoden.&lt;/xref:System.Web.Security.FormsAuthentication.RedirectFromLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetRedirectUrl method returns the URL specified in the query string using the <ph id="ph1">`ReturnURL`</ph> variable name.</source>
+          <target state="translated">Metoden GetRedirectUrl returnerar den URL som angavs i frågan sträng med den <ph id="ph1">`ReturnURL`</ph> variabelnamn.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the URL <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, the GetRedirectUrl method returns the return URL <ph id="ph2">`caller.aspx`</ph>.</source>
+          <target state="translated">Till exempel i URL: en <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, GetRedirectUrl-metoden returnerar den returnera-URL <ph id="ph2">`caller.aspx`</ph>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`ReturnURL`</ph> variable does not exist, the GetRedirectUrl method returns the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Om den <ph id="ph1">`ReturnURL`</ph> variabel finns inte, GetRedirectUrl-metoden returnerar URL: en i den &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;egenskapen.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET automatically adds the return URL when the browser is redirected to the login page.</source>
+          <target state="translated">ASP.NET lägger automatiskt till den returnera-URL när webbläsaren omdirigeras till inloggningssidan.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the <ph id="ph1">`ReturnUrl`</ph> variable must refer to a page within the current application.</source>
+          <target state="translated">Som standard den <ph id="ph1">`ReturnUrl`</ph> variabeln måste referera till en sida i det aktuella programmet.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`ReturnUrl`</ph> refers to a page in a different application or on a different server, the GetRedirectUrl methods returns the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Om <ph id="ph1">`ReturnUrl`</ph> hänvisar till en sida i ett annat program eller på en annan server GetRedirectUrl-metoder returnerar URL i den &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;egenskapen.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to allow the return URL to refer to a page outside the current application, you must set the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph1">`true`</ph> using the <ph id="ph2">`enableCrossAppRedirects`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Om du vill tillåta Retur-URL att referera till en sida utanför det aktuella programmet, måste du ange den &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;egenskapen <ph id="ph1">`true`</ph> med hjälp av den <ph id="ph2">`enableCrossAppRedirects`</ph> attribut för konfigurationselementet.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Setting the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph2">`true`</ph> to allow cross-application redirects is a potential security threat.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Inställningen den &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;egenskapen <ph id="ph2">`true`</ph> så att flera program omdirigeringar är ett potentiellt hot.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property.</source>
+          <target state="translated">Mer information finns i &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;egenskap.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The name of the authenticated user.</source>
+          <target state="translated">Namnet på den autentiserade användaren.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This parameter is ignored.</source>
+          <target state="translated">Den här parametern ignoreras.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A string that contains the redirect URL.</source>
+          <target state="translated">En sträng som innehåller omdirigerings-URL.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Produces a hash password suitable for storing in a configuration file based on the specified password and hash algorithm.</source>
+          <target state="translated">Genererar ett hash-lösenord som lämpar sig för att lagra i en konfigurationsfil som är baserat på det angivna lösenordet och hash-algoritm.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HashPasswordForStoringInConfigFile method creates a hashed password value that can be used when storing forms-authentication credentials in the configuration file for an application.</source>
+          <target state="translated">Metoden HashPasswordForStoringInConfigFile skapar ett som hashformaterats-lösenordsvärde som kan användas vid lagring av autentiseringsuppgifter för formulär för autentisering i konfigurationsfilen för ett program.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Authentication credentials stored in the configuration file for an application are used by the &lt;xref:System.Web.Security.FormsAuthentication.Authenticate%2A&gt; method to verify passwords for users of an application.</source>
+          <target state="translated">Autentiseringsuppgifter som lagras i konfigurationsfilen för ett program som används av den &lt;xref:System.Web.Security.FormsAuthentication.Authenticate%2A&gt;metod för att verifiera lösenord för användare av ett program.&lt;/xref:System.Web.Security.FormsAuthentication.Authenticate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can use ASP.NET membership to store user credentials.</source>
+          <target state="translated">Alternativt kan du använda ASP.NET-medlemskap för att lagra autentiseringsuppgifter.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Managing Users by Using Membership<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>hantera användare med hjälp av medlemskap<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The password to hash.</source>
+          <target state="translated">Lösenordet som hash.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The hash algorithm to use.</source>
+          <target state="translated">Hash-algoritmen att använda.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`passwordFormat`</ph> is a <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents one of the <bpt id="p2">&lt;xref href="System.Web.Configuration.FormsAuthPasswordFormat"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated"><ph id="ph1">`passwordFormat`</ph>är en <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar en av de <bpt id="p2">&lt;xref href="System.Web.Configuration.FormsAuthPasswordFormat"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> uppräkningsvärden.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The hashed password.</source>
+          <target state="translated">Lösenordet som hashformaterats.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;password&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>       -or-       <ph id="ph2">&lt;code&gt;passwordFormat&lt;/code&gt;</ph> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;password&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>       -or-       <ph id="ph2">&lt;code&gt;passwordFormat&lt;/code&gt;</ph> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;passwordFormat&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.Web.Configuration.FormsAuthPasswordFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;passwordFormat&lt;/code&gt;</ph>är inte ett giltigt <bpt id="p1">&lt;xref href="System.Web.Configuration.FormsAuthPasswordFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värde.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object based on the configuration settings for the application.</source>
+          <target state="translated">Initierar den <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt baserat på konfigurationsinställningarna för programmet.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Initialize method is called when the &lt;xref:System.Web.Security.FormsAuthenticationModule&gt; creates an instance of the &lt;xref:System.Web.Security.FormsAuthentication&gt; class.</source>
+          <target state="translated">Initiera-metoden anropas när du &lt;xref:System.Web.Security.FormsAuthenticationModule&gt;skapar en instans av &lt;xref:System.Web.Security.FormsAuthentication&gt;klassen.&lt;/xref:System.Web.Security.FormsAuthentication&gt; &lt;/xref:System.Web.Security.FormsAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not intended to be called from your code.</source>
+          <target state="translated">Den här metoden ska inte anropas från din kod.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether forms authentication is enabled.</source>
+          <target state="translated">Hämtar ett värde som anger om formulär för autentisering är aktiverat.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if forms authentication is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om formulär för autentisering är aktiverad; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Gets the URL for the login page that the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class will redirect to.</source>
+          <target state="translated">Hämtar URL för inloggningen sidan som den <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen omdirigeras till.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoginUrl property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`loginUrl`</ph> attribute of the  configuration element.</source>
+          <target state="translated">LoginUrl egenskapens värde har angetts i konfigurationsfilen för ett ASP.NET-program med hjälp av den <ph id="ph1">`loginUrl`</ph> attribut för konfigurationselementet.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoginUrl is used by the &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt; method.</source>
+          <target state="translated">LoginUrl används av den &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;metoden.&lt;/xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The URL for the login page that the <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class will redirect to.</source>
+          <target state="translated">URL: en för inloggningen sidan som den <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthentication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen omdirigeras till.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The default is "login.aspx."</source>
+          <target state="translated">Standardvärdet är "login.aspx."</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Redirects an authenticated user back to the originally requested URL or the default URL.</source>
+          <target state="translated">Omdirigerar en autentiserad användare tillbaka till den ursprungligen begärda URL eller standard-URL.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RedirectFromLoginPage method redirects to the URL specified in the query string using the <ph id="ph1">`ReturnURL`</ph> variable name.</source>
+          <target state="translated">Metoden RedirectFromLoginPage omdirigerar till den URL som angavs i frågan sträng med den <ph id="ph1">`ReturnURL`</ph> variabelnamn.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the URL <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, the RedirectFromLoginPage method redirects tothe return URL <ph id="ph2">`caller.aspx`</ph>.</source>
+          <target state="translated">Till exempel i URL: en <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, metoden RedirectFromLoginPage omdirigerar till den returnera-URL <ph id="ph2">`caller.aspx`</ph>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`ReturnURL`</ph> variable does not exist, the RedirectFromLoginPage method redirects to the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Om den <ph id="ph1">`ReturnURL`</ph> variabel finns inte, metoden RedirectFromLoginPage omdirigerar till URL: en i den &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;egenskapen.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET automatically adds the return URL when the browser is redirected to the login page.</source>
+          <target state="translated">ASP.NET lägger automatiskt till den returnera-URL när webbläsaren omdirigeras till inloggningssidan.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the <ph id="ph1">`ReturnUrl`</ph> variable must refer to a page within the current application.</source>
+          <target state="translated">Som standard den <ph id="ph1">`ReturnUrl`</ph> variabeln måste referera till en sida i det aktuella programmet.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`ReturnUrl`</ph> refers to a page in a different application or on a different server, the RedirectFromLoginPage methods redirects to the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Om <ph id="ph1">`ReturnUrl`</ph> refererar till en sida i ett annat program eller på en annan server RedirectFromLoginPage metoder omdirigerar till URL: en i den &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;egenskapen.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to allow redirects to a page outside the current application, you must set the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph1">`true`</ph> using the <ph id="ph2">`enableCrossAppRedirects`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Om du vill tillåta omdirigerar till en sida utanför det aktuella programmet, måste du ange den &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;egenskapen <ph id="ph1">`true`</ph> med hjälp av den <ph id="ph2">`enableCrossAppRedirects`</ph> attribut för konfigurationselementet.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Setting the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph2">`true`</ph> to allow cross-application redirects is a potential security threat.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Inställningen den &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;egenskapen <ph id="ph2">`true`</ph> så att flera program omdirigeringar är ett potentiellt hot.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property.</source>
+          <target state="translated">Mer information finns i &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;egenskap.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; property is <ph id="ph1">`true`</ph>, and either the <ph id="ph2">`ReturnUrl`</ph> variable is within the current application or the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property is <ph id="ph3">`true`</ph>, then the RedirectFromLoginPage method issues an authentication ticket and places it in the default cookie using the &lt;xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt; method.</source>
+          <target state="translated">Om den &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;egenskapen är <ph id="ph1">`true`</ph>, och antingen den <ph id="ph2">`ReturnUrl`</ph> variabeln är inom det aktuella programmet eller &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;egenskapen är <ph id="ph3">`true`</ph>, och sedan metoden RedirectFromLoginPage utfärdar en autentiseringsbiljett och placeras på en standard cookie med hjälp av den &lt;xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt;metoden.&lt;/xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph> and the redirect path is to a URL in the current application, the ticket is issued as part of the redirect URL.</source>
+          <target state="translated">Om &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;är <ph id="ph1">`false`</ph> och omdirigera sökvägen till en URL i det aktuella programmet, biljetten utfärdas som en del av omdirigerings-URL.&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>, &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; is <ph id="ph2">`true`</ph>, and the redirect URL does not refer to a page within the current application, the RedirectFromLoginPage method issues an authentication ticket and places it in the &lt;xref:System.Web.HttpRequest.QueryString%2A&gt; property.</source>
+          <target state="translated">Om &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;är <ph id="ph1">`false`</ph>, &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;är <ph id="ph2">`true`</ph>, och omdirigera URL: en inte refererar till en sida i det aktuella programmet, metoden RedirectFromLoginPage utfärdar en autentiseringsbiljett och placerar den i den &lt;xref:System.Web.HttpRequest.QueryString%2A&gt;egenskapen.&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The authenticated user name.</source>
+          <target state="translated">Autentiserade användarnamn.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Så här skapar du en beständig cookie (en som sparas mellan webbläsarsessioner); Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The return URL specified in the query string contains a protocol other than HTTP: or HTTPS:.</source>
+          <target state="translated">Returnerar Webbadressen som angetts i frågesträngen innehåller ett protokoll än HTTP: eller HTTPS:.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Redirects an authenticated user back to the originally requested URL or the default URL using the specified cookie path for the forms-authentication cookie.</source>
+          <target state="translated">Omdirigerar en autentiserad användare till den ursprungligen begärda URL eller standard-URL med den angivna cookie-sökvägen för cookien för formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RedirectFromLoginPage method redirects to the return URL specified in the query string using the <ph id="ph1">`ReturnURL`</ph> variable name.</source>
+          <target state="translated">Metoden RedirectFromLoginPage omdirigerar till den Retur-URL som angetts i frågan sträng med den <ph id="ph1">`ReturnURL`</ph> variabelnamn.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the URL <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, the RedirectFromLoginPage method redirects tothe return URL <ph id="ph2">`caller.aspx`</ph>.</source>
+          <target state="translated">Till exempel i URL: en <ph id="ph1">`http://www.contoso.com/login.aspx?ReturnUrl=caller.aspx`</ph>, metoden RedirectFromLoginPage omdirigerar till den returnera-URL <ph id="ph2">`caller.aspx`</ph>.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`ReturnURL`</ph> variable does not exist, the RedirectFromLoginPage method redirects to the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Om den <ph id="ph1">`ReturnURL`</ph> variabel finns inte, metoden RedirectFromLoginPage omdirigerar till URL: en i den &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;egenskapen.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET automatically adds the return URL when the browser is redirected to the login page.</source>
+          <target state="translated">ASP.NET lägger automatiskt till den returnera-URL när webbläsaren omdirigeras till inloggningssidan.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the <ph id="ph1">`ReturnUrl`</ph> variable must refer to a page within the current application.</source>
+          <target state="translated">Som standard den <ph id="ph1">`ReturnUrl`</ph> variabeln måste referera till en sida i det aktuella programmet.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`ReturnUrl`</ph> refers to a page in a different application or on a different server, the RedirectFromLoginPage method redirects to the URL in the &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt; property.</source>
+          <target state="translated">Om <ph id="ph1">`ReturnUrl`</ph> refererar till en sida i ett annat program eller på en annan server RedirectFromLoginPage metoden omdirigerar till URL: en i den &lt;xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;egenskapen.&lt;/xref:System.Web.Security.FormsAuthentication.DefaultUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to allow redirects to a page outside the current application, you must set the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph1">`true`</ph> using the <ph id="ph2">`enableCrossAppRedirects`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Om du vill tillåta omdirigerar till en sida utanför det aktuella programmet, måste du ange den &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;egenskapen <ph id="ph1">`true`</ph> med hjälp av den <ph id="ph2">`enableCrossAppRedirects`</ph> attribut för konfigurationselementet.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Setting the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property to <ph id="ph2">`true`</ph> to allow cross-application redirects is a potential security threat.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Inställningen den &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;egenskapen <ph id="ph2">`true`</ph> så att flera program omdirigeringar är ett potentiellt hot.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property.</source>
+          <target state="translated">Mer information finns i &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;egenskap.&lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; property is <ph id="ph1">`true`</ph>, and either the <ph id="ph2">`ReturnUrl`</ph> variable is within the current application or the &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; property is <ph id="ph3">`true`</ph>, then the RedirectFromLoginPage method issues an authentication ticket and places it in the cookie specified by the <ph id="ph4">`strCookiePath`</ph> parameter using the &lt;xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt; method.</source>
+          <target state="translated">Om den &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;egenskapen är <ph id="ph1">`true`</ph>, och antingen den <ph id="ph2">`ReturnUrl`</ph> variabeln är inom det aktuella programmet eller &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;egenskapen är <ph id="ph3">`true`</ph>, och sedan metoden RedirectFromLoginPage utfärdar en autentiseringsbiljett och placeras på den cookie som angetts av den <ph id="ph4">`strCookiePath`</ph> parameter med hjälp av den &lt;xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt;metoden.&lt;/xref:System.Web.Security.FormsAuthentication.SetAuthCookie%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph> and the redirect path is to a URL in the current application, the ticket is issued as part of the redirect URL.</source>
+          <target state="translated">Om &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;är <ph id="ph1">`false`</ph> och omdirigera sökvägen till en URL i det aktuella programmet, biljetten utfärdas som en del av omdirigerings-URL.&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>, &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; is <ph id="ph2">`true`</ph>, and the redirect URL does not refer to a page within the current application, the RedirectFromLoginPage method issues an authentication ticket and places it in the &lt;xref:System.Web.HttpRequest.QueryString%2A&gt; property.</source>
+          <target state="translated">Om &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;är <ph id="ph1">`false`</ph>, &lt;xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt;är <ph id="ph2">`true`</ph>, och omdirigera URL: en inte refererar till en sida i det aktuella programmet, metoden RedirectFromLoginPage utfärdar en autentiseringsbiljett och placerar den i den &lt;xref:System.Web.HttpRequest.QueryString%2A&gt;egenskapen.&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.EnableCrossAppRedirects%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The authenticated user name.</source>
+          <target state="translated">Autentiserade användarnamn.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Så här skapar du en beständig cookie (en som sparas mellan webbläsarsessioner); Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The cookie path for the forms-authentication ticket.</source>
+          <target state="translated">Cookie-sökvägen för biljetten för formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The return URL specified in the query string contains a protocol other than HTTP: or HTTPS:.</source>
+          <target state="translated">Returnerar Webbadressen som angetts i frågesträngen innehåller ett protokoll än HTTP: eller HTTPS:.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Redirects the browser to the login URL.</source>
+          <target state="translated">Omdirigerar webbläsaren till inloggnings-URL.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RedirectToLoginPage method redirects the browser to the &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;.</source>
+          <target state="translated">Metoden RedirectToLoginPage dirigeras webbläsaren till &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;.&lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RedirectToLoginPage method does not clear the forms-authentication cookie.</source>
+          <target state="translated">Metoden RedirectToLoginPage tar inte bort cookien för formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the RedirectToLoginPage method in conjunction with the &lt;xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt; method to log one user out and allow a different user to log in.</source>
+          <target state="translated">Du kan använda metoden RedirectToLoginPage tillsammans med &lt;xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt;metoden för att logga ut användare och att en annan användare att logga in.&lt;/xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Redirects the browser to the login URL with the specified query string.</source>
+          <target state="translated">Omdirigerar webbläsaren till inloggnings-URL med den angivna frågesträngen.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RedirectToLoginPage method redirects the browser to the &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt; and includes the <ph id="ph1">`extraQueryString`</ph> value as the &lt;xref:System.Management.ManagementQuery.QueryString%2A&gt; for the redirected URL.</source>
+          <target state="translated">Metoden RedirectToLoginPage omdirigerar webbläsaren att den &lt;xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;och omfattar den <ph id="ph1">`extraQueryString`</ph> värdet som den &lt;xref:System.Management.ManagementQuery.QueryString%2A&gt;för den omdirigerade platsen.&lt;/xref:System.Management.ManagementQuery.QueryString%2A&gt; &lt;/xref:System.Web.Security.FormsAuthentication.LoginUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RedirectToLoginPage method does not clear the forms-authentication cookie.</source>
+          <target state="translated">Metoden RedirectToLoginPage tar inte bort cookien för formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the RedirectToLoginPage method in conjunction with the &lt;xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt; method to log one user out and allow a different user to log in.</source>
+          <target state="translated">Du kan använda metoden RedirectToLoginPage tillsammans med &lt;xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt;metoden för att logga ut användare och att en annan användare att logga in.&lt;/xref:System.Web.Security.FormsAuthentication.SignOut%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The query string to include with the redirect URL.</source>
+          <target state="translated">Frågesträngen ska ingå i omdirigerings-URL.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Conditionally updates the issue date and time and expiration date and time for a <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Villkorligt uppdaterar problemet datum och tid och förfallodatum och tid för en <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RenewTicketIfOld method updates the expiration date and time of the supplied &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt; if the current date and time minus the &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; value is greater than the &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; value minus the current date and time.</source>
+          <target state="translated">Metoden RenewTicketIfOld uppdaterar datum och tid för den angivna &lt;xref:System.Web.Security.FormsAuthenticationTicket&gt;om aktuella datum och tid minus det &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt;värdet är större än den &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt;värde minus aktuellt datum och tid.&lt;/xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ticket is updated with the &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; property set to the current date and time and the &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; property set to the current date and time plus the original &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; value minus the original &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; value.</source>
+          <target state="translated">Biljetten uppdateras med den &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt;-egenskapen angetts till aktuellt datum och tid och &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt;-egenskapen angetts till aktuellt datum och tid plus ursprungligt &lt;xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt;minus ursprungligt värdet &lt;xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt;värde.&lt;/xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.Expiration%2A&gt; &lt;/xref:System.Web.Security.FormsAuthenticationTicket.IssueDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The forms-authentication ticket to update.</source>
+          <target state="translated">Formulärautentisering biljett att uppdatera.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The updated <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den uppdaterade <bpt id="p1">&lt;xref href="System.Web.Security.FormsAuthenticationTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the forms-authentication cookie requires SSL in order to be returned to the server.</source>
+          <target state="translated">Hämtar ett värde som anger om cookien för formulär för autentisering kräver SSL för att kunna returneras till servern.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RequireSSL property value is set in the configuration file for an ASP.NET application by using the <ph id="ph1">`requireSSL`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Egenskapsvärdet RequireSSL anges i konfigurationsfilen för ett ASP.NET-program med hjälp av den <ph id="ph1">`requireSSL`</ph> attribut för konfigurationselementet.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify in the Web.config file for your ASP.NET application whether SSL (Secure Sockets Layer) is required to return the forms-authentication cookie to the server by setting the <ph id="ph1">`requireSSL`</ph> attribute .</source>
+          <target state="translated">Du kan ange i Web.config-filen för ASP.NET-program, om SSL (Secure Sockets Layer) måste returnera cookien för formulär för autentisering till servern genom att ange den <ph id="ph1">`requireSSL`</ph> attribut.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Web.HttpCookie.Secure%2A&gt;.</source>
+          <target state="translated">Mer information finns i &lt;xref:System.Web.HttpCookie.Secure%2A&gt;.&lt;/xref:System.Web.HttpCookie.Secure%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is recommended that if you configure <ph id="ph1">`requireSSL`</ph> as <ph id="ph2">`false`</ph>, you also configure <ph id="ph3">`slidingExpiration`</ph> as <ph id="ph4">`false`</ph>, to reduce the amount of time for which a ticket is valid.</source>
+          <target state="translated">Vi rekommenderar att om du konfigurerar <ph id="ph1">`requireSSL`</ph> som <ph id="ph2">`false`</ph>, du också konfigurera <ph id="ph3">`slidingExpiration`</ph> som <ph id="ph4">`false`</ph>, för att minska den tid som en biljett är giltig.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if SSL is required to return the forms-authentication cookie to the server; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om SSL krävs för att returnera cookien för formulär för autentisering till servern. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Creates an authentication ticket for the supplied user name and adds it to the cookies collection of the response, or to the URL if you are using cookieless authentication.</source>
+          <target state="translated">Skapar en autentiseringsbiljett för det angivna användarnamnet och lägger till den i samlingen cookies för svaret eller URL: en om du använder cookieless autentisering.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetAuthCookie method adds a forms-authentication ticket to either the cookies collection, or to the URL if &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Metoden SetAuthCookie lägger till en biljetten för formulär för autentisering till samlingen cookies, eller till URL: en om &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;är <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The forms-authentication ticket supplies forms-authentication information to the next request made by the browser.</source>
+          <target state="translated">Biljetten för formulär för autentisering ger information för formulär för autentisering till nästa begäran från webbläsaren.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With forms authentication, you can use the SetAuthCookie method when you want to authenticate a user but still retain control of the navigation with redirects.</source>
+          <target state="translated">Med formulär för autentisering, kan du använda metoden SetAuthCookie när du vill autentisera en användare men fortfarande behålla kontrollen över navigering med omdirigeringar.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The name of an authenticated user.</source>
+          <target state="translated">Namnet på en autentiserad användare.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>This does not have to map to a Windows account.</source>
+          <target state="translated">Det behöver inte mappas till ett Windows-konto.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a persistent cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Så här skapar du en beständig cookie (en som sparas mellan webbläsarsessioner); Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.Security.FormsAuthentication.RequireSSL<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;xref:System.Web.HttpRequest.IsSecureConnection<ept id="p1">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;&gt;<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;&gt;<ept id="p1">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Creates an authentication ticket for the supplied user name and adds it to the cookies collection of the response, using the supplied cookie path, or using the URL if you are using cookieless authentication.</source>
+          <target state="translated">Skapar en autentiseringsbiljett för det angivna användarnamnet och lägger till den samlingen cookies i svaret, med den angivna cookie-sökvägen eller använda en URL Om du använder cookieless autentisering.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetAuthCookie method adds a forms-authentication ticket to either the cookies collection or the URL if &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Metoden SetAuthCookie lägger till en biljetten för formulär för autentisering till samlingen cookies eller URL: en om &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;är <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The forms-authentication ticket supplies forms-authentication information to the next request made by the browser.</source>
+          <target state="translated">Biljetten för formulär för autentisering ger information för formulär för autentisering till nästa begäran från webbläsaren.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With forms authentication, you can use the SetAuthCookie method when you want to authenticate a user but still retain control of the navigation with redirects.</source>
+          <target state="translated">Med formulär för autentisering, kan du använda metoden SetAuthCookie när du vill autentisera en användare men fortfarande behålla kontrollen över navigering med omdirigeringar.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The name of an authenticated user.</source>
+          <target state="translated">Namnet på en autentiserad användare.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a durable cookie (one that is saved across browser sessions); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Så här skapar du en beständig cookie (en som sparas mellan webbläsarsessioner); Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The cookie path for the forms-authentication ticket.</source>
+          <target state="translated">Cookie-sökvägen för biljetten för formulär för autentisering.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.Security.FormsAuthentication.RequireSSL<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;xref:System.Web.HttpRequest.IsSecureConnection<ept id="p1">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;&gt;<bpt id="p1">*</bpt>&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and &lt;&gt;<ept id="p1">*</ept>&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Removes the forms-authentication ticket from the browser.</source>
+          <target state="translated">Tar bort biljetten för formulär för autentisering från webbläsaren.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SignOut method removes the forms-authentication ticket information from the cookie or the URL if &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt; is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Metoden SignOut tar bort formulärautentisering biljett information från cookie eller URL: en om &lt;xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;är <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.Security.FormsAuthentication.CookiesSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the SignOut method in conjunction with the &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt; method to log one user out and allow a different user to log in.</source>
+          <target state="translated">Du kan använda metoden SignOut tillsammans med &lt;xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;metoden för att logga ut användare och att en annan användare att logga in.&lt;/xref:System.Web.Security.FormsAuthentication.RedirectToLoginPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you run exclusively in cookieless mode, or if you support both authenticated and anonymous users, you should explicitly control the redirect to the login page if you require special business logic to execute as a result of removing the anonymous identifier.</source>
+          <target state="translated">Om du kör uteslutande i cookieless läge eller om du stöder både autentiserade och anonyma användare, bör du uttryckligen styra omdirigering till inloggningssidan om du behöver särskilda affärslogiken för att köra på grund av att ta bort anonym identifierare.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the SignOut method is called, a redirect to the application's login page is made by calling the &lt;xref:System.Web.HttpResponse.Redirect%2A&gt; method with the <ph id="ph1">`endResponse`</ph> parameter set to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">När metoden SignOut anropas, görs en omdirigering till programmets inloggningssidan genom att anropa den &lt;xref:System.Web.HttpResponse.Redirect%2A&gt;metod med den <ph id="ph1">`endResponse`</ph> parametern <ph id="ph2">`false`</ph>.&lt;/xref:System.Web.HttpResponse.Redirect%2A&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The redirect does not take place until the current page has finished executing, so additional code can be run.</source>
+          <target state="translated">Omdirigeringen utförs inte förrän sidan har avslutats, så att ytterligare kod kan köras.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the code does not contain an explicit redirect to another page, the user is redirected to the login page configured in the application's configuration file.</source>
+          <target state="translated">Om koden inte innehåller en explicit omdirigering till en annan sida omdirigeras användaren till inloggningssidan som konfigurerats i programmets konfigurationsfil.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling the SignOut method only removes the forms authentication cookie.</source>
+          <target state="translated">Anrop till metoden SignOut tas endast formulärautentiseringscookie.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web server does not store valid and expired authentication tickets for later comparison.</source>
+          <target state="translated">Webbservern lagrar inte giltigt och har upphört att gälla biljetter för senare jämförelse.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This makes your site vulnerable to a replay attack if a malicious user obtains a valid forms authentication cookie.</source>
+          <target state="translated">Detta gör webbplatsen sårbar för ett replay-attacker om en obehörig användare erhåller en giltig formulärautentiseringscookie.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To improve security when using a forms authentication cookie, you should do the following:      -   Use absolute expiration for forms authentication cookies by setting the &lt;xref:System.Web.Security.FormsAuthentication.SlidingExpiration%2A&gt; property to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">För att förbättra säkerheten när du använder en formulärautentiseringscookie, bör du göra följande:-använda absolut förfallodatum för formulär autentiseringscookies genom att ange den &lt;xref:System.Web.Security.FormsAuthentication.SlidingExpiration%2A&gt;egenskapen <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.Security.FormsAuthentication.SlidingExpiration%2A&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This limits the window in which a hijacked cookie can be replayed.</source>
+          <target state="translated">Detta begränsar fönstret där en hijacked cookie spelas upp.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Only issue and accept authentication cookies over Secure Sockets Layer (SSL), by setting the &lt;xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt; property to <ph id="ph1">`true`</ph> and by running the entire Web site under SSL.</source>
+          <target state="translated">– Endast utfärda och acceptera autentiseringscookies över Secure Sockets Layer (SSL), genom att ange den &lt;xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt;egenskapen <ph id="ph1">`true`</ph> och genom att köra hela webbplatsen i SSL.&lt;/xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the &lt;xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt; property to <ph id="ph1">`true`</ph> ensures that ASP.NET will never send an authentication cookie to the browser over a non-SSL connection; however, the client might not honor the secure setting on the cookie.</source>
+          <target state="translated">Ange den &lt;xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt;egenskapen <ph id="ph1">`true`</ph> garanterar att ASP.NET skickar aldrig en autentiseringscookie till webbläsaren via en icke-SSL-anslutning, men klienten kan inte hänsyn till den säkra inställningen på cookien.&lt;/xref:System.Web.Security.FormsAuthentication.RequireSSL%2A&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means the client might send the forms authentication cookie over a non-SSL connection, thus leaving it vulnerable to hijack.</source>
+          <target state="translated">Det innebär att klienten kan skicka formulärautentiseringscookie via en icke-SSL-anslutning så att den sårbara för kapar.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can prevent a client from sending the forms authentication cookie in the clear by running the entire Web site under SSL.</source>
+          <target state="translated">Du kan förhindra att en klient skickar formulärautentiseringscookie i klartext genom att köra hela webbplatsen i SSL.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Use persistent storage on the server to record when a user logs out of the Web site, and then use an application event such as &lt;xref:System.Web.HttpApplication.PostAuthenticateRequest&gt; event to determine whether the current user was authenticated with forms authentication.</source>
+          <target state="translated">-Använd beständig lagring på servern ska registreras när en användare loggar ut från webbplatsen och använda händelse som &lt;xref:System.Web.HttpApplication.PostAuthenticateRequest&gt;händelsen för att avgöra om den aktuella användaren autentiserades med formulärautentisering.&lt;/xref:System.Web.HttpApplication.PostAuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user was authenticated with forms authentication, and if the information in persistent storage indicates the user is logged out, immediately clear the authentication cookie and redirect the browser back to the login page.</source>
+          <target state="translated">Om användaren autentiserades med formulär för autentisering och, om informationen i beständig lagring anger användaren loggas omedelbart Rensa cookien för autentisering och dirigera om webbläsaren tillbaka till inloggningssidan.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After a successful login, update storage to reflect that the user is logged in.</source>
+          <target state="translated">Uppdatera lagring för att återspegla att användaren är inloggad när en lyckad inloggning.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use this method, your application must track the logged-in status of the user, and must force idle users to log out.</source>
+          <target state="translated">När du använder den här metoden kan ditt program måste följa inloggad statusen för användaren och tvinga inaktiva användare att logga ut.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether sliding expiration is enabled.</source>
+          <target state="translated">Hämtar ett värde som anger om ett glidande förfallodatum är aktiverat.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SlidingExpiration property value is set using the <ph id="ph1">`slidingExpiration`</ph> attribute of the  configuration element.</source>
+          <target state="translated">Egenskapsvärdet SlidingExpiration ställs in med den <ph id="ph1">`slidingExpiration`</ph> attribut för konfigurationselementet.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sliding expiration resets the expiration time for a valid authentication cookie if a request is made and more than half of the timeout interval has elapsed.</source>
+          <target state="translated">Ett glidande återställer förfallodatum förfallotiden för en giltig cookie för autentisering om en begäran görs och mer än hälften av timeout-intervall har förflutit.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the cookie expires, the user must re-authenticate.</source>
+          <target state="translated">Om cookien förfaller, måste användaren igen att autentisera.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the SlidingExpiration property to <ph id="ph1">`false`</ph> can improve the security of an application by limiting the time for which an authentication cookie is valid, based on the configured <ph id="ph2">`timeout`</ph> value.</source>
+          <target state="translated">Egenskapen SlidingExpiration <ph id="ph1">`false`</ph> kan förbättra säkerheten för ett program genom att begränsa den tid som en autentiseringscookie är giltigt, baserat på den konfigurerade <ph id="ph2">`timeout`</ph> värde.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>We recommend that if you configure <ph id="ph1">`requireSSL`</ph> as <ph id="ph2">`false`</ph>, you also configure <ph id="ph3">`slidingExpiration`</ph> as <ph id="ph4">`false`</ph>, to reduce the amount of time for which a ticket is valid.</source>
+          <target state="translated">Vi rekommenderar att om du konfigurerar <ph id="ph1">`requireSSL`</ph> som <ph id="ph2">`false`</ph>, du också konfigurera <ph id="ph3">`slidingExpiration`</ph> som <ph id="ph4">`false`</ph>, för att minska den tid som en biljett är giltig.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if sliding expiration is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om ett glidande förfallodatum är aktiverat; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether to use Coordinated Universal Time (UTC) or local time for the ticket expiration date.</source>
+          <target state="translated">Hämtar ett värde som anger om du vill använda Coordinated Universal Time (UTC) eller lokal tid för Biljetten upphör att gälla.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>A value that indicates whether to use Coordinated Universal Time (UTC) or local time for the ticket expiration date.</source>
+          <target state="translated">Ett värde som anger om du vill använda Coordinated Universal Time (UTC) eller lokal tid för Biljetten upphör att gälla.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Gets the amount of time before an authentication ticket expires.</source>
+          <target state="translated">Hämtar hur lång tid innan en autentiseringsbiljett upphör att gälla.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The amount of time before an authentication ticket expires.</source>
+          <target state="translated">Hur lång tid innan en autentiseringsbiljett upphör att gälla.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
