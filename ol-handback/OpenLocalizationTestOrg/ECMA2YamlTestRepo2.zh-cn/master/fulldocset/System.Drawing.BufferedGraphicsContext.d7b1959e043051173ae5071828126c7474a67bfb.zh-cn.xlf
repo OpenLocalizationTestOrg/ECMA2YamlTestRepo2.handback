@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3e75aa9863f9714064b120698ce846b61604564d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Drawing.BufferedGraphicsContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b5ae4b6bda44aeb06fcecb0c425cd4b674e9287</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ac5567ba7e61d5c0fcdb02fd2c2059eb5cbac09</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides methods for creating graphics buffers that can be used for double buffering.</source>
+          <target state="translated">提供用于创建可用来进行双缓冲图形缓冲区的方法。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The BufferedGraphicsContext class allows you to implement custom double buffering for your graphics.</source>
+          <target state="translated">BufferedGraphicsContext 类可以实现自定义双缓冲图形。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Graphics that use double buffering can reduce or eliminate flicker that is caused by redrawing a display surface.</source>
+          <target state="translated">使用双缓冲的图形的可以减少或消除闪烁引起重绘显示图面。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The simplest way to use double buffering is to set the &lt;xref:System.Windows.Forms.ControlStyles&gt; control style flag on a control using the &lt;xref:System.Windows.Forms.Control.SetStyle%2A&gt; method.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 使用双缓冲的最简单方法是设置&lt;xref:System.Windows.Forms.ControlStyles&gt;控制控件使用的样式标志&lt;xref:System.Windows.Forms.Control.SetStyle%2A&gt;方法。&lt;/xref:System.Windows.Forms.Control.SetStyle%2A&gt; &lt;/xref:System.Windows.Forms.ControlStyles&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Setting the &lt;xref:System.Windows.Forms.ControlStyles&gt; control styles flag for a control redirects all painting for the control through a default graphics buffer, without requiring any additional code.</source>
+          <target state="translated">设置&lt;xref:System.Windows.Forms.ControlStyles&gt;控件的控件的样式标志将重定向为通过一个默认的图形缓冲区，该控件的所有绘制工作，而无需任何其他代码。&lt;/xref:System.Windows.Forms.ControlStyles&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This flag is set to <ph id="ph1">`true`</ph> by default.</source>
+          <target state="translated">此标志设置为<ph id="ph1">`true`</ph>默认情况下。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The BufferedGraphicsContext class provides methods for creating and configuring a graphics buffer.</source>
+          <target state="translated">BufferedGraphicsContext 类提供用于创建和配置图形缓冲区的方法。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Drawing.BufferedGraphicsContext.Allocate%2A&gt; method creates a &lt;xref:System.Drawing.BufferedGraphics&gt;, which is a wrapper for a graphics buffer that also provides methods you can use to write to the buffer and render its contents to an output device.</source>
+          <target state="translated">&lt;xref:System.Drawing.BufferedGraphicsContext.Allocate%2A&gt;方法创建&lt;xref:System.Drawing.BufferedGraphics&gt;，这是包装器还提供了可用于写入到缓冲区和呈现其内容写入输出设备的方法的图形缓冲区。&lt;/xref:System.Drawing.BufferedGraphics&gt; &lt;/xref:System.Drawing.BufferedGraphicsContext.Allocate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can retrieve the BufferedGraphicsContext for the current application domain from the static &lt;xref:System.Drawing.BufferedGraphicsManager.Current%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">你可以从静态检索当前的应用程序域 BufferedGraphicsContext&lt;xref:System.Drawing.BufferedGraphicsManager.Current%2A?displayProperty=fullName&gt;属性。&lt;/xref:System.Drawing.BufferedGraphicsManager.Current%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For graphically intensive applications such as animation, you can create a dedicated BufferedGraphicsContext using the constructor, but for most applications the &lt;xref:System.Drawing.BufferedGraphicsManager.Current%2A?displayProperty=fullName&gt; property will be sufficient.</source>
+          <target state="translated">对于如动画的图形密集型应用程序，你可以创建专用的 BufferedGraphicsContext 使用构造函数中，但对于大多数应用程序&lt;xref:System.Drawing.BufferedGraphicsManager.Current%2A?displayProperty=fullName&gt;属性就够用了。&lt;/xref:System.Drawing.BufferedGraphicsManager.Current%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information on drawing buffered graphics and custom buffering implementations, see <bpt id="p1">[</bpt>Double Buffered Graphics<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>How to: Manually Manage Buffered Graphics<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">绘制缓冲的图形和自定义缓冲实现的详细信息，请参阅<bpt id="p1">[</bpt>双缓冲图形<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>如何︰ 手动管理缓冲图形<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.BufferedGraphicsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Drawing.BufferedGraphicsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For graphically intensive applications such as animation, you can sometimes improve performance by using a dedicated &lt;xref:System.Drawing.BufferedGraphicsContext&gt; instead of the default instance provided by the &lt;xref:System.Drawing.BufferedGraphicsManager&gt;.</source>
+          <target state="translated">对于如动画的图形密集型应用程序，你有时可以提高性能通过使用专用&lt;xref:System.Drawing.BufferedGraphicsContext&gt;而不是受支持&lt;xref:System.Drawing.BufferedGraphicsManager&gt;。&lt;/xref:System.Drawing.BufferedGraphicsManager&gt;提供的默认实例&lt;/xref:System.Drawing.BufferedGraphicsContext&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This allows you to create and manage graphics buffers individually.</source>
+          <target state="translated">这允许您创建和管理单独的图形缓冲区。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You should always call &lt;xref:System.Drawing.BufferedGraphicsContext.Dispose%2A&gt; when you finish using a dedicated &lt;xref:System.Drawing.BufferedGraphicsContext&gt;.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 都应该调用&lt;xref:System.Drawing.BufferedGraphicsContext.Dispose%2A&gt;使用专用的&lt;xref:System.Drawing.BufferedGraphicsContext&gt;.&lt;/xref:System.Drawing.BufferedGraphicsContext&gt;完毕&lt;/xref:System.Drawing.BufferedGraphicsContext.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information about dedicated graphics buffers, see <bpt id="p1">[</bpt>How to: Manually Manage Buffered Graphics<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关专用的图形缓冲区的详细信息，请参阅<bpt id="p1">[</bpt>如何︰ 手动管理缓冲图形<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Creates a graphics buffer of the specified size using the pixel format of the specified <bpt id="p1">&lt;xref href="System.Drawing.Graphics"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">创建使用指定的像素格式的指定大小的图形缓冲区<bpt id="p1">&lt;xref href="System.Drawing.Graphics"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When you call the Allocate method with a rectangle whose size exceeds the value of the &lt;xref:System.Drawing.BufferedGraphicsContext.MaximumBuffer%2A&gt; property, a temporary &lt;xref:System.Drawing.BufferedGraphicsContext&gt; is created to allocate the buffer and provide a temporary context for the buffer.</source>
+          <target state="translated">当你调用具有一个矩形的分配方法其大小超过的值&lt;xref:System.Drawing.BufferedGraphicsContext.MaximumBuffer%2A&gt;属性、 一个临时&lt;xref:System.Drawing.BufferedGraphicsContext&gt;创建以分配缓冲区，并提供一个临时的上下文缓冲区。&lt;/xref:System.Drawing.BufferedGraphicsContext&gt; &lt;/xref:System.Drawing.BufferedGraphicsContext.MaximumBuffer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The new &lt;xref:System.Drawing.BufferedGraphicsContext&gt; is distinct from the &lt;xref:System.Drawing.BufferedGraphicsContext&gt; for the application domain and it is disposed automatically when the &lt;xref:System.Drawing.BufferedGraphics&gt; returned by the Allocate method is disposed.</source>
+          <target state="translated">新&lt;xref:System.Drawing.BufferedGraphicsContext&gt;不同于&lt;xref:System.Drawing.BufferedGraphicsContext&gt;应用程序域和它自动释放时&lt;xref:System.Drawing.BufferedGraphics&gt;返回释放方法分配。&lt;/xref:System.Drawing.BufferedGraphics&gt; &lt;/xref:System.Drawing.BufferedGraphicsContext&gt; &lt;/xref:System.Drawing.BufferedGraphicsContext&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Graphics"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to match the pixel format for the new buffer to.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Graphics"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>以匹配的新缓冲区的像素格式。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Rectangle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the size of the buffer to create.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Rectangle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，表示要创建的缓冲区大小。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.BufferedGraphics"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be used to draw to a buffer of the specified dimensions.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.BufferedGraphics"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可用来绘制到指定的尺寸的缓冲区。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Creates a graphics buffer of the specified size using the pixel format of the specified <bpt id="p1">&lt;xref href="System.Drawing.Graphics"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">创建使用指定的像素格式的指定大小的图形缓冲区<bpt id="p1">&lt;xref href="System.Drawing.Graphics"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When you call the &lt;xref:System.Drawing.BufferedGraphicsContext.Allocate%2A&gt; method with a rectangle whose size exceeds the value of the &lt;xref:System.Drawing.BufferedGraphicsContext.MaximumBuffer%2A&gt; property, a temporary &lt;xref:System.Drawing.BufferedGraphicsContext&gt; is created to allocate the buffer and provide a temporary context for the buffer.</source>
+          <target state="translated">当调用&lt;xref:System.Drawing.BufferedGraphicsContext.Allocate%2A&gt;方法替换其大小超过的值的矩形的&lt;xref:System.Drawing.BufferedGraphicsContext.MaximumBuffer%2A&gt;属性、 一个临时&lt;xref:System.Drawing.BufferedGraphicsContext&gt;创建以分配缓冲区，并提供一个临时的上下文缓冲区。&lt;/xref:System.Drawing.BufferedGraphicsContext&gt; &lt;/xref:System.Drawing.BufferedGraphicsContext.MaximumBuffer%2A&gt; &lt;/xref:System.Drawing.BufferedGraphicsContext.Allocate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The new &lt;xref:System.Drawing.BufferedGraphicsContext&gt; is distinct from the &lt;xref:System.Drawing.BufferedGraphicsContext&gt; for the application domain and it is disposed automatically when the &lt;xref:System.Drawing.BufferedGraphics&gt; returned by the &lt;xref:System.Drawing.BufferedGraphicsContext.Allocate%2A&gt; method is disposed.</source>
+          <target state="translated">新&lt;xref:System.Drawing.BufferedGraphicsContext&gt;不同于&lt;xref:System.Drawing.BufferedGraphicsContext&gt;应用程序域和它自动释放时&lt;xref:System.Drawing.BufferedGraphics&gt;返回&lt;xref:System.Drawing.BufferedGraphicsContext.Allocate%2A&gt;释放方法。&lt;/xref:System.Drawing.BufferedGraphicsContext.Allocate%2A&gt; &lt;/xref:System.Drawing.BufferedGraphics&gt; &lt;/xref:System.Drawing.BufferedGraphicsContext&gt; &lt;/xref:System.Drawing.BufferedGraphicsContext&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; to a device context to match the pixel format of the new buffer to.</source>
+          <target state="translated">&lt;xref:System.IntPtr&gt;到设备上下文，以匹配的新缓冲区的像素格式。&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Rectangle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the size of the buffer to create.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Rectangle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，表示要创建的缓冲区大小。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.BufferedGraphics"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be used to draw to a buffer of the specified dimensions.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.BufferedGraphics"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可用来绘制到指定的尺寸的缓冲区。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.Drawing.BufferedGraphicsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">释放使用的所有资源<bpt id="p1">&lt;xref href="System.Drawing.BufferedGraphicsContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Call Dispose when you are finished using the &lt;xref:System.Drawing.BufferedGraphicsContext&gt;.</source>
+          <target state="translated">在完成使用&lt;xref:System.Drawing.BufferedGraphicsContext&gt;.&lt;/xref:System.Drawing.BufferedGraphicsContext&gt;时调用的 Dispose</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Dispose method leaves the &lt;xref:System.Drawing.BufferedGraphicsContext&gt; in an unusable state.</source>
+          <target state="translated">Dispose 方法离开&lt;xref:System.Drawing.BufferedGraphicsContext&gt;中不可用状态。&lt;/xref:System.Drawing.BufferedGraphicsContext&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>After calling Dispose, you must release all references to the &lt;xref:System.Drawing.BufferedGraphicsContext&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.Drawing.BufferedGraphicsContext&gt; was occupying.</source>
+          <target state="translated">调用 Dispose 后，必须释放对所有引用&lt;xref:System.Drawing.BufferedGraphicsContext&gt;以便垃圾回收器才能回收的内存，&lt;xref:System.Drawing.BufferedGraphicsContext&gt;占用。&lt;/xref:System.Drawing.BufferedGraphicsContext&gt; &lt;/xref:System.Drawing.BufferedGraphicsContext&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>清洗向上非托管资源<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>实现 Dispose 方法<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.Drawing.BufferedGraphicsContext&gt;.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 始终调用释放在发布到&lt;xref:System.Drawing.BufferedGraphicsContext&gt;。&lt;/xref:System.Drawing.BufferedGraphicsContext&gt;最后一个引用之前</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.Object.Finalize%2A&gt; method of the &lt;xref:System.Drawing.BufferedGraphicsContext&gt;.</source>
+          <target state="translated">否则，它所使用的资源不会被释放之前垃圾回收器调用&lt;xref:System.Object.Finalize%2A&gt;的&lt;xref:System.Drawing.BufferedGraphicsContext&gt;。&lt;/xref:System.Drawing.BufferedGraphicsContext&gt;方法&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</source>
+          <target state="translated">允许该对象尝试释放资源并在被垃圾回收回收之前执行其他清理操作。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Disposes of the current graphics buffer, if a buffer has been allocated and has not yet been disposed.</source>
+          <target state="translated">释放当前图形缓冲区，如果缓冲区已分配和尚未释放。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If the graphics buffer is in use, it will be marked for disposal as soon as it is free; otherwise, it will be disposed immediately.</source>
+          <target state="translated">只要它是免费的; 如果图形缓冲区正在使用中，它将被标记为可供使用否则，它将处理立即。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum size of the buffer to use.</source>
+          <target state="translated">获取或设置要使用的缓冲区的最大大小。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This property allows you to get or set the maximum dimensions for a buffer that should be retained in memory.</source>
+          <target state="translated">此属性，可获取或设置应保留在内存中缓冲区的最大尺寸。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can allocate a buffer of any size, however any buffer with dimensions greater than the MaximumBuffer size will be used temporarily and then discarded when the &lt;xref:System.Drawing.BufferedGraphics&gt; object is released.</source>
+          <target state="translated">你可以分配任何大小的缓冲区，但是任何缓冲的维度大于 MaximumBuffer 大小将暂时使用，使用之后删除时&lt;xref:System.Drawing.BufferedGraphics&gt;释放对象。&lt;/xref:System.Drawing.BufferedGraphics&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Size"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the maximum size of the buffer dimensions.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Size"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，该值指示缓冲区维度的最大大小。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The height or width of the size is less than or equal to zero.</source>
+          <target state="translated">高度或大小的宽度小于或等于零。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

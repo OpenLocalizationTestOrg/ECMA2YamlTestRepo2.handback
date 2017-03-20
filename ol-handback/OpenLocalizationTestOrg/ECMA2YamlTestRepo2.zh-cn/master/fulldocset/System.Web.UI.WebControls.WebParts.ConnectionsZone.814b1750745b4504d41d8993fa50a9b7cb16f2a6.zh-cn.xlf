@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6332e57046e3d76ee47afa7c45b0b8ef9bc14b12</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ConnectionsZone.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d584752692dbe62d30ff2da0c4f3178fc839b775</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d0511cfd95ae251e87e147094dae249486e1c50e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a user interface (UI) that enables users to form connections between <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and other server controls that reside in <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartZoneBase"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> zones.</source>
+          <target state="translated">提供一个使之间建立连接的用户的用户界面 (UI) <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>和驻留在其他服务器控件<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartZoneBase"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>区域。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using the Web Parts control set, you can enable two server controls to form a connection and share data, with one control acting as the provider, and the other acting as the consumer of the data.</source>
+          <target state="translated">使用 Web 部件控件集，可以启用两个服务器控件以形成连接并共享数据，其中一个控件充当提供程序，以及另一个充当数据的使用者。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The two controls can be &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; controls or any other type of server control, provided that they are designed to handle connections, and that they are residing in a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; zone.</source>
+          <target state="translated">这两个控件可以是&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;控件或任何其他类型的提供，它们旨在处理的连接，并且它们驻留在的服务器控件&lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;区域。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To learn more about Web Parts connections, see the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt; class overviews, as well as <bpt id="p1">[</bpt>Web Parts Connections Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">若要了解有关 Web 部件连接的详细信息，请参阅&lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;和&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;类概述，以及<bpt id="p1">[</bpt>Web 部件连接概述<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Provided that the requisite controls and conditions exist to form a Web Parts connection, it is still necessary to actually connect the controls.</source>
+          <target state="translated">假设存在形成 Web 部件连接中必需的控件和条件，则仍然需要真正地连接控件。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>There are three ways to form a connection between server controls: declaring a connection in a Web page, creating a connection in code, or adding a ConnectionsZone control to the page so that users can connect the controls on demand.</source>
+          <target state="translated">有三种方法，以形成服务器控件之间的连接︰ 声明在网页中的连接、 在代码中，创建连接或将放置控件添加到页，以便用户可以连接按需控件。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The ConnectionsZone control generates a UI that enables users to connect or disconnect any server controls on a page that meet the conditions necessary to form a connection.</source>
+          <target state="translated">放置控件生成的用户界面可使用户能够连接或断开连接页面上任何满足形成连接所需的条件的服务器控件。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It is an optional control that is not necessary to form connections, but is useful in the case where you want to give users control over which server controls are connected or disconnected.</source>
+          <target state="translated">它是一个可选的控件不需要建立连接，但在你想要向用户授予的控制服务器控件的连接或断开连接的情况中非常有用。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The ConnectionsZone control is one of the Web Parts tool zone controls that inherit from the &lt;xref:System.Web.UI.WebControls.WebParts.ToolZone&gt; base class.</source>
+          <target state="translated">放置控件是一个的 Web 部件工具区域控件的继承&lt;xref:System.Web.UI.WebControls.WebParts.ToolZone&gt;基的类。&lt;/xref:System.Web.UI.WebControls.WebParts.ToolZone&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>As a tool zone, the ConnectionsZone control is designed to be visible only when its Web page is in a certain display mode.</source>
+          <target state="translated">作为一个工具区域中，放置控件设计为仅当其网页处于某种显示模式时才可见。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this case, the display mode is named connect mode (a page is in this mode when the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control on the page has its &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayMode%2A&gt; property value set to &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectDisplayMode&gt;).</source>
+          <target state="translated">在这种情况下，名为的显示模式连接模式 (一个页是在此模式下时&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;页上的控件具有其&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayMode%2A&gt;属性值设置为&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectDisplayMode&gt;)。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectDisplayMode&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayMode%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>After users switch a page into connect mode, they must click a connect verb on the verbs menu of one of the server controls, and then the connection UI becomes visible.</source>
+          <target state="translated">用户将页切换到连接模式后，它们必须单击连接谓词之一的服务器控件的谓词菜单上，然后连接 UI 变得可见。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>As a Web Parts zone control, the ConnectionsZone control is a type of &lt;xref:System.Web.UI.WebControls.WebParts.WebZone&gt; zone (which inherits from the &lt;xref:System.Web.UI.WebControls.CompositeControl&gt; class) designed to contain other controls.</source>
+          <target state="translated">为 Web 部件区域控件的放置控件是一种&lt;xref:System.Web.UI.WebControls.WebParts.WebZone&gt;区域 (其继承自&lt;xref:System.Web.UI.WebControls.CompositeControl&gt;类) 设计为包含其他控件。&lt;/xref:System.Web.UI.WebControls.CompositeControl&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebZone&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In general, a ConnectionsZone zone has most of the same elements as other Web Parts tool zones: a header, a body or contents area, and a footer.</source>
+          <target state="translated">一般情况下，使用区域可拥有与其他 Web 部件工具区域的大多数相同的元素︰ 一个标头、 正文或内容区域中和页脚。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For a complete discussion of what a Web Parts zone is, and the different parts of a zone, see the &lt;xref:System.Web.UI.WebControls.WebParts.WebZone&gt; class overview.</source>
+          <target state="translated">Web 部件区域，和区域的不同部分的完整讨论，请参阅&lt;xref:System.Web.UI.WebControls.WebParts.WebZone&gt;类概述。&lt;/xref:System.Web.UI.WebControls.WebParts.WebZone&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Unlike most other Web Parts zones, it is important to note that a ConnectionsZone zone does not contain a unique type of server control associated with it.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 与大多数其他 Web 部件区域中，务必要注意放置区域不包含与它关联的服务器控件的唯一类型。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For a list of zones and the associated controls they contain, see the chart in the &lt;xref:System.Web.UI.WebControls.WebParts.WebZone&gt; class overview.</source>
+          <target state="translated">有关区域和它们所包含的关联的控件的列表，请参阅中的图表&lt;xref:System.Web.UI.WebControls.WebParts.WebZone&gt;类概述。&lt;/xref:System.Web.UI.WebControls.WebParts.WebZone&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>But the ConnectionsZone zone does not contain &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt; controls.</source>
+          <target state="translated">但放置区域不包含&lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;控件。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Instead, it serves a very limited purpose of providing a UI for users to connect or disconnect server controls that exist in some &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; zone on the page.</source>
+          <target state="translated">相反，它的作用非常有限的提供用户连接或断开连接。 在某些存在的服务器控件的 UI&lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;页上的区域。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The only controls contained in a ConnectionsZone control are the standard ASP.NET server controls that it generates as part of its UI for forming connections.</source>
+          <target state="translated">在放置控件中包含的控件仅是标准的 ASP.NET 服务器控件，它会生成用于形成连接的用户界面的一部分。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When the ConnectionsZone control is rendered, it generates a UI based on the server controls on the page that are capable of forming connections.</source>
+          <target state="translated">使用控件呈现时，它会生成基于能够形成连接页上的服务器控件的 UI。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The ConnectionsZone control determines which server controls in the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; zone on the page are providers, which are consumers, which connection points are available, and whether the server controls are currently connected or disconnected, and then it generates the UI accordingly.</source>
+          <target state="translated">放置控件将确定哪些服务器控件中&lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;页上的区域是的使用者，哪些连接点都不可用，提供程序和服务器控件是否是当前连接或者断开连接，，然后它相应地生成 UI。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, suppose there is one &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control capable of being a provider, one &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control capable of being a consumer, they are declared in a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZone&gt; on the page, and they are currently disconnected.</source>
+          <target state="translated">例如，假设还有一个&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;控件可提供程序，一个&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;控件能够作为使用者，它们在中声明&lt;xref:System.Web.UI.WebControls.WebParts.WebPartZone&gt;在页上，并且当前已断开连接。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartZone&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When a user switches the page to connect mode and clicks the connect verb on one of the controls, the ConnectionsZone control generates a UI with a link that, when clicked, displays a form in which users can choose options to create a connection.</source>
+          <target state="translated">当用户将页切换到连接模式，并单击每个控件的连接谓词时，则放置控件生成，单击时，显示窗体中哪些用户可以选择选项以创建连接的链接一个用户界面。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>(If the controls were previously connected, the initial view instead presents users with a button to disconnect the controls).</source>
+          <target state="translated">（如果以前已连接的控件，初始视图改为向用户提供一个按钮，断开的控件）。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the connection UI for creating new connections, users are shown which control is a provider, and which control is a consumer.</source>
+          <target state="translated">在创建新连接连接用户界面，用户将显示哪个控件是一个提供程序，和哪个控件是使用者。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A drop-down list control appears below each server control, listing the available &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt; objects for the control.</source>
+          <target state="translated">下面列出了可用每个服务器控件将出现一个下拉列表控件&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;控件的对象。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>From the respective drop-down lists, users must select one &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; object for the provider (to determine what interface and data will be shared with consumers), and one &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; object for each consumer (to determine what interface and data the consumer will consume) that will be connected to the provider.</source>
+          <target state="translated">从各自的下拉列表中，用户必须选择一个&lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;的提供程序 （若要确定哪些接口和数据都将与使用者共享） 的对象和一个&lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;对象的每个使用者 （以确定哪些接口和数据使用者将会占用） 将连接到提供程序。&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In the Web Parts control set default implementation, one provider can connect to many consumers, but a consumer can have only one provider.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 中 Web 部件控件设置默认实现，一个提供程序可以连接到多个使用者，但使用者可以有一个提供程序。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To use the ConnectionsZone control, you can declare it within the <ph id="ph1">`&lt;form&gt;`</ph> element on a Web page (but not nested within another Web Parts zone element), using the <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> element, or you can add it to the page programmatically.</source>
+          <target state="translated">若要使用放置控件，您可以在声明<ph id="ph1">`&lt;form&gt;`</ph>在网站上的元素 （但不是能嵌套在另一个 Web 部件区域元素） 页上，使用<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>元素，也可以将其添加到页面以编程方式。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If you declare the element in a page, unlike the other Web Parts zones, you cannot declare any other type of server controls between the tags of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element.</source>
+          <target state="translated">如果声明在页中，与其他 Web 部件区域，不同的元素不能声明任何其他类型的服务器控件的标记之间<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can declare elements within it that relate to its own properties and style details, but it is a standalone element and is not a template control within which other server controls can be declared.</source>
+          <target state="translated">你可以声明关联到其自己的属性和样式的详细信息，其中的元素，但它是一个独立的元素并不是控件可以声明内的另一台服务器一个模板控件。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To improve accessibility, the ConnectionsZone control is rendered within a <ph id="ph2">`&lt;fieldset&gt;`</ph> element.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 若要提高可访问性，放置时呈现控件内<ph id="ph2">`&lt;fieldset&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`&lt;fieldset&gt;`</ph> element groups the related set of controls used for establishing connections in the ConnectionsZone control, and it facilitates tabbed navigation among those controls for both visual user agents (such as ordinary Web browsers) and speech-oriented user agents (such as screen-reading software).</source>
+          <target state="translated"><ph id="ph1">`&lt;fieldset&gt;`</ph>元素进行分组的相关的一套用于建立连接使用控件中的控件和它简化了这些控件之间的选项卡式的导航，可视用户代理 （如普通 Web 浏览器） 和面向语音的用户代理 （如屏幕阅读软件）。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The ConnectionsZone control has a number of properties it uses for rendering the connection UI.</source>
+          <target state="translated">放置控件具有多个属性使用来呈现连接用户界面。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>One set of properties includes several verbs--used only in relation to connections--that carry out actions in the UI: &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConfigureVerb%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectVerb%2A&gt;, and &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.DisconnectVerb%2A&gt;.</source>
+          <target state="translated">属性的一个集包括多个谓词-仅与连接-执行在 UI 中的操作结合使用︰ &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConfigureVerb%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectVerb%2A&gt;，和&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.DisconnectVerb%2A&gt;。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.DisconnectVerb%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectVerb%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConfigureVerb%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A large set of properties, used especially for the connections zone UI, consists of text strings displayed at various places (or in certain situations, such as when errors occur) in the UI: &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConfigureConnectionTitle%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToConsumerInstructionText%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToConsumerText%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToConsumerTitle%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToProviderInstructionText%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToProviderText%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToProviderTitle%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConsumersInstructionText%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConsumersTitle%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ExistingConnectionErrorMessage%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.GetFromText%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.GetText%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.InstructionTitle%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.NewConnectionErrorMessage%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.NoExistingConnectionInstructionText%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.NoExistingConnectionTitle%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ProvidersInstructionText%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ProvidersTitle%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SendText%2A&gt;, and &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SendToText%2A&gt;.</source>
+          <target state="translated">属性，尤其是用于连接区域 UI 中，一大组包含在 UI 中显示在不同位置 （或在某些情况下，例如中发生错误时） 的文本字符串︰ &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConfigureConnectionTitle%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToConsumerInstructionText%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToConsumerText%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToConsumerTitle%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToProviderInstructionText%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToProviderText%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToProviderTitle%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConsumersInstructionText%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConsumersTitle%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ExistingConnectionErrorMessage%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.GetFromText%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.GetText%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.InstructionTitle%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.NewConnectionErrorMessage%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.NoExistingConnectionInstructionText%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.NoExistingConnectionTitle%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ProvidersInstructionText%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ProvidersTitle%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SendText%2A&gt;，和&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SendToText%2A&gt;。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SendToText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SendText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ProvidersTitle%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ProvidersInstructionText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.NoExistingConnectionTitle%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.NoExistingConnectionInstructionText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.NewConnectionErrorMessage%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.InstructionTitle%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.GetText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.GetFromText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ExistingConnectionErrorMessage%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConsumersTitle%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConsumersInstructionText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToProviderTitle%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToProviderText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToProviderInstructionText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToConsumerTitle%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToConsumerText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConnectToConsumerInstructionText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.ConfigureConnectionTitle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The ConnectionsZone class also contains a number of common properties found in other Web Parts zones: &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.CancelVerb%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.CloseVerb%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.Display%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.EmptyZoneText%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.HeaderText%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.InstructionText%2A&gt;, and &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.PartChromeType%2A&gt;.</source>
+          <target state="translated">放置类还包含大量的其他 Web 部件区域中找到的公共属性︰ &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.CancelVerb%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.CloseVerb%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.Display%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.EmptyZoneText%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.HeaderText%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.InstructionText%2A&gt;，和&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.PartChromeType%2A&gt;。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.PartChromeType%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.InstructionText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.HeaderText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.EmptyZoneText%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.Display%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.CloseVerb%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.CancelVerb%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Finally, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.WebPartToConnect%2A&gt; property is unique to the class, referencing the control that initiates the connection (this is the control on which the user clicks the connect verb in its verbs menu, which is also the control referenced in the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control's &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.SelectedWebPart%2A&gt; property).</source>
+          <target state="translated">最后，&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.WebPartToConnect%2A&gt;属性是唯一的引用启动的连接的控件的类 (这是在其用户单击菜单上，也是该控件中引用其谓词中的连接动词的控件&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;控件的&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.SelectedWebPart%2A&gt;属性)。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.SelectedWebPart%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.WebPartToConnect%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The ConnectionsZone class also has a number of methods, all of which are inherited and overridden from base classes, and most of them come from the base Web Parts zone classes.</source>
+          <target state="translated">放置类还具有多种方法，继承和从基类重写所有这些，和其中的大多数来自 Web 部件区域基类。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For details, see the individual methods.</source>
+          <target state="translated">有关详细信息，请参阅单个方法。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This default constructor is called when you declare the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element in an ASP.NET page.</source>
+          <target state="translated">此默认构造函数调用在声明时<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>ASP.NET 页中的元素。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You do not need to implicitly call this constructor, except in cases where you are adding the control to the page programmatically.</source>
+          <target state="translated">不需要隐式调用此构造函数，除非在其中你是将控件添加到页面以编程方式的情况下。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets a reference to a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that enables end users to cancel the process of establishing a connection.</source>
+          <target state="translated">获取对<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使最终用户能够取消建立的连接的过程的对象。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The cancel verb, as used with a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control, is a zone-level verb that appears in the connection user interface (UI) as part of the view in which users select connection points for the controls.</source>
+          <target state="translated">取消谓词，如用于&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控制，是显示在连接用户界面 (UI) 中为视图的一部分在哪些用户选择的控件的连接点的区域级别动词。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When users click the cancel verb, it cancels the process of selecting connection points, and returns the connections zone view to the hyperlinks that users can click to establish a new connection.</source>
+          <target state="translated">当用户单击取消谓词时，它将取消选择连接点的过程，并与超链接，用户可以单击来建立新连接返回连接区域视图。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Use the CancelVerb property to get a reference to the corresponding &lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt; object in the UI.</source>
+          <target state="translated">使用 CancelVerb 属性来获取对相应的引用&lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;在 UI 中的对象。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Although the property itself is read-only, after you have a reference to the verb, you can change its property values as needed.</source>
+          <target state="translated">尽管在属性本身是只读的具有对该谓词的引用后，你可以根据需要更改它的属性值。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can set the property values of the cancel verb declaratively, by declaring the <ph id="ph1">`&lt;cancelverb&gt;`</ph> element within the tags of an <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> element.</source>
+          <target state="translated">你可以通过声明以声明方式，设置取消谓词的属性值<ph id="ph1">`&lt;cancelverb&gt;`</ph>元素的标记中<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The properties of the verb can be set declaratively in the form <ph id="ph1">`Property-Subproperty`</ph>, where <ph id="ph2">`Subproperty`</ph> is a property of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt; object (for example, <ph id="ph3">`CancelVerb-Text`</ph>).</source>
+          <target state="translated">可以在窗体中以声明方式设置谓词的属性<ph id="ph1">`Property-Subproperty`</ph>，其中<ph id="ph2">`Subproperty`</ph>是的一个属性&lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;对象 (例如， <ph id="ph3">`CancelVerb-Text`</ph>)。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can also set the properties programmatically in the form <ph id="ph1">`Property.Subproperty`</ph> (for example, <ph id="ph2">`CancelVerb.Text`</ph>).</source>
+          <target state="translated">你还可以设置属性以编程方式在窗体中<ph id="ph1">`Property.Subproperty`</ph>(例如， <ph id="ph2">`CancelVerb.Text`</ph>)。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that enables end users to cancel the process of connecting two controls.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它使最终用户能够取消连接两个控件的过程。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Closes the connection user interface (UI) created by the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">关闭连接用户界面 (UI) 创建的<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The Close method is called when a user clicks the zone-level close verb in the connection UI.</source>
+          <target state="translated">当用户单击连接用户界面中的区域级别关闭谓词时调用 Close 方法。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>After the method executes, the connection UI is hidden, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.WebPartToConnect%2A&gt; property value is <ph id="ph1">`null`</ph>, and the page remains in the connect display mode.</source>
+          <target state="translated">执行方法时，将隐藏 UI，连接后&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.WebPartToConnect%2A&gt;属性值是<ph id="ph1">`null`</ph>，和页面仍然处于连接的显示模式。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.WebPartToConnect%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>At this point users can either select a control by clicking the connect verb on the control's verbs menu, or switch the page to another display mode.</source>
+          <target state="translated">此时用户可以通过单击连接谓词在控件的谓词菜单上，选择一个控件或将页面切换到另一个显示模式。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets a reference to a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that enables end users to close the connection user interface (UI) created by the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">获取对<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象，它启用最终用户关闭连接用户界面 (UI) 创建的<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The close verb, as used with a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control, is a zone-level verb that appears at the bottom (the footer) of the connection UI.</source>
+          <target state="translated">关闭谓词，作为用于&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控制，是将出现在连接用户界面 （页脚） 底部区域级别谓词。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When users click the close verb, it cancels the connection process and closes the connection UI, but leaves the page in connect display mode.</source>
+          <target state="translated">当用户单击关闭谓词时，它取消连接过程并关闭连接用户界面，但使连接中的页面显示模式。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>At this point, the user can either return the page to browse mode or click the connect verb on another server control to reopen the connection UI.</source>
+          <target state="translated">此时，用户也可以返回页后，可以浏览模式，或单击另一个服务器控件，以重新打开连接的用户界面上的连接谓词。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The close verb should be distinguished from the header close verb (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ToolZone.HeaderCloseVerb%2A&gt; property).</source>
+          <target state="translated">关闭谓词应有别于标头关闭谓词 (有关详细信息，请参阅&lt;xref:System.Web.UI.WebControls.WebParts.ToolZone.HeaderCloseVerb%2A&gt;属性)。&lt;/xref:System.Web.UI.WebControls.WebParts.ToolZone.HeaderCloseVerb%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Both verbs perform the identical action of closing the connection UI, but the header close verb appears at the top of the UI and is represented by a hyperlink by default, whereas the close verb appears at the bottom of the UI, and is represented by a button by default.</source>
+          <target state="translated">这两个谓词执行相同操作关闭连接 UI 中，但标头关闭谓词 UI 顶部会显示，并且由表示超链接默认情况下，而关闭谓词 UI 中的底部将显示，默认情况下由一个按钮。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Use the CloseVerb property to get a reference to the corresponding &lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt; object in the UI.</source>
+          <target state="translated">使用 CloseVerb 属性来获取对相应的引用&lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;在 UI 中的对象。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Although the property itself is read-only, after you have a reference to the verb, you can change its property values as needed.</source>
+          <target state="translated">尽管在属性本身是只读的具有对该谓词的引用后，你可以根据需要更改它的属性值。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can set the property values of the close verb declaratively, by declaring the <ph id="ph1">`&lt;closeverb&gt;`</ph> element within the tags of an <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> element.</source>
+          <target state="translated">你可以通过声明以声明方式，设置关闭谓词的属性值<ph id="ph1">`&lt;closeverb&gt;`</ph>元素的标记中<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The properties of the verb can be set declaratively in the form <ph id="ph1">`Property-Subproperty`</ph>, where <ph id="ph2">`Subproperty`</ph> is a property of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt; object (for example, <ph id="ph3">`CloseVerb-Text`</ph>).</source>
+          <target state="translated">可以在窗体中以声明方式设置谓词的属性<ph id="ph1">`Property-Subproperty`</ph>，其中<ph id="ph2">`Subproperty`</ph>是的一个属性&lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;对象 (例如， <ph id="ph3">`CloseVerb-Text`</ph>)。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can also set the properties programmatically in the form <ph id="ph1">`Property.Subproperty`</ph> (for example, <ph id="ph2">`CloseVerb.Text`</ph>).</source>
+          <target state="translated">你还可以设置属性以编程方式在窗体中<ph id="ph1">`Property.Subproperty`</ph>(例如， <ph id="ph2">`CloseVerb.Text`</ph>)。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that allows an end user to close the connection UI.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它允许最终用户关闭连接用户界面。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text displayed as the title of a subsection of the connection user interface (UI) created by a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">获取或设置文本显示为连接用户界面 (UI) 创建的小节的标题<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Use the ConfigureConnectionTitle property to use a custom value for the title of this section of the connection UI.</source>
+          <target state="translated">使用 ConfigureConnectionTitle 属性要用于连接的用户界面的此部分的标题的自定义值。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The Configure Connections section of the UI appears when a user has displayed the connection UI with an existing connection, and clicks the configure verb (by default, this is represented by a <bpt id="p1">**</bpt>Configure<ept id="p1">**</ept> button in the connection UI).</source>
+          <target state="translated">当用户已显示连接用户界面使用现有的连接，并单击配置谓词时，会出现 UI 的配置连接部分 (默认情况下，这由<bpt id="p1">**</bpt>配置<ept id="p1">**</ept>连接 UI 中的按钮)。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You can set the property value declaratively, by assigning a string to the <ph id="ph1">`configureconnectiontitle`</ph> attribute on the <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> tag in a Web page.</source>
+          <target state="translated">你可以通过将分配到一个字符串以声明方式，设置属性值<ph id="ph1">`configureconnectiontitle`</ph>属性<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>网页中的标记。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Or you can assign a string to the property programmatically.</source>
+          <target state="translated">或者，可以以编程方式将字符串分配给属性。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A string containing the title for the Configure Connections section.</source>
+          <target state="translated">包含配置连接部分的标题的字符串。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The default title is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认标题是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets a reference to a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to open the configuration view in the connection user interface (UI).</source>
+          <target state="translated">获取对<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>用来连接用户界面 (UI) 中打开配置视图的对象。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The configure verb appears in the Manage Connections section of the connection UI, when a connection already exists and a user has opened the connection UI.</source>
+          <target state="translated">连接已存在且用户已打开连接的用户界面时，配置谓词将显示在连接 UI 中，管理连接部分。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The UI presents users with an <bpt id="p1">**</bpt>End Connection<ept id="p1">**</ept> button to end the connection, and a <bpt id="p2">**</bpt>Configure<ept id="p2">**</ept> button (which represents the configure verb) to configure the connection.</source>
+          <target state="translated">UI 显示与用户<bpt id="p1">**</bpt>结束连接<ept id="p1">**</ept>按钮终止连接，和一个<bpt id="p2">**</bpt>配置<ept id="p2">**</ept>用于配置连接 （它表示配置谓词） 按钮。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If a user clicks the <bpt id="p1">**</bpt>Configure<ept id="p1">**</ept> button, the Configure Connections section of the UI appears, enabling users to configure the connection.</source>
+          <target state="translated">如果用户单击<bpt id="p1">**</bpt>配置<ept id="p1">**</ept>按钮，会出现用户界面的配置连接部分，使用户能够配置连接。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This option to configure a connection (and hence the <bpt id="p1">**</bpt>Configure<ept id="p1">**</ept> button) is enabled only when the connection uses a transformer, and the transformer includes a configuration wizard control (&lt;xref:System.Web.UI.WebControls.Wizard&gt;) that enables it to be configured by users.</source>
+          <target state="translated">此选项以配置连接 (并因此<bpt id="p1">**</bpt>配置<ept id="p1">**</ept>按钮) 连接使用转换器，且转换器包含配置向导控件时，才启用 (&lt;xref:System.Web.UI.WebControls.Wizard&gt;) 可使用户可以配置。&lt;/xref:System.Web.UI.WebControls.Wizard&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For details, see the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt; class.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;类。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Use the ConfigureVerb property to get a reference to the corresponding &lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt; object in the UI.</source>
+          <target state="translated">使用 ConfigureVerb 属性来获取对相应的引用&lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;在 UI 中的对象。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Although the property itself is read-only, after you have a reference to the verb, you can change its property values as needed.</source>
+          <target state="translated">尽管在属性本身是只读的具有对该谓词的引用后，你可以根据需要更改它的属性值。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>You can set the property values of the configure verb declaratively, by declaring the <ph id="ph1">`&lt;configureverb&gt;`</ph> element within the tags of an <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> element.</source>
+          <target state="translated">你可以通过声明以声明方式设置配置谓词的属性值<ph id="ph1">`&lt;configureverb&gt;`</ph>元素的标记中<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The properties of the verb can be set declaratively in the form <ph id="ph1">`Property-Subproperty`</ph>, where <ph id="ph2">`Subproperty`</ph> is a property of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt; object (for example, <ph id="ph3">`ConfigureVerb-Text`</ph>).</source>
+          <target state="translated">可以在窗体中以声明方式设置谓词的属性<ph id="ph1">`Property-Subproperty`</ph>，其中<ph id="ph2">`Subproperty`</ph>是的一个属性&lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;对象 (例如， <ph id="ph3">`ConfigureVerb-Text`</ph>)。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>You can also set the properties programmatically in the form <ph id="ph1">`Property.Subproperty`</ph> (for example, <ph id="ph2">`ConfigureVerb.Text`</ph>).</source>
+          <target state="translated">你还可以设置属性以编程方式在窗体中<ph id="ph1">`Property.Subproperty`</ph>(例如， <ph id="ph2">`ConfigureVerb.Text`</ph>)。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to open the Configure Connections section in the connection UI.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用来连接 UI 中打开配置连接部分。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets or sets the instructional text displayed in the section of the connection user interface (UI) where users select a consumer connection point that the provider will connect to.</source>
+          <target state="translated">获取或设置的用户在其中选择提供程序将连接到的使用者连接点的连接用户界面 (UI) 部分中显示的说明性文本。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The ConnectToConsumerInstructionText property takes effect in a specific connection scenario.</source>
+          <target state="translated">ConnectToConsumerInstructionText 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on a provider control, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control displays a portion of the connection UI that enables users to select a consumer.</source>
+          <target state="translated">当用户单击一个提供程序的连接谓词&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件显示的连接，使用户能够选择使用者的用户界面的一部分。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If the user clicked a connect verb on the consumer, then the connection UI would do the reverse, and display information about connecting to a provider.</source>
+          <target state="translated">如果用户单击上使用者的连接谓词，然后连接 UI 将反过来，并显示有关连接到提供程序的信息。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The text in the ConnectToConsumerInstructionText property is displayed just above the drop-down list controls that contain the available consumer connection points to which a provider can be connected.</source>
+          <target state="translated">一个提供程序可以连接指向属性显示正上方的下拉列表控件包含可用的使用者连接 ConnectToConsumerInstructionText 中的文本。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You can set this property declaratively, by using the <ph id="ph1">`ConnectToConsumerInstructionText`</ph> attribute in the opening tag of the <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> element in a page, or you can set the property programmatically.</source>
+          <target state="translated">你可以通过使用以声明方式设置此属性<ph id="ph1">`ConnectToConsumerInstructionText`</ph>中的开始标记属性<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>元素页上，或者您可以以编程方式设置此属性。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A string containing the instructions for creating a consumer connection to the provider.</source>
+          <target state="translated">包含有关在创建使用者连接到提供程序的说明进行操作的字符串。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text of a hyperlink that users click to open a view in which they can choose a consumer control for a connection.</source>
+          <target state="translated">获取或设置用户单击以打开在其中可以选择用于连接的使用者控件的视图的超链接的文本。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The ConnectToConsumerText property takes effect in a specific connection scenario.</source>
+          <target state="translated">ConnectToConsumerText 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on a provider control, and no connection exists, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control displays a hyperlink with the text <bpt id="p1">**</bpt>Select a consumer for the provider to connect with<ept id="p1">**</ept>.</source>
+          <target state="translated">当用户单击连接谓词提供程序控件，并且不存在连接，&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件将显示带有文本的超链接<bpt id="p1">**</bpt>选择使用连接的提供程序的使用者<ept id="p1">**</ept>。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>When users click the hyperlink, it opens a view in which they can select an available consumer to connect with the provider.</source>
+          <target state="translated">当用户单击该超链接时，它将打开在其中他们可以选择可用的消费型与提供程序连接的视图。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>You can set this property declaratively, by using the <ph id="ph1">`ConnectToConsumerText`</ph> attribute in the opening tag of the <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> element in a page, or you can set the property programmatically.</source>
+          <target state="translated">你可以通过使用以声明方式设置此属性<ph id="ph1">`ConnectToConsumerText`</ph>中的开始标记属性<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>元素页上，或者您可以以编程方式设置此属性。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>A string displayed as the text of a hyperlink that opens the view where users select consumers.</source>
+          <target state="translated">为打开，用户从中选择使用者的视图的超链接文本显示的字符串。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Gets or sets the title text of the section in the connection user interface (UI) in which users can select a specific consumer to connect with.</source>
+          <target state="translated">获取或设置用户可以在其中选择特定的使用者，便可以使用连接的连接用户界面 (UI) 中的部分的标题文本。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The ConnectToConsumerTitle property takes effect in a specific connection scenario.</source>
+          <target state="translated">ConnectToConsumerTitle 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>When users click the connect verb on a provider control, and no connection exists, they eventually arrive at a view in which they can select a consumer to connect with the previously selected provider.</source>
+          <target state="translated">当用户单击连接谓词提供程序控件，以及存在任何连接时，它们将最终到达它们可以在其中选择使用以前选择的提供程序连接到使用者的视图。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The title of this view is supplied by the ConnectToConsumerTitle property.</source>
+          <target state="translated">此视图标题由 ConnectToConsumerTitle 属性提供。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>You can set this property declaratively, by using the <ph id="ph1">`ConnectToConsumerTitle`</ph> attribute in the opening tag of the <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> element in a page, or you can set the property programmatically.</source>
+          <target state="translated">你可以通过使用以声明方式设置此属性<ph id="ph1">`ConnectToConsumerTitle`</ph>中的开始标记属性<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>元素页上，或者您可以以编程方式设置此属性。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>A string serving as the title of the section where users select consumers.</source>
+          <target state="translated">一个字符串，它充当用户在其中选择使用者的部分的标题。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The default title is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认标题是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Gets or sets the instructional text displayed in the section of the connection user interface (UI) where users select a provider connection point that the consumer will connect to.</source>
+          <target state="translated">获取或设置的用户在其中选择使用者将连接到提供程序连接点的连接用户界面 (UI) 部分中显示的说明性文本。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The ConnectToProviderInstructionText property takes effect in a specific connection scenario.</source>
+          <target state="translated">ConnectToProviderInstructionText 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on a consumer control, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control displays a portion of the connection UI that enables users to select a provider.</source>
+          <target state="translated">当用户单击使用者控件，则连接谓词&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件显示的连接，使用户能够选择一个提供程序的用户界面的一部分。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If the user clicked a connect verb on the provider, then the connection UI would do the reverse, and display information about connecting to a consumer.</source>
+          <target state="translated">如果用户单击了该提供程序上的连接谓词，然后连接 UI 将反过来，并显示有关连接到使用者信息。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The text in the ConnectToProviderInstructionText property is displayed just above the drop-down list controls that contain the available provider connection points to which a consumer can be connected.</source>
+          <target state="translated">使用者可以连接指向 ConnectToProviderInstructionText 属性显示正上方的下拉列表控件包含可用的提供程序连接中的文本。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>You can set this property declaratively, by using the <ph id="ph1">`ConnectToProviderInstructionText`</ph> attribute in the opening tag of the <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> element in a page, or you can set the property programmatically.</source>
+          <target state="translated">你可以通过使用以声明方式设置此属性<ph id="ph1">`ConnectToProviderInstructionText`</ph>中的开始标记属性<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>元素页上，或者您可以以编程方式设置此属性。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>A string containing the instructions on creating a provider connection to the consumer.</source>
+          <target state="translated">包含创建提供程序连接到使用者的说明的字符串。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text of a hyperlink that users click to open a view in which they can choose a provider control for a connection.</source>
+          <target state="translated">获取或设置用户单击以打开在其中可以选择用于连接的提供程序控件的视图的超链接的文本。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The ConnectToProviderText property takes effect in a specific connection scenario.</source>
+          <target state="translated">ConnectToProviderText 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on a consumer control, and no connection exists, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control displays a hyperlink with the text <bpt id="p1">**</bpt>Select a provider for the consumer to connect with<ept id="p1">**</ept>.</source>
+          <target state="translated">当用户单击连接谓词使用者控件，并且不存在连接，&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件将显示带有文本的超链接<bpt id="p1">**</bpt>选择的提供程序使用连接到使用者<ept id="p1">**</ept>。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>When users click the hyperlink, it opens a view in which they can select an available provider to connect with the consumer.</source>
+          <target state="translated">当用户单击该超链接时，它将打开在其中他们可以选择使用者连接的可用提供程序的视图。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>You can set this property declaratively, by using the <ph id="ph1">`ConnectToProviderText`</ph> attribute in the opening tag of the <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> element in a page, or you can set the property programmatically.</source>
+          <target state="translated">你可以通过使用以声明方式设置此属性<ph id="ph1">`ConnectToProviderText`</ph>中的开始标记属性<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>元素页上，或者您可以以编程方式设置此属性。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A string displayed as the text of a hyperlink that opens the view where users select providers.</source>
+          <target state="translated">为打开，用户从中选择提供程序的视图的超链接文本显示的字符串。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Gets or sets the title text of the section in the connection user interface (UI) in which users can select a specific provider to connect with.</source>
+          <target state="translated">获取或设置用户可以在其中选择一个特定的提供程序来使用连接的连接用户界面 (UI) 中的部分的标题文本。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The ConnectToProviderTitle property takes effect in a specific connection scenario.</source>
+          <target state="translated">ConnectToProviderTitle 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>When users click the connect verb on a consumer control, and no connection exists, they eventually arrive at a view in which they can select a provider to connect with the previously selected consumer.</source>
+          <target state="translated">当用户单击连接谓词使用者控件，以及存在任何连接时，它们将最终到达它们可以在其中选择使用以前选择的使用者连接到提供程序的视图。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The title of this view is supplied by the ConnectToProviderTitle property.</source>
+          <target state="translated">此视图标题由 ConnectToProviderTitle 属性提供。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>You can set this property declaratively, by using the <ph id="ph1">`ConnectToProviderTitle`</ph> attribute in the opening tag of the <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> element in a page, or you can set the property programmatically.</source>
+          <target state="translated">你可以通过使用以声明方式设置此属性<ph id="ph1">`ConnectToProviderTitle`</ph>中的开始标记属性<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>元素页上，或者您可以以编程方式设置此属性。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A string serving as the title of the section where users select providers.</source>
+          <target state="translated">一个字符串，它充当用户在其中选择提供程序的部分的标题。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The default title is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认标题是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets a reference to a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that enables two <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> controls to establish a connection.</source>
+          <target state="translated">获取对<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象，它启用两个<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控件来建立连接。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The connect verb, as used with a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control, is a zone-level verb that appears in the connection user interface (UI) as part of the view in which users finalize a connection between two controls.</source>
+          <target state="translated">连接谓词，如用于&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控制，是显示在连接用户界面 (UI) 中为视图的一部分中的用户完成两个控件之间的连接的区域级别动词。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>In the part of the UI where users can select connection points, if two controls are able to connect, the connect verb is enabled near the bottom of the UI.</source>
+          <target state="translated">在用户可以在其中选择连接点的 UI 的部分连接谓词如果两个控件都能够连接，则启用用户界面底部附近。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>After users select a connection point, they can click the connect verb to create the connection.</source>
+          <target state="translated">用户选择的连接点后，他们可以单击要创建连接的连接谓词。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The zone-level connect verb discussed in this topic actually establishes a connection between controls, and is different from the verb that appears on the verbs menu of a &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 区域级别连接本主题中讨论的谓词实际控件之间建立连接和不同于出现的谓词菜单的谓词&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;控件。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>When a user switches a Web page to connect display mode, if a control can form connections, a &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; connect verb appears on its verbs menu.</source>
+          <target state="translated">当用户切换一个用于连接的显示模式，如果控件可以形成连接，Web 页&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;连接谓词出现在其谓词菜单。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>This &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; connect verb simply opens the connection UI created by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control.</source>
+          <target state="translated">这&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;连接谓词只是打开的连接创建的用户界面&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>In contrast, the ConnectVerb verb discussed in this topic, which operates at the zone level, actually creates a connection.</source>
+          <target state="translated">与此相反，在区域级别进行操作，本主题中讨论的 ConnectVerb 谓词实际创建连接。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Use the ConnectVerb property to get a reference to the corresponding &lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt; object in the UI.</source>
+          <target state="translated">使用 ConnectVerb 属性来获取对相应的引用&lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;在 UI 中的对象。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Although the property itself is read-only, after you have a reference to the verb, you can change its property values as needed.</source>
+          <target state="translated">尽管在属性本身是只读的具有对该谓词的引用后，你可以根据需要更改它的属性值。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>You can set the property values of the connect verb declaratively, by declaring the <ph id="ph1">`&lt;connectverb&gt;`</ph> element between the opening and closing tags of an <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> element.</source>
+          <target state="translated">你可以通过声明以声明方式，设置连接谓词的属性值<ph id="ph1">`&lt;connectverb&gt;`</ph>元素开始标记和结束标记之间<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The properties of the verb can also be set declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute in the form <ph id="ph2">`Property-Subproperty`</ph>, where <ph id="ph3">`Subproperty`</ph> is a property of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt; object (for example, <ph id="ph4">`ConnectVerb-Text`</ph>).</source>
+          <target state="translated">该谓词的属性也可以设置以声明方式在的开始标记内<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过在窗体中添加属性<ph id="ph2">`Property-Subproperty`</ph>，其中<ph id="ph3">`Subproperty`</ph>是的一个属性&lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;对象 (例如， <ph id="ph4">`ConnectVerb-Text`</ph>)。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>You can also set the properties programmatically in the form <ph id="ph1">`Property.Subproperty`</ph> (for example, <ph id="ph2">`ConnectVerb.Text`</ph>).</source>
+          <target state="translated">你还可以设置属性以编程方式在窗体中<ph id="ph1">`Property.Subproperty`</ph>(例如， <ph id="ph2">`ConnectVerb.Text`</ph>)。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that enables two controls to establish a connection.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它使两个控件来建立连接。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Gets or sets the instructional text shown in the consumers section of the connection user interface (UI), when a connection already exists.</source>
+          <target state="translated">获取或设置已存在的连接时显示连接用户界面 (UI) 的使用者部分中的说明文本。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The ConsumersInstructionText property takes effect in a specific connection scenario.</source>
+          <target state="translated">ConsumersInstructionText 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on a provider control, and a connection already exists, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control displays a view that enables users to disconnect the connection.</source>
+          <target state="translated">当用户单击连接谓词提供程序控件，并且已存在的连接，&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件显示使用户可以断开连接的视图。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The view also shows any consumers participating in the connection.</source>
+          <target state="translated">该视图还显示参与连接任何使用者。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Just above the list of consumers is the consumers instruction text, which by default is more of a description of what consumer controls do in a connection.</source>
+          <target state="translated">正上方的使用者的列表是说明的使用者指令文本，它们的默认值是说明的多个使用者控件执行的操作的连接中。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`ConsumersInstructionText`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`ConsumersInstructionText`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>A string serving as the instructional text for consumers participating in a connection.</source>
+          <target state="translated">用作参与连接的使用者的说明文本字符串。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Gets or sets the title shown above the consumers section of the connection user interface (UI), when a connection already exists.</source>
+          <target state="translated">获取或设置已存在的连接时显示连接用户界面 (UI) 的使用者部分上方的标题。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The ConsumersTitle property takes effect in a specific connection scenario.</source>
+          <target state="translated">ConsumersTitle 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on a provider control, and a connection already exists, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control displays a view that enables users to disconnect the connection.</source>
+          <target state="translated">当用户单击连接谓词提供程序控件，并且已存在的连接，&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件显示使用户可以断开连接的视图。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The view also shows any consumers participating in the connection.</source>
+          <target state="translated">该视图还显示参与连接任何使用者。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Just above the list of consumers is the consumers instruction text, and above that is the title of the consumers section, for which the ConsumersTitle property supplies the text.</source>
+          <target state="translated">只需为使用者的列表上面的使用者指令文本，然后上面的是使用者部分中，为其 ConsumersTitle 属性提供文本的标题。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`ConsumersTitle`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`ConsumersTitle`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>A string serving as the title text for consumers participating in a connection.</source>
+          <target state="translated">一个用作参与连接的使用者的标题文本的字符串。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The default title is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认标题是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Creates all child controls contained in a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control in preparation for posting back to the server or rendering.</source>
+          <target state="translated">创建中包含的所有子控件<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>中准备回发到服务器或呈现控件。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>This method overrides the base &lt;xref:System.Web.UI.Control.CreateChildControls%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">此方法重写基&lt;xref:System.Web.UI.Control.CreateChildControls%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Web.UI.Control.CreateChildControls%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>It prepares all connection-related objects needed for connections (for example, it retrieves the connection point objects from the available consumer and provider controls), and it creates the various user interface (UI) controls that users interact with in the connection UI to establish a connection.</source>
+          <target state="translated">准备连接所需的所有连接相关对象 （例如，它检索连接点对象从可用的使用者和提供程序控件），并创建各种用户界面 (UI) 控件的 UI，以建立连接的连接中与用户交互。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Gets a reference to a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that enables a user to disconnect two connected <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> controls.</source>
+          <target state="translated">获取对<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象使用户能够将断开连接两个连接<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The disconnect verb, as used with a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control, is a zone-level verb that appears in the connection user interface (UI) as part of the view in which users manage an existing connection between two controls.</source>
+          <target state="translated">断开连接的谓词，如用于&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控制，是显示在连接用户界面 (UI) 中为视图的一部分用户在其中管理现有连接两个控件之间的区域级别动词。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>After users have clicked the &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; connect verb on the verbs menu of a control, and the connection UI appears, if there is already a connection between two controls, the disconnect verb appears activated near the bottom of the UI.</source>
+          <target state="translated">用户已点击后&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;连接的控件的谓词菜单上的谓词和用户界面出现，如果已存在两个控件之间的连接的连接，断开连接谓词激活状态出现在用户界面底部附近。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Use the DisconnectVerb property to get a reference to the corresponding &lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt; object in the UI.</source>
+          <target state="translated">使用 DisconnectVerb 属性来获取对相应的引用&lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;在 UI 中的对象。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Although the property itself is read-only, after you have a reference to the verb, you can change its property values as needed.</source>
+          <target state="translated">尽管在属性本身是只读的具有对该谓词的引用后，你可以根据需要更改它的属性值。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>You can set the property values of the disconnect verb declaratively, by declaring the <ph id="ph1">`&lt;disconnectverb&gt;`</ph> element between the opening and closing tags of an <ph id="ph2">`&lt;asp:connectionszone&gt;`</ph> element.</source>
+          <target state="translated">你可以通过声明以声明方式，设置断开连接的谓词的属性值<ph id="ph1">`&lt;disconnectverb&gt;`</ph>元素开始标记和结束标记之间<ph id="ph2">`&lt;asp:connectionszone&gt;`</ph>元素。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The properties of the verb can also be set declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute in the form <ph id="ph2">`Property-Subproperty`</ph>, where <ph id="ph3">`Subproperty`</ph> is a property of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt; object (for example, <ph id="ph4">`DisconnectVerb-Text`</ph>).</source>
+          <target state="translated">该谓词的属性也可以设置以声明方式在的开始标记内<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过在窗体中添加属性<ph id="ph2">`Property-Subproperty`</ph>，其中<ph id="ph3">`Subproperty`</ph>是的一个属性&lt;xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;对象 (例如， <ph id="ph4">`DisconnectVerb-Text`</ph>)。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartVerb&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>You can also set the properties programmatically in the form <ph id="ph1">`Property.Subproperty`</ph> (for example, <ph id="ph2">`DisconnectVerb.Text`</ph>).</source>
+          <target state="translated">你还可以设置属性以编程方式在窗体中<ph id="ph1">`Property.Subproperty`</ph>(例如， <ph id="ph2">`DisconnectVerb.Text`</ph>)。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that disconnects two connected <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> controls.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartVerb"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，断开连接两个连接<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ToolZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is currently displayed.</source>
+          <target state="translated">获取一个值，该值指示是否<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ToolZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>当前显示控件。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.ToolZone"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is currently displayed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.ToolZone"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>目前显示; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Gets or sets a text message that is displayed in an empty <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control if there are insufficient controls on a Web page to establish a connection.</source>
+          <target state="translated">获取或设置显示在一个空的短信<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制是否存在不足控件在网页上建立连接。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">此属性不能通过主题或样式表主题设置。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Web.UI.ThemeableAttribute&gt;和<bpt id="p1">[</bpt>ASP.NET 主题和皮肤<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that contains the message for an empty zone.</source>
+          <target state="translated">A &lt;xref:System.String&gt;，其中包含空区域的消息。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text of a message displayed in the connection user interface (UI) when there is an error or warning on an existing connection.</source>
+          <target state="translated">获取或设置在连接用户界面 (UI) 中没有错误或警告上现有的连接时显示一条消息的文本。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that contains the text of the message.</source>
+          <target state="translated">A&lt;xref:System.String&gt;包含消息的文本。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text shown in the section of the connection user interface (UI) that precedes the named provider from which a consumer will retrieve data.</source>
+          <target state="translated">获取或设置数据的之前使用者将从其检索命名提供程序的连接用户界面 (UI) 部分中显示的文本。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The GetFromText property takes effect in a specific connection scenario.</source>
+          <target state="translated">GetFromText 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on a consumer control, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control displays a view that enables users to establish a connection to a provider.</source>
+          <target state="translated">当用户单击使用者控件，则连接谓词&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件显示的视图，使用户能够建立与提供程序的连接。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>In the part of the UI that instructs users to choose a provider connection point, there is some text that precedes the drop-down list control in which users can select which connection point the consumer will get its data from.</source>
+          <target state="translated">在 UI，以指示用户选择的提供程序连接的一部分中点，有一些用户可以在其中选择使用者将其从获取数据的连接点在下拉列表控件之前的文本。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>This text that precedes the drop-down control is the text in the GetFromText property.</source>
+          <target state="translated">在下拉列表控件之前此文本是 GetFromText 属性中的文本。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>By default, the text value is <bpt id="p1">**</bpt>From<ept id="p1">**</ept>.</source>
+          <target state="translated">默认情况下，文本值是<bpt id="p1">**</bpt>从<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`GetFromText`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`GetFromText`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>A string that prefaces the named provider that the consumer will get data from.</source>
+          <target state="translated">一个字符串，位于之前的命名的提供程序使用者将从获取数据。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text shown in the section of the connection user interface (UI) that precedes the named consumer that will receive data from a provider.</source>
+          <target state="translated">获取或设置之前将接收来自提供程序数据的指定使用者连接用户界面 (UI) 部分中显示的文本。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The GetText property takes effect in a specific connection scenario.</source>
+          <target state="translated">GetText 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on a consumer control, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control displays a view that enables users to establish a connection to a provider.</source>
+          <target state="translated">当用户单击使用者控件，则连接谓词&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件显示的视图，使用户能够建立与提供程序的连接。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>In the part of the UI that instructs users to choose a provider connection point, there is some text that precedes the named consumer that will participate in the connection.</source>
+          <target state="translated">在 UI，以指示用户选择的提供程序连接的一部分中点，有一些之前将参与连接的指定使用者的文本。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>This text that precedes the consumer is the text in the GetText property.</source>
+          <target state="translated">之前使用者此文本是 GetText 属性中的文本。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>By default, the text value is <bpt id="p1">**</bpt>Get<ept id="p1">**</ept>.</source>
+          <target state="translated">默认情况下，文本值是<bpt id="p1">**</bpt>获取<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`GetText`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`GetText`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>A string that prefaces the named consumer in the connection.</source>
+          <target state="translated">位于指定的使用者之前在连接字符串。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Gets or sets the header text that appears at the top of the connection user interface (UI) created by the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">获取或设置在由连接用户界面 (UI) 的顶部显示的标头文本<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The text contained in the HeaderText property is visible whenever the connection UI is displayed.</source>
+          <target state="translated">HeaderText 属性中包含的文本会显示 UI 的连接时可见。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on the verbs menu of a &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control, the connection UI appears, and the header text serves as a label at the very top of the connection UI.</source>
+          <target state="translated">当用户单击的谓词菜单上的连接谓词&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;控制，UI 显示方式的连接，并标头文本作为连接的用户界面的最顶部的标签。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The default text is <bpt id="p1">**</bpt>Connections Zone<ept id="p1">**</ept>.</source>
+          <target state="translated">默认文本将是<bpt id="p1">**</bpt>连接区域<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>This property overrides the base &lt;xref:System.Web.UI.WebControls.WebParts.WebZone.HeaderText%2A&gt; property from the &lt;xref:System.Web.UI.WebControls.WebParts.WebZone&gt; class, so that the default connections zone header text can be assigned to the property.</source>
+          <target state="translated">此属性重写基&lt;xref:System.Web.UI.WebControls.WebParts.WebZone.HeaderText%2A&gt;属性从&lt;xref:System.Web.UI.WebControls.WebParts.WebZone&gt;类，以便可以将默认连接区域标头文本分配给属性。&lt;/xref:System.Web.UI.WebControls.WebParts.WebZone&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebZone.HeaderText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`HeaderText`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`HeaderText`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>A string that contains the header text for the connection UI.</source>
+          <target state="translated">包含连接用户界面的标头文本的字符串。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Gets or set the text that is used for general instructions about the selected control in the section of the connection user interface (UI) for managing existing connections.</source>
+          <target state="translated">获取或设置用于管理现有的连接有关的连接用户界面 (UI) 部分中所选控件的一般说明的文本。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The text contained in the InstructionText property is visible whenever the connection UI is displayed and a connection already exists.</source>
+          <target state="translated">显示用户界面的连接和连接已存在时可见 InstructionText 属性中包含的文本。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Just below the header text (contained in the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.HeaderText%2A&gt; property), which is found at the top of the connection UI, is the instruction title, and just below that is the instruction text.</source>
+          <target state="translated">正下方的标头文本 (包含在&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.HeaderText%2A&gt;属性)，位于顶部的连接用户界面，指令标题中，且正下方的说明文本。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.HeaderText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The instruction text informs users what type of action can be performed on the currently selected &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control (the selected control is the one for which the user clicked a connect verb on the control's verbs menu).</source>
+          <target state="translated">说明文本会通知用户可以执行的操作类型上当前所选&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;（所选的控件是为其用户单击控件的谓词菜单上的连接谓词） 的控件。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>By default, the instruction text is <bpt id="p1">**</bpt>Manage the connections for the current Web part<ept id="p1">**</ept>.</source>
+          <target state="translated">默认情况下，说明文本是<bpt id="p1">**</bpt>管理当前的 Web 部件连接<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>This property overrides the base &lt;xref:System.Web.UI.WebControls.WebParts.ToolZone.InstructionText%2A&gt; property from the &lt;xref:System.Web.UI.WebControls.WebParts.ToolZone&gt; class, so that the default connections zone instruction text can be assigned to the property.</source>
+          <target state="translated">此属性重写基&lt;xref:System.Web.UI.WebControls.WebParts.ToolZone.InstructionText%2A&gt;属性从&lt;xref:System.Web.UI.WebControls.WebParts.ToolZone&gt;类，以便将默认连接区域文本可以分配给属性的指令。&lt;/xref:System.Web.UI.WebControls.WebParts.ToolZone&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ToolZone.InstructionText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`InstructionText`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`InstructionText`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>A string that contains the instruction text for the connection UI.</source>
+          <target state="translated">包含连接用户界面的说明文本的字符串。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text that is used for a general description of the action that can be performed on the consumer or provider control, within the connection user interface (UI) for managing existing connections.</source>
+          <target state="translated">获取或设置用于可以对使用者或提供程序中的控件，用于管理现有连接的连接用户界面 (UI) 执行的操作的常规说明的文本。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The text contained in the InstructionTitle property is visible whenever the connection UI is displayed and a connection already exists.</source>
+          <target state="translated">显示用户界面的连接和连接已存在时可见 InstructionTitle 属性中包含的文本。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The instruction title text is just below the header text (contained in the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.HeaderText%2A&gt; property), which is found at the top of the connection UI.</source>
+          <target state="translated">指令标题文本是正下方的标头文本 (包含在&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.HeaderText%2A&gt;属性)，位于顶部的连接用户界面。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.HeaderText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The instruction title is a general description that informs users what type of action can be performed on the consumer or provider &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control that is participating in an existing connection.</source>
+          <target state="translated">说明标题是会通知用户可以在使用者或提供程序上执行的操作类型的常规说明&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;参与现有连接的控件。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>By default, the instruction title begins with <bpt id="p1">**</bpt>Manage the connections for<ept id="p1">**</ept>, and ends with the name of the consumer or provider control that the user selected by clicking the connect verb on its verbs menu.</source>
+          <target state="translated">默认情况下，指令标题开头<bpt id="p1">**</bpt>管理的连接<ept id="p1">**</ept>，和结束的用户选择通过单击其谓词菜单上的连接谓词的使用者或提供商控件的名称。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When you assign a custom value to this property, remember that you cannot know at design time whether the user will select a provider or consumer control on which to manage the connection, so the custom instruction title must be general enough to refer to a consumer or a provider control.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 时将自定义的值分配给此属性，请记住，你不能在设计时知道是否用户将选择用于管理的连接，因此该自定义指令标题必须具有足够常规，以引用使用者的提供程序或使用者控件或提供程序控制。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>In contrast, the default value of the property is rendered in such a way that it dynamically appends the name of whatever consumer or provider control that the user selects.</source>
+          <target state="translated">与此相反，该属性的默认值被呈现的方式动态追加用户选择任何使用者或提供商控件的名称。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>If you want to supply a custom value for the property that mimics this behavior, you must inherit from the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; class, and override this property or the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.RenderBody%2A&gt; method.</source>
+          <target state="translated">如果你想要提供模仿此行为属性的自定义值，则必须从&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;类，并重写此属性或&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.RenderBody%2A&gt;方法。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.RenderBody%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`InstructionTitle`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`InstructionTitle`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>A string that contains the instruction title for the connection UI.</source>
+          <target state="translated">包含连接用户界面的指令标题的字符串。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Restores control state information from a previous page request that was saved by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SaveControlState*&gt; method.</source>
+          <target state="translated">还原控件从保存的一个页面请求的状态信息&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SaveControlState*&gt;方法。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SaveControlState*&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>When this method is invoked, it determines whether control state was previously saved for the control and, if so, sets the control state to the saved value.</source>
+          <target state="translated">当调用此方法时，它确定是否控件状态以前保存的控件，是否是这样，则将的控件状态设置为已保存的值。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the control state to be restored.</source>
+          <target state="translated">&lt;xref:System.Object&gt;，它表示要还原的控件状态。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The length of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">savedState</ph><ept id="p1">&lt;/code&gt;</ept> does not equal the length of the array created by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SaveControlState*&gt; method.</source>
+          <target state="translated">长度<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">savedState</ph> <ept id="p1">&lt;/code&gt;</ept>不等于创建的数组的长度&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SaveControlState*&gt;方法。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SaveControlState*&gt;</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Restores view-state information from a previous page request that was saved by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SaveViewState*&gt; method.</source>
+          <target state="translated">从保存的一个页面请求还原视图状态信息&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SaveViewState*&gt;方法。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SaveViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>This method is used primarily by the .NET Framework infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">此方法主要由.NET Framework 基础结构使用，但不可在代码中直接使用。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>However, control developers can override this method to specify how a custom server control restores its view state.</source>
+          <target state="translated">但是，控件开发人员可以重写此方法以指定自定义服务器控件还原其视图状态的方式。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET State Management Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>ASP.NET 状态管理概述<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>When this method is invoked, it determines whether view state was previously saved for the control and, if so, sets the view state to the saved value.</source>
+          <target state="translated">当调用此方法时，它确定是否视图状态以前保存的控件，是否是这样，将视图状态设置为已保存的值。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>The method overrides the &lt;xref:System.Web.UI.WebControls.WebParts.ToolZone.LoadViewState%2A&gt; method inherited from the &lt;xref:System.Web.UI.WebControls.WebParts.ToolZone&gt; class, so that it can add to the base implementation and restore state for the several zone-level verbs used in the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control.</source>
+          <target state="translated">方法重写&lt;xref:System.Web.UI.WebControls.WebParts.ToolZone.LoadViewState%2A&gt;方法继承自&lt;xref:System.Web.UI.WebControls.WebParts.ToolZone&gt;类，以便它可以将添加到基实现和还原状态中使用的多个区域级别动词&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ToolZone&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ToolZone.LoadViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the view state to be restored.</source>
+          <target state="translated">&lt;xref:System.Object&gt;，其中包含要还原视图状态。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>The length of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">savedState</ph><ept id="p1">&lt;/code&gt;</ept> does not equal the length of the array created by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SaveViewState*&gt; method.</source>
+          <target state="translated">长度<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">savedState</ph> <ept id="p1">&lt;/code&gt;</ept>不等于创建的数组的长度&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SaveViewState*&gt;方法。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.SaveViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text of a message displayed in the connection user interface (UI) when there is an error or warning on a new connection that a user tries to create.</source>
+          <target state="translated">获取或设置在连接用户界面 (UI) 中没有错误或警告用户尝试创建对新连接时显示一条消息的文本。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that contains the text of the message.</source>
+          <target state="translated">A&lt;xref:System.String&gt;包含消息的文本。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Gets or sets the instruction text that appears in the body of the connection user interface (UI) when a Web Parts control has no existing connection.</source>
+          <target state="translated">获取或设置 Web 部件控件没有现有的连接时出现连接用户界面 (UI) 的正文中的说明文本。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The text contained in the NoExistingConnectionInstructionText property is visible whenever the connection UI is displayed and no connection exists.</source>
+          <target state="translated">显示用户界面的连接并且不启用连接存在 NoExistingConnectionInstructionText 属性中包含的文本将显示。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>After a user switches a page into connect display mode and clicks a connect verb on the verbs menu of a &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control, the main connection UI is displayed.</source>
+          <target state="translated">用户将页切换为连接的显示模式，并单击的谓词菜单上的连接谓词后&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;控制，显示用户界面的主连接。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>If there is no current connection, the text from the NoExistingConnectionInstructionText property is displayed near the bottom of the connection UI, just above the close verb in the zone's footer area.</source>
+          <target state="translated">如果没有当前连接，NoExistingConnectionInstructionText 属性中的文本将显示区域的页脚区域中的关闭谓词的正上方的 UI，连接底部附近。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The text describes the fact that there are no existing connections and gives users basic instructions for creating a connection within the UI.</source>
+          <target state="translated">描述的事实是，没有任何现有连接和为用户提供了有关创建用户界面内的连接的基本说明的文本。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`NoExistingConnectionInstructionText`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`NoExistingConnectionInstructionText`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>A string that contains the text message for the case where there is no existing connection.</source>
+          <target state="translated">包含这种情况的文本消息的字符串在没有现有连接。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Gets or sets the title text that appears in the body of the connection user interface (UI) when a Web Parts control has no existing connection.</source>
+          <target state="translated">获取或设置 Web 部件控件没有现有的连接时，连接用户界面 (UI) 的正文中显示的标题文本。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The text contained in the NoExistingConnectionTitle property is visible whenever the connection UI is displayed and no connection exists.</source>
+          <target state="translated">显示用户界面的连接并且不启用连接存在 NoExistingConnectionTitle 属性中包含的文本将显示。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>After a user switches a page into connect display mode and clicks a connect verb on the verbs menu of a &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control, the main connection UI is displayed.</source>
+          <target state="translated">用户将页切换为连接的显示模式，并单击的谓词菜单上的连接谓词后&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;控制，显示用户界面的主连接。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>If there is no current connection, the text from the NoExistingConnectionTitle property is displayed near the top of the body of the connection UI, just below the link that users can click to create a new connection.</source>
+          <target state="translated">如果没有当前连接，NoExistingConnectionTitle 属性中的文本将显示的正下方的链接，用户可以单击以创建新连接的连接用户界面，正文的顶部附近。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>The title summarizes the fact that no connections exist, and the default title is <bpt id="p1">**</bpt>No active connections<ept id="p1">**</ept>.</source>
+          <target state="translated">该标题概述事实任何连接存在，并且默认标题<bpt id="p1">**</bpt>没有活动连接<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`NoExistingConnectionTitle`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`NoExistingConnectionTitle`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>A string that contains the title text for the case where there is no existing connection.</source>
+          <target state="translated">包含这种情况的标题文本的字符串在没有现有连接。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager.DisplayModeChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引发<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager.DisplayModeChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>This method raises the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayModeChanged&gt; event and provides a custom handler for it.</source>
+          <target state="translated">此方法将引发&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayModeChanged&gt;事件，并为其提供自定义处理程序&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayModeChanged&gt;</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>After a Web page enters or exits the connect display mode, this method carries out several steps unique to the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control.</source>
+          <target state="translated">网页上进入或退出连接的显示模式后，此方法执行几个步骤特有&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>The method cancels any connection activity that is pending at this point, ensures that no child controls from the connection user interface (UI) are displayed by setting the &lt;xref:System.Web.UI.Control.ChildControlsCreated%2A&gt; property to <ph id="ph1">`false`</ph>, and sets the connection UI to a mode in which it can display information about existing connections, if a user proceeds with the process of creating a connection.</source>
+          <target state="translated">方法用于取消任何此时处于挂起状态，确保通过设置显示的连接的用户界面 (UI) 从任何子控件的连接活动&lt;xref:System.Web.UI.Control.ChildControlsCreated%2A&gt;属性<ph id="ph1">`false`</ph>，并将连接用户界面设置为一种模式，它可在其中显示有关现有连接的信息，如果用户将继续创建连接的过程。&lt;/xref:System.Web.UI.Control.ChildControlsCreated%2A&gt;</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>To add specialized handling to the handling provided in the OnDisplayModeChanged method, developers can inherit from the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; class and override this method.</source>
+          <target state="translated">若要将专用的处理添加到 OnDisplayModeChanged 方法中提供的处理，开发人员可以从继承&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;类并重写此方法。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>As an alternative, developers can also provide a handler for the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayModeChanged&gt; event on the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control by adding an <ph id="ph1">`OnDisplayModeChanged`</ph> attribute to the <ph id="ph2">`&lt;asp:webpartmanager&gt;`</ph> element in a Web page, and assigning to it the value of a custom method to handle the event.</source>
+          <target state="translated">作为替代方法，开发人员还可以提供的处理程序&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayModeChanged&gt;上的事件&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;控件通过添加<ph id="ph1">`OnDisplayModeChanged`</ph>属性设为<ph id="ph2">`&lt;asp:webpartmanager&gt;`</ph>在网页上，并将对事件进行处理的自定义方法的值分配给它的元素。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayModeChanged&gt;</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>In this method, developers can check the current value of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayMode%2A&gt; property, and if it is &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectDisplayMode&gt;, they can carry out the desired changes to the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control.</source>
+          <target state="translated">在此方法，开发人员可以检查的当前值&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayMode%2A&gt;属性，以及它是否&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectDisplayMode&gt;，它们可以执行所需的更改到&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectDisplayMode&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.DisplayMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>The sender of the event.</source>
+          <target state="translated">事件的发件人。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartDisplayModeEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartDisplayModeEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含事件数据。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引发<bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>This method calls the base &lt;xref:System.Web.UI.WebControls.WebParts.ToolZone.OnInit%2A?displayProperty=fullName&gt; method, and adds custom handling to prepare the Web page to display the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control.</source>
+          <target state="translated">此方法调用了基&lt;xref:System.Web.UI.WebControls.WebParts.ToolZone.OnInit%2A?displayProperty=fullName&gt;方法，并添加自定义处理来准备要显示的 Web 页面&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ToolZone.OnInit%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件数据。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager.SelectedWebPartChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引发<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager.SelectedWebPartChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>This method overrides the &lt;xref:System.Web.UI.WebControls.WebParts.ToolZone&gt; implementation to reset the connection user interface (UI) for the fact that the child controls will have to be recreated.</source>
+          <target state="translated">此方法将替代&lt;xref:System.Web.UI.WebControls.WebParts.ToolZone&gt;实现为子控件将需要重新创建的事实重置连接用户界面 (UI)。&lt;/xref:System.Web.UI.WebControls.WebParts.ToolZone&gt;</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>This is necessary because, when the selected control changes, several options in the connection UI will change, depending on whether the selected control is a consumer or provider, what connection points the controls has (the connection points are listed in drop-down list controls), and other details.</source>
+          <target state="translated">这是必需的因为时选择的控件更改连接用户界面中的多个选项将更改，具体取决于所选的控件是使用者或提供程序，哪些连接点控件具有 （点列出在下拉列表控件中的连接），和其他详细信息。</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that identifies the sender of the event.</source>
+          <target state="translated">&lt;xref:System.Object&gt;标识事件的发件人。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含事件数据。</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>Gets or sets the type of border that frames the server controls contained in a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">获取或设置的框架中包含的服务器控件的边框类型<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">此属性不能通过主题或样式表主题设置。</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Web.UI.ThemeableAttribute&gt;和<bpt id="p1">[</bpt>ASP.NET 主题和皮肤<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PartChromeType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that determines the type of border that frames the controls contained in the connections zone.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PartChromeType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它确定的框架连接区域中包含的控件的边框类型。</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>Gets or sets the instructional text shown in the providers section of the connection user interface (UI), when a connection already exists.</source>
+          <target state="translated">获取或设置已存在的连接时显示连接用户界面 (UI) 的提供程序部分中的说明文本。</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>The ProvidersInstructionText property takes effect in a specific connection scenario.</source>
+          <target state="translated">ProvidersInstructionText 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on a consumer control, and a connection already exists, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control displays a view that enables users to disconnect the connection.</source>
+          <target state="translated">当用户单击连接谓词使用者控件，并且已存在的连接，&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件显示使用户可以断开连接的视图。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>The view also shows any providers participating in the connection.</source>
+          <target state="translated">该视图还显示参与连接任何提供程序。</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>Just above the list of providers is the providers instruction text, which by default is more of a description of what provider controls do in a connection.</source>
+          <target state="translated">正上方的提供程序列表是说明的提供者指令文本，它们的默认值是说明的多个提供程序控件执行的操作的连接中。</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`ProvidersInstructionText`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`ProvidersInstructionText`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>A string serving as the instructional text for providers participating in a connection.</source>
+          <target state="translated">充当参与连接的提供者的说明文本字符串。</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>Gets or sets the title shown above the providers section of the connection user interface (UI), when a connection already exists.</source>
+          <target state="translated">获取或设置已存在的连接时显示的连接用户界面 (UI)、 提供程序部分上方的标题。</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>The ProvidersTitle property takes effect in a specific connection scenario.</source>
+          <target state="translated">ProvidersTitle 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on a consumer control, and a connection already exists, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control displays a view that enables users to disconnect the connection.</source>
+          <target state="translated">当用户单击连接谓词使用者控件，并且已存在的连接，&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件显示使用户可以断开连接的视图。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>The view also shows any providers participating in the connection.</source>
+          <target state="translated">该视图还显示参与连接任何提供程序。</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>Just above the list of providers is the providers instruction text, and above that is the title of the providers section, for which the ProvidersTitle property supplies the text.</source>
+          <target state="translated">只需提供程序列表上方是提供者指令文本，然后上面的是提供程序部分中，为其 ProvidersTitle 属性提供文本的标题。</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`ProvidersTitle`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`ProvidersTitle`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>A string serving as the title text for providers participating in a connection.</source>
+          <target state="translated">一个充当参与连接的提供程序的标题文本的字符串。</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>The default title is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认标题是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>Raises an event for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control when the form that contains it posts back to the server.</source>
+          <target state="translated">引发的事件<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制当包含它的窗体回发到服务器。</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>The RaisePostBackEvent method handles the several possible outcomes that can occur when a form containing a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control is posted back to the server.</source>
+          <target state="translated">RaisePostBackEvent 方法可处理窗体包含时可能发生的几个可能结果&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件回发到服务器。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>First, if the value of the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.WebPartToConnect%2A&gt; property is <ph id="ph1">`null`</ph>, there is no further connections-related action to take, so any pending connections are canceled and the method returns.</source>
+          <target state="translated">首先，如果值&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.WebPartToConnect%2A&gt;属性是<ph id="ph1">`null`</ph>，则没有任何进一步与连接相关的操作若要充分，因此会取消任何挂起的连接，该方法返回。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone.WebPartToConnect%2A&gt;</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>Second, if the connection user interface (UI) is actually visible and the user is in the process of creating a connection, the method handles the possible scenarios: the user clicked a connect verb, the user clicked a disconnect verb, the transformer UI is being displayed, the zone is being closed, a connection to a provider is being created, or a connection to a consumer is being created.</source>
+          <target state="translated">其次，如果连接用户界面 (UI) 是实际可见，并且用户正在创建连接，该方法将处理可能的方案︰ 用户单击连接谓词、 用户单击断开连接的谓词、 正在关闭的 transformer 正在显示用户界面，该区域、 正在创建提供程序的连接，或正在创建使用者的连接。</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>In each case, the RaisePostBackEvent method takes the <ph id="ph1">`eventArgument`</ph> parameter being passed and updates the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control accordingly.</source>
+          <target state="translated">在每个情况下，该 RaisePostBackEvent 方法采用<ph id="ph1">`eventArgument`</ph>传递参数和更新&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;相应地控制。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>Finally, if none of the above cases apply, the method calls the base method in the &lt;xref:System.Web.UI.WebControls.WebParts.ToolZone&gt; class.</source>
+          <target state="translated">最后，如果任何上述情况下将不应用，该方法调用基方法中的&lt;xref:System.Web.UI.WebControls.WebParts.ToolZone&gt;类。&lt;/xref:System.Web.UI.WebControls.WebParts.ToolZone&gt;</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that contains the argument data for the event.</source>
+          <target state="translated">A &lt;xref:System.String&gt;，其中包含事件的参数数据。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>Renders the contents of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control to the specified <bpt id="p2">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">呈现的内容<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件添加到指定<bpt id="p2">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>The Render method updates the connection user interface (UI) with any changes that occurred since the child controls were created or during the prerendering stage, and then calls the base &lt;xref:System.Web.UI.WebControls.CompositeControl.Render%2A?displayProperty=fullName&gt; method to write the contents of the zone to the Web page.</source>
+          <target state="translated">Render 方法自创建的子控件发生的任何更改，或在预呈现的阶段中，更新连接用户界面 (UI)，然后调用基&lt;xref:System.Web.UI.WebControls.CompositeControl.Render%2A?displayProperty=fullName&gt;方法，该区域的内容写入到 Web 页。&lt;/xref:System.Web.UI.WebControls.CompositeControl.Render%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that receives the Web Parts control content.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>接收 Web 部件控件内容。</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>Sends the content of a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's body area to the specified <bpt id="p2">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object, which writes the content to the Web page.</source>
+          <target state="translated">发送的内容<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到指定的控件的正文区<bpt id="p2">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象，向网页写入内容。</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>The body of a Web Parts control is the portion between its header and footer areas.</source>
+          <target state="translated">Web 部件控件的主体是其页眉和页脚区域之间的部分。</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>The RenderBody method overrides the rendering of the body region that is done by the base &lt;xref:System.Web.UI.WebControls.WebParts.WebZone.RenderBody%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">RenderBody 方法重写的可通过基的正文区域呈现&lt;xref:System.Web.UI.WebControls.WebParts.WebZone.RenderBody%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Web.UI.WebControls.WebParts.WebZone.RenderBody%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>This method adds to the base rendering unique style attributes that apply to a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control, and it also renders the appropriate content for the child controls in the connection user interface (UI), based on previous selections made by a user in the UI.</source>
+          <target state="translated">此方法将添加到基呈现应用于的唯一样式属性&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件，并还会呈现以及合适的内容的子控件在连接用户界面 (UI)，基于以前选择的 UI 中的用户。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that receives the control's body content.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>接收控件的正文内容。</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>Renders the zone-level verbs for a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">呈现的区域级别谓词<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>This method renders the several zone-level verbs that are included with a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control.</source>
+          <target state="translated">此方法呈现附带的多个区域级别谓词&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>As a part of this method, the &lt;xref:System.Web.UI.WebControls.WebParts.ToolZone.RenderVerb%2A?displayProperty=fullName&gt; method is also called to render the individual details of each verb.</source>
+          <target state="translated">作为此方法的一部分&lt;xref:System.Web.UI.WebControls.WebParts.ToolZone.RenderVerb%2A?displayProperty=fullName&gt;方法也称为呈现的每个谓词的详细信息。&lt;/xref:System.Web.UI.WebControls.WebParts.ToolZone.RenderVerb%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that receives the content of the verbs to render in a connections zone.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>接收的谓词连接区域中呈现的内容。</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>Saves any Web Parts control state changes that occurred since the last time the page was posted back to the server.</source>
+          <target state="translated">将任何 Web 部件控件保存自页回发到服务器的最后时间以来发生的状态更改。</target>       </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control is visible in any of its modes except the mode that displays existing connections details, and if it has control state data about connection details associated with it, the SaveControlState method saves the data so that it can be persisted across round trips to the server.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件中显示现有的连接详细信息，模式除外其模式的任何可见，并且如果它具有与之关联的连接详细信息有关的控件状态数据，SaveControlState 方法将数据保存，以便它可以与服务器的往返之间得以保持。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>Returns the Web Parts control's current state.</source>
+          <target state="translated">返回 Web 部件控件的当前状态。</target>       </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>If no state is associated with the control, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果没有状态与控件关联，此方法返回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>Saves a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's view-state changes that occurred since the page was last posted back to the server.</source>
+          <target state="translated">将保存<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>自页进行最后一次发生的控件的视图状态更改发布回服务器。</target>       </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>View state is the accumulation of the values of a Web Parts control's properties.</source>
+          <target state="translated">视图状态是 Web 部件控件的属性的值的累计。</target>       </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>These values are automatically placed in the control's &lt;xref:System.Web.UI.Control.ViewState%2A&gt; property, which is an instance of the &lt;xref:System.Web.UI.StateBag&gt; class.</source>
+          <target state="translated">这些值会自动放在控件的&lt;xref:System.Web.UI.Control.ViewState%2A&gt;属性，它是&lt;xref:System.Web.UI.StateBag&gt;类&lt;/xref:System.Web.UI.StateBag&gt;的实例&lt;/xref:System.Web.UI.Control.ViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>This property's value is then persisted to a string object after the save state stage of the control's life cycle.</source>
+          <target state="translated">保存状态的控件的生命周期阶段后，此属性的值随后会保存到一个字符串对象。</target>       </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>The SaveViewState method adds to the base implementation the ability to save view state for the various verbs in a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control.</source>
+          <target state="translated">SaveViewState 方法将添加到基实现的功能，用于保存视图状态中的各种谓词的&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Object&gt; containing the control's current view state.</source>
+          <target state="translated">返回&lt;xref:System.Object&gt;包含控件的当前视图状态。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>If no view state is associated with the control, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">当与控件关联的视图状态时，此方法返回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text shown in the section of the connection user interface (UI) that precedes the named provider that will send data to a consumer.</source>
+          <target state="translated">获取或设置之前的命名的提供程序会将数据发送到使用者连接用户界面 (UI) 部分中显示的文本。</target>       </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>The SendText property takes effect in a specific connection scenario.</source>
+          <target state="translated">SendText 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on a provider control, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control displays a view that enables users to establish a connection to a consumer.</source>
+          <target state="translated">当用户单击一个提供程序的连接谓词&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件显示的视图，使用户能够建立与使用者的连接。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>In the part of the UI that instructs users to choose a consumer connection point, there is some text that precedes the named provider that will participate in the connection.</source>
+          <target state="translated">在 UI，以指示用户可以选择使用者连接的一部分中点，还有之前将参与连接的命名的提供一些文本。</target>       </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source>This text that precedes the provider is the text in the SendText property.</source>
+          <target state="translated">此文本前面提供程序是 SendText 属性中的文本。</target>       </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>By default, the text value is <bpt id="p1">**</bpt>Send<ept id="p1">**</ept>.</source>
+          <target state="translated">默认情况下，文本值是<bpt id="p1">**</bpt>发送<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`SendText`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`SendText`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve">
+          <source>A string that prefaces the named provider in the connection.</source>
+          <target state="translated">一个位于命名的提供程序之前在连接中的字符串。</target>       </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text shown in the section of the connection user interface (UI) that precedes the named consumer to which a provider will send data.</source>
+          <target state="translated">获取或设置位于指定的使用者提供程序将向其发送数据的连接用户界面 (UI) 部分中显示的文本。</target>       </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>The SendToText property takes effect in a specific connection scenario.</source>
+          <target state="translated">SendToText 属性在特定的连接方案中将生效。</target>       </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>When a user clicks the connect verb on a provider control, the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control displays a view that enables users to establish a connection to a consumer.</source>
+          <target state="translated">当用户单击一个提供程序的连接谓词&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件显示的视图，使用户能够建立与使用者的连接。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>In the part of the UI that instructs users to choose a consumer connection point, there is some text that precedes the drop-down list control in which users can select which connection point the provider will send its data to.</source>
+          <target state="translated">在 UI，以指示用户可以选择使用者连接的一部分中点，有一些用户可以在其中选择提供程序将发送到其数据的连接点在下拉列表控件之前的文本。</target>       </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve">
+          <source>This text that precedes the drop-down control is the text in the SendToText property.</source>
+          <target state="translated">在下拉列表控件之前此文本是 SendToText 属性中的文本。</target>       </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source>By default, the text value is <bpt id="p1">**</bpt>To<ept id="p1">**</ept>.</source>
+          <target state="translated">默认情况下，文本值是<bpt id="p1">**</bpt>到<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property declaratively within the opening tag of the <ph id="ph1">`&lt;asp:connectionszone&gt;`</ph> element, by adding an attribute named <ph id="ph2">`SendToText`</ph> and assigning it a value.</source>
+          <target state="translated">你可以设置此属性以声明方式在的开始标记内的值<ph id="ph1">`&lt;asp:connectionszone&gt;`</ph>元素，通过添加一个名为特性<ph id="ph2">`SendToText`</ph>并将其分配一个值。</target>       </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>You can also set the property value programmatically.</source>
+          <target state="translated">你还可以以编程方式设置的属性值。</target>       </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve">
+          <source>A string that prefaces the named consumer that the provider will send data to.</source>
+          <target state="translated">位于之前指定的使用者提供程序将发送数据的一个字符串。</target>       </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve">
+          <source>The default text is a culture-specific string supplied by the .NET Framework.</source>
+          <target state="translated">默认文本将是由.NET Framework 提供的特定于区域性的字符串。</target>       </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve">
+          <source>Tracks view-state changes to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control so the changes can be stored in the control's <bpt id="p2">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">跟踪视图状态更改为<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionsZone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制使所做的更改可以存储在该控件的<bpt id="p2">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve">
+          <source>This method calls the base method in the &lt;xref:System.Web.UI.WebControls.WebParts.ToolZone&gt; class and also triggers view-state tracking for the verbs associated with a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control.</source>
+          <target state="translated">此方法调用基方法&lt;xref:System.Web.UI.WebControls.WebParts.ToolZone&gt;类以及触发器视图状态跟踪与关联的谓词&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;控件。&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ToolZone&gt;</target>       </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve">
+          <source>Gets the currently selected <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control to connect to.</source>
+          <target state="translated">获取当前所选<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要连接到控件。</target>       </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve">
+          <source>When a user switches a Web page into connect display mode, and clicks the connect verb on the verbs menu of a &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control that is enabled for connections, the connection user interface (UI) opens, and the control is now referenced by the WebPartToConnect property.</source>
+          <target state="translated">当用户将网页切换到连接的显示模式，并单击的谓词菜单上的连接谓词&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;连接、 连接的用户界面 (UI) 将打开，以及控制启用的控件现在按 WebPartToConnect 属性引用。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The control referenced by the WebPartToConnect property gets its value from the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.SelectedWebPart%2A&gt; property of the current &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; object.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; WebPartToConnect 属性所引用的控件获取其值从&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.SelectedWebPart%2A&gt;属性的当前&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;对象。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.SelectedWebPart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>控件。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

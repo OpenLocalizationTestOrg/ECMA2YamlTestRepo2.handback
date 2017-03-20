@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d6b1891be3f0b610df0feea49a4d23efdad6a3f1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.X509Certificates.X509Certificate.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6fb6631a90da17157b27d49b97e9376d28af5b19</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">30e2f16e9040e9b66c1e40a3103a7c09e4e20521</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides methods that help you use X.509 v.3 certificates.</source>
+          <target state="translated">Innehåller metoder som hjälper dig använda v.3 X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For most scenarios, you should use the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; class instead.</source>
+          <target state="translated">För de flesta fall bör du använda den &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;klassen i stället.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Starting with the <ph id="ph2">[!INCLUDE[net_v46](~/add/includes/net-v46-md.md)]</ph>, this type implements the &lt;xref:System.IDisposable&gt; interface.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Från och med den <ph id="ph2">[!INCLUDE[net_v46](~/add/includes/net-v46-md.md)]</ph>använder den här skriver du implementerar den &lt;xref:System.IDisposable&gt;gränssnitt.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you have finished using the type, you should dispose of it either directly or indirectly.</source>
+          <target state="translated">När du är klar med typ, ta bort den direkt eller indirekt.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To dispose of the type directly, call its &lt;xref:System.IDisposable.Dispose%2A&gt; method in a <ph id="ph1">`try`</ph><ph id="ph2">/</ph><ph id="ph3">`catch`</ph> block.</source>
+          <target state="translated">Om du vill ta bort av typen direkt, anropa dess &lt;xref:System.IDisposable.Dispose%2A&gt;metod i en <ph id="ph1">`try`</ph> <ph id="ph2">/</ph> <ph id="ph3">`catch`</ph> block.&lt;/xref:System.IDisposable.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To dispose of it indirectly, use a language construct such as <ph id="ph1">`using`</ph> (in C#) or <ph id="ph2">`Using`</ph> (in Visual Basic).</source>
+          <target state="translated">Om du vill ta hand om den indirekt, använda en språk-konstruktion som <ph id="ph1">`using`</ph> (i C#) eller <ph id="ph2">`Using`</ph> (i Visual Basic).</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the “Using an Object that Implements IDisposable” section in the &lt;xref:System.IDisposable&gt; interface topic.</source>
+          <target state="translated">Mer information finns i avsnittet "Med hjälp av ett objekt som implementerar IDisposable" i den &lt;xref:System.IDisposable&gt;gränssnittet avsnittet.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  For apps that target the <ph id="ph1">[!INCLUDE[net_v452](~/add/includes/net-v452-md.md)]</ph> and earlier versions, the X509Certificate class does not implement the &lt;xref:System.IDisposable&gt; interface and therefore does not have a <ph id="ph2">`Dispose`</ph> method.</source>
+          <target state="translated">&gt;&gt; För appar som är riktade till den <ph id="ph1">[!INCLUDE[net_v452](~/add/includes/net-v452-md.md)]</ph> och tidigare versioner X509Certificate-klassen implementerar inte det &lt;xref:System.IDisposable&gt;gränssnitt och därför inte har en <ph id="ph2">`Dispose`</ph> metod.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class defined from a sequence of bytes representing an X.509v3 certificate.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassdefinition från en sekvens med byte som representerar ett X.509v3-certifikat.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`data`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Om du skapar en &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certifikat genom att ange en signerad filarkivet PKCS7 för <ph id="ph1">`data`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;skapas för certifikatet som signerade arkivet inte för några av certifikat i arkivet.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">En bytematris som innehåller data från ett X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-or-       The length of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is 0.</source>
+          <target state="translated">- eller - längden på den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">rawData</ph> <ept id="p1">&lt;/code&gt;</ept> parametern är 0.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a handle to an unmanaged <bpt id="p2">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med en referens till en ohanterad <bpt id="p2">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> struktur.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; object using a handle for the Microsoft Cryptographic API certificate context, <ph id="ph1">`PCCERT_CONTEXT`</ph>.</source>
+          <target state="translated">Den här konstruktorn skapar en ny &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;objekt med en referens för certifikatkontext Microsoft kryptografiska API <ph id="ph1">`PCCERT_CONTEXT`</ph>.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  This constructor creates a copy of the certificate context.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Skapar en kopia av certifikatkontexten för den här konstruktorn.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not assume that the context structure you passed to the constructor is valid; it may have been released.</source>
+          <target state="translated">Inte förutsätter att kontexten struktur du överförs till konstruktorn är ogiltig. Det kan ha släppts.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can get a copy of the current <ph id="ph1">`PCCERT_CONTEXT`</ph> structure from the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate.Handle%2A&gt; property, but it is valid only during the lifetime of the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; object.</source>
+          <target state="translated">Du kan hämta en kopia av aktuellt <ph id="ph1">`PCCERT_CONTEXT`</ph> struktur från den &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate.Handle%2A&gt;egenskapen, men det är giltigt endast under livslängden för den &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;objekt.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate.Handle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A handle to an unmanaged <bpt id="p1">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">En referens till en ohanterad <bpt id="p1">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The handle parameter does not represent a valid <bpt id="p1">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Parametern referensen representerar inte ett giltigt <bpt id="p1">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using another <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen använder en annan <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from which to initialize this class.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass som du vill starta den här klassen.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">cert</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Värdet för den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">cert</ph> <ept id="p1">&lt;/code&gt;</ept> parametern är <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the name of a PKCS7 signed file.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med namnet på en PKCS7 signerade filen.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Om du skapar en &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certifikat genom att ange en signerad filarkivet PKCS7 för <ph id="ph1">`fileName`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;skapas för certifikatet som signerade arkivet inte för några av certifikat i arkivet.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The name of a PKCS7 signed file.</source>
+          <target state="translated">Namnet på en signerad PKCS7-fil.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a byte array and a password.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med hjälp av en bytematris och ett lösenord.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Aldrig hård code ett lösenord i källkoden.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Hårdkodade lösenord kan hämtas från en sammansättning med hjälp av den <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, en hexadecimal redigerare eller helt enkelt öppna sammansättningen i en textredigerare, till exempel Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Om du skapar en &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certifikat genom att ange en signerad filarkivet PKCS7 för <ph id="ph1">`rawData`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;skapas för certifikatet som signerade arkivet inte för några av certifikat i arkivet.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A byte array that contains data from an X.509 certificate.</source>
+          <target state="translated">En bytematris som innehåller data från ett X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-or-       The length of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is 0.</source>
+          <target state="translated">- eller - längden på den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">rawData</ph> <ept id="p1">&lt;/code&gt;</ept> parametern är 0.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a byte array and a password.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med hjälp av en bytematris och ett lösenord.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Aldrig hård code ett lösenord i källkoden.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Hårdkodade lösenord kan hämtas från en sammansättning med hjälp av den <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, en hexadecimal redigerare eller helt enkelt öppna sammansättningen i en textredigerare, till exempel Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Om du skapar en &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certifikat genom att ange en signerad filarkivet PKCS7 för <ph id="ph1">`rawData`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;skapas för certifikatet som signerade arkivet inte för några av certifikat i arkivet.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">En bytematris som innehåller data från ett X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-or-       The length of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is 0.</source>
+          <target state="translated">- eller - längden på den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">rawData</ph> <ept id="p1">&lt;/code&gt;</ept> parametern är 0.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a <bpt id="p2">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object and a &lt;xref:System.Runtime.Serialization.StreamingContext&gt; structure.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med hjälp av en <bpt id="p2">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objekt och en &lt;xref:System.Runtime.Serialization.StreamingContext&gt;struktur.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes serialization information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som beskriver serialisering.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.Serialization.StreamingContext&gt; structure that describes how serialization should be performed.</source>
+          <target state="translated">En &lt;xref:System.Runtime.Serialization.StreamingContext&gt;struktur som beskriver hur serialisering ska utföras.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a certificate file name and a password.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med ett filnamn för certifikatet och lösenordet.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a key container.</source>
+          <target state="translated">Anropar den här konstruktorn med rätt lösenord dekrypterar den privata nyckeln och sparar det på en nyckelbehållare.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Aldrig hård code ett lösenord i källkoden.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Hårdkodade lösenord kan hämtas från en sammansättning med hjälp av den <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, en hexadecimal redigerare eller helt enkelt öppna sammansättningen i en textredigerare, till exempel Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Om du skapar en &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certifikat genom att ange en signerad filarkivet PKCS7 för <ph id="ph1">`fileName`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;skapas för certifikatet som signerade arkivet inte för några av certifikat i arkivet.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">Namnet på en certifikatfil.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the name of a PKCS7 signed file and a password to access the certificate.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med namnet på en PKCS7 signerade fil- och ett lösenord för åtkomst till certifikatet.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a key container.</source>
+          <target state="translated">Anropar den här konstruktorn med rätt lösenord dekrypterar den privata nyckeln och sparar det på en nyckelbehållare.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Om du skapar en &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certifikat genom att ange en signerad filarkivet PKCS7 för <ph id="ph1">`fileName`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;skapas för certifikatet som signerade arkivet inte för några av certifikat i arkivet.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The name of a PKCS7 signed file.</source>
+          <target state="translated">Namnet på en signerad PKCS7-fil.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a byte array, a password, and a key storage flag.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med en byte-matris, ett lösenord och en nyckellagring flagga.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a Microsoft Cryptographic API Cryptographic Service Provider (CSP).</source>
+          <target state="translated">Anropar den här konstruktorn med rätt lösenord dekrypterar den privata nyckeln och sparar den till en Microsoft kryptografiska API kryptografiprovider (CSP).</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Aldrig hård code ett lösenord i källkoden.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Hårdkodade lösenord kan hämtas från en sammansättning med hjälp av den <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, en hexadecimal redigerare eller helt enkelt öppna sammansättningen i en textredigerare, till exempel Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Om du skapar en &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certifikat genom att ange en signerad filarkivet PKCS7 för <ph id="ph1">`rawData`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;skapas för certifikatet som signerade arkivet inte för några av certifikat i arkivet.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A byte array that contains data from an X.509 certificate.</source>
+          <target state="translated">En bytematris som innehåller data från ett X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">En binär kombination av uppräkningen värden som styr hur och importera certifikatet.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>-or-       The length of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is 0.</source>
+          <target state="translated">- eller - längden på den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">rawData</ph> <ept id="p1">&lt;/code&gt;</ept> parametern är 0.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a byte array, a password, and a key storage flag.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med en byte-matris, ett lösenord och en nyckellagring flagga.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; object using a byte array, a password that is needed to access the certificate data, and a key storage flag.</source>
+          <target state="translated">Den här konstruktorn skapar en ny &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;objekt med en byte-matris, ett lösenord som krävs för att komma åt certifikatdata och en nyckellagring flagga.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a Microsoft Cryptographic API Cryptographic Service Provider (CSP).</source>
+          <target state="translated">Anropar den här konstruktorn med rätt lösenord dekrypterar den privata nyckeln och sparar den till en Microsoft kryptografiska API kryptografiprovider (CSP).</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt; value can be used to control where and how the private key is imported.</source>
+          <target state="translated">Den &lt;xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt;värde kan användas för att styra hur och den privata nyckeln har importerats.&lt;/xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Aldrig hård code ett lösenord i källkoden.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Hårdkodade lösenord kan hämtas från en sammansättning med hjälp av den <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, en hexadecimal redigerare eller helt enkelt öppna sammansättningen i en textredigerare, till exempel Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Om du skapar en &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certifikat genom att ange en signerad filarkivet PKCS7 för <ph id="ph1">`rawData`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;skapas för certifikatet som signerade arkivet inte för några av certifikat i arkivet.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">En bytematris som innehåller data från ett X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">En binär kombination av uppräkningen värden som styr hur och importera certifikatet.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>-or-       The length of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is 0.</source>
+          <target state="translated">- eller - längden på den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">rawData</ph> <ept id="p1">&lt;/code&gt;</ept> parametern är 0.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a certificate file name, a password, and a key storage flag.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med ett certifikat-filnamn, ett lösenord och en nyckellagring flagga.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Om du skapar en &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certifikat genom att ange en signerad filarkivet PKCS7 för <ph id="ph1">`fileName`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;skapas för certifikatet som signerade arkivet inte för några av certifikat i arkivet.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">Namnet på en certifikatfil.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">En binär kombination av uppräkningen värden som styr hur och importera certifikatet.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the name of a PKCS7 signed file, a password to access the certificate, and a key storage flag.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med hjälp av namnet på en PKCS7 signerade fil, ett lösenord för att få åtkomst till certifikatet och en nyckellagring flagga.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Om du skapar en &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certifikat genom att ange en signerad filarkivet PKCS7 för <ph id="ph1">`fileName`</ph>, &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;skapas för certifikatet som signerade arkivet inte för några av certifikat i arkivet.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The name of a PKCS7 signed file.</source>
+          <target state="translated">Namnet på en signerad PKCS7-fil.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">En binär kombination av uppräkningen värden som styr hur och importera certifikatet.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Creates an X.509v3 certificate from the specified PKCS7 signed file.</source>
+          <target state="translated">Skapar ett X.509v3-certifikat från den angivna PKCS7 signera filen.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The certificate file is not restricted to .cerfiles.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Certifikatfilen är inte begränsat till .cerfiles.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any PKCS7 signed file can be used, including an Authenticode signed .pfx file.</source>
+          <target state="translated">Alla PKCS7 signerade filen kan användas, inklusive ett Authenticode signerade .pfx-fil.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The path of the PKCS7 signed file from which to create the X.509 certificate.</source>
+          <target state="translated">Sökvägen till PKCS7 signerade fil som du kan skapa X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The newly created X.509 certificate.</source>
+          <target state="translated">Det nyligen skapade X.509-certifikatet.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">filename</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">filename</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Creates an X.509v3 certificate from the specified signed file.</source>
+          <target state="translated">Skapar ett X.509v3-certifikat från den angivna signera filen.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASN.1 DER is the only certificate format supported by this class.</source>
+          <target state="translated">ASN.1 DER är det enda certifikat format som stöds av den här klassen.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The path of the signed file from which to create the X.509 certificate.</source>
+          <target state="translated">Sökvägen till den signerade filen som du vill skapa X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The newly created X.509 certificate.</source>
+          <target state="translated">Det nyligen skapade X.509-certifikatet.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Frigör alla resurser som används av aktuellt <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Releases all of the unmanaged resources used by this <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Frigör alla ohanterade resurser som används av det här <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> och släpper du de hantera resurserna.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Frisläpp både hanterade och ohanterade resurser. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> att släppa endast resurser som inte hanteras.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Compares two <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for equality.</source>
+          <target state="translated">Jämför två <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt sinsemellan.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two objects are considered equal if they are &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; objects and they have the same issuer and serial number.</source>
+          <target state="translated">Två objekt som identiska om de är &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;objekt och de har samma utfärdare och serienummer.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to compare to the current object.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt för att jämföra till det aktuella objektet.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is equal to the object specified by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">other</ph><ept id="p3">&lt;/code&gt;</ept> parameter; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om aktuellt <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objekt är lika med objekt som angetts av den <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">other</ph> <ept id="p3">&lt;/code&gt;</ept> parameter, annars <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Compares two <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for equality.</source>
+          <target state="translated">Jämför två <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt sinsemellan.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; objects are considered equal if they have the same issuer and serial number.</source>
+          <target state="translated">Två &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;objekt som identiska om de har samma utfärdare och serienummer.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to compare to the current object.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt för att jämföra till det aktuella objektet.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is equal to the object specified by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">other</ph><ept id="p3">&lt;/code&gt;</ept> parameter; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om aktuellt <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objekt är lika med objekt som angetts av den <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">other</ph> <ept id="p3">&lt;/code&gt;</ept> parameter, annars <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Exports the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to a byte array in a format described by one of the <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Exportera aktuell <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt till en bytematris i ett format som definieras av den <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> värden.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`contentType`</ph> parameter accepts only the following values of the &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt; enumeration: &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;, &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;, and &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;.</source>
+          <target state="translated">Den <ph id="ph1">`contentType`</ph> parametern accepterar endast följande värden för den &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;uppräkningen: &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;, &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;, och &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;.&lt;/xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Passing any other value causes a &lt;xref:System.Security.Cryptography.CryptographicException&gt; to be thrown.</source>
+          <target state="translated">Skicka andra värdet orsakar en &lt;xref:System.Security.Cryptography.CryptographicException&gt;positionsundantagsfel.&lt;/xref:System.Security.Cryptography.CryptographicException&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that describes how to format the output data.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden som beskriver hur du formatera utdata.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>An array of bytes that represents the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En matris med byte som representerar aktuellt <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>A value other than <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or <bpt id="p3">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> was passed to the <bpt id="p4">&lt;code&gt;</bpt><ph id="ph1">contentType</ph><ept id="p4">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Ett annat värde än <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, eller <bpt id="p3">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> skickades till den <bpt id="p4">&lt;code&gt;</bpt> <ph id="ph1">contentType</ph> <ept id="p4">&lt;/code&gt;</ept> parameter.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>-or-       The certificate could not be exported.</source>
+          <target state="translated">- eller - det gick inte att exportera certifikatet.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Exports the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to a byte array using the specified format and a password.</source>
+          <target state="translated">Exportera aktuell <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som en bitmatris med det angivna formatet och lösenordet.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`contentType`</ph> parameter accepts only the following values of the &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt; enumeration: &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;, &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;, and &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;.</source>
+          <target state="translated">Den <ph id="ph1">`contentType`</ph> parametern accepterar endast följande värden för den &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;uppräkningen: &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;, &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;, och &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;.&lt;/xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Passing any other value causes a &lt;xref:System.Security.Cryptography.CryptographicException&gt; to be thrown.</source>
+          <target state="translated">Skicka andra värdet orsakar en &lt;xref:System.Security.Cryptography.CryptographicException&gt;positionsundantagsfel.&lt;/xref:System.Security.Cryptography.CryptographicException&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Aldrig hård code ett lösenord i källkoden.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Hårdkodade lösenord kan hämtas från en sammansättning med hjälp av den <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, en hexadecimal redigerare eller helt enkelt öppna sammansättningen i en textredigerare, till exempel Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that describes how to format the output data.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden som beskriver hur du formatera utdata.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>A byte array that represents the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En bytematris som representerar aktuellt <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>A value other than <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or <bpt id="p3">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> was passed to the <bpt id="p4">&lt;code&gt;</bpt><ph id="ph1">contentType</ph><ept id="p4">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Ett annat värde än <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, eller <bpt id="p3">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> skickades till den <bpt id="p4">&lt;code&gt;</bpt> <ph id="ph1">contentType</ph> <ept id="p4">&lt;/code&gt;</ept> parameter.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>-or-       The certificate could not be exported.</source>
+          <target state="translated">- eller - det gick inte att exportera certifikatet.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Exports the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to a byte array in a format described by one of the <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> values, and using the specified password.</source>
+          <target state="translated">Exportera aktuell <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt till en bytematris i ett format som definieras av den <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> värden, och använder det angivna lösenordet.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`contentType`</ph> parameter accepts only the following values of the &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt; enumeration: &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;, &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;, and &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;.</source>
+          <target state="translated">Den <ph id="ph1">`contentType`</ph> parametern accepterar endast följande värden för den &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;uppräkningen: &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;, &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;, och &lt;xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;.&lt;/xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509ContentType&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Passing any other value causes a &lt;xref:System.Security.Cryptography.CryptographicException&gt; to be thrown.</source>
+          <target state="translated">Skicka andra värdet orsakar en &lt;xref:System.Security.Cryptography.CryptographicException&gt;positionsundantagsfel.&lt;/xref:System.Security.Cryptography.CryptographicException&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Aldrig hård code ett lösenord i källkoden.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Hårdkodade lösenord kan hämtas från en sammansättning med hjälp av den <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, en hexadecimal redigerare eller helt enkelt öppna sammansättningen i en textredigerare, till exempel Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that describes how to format the output data.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden som beskriver hur du formatera utdata.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>An array of bytes that represents the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En matris med byte som representerar aktuellt <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>A value other than <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or <bpt id="p3">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> was passed to the <bpt id="p4">&lt;code&gt;</bpt><ph id="ph1">contentType</ph><ept id="p4">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Ett annat värde än <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, eller <bpt id="p3">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> skickades till den <bpt id="p4">&lt;code&gt;</bpt> <ph id="ph1">contentType</ph> <ept id="p4">&lt;/code&gt;</ept> parameter.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>-or-       The certificate could not be exported.</source>
+          <target state="translated">- eller - det gick inte att exportera certifikatet.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Converts the specified date and time to a string.</source>
+          <target state="translated">Konverterar angivet datum och tid till en sträng.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some cultures cannot convert future dates into strings.</source>
+          <target state="translated">Vissa kulturer kan inte konvertera framtida datum till strängar.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the expiration date of an X.509 certificate is beyond the range of the culture, FormatDate falls back to a calendar that can express the date.</source>
+          <target state="translated">Om ett X.509-certifikat upphör att gälla är utanför intervallet för kulturen, använder FormatDate till en kalender som kan express datumet.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Globalization.CultureInfo.Calendar%2A&gt; value is &lt;xref:System.Globalization.UmAlQuraCalendar&gt;, the calendar is changed to the &lt;xref:System.Globalization.HijriCalendar&gt; class; otherwise, it is changed to the &lt;xref:System.Globalization.CultureInfo.InvariantCulture%2A&gt;.</source>
+          <target state="translated">Om &lt;xref:System.Globalization.CultureInfo.Calendar%2A&gt;värdet är &lt;xref:System.Globalization.UmAlQuraCalendar&gt;, kalendern ändras till den &lt;xref:System.Globalization.HijriCalendar&gt;klass; Annars ändras till &lt;xref:System.Globalization.CultureInfo.InvariantCulture%2A&gt;.&lt;/xref:System.Globalization.CultureInfo.InvariantCulture%2A&gt; &lt;/xref:System.Globalization.HijriCalendar&gt; &lt;/xref:System.Globalization.UmAlQuraCalendar&gt; &lt;/xref:System.Globalization.CultureInfo.Calendar%2A&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The date and time to convert.</source>
+          <target state="translated">Datum och tid att konvertera.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>A string representation of the value of the &lt;xref:System.DateTime&gt; object.</source>
+          <target state="translated">En strängrepresentation av värdet för den &lt;xref:System.DateTime&gt;objekt.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Returns the hash value for the X.509v3 certificate as an array of bytes.</source>
+          <target state="translated">Returnerar det hash-värdet för X.509v3-certifikat som en matris med byte.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>The hash value for the X.509 certificate.</source>
+          <target state="translated">Hash-värdet för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Returns the SHA1 hash value for the X.509v3 certificate as a hexadecimal string.</source>
+          <target state="translated">Returnerar SHA1-hash-värdet för X.509v3-certifikat som en hexadecimal sträng.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The hexadecimal string representation of the X.509 certificate hash value.</source>
+          <target state="translated">Den hexadecimala strängrepresentationen av X.509 certifikatets hash-värde.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Returns the effective date of this X.509v3 certificate.</source>
+          <target state="translated">Returnerar datumet för den här X.509v3-certifikat.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The effective date is the date after which the X.509 certificate is considered valid.</source>
+          <target state="translated">Det effektiva datumet är det datum då X.509-certifikatet ska vara giltigt.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetEffectiveDateString method returns a string that shows the date formatted in Short Date Pattern followed by the time formatted in Long Time Pattern.</source>
+          <target state="translated">Metoden GetEffectiveDateString returnerar en sträng som visar datumet formaterad kort datum mönster följt av den tid som är formaterade i mönstret för lång tid.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The date and time are formatted using the current culture and time zone.</source>
+          <target state="translated">Datum och tid är formaterade med hjälp av den aktuella kulturen och tidszon.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The effective date for this X.509 certificate.</source>
+          <target state="translated">Det effektiva datumet för den här X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Returns the expiration date of this X.509v3 certificate.</source>
+          <target state="translated">Returnerar den här X.509v3-certifikat upphör att gälla.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The expiration date is the date after which the X.509 certificate is no longer considered valid.</source>
+          <target state="translated">Utgångsdatumet är det datum då X.509-certifikatet inte längre anses vara giltigt.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetExpirationDateString method returns a string that shows the date formatted in Short Date Pattern followed by the time formatted in Long Time Pattern.</source>
+          <target state="translated">Metoden GetExpirationDateString returnerar en sträng som visar datumet formaterad kort datum mönster följt av den tid som är formaterade i mönstret för lång tid.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The date and time are formatted using the current culture and time zone.</source>
+          <target state="translated">Datum och tid är formaterade med hjälp av den aktuella kulturen och tidszon.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method may return a different string format on Macintosh computers, although the underlying &lt;xref:System.DateTime&gt; object will represent the same value.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Den här metoden kan returnera olika strängformat på Macintosh-datorer, även om den underliggande &lt;xref:System.DateTime&gt;objektet representerar samma värde.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The expiration date for this X.509 certificate.</source>
+          <target state="translated">Förfallodatum för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Returns the name of the format of this X.509v3 certificate.</source>
+          <target state="translated">Returnerar namnet på formatet för den här X.509v3-certifikat.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The format X.509 is always returned in this implementation.</source>
+          <target state="translated">Formatet X.509 returneras alltid i den här implementeringen.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The format of this X.509 certificate.</source>
+          <target state="translated">Formatet för den här X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Returns the hash code for the X.509v3 certificate as an integer.</source>
+          <target state="translated">Returnerar den hashkoden för X.509v3-certifikat som ett heltal.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the X.509 certificate hash is an array of more than 4 bytes, any byte after the fourth byte is not seen in this integer representation.</source>
+          <target state="translated">Om hash för X.509-certifikatet är en matris med mer än 4 byte, visas inte alla byte efter den fjärde byten i den här heltal-representation.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The hash code for the X.509 certificate as an integer.</source>
+          <target state="translated">Hash-koden för X.509-certifikat som ett heltal.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Returns the name of the certification authority that issued the X.509v3 certificate.</source>
+          <target state="translated">Returnerar namnet på den certifikatutfärdare som utfärdade X.509v3-certifikat.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The name of the certification authority that issued the X.509 certificate.</source>
+          <target state="translated">Namnet på den certifikatutfärdare som utfärdade X.509-certifikatet.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Det uppstår ett fel med certifikatet.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Till exempel:-certifikatfilen finns inte.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Certifikatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-Lösenord för certifikatet är felaktigt.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Returns the key algorithm information for this X.509v3 certificate as a string.</source>
+          <target state="translated">Returnerar nyckelalgoritm informationen för den här X.509v3-certifikat som en sträng.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The key algorithm information for this X.509 certificate as a string.</source>
+          <target state="translated">Algoritm-information för den här X.509-certifikat som en sträng.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The certificate context is invalid.</source>
+          <target state="translated">Certifikatkontexten är ogiltig.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Returns the key algorithm parameters for the X.509v3 certificate as an array of bytes.</source>
+          <target state="translated">Returnerar nyckelalgoritm parametrar för X.509v3-certifikat som en matris med byte.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>The key algorithm parameters for the X.509 certificate as an array of bytes.</source>
+          <target state="translated">Nyckelalgoritm parametrar för X.509-certifikat som en matris med byte.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The certificate context is invalid.</source>
+          <target state="translated">Certifikatkontexten är ogiltig.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Returns the key algorithm parameters for the X.509v3 certificate as a hexadecimal string.</source>
+          <target state="translated">Returnerar nyckelalgoritm parametrar för X.509v3-certifikat som en hexadecimal sträng.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>The key algorithm parameters for the X.509 certificate as a hexadecimal string.</source>
+          <target state="translated">Nyckelalgoritm parametrar för X.509-certifikat som en hexadecimal sträng.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The certificate context is invalid.</source>
+          <target state="translated">Certifikatkontexten är ogiltig.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Returns the name of the principal to which the certificate was issued.</source>
+          <target state="translated">Returnerar namnet för säkerhetsobjekt som certifikatet har utfärdats.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The name of the principal to which the certificate was issued.</source>
+          <target state="translated">Namnet på objektet som certifikatet har utfärdats.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>The certificate context is invalid.</source>
+          <target state="translated">Certifikatkontexten är ogiltig.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Returns the public key for the X.509v3 certificate as an array of bytes.</source>
+          <target state="translated">Returnerar den offentliga nyckeln för X.509v3-certifikat som en matris med byte.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The public key for the X.509 certificate as an array of bytes.</source>
+          <target state="translated">Den offentliga nyckeln för X.509-certifikat som en matris med byte.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The certificate context is invalid.</source>
+          <target state="translated">Certifikatkontexten är ogiltig.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Returns the public key for the X.509v3 certificate as a hexadecimal string.</source>
+          <target state="translated">Returnerar den offentliga nyckeln för X.509v3-certifikat som en hexadecimal sträng.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>The public key for the X.509 certificate as a hexadecimal string.</source>
+          <target state="translated">Den offentliga nyckeln för X.509-certifikat som en hexadecimal sträng.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Returns the raw data for the entire X.509v3 certificate as an array of bytes.</source>
+          <target state="translated">Returnerar rådata för hela X.509v3-certifikat som en matris med byte.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>A byte array containing the X.509 certificate data.</source>
+          <target state="translated">En bytematris som innehåller data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Returns the raw data for the entire X.509v3 certificate as a hexadecimal string.</source>
+          <target state="translated">Returnerar rådata för hela X.509v3-certifikat som en hexadecimal sträng.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>The X.509 certificate data as a hexadecimal string.</source>
+          <target state="translated">X.509-certifikatdata som en hexadecimal sträng.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Returns the serial number of the X.509v3 certificate as an array of bytes.</source>
+          <target state="translated">Returnerar serienumret för X.509v3-certifikat som en matris med byte.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>The serial number of the X.509 certificate as an array of bytes.</source>
+          <target state="translated">Serienumret för X.509-certifikatet som en matris med byte.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The certificate context is invalid.</source>
+          <target state="translated">Certifikatkontexten är ogiltig.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Returns the serial number of the X.509v3 certificate as a hexadecimal string.</source>
+          <target state="translated">Returnerar serienumret för X.509v3-certifikat som en hexadecimal sträng.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>The serial number of the X.509 certificate as a hexadecimal string.</source>
+          <target state="translated">Serienumret för X.509-certifikat som en hexadecimal sträng.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Gets a handle to a Microsoft Cryptographic API certificate context described by an unmanaged <bpt id="p1">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hämtar en referens till en Microsoft kryptografiska API certifikatkontext beskrivs av en ohanterad <bpt id="p1">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The handle is valid only for the lifetime of the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; object.</source>
+          <target state="translated">Referensen är giltig endast för livslängden för den &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;objekt.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; structure that represents an unmanaged <bpt id="p1">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">En &lt;xref:System.IntPtr&gt;struktur som representerar en ohanterad <bpt id="p1">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur.&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Populates the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with data from a byte array.</source>
+          <target state="translated">Fyller på <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt med data från en byte-matris.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to take the raw byte array of an X.509 certificate and populate the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; object with its associated values.</source>
+          <target state="translated">Den här metoden kan användas för att ta rå byte-matris med ett X.509-certifikat och fylla i &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;objekt med associerade värden.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">En bytematris som innehåller data från ett X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>-or-       The length of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is 0.</source>
+          <target state="translated">- eller - längden på den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">rawData</ph> <ept id="p1">&lt;/code&gt;</ept> parametern är 0.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Populates the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with information from a certificate file.</source>
+          <target state="translated">Fyller på <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt med information från en certifikatfil.</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method uses a certificate file (such as a file with a .cer extension) that represents an X.509 certificate, and populates the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; object with the certificate that the file contains.</source>
+          <target state="translated">Den här metoden använder en certifikatfil (till exempel en fil med tillägget .cer) som representerar ett X.509-certifikat och fyller den &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;objektet med det certifikat som innehåller filen.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file represented as a string.</source>
+          <target state="translated">Namnet på en certifikatfil som representeras som en sträng.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object using data from a byte array, a password, and a key storage flag.</source>
+          <target state="translated">Fyller på en <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt med data från en byte-matris, ett lösenord och en nyckellagring flagga.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>A byte array that contains data from an X.509 certificate.</source>
+          <target state="translated">En bytematris som innehåller data från ett X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">En binär kombination av uppräkningen värden som styr hur och importera certifikatet.</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>-or-       The length of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is 0.</source>
+          <target state="translated">- eller - längden på den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">rawData</ph> <ept id="p1">&lt;/code&gt;</ept> parametern är 0.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>Populates the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object using data from a byte array, a password, and flags for determining how the private key is imported.</source>
+          <target state="translated">Fyller på <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt med data från en byte-matris, ett lösenord och flaggor för att bestämma hur den privata nyckeln har importerats.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to populate an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; object using a password for the certificate represented by the byte array.</source>
+          <target state="translated">Den här metoden kan användas för att fylla i ett &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;objekt med ett lösenord för det certifikat som representeras av Bytematrisen.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt; value can be used to control where and how the private key is imported.</source>
+          <target state="translated">Den &lt;xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt;värde kan användas för att styra hur och den privata nyckeln har importerats.&lt;/xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt;</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">En bytematris som innehåller data från ett X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">En binär kombination av uppräkningen värden som styr hur och importera certifikatet.</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>-or-       The length of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rawData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is 0.</source>
+          <target state="translated">- eller - längden på den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">rawData</ph> <ept id="p1">&lt;/code&gt;</ept> parametern är 0.</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with information from a certificate file, a password, and a key storage flag.</source>
+          <target state="translated">Fyller på en <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt vars information från en certifikatfil, ett lösenord och en nyckellagring flagga.</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">Namnet på en certifikatfil.</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">En binär kombination av uppräkningen värden som styr hur och importera certifikatet.</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>Populates the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with information from a certificate file, a password, and a <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509KeyStorageFlags"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Fyller på <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt vars information från en certifikatfil, ett lösenord och en <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509KeyStorageFlags"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> värde.</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file represented as a string.</source>
+          <target state="translated">Namnet på en certifikatfil som representeras som en sträng.</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Det lösenord som krävs för att komma åt data för X.509-certifikat.</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">En binär kombination av uppräkningen värden som styr hur och importera certifikatet.</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">fileName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>Gets the name of the certificate authority that issued the X.509v3 certificate.</source>
+          <target state="translated">Hämtar namnet på den certifikatutfärdare som utfärdade X.509v3-certifikat.</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>The name of the certificate authority that issued the X.509v3 certificate.</source>
+          <target state="translated">Namnet på den certifikatutfärdare som utfärdade X.509v3-certifikat.</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>The certificate handle is invalid.</source>
+          <target state="translated">Certifikat-handtaget är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>Resets the state of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Återställer tillståndet för den <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Reset method to reset the state of the certificate.</source>
+          <target state="translated">Använd metoden återställning återställa tillståndet för certifikatet.</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method also frees any resources associated with the certificate.</source>
+          <target state="translated">Den här metoden Frigör även alla resurser som är associerade med certifikatet.</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>Gets the subject distinguished name from the certificate.</source>
+          <target state="translated">Hämtar det unika ämnesnamnet från certifikatet.</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>The subject distinguished name from the certificate.</source>
+          <target state="translated">Det unika ämnesnamnet från certifikatet.</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>The certificate handle is invalid.</source>
+          <target state="translated">Certifikat-handtaget är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>Implements the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface and is called back by the deserialization event when deserialization is complete.</source>
+          <target state="translated">Implementerar den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gränssnitt och anropas av händelsen deserialisering när deserialisering är klar.</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>The source of the deserialization event.</source>
+          <target state="translated">Källan för händelsen deserialisering.</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>Gets serialization information with all the data needed to recreate an instance of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Hämtar serialiseringsinformation med alla data som behövs för att skapa en instans av aktuellt <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>The object to populate with serialization information.</source>
+          <target state="translated">Objekt att fylla i med serialiseringsinformation.</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>The destination context of the serialization.</source>
+          <target state="translated">Mål-kontexten för serialisering.</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>Returns a string representation of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Returnerar en strängrepresentation av aktuellt <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>A string representation of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En strängrepresentation av aktuellt <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>Returns a string representation of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, with extra information, if specified.</source>
+          <target state="translated">Returnerar en strängrepresentation av aktuellt <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt om anges med extra information.</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to produce the verbose form of the string representation; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>att skapa utförlig form av strängrepresentation; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>A string representation of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En strängrepresentation av aktuellt <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

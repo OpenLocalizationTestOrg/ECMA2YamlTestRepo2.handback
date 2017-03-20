@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ea7a1b4956f70959f1897582612fb1b99353a7d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.WebSockets.AspNetWebSocket.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">13ea02149d1def44f3e3638333a7d2558eb3cdd7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c93e8cb88fd2bb3fc18c3e7a289d1586e455e770</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a real-time full-duplex connection between a web server and a client in an ASP.NET application.</source>
+          <target state="translated">表示 web 服务器和 ASP.NET 应用程序中的客户端之间的实时全双工连接。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Cancels any pending I/O operations on the <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and sets the state of the object so that it cannot be used to start additional I/O operations.</source>
+          <target state="translated">取消任何挂起的 I/O 操作上<bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象并将设置对象的状态，以便它不能用于启动其他 I/O 操作。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>After the Abort method has been called, you can still access properties and methods that do not involve I/O operations.</source>
+          <target state="translated">已调用 Abort 方法后，你仍可以访问属性和不涉及 I/O 操作的方法。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The object was previously disposed.</source>
+          <target state="translated">以前释放此对象。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sends an asynchronous message to a client to close the connection.</source>
+          <target state="translated">将异步消息发送到客户端关闭连接。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If the server initiates the request to close the connection, the method waits for the client to acknowledge the request before it returns.</source>
+          <target state="translated">如果服务器启动了关闭连接的请求，该方法将等待客户端以返回之前确认请求。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can use the CloseAsync and &lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseOutputAsync%2A&gt; methods for both client-initiated and server-initiated requests to close an &lt;xref:System.Web.WebSockets.AspNetWebSocket&gt; connection.</source>
+          <target state="translated">你可以使用 CloseAsync 和&lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseOutputAsync%2A&gt;方法的客户端启动，又由服务器启动请求，以关闭&lt;xref:System.Web.WebSockets.AspNetWebSocket&gt;连接。&lt;/xref:System.Web.WebSockets.AspNetWebSocket&gt; &lt;/xref:System.Web.WebSockets.AspNetWebSocket.CloseOutputAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The two methods handle client-initiated requests in the same way: After the client sends a message to the server to close the connection, the server calls one of these methods and sends an acknowledgment to the client, and then the method returns.</source>
+          <target state="translated">这两种方法在相同的方式中处理客户端发起的请求︰ 后客户端将消息发送到服务器后，关闭连接，服务器调用这些方法之一，并将确认发送到客户端，并且该方法将返回。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For server-initiated requests, the two methods work differently.</source>
+          <target state="translated">对于由服务器启动请求，这两种方法以不同的方式工作。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The CloseAsync method sends a message to the client to close the connection, waits for a response, and then returns.</source>
+          <target state="translated">CloseAsync 方法可发送到客户端的消息，以关闭该连接，等待响应，，然后返回。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The server does not wait for any additional data sent by the client.</source>
+          <target state="translated">服务器不会等待客户端发送任何额外数据。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In contrast, the &lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseOutputAsync%2A&gt; method sends a message to the client to close the connection and returns without waiting for a response.</source>
+          <target state="translated">与此相反，&lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseOutputAsync%2A&gt;方法将消息发送到客户端关闭连接并返回而不等待响应。&lt;/xref:System.Web.WebSockets.AspNetWebSocket.CloseOutputAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>After the method returns, you can call the &lt;xref:System.Web.WebSockets.AspNetWebSocket.ReceiveAsync%2A&gt; method and handle either additional data or the acknowledgment that the client sends.</source>
+          <target state="translated">该方法返回后，你可以调用&lt;xref:System.Web.WebSockets.AspNetWebSocket.ReceiveAsync%2A&gt;方法并处理其他数据或客户端发送该确认。&lt;/xref:System.Web.WebSockets.AspNetWebSocket.ReceiveAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The status code of the close operation.</source>
+          <target state="translated">关闭操作的状态代码。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The status message of the close operation.</source>
+          <target state="translated">关闭操作的状态消息。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The object that cancels a pending operation.</source>
+          <target state="translated">取消一个挂起操作的对象。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A reference to the operation.</source>
+          <target state="translated">对操作的引用。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was previously disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>以前释放对象。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is in an aborted state.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象处于中止状态。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-or-       Sending operations are unavailable.</source>
+          <target state="translated">-或者-发送操作都不可用。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-or-       Receiving operations are unavailable.</source>
+          <target state="translated">-或-接收操作是不可用。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Sends an asynchronous message to a client to close the connection.</source>
+          <target state="translated">将异步消息发送到客户端关闭连接。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If the server initiates the request to close the connection, the method returns without waiting for a response.</source>
+          <target state="translated">如果服务器启动了关闭连接的请求，该方法将返回而不等待响应。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseAsync%2A&gt; and CloseOutputAsync methods for both client-initiated and server-initiated requests to close an &lt;xref:System.Web.WebSockets.AspNetWebSocket&gt; connection.</source>
+          <target state="translated">你可以使用&lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseAsync%2A&gt;和 CloseOutputAsync 方法的客户端启动，又由服务器启动请求，以关闭&lt;xref:System.Web.WebSockets.AspNetWebSocket&gt;连接。&lt;/xref:System.Web.WebSockets.AspNetWebSocket&gt; &lt;/xref:System.Web.WebSockets.AspNetWebSocket.CloseAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The two methods handle client-initiated requests in the same way: After the client sends a message to the server to close the connection, the server calls one of these methods and sends an acknowledgment to the client, and then the method returns.</source>
+          <target state="translated">这两种方法在相同的方式中处理客户端发起的请求︰ 后客户端将消息发送到服务器后，关闭连接，服务器调用这些方法之一，并将确认发送到客户端，并且该方法将返回。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For server-initiated requests, the two methods work differently.</source>
+          <target state="translated">对于由服务器启动请求，这两种方法以不同的方式工作。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseAsync%2A&gt; method sends a message to the client to close the connection, waits for a response, and then returns.</source>
+          <target state="translated">&lt;xref:System.Web.WebSockets.AspNetWebSocket.CloseAsync%2A&gt;方法将消息发送到客户端关闭连接，等待响应，然后返回。&lt;/xref:System.Web.WebSockets.AspNetWebSocket.CloseAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The server does not wait for any additional data sent by the client.</source>
+          <target state="translated">服务器不会等待客户端发送任何额外数据。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In contrast, the CloseOutputAsync method sends a message to the client to close the connection and returns without waiting for a response.</source>
+          <target state="translated">与此相反，CloseOutputAsync 方法将消息发送到客户端关闭连接，并返回而不等待响应。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>After the method returns, you can call the &lt;xref:System.Web.WebSockets.AspNetWebSocket.ReceiveAsync%2A&gt; method and handle either additional data or the acknowledgment that the client sends.</source>
+          <target state="translated">该方法返回后，你可以调用&lt;xref:System.Web.WebSockets.AspNetWebSocket.ReceiveAsync%2A&gt;方法并处理其他数据或客户端发送该确认。&lt;/xref:System.Web.WebSockets.AspNetWebSocket.ReceiveAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The status code of the close operation.</source>
+          <target state="translated">关闭操作的状态代码。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The status message of the close operation.</source>
+          <target state="translated">关闭操作的状态消息。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The object that cancels a pending operation.</source>
+          <target state="translated">取消一个挂起操作的对象。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A reference to the operation.</source>
+          <target state="translated">对操作的引用。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The object was previously disposed.</source>
+          <target state="translated">以前释放此对象。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is in an aborted state.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象处于中止状态。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-or-       Sending operations are unavailable.</source>
+          <target state="translated">-或者-发送操作都不可用。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets a status code that indicates why an <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was closed.</source>
+          <target state="translated">获取指示原因的状态代码<bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象已关闭。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The status code.</source>
+          <target state="translated">状态代码中。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The object was previously disposed.</source>
+          <target state="translated">以前释放此对象。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets a status message that explains why an <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was closed.</source>
+          <target state="translated">获取一条解释原因的状态消息<bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象已关闭。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The status message.</source>
+          <target state="translated">状态消息中。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The object was previously disposed.</source>
+          <target state="translated">以前释放此对象。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by an <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">释放使用的所有资源<bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>ASP.NET automatically calls the Dispose method on a &lt;xref:System.Web.WebSockets.AspNetWebSocket&gt; object to release any resources that remain after your code has finished executing.</source>
+          <target state="translated">ASP.NET 将自动调用 Dispose 方法上&lt;xref:System.Web.WebSockets.AspNetWebSocket&gt;对象释放保留在你的代码完成后执行的任何资源。&lt;/xref:System.Web.WebSockets.AspNetWebSocket&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Receives a single message fragment from a remote client.</source>
+          <target state="translated">从远程客户端接收单个消息片段。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The array that contains the message data.</source>
+          <target state="translated">包含消息数据的数组。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The object that cancels a pending operation.</source>
+          <target state="translated">取消一个挂起操作的对象。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A reference to the task of receiving a message.</source>
+          <target state="translated">对接收消息的任务的引用。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was previously disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>以前释放对象。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is in an aborted state.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象处于中止状态。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-or-       Receiving operations are unavailable.</source>
+          <target state="translated">-或-接收操作是不可用。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Sends a single message fragment to a remote client.</source>
+          <target state="translated">向远程客户端发送单个消息片段。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The array that contains the message data.</source>
+          <target state="translated">包含消息数据的数组。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The message type.</source>
+          <target state="translated">消息类型。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that a fragment is the end of a complete message; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要指示片段是完整的消息; 的末尾否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The object that cancels a pending operation.</source>
+          <target state="translated">取消一个挂起操作的对象。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A reference to the task of sending a message.</source>
+          <target state="translated">对发送消息的任务的引用。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>释放对象。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is in an aborted state.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象处于中止状态。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-or-       Sending operations are unavailable.</source>
+          <target state="translated">-或者-发送操作都不可用。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates the open or closed state of an <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">获取一个值，该值指示在打开或关闭状态<bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The current state.</source>
+          <target state="translated">当前的状态。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The object was previously disposed.</source>
+          <target state="translated">以前释放此对象。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets the name of an application-specific protocol that a remote client and a server can use to exchange data over an <bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> connection.</source>
+          <target state="translated">获取远程客户端和服务器可用于通过交换数据的应用程序特定协议的名称<bpt id="p1">&lt;xref href="System.Web.WebSockets.AspNetWebSocket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>连接。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The name of the protocol.</source>
+          <target state="translated">协议的名称。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The object was previously disposed.</source>
+          <target state="translated">以前释放此对象。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da43b1cd743b18a64a4ade7bbd474cea30fea2f5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.NestedContainer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae4bca2ec3882b1a24dc535f5110d990cf5484bb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">20e1ff09577a568da8fae95447e0c184e8ef9546</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the base implementation for the <bpt id="p1">&lt;xref href="System.ComponentModel.INestedContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface, which enables containers to have an owning component.</source>
+          <target state="translated">提供基底實作<bpt id="p1">&lt;xref href="System.ComponentModel.INestedContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>介面，可讓容器具有主控的元件。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The NestedContainer class is a simple implementation of the &lt;xref:System.ComponentModel.INestedContainer&gt; interface, which defines a component that logically contains zero or more other components and is owned by a parent component.</source>
+          <target state="translated">NestedContainer 類別是簡單的實作&lt;xref:System.ComponentModel.INestedContainer&gt;介面定義的元件，邏輯上包含零或多個其他元件，而且由父元件所擁有。&lt;/xref:System.ComponentModel.INestedContainer&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The behavior of nested containers differs from a standard &lt;xref:System.ComponentModel.Container&gt; in a number of ways, including the following:      -   Site characteristics such as &lt;xref:System.ComponentModel.Component.DesignMode%2A&gt; and &lt;xref:System.ComponentModel.Component.GetService%2A&gt; are routed through the owning component’s site.</source>
+          <target state="translated">巢狀容器的行為不同於標準&lt;xref:System.ComponentModel.Container&gt;數種方式，包括下列:-例如站台特性&lt;xref:System.ComponentModel.Component.DesignMode%2A&gt;和&lt;xref:System.ComponentModel.Component.GetService%2A&gt;透過主控元件的站台進行路由傳送。&lt;/xref:System.ComponentModel.Component.GetService%2A&gt; &lt;/xref:System.ComponentModel.Component.DesignMode%2A&gt; &lt;/xref:System.ComponentModel.Container&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>-   The site’s &lt;xref:System.ComponentModel.ISite.Name%2A&gt; property is a qualified name that includes the owning component’s name followed by a period (.) and the child component’s name.</source>
+          <target state="translated">-此站台&lt;xref:System.ComponentModel.ISite.Name%2A&gt;屬性是限定的名稱，其中包含後面接著句號 （.） 主控的元件名稱和子元件的名稱。&lt;/xref:System.ComponentModel.ISite.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.ComponentModel.NestedContainer.GetService%2A&gt; provides support for the &lt;xref:System.ComponentModel.INestedContainer&gt; as a service.</source>
+          <target state="translated">-&lt;xref:System.ComponentModel.NestedContainer.GetService%2A&gt;提供支援&lt;xref:System.ComponentModel.INestedContainer&gt;做為服務。&lt;/xref:System.ComponentModel.INestedContainer&gt; &lt;/xref:System.ComponentModel.NestedContainer.GetService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   When the owning component is disposed, the container is disposed as well.</source>
+          <target state="translated">-當處置主控的元件時，容器也會跟著處置。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In addition, designers treat nested containers differently.</source>
+          <target state="translated">此外，設計工具將視為巢狀的容器不同。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A designer host is only interested in one container—the one associated with the host.</source>
+          <target state="translated">設計工具主應用程式只想要一個容器中，與主機關聯的一個。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Therefore, component add and remove events are not raised when a component is added to or removed from a nested container.</source>
+          <target state="translated">因此，元件加入或移除事件時元件加入或移除巢狀容器中，不會引發。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>However, because services flow through to the nested container, component change events are raised when a component in a nested container is changed.</source>
+          <target state="translated">不過，巢狀容器流經服務，因為元件變更的事件會變更時引發的巢狀容器中的元件。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This disparity in event tracking also impacts undo functionality, which is closely tied to serialization.</source>
+          <target state="translated">這個事件追蹤的差異也會影響與序列化緊密相關的復原功能。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The standard undo engine uses &lt;xref:System.ComponentModel.Design.IReferenceService&gt; to track changes made to components.</source>
+          <target state="translated">使用標準的復原引擎&lt;xref:System.ComponentModel.Design.IReferenceService&gt;追蹤元件所做的變更。&lt;/xref:System.ComponentModel.Design.IReferenceService&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If the undo engine cannot identify a name for a component through the reference service, the engine will ignore any changes for that component.</source>
+          <target state="translated">如果復原引擎無法識別透過參考服務元件的名稱，引擎將會忽略該元件的任何變更。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This service automatically recognizes changes to contained components only if they are exposed as public read-only properties of the same name in their owners.</source>
+          <target state="translated">此服務會自動識別自主元件變更，只有當這些元素會公開為公用唯讀屬性，其擁有者中的相同名稱。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Otherwise, the developer must pass component change events up to the owner.</source>
+          <target state="translated">否則，開發人員必須傳遞至主控的元件變更事件。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, if a nested component’s <ph id="ph1">`Text`</ph> property is resurfaced on its owning component as an <ph id="ph2">`Address`</ph> property, when the <ph id="ph3">`Text`</ph> property is changed, a property change must be programmatically made for the corresponding <ph id="ph4">`Address`</ph> property or else that change will not be tracked by undo.</source>
+          <target state="translated">比方說，如果巢狀元件的<ph id="ph1">`Text`</ph>屬性做為其主控的元件上 resurfaced<ph id="ph2">`Address`</ph>屬性，當<ph id="ph3">`Text`</ph>屬性變更時，屬性必須以程式設計方式變更對應<ph id="ph4">`Address`</ph>屬性，否則不會復原由追蹤變更。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.NestedContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.ComponentModel.NestedContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This constructor enlists in its owner's &lt;xref:System.ComponentModel.IComponent.Disposed&gt; event so that the nested container's &lt;xref:System.ComponentModel.NestedContainer.Dispose%2A&gt; method will automatically be called.</source>
+          <target state="translated">這個建構函式會登記在其擁有者&lt;xref:System.ComponentModel.IComponent.Disposed&gt;事件，讓巢狀的容器&lt;xref:System.ComponentModel.NestedContainer.Dispose%2A&gt;自動呼叫方法。&lt;/xref:System.ComponentModel.NestedContainer.Dispose%2A&gt; &lt;/xref:System.ComponentModel.IComponent.Disposed&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that owns this nested container.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>擁有此巢狀的容器。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;owner&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;owner&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates a site for the component within the container.</source>
+          <target state="translated">建立站台容器內的元件。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`name`</ph> parameter is <ph id="ph2">`null`</ph>, the &lt;xref:System.ComponentModel.IComponent&gt; is added to the nested container without an identifying name.</source>
+          <target state="translated">如果<ph id="ph1">`name`</ph>參數是<ph id="ph2">`null`</ph>、&lt;xref:System.ComponentModel.IComponent&gt;加入至巢狀容器沒有識別的名稱。&lt;/xref:System.ComponentModel.IComponent&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a site for.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>建立的站台。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The name to assign to <ph id="ph1">`component`</ph>, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to skip the name assignment.</source>
+          <target state="translated">要指派給名稱<ph id="ph1">`component`</ph>，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>略過名稱指派。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The newly created <bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新建立<bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;component&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;component&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by the nested container.</source>
+          <target state="translated">釋放由巢狀容器使用的資源。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">這個方法會呼叫公用<ph id="ph1">`Dispose()`</ph>方法和&lt;xref:System.Object.Finalize%2A&gt;方法。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>叫用受保護<ph id="ph2">`Dispose(Boolean)`</ph>方法<ph id="ph3">`disposing`</ph>參數設定為<ph id="ph4">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;叫用<ph id="ph1">`Dispose`</ph>與<ph id="ph2">`disposing`</ph>設<ph id="ph3">`false`</ph>。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.NestedContainer&gt; references.</source>
+          <target state="translated">當<ph id="ph1">`disposing`</ph>參數為 true，這個方法的任何 managed 物件所持有的資源全部釋出這個&lt;xref:System.ComponentModel.NestedContainer&gt;參考。&lt;/xref:System.ComponentModel.NestedContainer&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">這個方法會叫用<ph id="ph1">`Dispose()`</ph>每個參考物件的方法。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示釋放 managed 和 unmanaged 資源，<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示只釋放 unmanaged 的資源。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the service object of the specified type, if it is available.</source>
+          <target state="translated">如果有的話，則取得指定型別的服務物件。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This method overrides the &lt;xref:System.ComponentModel.Container.GetService%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">這個方法會覆寫&lt;xref:System.ComponentModel.Container.GetService%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.ComponentModel.Container.GetService%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This implementation only resolves requests for the &lt;xref:System.ComponentModel.INestedContainer&gt; and &lt;xref:System.ComponentModel.IContainer&gt; services.</source>
+          <target state="translated">這個實作只會解析的要求&lt;xref:System.ComponentModel.INestedContainer&gt;和&lt;xref:System.ComponentModel.IContainer&gt;服務。&lt;/xref:System.ComponentModel.IContainer&gt; &lt;/xref:System.ComponentModel.INestedContainer&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the service to retrieve.</source>
+          <target state="translated">&lt;xref:System.Type&gt;要擷取的服務。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that implements the requested service, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service cannot be resolved.</source>
+          <target state="translated">&lt;xref:System.Object&gt;實作所要求的服務，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果無法解析服務。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the owning component for this nested container.</source>
+          <target state="translated">取得此巢狀容器主控的元件。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The owning component is the characteristic that differentiates nested containers from ordinary containers.</source>
+          <target state="translated">主控的元件是區別與一般容器的巢狀的容器的特性。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that owns this nested container.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>擁有此巢狀的容器。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets the name of the owning component.</source>
+          <target state="translated">取得主控元件的名稱。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This property may be overridden to provide a custom owner name.</source>
+          <target state="translated">可能會覆寫此屬性，來提供自訂的擁有者名稱。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The default implementation searches the owner's site for &lt;xref:System.ComponentModel.INestedSite&gt; and calls &lt;xref:System.ComponentModel.INestedSite.FullName%2A&gt;, or &lt;xref:System.ComponentModel.ISite.Name%2A&gt; if there is no nested site.</source>
+          <target state="translated">預設實作會搜尋的擁有者的站台&lt;xref:System.ComponentModel.INestedSite&gt;和呼叫&lt;xref:System.ComponentModel.INestedSite.FullName%2A&gt;，或&lt;xref:System.ComponentModel.ISite.Name%2A&gt;如果沒有巢狀的站台。&lt;/xref:System.ComponentModel.ISite.Name%2A&gt; &lt;/xref:System.ComponentModel.INestedSite.FullName%2A&gt; &lt;/xref:System.ComponentModel.INestedSite&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If neither is available, this property returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">如果兩者都不是可用，則這個屬性會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The name of the owning component.</source>
+          <target state="translated">主控元件的名稱。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

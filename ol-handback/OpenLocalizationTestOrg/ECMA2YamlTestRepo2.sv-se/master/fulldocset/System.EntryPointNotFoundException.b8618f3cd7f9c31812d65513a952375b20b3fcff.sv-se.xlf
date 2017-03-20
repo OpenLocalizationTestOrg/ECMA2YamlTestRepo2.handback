@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0534d815a44e5eef8224016b2183acc6d8f0ff24</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.EntryPointNotFoundException.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">65687a1c5d0c79b71db55b3d30dfa6877c3d104d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4fc7bed916b1d36594f8ce77813370676a4c46f8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The exception that is thrown when an attempt to load a class fails due to the absence of an entry method.</source>
+          <target state="translated">Undantag som utlöses när ett försök att läsa in en klass misslyckas på grund av frånvaron av ett entry-metoden.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An EntryPointNotFoundException exception is thrown when the common language runtime is unable to load an assembly because it cannot identify the assembly's entry point.</source>
+          <target state="translated">Ett EntryPointNotFoundException undantag när CLR kan inte läsa in en sammansättning eftersom den inte kan identifiera sammansättningens startpunkt.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This exception can be thrown under the following conditions:      -   The common language runtime is unable to locate an application entry point (typically a <ph id="ph1">`Main`</ph> method) in an executable assembly.</source>
+          <target state="translated">Det här undantaget kan misslyckas på grund av följande villkor:-common language runtime går inte att hitta en startpunkt för programmet (vanligtvis en <ph id="ph1">`Main`</ph> metod) i en körbar sammansättning.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application entry point must be a global or <ph id="ph1">`static`</ph> method that has either no parameters or a string array as its only parameter.</source>
+          <target state="translated">Startpunkt för programmet måste vara en global eller <ph id="ph1">`static`</ph> metod som har inga parametrar eller en strängmatris som den enda parametern.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The entry point can return <ph id="ph1">`void`</ph>, or it can return an &lt;xref:System.Int32&gt; or &lt;xref:System.UInt32&gt; exit code.</source>
+          <target state="translated">Startpunkten kan returnera <ph id="ph1">`void`</ph>, eller det kan returnera ett &lt;xref:System.Int32&gt;eller &lt;xref:System.UInt32&gt;slutkod.&lt;/xref:System.UInt32&gt; &lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application assembly cannot define more than one entry point.</source>
+          <target state="translated">En sammansättning som programmet kan inte definiera mer än en startpunkt.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The call to a function in a Windows DLL cannot be resolved because the function cannot be found.</source>
+          <target state="translated">-Anrop till en funktion i en Windows-dll-filen kan inte matchas eftersom funktionen inte kan hittas.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the following example, an EntryPointNotFoundException exception is thrown because User32.dll does not include a function named <ph id="ph1">`GetMyNumber`</ph>.</source>
+          <target state="translated">I följande exempel visas ett EntryPointNotFoundException undantag eftersom User32.dll inte innehåller en funktion som heter <ph id="ph1">`GetMyNumber`</ph>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#1<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_1.cs)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#1<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_1.vb)</ept><ept id="p3">]</ept>      -   The call to a function in a Windows DLL cannot be resolved because the name used in the method call does not match a name found in the assembly.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#1<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_1.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#1<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_1.vb)</ept> <ept id="p3">]</ept> -anrop till en funktion i en Windows-dll-filen kan inte lösas eftersom det namn som används i metodanropet inte överensstämmer med ett namn som hittades i sammansättningen.      </target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Frequently, this occurs because the &lt;xref:System.Runtime.InteropServices.DllImportAttribute.ExactSpelling?displayProperty=fullName&gt; field is either implicitly or explicitly set to <ph id="ph1">`true`</ph>, the called method includes one or more string parameters and has both an ANSI and a Unicode version, and the name used in the method call does not correspond to the name of this ANSI or Unicode version.</source>
+          <target state="translated">Ofta kan det beror på &lt;xref:System.Runtime.InteropServices.DllImportAttribute.ExactSpelling?displayProperty=fullName&gt;implicit eller explicit anges till <ph id="ph1">`true`</ph>anropade metoden innehåller en eller flera strängparametrar och har både en ANSI och en Unicode-version och det namn som används i metodanropet överensstämmer inte med namnet på den här versionen av ANSI- eller Unicode.&lt;/xref:System.Runtime.InteropServices.DllImportAttribute.ExactSpelling?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following example provides an illustration by attempting to call the Windows <ph id="ph1">`MessageBox`</ph> function in User32.dll.</source>
+          <target state="translated">I följande exempel innehåller en bild av försöker anropa Windows <ph id="ph1">`MessageBox`</ph> funktion i User32.dll.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the first method definition specifies &lt;xref:System.Runtime.InteropServices.CharSet?displayProperty=fullName&gt; for string marshaling, the common language looks for the wide-character version of the function, <ph id="ph1">`MessageBoxW`</ph>, instead of the name used in the method call, <ph id="ph2">`MessageBox`</ph>.</source>
+          <target state="translated">Eftersom den första metoddefinitionen anger &lt;xref:System.Runtime.InteropServices.CharSet?displayProperty=fullName&gt;för att konvertera strängen, språket som söker efter wide tecken-versionen av funktionen, <ph id="ph1">`MessageBoxW`</ph>, i stället för det namn som används i metodanropet, <ph id="ph2">`MessageBox`</ph>.&lt;/xref:System.Runtime.InteropServices.CharSet?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The second method definition corrects this problem by calling the <ph id="ph1">`MessageBoxW`</ph> instead of the <ph id="ph2">`MessageBox`</ph> function.</source>
+          <target state="translated">Metoddefinitionen för andra åtgärdar problemet genom att anropa den <ph id="ph1">`MessageBoxW`</ph> i stället för den <ph id="ph2">`MessageBox`</ph> funktion.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#2<ept id="p2">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_2.vb)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#2<ept id="p4">](~/add/codesnippet/csharp/t-system.entrypointnotfo_2.cs)</ept><ept id="p3">]</ept>      -   You are trying to call a function in a dynamic link library by its simple name rather than its decorated name.</source>
+          <target state="translated"><bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#2<ept id="p2">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_2.vb)</ept><ept id="p1">]</ept><bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#2<ept id="p4">](~/add/codesnippet/csharp/t-system.entrypointnotfo_2.cs)</ept> <ept id="p3">]</ept> -du försöker anropa en funktion i en DLL-filen med enkla namnet i stället för dess Dekorerade namn.      </target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, the C++ compiler generates a decorated name for DLL functions.</source>
+          <target state="translated">Normalt genererar C++-kompilatorn ett Dekorerade namn för DLL-funktioner.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following C++ code defines a function named <ph id="ph1">`Double`</ph> in a library named TestDll.dll.</source>
+          <target state="translated">Till exempel följande C++ kod definierar en funktion som heter <ph id="ph1">`Double`</ph> i ett bibliotek med namnet TestDll.dll.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-cpp</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#6<ept id="p2">](~/add/codesnippet/cpp/testdll/testdll.cpp#6)</ept><ept id="p1">]</ept>           When the code in the following example tries to call the function, an EntryPointNotFoundException exception is thrown because the <ph id="ph1">`Double`</ph> function cannot be found.</source>
+          <target state="translated"><bpt id="p1">[!code-cpp</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#6<ept id="p2">](~/add/codesnippet/cpp/testdll/testdll.cpp#6)</ept> <ept id="p1">]</ept> när koden i följande exempel försöker anropa sedan funktionen ett EntryPointNotFoundException undantag eftersom den <ph id="ph1">`Double`</ph> funktionen kan inte hittas.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#7<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_4.cs)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#7<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_4.vb)</ept><ept id="p3">]</ept>           However, if the function is called by using its decorated name (in this case, <ph id="ph1">`?Double@@YAHH@Z`</ph>), the function call succeeds, as the following example shows.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#7<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_4.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#7<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_4.vb)</ept> <ept id="p3">]</ept> dock om funktionen anropas med hjälp av sitt Dekorerade namn (i det här fallet <ph id="ph1">`?Double@@YAHH@Z`</ph>), funktionsanropet lyckas, som visas i följande exempel.      </target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#8<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_5.cs)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#8<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_5.vb)</ept><ept id="p3">]</ept>           You can find the decorated names of functions exported by a DLL by using a utility such as Dumpbin.exe.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#8<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_5.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#8<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_5.vb)</ept> <ept id="p3">]</ept> du dekorerade namnen på de funktioner som exporteras av en DLL-filen genom att använda ett verktyg som till exempel Dumpbin.exe.      </target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   You are attempting to call a method in a managed assembly as if it were an unmanaged dynamic link library.</source>
+          <target state="translated">-Du försöker anropa en metod i en hanterad sammansättning som om det vore en ohanterad DLL-filen.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To see this in action, compile the following example to an assembly named StringUtilities.dll.</source>
+          <target state="translated">Kompilera följande exempel för en sammansättning med namnet StringUtilities.dll visas det i praktiken.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#3<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_6.cs)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#3<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_6.vb)</ept><ept id="p3">]</ept>           Then compile and execute the following example, which attempts to call the <ph id="ph1">`StringUtilities.SayGoodMorning`</ph> method in the StringUtilities.dll dynamic link library as if it were unmanaged code.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#3<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_6.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#3<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_6.vb)</ept> <ept id="p3">]</ept> sedan kompilera och köra följande exempel, som försöker anropa den <ph id="ph1">`StringUtilities.SayGoodMorning`</ph> metod i StringUtilities.dll DLL-filen som om det vore ohanterad kod.      </target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result is an EntryPointNotFoundException exception.</source>
+          <target state="translated">Resultatet är ett EntryPointNotFoundException undantag.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#4<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_7.cs)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#4<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_7.vb)</ept><ept id="p3">]</ept>           To eliminate the exception, add a reference to the managed assembly and access the <ph id="ph1">`StringUtilities.SayGoodMorning`</ph> method just as you would access any other method in managed code, as the following example does.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#4<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_7.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#4<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_7.vb)</ept> <ept id="p3">]</ept> lägga till en referens till hanterade sammansättning och åtkomst för att ta bort undantaget den <ph id="ph1">`StringUtilities.SayGoodMorning`</ph> metoden samma sätt som du skulle använda någon annan metod i förvaltad kod som i följande exempel.      </target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#5<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_8.cs)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#5<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_8.vb)</ept><ept id="p3">]</ept>      -   You are trying to call a method in a COM DLL as if it were a Windows DLL.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#5<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_8.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#5<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_8.vb)</ept> <ept id="p3">]</ept> -försök att anropa en metod i en COM-DLL som om det vore en Windows-DLL.      </target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To access a COM DLL, select the <bpt id="p1">**</bpt>Add Reference<ept id="p1">**</ept> option in Visual Studio to add a reference to the project, and then select the type library from the <bpt id="p2">**</bpt>COM<ept id="p2">**</ept> tab.</source>
+          <target state="translated">För att komma åt en COM-DLL-fil, Välj den <bpt id="p1">**</bpt>Lägg till referens<ept id="p1">**</ept> alternativ i Visual Studio för att lägga till en referens i projektet och välj sedan typbiblioteket från den <bpt id="p2">**</bpt>COM<ept id="p2">**</ept> fliken.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a list of initial property values for an instance of EntryPointNotFoundException, see the &lt;xref:System.EntryPointNotFoundException.%23ctor%2A&gt; constructors.</source>
+          <target state="translated">En lista över inledande egenskapsvärden för en instans av EntryPointNotFoundException, finns det &lt;xref:System.EntryPointNotFoundException.%23ctor%2A&gt;konstruktorer.&lt;/xref:System.EntryPointNotFoundException.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes the &lt;xref:System.Exception.Message%2A&gt; property of the new instance to a system-supplied message that describes the error, such as "Entry point was not found."</source>
+          <target state="translated">Standardkonstruktören &lt;xref:System.Exception.Message%2A&gt;-egenskapen för den nya instansen till en tillhandahålls av systemet meddelande som beskriver fel, till exempel "Post platsen inte hittades."&lt;/xref:System.Exception.Message%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This message takes into account the current system culture.</source>
+          <target state="translated">Det här meddelandet tar hänsyn till den aktuella systemkulturen.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the initial property values for an instance of &lt;xref:System.EntryPointNotFoundException&gt;.</source>
+          <target state="translated">I följande tabell visas de inledande egenskapsvärdena för en instans av &lt;xref:System.EntryPointNotFoundException&gt;.&lt;/xref:System.EntryPointNotFoundException&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.Exception.InnerException%2A&gt;|A null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic).|   |&lt;xref:System.TypeLoadException.Message%2A&gt;|The localized error message string.|</source>
+          <target state="translated">| Egenskapen | Värdet |   |--------------|-----------|   | &lt;xref:System.Exception.InnerException%2A&gt;| En null-referens (<ph id="ph1">`Nothing`</ph> i Visual Basic). |   | &lt;xref:System.TypeLoadException.Message%2A&gt;| Den lokaliserade felsträngen meddelande. |&lt;/xref:System.TypeLoadException.Message%2A&gt; &lt;/xref:System.Exception.InnerException%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a specified error message.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass med ett angivet meddelande.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The content of <ph id="ph1">`message`</ph> is intended to be understood by humans.</source>
+          <target state="translated">Innehållet i <ph id="ph1">`message`</ph> är avsedd att tolkas av människor.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The caller of this constructor is required to ensure that this string has been localized for the current system culture.</source>
+          <target state="translated">Anroparen av den här konstruktorn är behövs för att säkerställa att den här strängen lokaliserade för den aktuella systemkulturen.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the initial property values for an instance of &lt;xref:System.EntryPointNotFoundException&gt;.</source>
+          <target state="translated">I följande tabell visas de inledande egenskapsvärdena för en instans av &lt;xref:System.EntryPointNotFoundException&gt;.&lt;/xref:System.EntryPointNotFoundException&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.Exception.InnerException%2A&gt;|A null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic).|   |&lt;xref:System.TypeLoadException.Message%2A&gt;|The error message string.|</source>
+          <target state="translated">| Egenskapen | Värdet |   |--------------|-----------|   | &lt;xref:System.Exception.InnerException%2A&gt;| En null-referens (<ph id="ph1">`Nothing`</ph> i Visual Basic). |   | &lt;xref:System.TypeLoadException.Message%2A&gt;| Meddelandet felsträng. |&lt;/xref:System.TypeLoadException.Message%2A&gt; &lt;/xref:System.Exception.InnerException%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The error message that explains the reason for the exception.</source>
+          <target state="translated">Felmeddelandet som förklarar orsaken till undantaget.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with serialized data.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass med serialiserade data.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is called during deserialization to reconstitute the exception object transmitted over a stream.</source>
+          <target state="translated">Den här konstruktorn anropas under deserialisering till att fylla Undantagsobjektet som överförs via en dataström.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The object that holds the serialized object data.</source>
+          <target state="translated">Det objekt som innehåller objektdata som serialiserade.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The contextual information about the source or destination.</source>
+          <target state="translated">Detaljerad information om käll- och målservrar.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a specified error message and a reference to the inner exception that is the cause of this exception.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass med ett angivet meddelande och en referens till det interna undantaget som är orsaken till det här undantaget.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception that is thrown as a direct result of a previous exception should include a reference to the previous exception in the &lt;xref:System.Exception.InnerException%2A&gt; property.</source>
+          <target state="translated">Ett undantag som utlöses när ett direkt resultat av ett tidigare undantag ska innehålla en referens till det tidigare undantaget i den &lt;xref:System.Exception.InnerException%2A&gt;egenskapen.&lt;/xref:System.Exception.InnerException%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Exception.InnerException%2A&gt; property returns the same value that is passed into the constructor, or a null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic) if the &lt;xref:System.Exception.InnerException%2A&gt; property does not supply the inner exception value to the constructor.</source>
+          <target state="translated">Den &lt;xref:System.Exception.InnerException%2A&gt;-egenskap returnerar samma värde som överförs till konstruktorn eller en null-referens (<ph id="ph1">`Nothing`</ph> i Visual Basic) om den &lt;xref:System.Exception.InnerException%2A&gt;egenskapen tillhandahåller inte värdet i det interna undantaget för konstruktorn.&lt;/xref:System.Exception.InnerException%2A&gt; &lt;/xref:System.Exception.InnerException%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the initial property values for an instance of &lt;xref:System.EntryPointNotFoundException&gt;.</source>
+          <target state="translated">I följande tabell visas de inledande egenskapsvärdena för en instans av &lt;xref:System.EntryPointNotFoundException&gt;.&lt;/xref:System.EntryPointNotFoundException&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.Exception.InnerException%2A&gt;|The inner exception reference.|   |&lt;xref:System.TypeLoadException.Message%2A&gt;|The error message string.|</source>
+          <target state="translated">| Egenskapen | Värdet |   |--------------|-----------|   | &lt;xref:System.Exception.InnerException%2A&gt;| Referens för inre undantag. |   | &lt;xref:System.TypeLoadException.Message%2A&gt;| Meddelandet felsträng. |&lt;/xref:System.TypeLoadException.Message%2A&gt; &lt;/xref:System.Exception.InnerException%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The error message that explains the reason for the exception.</source>
+          <target state="translated">Felmeddelandet som förklarar orsaken till undantaget.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The exception that is the cause of the current exception.</source>
+          <target state="translated">Undantag som är orsaken till det aktuella undantaget.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`inner`</ph> parameter is not a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic), the current exception is raised in a <bpt id="p2">&lt;xref uid="langword_csharp_catch" name="catch" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> block that handles the inner exception.</source>
+          <target state="translated">Om den <ph id="ph1">`inner`</ph> parametern är inte en null-referens (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i Visual Basic), det aktuella undantaget utlöses i en <bpt id="p2">&lt;xref uid="langword_csharp_catch" name="catch" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> block som hanterar det interna undantaget.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

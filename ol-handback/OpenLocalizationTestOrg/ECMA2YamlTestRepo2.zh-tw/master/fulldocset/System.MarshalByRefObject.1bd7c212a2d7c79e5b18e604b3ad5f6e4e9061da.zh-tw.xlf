@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">579f9c16abb22a2b2476ae0ea2cfa6be42e8b022</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.MarshalByRefObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c9cf13a4e181672ae69c12e8c1f5e0793dd207ab</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb057e9c33ce8cf40a25274cfb0511bb390cae10</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables access to objects across application domain boundaries in applications that support remoting.</source>
+          <target state="translated">啟用物件存取跨應用程式中的應用程式定義域界限支援遠端執行功能。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>An application domain is a partition in an operating system process where one or more applications reside.</source>
+          <target state="translated">應用程式網域是一個或多個應用程式所在的作業系統處理程序中的分割區。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Objects in the same application domain communicate directly.</source>
+          <target state="translated">相同的應用程式定義域中的物件直接通訊。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Objects in different application domains communicate either by transporting copies of objects across application domain boundaries, or by using a proxy to exchange messages.</source>
+          <target state="translated">不同的應用程式定義域中物件通訊跨應用程式網域界限，傳輸物件的複本，或使用 proxy 來交換訊息。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>MarshalByRefObject is the base class for objects that communicate across application domain boundaries by exchanging messages using a proxy.</source>
+          <target state="translated">MarshalByRefObject 是跨應用程式定義域界限通訊交換訊息使用的 proxy 物件的基底類別。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Objects that do not inherit from MarshalByRefObject are implicitly marshal by value.</source>
+          <target state="translated">不會繼承自 MarshalByRefObject 的物件會以隱含方式封送處理的值。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When a remote application references a marshal by value object, a copy of the object is passed across application domain boundaries.</source>
+          <target state="translated">當遠端應用程式參考封送處理的值物件時，應用程式定義域界限之間傳遞物件的複本。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>MarshalByRefObject objects are accessed directly within the boundaries of the local application domain.</source>
+          <target state="translated">直接在本機應用程式定義域界限內存取 MarshalByRefObject 的物件。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The first time an application in a remote application domain accesses a MarshalByRefObject, a proxy is passed to the remote application.</source>
+          <target state="translated">第一次遠端應用程式定義域中的應用程式存取 MarshalByRefObject，proxy 會傳遞至遠端應用程式。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Subsequent calls on the proxy are marshaled back to the object residing in the local application domain.</source>
+          <target state="translated">在 proxy 上的後續呼叫會封送處理回位於本機應用程式定義域中的物件。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Types must inherit from MarshalByRefObject when the type is used across application domain boundaries, and the state of the object must not be copied because the members of the object are not usable outside the application domain where they were created.</source>
+          <target state="translated">型別來跨應用程式網域界限，且必須複製物件的狀態，因為物件的成員不是當初建立它們的應用程式網域外使用時，類型必須繼承自 MarshalByRefObject。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When you derive an object from MarshalByRefObject for use across application domain boundaries, you should not override any of its members, nor should you call its methods directly.</source>
+          <target state="translated">物件所衍生自 MarshalByRefObject 用於跨應用程式網域界限，您不應覆寫它的任何成員，也不應該在直接呼叫其方法。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The runtime recognizes that classes derived from  MarshalByRefObject should be marshaled across app domain boundaries.</source>
+          <target state="translated">執行階段會辨識，衍生自 MarshalByRefObject 類別應該封送處理跨應用程式定義域界限。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Creates an object that contains all the relevant information required to generate a proxy used to communicate with a remote object.</source>
+          <target state="translated">建立物件，包含要產生 proxy 用來與遠端物件通訊所需的所有相關資訊。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>TheCreateObjRef method is called by remote object creation methods such as &lt;xref:System.AppDomain.CreateInstance%2A?displayProperty=fullName&gt; and &lt;xref:System.AppDomain.CreateInstanceAndUnwrap%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">例如&lt;xref:System.AppDomain.CreateInstance%2A?displayProperty=fullName&gt;和&lt;xref:System.AppDomain.CreateInstanceAndUnwrap%2A?displayProperty=fullName&gt;.&lt;/xref:System.AppDomain.CreateInstanceAndUnwrap%2A?displayProperty=fullName&gt;&lt;/xref:System.AppDomain.CreateInstance%2A?displayProperty=fullName&gt;遠端物件建立方法會呼叫 TheCreateObjRef 方法</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In most cases, there is no need to override this method.</source>
+          <target state="translated">在大部分情況下，沒有需要覆寫這個方法。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object that the new <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> will reference.</source>
+          <target state="translated">&lt;xref:System.Type&gt;之物件的新<bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>會參考。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Information required to generate a proxy.</source>
+          <target state="translated">若要產生 proxy 所需的資訊。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This instance is not a valid remoting object.</source>
+          <target state="translated">這個執行個體不是有效的遠端物件。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">立即呼叫者沒有基礎結構的權限。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Retrieves the current lifetime service object that controls the lifetime policy for this instance.</source>
+          <target state="translated">擷取目前存留期間的服務物件可控制這個執行個體的存留期原則。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information about lifetime services, see the &lt;xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt; class.</source>
+          <target state="translated">如需存留時間服務的詳細資訊，請參閱&lt;xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt;類別。&lt;/xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An object of type <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.ILease"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to control the lifetime policy for this instance.</source>
+          <target state="translated">型別的物件<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.ILease"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>用來控制此執行個體的存留期原則。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">立即呼叫者沒有基礎結構的權限。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Obtains a lifetime service object to control the lifetime policy for this instance.</source>
+          <target state="translated">取得控制這個執行個體的存留期原則的存留期服務物件。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information about lifetime services, see the &lt;xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt; class.</source>
+          <target state="translated">如需存留時間服務的詳細資訊，請參閱&lt;xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt;類別。&lt;/xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An object of type <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.ILease"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to control the lifetime policy for this instance.</source>
+          <target state="translated">型別的物件<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.ILease"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>用來控制此執行個體的存留期原則。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This is the current lifetime service object for this instance if one exists; otherwise, a new lifetime service object initialized to the value of the <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.Remoting.Lifetime.LifetimeServices.LeaseManagerPollTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property.</source>
+          <target state="translated">這是目前存在的話，這個執行個體的服務物件的存留期否則，新的存留期間的服務物件初始化為值的<ph id="ph1">&amp;lt;</ph>xref:System.Runtime.Remoting.Lifetime.LifetimeServices.LeaseManagerPollTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>屬性。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">立即呼叫者沒有基礎結構的權限。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Creates a shallow copy of the current <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">建立目前的淺層複本<bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The MemberwiseClone method creates a shallow copy by creating a new &lt;xref:System.MarshalByRefObject&gt; object, and then copying the nonstatic fields of the current &lt;xref:System.MarshalByRefObject&gt; object to the new object.</source>
+          <target state="translated">MemberwiseClone 方法來建立新建立的淺層複本&lt;xref:System.MarshalByRefObject&gt;物件，然後再複製目前的非靜態欄位&lt;xref:System.MarshalByRefObject&gt;物件至新的物件。&lt;/xref:System.MarshalByRefObject&gt; &lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If a field is a value type, a bit-by-bit copy of the field is performed.</source>
+          <target state="translated">如果欄位是實值類型，則會執行位元欄位的複本。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If a field is a reference type, the reference is copied but the referred object is not; therefore, the original object and its clone refer to the same object.</source>
+          <target state="translated">如果欄位是參考類型，則會複製參考，但參考的物件不;因此，原始的物件和其複製參考相同的物件。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, consider a &lt;xref:System.MarshalByRefObject&gt; object called X that references objects A and B. Object B, in turn, references object C. A shallow copy of X creates new object X2 that also references objects A and B. In contrast, a deep copy of X creates a new object X2 that references the new objects A2 and B2, which are copies of A and B. B2, in turn, references the new object C2, which is a copy C. Use a class that implements the &lt;xref:System.ICloneable&gt; interface to perform a deep or shallow copy of an object.</source>
+          <target state="translated">例如，請考慮呼叫，參考物件 A 和 B 的 X&lt;xref:System.MarshalByRefObject&gt;物件的參考物件 c。X 的淺層複本建立新的物件 X2 參考物件 A 和 b。相反地，X 的深層複本建立新物件 X2 A2 與 B2 a 的新物件和 B.B2 參考複本 C.使用實作類別的新物件 C2、&lt;xref:System.ICloneable&gt;介面來執行物件的淺層複本。&lt;/xref:System.ICloneable&gt; &lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The identity of a &lt;xref:System.MarshalByRefObject&gt; object is defined as the remote server object that is the target of a remoting client call.</source>
+          <target state="translated">識別&lt;xref:System.MarshalByRefObject&gt;物件會定義為目標的遠端用戶端呼叫的遠端伺服器物件。&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>By default, the memberwise clone of a &lt;xref:System.MarshalByRefObject&gt; object has the same identity as the original object, which is typically not the correct behavior for clones of server-side objects that are marshaled across a remoting boundary to the client side.</source>
+          <target state="translated">根據預設，成員的複製品的&lt;xref:System.MarshalByRefObject&gt;物件具有相同的識別碼，作為原始物件時，這通常不會對用戶端的遠端界限之間封送處理的伺服器端物件的複製正確的行為。&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specify <ph id="ph1">`false`</ph>, which is usually appropriate, to delete the identity of the clone and cause a new identity to be assigned when the clone is marshaled across a remoting boundary, or <ph id="ph2">`true`</ph> to cause the clone to retain the identity of the original &lt;xref:System.MarshalByRefObject&gt; object.</source>
+          <target state="translated">指定<ph id="ph1">`false`</ph>，通常是適當的管理，刪除複製的身分識別，而造成複製跨遠端界限，封送處理時，指派新識別或<ph id="ph2">`true`</ph>造成保留原始識別複製&lt;xref:System.MarshalByRefObject&gt;物件。&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The MemberwiseClone method is intended to be used by developers implementing remote server objects.</source>
+          <target state="translated">MemberwiseClone 方法僅供開發人員實作遠端伺服器物件。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to delete the current <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object's identity, which will cause the object to be assigned a new identity when it is marshaled across a remoting boundary.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要刪除目前<bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>物件的身分識別，這會導致它會封送處理跨遠端界限時，指派新識別的物件。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A value of <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is usually appropriate.</source>
+          <target state="translated">值為<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>通常就已足夠。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to copy the current <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object's identity to its clone, which will cause remoting client calls to be routed to the remote server object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要複製目前<bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>物件的識別，其複本，這會導致遠端處理用戶端呼叫路由傳送至遠端伺服器物件。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A shallow copy of the current <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">目前的淺層複本<bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

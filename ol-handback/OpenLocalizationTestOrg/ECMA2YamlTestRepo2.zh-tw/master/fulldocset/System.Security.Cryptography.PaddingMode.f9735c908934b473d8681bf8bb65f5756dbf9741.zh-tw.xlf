@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">61919c1a7f3324e3d096fbd1655cf65c7824bc99</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.PaddingMode.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">49ad583643a1cd4c5028a4ab42197af70678c160</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a8e782bc0f3b35478ca10444968da24012cf9813</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the type of padding to apply when the message data block is shorter than the full number of bytes needed for a cryptographic operation.</source>
+          <target state="translated">指定要套用訊息資料區塊少於密碼編譯作業所需的位元組之全部數目時之填補的類型。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Most plain text messages do not consist of a number of bytes that completely fill blocks.</source>
+          <target state="translated">大部分的純文字訊息並非由一個完全填滿區塊的位元組數。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Often, there are not enough bytes to fill the last block.</source>
+          <target state="translated">通常，沒有足夠的位元組來填入最後一個區塊。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When this happens, a padding string is added to the text.</source>
+          <target state="translated">當發生這種情況時，填補字串加入至文字。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, if the block length is 64 bits and the last block contains only 40 bits, 24 bits of padding are added.</source>
+          <target state="translated">例如，如果區塊長度為 64 位元，而最後一個區塊包含只有 40 位元，就會加入 24 位元的填補。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Some encryption standards specify a particular padding scheme.</source>
+          <target state="translated">某些加密標準指定特定的填補配置。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following example shows how these modes work.</source>
+          <target state="translated">下列範例會示範這些模式的運作方式。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Given a blocklength of 8, a data length of 9, the number of padding octets equal to 7, and the data equal to FF FF FF FF FF FF FF FF FF:       Data:                    FF FF FF FF FF FF FF FF FF       X923 padding:          FF FF FF FF FF FF FF FF FF 00 00 00 00 00 00 07       PKCS7 padding:        FF FF FF FF FF FF FF FF FF 07 07 07 07 07 07 07       ISO10126 padding:     FF FF FF FF FF FF FF FF FF 7D 2A 75 EF F8 EF 07</source>
+          <target state="translated">指定的 8 blocklength、 資料長度為 9、 填補八位元等於 7，且等於 FF FF FF FF FF FF FF FF FF 資料數目︰ 資料︰ FF FF FF FF FF FF FF FF FF 923 填補 X: FF FF FF FF FF FF FF FF FF 00 00 00 00 00 00 07 PKCS7 填補: FF FF FF FF FF FF FF FF FF 07 07 07 07 07 07 07 ISO10126 填補︰ FF FF FF FF FF FF FF FF FF 7 D 2A 75 EF F8 EF 07</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The ANSIX923 padding string consists of a sequence of bytes filled with zeros before the length.</source>
+          <target state="translated">ANSIX923 填補字串填入之前長度零的位元組序列所組成。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following example shows how this mode works.</source>
+          <target state="translated">下列範例會示範這個模式的運作方式。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Given a blocklength of 8, a data length of 9, the number of padding octets equal to 7, and the data equal to FF FF FF FF FF FF FF FF FF:       Data:        FF FF FF FF FF FF FF FF FF       X923 padding:          FF FF FF FF FF FF FF FF FF 00 00 00 00 00 00 07</source>
+          <target state="translated">指定的 8 blocklength、 資料長度為 9、 填補八位元等於 7，且等於 FF FF FF FF FF FF FF FF FF 資料數目︰ 資料︰ FF FF FF FF FF FF FF FF FF 923 填補 X: FF FF FF FF FF FF FF FF FF 00 00 00 00 00 00 07</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The ISO10126 padding string consists of random data before the length.</source>
+          <target state="translated">ISO10126 填補字串包含之前長度的隨機資料。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The following example shows how this mode works.</source>
+          <target state="translated">下列範例會示範這個模式的運作方式。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Given a blocklength of 8, a data length of 9, the number of padding octets equal to 7, and the data equal to FF FF FF FF FF FF FF FF FF:       Data:        FF FF FF FF FF FF FF FF FF       ISO10126 padding:     FF FF FF FF FF FF FF FF FF 7D 2A 75 EF F8 EF 07</source>
+          <target state="translated">指定的 8 blocklength、 資料長度為 9、 填補八位元等於 7，且等於 FF FF FF FF FF FF FF FF FF 資料數目︰ 資料︰ FF FF FF FF FF FF FF FF FF ISO10126 填補︰ FF FF FF FF FF FF FF FF FF 7 D 2A 75 EF F8 EF 07</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>No padding is done.</source>
+          <target state="translated">不是任何填補。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The PKCS #7 padding string consists of a sequence of bytes, each of which is equal to the total number of padding bytes added.</source>
+          <target state="translated">PKCS #7 填補字串所組成的位元組序列，其中每個等於加入填補位元組總數。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The following example shows how these modes work.</source>
+          <target state="translated">下列範例會示範這些模式的運作方式。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Given a blocklength of 8, a data length of 9, the number of padding octets equal to 7, and the data equal to FF FF FF FF FF FF FF FF FF:       Data:         FF FF FF FF FF FF FF FF FF       PKCS7 padding:        FF FF FF FF FF FF FF FF FF 07 07 07 07 07 07 07</source>
+          <target state="translated">指定的 8 blocklength、 資料長度為 9、 填補八位元等於 7，且等於 FF FF FF FF FF FF FF FF FF 資料數目︰ 資料︰ FF FF FF FF FF FF FF FF FF PKCS7 填補︰ FF FF FF FF FF FF FF FF FF 07 07 07 07 07 07 07</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The padding string consists of bytes set to zero.</source>
+          <target state="translated">填補字串設定為零的位元組所組成。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

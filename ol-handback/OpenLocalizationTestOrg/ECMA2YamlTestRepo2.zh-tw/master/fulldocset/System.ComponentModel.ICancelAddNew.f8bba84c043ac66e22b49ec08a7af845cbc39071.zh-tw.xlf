@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">074fe6025d003a976f4cd453ee872f061926d7ae</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.ICancelAddNew.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dd60dbfe0b98b42687882f955dbe586ddc407abf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3bf1bab6d1305875ab9e3217a6e3662419a62861</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Adds transactional capability when adding a new item to a collection.</source>
+          <target state="translated">將新的項目加入至集合時，請加入交易式的功能。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The ICancelAddNew interface enables a collection to add a new item in an extensible way.</source>
+          <target state="translated">ICancelAddNew 介面可讓 「 可延伸的方式加入新項目集合。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The new item subsequently can be committed or rolled back.</source>
+          <target state="translated">新的項目之後可加以認可或回復。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.IBindingList.AddNew%2A&gt; method of the collection is used to tentatively add the item, which is subsequently transacted through the following operations:      -   The &lt;xref:System.ComponentModel.ICancelAddNew.EndNew%2A&gt; method will explicitly commit the pending addition.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.IBindingList.AddNew%2A&gt;集合的方法用來暫時新增的項目為後續交易透過下列作業:-&lt;xref:System.ComponentModel.ICancelAddNew.EndNew%2A&gt;方法將會明確地認可暫止的加入。&lt;/xref:System.ComponentModel.ICancelAddNew.EndNew%2A&gt; &lt;/xref:System.ComponentModel.IBindingList.AddNew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>-   Performing another collection operation, such as an insertion, removal, or move will implicitly commit the pending addition.</source>
+          <target state="translated">-執行另一個集合運算，例如插入、 移除或移動，將會以隱含方式認可暫止的加入。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.ComponentModel.ICancelAddNew.CancelNew%2A&gt; method will roll back the pending addition if it has not already been committed.</source>
+          <target state="translated">-&lt;xref:System.ComponentModel.ICancelAddNew.CancelNew%2A&gt;方法將會復原暫止的加入它是否已經尚未認可。&lt;/xref:System.ComponentModel.ICancelAddNew.CancelNew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In some scenarios, such as Windows Forms complex data binding, the collection may receive &lt;xref:System.ComponentModel.ICancelAddNew.CancelNew%2A&gt; or &lt;xref:System.ComponentModel.ICancelAddNew.EndNew%2A&gt; calls for items other than the newly added item.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;，請在某些情況下，例如 Windows Form 複雜資料繫結，集合可能會收到&lt;xref:System.ComponentModel.ICancelAddNew.CancelNew%2A&gt;或&lt;xref:System.ComponentModel.ICancelAddNew.EndNew%2A&gt;呼叫新加入的項目以外的項目。&lt;/xref:System.ComponentModel.ICancelAddNew.EndNew%2A&gt; &lt;/xref:System.ComponentModel.ICancelAddNew.CancelNew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>(Each item is typically a row in a data view.) Ignore these calls; cancel or commit the new item only when that item's index is specified.</source>
+          <target state="translated">（每個項目通常是在資料檢視中的資料列）。忽略這些呼叫。取消，或者指定的項目索引時，才會認可新的項目。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>There are two models that allow transactional addition of an item to a data-bound collection:      -   The older model relies directly on a collection that implements the &lt;xref:System.ComponentModel.IBindingList&gt; interface and is data-bound directly using the &lt;xref:System.Windows.Forms.CurrencyManager?displayProperty=fullName&gt; class.</source>
+          <target state="translated">有兩種模型可讓異動加入至資料繫結集合的項目:-較舊的模型直接依賴實作的&lt;xref:System.ComponentModel.IBindingList&gt;介面，並且是直接使用&lt;xref:System.Windows.Forms.CurrencyManager?displayProperty=fullName&gt;類別&lt;/xref:System.Windows.Forms.CurrencyManager?displayProperty=fullName&gt;的資料繫結&lt;/xref:System.ComponentModel.IBindingList&gt;的集合</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.CurrencyManager.AddNew%2A&gt;, &lt;xref:System.Windows.Forms.CurrencyManager.EndCurrentEdit%2A&gt;, and &lt;xref:System.Windows.Forms.CurrencyManager.CancelCurrentEdit%2A&gt; methods of the &lt;xref:System.Windows.Forms.CurrencyManager?displayProperty=fullName&gt; class are responsible for transactional support for adding new items.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.CurrencyManager.AddNew%2A&gt;， &lt;xref:System.Windows.Forms.CurrencyManager.EndCurrentEdit%2A&gt;，和&lt;xref:System.Windows.Forms.CurrencyManager.CancelCurrentEdit%2A&gt;方法&lt;xref:System.Windows.Forms.CurrencyManager?displayProperty=fullName&gt;類別負責交易式支援加入新項目。&lt;/xref:System.Windows.Forms.CurrencyManager?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.CurrencyManager.CancelCurrentEdit%2A&gt; &lt;/xref:System.Windows.Forms.CurrencyManager.EndCurrentEdit%2A&gt; &lt;/xref:System.Windows.Forms.CurrencyManager.AddNew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>However, this functionality depends upon the items supporting transactional behavior through the &lt;xref:System.ComponentModel.IEditableObject&gt; interface.</source>
+          <target state="translated">不過，這項功能相依於支援透過交易式行為的項目&lt;xref:System.ComponentModel.IEditableObject&gt;介面。&lt;/xref:System.ComponentModel.IEditableObject&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the items do not support this interface, the item will always be added to the list, regardless of subsequent calls to &lt;xref:System.Windows.Forms.CurrencyManager.CancelCurrentEdit%2A&gt;.</source>
+          <target state="translated">如果項目不支援這個介面，將一律加入清單中，不論&lt;xref:System.Windows.Forms.CurrencyManager.CancelCurrentEdit%2A&gt;.&lt;/xref:System.Windows.Forms.CurrencyManager.CancelCurrentEdit%2A&gt;的後續呼叫加入項目</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   The newer model supports a more robust data-binding scenario through the generic &lt;xref:System.ComponentModel.BindingList%601&gt; class, which implements the &lt;xref:System.ComponentModel.IBindingList&gt; and ICancelAddNew interfaces.</source>
+          <target state="translated">-較新的模型支援更穩固的資料繫結案例，透過一般&lt;xref:System.ComponentModel.BindingList%601&gt;類別，它會實作&lt;xref:System.ComponentModel.IBindingList&gt;和 ICancelAddNew 介面。&lt;/xref:System.ComponentModel.IBindingList&gt; &lt;/xref:System.ComponentModel.BindingList%601&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In this case, the transactional support is managed by the &lt;xref:System.ComponentModel.BindingList%601&gt; collection directly.</source>
+          <target state="translated">在此情況下，交易的支援由管理&lt;xref:System.ComponentModel.BindingList%601&gt;直接集合。&lt;/xref:System.ComponentModel.BindingList%601&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Discards a pending new item from the collection.</source>
+          <target state="translated">會捨棄暫止的新項目集合中。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The CancelNew method rolls back a pending addition (&lt;xref:System.ComponentModel.IBindingList.AddNew%2A&gt;) of an item previously added to the collection at position <ph id="ph1">`itemIndex`</ph>.</source>
+          <target state="translated">CancelNew 方法會復原暫止的加入 (&lt;xref:System.ComponentModel.IBindingList.AddNew%2A&gt;) 先前已加入至集合中位置的項目<ph id="ph1">`itemIndex`</ph>。&lt;/xref:System.ComponentModel.IBindingList.AddNew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The index parameter is necessary because several new items can be simultaneously pending.</source>
+          <target state="translated">索引參數是必要的因為數個新項目可以同時暫止。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The index of the item that was previously added to the collection.</source>
+          <target state="translated">先前已加入至集合之項目的索引。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Commits a pending new item to the collection.</source>
+          <target state="translated">暫止的新項目認可到集合中。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The EndNew commits a pending addition (&lt;xref:System.ComponentModel.IBindingList.AddNew%2A&gt;) of an item previously added to the collection at position <ph id="ph1">`itemIndex`</ph>.</source>
+          <target state="translated">EndNew 認可暫止的加入 (&lt;xref:System.ComponentModel.IBindingList.AddNew%2A&gt;) 先前已加入至集合中位置的項目<ph id="ph1">`itemIndex`</ph>。&lt;/xref:System.ComponentModel.IBindingList.AddNew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The index parameter is necessary because several new items can be simultaneously pending.</source>
+          <target state="translated">索引參數是必要的因為數個新項目可以同時暫止。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The index of the item that was previously added to the collection.</source>
+          <target state="translated">先前已加入至集合之項目的索引。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
