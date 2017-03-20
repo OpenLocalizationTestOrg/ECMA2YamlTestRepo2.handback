@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a131a3b6e85199e9cd0f4371f8ce5b54d87e00e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Documents.TextPointer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fc33d95e16d14084333a1633dfa212803aed9a12</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">edcbb6eebabe2118ebcf7c53d55711f17e118d6f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a position within a <bpt id="p1">&lt;xref href="System.Windows.Documents.FlowDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Controls.TextBlock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy helyen belül jelöli egy <bpt id="p1">&lt;xref href="System.Windows.Documents.FlowDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vagy <bpt id="p2">&lt;xref href="System.Windows.Controls.TextBlock"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TextPointer class introduces the following terminology:      -   Position - Inherently, a TextPointer always points to a <bpt id="p1">*</bpt>position<ept id="p1">*</ept> in content.</source>
+          <target state="translated">A textpointer elem osztály vezet be a következő kifejezésekkel: - pozíció - eredendően, a textpointer elem mindig mutat egy <bpt id="p1">*</bpt>pozíció<ept id="p1">*</ept> a tartalmat.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such positions either fall between characters in the content, or between flow content element tags that define structure for the content.</source>
+          <target state="translated">Ilyen pozíciók vagy tartoznak folyamata és a tartalom karakter között tartalom elem címkéket, amely a tartalom-szerkezet határozza meg.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Current Position - Because a TextPointer always indicates a position, and because many of the operations that can be performed through a TextPointer are relative to the position currently pointed to by the TextPointer, it makes sense to simply refer to the position indicated by a TextPointer as the <bpt id="p1">*</bpt>current position<ept id="p1">*</ept>.</source>
+          <target state="translated">-Jelenlegi elhelyezése – mivel a textpointer elem mindig jelzi a pozíció, és mivel a TextPointer keresztül végezhető műveletek számos jelenleg a textpointer elem által hivatkozott helyétől függően, érdemes egy, a TextPointer pozíciójától egyszerűen csak tekintse meg a <bpt id="p1">*</bpt>aktuális pozíció<ept id="p1">*</ept>.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Insertion Position - An <bpt id="p1">*</bpt>insertion position<ept id="p1">*</ept> is a position where new content may be added without breaking any semantic rules for the associated content.</source>
+          <target state="translated">-Beszúrási pozíciója – az <bpt id="p1">*</bpt>beszúrási pozíciója<ept id="p1">*</ept> egy pozíció, ahol új tartalom társított tartalom szemantikai szabályok megszüntetése nélkül adhatók hozzá.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In practice, an insertion position is anywhere in content where a caret may be positioned.</source>
+          <target state="translated">A gyakorlatban egy beszúrási pozíciója nem bárhol tartalom, ahol kalap is kell elhelyezni.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a valid TextPointer position that is not an insertion position is the position between two adjacent &lt;xref:System.Windows.Documents.Paragraph&gt; tags (that is, between the closing tag of the preceding paragraph and the opening tag of the next paragraph).</source>
+          <target state="translated">Egy érvényes textpointer elem pozícióját, amely nem egy beszúrási pozíciója például két egymás között a pozíció &lt;xref:System.Windows.Documents.Paragraph&gt;címkék (Ez azt jelenti, hogy az előző bekezdésben záró címkéjének és a következő bekezdés nyitó címkéje között).&lt;/xref:System.Windows.Documents.Paragraph&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Symbol - For the purposes of TextPointer operations that involve symbols, any of the following is considered to be a <bpt id="p1">*</bpt>symbol<ept id="p1">*</ept>:          -   An opening or closing tag for a &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">-Szimbólum - a textpointer elem műveletek, például a következő szimbólumok tekinthető egy <bpt id="p1">*</bpt>szimbólum<ept id="p1">*</ept>: - nyitó vagy záró címkéjének egy &lt;xref:System.Windows.Documents.TextElement&gt;elem.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained within an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">-A &lt;xref:System.Windows.UIElement&gt;elem egy &lt;xref:System.Windows.Documents.InlineUIContainer&gt;vagy &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; belül található&lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">Vegye figyelembe, hogy az ilyen egy &lt;xref:System.Windows.UIElement&gt;mindig egynek pontosan egy szimbólumot; minden további tartalmat vagy által tárolt elemeket a &lt;xref:System.Windows.UIElement&gt;nem számítanak szimbólumok.&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Each 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-Minden egyes 16 bites <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> karakter egy szöveges belül &lt;xref:System.Windows.Documents.Run&gt;elem.&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Text Container - A <bpt id="p1">*</bpt>text container<ept id="p1">*</ept> is the element that forms the ultimate border for the flow content at hand; the position indicated by a TextPointer always falls within a text container.</source>
+          <target state="translated">-Szöveg tároló – egy <bpt id="p1">*</bpt>szövegtároló<ept id="p1">*</ept> elemhez tartozó űrlap-folyamat a tartalomhoz az elvégzendő végső szegély; pozíciójától a textpointer elem mindig visszatér a szövegtároló belül van.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Currently, a text container must be either a &lt;xref:System.Windows.Documents.FlowDocument&gt; or a &lt;xref:System.Windows.Controls.TextBlock&gt;.</source>
+          <target state="translated">Jelenleg a szövegtároló kell lennie vagy &lt;xref:System.Windows.Documents.FlowDocument&gt;vagy &lt;xref:System.Windows.Controls.TextBlock&gt;.&lt;/xref:System.Windows.Controls.TextBlock&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generally speaking, operations between TextPointer instances in different text containers are not supported.</source>
+          <target state="translated">Általánosságban véve különböző szöveg tárolókban lévő TextPointer példányai között műveletek nem támogatottak.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Document - The content in a text container is referred to as a <bpt id="p1">*</bpt>document<ept id="p1">*</ept>, as in the &lt;xref:System.Windows.Documents.TextPointer.IsInSameDocument%2A&gt; method and the &lt;xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt; properties.</source>
+          <target state="translated">-Dokumentum - szövegben a tartalmat tároló nevezzük egy <bpt id="p1">*</bpt>dokumentum<ept id="p1">*</ept>, mint a &lt;xref:System.Windows.Documents.TextPointer.IsInSameDocument%2A&gt;metódus és a &lt;xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt;és &lt;xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt;Tulajdonságok.&lt;/xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.IsInSameDocument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TextPointer class is intended to facilitate traversal and manipulation of content that is represented by <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> flow content elements; in general, such elements derive from &lt;xref:System.Windows.Documents.TextElement&gt;.</source>
+          <target state="translated">A TextPointer osztály olyan átjárás és módosítását. által jelölt tartalom megkönnyítése érdekében <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> tartalmi elemekre flow; általában a hasonló elemek &lt;xref:System.Windows.Documents.TextElement&gt;.&lt;/xref:System.Windows.Documents.TextElement&gt; származik</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some of the operations that TextPointer facilitates include the following:      -   Perform an ordinal comparison of the current position with a second specified position.</source>
+          <target state="translated">A műveletek, amely elősegíti a textpointer elem többek között a következők:-végrehajtani egy második megadott pozíció az aktuális pozíciót sorszám összehasonlítása.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt; method.</source>
+          <target state="translated">Tekintse meg a &lt;xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt;metódus.&lt;/xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Determine the type of content adjacent to the current position in a specified direction.</source>
+          <target state="translated">-Határozza meg az aktuális pozíciót a megadott irányban szomszédos tartalom típusát.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt; method and &lt;xref:System.Windows.Documents.TextPointerContext&gt; enumeration.</source>
+          <target state="translated">Tekintse meg a &lt;xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt;metódus és &lt;xref:System.Windows.Documents.TextPointerContext&gt;számbavételi.&lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Get the &lt;xref:System.Windows.Documents.TextElement&gt; that scopes or is adjacent to the current position.</source>
+          <target state="translated">-Beolvasása a &lt;xref:System.Windows.Documents.TextElement&gt;, amely hatóköröket annak megfelelően, vagy az aktuális pozíció szomszédos.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See &lt;xref:System.Windows.Documents.Paragraph&gt; and the &lt;xref:System.Windows.Documents.TextPointer.GetAdjacentElement%2A&gt; method.</source>
+          <target state="translated">Lásd: &lt;xref:System.Windows.Documents.Paragraph&gt;és a &lt;xref:System.Windows.Documents.TextPointer.GetAdjacentElement%2A&gt;metódus.&lt;/xref:System.Windows.Documents.TextPointer.GetAdjacentElement%2A&gt; &lt;/xref:System.Windows.Documents.Paragraph&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Get the text container that scopes the current document.</source>
+          <target state="translated">– A szöveg tároló, amely az aktuális dokumentumon hatóköröket beolvasása.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt; property.</source>
+          <target state="translated">Tekintse meg a &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt;tulajdonság.&lt;/xref:System.Windows.Documents.TextPointer.Parent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Get a specified number of characters preceding or following the current position.</source>
+          <target state="translated">-A megadott számú karaktert megelőző vagy követő az aktuális pozíció beolvasása.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetTextInRun%2A&gt; method.</source>
+          <target state="translated">Tekintse meg a &lt;xref:System.Windows.Documents.TextPointer.GetTextInRun%2A&gt;metódus.&lt;/xref:System.Windows.Documents.TextPointer.GetTextInRun%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Insert a string of characters at the current position.</source>
+          <target state="translated">-Karakterlánc beszúrása az aktuális helyén.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.InsertTextInRun%2A&gt; method.</source>
+          <target state="translated">Tekintse meg a &lt;xref:System.Windows.Documents.TextPointer.InsertTextInRun%2A&gt;metódus.&lt;/xref:System.Windows.Documents.TextPointer.InsertTextInRun%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Find line boundaries in content.</source>
+          <target state="translated">-A sor határok található tartalmat.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt; method and &lt;xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt; property.</source>
+          <target state="translated">Tekintse meg a &lt;xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt;metódus és &lt;xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt;tulajdonság.&lt;/xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Translate between TextPointer positions and symbol offsets into content.</source>
+          <target state="translated">-Lefordítása TextPointer pozíciók és szimbólum eltolások közötti tartalom.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; methods.</source>
+          <target state="translated">Tekintse meg a &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;és &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt;módszerek.&lt;/xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Perform visual hit testing by translating between a TextPointer position and a &lt;xref:System.Windows.Point&gt; representing relative coordinates.</source>
+          <target state="translated">-Visual találati tesztek végrehajtása a textpointer elem pozíciója fordításával és a &lt;xref:System.Windows.Point&gt;képviselő relatív koordinátákban megadott távolságot.&lt;/xref:System.Windows.Point&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Find a nearby insertion position, or check whether the current position is an insertion position.</source>
+          <target state="translated">-A közeli beszúrási pozíciója található, vagy ellenőrizze, hogy az aktuális pozíció egy beszúrási pozíciója.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetInsertionPosition%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt; methods and the &lt;xref:System.Windows.Documents.TextPointer.IsAtInsertionPosition%2A&gt; property.</source>
+          <target state="translated">Tekintse meg a &lt;xref:System.Windows.Documents.TextPointer.GetInsertionPosition%2A&gt;és &lt;xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt;módszerek és a &lt;xref:System.Windows.Documents.TextPointer.IsAtInsertionPosition%2A&gt;tulajdonság.&lt;/xref:System.Windows.Documents.TextPointer.IsAtInsertionPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetInsertionPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The position and &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; indicated by a TextPointer object are immutable.</source>
+          <target state="translated">A pozíció és &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;jelölik a textpointer elem objektumok nem módosíthatók.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When content is edited or modified, the position indicated by a TextPointer does not change relative to the surrounding text; rather the offset of that position from the beginning of content is adjusted correspondingly to reflect the new relative position in content.</source>
+          <target state="translated">Tartalom szerkeszthető vagy módosításakor a textpointer elem pozíciójától nem módosítja a környező szöveg; viszonyítva Ahelyett, hogy az adott pozícióban az elejétől tartalom eltolását módosul ennek megfelelően az új relatív helyzetben lévő tartalom.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a TextPointer that indicates a position at the beginning of a given paragraph continues to point to the beginning of that paragraph even when content is inserted or deleted before or after the paragraph.</source>
+          <target state="translated">Például a textpointer elem, amely jelzi az adott bekezdés elején pozíció továbbra is fennáll, hogy a bekezdés elejére mutassanak, még akkor is, amikor tartalmat beszúrni vagy előtt vagy után a bekezdés törölve van.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TextPointer class does not provide any public constructors.</source>
+          <target state="translated">A TextPointer osztály nem biztosít semmilyen nyilvános konstruktor.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance of TextPointer is created by using properties or methods of other objects (including other TextPointer objects).</source>
+          <target state="translated">A TextPointer példánya hozta létre tulajdonságok vagy más objektumok (beleértve más TextPointer objektumok) módszert használ.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following list provides a few examples of methods and properties that create and return a TextPointer.</source>
+          <target state="translated">Az alábbiakban néhány példa a metódusok és tulajdonságok létrehozása, és térjen vissza a textpointer elemmel.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This list is not exhaustive:      -   From a &lt;xref:System.Windows.Documents.TextRange&gt;: &lt;xref:System.Windows.Documents.TextRange.Start%2A&gt; and &lt;xref:System.Windows.Documents.TextRange.End%2A&gt;.</source>
+          <target state="translated">A lista nem teljes körű létrehozási: – a egy &lt;xref:System.Windows.Documents.TextRange&gt;: &lt;xref:System.Windows.Documents.TextRange.Start%2A&gt;és &lt;xref:System.Windows.Documents.TextRange.End%2A&gt;.&lt;/xref:System.Windows.Documents.TextRange.End%2A&gt; &lt;/xref:System.Windows.Documents.TextRange.Start%2A&gt; &lt;/xref:System.Windows.Documents.TextRange&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   From a &lt;xref:System.Windows.Documents.TextElement&gt;:  &lt;xref:System.Windows.Documents.TextElement.ContentStart%2A&gt;, &lt;xref:System.Windows.Documents.TextElement.ContentEnd%2A&gt;, &lt;xref:System.Windows.Documents.TextElement.ElementStart%2A&gt;, and &lt;xref:System.Windows.Documents.TextElement.ElementEnd%2A&gt;.</source>
+          <target state="translated">-   From a &lt;xref:System.Windows.Documents.TextElement&gt;:  &lt;xref:System.Windows.Documents.TextElement.ContentStart%2A&gt;, &lt;xref:System.Windows.Documents.TextElement.ContentEnd%2A&gt;, &lt;xref:System.Windows.Documents.TextElement.ElementStart%2A&gt;, and &lt;xref:System.Windows.Documents.TextElement.ElementEnd%2A&gt;.&lt;/xref:System.Windows.Documents.TextElement.ElementEnd%2A&gt;&lt;/xref:System.Windows.Documents.TextElement.ElementStart%2A&gt;&lt;/xref:System.Windows.Documents.TextElement.ContentEnd%2A&gt;&lt;/xref:System.Windows.Documents.TextElement.ContentStart%2A&gt;&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   From a &lt;xref:System.Windows.Controls.TextBlock&gt; (text container): &lt;xref:System.Windows.Controls.TextBlock.ContentStart%2A&gt;, &lt;xref:System.Windows.Controls.TextBlock.ContentEnd%2A&gt;, and &lt;xref:System.Windows.Controls.TextBlock.GetPositionFromPoint%2A&gt;.</source>
+          <target state="translated">-A egy &lt;xref:System.Windows.Controls.TextBlock&gt;(szövegtároló): &lt;xref:System.Windows.Controls.TextBlock.ContentStart%2A&gt;, &lt;xref:System.Windows.Controls.TextBlock.ContentEnd%2A&gt;, és &lt;xref:System.Windows.Controls.TextBlock.GetPositionFromPoint%2A&gt;.&lt;/xref:System.Windows.Controls.TextBlock.GetPositionFromPoint%2A&gt; &lt;/xref:System.Windows.Controls.TextBlock.ContentEnd%2A&gt; &lt;/xref:System.Windows.Controls.TextBlock.ContentStart%2A&gt; &lt;/xref:System.Windows.Controls.TextBlock&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   From a &lt;xref:System.Windows.Documents.FlowDocument&gt; (text container): &lt;xref:System.Windows.Documents.FlowDocument.ContentStart%2A&gt;, and &lt;xref:System.Windows.Documents.FlowDocument.ContentEnd%2A&gt;      -   From an existing TextPointer: &lt;xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt;, &lt;xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt;, &lt;xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt;, and &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt;.</source>
+          <target state="translated">-A egy &lt;xref:System.Windows.Documents.FlowDocument&gt;(szövegtároló): &lt;xref:System.Windows.Documents.FlowDocument.ContentStart%2A&gt;, és &lt;xref:System.Windows.Documents.FlowDocument.ContentEnd%2A&gt;– a egy meglévő textpointer elemmel: &lt;xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt;, &lt;xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt;, &lt;xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt;, és &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt;.&lt;/xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt; &lt;/xref:System.Windows.Documents.FlowDocument.ContentEnd%2A&gt; &lt;/xref:System.Windows.Documents.FlowDocument.ContentStart%2A&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Performs an ordinal comparison between the positions specified by the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and a second specified <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hajt végre egy sorszám összehasonlítása az aktuális által megadott pozíciók <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és egy második megadott <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value of –1 indicates that the position specified by the current &lt;xref:System.Windows.Documents.TextPointer&gt; precedes the position specified by <ph id="ph1">`position`</ph>.</source>
+          <target state="translated">–&amp;1; érték azt jelzi, hogy a helyzetét megadja az aktuális &lt;xref:System.Windows.Documents.TextPointer&gt;megelőzi a megadott pozíció <ph id="ph1">`position`</ph>.&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value of 0 indicates that the indicated positions are equal.</source>
+          <target state="translated">A 0 érték azt jelzi, hogy a megadott pozíciók egyenlő.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value of positive +1 indicates that the position specified by the current &lt;xref:System.Windows.Documents.TextPointer&gt; follows the position specified by <ph id="ph1">`position`</ph>.</source>
+          <target state="translated">Pozitív +&amp;1; érték azt jelzi, hogy a helyzetét megadja az aktuális &lt;xref:System.Windows.Documents.TextPointer&gt;által megadott pozícióját a következő <ph id="ph1">`position`</ph>.&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies a position to compare to the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely megadja, hogy hasonlítsa össze az aktuális pozíció.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>–1 if the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> precedes <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">position</ph><ept id="p2">&lt;/code&gt;</ept>; 0 if the locations are the same; +1 if the current <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> follows <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">position</ph><ept id="p4">&lt;/code&gt;</ept>.</source>
+          <target state="translated">– 1 Ha az aktuális <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megelőzi <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">position</ph> <ept id="p2">&lt;/code&gt;</ept>; 0, ha a helyek azonos; + 1 Ha az aktuális <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> követi <bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">position</ph> <ept id="p4">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;position&lt;/code&gt;</ph> specifies a position outside of the text container associated with the current position.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;position&lt;/code&gt;</ph>Megadja az aktuális pozíció társított szövegtároló kívül egy pozícióját.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Deletes the specified number of characters from the position indicated by the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A megadott számú karaktert törli az aktuális pozíciójától <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specify a positive value to delete characters that follow the current position (as in &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;); specify a negative value to delete characters that precede the current position (as in &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;).</source>
+          <target state="translated">Adjon meg egy pozitív értéket az aktuális pozíció az alábbi karakterek törlése (mint a &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;); törli az aktuális pozíció alkalmazza negatív értéket adjon meg (és a &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;).&lt;/xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt; &lt;/xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The number of characters actually deleted may be less than the number specified by <ph id="ph1">`count`</ph>.</source>
+          <target state="translated">Valóban törölni karakterek lehet kisebb, mint a megadott <ph id="ph1">`count`</ph>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This happens in cases where <ph id="ph1">`count`</ph> specifies more characters than exist to be deleted.</source>
+          <target state="translated">Ez akkor fordul elő, azokban az esetekben, ahol <ph id="ph1">`count`</ph> határozza meg a törlendő számánál több karaktert.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The number of characters to delete, starting at the current position.</source>
+          <target state="translated">Karakterek törlése, a jelenlegi pozíciótól kezdődően.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specify a positive value to delete characters that follow the current position; specify a negative value to delete characters that precede the current position.</source>
+          <target state="translated">Adjon meg egy pozitív értéket az aktuális pozíció; az alábbi karakterek törlése törli az aktuális pozíció alkalmazza negatív értéket adjon meg.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The number of characters actually deleted.</source>
+          <target state="translated">Valóban törölni karakterek száma.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The method is called at a position where text is not allowed.</source>
+          <target state="translated">A metódus meghívható egy helyen, ahol a szöveg nem engedélyezett.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the end of content in the text container associated with the current position.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a szövegtároló az aktuális pozíció társított tartalom végén.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt; for the returned &lt;xref:System.Windows.Documents.TextPointer&gt; is always a text container (&lt;xref:System.Windows.Controls.TextBlock&gt; or &lt;xref:System.Windows.Documents.FlowDocument&gt;), rather than a &lt;xref:System.Windows.Documents.TextElement&gt;.</source>
+          <target state="translated">A &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt;a visszaadott a &lt;xref:System.Windows.Documents.TextPointer&gt;mindig van kapcsolva a szövegtároló (&lt;xref:System.Windows.Controls.TextBlock&gt; vagy &lt;xref:System.Windows.Documents.FlowDocument&gt;), ahelyett, hogy egy &lt;xref:System.Windows.Documents.TextElement&gt;.&lt;/xref:System.Windows.Documents.TextElement&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt; &lt;/xref:System.Windows.Controls.TextBlock&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer.Parent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the end of content in the text container associated with the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a szövegtároló az aktuális pozíció társított tartalom végén.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the beginning of content in the text container associated with the current position.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a szövegtároló az aktuális pozíció társított tartalom elején.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the position returned by this property as a baseline position from which to work with relative offsets to other positions.</source>
+          <target state="translated">Használja az eredeti pozíció, amelyből más helyre relatív eltolások dolgozni, ez a tulajdonság által visszaadott pozícióját.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; methods provide a way to translate between positions and position offsets.</source>
+          <target state="translated">A &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;és &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt;módszerek közötti pozíciók megjelenítése és elhelyezése lefordítani hardvermódosításainak tolódnak.&lt;/xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt; for the returned &lt;xref:System.Windows.Documents.TextPointer&gt; is always a text container (&lt;xref:System.Windows.Controls.TextBlock&gt; or &lt;xref:System.Windows.Documents.FlowDocument&gt;), rather than a &lt;xref:System.Windows.Documents.TextElement&gt;.</source>
+          <target state="translated">A &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt;a visszaadott a &lt;xref:System.Windows.Documents.TextPointer&gt;mindig van kapcsolva a szövegtároló (&lt;xref:System.Windows.Controls.TextBlock&gt; vagy &lt;xref:System.Windows.Documents.FlowDocument&gt;), ahelyett, hogy egy &lt;xref:System.Windows.Documents.TextElement&gt;.&lt;/xref:System.Windows.Documents.TextElement&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt; &lt;/xref:System.Windows.Controls.TextBlock&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer.Parent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the beginning of content in the text container associated with the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a szövegtároló az aktuális pozíció társított tartalom elején.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Returns the element, if any, that borders the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified logical direction.</source>
+          <target state="translated">Az elemet adja vissza, ha vannak ilyenek, amely az aktuális <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott logikai irányban.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned element is typically a &lt;xref:System.Windows.Documents.TextElement&gt;.</source>
+          <target state="translated">A visszaadott elem általában egy &lt;xref:System.Windows.Documents.TextElement&gt;.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.UIElement&gt; can be returned when the &lt;xref:System.Windows.Documents.TextPointer&gt; indicates a position inside a &lt;xref:System.Windows.Documents.BlockUIContainer&gt; element or an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; element.</source>
+          <target state="translated">A &lt;xref:System.Windows.UIElement&gt;is adható vissza, ha a &lt;xref:System.Windows.Documents.TextPointer&gt;belülre jelzi egy &lt;xref:System.Windows.Documents.BlockUIContainer&gt;elem vagy egy &lt;xref:System.Windows.Documents.InlineUIContainer&gt;elem.&lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to search for an adjacent element.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érték, amely meghatározza a keresendő szomszédos elem logikai irányát.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The adjacent element in the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">direction</ph><ept id="p1">&lt;/code&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no adjacent element exists.</source>
+          <target state="translated">A megadott szomszédos elem <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">direction</ph> <ept id="p1">&lt;/code&gt;</ept>, vagy <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha szomszédos elem nem létezik.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Returns a bounding box (<bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) for content that borders the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> in the specified logical direction.</source>
+          <target state="translated">A határolókeret adja vissza (<bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) a tartalom, amely az aktuális <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> a megadott logikai irányban.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Documents.TextElement&gt; edges are not considered content for the purposes of this method.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.TextElement&gt;Ez a módszer alkalmazásában szélek nem tekinthetők tartalom.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; is positioned before a &lt;xref:System.Windows.Documents.TextElement&gt; edge, the return value is a bounding box for the next non-&lt;xref:System.Windows.Documents.TextElement&gt; content in the specified direction.</source>
+          <target state="translated">Ha a &lt;xref:System.Windows.Documents.TextPointer&gt;előtt elhelyezve egy &lt;xref:System.Windows.Documents.TextElement&gt;él, az eredményül kapott értéket a következő határolókeret nem -&lt;xref:System.Windows.Documents.TextElement&gt; tartalom a megadott irányban.&lt;/xref:System.Windows.Documents.TextElement&gt; &lt;/xref:System.Windows.Documents.TextElement&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no content in the specified direction, a zero-width &lt;xref:System.Windows.Rect&gt; is returned with a height matching the height of any preceding content.</source>
+          <target state="translated">Ha nincs tartalom a megadott irányban, nulla szélességű &lt;xref:System.Windows.Rect&gt;magasságának minden megelőző tartalom megfelelő magasságú lett visszaadva.&lt;/xref:System.Windows.Rect&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The operation performed by this method depends on a valid layout.</source>
+          <target state="translated">Ez a metódus által végrehajtott műveletet egy érvényes elrendezés függ.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When necessary, this method attempts to automatically regenerate a valid layout before proceeding with the operation.</source>
+          <target state="translated">Ha szükséges, ez a módszer megpróbálja automatikusan generálja újra egy érvényes elrendezést a művelet folytatása előtt.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regenerating a layout can be a relatively expensive operation.</source>
+          <target state="translated">Egy elrendezés újragenerálása lehet egy viszonylag drága művelet.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt; property to check for a valid layout before performing operations that may regenerate the layout.</source>
+          <target state="translated">Használja a &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;tulajdonsága egy érvényes elrendezés kereséséhez, előfordulhat, hogy újragenerálja a elrendezés műveletek végrehajtása előtt.&lt;/xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Layout<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>elrendezés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to find a content bounding box.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékeket, amelyeket egy tartalom határolókeret található logikai irányát határozza meg.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A bounding box for content that borders the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified direction, or <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Rect.Empty%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> if current, valid layout information is unavailable.</source>
+          <target state="translated">A tartalom, amely az aktuális határolókeret <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott irányban vagy <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Rect.Empty%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> aktuális, ha érvényes elrendezési információ nem érhető el.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the closest insertion position in the specified logical direction.</source>
+          <target state="translated">Értéket ad vissza egy <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a legközelebbi beszúrási pozícióba a megadott logikai irányban.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An insertion position is a position where new content may be added without breaking any semantic rules for the associated content.</source>
+          <target state="translated">Egy beszúrási pozíciója egy helyen, ahol új tartalom társított tartalom szemantikai szabályok megszüntetése nélkül adhatók hozzá.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In practice, an insertion position is anywhere in content where a caret may be positioned.</source>
+          <target state="translated">A gyakorlatban egy beszúrási pozíciója nem bárhol tartalom, ahol kalap is kell elhelyezni.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a valid &lt;xref:System.Windows.Documents.TextPointer&gt; position that is not an insertion position is the position between two adjacent &lt;xref:System.Windows.Documents.Paragraph&gt; tags (that is, between the closing tag of the preceding paragraph and the opening tag of the next paragraph).</source>
+          <target state="translated">Egy érvényes &lt;xref:System.Windows.Documents.TextPointer&gt;pozíció, amely nem egy beszúrási pozíciója azt két egymás között &lt;xref:System.Windows.Documents.Paragraph&gt;címkék (Ez azt jelenti, hogy az előző bekezdésben záró címkéjének és a következő bekezdés nyitó címkéje között).&lt;/xref:System.Windows.Documents.Paragraph&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; already points to a valid insertion position, but the closing tag for a non-empty formatting sequence directly follows that position in the given direction, then the &lt;xref:System.Windows.Documents.TextPointer&gt; returned by this method is adjusted to point to the insertion position just after the close of the formatting sequence.</source>
+          <target state="translated">Ha a &lt;xref:System.Windows.Documents.TextPointer&gt;már mutat egy érvényes beszúrási pozíciója, de a záró címke esetében egy nem üres formázási feladatütemezési közvetlenül követi, hogy a megadott irányban pozíciója a &lt;xref:System.Windows.Documents.TextPointer&gt;által visszaadott metódus mutasson a beszúrási pozíciója a formázási feladatütemezési lezárása után módosul.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, consider the markup sequence <ph id="ph1">`&lt;Bold&gt;``a``&lt;/Bold&gt;``b`</ph>.</source>
+          <target state="translated">Vegyük példaként a jelölés során <ph id="ph1">`&lt;Bold&gt;``a``&lt;/Bold&gt;``b`</ph>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that there are two insertion positions between the letters <ph id="ph1">`a`</ph> and <ph id="ph2">`b`</ph>—one that precedes the closing <ph id="ph3">`Bold`</ph> tag, and one directly following the closing <ph id="ph4">`Bold`</ph> tag.</source>
+          <target state="translated">Vegye figyelembe, hogy vannak-e a betűk között két beszúrási helyek <ph id="ph1">`a`</ph> és <ph id="ph2">`b`</ph>– egyet, amely megelőzi a záró <ph id="ph3">`Bold`</ph> címkét, és közvetlenül a záró követő egy <ph id="ph4">`Bold`</ph> címke.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If GetInsertionPosition is called on a &lt;xref:System.Windows.Documents.TextPointer&gt; to the position directly after the letter <ph id="ph1">`a`</ph> and before of the closing <ph id="ph2">`Bold`</ph> tag, and with a <ph id="ph3">`direction`</ph> of &lt;xref:System.Windows.Documents.LogicalDirection&gt;, the returned &lt;xref:System.Windows.Documents.TextPointer&gt; is adjusted to point to the position just before the letter <ph id="ph4">`b`</ph>, after the closing <ph id="ph5">`Bold`</ph> tag.</source>
+          <target state="translated">GetInsertionPosition hívása esetén a egy &lt;xref:System.Windows.Documents.TextPointer&gt;közvetlenül a felszólítás utáni pozícióba <ph id="ph1">`a`</ph> és előtt a zárás <ph id="ph2">`Bold`</ph> címkét, és egy <ph id="ph3">`direction`</ph> a &lt;xref:System.Windows.Documents.LogicalDirection&gt;, a visszaadott &lt;xref:System.Windows.Documents.TextPointer&gt;módosul a levél előtt a helyre mutasson <ph id="ph4">`b`</ph>, a Bezárás után <ph id="ph5">`Bold`</ph> címke.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.LogicalDirection&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A similar adjustment is made for opening formatting tags when working in the opposite logical direction.</source>
+          <target state="translated">Egy hasonló igazítani formázási címkék nyithatók meg az ellenkező logikai irányba használatakor.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is intended to provide a means of disambiguation between insertion positions in similar cases.</source>
+          <target state="translated">Ez a módszer olyan nyújthat Egyértelműsítő hasonló esetekben beszúrási helyek között.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can also be used to be selective about insertion points when a sequence of structural tags is involved.</source>
+          <target state="translated">Ez a módszer is használható beszúrási pontok mérlegelni kell, ha egy feladatütemezési strukturális címkék van szó.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, when at a position between closing and opening paragraph tags, the direction parameter can be used to select the closest insertion point at the beginning of the following paragraph (by specifying &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;) or at the end of the preceding paragraph (by specifying &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;).</source>
+          <target state="translated">Például ha pozícióban egy záró és nyitó bekezdéscímkék között, a irányban paraméter segítségével válassza ki a legközelebbi kurzort elején a következő bekezdés (megadásával &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;) vagy az előző bekezdésben végén (megadásával &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;).&lt;/xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt; &lt;/xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pointer is already at insertion position, and there are no adjacent formatting tags in the specified <ph id="ph1">`direction`</ph>, the returned &lt;xref:System.Windows.Documents.TextPointer&gt; points to the same position as the calling &lt;xref:System.Windows.Documents.TextPointer&gt;.</source>
+          <target state="translated">Ha a mutató már beszúrási helyén, és nincsenek a megadott szomszédos formázási címkék <ph id="ph1">`direction`</ph>, a visszaadott &lt;xref:System.Windows.Documents.TextPointer&gt;megegyezik a hívó &lt;xref:System.Windows.Documents.TextPointer&gt;.&lt;/xref:System.Windows.Documents.TextPointer&gt; mutat&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is possible that no valid insertion position exists relative to the position pointed to by a &lt;xref:System.Windows.Documents.TextPointer&gt;.</source>
+          <target state="translated">Lehetséges, hogy létezik-e nem érvényes beszúrási pozíciója &lt;xref:System.Windows.Documents.TextPointer&gt;.&lt;/xref:System.Windows.Documents.TextPointer&gt; által hivatkozott helyétől függően</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can happen if the referenced content is structurally incomplete, as in an empty table or list.</source>
+          <target state="translated">Ez akkor fordulhat elő, ha a hivatkozott tartalom nem szerkezetileg fejeződött be, mint egy üres táblát, vagy a lista.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In such cases, this method simply returns a &lt;xref:System.Windows.Documents.TextPointer&gt; to the same position as the &lt;xref:System.Windows.Documents.TextPointer&gt; from which this method was called.</source>
+          <target state="translated">Ebben az esetben, ez a metódus egyszerűen adja vissza egy &lt;xref:System.Windows.Documents.TextPointer&gt;való megegyezik a &lt;xref:System.Windows.Documents.TextPointer&gt;Ez a metódus hívása történt a.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method always returns a valid &lt;xref:System.Windows.Documents.TextPointer&gt;.</source>
+          <target state="translated">Ez a metódus mindig adja meg egy érvényes &lt;xref:System.Windows.Documents.TextPointer&gt;.&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to search for the closest insertion position.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékeket, amelyeket a legközelebbi beszúrási pozíciója keresése logikai irányát határozza meg.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the closest insertion position in the specified direction.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a legközelebbi beszúrási pozícióba a megadott irányban.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning of a line that is specified relative to the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Értéket ad vissza egy <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megadott viszonyítva az aktuális sor elejére <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; points to an ambiguous position, for example, between two lines, the line in the direction specified by &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; is selected as the relative starting line.</source>
+          <target state="translated">Ha a &lt;xref:System.Windows.Documents.TextPointer&gt;mutat egyértelmű helyzetbe, például között két sort a sor által megadott irányban &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;a relatív kezdő sor választotta.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The operation performed by this method depends on a valid layout.</source>
+          <target state="translated">Ez a metódus által végrehajtott műveletet egy érvényes elrendezés függ.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When necessary, this method attempts to automatically regenerate a valid layout before proceeding with the operation.</source>
+          <target state="translated">Ha szükséges, ez a módszer megpróbálja automatikusan generálja újra egy érvényes elrendezést a művelet folytatása előtt.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regenerating a layout can be a relatively expensive operation.</source>
+          <target state="translated">Egy elrendezés újragenerálása lehet egy viszonylag drága művelet.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt; to check for a valid layout before performing operations that may regenerate the layout.</source>
+          <target state="translated">Használjon &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;Előfordulhat, hogy újragenerálja a elrendezés műveletek végrehajtása előtt egy érvényes elrendezés kereséséhez.&lt;/xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Layout<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>elrendezés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The number of start-of-line markers to skip when determining the line for which to return the starting position.</source>
+          <target state="translated">A start külön jelölők, amelyek esetében szeretne kezdőpozícióját adja vissza a sor számának meghatározásakor kihagyását száma.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Negative values specify preceding lines, 0 specifies the current line, and positive values specify following lines.</source>
+          <target state="translated">Negatív értékeket adja meg az előző sorok, 0, adja meg az aktuális sor, és pozitív értéket adja meg a következő sorokat.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> pointing to the beginning of the specified line (with the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt; set to <bpt id="p2">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>), or <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if the specified line is out of range or otherwise cannot be located.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> mutat a megadott sor elejére (az a &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;beállítása <bpt id="p2">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>), vagy <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> Ha a megadott sor kívül esik a tartományon vagy más módon nem található.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning of a line that is specified relative to the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and reports how many lines were skipped.</source>
+          <target state="translated">Értéket ad vissza egy <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megadott viszonyítva az aktuális sor elejére <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, és hány sorok ki lettek hagyva a jelentéseket.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; points to an ambiguous position, for example, between two lines, the line in the direction specified by the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; property is selected as the relative starting line.</source>
+          <target state="translated">Ha a &lt;xref:System.Windows.Documents.TextPointer&gt;mutat egyértelmű helyzetbe, például között két sort a sor által megadott irányban a &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;tulajdonság a relatív kezdő sor legyen kijelölve.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The number of start-of-line markers to skip when determining the line for which to return the starting position.</source>
+          <target state="translated">A start külön jelölők, amelyek esetében szeretne kezdőpozícióját adja vissza a sor számának meghatározásakor kihagyását száma.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Negative values specify preceding lines, 0 specifies the current line, and positive values specify following lines.</source>
+          <target state="translated">Negatív értékeket adja meg az előző sorok, 0, adja meg az aktuális sor, és pozitív értéket adja meg a következő sorokat.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the actual number of start-of-line markers that were skipped when determining the line for which to return the starting position.</source>
+          <target state="translated">Ez a módszer adja vissza, ha kezdő külön jelölők, amelyek ki lettek hagyva a, amelyek esetében szeretne kezdőpozícióját adja vissza a sor számának meghatározásakor tényleges számát tartalmazza.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This value may be less than <ph id="ph1">`count`</ph> if the beginning or end of content is encountered before the specified number of lines are skipped.</source>
+          <target state="translated">Ez az érték lehet kisebb, mint <ph id="ph1">`count`</ph> Ha elején vagy végén a tartalmat a rendszer észlelt előtt a megadott számú sort kimarad.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Ez a paraméter lett átadva nem inicializált.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> pointing to the beginning of the specified line (with the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt; set to <bpt id="p2">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>), or to the beginning of the line closest to the specified line if the specified line is out of range.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> mutat a megadott sor elejére (az a &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;beállítása <bpt id="p2">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>), vagy a legközelebbi a megadott sor, ha az engedélyezett tartományon kívül esik a megadott sor sor elejére.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Returns a pointer to the next symbol in the specified logical direction.</source>
+          <target state="translated">Visszaad egy mutatót a következő jellel a megadott logikai irányban.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for a &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">Az alábbi tekinthető szimbólum: - nyitó vagy záró címkéjének egy &lt;xref:System.Windows.Documents.TextElement&gt;elem.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">-A &lt;xref:System.Windows.UIElement&gt;elem szerepel egy &lt;xref:System.Windows.Documents.InlineUIContainer&gt;vagy &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">Vegye figyelembe, hogy az ilyen egy &lt;xref:System.Windows.UIElement&gt;mindig egynek pontosan egy szimbólumot; minden további tartalmat vagy által tárolt elemeket a &lt;xref:System.Windows.UIElement&gt;nem számítanak szimbólumok.&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-A 16 bites <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> karakter egy szöveges belül &lt;xref:System.Windows.Documents.Run&gt;elem.&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the next symbol is categorized as &lt;xref:System.Windows.Documents.TextPointerContext&gt;, &lt;xref:System.Windows.Documents.TextPointerContext&gt;, or &lt;xref:System.Windows.Documents.TextPointerContext&gt; (as identified by the &lt;xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt; method), then the &lt;xref:System.Windows.Documents.TextPointer&gt; returned by this method is advanced by exactly one symbol from the current position.</source>
+          <target state="translated">A következő szimbólum van kategóriába sorolt, ha &lt;xref:System.Windows.Documents.TextPointerContext&gt;, &lt;xref:System.Windows.Documents.TextPointerContext&gt;, vagy &lt;xref:System.Windows.Documents.TextPointerContext&gt;(által meghatározott a &lt;xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt;metódus), akkor a &lt;xref:System.Windows.Documents.TextPointer&gt;által visszaadott módszer az aktuális pozícióban pontosan egy szimbólum a kiemelt.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the next symbol is categorized as &lt;xref:System.Windows.Documents.TextPointerContext&gt;, then the &lt;xref:System.Windows.Documents.TextPointer&gt; returned by this method is advanced past the text to the next non-text symbol (that is, the next position where the &lt;xref:System.Windows.Documents.TextPointerContext&gt; is not &lt;xref:System.Windows.Documents.TextPointerContext&gt;).</source>
+          <target state="translated">A következő szimbólum van kategóriába sorolt, ha &lt;xref:System.Windows.Documents.TextPointerContext&gt;, majd a &lt;xref:System.Windows.Documents.TextPointer&gt;által visszaadott módszer a kiemelt túli a szöveg a következő nem szöveges jellel (Ez azt jelenti, hogy a következő elhelyezése where a &lt;xref:System.Windows.Documents.TextPointerContext&gt;nem &lt;xref:System.Windows.Documents.TextPointerContext&gt;).&lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exact symbol count crossed can be calculated in advance by calling the &lt;xref:System.Windows.Documents.TextPointer.GetTextRunLength%2A&gt; method.</source>
+          <target state="translated">A pontos szimbólum száma átlépte kerülhet sor, előre meghívásával a &lt;xref:System.Windows.Documents.TextPointer.GetTextRunLength%2A&gt;metódus.&lt;/xref:System.Windows.Documents.TextPointer.GetTextRunLength%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to search for the next symbol.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékeket, amelyeket a következő szimbólum keresése logikai irányát határozza meg.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next symbol in the requested direction, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the current <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> borders the start or end of content.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a következő jellel a kért irányban vagy <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha az aktuális <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> szegélyek a kezdő vagy a tartalom végét.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next insertion position in the specified logical direction.</source>
+          <target state="translated">Értéket ad vissza egy <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a következő beszúrási pozícióba a megadott logikai irányban.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An <bpt id="p1">*</bpt>insertion position<ept id="p1">*</ept> is a position where new content may be added without breaking any semantic rules for the associated content.</source>
+          <target state="translated">Egy <bpt id="p1">*</bpt>beszúrási pozíciója<ept id="p1">*</ept> egy pozíció, ahol új tartalom társított tartalom szemantikai szabályok megszüntetése nélkül adhatók hozzá.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In practice, an insertion position is anywhere in content where a caret may be positioned.</source>
+          <target state="translated">A gyakorlatban egy beszúrási pozíciója nem bárhol tartalom, ahol kalap is kell elhelyezni.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a valid &lt;xref:System.Windows.Documents.TextPointer&gt; position that is not an insertion position is the position between two adjacent &lt;xref:System.Windows.Documents.Paragraph&gt; tags (that is, between the closing tag of the preceding paragraph and the opening tag of the next paragraph).</source>
+          <target state="translated">Egy érvényes &lt;xref:System.Windows.Documents.TextPointer&gt;pozíció, amely nem egy beszúrási pozíciója azt két egymás között &lt;xref:System.Windows.Documents.Paragraph&gt;címkék (Ez azt jelenti, hogy az előző bekezdésben záró címkéjének és a következő bekezdés nyitó címkéje között).&lt;/xref:System.Windows.Documents.Paragraph&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to search for the next insertion position.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékek, amelyek keresse meg a következő beszúrási pozíciója a logikai irányát határozza meg.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the next insertion position in the requested direction, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no next insertion position can be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely azonosítja a következő beszúrási pozíciója a kért irányban vagy <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha nincs következő beszúrási pozíciója található.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Returns the count of symbols between the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and a second specified <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Szimbólumok számát adja meg az aktuális közötti <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és egy második megadott <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for a &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">Az alábbi tekinthető szimbólum: - nyitó vagy záró címkéjének egy &lt;xref:System.Windows.Documents.TextElement&gt;elem.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">-A &lt;xref:System.Windows.UIElement&gt;elem szerepel egy &lt;xref:System.Windows.Documents.InlineUIContainer&gt;vagy &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">Vegye figyelembe, hogy az ilyen egy &lt;xref:System.Windows.UIElement&gt;mindig egynek pontosan egy szimbólumot; minden további tartalmat vagy által tárolt elemeket a &lt;xref:System.Windows.UIElement&gt;nem számítanak szimbólumok.&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-A 16 bites <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> karakter egy szöveges belül &lt;xref:System.Windows.Documents.Run&gt;elem.&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies a position to find the distance (in symbols) to.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely megadja, hogy a pozíció (a szimbólumok) távolság keresésére.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The relative number of symbols between the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">position</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Az aktuális közötti szimbólumok relatív száma <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">position</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A negative value indicates that the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> follows the position specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">position</ph><ept id="p2">&lt;/code&gt;</ept>, 0 indicates that the positions are equal, and a positive value indicates that the current <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> precedes the position specified by <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">position</ph><ept id="p4">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Negatív érték azt jelzi, hogy az aktuális <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> által megadott pozícióját a következő <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">position</ph> <ept id="p2">&lt;/code&gt;</ept>, 0 azt jelenti, hogy a pozíció egyenlő, és pozitív érték azt jelzi, hogy az aktuális <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> megelőzi a megadott pozíció <bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">position</ph> <ept id="p4">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;position&lt;/code&gt;</ph> specifies a position outside of the text container associated with the current position.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;position&lt;/code&gt;</ph>Megadja az aktuális pozíció társított szövegtároló kívül egy pozícióját.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Returns a category indicator for the content adjacent to the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified logical direction.</source>
+          <target state="translated">Az aktuális szomszédos adja vissza a tartalom kategória mutató <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott logikai irányban.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to determine the category for adjacent content.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékeket, amelyeket a szomszédos tartalom kategória határozza meg a logikai irányát határozza meg.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointerContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates the category for adjacent content in the specified logical direction.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointerContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékek, amelyek a megadott logikai irányban szomszédos tartalom kategória jelzi.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the position indicated by the specified offset, in symbols, from the beginning of the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Értéket ad vissza egy <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> által a megadott eltolás, a szimbólumok, az aktuális kezdetétől pozíciójától <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for the &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">Az alábbi tekinthető szimbólum: - nyitó vagy záró címkéjének a &lt;xref:System.Windows.Documents.TextElement&gt;elem.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">-A &lt;xref:System.Windows.UIElement&gt;elem szerepel egy &lt;xref:System.Windows.Documents.InlineUIContainer&gt;vagy &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">Vegye figyelembe, hogy az ilyen egy &lt;xref:System.Windows.UIElement&gt;mindig egynek pontosan egy szimbólumot; minden további tartalmat vagy által tárolt elemeket a &lt;xref:System.Windows.UIElement&gt;nem számítanak szimbólumok.&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-A 16 bites <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> karakter egy szöveges belül &lt;xref:System.Windows.Documents.Run&gt;elem.&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>An offset, in symbols, for which to calculate and return the position.</source>
+          <target state="translated">Az eltolás a szimbólumok, amelynek alapján számítja ki, és visszaadja.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>If the offset is negative, the position is calculated in the logical direction opposite of that indicated by the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt; property.</source>
+          <target state="translated">Az eltolás értéke negatív, ha a pozíció kiszámítása logikai irányában szemben, amelyet a &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;tulajdonság.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the position indicated by the specified offset, or<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>if no corresponding position can be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> pozíciójától által a megadott eltolás vagy<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>Ha nincs megfelelő pozícióban található.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the position indicated by the specified offset, in symbols, from the beginning of the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and in the specified direction.</source>
+          <target state="translated">Értéket ad vissza egy <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> által a megadott eltolás, a szimbólumok, az aktuális kezdetétől pozíciójától <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> és a megadott irányban.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for the &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">Az alábbi tekinthető szimbólum: - nyitó vagy záró címkéjének a &lt;xref:System.Windows.Documents.TextElement&gt;elem.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">-A &lt;xref:System.Windows.UIElement&gt;elem szerepel egy &lt;xref:System.Windows.Documents.InlineUIContainer&gt;vagy &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">Vegye figyelembe, hogy az ilyen egy &lt;xref:System.Windows.UIElement&gt;mindig egynek pontosan egy szimbólumot; minden további tartalmat vagy által tárolt elemeket a &lt;xref:System.Windows.UIElement&gt;nem számítanak szimbólumok.&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-A 16 bites <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> karakter egy szöveges belül &lt;xref:System.Windows.Documents.Run&gt;elem.&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>An offset, in symbols, for which to calculate and return the position.</source>
+          <target state="translated">Az eltolás a szimbólumok, amelynek alapján számítja ki, és visszaadja.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>If the offset is negative, the returned <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> precedes the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, it follows.</source>
+          <target state="translated">Ha az eltolás negatív, a visszaadott <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megelőzi az aktuális <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; ellenkező esetben ez azt jelenti.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction of the returned <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékek, amelyek a logikai iránya a visszaadott <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the position indicated by the specified offset, or<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>if the offset extends past the end of the content.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> pozíciójától által a megadott eltolás vagy<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>Ha eltolás túlnyúlik a tartalom végét.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Returns a string containing any text adjacent to the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified logical direction.</source>
+          <target state="translated">Az aktuális szomszédos szöveget tartalmazó karakterlánc visszaadása <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott logikai irányban.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns only uninterrupted runs of text.</source>
+          <target state="translated">Ez a módszer csak folyamatos frissítési kísérletei során szöveget adja vissza.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Nothing is returned if any symbol type other than &lt;xref:System.Windows.Documents.TextPointerContext&gt; is adjacent to the current &lt;xref:System.Windows.Documents.TextPointer&gt; in the specified direction.</source>
+          <target state="translated">Ha bármelyik szimbólumának típusa eltérő semmit &lt;xref:System.Windows.Documents.TextPointerContext&gt;az aktuális szomszédos &lt;xref:System.Windows.Documents.TextPointer&gt;a megadott irányban.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, text is returned only up to the next non-text symbol.</source>
+          <target state="translated">Hasonlóképpen szöveg csak a következő nem szöveges szimbólum legfeljebb adja vissza.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to find and return any adjacent text.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely meghatározza a logikai irányát megkeresi és visszaadja a szomszédos szöveges értékeket.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>A string containing any adjacent text in the specified logical direction, or <ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> if no adjacent text can be found.</source>
+          <target state="translated">A megadott logikai irányban szomszédos szöveget tartalmazó karakterláncot vagy <ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> Ha nincs mellette található.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Copies the specified maximum number of characters from any adjacent text in the specified direction into a caller-supplied character array.</source>
+          <target state="translated">A hívó által megadott karaktertömbnek a megadott irányban szomszédos szöveg másolja át a megadott maximális karakterszámot.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns only uninterrupted runs of text.</source>
+          <target state="translated">Ez a módszer csak folyamatos frissítési kísérletei során szöveget adja vissza.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Nothing is returned if any symbol type other than &lt;xref:System.Windows.Documents.TextPointerContext&gt; is adjacent to the current &lt;xref:System.Windows.Documents.TextPointer&gt; in the specified direction.</source>
+          <target state="translated">Ha bármelyik szimbólumának típusa eltérő semmit &lt;xref:System.Windows.Documents.TextPointerContext&gt;az aktuális szomszédos &lt;xref:System.Windows.Documents.TextPointer&gt;a megadott irányban.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, text is returned only up to the next non-text symbol.</source>
+          <target state="translated">Hasonlóképpen szöveg csak a következő nem szöveges szimbólum legfeljebb adja vissza.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to find and copy any adjacent text.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékek, amelyek található, és másolja a szomszédos szöveg logikai irányát határozza meg.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>A buffer into which any text is copied.</source>
+          <target state="translated">A puffer, amelybe szöveg másolódik.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>An index into <ph id="ph1">`textBuffer`</ph> at which to begin writing copied text.</source>
+          <target state="translated">Az index <ph id="ph1">`textBuffer`</ph> kezdőpontját írás másolt szöveget.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The maximum number of characters to copy.</source>
+          <target state="translated">A másolandó karakterek maximális száma.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The number of characters actually copied into <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">textBuffer</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A ténylegesen másolta, a karakterek számát <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">textBuffer</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;startIndex&lt;/code&gt;</ph> is less than 0 or greater than the <ph id="ph2">&lt;xref:System.Array.Length*&gt;</ph> property of <ph id="ph3">&lt;code&gt;textBuffer&lt;/code&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;startIndex&lt;/code&gt;</ph>kisebb, mint 0 vagy nagyobb, mint a <ph id="ph2">&lt;xref:System.Array.Length*&gt;</ph> tulajdonsága <ph id="ph3">&lt;code&gt;textBuffer&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than 0 or greater than the remaining space in <ph id="ph2">&lt;code&gt;textBuffer&lt;/code&gt;</ph> (<ph id="ph3">&lt;code&gt;textBuffer&lt;/code&gt;</ph>.<ph id="ph4">&lt;xref:System.Array.Length*&gt;</ph></source>
+          <target state="translated">– vagy – <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> kisebb, mint 0 vagy nagyobb, mint a fennmaradó terület <ph id="ph2">&lt;code&gt;textBuffer&lt;/code&gt;</ph> (<ph id="ph3">&lt;code&gt;textBuffer&lt;/code&gt;</ph>.<ph id="ph4">&lt;xref:System.Array.Length*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>minus <ph id="ph1">&lt;code&gt;startIndex&lt;/code&gt;</ph>).</source>
+          <target state="translated">mínusz <ph id="ph1">&lt;code&gt;startIndex&lt;/code&gt;</ph>).</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Returns the number of Unicode characters between the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the next non-text symbol, in the specified logical direction.</source>
+          <target state="translated">Unicode karakterek számát adja vissza az aktuális közötti <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és a következő nem szöveges szimbólumok, a megadott logikai irányban.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for the &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">Az alábbi tekinthető szimbólum: - nyitó vagy záró címkéjének a &lt;xref:System.Windows.Documents.TextElement&gt;elem.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">-A &lt;xref:System.Windows.UIElement&gt;elem szerepel egy &lt;xref:System.Windows.Documents.InlineUIContainer&gt;vagy &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">Vegye figyelembe, hogy az ilyen egy &lt;xref:System.Windows.UIElement&gt;mindig egynek pontosan egy szimbólumot; minden további tartalmat vagy által tárolt elemeket a &lt;xref:System.Windows.UIElement&gt;nem számítanak szimbólumok.&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-A 16 bites <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> karakter egy szöveges belül &lt;xref:System.Windows.Documents.Run&gt;elem.&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to count the number of characters.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékek, amelyek a logikai irányát a karakterek számát határozza meg.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The number of Unicode characters between the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the next non-text symbol.</source>
+          <target state="translated">Az aktuális közötti Unicode karakterek <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és a következő nem szöveges szimbólum.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>This number may be 0 if there is no adjacent text.</source>
+          <target state="translated">Ez a szám 0 lehet, ha nincs szomszédos szöveg.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the text container associated with the current position has a valid (up-to-date) layout.</source>
+          <target state="translated">Egy érték, amely jelzi, hogy az aktuális pozíció társított szövegtároló van-e egy érvényes (naprakész) elrendezés lekérdezi.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When necessary, operations that depend on a valid layout (such as the &lt;xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt; method, &lt;xref:System.Windows.Documents.TextPointer.GetCharacterRect%2A&gt; method, and &lt;xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt; property) attempt to automatically regenerate a valid layout before proceeding with the operation.</source>
+          <target state="translated">Szükség esetén egy érvényes elrendezés függő műveletek (például a &lt;xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt;metódus, &lt;xref:System.Windows.Documents.TextPointer.GetCharacterRect%2A&gt;metódust, és &lt;xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt;tulajdonság) megpróbálja automatikusan generálja újra a művelet folytatása előtt érvényes elrendezést.&lt;/xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetCharacterRect%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regenerating a layout can be a relatively expensive operation.</source>
+          <target state="translated">Egy elrendezés újragenerálása lehet egy viszonylag drága művelet.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to check for a valid layout before performing operations that may regenerate the layout.</source>
+          <target state="translated">Ez a tulajdonság használatával, előfordulhat, hogy újragenerálja a elrendezés műveletek végrehajtása előtt ellenőrizni, hogy érvényes elrendezést.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Layout<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>elrendezés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the layout is current and valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a elrendezése aktuális és érvényes; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Inserts a line break at the current position.</source>
+          <target state="translated">Szúrja be sortörés a jelenlegi állapotában.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> positioned immediately after the <bpt id="p2">&lt;xref href="System.Windows.Documents.LineBreak"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element inserted by this method.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elhelyezett után azonnal a <bpt id="p2">&lt;xref href="System.Windows.Documents.LineBreak"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> elem szúrhat be ezt a módszert.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Inserts a paragraph break at the current position.</source>
+          <target state="translated">Szúrja be a bekezdés megszakítás a jelenlegi állapotában.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method is called when the current position is inside of an existing &lt;xref:System.Windows.Documents.Paragraph&gt; element, the existing paragraph and any content it contains are split into two paragraphs at the current position.</source>
+          <target state="translated">Ha ezt a módszert nevezik, ha az aktuális pozíció belül egy meglévő &lt;xref:System.Windows.Documents.Paragraph&gt;elem, a meglévő bekezdés és a benne található tartalmat felosztása két bekezdés a jelenlegi állapotában.&lt;/xref:System.Windows.Documents.Paragraph&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method is called when the current position is not inside of an existing paragraph, a new, empty paragraph is inserted.</source>
+          <target state="translated">Ez a metódus hívása esetén, ha az aktuális pozíció nem egy meglévő bekezdés belül, egy új, üres részének.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method is called at a position unsuitable for splitting or inserting a paragraph (for example, if the current position is inside of a &lt;xref:System.Windows.Documents.Hyperlink&gt; element), an exception is thrown.</source>
+          <target state="translated">Ha ezt a módszert nevezik pozíciójában felosztásával, vagy egy bekezdés beszúrása alkalmatlan (például, ha az aktuális pozíció belül egy &lt;xref:System.Windows.Documents.Hyperlink&gt;elem), kivételt vált ki.&lt;/xref:System.Windows.Documents.Hyperlink&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning (&lt;xref:System.Windows.Documents.TextElement.ContentStart*&gt;) of the new paragraph.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elején (&lt;xref:System.Windows.Documents.TextElement.ContentStart*&gt;) az új bekezdés.&lt;/xref:System.Windows.Documents.TextElement.ContentStart*&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>This method is called on a position that cannot be split to accommodate a new paragraph, such as in the scope of a <bpt id="p1">&lt;xref href="System.Windows.Documents.Hyperlink"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Documents.InlineUIContainer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ezt a módszert nevezik, amely nem osztható fel olyan új bekezdés, például hatókörében pozíció az egy <bpt id="p1">&lt;xref href="System.Windows.Documents.Hyperlink"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vagy <bpt id="p2">&lt;xref href="System.Windows.Documents.InlineUIContainer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Inserts the specified text into the text <bpt id="p1">&lt;xref href="System.Windows.Documents.Run"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the current position.</source>
+          <target state="translated">A megadott szöveg szúr be a szöveget <bpt id="p1">&lt;xref href="System.Windows.Documents.Run"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a jelenlegi állapotában.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; is not scoped by a &lt;xref:System.Windows.Documents.Run&gt; element, a &lt;xref:System.Windows.Documents.Run&gt; is inserted along with the <ph id="ph1">`textData`</ph>.</source>
+          <target state="translated">Ha a &lt;xref:System.Windows.Documents.TextPointer&gt;által hatóköre nem a &lt;xref:System.Windows.Documents.Run&gt;elem, egy &lt;xref:System.Windows.Documents.Run&gt;kerül beillesztésre, valamint a <ph id="ph1">`textData`</ph>.&lt;/xref:System.Windows.Documents.Run&gt; &lt;/xref:System.Windows.Documents.Run&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The text to insert.</source>
+          <target state="translated">Helyezze be a szöveg.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The current position is not within a <bpt id="p1">&lt;xref href="System.Windows.Documents.Run"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Az aktuális pozíció nem szerepel a következőben egy <bpt id="p1">&lt;xref href="System.Windows.Documents.Run"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elemet.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;textData&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;textData&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the current position is an insertion position.</source>
+          <target state="translated">Lekérdezi egy érték, amely azt jelzi, hogy az aktuális pozíció egy beszúrási pozíciója.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An insertion position is a position where new content may be added without breaking any semantic rules for the associated content.</source>
+          <target state="translated">Egy beszúrási pozíciója egy helyen, ahol új tartalom társított tartalom szemantikai szabályok megszüntetése nélkül adhatók hozzá.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In practice, an insertion position is anywhere in content where a caret may be positioned.</source>
+          <target state="translated">A gyakorlatban egy beszúrási pozíciója nem bárhol tartalom, ahol kalap is kell elhelyezni.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a valid &lt;xref:System.Windows.Documents.TextPointer&gt; position that is not an insertion position is the position between two adjacent &lt;xref:System.Windows.Documents.Paragraph&gt; tags (that is, between the closing tag of the preceding paragraph and the opening tag of the next paragraph).</source>
+          <target state="translated">Egy érvényes &lt;xref:System.Windows.Documents.TextPointer&gt;pozíció, amely nem egy beszúrási pozíciója azt két egymás között &lt;xref:System.Windows.Documents.Paragraph&gt;címkék (Ez azt jelenti, hogy az előző bekezdésben záró címkéjének és a következő bekezdés nyitó címkéje között).&lt;/xref:System.Windows.Documents.Paragraph&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current position is an insertion position; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az aktuális pozíció egy beszúrási pozíciója; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the current position is at the beginning of a line.</source>
+          <target state="translated">Lekérdezi egy érték, amely azt jelzi, hogy az aktuális pozíció egy sor elején.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; points to an ambiguous position, for example, between two lines, the line in the direction specified by the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; property is selected as the relative starting line.</source>
+          <target state="translated">Ha a &lt;xref:System.Windows.Documents.TextPointer&gt;mutat egyértelmű helyzetbe, például között két sort a sor által megadott irányban a &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;tulajdonság a relatív kezdő sor legyen kijelölve.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The operation performed by this property depends on a valid layout.</source>
+          <target state="translated">Ez a tulajdonság által végrehajtott műveletet egy érvényes elrendezés függ.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When necessary, this method attempts to automatically regenerate a valid layout before proceeding with the operation.</source>
+          <target state="translated">Ha szükséges, ez a módszer megpróbálja automatikusan generálja újra egy érvényes elrendezést a művelet folytatása előtt.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regenerating a layout can be a relatively expensive operation.</source>
+          <target state="translated">Egy elrendezés újragenerálása lehet egy viszonylag drága művelet.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt; property to check for a valid layout before performing operations that may regenerate the layout.</source>
+          <target state="translated">Használja a &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;tulajdonsága egy érvényes elrendezés kereséséhez, előfordulhat, hogy újragenerálja a elrendezés műveletek végrehajtása előtt.&lt;/xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Layout<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>elrendezés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current position is at the beginning of a line; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az aktuális pozíció; sor elejére Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Indicates whether the specified position is in the same text container as the current position.</source>
+          <target state="translated">Azt jelzi, hogy a megadott pozíciónál az aktuális pozíció azonos szöveg tárolóban.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most operations that involve multiple &lt;xref:System.Windows.Documents.TextPointer&gt; instances are only valid if the instances in question indicate positions that are in the same text container scope.</source>
+          <target state="translated">A legtöbb műveletek, például több &lt;xref:System.Windows.Documents.TextPointer&gt;példányok csak akkor érvényes, ha a szóban forgó példányok jelzi a azonos szöveg tároló hatókörébe pozíciók.&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example the &lt;xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt; methods cannot be used with a &lt;xref:System.Windows.Documents.TextPointer&gt; to a position outside of the text container associated with the current position.</source>
+          <target state="translated">Például a &lt;xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt;és &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;metódusok nem használható egy &lt;xref:System.Windows.Documents.TextPointer&gt;az aktuális pozíció társított szövegtároló kívüli helyre.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to verify that a specified &lt;xref:System.Windows.Documents.TextPointer&gt; is compatible with the current position for such operations.</source>
+          <target state="translated">Ezt a módszert használja, ha annak ellenőrzésére, hogy a megadott &lt;xref:System.Windows.Documents.TextPointer&gt;kompatibilis az aktuális pozíció az ilyen műveleteket.&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies a position to compare to the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely megadja, hogy hasonlítsa össze az aktuális pozíció.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">textPosition</ph><ept id="p2">&lt;/code&gt;</ept> indicates a position that is in the same text container as the current position; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">textPosition</ph> <ept id="p2">&lt;/code&gt;</ept> pozíció, amely ugyanabban a szöveg tárolóban az aktuális pozíció; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;textPosition&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;textPosition&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets the logical direction associated with the current position which is used to disambiguate content associated with the current position.</source>
+          <target state="translated">Lekérdezi az aktuális pozíció, amely a tartalom társítva a jelenlegi állapotában a félreérthetőség megszüntetéséhez társított logikai irányát.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As an example of how this property is used, the &lt;xref:System.Windows.Documents.LogicalDirection&gt; of the &lt;xref:System.Windows.Documents.TextPointer&gt; returned by a hit test method gives a hit that is between two characters of text.</source>
+          <target state="translated">Példa bemutatja, hogyan ezzel a tulajdonsággal a &lt;xref:System.Windows.Documents.LogicalDirection&gt;, a &lt;xref:System.Windows.Documents.TextPointer&gt;visszaadott találati teszt által módszert biztosít két karakterek a szöveg közötti találat.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.LogicalDirection&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The logical direction specifies which of the two characters was actually hit—the left or the right.</source>
+          <target state="translated">A logikai irányát határozza meg, ami a két karakter ténylegesen korlátját – balra vagy jobbra.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that is associated with the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érték, amely az aktuális pozíció társított.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Gets the paragraph that scopes the current position, if any.</source>
+          <target state="translated">Lekérdezi az aktuális pozíció hatóköröket bekezdés, ha van ilyen.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Documents.Paragraph"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that scopes the current position, or<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>if no such paragraph exists.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.Paragraph"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely az aktuális pozíció hatóköröket vagy<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>Ha nincs ilyen bekezdés már létezik.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Gets the logical parent that scopes the current position.</source>
+          <target state="translated">Lekérdezi a logikai szülője, amely az aktuális pozíció hatóköröket.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>The logical parent that scopes the current position.</source>
+          <target state="translated">Az aktuális pozíció hatóköröket logikai szülője.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>This type or member supports the <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">Ez a típus vagy tag támogatja a <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> infrastruktúra és nem javasolt közvetlenül a kódból használni.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The string that represents the object.</source>
+          <target state="translated">A karakterlánc, amely az objektumot határozza meg.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
