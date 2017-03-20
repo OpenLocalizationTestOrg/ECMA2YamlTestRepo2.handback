@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">289420c86350d885223f929885abb32f598dede0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Serialization.ISafeSerializationData.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4336eb7f06b1a20f7518d6f5918b94578189baf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5cbcd33a228624c37ec5b68d59abdf169078389b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables serialization of custom exception data in security-transparent code.</source>
+          <target state="translated">Gör det möjligt för serialisering av anpassade Undantagsdata i säkerhetstransparenta kod.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In versions previous to.NET Framework 4.0, serialization of custom user data in a security transparent code was accomplished using the &lt;xref:System.Exception.GetObjectData%2A&gt; method.</source>
+          <target state="translated">I versioner tidigare to.NET Framework 4.0, serialisering av anpassade data i en transparent säkerhetskod gjordes detta med hjälp av den &lt;xref:System.Exception.GetObjectData%2A&gt;metoden.&lt;/xref:System.Exception.GetObjectData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting with .NET Framework 4.0, that method is marked with the &lt;xref:System.Security.SecurityCriticalAttribute&gt; attribute which prevents execution in security-transparent code.</source>
+          <target state="translated">Från och med .NET Framework 4.0 kan den här metoden är markerad med den &lt;xref:System.Security.SecurityCriticalAttribute&gt;attribut som hindrar körning i säkerhetstransparenta kod.&lt;/xref:System.Security.SecurityCriticalAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To work around this condition, implement the ISafeSerializationData interface and add custom data as shown in the example below.</source>
+          <target state="translated">Om du vill undvika det här tillståndet kan implementera gränssnittet ISafeSerializationData och Lägg till anpassade data som visas i exemplet nedan.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Serialization.ISafeSerializationData.CompleteDeserialization%2A&gt; method is called after serialization, and uses the &lt;xref:System.Runtime.Serialization.SafeSerializationEventArgs&gt; to restore the custom data.</source>
+          <target state="translated">Den &lt;xref:System.Runtime.Serialization.ISafeSerializationData.CompleteDeserialization%2A&gt;metoden anropas efter serialisering och använder den &lt;xref:System.Runtime.Serialization.SafeSerializationEventArgs&gt;att återställa anpassade data.&lt;/xref:System.Runtime.Serialization.SafeSerializationEventArgs&gt; &lt;/xref:System.Runtime.Serialization.ISafeSerializationData.CompleteDeserialization%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This method is called when the instance is deserialized.</source>
+          <target state="translated">Den här metoden anropas när instansen avserialiseras.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The state object is stored in a private variable defined in the implementation of the &lt;xref:System.Runtime.Serialization.ISafeSerializationData&gt; class.</source>
+          <target state="translated">Tillståndsobjektet lagras i en privat variabel som definierats i implementeringen av &lt;xref:System.Runtime.Serialization.ISafeSerializationData&gt;klass.&lt;/xref:System.Runtime.Serialization.ISafeSerializationData&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An object that contains the state of the instance.</source>
+          <target state="translated">Ett objekt som innehåller status för instansen.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

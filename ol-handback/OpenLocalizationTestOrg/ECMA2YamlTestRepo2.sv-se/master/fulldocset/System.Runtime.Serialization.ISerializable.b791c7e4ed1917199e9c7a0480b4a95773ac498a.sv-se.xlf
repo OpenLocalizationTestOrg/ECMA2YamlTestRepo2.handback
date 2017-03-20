@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bf81347af22dba66a1f1948ec5e4057dd57bb5a0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Serialization.ISerializable.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a5516bc5c765c2d022a27d708a59c47b00681299</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec8abb95db674a321b19560dea4f05cddf27e899</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows an object to control its own serialization and deserialization.</source>
+          <target state="translated">Tillåter ett objekt för att styra sin egen serialisering och deserialisering.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any class that might be serialized must be marked with the &lt;xref:System.SerializableAttribute&gt;.</source>
+          <target state="translated">En klass som kan serialiseras måste markeras med &lt;xref:System.SerializableAttribute&gt;.&lt;/xref:System.SerializableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a class needs to control its serialization process, it can implement the ISerializable interface.</source>
+          <target state="translated">Om en klass måste kontrollera dess serialisering process, implementerar det ISerializable-gränssnittet.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Serialization.Formatter&gt; calls the &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt; at serialization time and populates the supplied &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; with all the data required to represent the object.</source>
+          <target state="translated">Den &lt;xref:System.Runtime.Serialization.Formatter&gt;anrop av &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;serialisering för närvarande och fyller den angivna &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;med alla data som krävs för att representera objektet.&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt; &lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt; &lt;/xref:System.Runtime.Serialization.Formatter&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Serialization.Formatter&gt; creates a &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; with the type of the object in the graph.</source>
+          <target state="translated">Den &lt;xref:System.Runtime.Serialization.Formatter&gt;skapar en &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;med typ av objekt i diagrammet.&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt; &lt;/xref:System.Runtime.Serialization.Formatter&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects that need to send proxies for themselves can use the &lt;xref:System.Runtime.Serialization.SerializationInfo.FullTypeName%2A&gt; and &lt;xref:System.Runtime.Serialization.SerializationInfo.AssemblyName%2A&gt; methods on &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; to change the transmitted information.</source>
+          <target state="translated">Objekt som behöver skicka proxyservrar för själva kan använda den &lt;xref:System.Runtime.Serialization.SerializationInfo.FullTypeName%2A&gt;och &lt;xref:System.Runtime.Serialization.SerializationInfo.AssemblyName%2A&gt;metoder i &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;att ändra den överförda informationen.&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt; &lt;/xref:System.Runtime.Serialization.SerializationInfo.AssemblyName%2A&gt; &lt;/xref:System.Runtime.Serialization.SerializationInfo.FullTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of class inheritance, it is possible to serialize a class that derives from a base class that implements ISerializable.</source>
+          <target state="translated">När det gäller klassarv är det möjligt att serialisera en klass som härleds från en basklass som implementerar ISerializable.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, the derived class should call the base class implementation of &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt; inside its implementation of &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;.</source>
+          <target state="translated">I det här fallet ska den härledda klassen anropa basklass implementeringen av &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;i dess implementering av &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;.&lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt; &lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the data from the base class will not be serialized.</source>
+          <target state="translated">Data från basklassen kommer annars inte serialiseras.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ISerializable interface implies a constructor with the signature constructor (&lt;xref:System.Runtime.Serialization.SerializationInfo&gt; information, &lt;xref:System.Runtime.Serialization.StreamingContext&gt; context).</source>
+          <target state="translated">ISerializable-gränssnittet innebär en konstruktor med konstruktorn signatur (&lt;xref:System.Runtime.Serialization.SerializationInfo&gt; information &lt;xref:System.Runtime.Serialization.StreamingContext&gt;kontexten).&lt;/xref:System.Runtime.Serialization.StreamingContext&gt; &lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At deserialization time, the current constructor is called only after the data in the &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; has been deserialized by the formatter.</source>
+          <target state="translated">Vid deserialisering tidpunkt konstruktorn aktuella anropas efter data i den &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;har varit avserialiseras av Formateraren.&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In general, this constructor should be protected if the class is not sealed.</source>
+          <target state="translated">I allmänhet bör den här konstruktorn skyddas om klassen inte är förseglat.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order in which objects are deserialized cannot be guaranteed.</source>
+          <target state="translated">Den ordning som objekt är avserialiseras kan inte garanteras.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if one type references a type that has not been deserialized yet, an exception will occur.</source>
+          <target state="translated">Om en typ som inte ännu har deserialisera refererar till en typ, till exempel inträffar ett undantag.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are creating types that have such dependencies, you can work around the problem by implementing the <ph id="ph1">`IDeserializationCallback`</ph> interface and the <ph id="ph2">`OnDeserialization`</ph> method.</source>
+          <target state="translated">Om du skapar typer som har sådana beroenden, du kan undvika problemet genom att implementera den <ph id="ph1">`IDeserializationCallback`</ph> gränssnitt och <ph id="ph2">`OnDeserialization`</ph> metod.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serialization architecture handles object types that extend &lt;xref:System.MarshalByRefObject&gt; the same as types that extend &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Arkitektur för serialisering hanterar objekttyper som utökar &lt;xref:System.MarshalByRefObject&gt;de typer som utökar &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt; &lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These types can be marked with the &lt;xref:System.SerializableAttribute&gt; and implement the ISerializable interface as any other object type.</source>
+          <target state="translated">Dessa typer kan markeras med den &lt;xref:System.SerializableAttribute&gt;och implementerar ISerializable-gränssnittet som andra objekttyp.&lt;/xref:System.SerializableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Their object state will be captured and persisted onto the stream.</source>
+          <target state="translated">Tillstånd för objekt ska fångas och beständiga till dataströmmen.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When these types are being used through &lt;xref:System.Runtime.Remoting&gt;, the remoting infrastructure provides a surrogate that preempts typical serialization and instead serializes a proxy to the &lt;xref:System.MarshalByRefObject&gt;.</source>
+          <target state="translated">När dessa typer används via &lt;xref:System.Runtime.Remoting&gt;, fjärrinfrastrukturen ger ett surrogat som blockerar vanliga serialisering och i stället Serialiserar en proxy till &lt;xref:System.MarshalByRefObject&gt;.&lt;/xref:System.MarshalByRefObject&gt; &lt;/xref:System.Runtime.Remoting&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A surrogate is a helper that knows how to serialize and deserialize objects of a particular type.</source>
+          <target state="translated">Ett surrogat är en hjälp som vet hur serialisera och deserialisera objekt av en viss typ.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The proxy, invisible to the user in most cases, will be of type &lt;xref:System.Runtime.Remoting.ObjRef&gt;.</source>
+          <target state="translated">Proxy, osynliga för användare i de flesta fall ska vara av typen &lt;xref:System.Runtime.Remoting.ObjRef&gt;.&lt;/xref:System.Runtime.Remoting.ObjRef&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a general design pattern, it would be unusual for a class to be both marked with the serializable attribute and extend &lt;xref:System.MarshalByRefObject&gt;.</source>
+          <target state="translated">Som en allmän designmönstret är det ovanligt att en klass som båda markeras med attributet serialiseras och utöka &lt;xref:System.MarshalByRefObject&gt;.&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Developers should think carefully about the possible serialization and remoting scenarios when combining these two characteristics.</source>
+          <target state="translated">Utvecklare bör tänka igenom möjliga scenarier för serialisering och fjärrkommunikation vid kombination av dessa två variabler.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>One example where this might be applicable is with a &lt;xref:System.IO.MemoryStream&gt;.</source>
+          <target state="translated">Ett exempel där detta kan vara tillämpliga är med &lt;xref:System.IO.MemoryStream&gt;.&lt;/xref:System.IO.MemoryStream&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While the base class of &lt;xref:System.IO.MemoryStream&gt; (&lt;xref:System.IO.Stream&gt;) extends from &lt;xref:System.MarshalByRefObject&gt;, it is possible to capture the state of a &lt;xref:System.IO.MemoryStream&gt; and restore it at will.</source>
+          <target state="translated">När klassen basklass &lt;xref:System.IO.MemoryStream&gt;(&lt;xref:System.IO.Stream&gt;) sträcker sig från &lt;xref:System.MarshalByRefObject&gt;, är det möjligt att spara tillståndet för en &lt;xref:System.IO.MemoryStream&gt;och återställer den när du vill.&lt;/xref:System.IO.MemoryStream&gt; &lt;/xref:System.MarshalByRefObject&gt; &lt;/xref:System.IO.Stream&gt; &lt;/xref:System.IO.MemoryStream&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It might, therefore, be meaningful to serialize the state of this stream into a database and restore it at some later point in time.</source>
+          <target state="translated">Det kan därför vara meningsfullt att serialisera tillståndet för den här dataströmmen till en databas och återställer den vid en senare tidpunkt.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, when used through remoting, an object of this type would be proxied.</source>
+          <target state="translated">När det används via remoting, men är ett objekt av den här typen via proxy.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about serialization of classes that extend &lt;xref:System.MarshalByRefObject&gt;, see &lt;xref:System.Runtime.Remoting.Messaging.RemotingSurrogateSelector&gt;.</source>
+          <target state="translated">Mer information om serialisering av klasser som utökar &lt;xref:System.MarshalByRefObject&gt;finns &lt;xref:System.Runtime.Remoting.Messaging.RemotingSurrogateSelector&gt;.&lt;/xref:System.Runtime.Remoting.Messaging.RemotingSurrogateSelector&gt; &lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about implementing ISerializable, see <bpt id="p1">[</bpt>Custom Serialization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information om hur du implementerar ISerializable finns <bpt id="p1">[</bpt>anpassad serialisering<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Populates a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the data needed to serialize the target object.</source>
+          <target state="translated">Fyller på en <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> med de data som behövs för att serialisera målobjektet.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any objects that are included in the &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; are automatically tracked and serialized by the formatter.</source>
+          <target state="translated">Alla objekt som ingår i den &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;spåras och serialiseras av Formateraren automatiskt.&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Code that calls GetObjectData requires the &lt;xref:System.Security.Permissions.SecurityPermission&gt; for providing serialization services.</source>
+          <target state="translated">Kod som anropar GetObjectData kräver den &lt;xref:System.Security.Permissions.SecurityPermission&gt;för att tillhandahålla tjänster för serialisering.&lt;/xref:System.Security.Permissions.SecurityPermission&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Associated enumeration: &lt;xref:System.Security.Permissions.SecurityPermissionFlag?displayProperty=fullName&gt;.</source>
+          <target state="translated">Associerade uppräkningen: &lt;xref:System.Security.Permissions.SecurityPermissionFlag?displayProperty=fullName&gt;.&lt;/xref:System.Security.Permissions.SecurityPermissionFlag?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is not guaranteed that this method will be called only once per object instance during serialization.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Det är inte säkert att den här metoden kan bara anropas en gång per objektinstansen under serialiseringen.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the method should be implemented in such a way that its behavior will be the same regardless of the number of times it is called.</source>
+          <target state="translated">Metoden bör därför genomföras så att dess beteende blir detsamma oavsett hur många gånger den anropas.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to populate with data.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> att fylla i med data.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The destination (see &lt;xref:System.Runtime.Serialization.StreamingContext&gt;) for this serialization.</source>
+          <target state="translated">Målet (se &lt;xref:System.Runtime.Serialization.StreamingContext&gt;) för den här serialisering.&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">Anroparen har inte behörigheten som krävs.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

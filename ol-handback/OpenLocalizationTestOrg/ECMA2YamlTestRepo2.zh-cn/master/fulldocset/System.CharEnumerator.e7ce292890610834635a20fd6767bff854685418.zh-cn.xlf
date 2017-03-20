@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ce0b224927104a1128e11d8115c047dedbac509</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.CharEnumerator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45e0bbd77c586a0445435c6ae4ad5c4aae6762d5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1bd8ffbc3a7ac62cdc2a76dc47127321c76dbd07</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Supports iterating over a &lt;xref:System.String&gt; object and reading its individual characters.</source>
+          <target state="translated">支持遍历&lt;xref:System.String&gt;对象和读取其各个字符。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A CharEnumerator provides read-only access to the characters in a referenced &lt;xref:System.String&gt; object.</source>
+          <target state="translated">CharEnumerator 提供对中的引用的字符的只读访问权限&lt;xref:System.String&gt;对象。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, the <ph id="ph1">`foreach`</ph> statement of the Microsoft Visual Basic and C# programming languages, which iterates through the elements of a collection, retrieves a CharEnumerator from a &lt;xref:System.String&gt; object in order to iterate through the characters in that object.</source>
+          <target state="translated">例如，<ph id="ph1">`foreach`</ph>语句的 Microsoft Visual Basic 和 C# 的编程语言，它循环访问集合的元素，检索从 CharEnumerator&lt;xref:System.String&gt;以循环访问该对象中的字符的对象。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>There is no public constructor for CharEnumerator.</source>
+          <target state="translated">CharEnumerator 没有公共构造函数。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Instead, call a &lt;xref:System.String&gt; object's &lt;xref:System.String.GetEnumerator%2A&gt; method to obtain a CharEnumerator that is initialized to reference the string.</source>
+          <target state="translated">而应调用&lt;xref:System.String&gt;对象的&lt;xref:System.String.GetEnumerator%2A&gt;方法来获取初始化后将引用字符串 CharEnumerator。&lt;/xref:System.String.GetEnumerator%2A&gt; &lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A CharEnumerator maintains an internal index to the characters in the string the CharEnumerator references.</source>
+          <target state="translated">CharEnumerator 保持到字符串中字符的内部索引 CharEnumerator 引用。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The state of the index is invalid when it references a character position logically before the first character or after the last character in the string, and valid when it references a character within the string.</source>
+          <target state="translated">引用字符串内的字符时，索引的状态是无效的; 当它引用字符串中的字符位置逻辑上第一个字符之前或之后的最后一个字符和有效。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The index is initialized to a position logically before the first character, and is set to a position after the last character when the iteration is complete.</source>
+          <target state="translated">索引函数将初始化为逻辑上之前的第一个字符的位置，并设置到的位置后的最后一个字符迭代完成后。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>An exception is thrown if you attempt to access a character while the index is invalid.</source>
+          <target state="translated">如果你尝试访问该字符，该索引无效时，将引发异常。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CharEnumerator.MoveNext%2A&gt; method increments the index by one, so the first and subsequent characters are accessed in turn.</source>
+          <target state="translated">&lt;xref:System.CharEnumerator.MoveNext%2A&gt;方法索引递增&amp;1;，因此反过来访问的第一个和后续字符。&lt;/xref:System.CharEnumerator.MoveNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CharEnumerator.Reset%2A&gt; method sets the index to a position logically before the first character.</source>
+          <target state="translated">&lt;xref:System.CharEnumerator.Reset%2A&gt;方法设置为逻辑上之前的第一个字符的位置的索引。&lt;/xref:System.CharEnumerator.Reset%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CharEnumerator.Current%2A&gt; property retrieves the character currently referenced by index.</source>
+          <target state="translated">&lt;xref:System.CharEnumerator.Current%2A&gt;属性检索当前引用的索引的字符。&lt;/xref:System.CharEnumerator.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CharEnumerator.Clone%2A&gt; method creates a copy of the CharEnumerator.</source>
+          <target state="translated">&lt;xref:System.CharEnumerator.Clone%2A&gt;方法会创建一份 CharEnumerator。&lt;/xref:System.CharEnumerator.Clone%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Several independent instances of CharEnumerator across one or more threads can have access to a single instance of &lt;xref:System.String&gt;.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; CharEnumerator 跨一个或多个线程的多个独立实例可以有权访问&lt;xref:System.String&gt;.&lt;/xref:System.String&gt;的单个实例</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This class is implemented to support the &lt;xref:System.Collections.IEnumerator&gt; interface.</source>
+          <target state="translated">实现此类是为了支持&lt;xref:System.Collections.IEnumerator&gt;接口。&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information regarding the use of an enumerator, see the &lt;xref:System.Collections.IEnumerator&gt; topic.</source>
+          <target state="translated">有关使用枚举器的详细信息，请参阅&lt;xref:System.Collections.IEnumerator&gt;主题。&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Creates a copy of the current <bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">创建一份当前<bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The return value is a copy of this instance of &lt;xref:System.CharEnumerator&gt; and its current state.</source>
+          <target state="translated">返回值是此实例的副本&lt;xref:System.CharEnumerator&gt;及其当前状态。&lt;/xref:System.CharEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This is useful for saving your state while iterating through a &lt;xref:System.String&gt; object.</source>
+          <target state="translated">这可用于循环访问时保存状态&lt;xref:System.String&gt;对象。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example, suppose your application uses an original instance of &lt;xref:System.CharEnumerator&gt; to iterate through each character in a &lt;xref:System.String&gt;.</source>
+          <target state="translated">例如，假设你的应用程序使用&lt;xref:System.CharEnumerator&gt;来循环访问一种&lt;xref:System.String&gt;。&lt;/xref:System.String&gt;中每个字符&lt;/xref:System.CharEnumerator&gt;的原始实例</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When some unique character is encountered, your application pauses processing and invokes the Clone method.</source>
+          <target state="translated">当遇到某些唯一字符时，你的应用程序将暂停处理，并调用克隆方法。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In effect, this saves the &lt;xref:System.CharEnumerator&gt; object's index in the &lt;xref:System.String&gt;.</source>
+          <target state="translated">实际上，这将保存&lt;xref:System.CharEnumerator&gt;&lt;xref:System.String&gt;.&lt;/xref:System.String&gt;中的对象的索引&lt;/xref:System.CharEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Your application uses the clone to navigate to another part of the <ph id="ph1">`String`</ph> to perform some auxiliary processing.</source>
+          <target state="translated">你的应用程序使用克隆导航到的另一部分<ph id="ph1">`String`</ph>执行一些辅助处理。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The side-effect of this navigation is the clone loses track of the position where processing stopped.</source>
+          <target state="translated">此导航的副作用是位置的克隆会失去对跟踪的处理停止时所在。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>However, when the auxiliary processing is complete, your application discards the clone and uses the original &lt;xref:System.CharEnumerator&gt; instance to resume working on the &lt;xref:System.String&gt; where the original processing stopped.</source>
+          <target state="translated">但是，辅助处理完成后，则你的应用程序将放弃克隆并使用原始&lt;xref:System.CharEnumerator&gt;实例继续处理&lt;xref:System.String&gt;原始处理停止的位置。&lt;/xref:System.String&gt; &lt;/xref:System.CharEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is implemented to support the &lt;xref:System.ICloneable&gt; interface.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 实现此方法是为了支持&lt;xref:System.ICloneable&gt;接口。&lt;/xref:System.ICloneable&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that is a copy of the current <bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">&lt;xref:System.Object&gt;，它是一份当前<bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the currently referenced character in the string enumerated by this <bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">此枚举的字符串中获取当前引用的字符<bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CharEnumerator&gt; class maintains an internal index to the enumerated string, and the Current property returns the character that is currently referenced by the index.</source>
+          <target state="translated">&lt;xref:System.CharEnumerator&gt;类维护的枚举字符串的内部索引和当前的属性返回由索引当前引用的字符。&lt;/xref:System.CharEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This property should be invoked only when the index is valid; otherwise, an exception is thrown.</source>
+          <target state="translated">仅当此索引有效; 时，才应调用此属性否则，会引发异常。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The index is always invalid for an empty string ("").</source>
+          <target state="translated">该索引无效始终为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The index is also invalid after the &lt;xref:System.String.GetEnumerator%2A?displayProperty=fullName&gt; or &lt;xref:System.CharEnumerator.Reset%2A&gt; method is called.</source>
+          <target state="translated">该索引无效也后&lt;xref:System.String.GetEnumerator%2A?displayProperty=fullName&gt;或&lt;xref:System.CharEnumerator.Reset%2A&gt;调用方法。&lt;/xref:System.CharEnumerator.Reset%2A&gt; &lt;/xref:System.String.GetEnumerator%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>After either of these methods is called, invoke the &lt;xref:System.CharEnumerator.MoveNext%2A&gt; method to adjust the index to the first character in the enumerated string.</source>
+          <target state="translated">任一方法调用后，调用&lt;xref:System.CharEnumerator.MoveNext%2A&gt;方法调整到枚举字符串中的第一个字符的索引。&lt;/xref:System.CharEnumerator.MoveNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The index is valid whenever the &lt;xref:System.CharEnumerator.MoveNext%2A&gt; method returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">此索引是否有效每当&lt;xref:System.CharEnumerator.MoveNext%2A&gt;方法返回<ph id="ph1">`true`</ph>。&lt;/xref:System.CharEnumerator.MoveNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Current does not move the index, and consecutive calls to Current return the same character until &lt;xref:System.CharEnumerator.MoveNext%2A&gt;, &lt;xref:System.CharEnumerator.Reset%2A&gt;, or &lt;xref:System.String.GetEnumerator%2A?displayProperty=fullName&gt; is called.</source>
+          <target state="translated">当前不会移动索引，并对当前连续调用返回之前的相同字符&lt;xref:System.CharEnumerator.MoveNext%2A&gt;， &lt;xref:System.CharEnumerator.Reset%2A&gt;，或&lt;xref:System.String.GetEnumerator%2A?displayProperty=fullName&gt;称为。&lt;/xref:System.String.GetEnumerator%2A?displayProperty=fullName&gt; &lt;/xref:System.CharEnumerator.Reset%2A&gt; &lt;/xref:System.CharEnumerator.MoveNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The Unicode character currently referenced by this <bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">当前引用此的 Unicode 字符<bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The index is invalid; that is, it is before the first or after the last character of the enumerated string.</source>
+          <target state="translated">该索引无效;也就是说，它是第一个之前或之后枚举字符串的最后一个字符。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the current instance of the <bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">释放当前实例所使用的所有资源<bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Call Dispose when you are finished using the &lt;xref:System.CharEnumerator&gt;.</source>
+          <target state="translated">在完成使用&lt;xref:System.CharEnumerator&gt;.&lt;/xref:System.CharEnumerator&gt;时调用的 Dispose</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The Dispose method leaves the &lt;xref:System.CharEnumerator&gt; in an unusable state.</source>
+          <target state="translated">Dispose 方法离开&lt;xref:System.CharEnumerator&gt;中不可用状态。&lt;/xref:System.CharEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>After calling Dispose, you must release all references to the &lt;xref:System.CharEnumerator&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.CharEnumerator&gt; was occupying.</source>
+          <target state="translated">调用 Dispose 后，必须释放对所有引用&lt;xref:System.CharEnumerator&gt;以便垃圾回收器才能回收的内存，&lt;xref:System.CharEnumerator&gt;占用。&lt;/xref:System.CharEnumerator&gt; &lt;/xref:System.CharEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>清洗向上非托管资源<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>实现 Dispose 方法<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.CharEnumerator&gt;.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 始终调用释放在发布到&lt;xref:System.CharEnumerator&gt;。&lt;/xref:System.CharEnumerator&gt;最后一个引用之前</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.CharEnumerator&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">否则，它所使用的资源之前，不会释放垃圾回收器调用&lt;xref:System.CharEnumerator&gt;对象的<ph id="ph1">`Finalize`</ph>方法。&lt;/xref:System.CharEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Increments the internal index of the current <bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the next character of the enumerated string.</source>
+          <target state="translated">递增当前的内部索引<bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举字符串的下一个字符的对象。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CharEnumerator&gt; class maintains an internal index to the enumerated string, and the MoveNext method increments the index by one.</source>
+          <target state="translated">&lt;xref:System.CharEnumerator&gt;类维护的枚举字符串的内部索引和 MoveNext 方法索引递增&amp;1;。&lt;/xref:System.CharEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Call MoveNext after calling &lt;xref:System.String.GetEnumerator%2A&gt; or &lt;xref:System.CharEnumerator.Reset%2A&gt; to increment the current character position to the first character in the enumerated string.</source>
+          <target state="translated">在调用后调用 MoveNext&lt;xref:System.String.GetEnumerator%2A&gt;或&lt;xref:System.CharEnumerator.Reset%2A&gt;递增到第一个字符中的枚举字符串的当前字符位置。&lt;/xref:System.CharEnumerator.Reset%2A&gt; &lt;/xref:System.String.GetEnumerator%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Check that the return value is <ph id="ph1">`true`</ph> to determine that the current character position is valid.</source>
+          <target state="translated">检查返回的值是否<ph id="ph1">`true`</ph>以确定当前字符位置是否有效。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If the index is already beyond the last character of the enumerated string, the index is not changed and <ph id="ph1">`false`</ph> is returned.</source>
+          <target state="translated">如果索引已超出枚举字符串的最后一个字符，不会更改索引和<ph id="ph1">`false`</ph>返回。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Notice that if the enumerated string is empty (""), the state of the &lt;xref:System.CharEnumerator&gt; is always invalid.</source>
+          <target state="translated">请注意，如果枚举的字符串为空 ("")，则状态的&lt;xref:System.CharEnumerator&gt;始终无效。&lt;/xref:System.CharEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This is because the internal index for the &lt;xref:System.CharEnumerator&gt; is initially before the first character of the enumerated string and is therefore invalid.</source>
+          <target state="translated">这是因为的内部索引&lt;xref:System.CharEnumerator&gt;最初之前枚举字符串的第一个字符，因此无效。&lt;/xref:System.CharEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>MoveNext logically sets the index after the last (nonexistent) character of the enumerated string which is also invalid.</source>
+          <target state="translated">MoveNext 逻辑上也是无效的枚举字符串的最后一个 （不存在） 字符之后设置的索引。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the index is successfully incremented and within the enumerated string; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果成功递增索引和枚举的字符串; 内否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Initializes the index to a position logically before the first character of the enumerated string.</source>
+          <target state="translated">初始化为以逻辑方式之前枚举字符串的第一个字符的位置的索引。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CharEnumerator&gt; class maintains an internal index to the enumerated string, and the Reset method sets the index to the invalid state.</source>
+          <target state="translated">&lt;xref:System.CharEnumerator&gt;类维护的枚举字符串的内部索引和重置方法设置为无效状态的索引。&lt;/xref:System.CharEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets the currently referenced character in the string enumerated by this <bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">此枚举的字符串中获取当前引用的字符<bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.Collections.IEnumerator.Current%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">有关此成员的说明，请参阅<ph id="ph1">&amp;lt;</ph>xref:System.Collections.IEnumerator.Current%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">此成员是显式接口成员的实现。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.CharEnumerator&gt; instance is cast to an &lt;xref:System.Collections.IEnumerator&gt; interface.</source>
+          <target state="translated">可以使用它时，才&lt;xref:System.CharEnumerator&gt;实例被强制转换为&lt;xref:System.Collections.IEnumerator&gt;接口。&lt;/xref:System.Collections.IEnumerator&gt; &lt;/xref:System.CharEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The boxed Unicode character currently referenced by this <bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">当前引用此的装箱的 Unicode 字符<bpt id="p1">&lt;xref href="System.CharEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Enumeration has not started.</source>
+          <target state="translated">枚举尚未开始。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-or-       Enumeration has ended.</source>
+          <target state="translated">-或者-枚举已经终止。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

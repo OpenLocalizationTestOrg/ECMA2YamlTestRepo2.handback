@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f8741904f60d9cdd9157e887a3c871a064f110f2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.ControlStyles.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a2ce71469199fd814f434b8f0fafacaf977814f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e77d5af3fb11487e16d284bafd99c6ef3cb33a96</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the style and behavior of a control.</source>
+          <target state="translated">Hiermee geeft u de stijl en het gedrag van een besturingselement.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Controls use this enumeration in various properties and methods to specify functionality.</source>
+          <target state="translated">Deze opsomming in verschillende eigenschappen en methoden besturingselementen gebruiken om op te geven van de functionaliteit.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control can enable a style by calling the &lt;xref:System.Windows.Forms.Control.SetStyle%2A&gt; method and passing in the appropriate ControlStyles bit (or bits) and the Boolean value to set the bit(s) to.</source>
+          <target state="translated">Een besturingselement een stijl kunt inschakelen door het aanroepen van de &lt;xref:System.Windows.Forms.Control.SetStyle%2A&gt;methode en geven in de juiste bits ControlStyles (of bits) en de bits instellen op de Boole-waarde.&lt;/xref:System.Windows.Forms.Control.SetStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following line of Visual Basic code would enable double-buffering.</source>
+          <target state="translated">De volgende coderegel Visual Basic-code zou bijvoorbeeld inschakelen dubbele buffering.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   myControl.SetStyle(UserPaint Or AllPaintingInWmPaint Or DoubleBuffer, True)   ```</ph>       If the AllPaintingInWmPaint bit is set to <ph id="ph2">`true`</ph>, the window message WM_ERASEBKGND is ignored, and both &lt;xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt; and &lt;xref:System.Windows.Forms.Control.OnPaint%2A&gt; methods are called directly from the window message WM_PAINT.</source>
+          <target state="translated"><ph id="ph1">```   myControl.SetStyle(UserPaint Or AllPaintingInWmPaint Or DoubleBuffer, True)   ```</ph>Als de AllPaintingInWmPaint-bit is ingesteld op <ph id="ph2">`true`</ph>, het venster bericht WM_ERASEBKGND wordt genegeerd en beide &lt;xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt;en &lt;xref:System.Windows.Forms.Control.OnPaint%2A&gt;methoden rechtstreeks vanuit het venster bericht WM_PAINT worden aangeroepen.&lt;/xref:System.Windows.Forms.Control.OnPaint%2A&gt; &lt;/xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This generally reduces flicker unless other controls send the window message WM_ERASEBKGND to the control.</source>
+          <target state="translated">Hierdoor worden doorgaans knipperen tenzij andere besturingselementen verzenden van het venster bericht WM_ERASEBKGND aan het besturingselement.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You might send the window message WM_ERASEBKGRND to achieve a pseudo-transparent effect similar to SupportsTransparentBackColor; for example, a &lt;xref:System.Windows.Forms.ToolBar&gt; with flat appearance does this.</source>
+          <target state="translated">U kunt het bericht wordt verzonden venster WM_ERASEBKGRND bereiken een pseudo transparant effect vergelijkbaar met SupportsTransparentBackColor; bijvoorbeeld, een &lt;xref:System.Windows.Forms.ToolBar&gt;doet dit met de platte vormgeving.&lt;/xref:System.Windows.Forms.ToolBar&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To fully enable double-buffering, you can set the OptimizedDoubleBuffer and AllPaintingInWmPaint bits to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">U kunt dubbele buffering, kunt u de bits OptimizedDoubleBuffer en AllPaintingInWmPaint instellen op <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However the preferred method for enabling double buffering, which yields the same result, is to set the &lt;xref:System.Windows.Forms.Control.DoubleBuffered%2A&gt; property for the control to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Evenwel de voorkeursmethode voor het inschakelen van dubbele buffers die hetzelfde resultaat tot, is het instellen van de &lt;xref:System.Windows.Forms.Control.DoubleBuffered%2A&gt;eigenschap voor het besturingselement <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.Forms.Control.DoubleBuffered%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the SupportsTransparentBackColor bit is set to <ph id="ph1">`true`</ph>, and the &lt;xref:System.Windows.Forms.Control.BackColor%2A&gt; is set to a color whose alpha component is less than 255, &lt;xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt; will simulate transparency by asking its parent control to paint the background.</source>
+          <target state="translated">Als de SupportsTransparentBackColor-bit is ingesteld op <ph id="ph1">`true`</ph>, en de &lt;xref:System.Windows.Forms.Control.BackColor%2A&gt;is ingesteld op een kleur waarvan alfanumerieke onderdeel minder dan 255 is &lt;xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt;transparantie door vragen aan het bovenliggende besturingselement tekenen van de achtergrond simuleert.&lt;/xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt; &lt;/xref:System.Windows.Forms.Control.BackColor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is not true transparency.</source>
+          <target state="translated">Dit is geen waar transparantie.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If there is another control between the control and its parent, the current control will not show the control in the middle.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Als er een ander besturingselement tussen het besturingselement en de bovenliggende, het huidige besturingselement niet het besturingselement wordt weergegeven in het midden.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the UserMouse bit is set to <ph id="ph1">`true`</ph>, the following methods are still called: &lt;xref:System.Windows.Forms.Control.OnMouseDown%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseUp%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseEnter%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseMove%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseHover%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseLeave%2A?displayProperty=fullName&gt;, and &lt;xref:System.Windows.Forms.Control.OnMouseWheel%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Wanneer de UserMouse-bit is ingesteld op <ph id="ph1">`true`</ph>, de volgende methoden zijn nog steeds aangeroepen: &lt;xref:System.Windows.Forms.Control.OnMouseDown%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseUp%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseEnter%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseMove%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseHover%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseLeave%2A?displayProperty=fullName&gt;, en &lt;xref:System.Windows.Forms.Control.OnMouseWheel%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.Control.OnMouseWheel%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseLeave%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseHover%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseMove%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseEnter%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseUp%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseDown%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the control is clicked, if the StandardClick bit is set to <ph id="ph1">`true`</ph> the &lt;xref:System.Windows.Forms.Control.OnClick%2A?displayProperty=fullName&gt; method is called and it raises the &lt;xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt; event.</source>
+          <target state="translated">Wanneer het besturingselement wordt geklikt, als de StandardClick-bit is ingesteld op <ph id="ph1">`true`</ph> de &lt;xref:System.Windows.Forms.Control.OnClick%2A?displayProperty=fullName&gt;methode wordt aangeroepen en wordt de &lt;xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt;gebeurtenis.&lt;/xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnClick%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the control is double-clicked, and both the StandardClick and StandardDoubleClick bits are set to <ph id="ph1">`true`</ph>, the click is passed on to the &lt;xref:System.Windows.Forms.Control.DoubleClick&gt; event.</source>
+          <target state="translated">Wanneer het besturingselement wordt gedubbelklikt, en de StandardClick en de StandardDoubleClick bits zijn ingesteld op <ph id="ph1">`true`</ph>, klik op wordt doorgegeven aan bij de &lt;xref:System.Windows.Forms.Control.DoubleClick&gt;gebeurtenis.&lt;/xref:System.Windows.Forms.Control.DoubleClick&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then the &lt;xref:System.Windows.Forms.Control.OnDoubleClick%2A?displayProperty=fullName&gt; method is called and it raises the &lt;xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt; event.</source>
+          <target state="translated">Vervolgens wordt de &lt;xref:System.Windows.Forms.Control.OnDoubleClick%2A?displayProperty=fullName&gt;methode wordt aangeroepen en wordt de &lt;xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt;gebeurtenis.&lt;/xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnDoubleClick%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the control can call &lt;xref:System.Windows.Forms.Control.OnClick%2A&gt; or &lt;xref:System.Windows.Forms.Control.OnDoubleClick%2A&gt; directly regardless of the StandardClick and StandardDoubleClick bit values.</source>
+          <target state="translated">Maar het besturingselement kunt aanroepen &lt;xref:System.Windows.Forms.Control.OnClick%2A&gt;of &lt;xref:System.Windows.Forms.Control.OnDoubleClick%2A&gt;rechtstreeks ongeacht de StandardClick en StandardDoubleClick bit waarden.&lt;/xref:System.Windows.Forms.Control.OnDoubleClick%2A&gt; &lt;/xref:System.Windows.Forms.Control.OnClick%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on control click and double click behaviors, see the &lt;xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt; and &lt;xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt; topics.</source>
+          <target state="translated">Voor meer informatie over beheer op en dubbelklik gedrag, Zie de &lt;xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt;en &lt;xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt;onderwerpen.&lt;/xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the UseTextForAccessibility bit is set and there is a value in the control's <ph id="ph1">`Text`</ph> property, the value of that control's <ph id="ph2">`Text`</ph> property determines the control's default Active Accessibility name and shortcut key.</source>
+          <target state="translated">Wanneer de UseTextForAccessibility-bit is ingesteld en er is een waarde in het besturingselement <ph id="ph1">`Text`</ph> eigenschap, de waarde van dit besturingselement <ph id="ph2">`Text`</ph> eigenschap van het besturingselement standaard Active Accessibility naam en snelkoppeling sleutel bepaalt.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the text of the preceding &lt;xref:System.Windows.Forms.Label&gt; control will be used instead.</source>
+          <target state="translated">Anders wordt de tekst van de voorgaande &lt;xref:System.Windows.Forms.Label&gt;besturingselement zal in plaats daarvan worden gebruikt.&lt;/xref:System.Windows.Forms.Label&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This style is set by default.</source>
+          <target state="translated">Deze stijl is standaard ingesteld.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Certain built-in control types, such as &lt;xref:System.Windows.Forms.TextBox&gt; and &lt;xref:System.Windows.Forms.ComboBox&gt;, reset this style so that the <ph id="ph1">`Text`</ph> property of those controls will not be used by Active Accessibility.</source>
+          <target state="translated">Bepaalde ingebouwd besturingselement van het type, zoals &lt;xref:System.Windows.Forms.TextBox&gt;en &lt;xref:System.Windows.Forms.ComboBox&gt;, deze stijl opnieuw instellen zodat de <ph id="ph1">`Text`</ph> eigenschap van de controles worden niet gebruikt door Active Accessibility.&lt;/xref:System.Windows.Forms.ComboBox&gt; &lt;/xref:System.Windows.Forms.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control ignores the window message WM_ERASEBKGND to reduce flicker.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, negeert het venster bericht WM_ERASEBKGND knipperen verminderen van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This style should only be applied if the UserPaint bit is set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Deze stijl moet alleen worden toegepast als de UserPaint-bit is ingesteld op <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control keeps a copy of the text rather than getting it from the &lt;xref:System.Windows.Forms.Control.Handle*&gt; each time it is needed.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, houdt een kopie van de tekst in plaats van om deze uit het besturingselement de &lt;xref:System.Windows.Forms.Control.Handle*&gt;telkens wanneer deze nodig is.&lt;/xref:System.Windows.Forms.Control.Handle*&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This style defaults to <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Deze stijl wordt standaard ingesteld op <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This behavior improves performance, but makes it difficult to keep the text synchronized.</source>
+          <target state="translated">Dit gedrag zorgt voor betere prestaties, maar maakt het moeilijk te houden van de tekst die wordt gesynchroniseerd.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control is a container-like control.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, het besturingselement is een container-achtige.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, drawing is performed in a buffer, and after it completes, the result is output to the screen.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>tekening wordt uitgevoerd in een buffer en nadat deze is voltooid, is het resultaat uitvoer naar het scherm.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Double-buffering prevents flicker caused by the redrawing of the control.</source>
+          <target state="translated">Dubbele buffering voorkomt u dat knipperen veroorzaakt door het opnieuw tekenen van het besturingselement.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you set DoubleBuffer to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, you should also set UserPaint and AllPaintingInWmPaint to <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als u DoubleBuffer ingesteld op <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, moet u ook UserPaint en AllPaintingInWmPaint naar instellen <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the &lt;xref:System.Windows.Forms.Control.OnNotifyMessage<bpt id="p2">*</bpt>&gt; method is called for every message sent to the control's &lt;xref:System.Windows.Forms.Control.WndProc<ept id="p2">*</ept>&gt;.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, wordt de &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; methode wordt aangeroepen voor elk bericht verzonden naar het besturingselement &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This style defaults to <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Deze stijl wordt standaard ingesteld op <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>EnableNotifyMessage does not work in partial trust.</source>
+          <target state="translated">EnableNotifyMessage werkt niet in gedeeltelijk vertrouwen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control has a fixed height when auto-scaled.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, het besturingselement heeft een vaste hoogte wanneer automatisch geschaald.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, if a layout operation attempts to rescale the control to accommodate a new <bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control's &lt;xref:System.Windows.Forms.Control.Height*&gt; remains unchanged.</source>
+          <target state="translated">Bijvoorbeeld, als een lay-outbewerking probeert het besturingselement voor een nieuwe oorspronkelijke <bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, van het besturingselement &lt;xref:System.Windows.Forms.Control.Height*&gt;blijft ongewijzigd.&lt;/xref:System.Windows.Forms.Control.Height*&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control has a fixed width when auto-scaled.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, het besturingselement heeft een vaste breedte wanneer automatisch geschaald.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, if a layout operation attempts to rescale the control to accommodate a new <bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control's &lt;xref:System.Windows.Forms.Control.Width*&gt; remains unchanged.</source>
+          <target state="translated">Bijvoorbeeld, als een lay-outbewerking probeert het besturingselement voor een nieuwe oorspronkelijke <bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, van het besturingselement &lt;xref:System.Windows.Forms.Control.Width*&gt;blijft ongewijzigd.&lt;/xref:System.Windows.Forms.Control.Width*&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control is drawn opaque and the background is not painted.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, het besturingselement wordt getekend ondoorzichtige en niet door de achtergrond wordt getekend.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control is first drawn to a buffer rather than directly to the screen, which can reduce flicker.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, het besturingselement wordt eerst getekend naar een buffer in plaats van rechtstreeks naar het scherm kan verminderen knipperen.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If you set this property to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, you should also set the AllPaintingInWmPaint to <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als u deze eigenschap instelt op <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, moet u ook de AllPaintingInWmPaint instellen op <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control is redrawn when it is resized.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, het besturingselement wordt vernieuwd wanneer het formaat wordt gewijzigd.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control can receive focus.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, het besturingselement de focus kan ontvangen.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control implements the standard <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Click"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> behavior.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, het besturingselement implementeert de standaard <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Click"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gedrag.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control implements the standard <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.DoubleClick"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> behavior.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, het besturingselement implementeert de standaard <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.DoubleClick"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gedrag.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This style is ignored if the StandardClick bit is not set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Deze stijl wordt genegeerd als de StandardClick-bit niet is ingesteld op <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control accepts a &lt;xref:System.Windows.Forms.Control.BackColor*&gt; with an alpha component of less than 255 to simulate transparency.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, accepteert van het besturingselement een &lt;xref:System.Windows.Forms.Control.BackColor*&gt;met een alfa-component van minder dan 255 transparantie simuleren.&lt;/xref:System.Windows.Forms.Control.BackColor*&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Transparency will be simulated only if the UserPaint bit is set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the parent control is derived from <bpt id="p2">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Transparantie wordt gesimuleerd alleen als de UserPaint-bit is ingesteld op <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en is afgeleid van het bovenliggende besturingselement <bpt id="p2">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control does its own mouse processing, and mouse events are not handled by the operating system.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, het besturingselement heeft een eigen muis verwerking en muisgebeurtenissen worden niet verwerkt door het besturingssysteem.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control paints itself rather than the operating system doing so.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, worden getekend door het besturingselement zelf in plaats van het besturingssysteem doet.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Paint"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event is not raised.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, wordt de <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Paint"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gebeurtenis is niet geactiveerd.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This style only applies to classes derived from <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Deze stijl is alleen van toepassing op klassen die zijn afgeleid van <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Specifies that the value of the control's <ph id="ph1">`Text`</ph> property, if set, determines the control's default Active Accessibility name and shortcut key.</source>
+          <target state="translated">Hiermee wordt aangegeven dat de waarde van het besturingselement <ph id="ph1">`Text`</ph> -eigenschap als ingesteld, wordt bepaald van het besturingselement Active Accessibility naam en snelkoppeling standaardsleutel.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
