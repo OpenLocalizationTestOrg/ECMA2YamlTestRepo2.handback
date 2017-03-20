@@ -1,12 +1,13 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 2
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.XhtmlTextWriter.yml) | InSyncHandedBackSuccess | [Details](#42e81e4681dc40e2c82eb3631bfc033f1029b18883666)
+ [fulldocset\System.Windows.Forms.DataVisualization.Charting.AnovaResult.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Forms.DataVisualization.Charting.AnovaResult.yml) | InSyncHandedBackSuccess | [Details](#9a189e83856a02315d883ed5e8b59d8c4071702384913)
 
 ## Item Details
 ##### <a name='42e81e4681dc40e2c82eb3631bfc033f1029b18883666'></a> Source: [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.XhtmlTextWriter.yml)
@@ -22,6 +23,22 @@
 * Handback Datetime: 2017-03-18 15:35:15
 * Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
 * Bilingual Error:[bilingual_uploading_failed](#42e81e4681dc40e2c82eb3631bfc033f1029b18883666bilingual_uploading_failed)
+* [Back to Top](#report-top)
+
+##### <a name='9a189e83856a02315d883ed5e8b59d8c4071702384913'></a> Source: [fulldocset\System.Windows.Forms.DataVisualization.Charting.AnovaResult.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Forms.DataVisualization.Charting.AnovaResult.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Windows.Forms.DataVisualization.Charting.AnovaResult.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/blob/daa702c6dbf16e3d532208317c71a438df18c173/fulldocset/System.Windows.Forms.DataVisualization.Charting.AnovaResult.yml)
+* Handoff File: [System.Windows.Forms.DataVisualization.Charting.AnovaResult.cb1adc2d24fc1819b13c62357922d5a4a4025139.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/72db55450b00c424fa5883892a3a66a8a47646cd/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Windows.Forms.DataVisualization.Charting.AnovaResult.cb1adc2d24fc1819b13c62357922d5a4a4025139.pt-br.xlf)
+* Handoff Datetime: 2017-03-16 04:26:03
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Windows.Forms.DataVisualization.Charting.AnovaResult.cb1adc2d24fc1819b13c62357922d5a4a4025139.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/6a18529cf731a0a30cb5ec72a05089991dac1454/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Windows.Forms.DataVisualization.Charting.AnovaResult.cb1adc2d24fc1819b13c62357922d5a4a4025139.pt-br.xlf)
+* Handback Datetime: 2017-03-20 13:46:15
+* Handback Name: 
+* Bilingual File: [System.Windows.Forms.DataVisualization.Charting.AnovaResult.cb1adc2d24fc1819b13c62357922d5a4a4025139.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/6a18529cf731a0a30cb5ec72a05089991dac1454/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Windows.Forms.DataVisualization.Charting.AnovaResult.cb1adc2d24fc1819b13c62357922d5a4a4025139.pt-br.xlf)
+* Bilingual Datetime: 2017-03-20 14:14:37
 * [Back to Top](#report-top)
 
 
