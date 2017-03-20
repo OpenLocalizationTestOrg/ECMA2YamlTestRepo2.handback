@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6bb75bbba370ed2c0a64d81d34941d4b6f8387ae</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Odbc.OdbcConnectionStringBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c0b6f979bafbc4748ac832b53594067ef28a69fa</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e1069ce8c3e00fe6ac1091bc508c33ccf287be98</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a simple way to create and manage the contents of connection strings used by the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Предоставляет простой способ создания и управления содержимым строки соединения, используемые <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection string builders let developers programmatically create syntactically correct connection strings, and parse and rebuild existing connection strings, using properties and methods of the class.</source>
+          <target state="translated">Построители строк подключения позволяет разработчикам программным способом создавать синтаксически правильные строки подключения и анализировать и перестраивать существующие строки подключения с помощью свойств и методов этого класса.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection string builder provides strongly typed properties corresponding to the known key/value pairs allowed by ODBC connections, and developers can add arbitrary key/value pairs for any other connection string values.</source>
+          <target state="translated">Построитель строк подключения предоставляет строго типизированные свойства, соответствующие известным ключ/значение, определяемое соединений ODBC, и разработчики могут добавлять пары произвольный ключ значение для любых значений строки подключения.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Developers needing to create connection strings as part of applications can use the OdbcConnectionStringBuilder class to build and modify connection strings.</source>
+          <target state="translated">Разработчики, создающие строки подключения в рамках приложений можно использовать класс OdbcConnectionStringBuilder создавать и изменять строки подключения.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The class also makes it easy to manage connection strings stored in an application configuration file.</source>
+          <target state="translated">Класс также облегчает управление строками подключения, хранимыми в файле конфигурации приложения.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OdbcConnectionStringBuilder performs checks only for the limited set of known key/value pairs.</source>
+          <target state="translated">OdbcConnectionStringBuilder выполняет проверку только ограниченный набор пар известных ключей и значений.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, this class can be used to create invalid connection strings.</source>
+          <target state="translated">Таким образом этот класс может использоваться для создания недопустимые строки соединения.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists the specific known keys together with their corresponding properties within the OdbcConnectionStringBuilder class, and their default values.</source>
+          <target state="translated">В следующей таблице перечислены определенные известные ключи и их соответствующие свойства в классе OdbcConnectionStringBuilder и их значения по умолчанию.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Besides these specific values, developers can add any key/value pairs to the collection that is contained within the OdbcConnectionStringBuilder instance.</source>
+          <target state="translated">Помимо этих конкретных значений разработчики могут добавлять все пары "ключ значение" в коллекции, содержащихся в экземпляре OdbcConnectionStringBuilder.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Key|Property|Comment|Default value|   |---------|--------------|-------------|-------------------|   |Driver|&lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt;|Developers should not include the braces surrounding the driver name when they set the &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt; property.</source>
+          <target state="translated">| Ключ | Свойство | Комментарий | Значение по умолчанию |   |---------|--------------|-------------|-------------------|   | Драйвер | &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt;| Разработчики не должно содержать фигурные скобки вокруг имени драйвера, если они заданы &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt;свойство.&lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OdbcConnectionStringBuilder instance adds braces as needed.|Empty string|   |DSN|&lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Dsn%2A&gt;||Empty string|       If any value (other than the &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt; value) within the connection string contains a semicolon (;), the OdbcConnectionStringBuilder surrounds the value with quotation marks in the connection string.</source>
+          <target state="translated">Добавляет экземпляр OdbcConnectionStringBuilder фигурные скобки, при необходимости. | Пустая строка |   | DSN | &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Dsn%2A&gt;|| Пустая строка |       Если любое значение (кроме &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt;значение) в соединении строка содержит точку с запятой (;), значение в кавычки в строке подключения окружает OdbcConnectionStringBuilder.&lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder.Dsn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to avoid this issue with the &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt; value that frequently contains a semicolon, the OdbcConnectionStringBuilder class always surrounds this value with braces.</source>
+          <target state="translated">Чтобы избежать этой проблемы с &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt;значение, которое часто содержит точку с запятой, класс OdbcConnectionStringBuilder всегда окружает это значение в фигурные скобки.&lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ODBC specification indicates that driver values that contain semicolons must be surrounded with braces, and this class handles this for you.</source>
+          <target state="translated">Спецификации ODBC означает, что значения драйвера, содержащие точки с запятой, которые должны быть заключены в фигурные скобки, и этот класс обрабатывает это для вас.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Item%2A&gt; property handles attempts to insert malicious code.</source>
+          <target state="translated">&lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Item%2A&gt;Обрабатывает попытки вставки вредоносный код.&lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following code, using the default &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Item%2A&gt; property (the indexer, in C#) correctly escapes the nested key/value pair.</source>
+          <target state="translated">Например, следующий код, с помощью стандартных &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Item%2A&gt;свойство (индексатор в C#) правильно экранирует вложенных паре ключ/значение.&lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>[Visual Basic]      <ph id="ph1">```   Dim builder As _    New System.Data.Odbc.OdbcConnectionStringBuilder   ' Take advantage of the Driver property.    builder.Driver = "SQL Server"   builder("Server") = "MyServer;NewValue=Bad"   Console.WriteLine(builder.ConnectionString)   ```</ph>       [C#]      <ph id="ph2">```   System.Data.Odbc.OdbcConnectionStringBuilder builder =      new System.Data.Odbc.OdbcConnectionStringBuilder();   // Take advantage of the Driver property.    builder.Driver = "SQL Server";   builder["Server"] = "MyServer;NewValue=Bad";   Console.WriteLine(builder.ConnectionString);   ```</ph>       The result is the following connection string that handles the invalid value in a safe manner:      <ph id="ph3">```   Driver={SQL Server};Server="MyServer;NewValue=Bad"   ```</ph></source>
+          <target state="translated">[Visual Basic]      <ph id="ph1">```   Dim builder As _    New System.Data.Odbc.OdbcConnectionStringBuilder   ' Take advantage of the Driver property.    builder.Driver = "SQL Server"   builder("Server") = "MyServer;NewValue=Bad"   Console.WriteLine(builder.ConnectionString)   ```</ph> [C#] <ph id="ph2">```   System.Data.Odbc.OdbcConnectionStringBuilder builder =      new System.Data.Odbc.OdbcConnectionStringBuilder();   // Take advantage of the Driver property.    builder.Driver = "SQL Server";   builder["Server"] = "MyServer;NewValue=Bad";   Console.WriteLine(builder.ConnectionString);   ```</ph> результатом является следующая строка подключения, в которой недопустимое значение обрабатывается безопасным образом:<ph id="ph3">```   Driver={SQL Server};Server="MyServer;NewValue=Bad"   ```</ph></target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The provided connection string provides the data for the instance's internal connection information.</source>
+          <target state="translated">Предоставленная строка подключения содержит данные для сведений о внутреннем подключении экземпляра.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can pass a connection string in the constructor, or you can set the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt; property explicitly.</source>
+          <target state="translated">Можно передать строку подключения в конструкторе, или можно задать &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt;Свойства явно.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The behavior is the same either way.</source>
+          <target state="translated">Поведение одинаково в любом случае.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The basis for the object's internal connection information.</source>
+          <target state="translated">Основа для сведений о внутреннем подключении объекта.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Parsed into key/value pairs.</source>
+          <target state="translated">Разбито на пары ключ значение.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The connection string is incorrectly formatted (perhaps missing the required "=" within a key/value pair).</source>
+          <target state="translated">Строка подключения неправильно отформатирована (возможно отсутствует обязательный «=» в паре ключ значение).</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Clears the contents of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Удаляет содержимое <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> экземпляра.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Clear method removes all key/value pairs from the &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt; and resets the &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt; and &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Dsn%2A&gt; properties to their default values.</source>
+          <target state="translated">Метод Clear удаляет все пары "ключ значение" из &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt;и сбрасывает &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt;и &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.Dsn%2A&gt;Свойства значениями по умолчанию.&lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder.Dsn%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder.Driver%2A&gt; &lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Clear method also sets the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt; property to 0 and the &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.ConnectionString&gt; property to an empty string.</source>
+          <target state="translated">Clear-метод также задает &lt;xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt;установить равным 0 и &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder.ConnectionString&gt;свойства равным пустой строке.&lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder.ConnectionString&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Determines whether the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains a specific key.</source>
+          <target state="translated">Определяет, является ли <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержит конкретный ключ.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The key to locate in the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ключ для поиска в <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains an element that has the specified key; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> содержит элемент с указанным ключом; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>имеет значение null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> в Visual Basic).</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the ODBC driver associated with the connection.</source>
+          <target state="translated">Возвращает или задает имя драйвера ODBC, связанного с соединением.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value passed in is null when you try to set the property, the Driver property is reset.</source>
+          <target state="translated">Если переданное значение равно null, при попытке задать свойство, сбрасывается свойство драйвера.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value has not been set and the developer tries to retrieve the property, the return value is <ph id="ph1">`String.Empty`</ph>.</source>
+          <target state="translated">Если значение не задано и разработчик пытается получить значение свойства, возвращаемое значение равно <ph id="ph1">`String.Empty`</ph>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Driver" key within the connection string.</source>
+          <target state="translated">Это свойство соответствует ключу «Driver» в строке подключения.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The value of the Driver property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Значение свойства драйвера или <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , если не указано.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the data source name (DSN) associated with the connection.</source>
+          <target state="translated">Возвращает или задает имя имя источника данных (DSN), связанный с подключением.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value passed in is null when you try to set the property, the Dsn property is reset.</source>
+          <target state="translated">Если переданное значение равно null, при попытке задать свойство, сбрасывается свойство источника данных.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value has not been set and the developer tries to retrieve the property, the return value is <ph id="ph1">`String.Empty`</ph>.</source>
+          <target state="translated">Если значение не задано и разработчик пытается получить значение свойства, возвращаемое значение равно <ph id="ph1">`String.Empty`</ph>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Dsn" key within the connection string.</source>
+          <target state="translated">Это свойство соответствует ключу «Dsn» в строке подключения.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The value of the Dsn property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Значение свойства источника данных, или <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , если не указано.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value associated with the specified key.</source>
+          <target state="translated">Возвращает или задает значение, связанное с указанным ключом.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In C#, this property is the indexer.</source>
+          <target state="translated">В C# это свойство является индексатором.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set this property, if the specified key already exists in the dictionary, the value is replaced; otherwise, a new element is created.</source>
+          <target state="translated">При установке этого свойства, если указанный ключ уже существует в словаре, значение заменяется; в противном случае создается новый элемент.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The key of the item to get or set.</source>
+          <target state="translated">Ключ элемента, чтобы получить или задать.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The value associated with the specified key.</source>
+          <target state="translated">Значение, связанное с указанным ключом.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The connection string is incorrectly formatted (perhaps missing the required "=" within a key/value pair).</source>
+          <target state="translated">Строка подключения неправильно отформатирована (возможно отсутствует обязательный «=» в паре ключ значение).</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>является пустой ссылкой (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> в Visual Basic).</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Collections.ICollection&gt; that contains the keys in the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает &lt;xref:System.Collections.ICollection&gt;, содержащую ключи в <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order of the values in the &lt;xref:System.Collections.ICollection&gt; is the same order as the associated values in the &lt;xref:System.Collections.ICollection&gt; returned by the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Values%2A&gt; property.</source>
+          <target state="translated">Порядок значений в &lt;xref:System.Collections.ICollection&gt;аналогичен порядку связанных значений в &lt;xref:System.Collections.ICollection&gt;возвращенных &lt;xref:System.Data.Common.DbConnectionStringBuilder.Values%2A&gt;свойство.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.Values%2A&gt; &lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the keys in the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;, Содержащую ключи в <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Removes the entry with the specified key from the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Удаляет запись с указанным ключом из <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> экземпляра.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the Remove method returns a value that indicates its success, it is not required to look for the existence of a key before trying to remove the key/value pair from the &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt; instance.</source>
+          <target state="translated">Так как удаление метод возвращает значение, указывающее, его успешное выполнение, не требуется для поиска существования ключа перед попыткой удаления пара "ключ значение" из &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt;экземпляра.&lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The key of the key/value pair to be removed from the connection string in this <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ключ из пары ключ значение удаляется из строки подключения в этом <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key existed within the connection string and was removed; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the key did not exist.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если ключ существовал в строке подключения и был удален; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Если ключ не существовал.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>имеет значение null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> в Visual Basic).</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Retrieves a value corresponding to the supplied key from this <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Получает значение, соответствующее заданному ключу из этого <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TryGetValue method lets developers safely retrieve a value from a &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt; without needing to verify that the supplied key name is a valid key name.</source>
+          <target state="translated">Метод TryGetValue позволяет разработчикам получать значение из &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt;без необходимости убедитесь, что указанное имя ключа имени ключа допустимым.&lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because TryGetValue does not raise an exception when you pass in a nonexistent key, you do not have to look for a key before retrieving its value.</source>
+          <target state="translated">Поскольку TryGetValue не исключение при передаче несуществующего ключа, проверять наличие ключа перед возвращением его значения не нужно.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling TryGetValue with a nonexistent key places the value null (<ph id="ph1">`Nothing`</ph> in Visual Basic) in the <ph id="ph2">`value`</ph> parameter.</source>
+          <target state="translated">Вызов TryGetValue с несуществующего ключа помещает значение null (<ph id="ph1">`Nothing`</ph> в Visual Basic) в <ph id="ph2">`value`</ph> параметра.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The key of the item to retrieve.</source>
+          <target state="translated">Ключ извлекаемого элемента.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The value corresponding to <ph id="ph1">`keyword.`</ph></source>
+          <target state="translated">Значение, соответствующее<ph id="ph1">`keyword.`</ph></target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">keyword</ph><ept id="p2">&lt;/code&gt;</ept> was found within the connection string; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">keyword</ph> <ept id="p2">&lt;/code&gt;</ept> был найден в строке подключения; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
