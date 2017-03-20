@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b431c28d8b409bfcd0c7194ec2df5b445a42e5d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.ConflictOptions.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9eaedbc7fed931541ae7d578f21e0bf5ee2da682</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e017b22adc8551320f649a1b46fa14257c4704cb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Determines how ASP.NET data source controls handle data conflicts when updating or deleting data.</source>
+          <target state="translated">Hiermee wordt bepaald hoe ASP.NET-gegevensbron bepaalt ingang gegevensconflicten bij het bijwerken of verwijderen van gegevens.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Concurrency control is a technique that data stores use to control how data is read and changed in the store when multiple clients are accessing and manipulating the same data.</source>
+          <target state="translated">Gelijktijdigheidbeheer is een techniek die gegevensarchieven om te bepalen hoe gegevens worden gelezen en gewijzigd in het archief gebruiken wanneer meerdere clients toegang tot en het bewerken van dezelfde gegevens.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, one client reads data and presents it to a user, while another client reads the same data, and presents it to a different user.</source>
+          <target state="translated">Bijvoorbeeld, een client leest de gegevens en geeft aan een gebruiker, terwijl een andere client dezelfde gegevens leest en gepresenteerd aan een andere gebruiker.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If both users update the data and submit it to the data storage, some unexpected result might occur, because the clients might update different values for the same data.</source>
+          <target state="translated">Als u beide gebruikers bijwerken van de gegevens en verzenden naar de opslag van gegevens, optreden een onverwacht resultaat, omdat de clients mogelijk verschillende waarden voor dezelfde gegevens bijwerken.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is considered a conflict.</source>
+          <target state="translated">Dit wordt beschouwd als een conflict.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`ConflictDetection`</ph> property that is defined for ASP.NET data source controls is used to determine how a control handles data conflicts in the underlying data storage when the underlying data storage is using optimistic concurrency and a delete or update operation is performed.</source>
+          <target state="translated">De <ph id="ph1">`ConflictDetection`</ph> eigenschap die is gedefinieerd voor ASP.NET-besturingselementen voor gegevensbronnen wordt gebruikt om te bepalen hoe een besturingselement gegevensconflicten in de onderliggende opslag van gegevens verwerkt wanneer de onderliggende opslag van gegevens wordt gebruikt optimistische gelijktijdigheid en een delete of update-bewerking wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the <ph id="ph1">`ConflictDetection`</ph> property is set to OverwriteChanges, which means the data source control will overwrite any changes made to a data row between the time the data source control first read data from the row and the time that the row is updated.</source>
+          <target state="translated">Standaard de <ph id="ph1">`ConflictDetection`</ph> eigenschap is ingesteld op OverwriteChanges, wat betekent dat het gegevensbronbesturingselement overschrijft alle wijzigingen naar een gegevensrij tussen de tijd die het gegevensbronbesturingselement eerst gegevens uit de rij lezen en de tijd dat de rij is bijgewerkt.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The primary key is used for locating the data row that will be updated or deleted, but no other comparison of the data is performed.</source>
+          <target state="translated">De primaire sleutel wordt gebruikt voor het zoeken naar de gegevensrij die worden bijgewerkt of verwijderd, maar er zijn geen andere vergelijking van de gegevens wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source control is configured to use the CompareAllValues option, however, the control passes the original data in the <ph id="ph1">`oldValues`</ph> collections of the <ph id="ph2">`Update`</ph> and <ph id="ph3">`Delete`</ph> methods so that you can write logic to update or delete data only if these values match the values currently in the data storage.</source>
+          <target state="translated">Als het besturingselement voor de gegevensbron is geconfigureerd als de optie CompareAllValues wilt gebruiken, maar het besturingselement wordt doorgegeven de oorspronkelijke gegevens in de <ph id="ph1">`oldValues`</ph> verzamelingen van de <ph id="ph2">`Update`</ph> en <ph id="ph3">`Delete`</ph> methoden zodat u logica schrijven kunt voor het bijwerken of verwijderen van gegevens alleen als deze waarden overeenkomen met de waarden die momenteel in de gegevensopslag.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The matching values indicate that the data has not changed since the time it was read.</source>
+          <target state="translated">De overeenkomende waarden geven aan dat de gegevens niet is gewijzigd sinds de tijd waarop die het is gelezen.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A data source control uses the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">oldValues</ph><ept id="p1">&lt;/code&gt;</ept> collection of the <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and <bpt id="p3">&lt;xref uid="langword_csharp_Delete" name="Delete" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> methods to determine whether the data has been changed by another process.</source>
+          <target state="translated">Besturingselement voor een gegevensbron maakt gebruik van de <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">oldValues</ph> <ept id="p1">&lt;/code&gt;</ept> verzameling van de <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en <bpt id="p3">&lt;xref uid="langword_csharp_Delete" name="Delete" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> methoden om te bepalen of de gegevens is gewijzigd door een ander proces.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A data source control overwrites all values in a data row with its own values for the row.</source>
+          <target state="translated">Een gegevensbronbesturingselement overschrijft alle waarden in een gegevensrij met eigen waarden voor de rij.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

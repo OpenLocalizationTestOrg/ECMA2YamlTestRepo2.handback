@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c62fd0c70e5ceae34f8f61ab57320ad4e8d88058</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Drawing.Drawing2D.Matrix.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d63334c2335ff2540da58c7ec05f10c6ae57dda9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f3819c316cb7eb56f85d0e7b263705aa6e490cb1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Encapsulates a 3-by-3 affine matrix that represents a geometric transform.</source>
+          <target state="translated">Hermetyzuje reprezentujący geometrycznych przekształcenia macierzy podobne 3 x 3.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Ta klasa nie może być dziedziczona.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In <ph id="ph1">[!INCLUDE[ndptecgdiplus](~/add/includes/ndptecgdiplus-md.md)]</ph> you can store an affine transformation in a Matrix object.</source>
+          <target state="translated">W <ph id="ph1">[!INCLUDE[ndptecgdiplus](~/add/includes/ndptecgdiplus-md.md)]</ph> affine — przekształcenia można przechowywać w obiekcie macierzy.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the third column of a matrix that represents an affine transformation is always (0, 0, 1), you specify only the six numbers in the first two columns when you construct a Matrix object.</source>
+          <target state="translated">Ponieważ trzecia kolumna reprezentujący affine — przekształcenia macierzy jest zawsze (0, 0, 1), określ sześciu numery w dwóch pierwszych kolumn podczas tworzenia obiektu Matrix.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The statement <ph id="ph1">`Matrix myMatrix = new Matrix(0, 1, -1, 0, 3, 4)`</ph> constructs the matrix shown in the following figure.</source>
+          <target state="translated">Instrukcja <ph id="ph1">`Matrix myMatrix = new Matrix(0, 1, -1, 0, 3, 4)`</ph> tworzy macierzy pokazano na poniższej ilustracji.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">![</bpt>Transformations<ept id="p1">]</ept><bpt id="p2">(~/add/media/aboutgdip05-art10.gif "</bpt>Transformations<ept id="p2">")</ept>      ## Composite Transformations    A composite transformation is a sequence of transformations, one followed by the other.</source>
+          <target state="translated"><bpt id="p1">![</bpt>Przekształcenia<ept id="p1">]</ept><bpt id="p2">(~/add/media/aboutgdip05-art10.gif "</bpt>przekształcenia<ept id="p2">")</ept> ## Composite — przekształcenia A złożone przekształcenia jest sekwencją przekształcenia, co następuje innych.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Consider the matrices and transformations in the following list:      |||   |-|-|   |Matrix A|Rotate 90 degrees|   |Matrix B|Scale by a factor of 2 in the x direction|   |Matrix C|Translate 3 units in the y direction|       If we start with the point (2, 1) — represented by the matrix [2 1 1] — and multiply by A, then B, then C, the point (2, 1) will undergo the three transformations in the order listed.</source>
+          <target state="translated">Należy wziąć pod uwagę macierzy i przekształcenia na poniższej liście: |||   |-|-|   | Macierz A | Obrót o 90 stopni |   | Macierz B | Skala przez współczynnik 2 w kierunku x |   | Macierz C | Tłumaczenie 3 jednostki w kierunku y |       Jeśli Rozpoczniemy z punktem (2 i 1) — reprezentowany przez macierzy [2 1 1] — i pomnożyć przez, następnie B, a następnie C, (2 i 1) punktu zostaną poddane trzy przekształcenia w podanej kolejności.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>[2 1 1]ABC = [-2 5 1]       Rather than store the three parts of the composite transformation in three separate matrices, you can multiply A, B, and C together to get a single 3×3 matrix that stores the entire composite transformation.</source>
+          <target state="translated">[2 1 1] ABC = [-2 5 1] raczej niż trzy części złożone przekształcenia są przechowywane w trzech oddzielnych macierzy, należy pomnożyć A, B i C razem uzyskanie pojedynczego macierzy 3 x 3, która przechowuje całego złożone przekształcenia.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Suppose ABC = D. Then a point multiplied by D gives the same result as a point multiplied by A, then B, then C.       [2 1 1]D = [-2 5 1]       The following illustration shows the matrices A, B, C, and D.       <bpt id="p1">![</bpt>Transformations<ept id="p1">]</ept><bpt id="p2">(~/add/media/aboutgdip05-art12.gif "</bpt>Transformations<ept id="p2">")</ept>       The fact that the matrix of a composite transformation can be formed by multiplying the individual transformation matrices means that any sequence of affine transformations can be stored in a single Matrix object.</source>
+          <target state="translated">Załóżmy, że ABC = D. Następnie punkt pomnożona przez D zapewnia takiego samego wyniku jako punkt pomnożona przez A, następnie B, następnie C.       [2 1 1] D = [-2 5 1] na poniższej ilustracji przedstawiono macierzy A, B, C i D.       <bpt id="p1">![</bpt>Przekształcenia<ept id="p1">]</ept><bpt id="p2">(~/add/media/aboutgdip05-art12.gif "</bpt>przekształcenia<ept id="p2">")</ept> fakt, że macierzy transformacji złożonego mogą powstawać przez pomnożenie macierzy transformacji poszczególnych oznacza, że wszystkie sekwencji affine — przekształcenia mogą być przechowywane w jednym obiekcie macierzy.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  The order of a composite transformation is important.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Ważna jest kolejność transformacji złożonego.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In general, rotate, then scale, then translate is not the same as scale, then rotate, then translate.</source>
+          <target state="translated">Ogólnie rzecz biorąc, obracanie, skalowanie, a następnie wykonuje nie jest równocześnie jako skali, obracanie, następnie tłumaczenia.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, the order of matrix multiplication is important.</source>
+          <target state="translated">Podobnie ważne jest kolejnością mnożenie macierzy.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In general, ABC is not the same as BAC.</source>
+          <target state="translated">Ogólnie rzecz biorąc ABC nie jest taka sama jak wykonaj KOPIĘ.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Matrix class provides several methods for building a composite transformation: &lt;xref:System.Drawing.Drawing2D.Matrix.Multiply%2A&gt;, &lt;xref:System.Drawing.Drawing2D.Matrix.Rotate%2A&gt;, &lt;xref:System.Drawing.Drawing2D.Matrix.RotateAt%2A&gt;, &lt;xref:System.Drawing.Drawing2D.Matrix.Scale%2A&gt;, &lt;xref:System.Drawing.Drawing2D.Matrix.Shear%2A&gt;, and &lt;xref:System.Drawing.Drawing2D.Matrix.Translate%2A&gt;.</source>
+          <target state="translated">Klasy Matrix zapewnia kilka metod tworzenia złożone przekształcenia: &lt;xref:System.Drawing.Drawing2D.Matrix.Multiply%2A&gt;, &lt;xref:System.Drawing.Drawing2D.Matrix.Rotate%2A&gt;, &lt;xref:System.Drawing.Drawing2D.Matrix.RotateAt%2A&gt;, &lt;xref:System.Drawing.Drawing2D.Matrix.Scale%2A&gt;, &lt;xref:System.Drawing.Drawing2D.Matrix.Shear%2A&gt;i &lt;xref:System.Drawing.Drawing2D.Matrix.Translate%2A&gt;.&lt;/xref:System.Drawing.Drawing2D.Matrix.Translate%2A&gt; &lt;/xref:System.Drawing.Drawing2D.Matrix.Shear%2A&gt; &lt;/xref:System.Drawing.Drawing2D.Matrix.Scale%2A&gt; &lt;/xref:System.Drawing.Drawing2D.Matrix.RotateAt%2A&gt; &lt;/xref:System.Drawing.Drawing2D.Matrix.Rotate%2A&gt; &lt;/xref:System.Drawing.Drawing2D.Matrix.Multiply%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following example creates the matrix of a composite transformation that first rotates 30 degrees, then scales by a factor of 2 in the y direction, and then translates 5 units in the x direction:       <bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>System.Drawing.CoordinateSystems#11<ept id="p2">](~/add/codesnippet/visualbasic/t-system.drawing.drawing_10_1.vb)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>System.Drawing.CoordinateSystems#11<ept id="p4">](~/add/codesnippet/csharp/t-system.drawing.drawing_10_1.cs)</ept><ept id="p3">]</ept></source>
+          <target state="translated">Poniższy przykład tworzy macierzy transformacji złożonego, najpierw obraca 30 stopni, a następnie skaluje przez współczynnik 2 w kierunku y, która przetwarza 5 jednostek w kierunku x: <bpt id="p1">[!code-vb</bpt> <bpt id="p2">[</bpt>System.Drawing.CoordinateSystems#11<ept id="p2">](~/add/codesnippet/visualbasic/t-system.drawing.drawing_10_1.vb)</ept><ept id="p1">]</ept><bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>System.Drawing.CoordinateSystems#11  <ept id="p4">](~/add/codesnippet/csharp/t-system.drawing.drawing_10_1.cs)</ept><ept id="p3">]</ept></target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class as the identity matrix.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy jako macierzą.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class to the geometric transform defined by the specified rectangle and array of points.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy do transformacji geometrycznych zdefiniowanych przez określony prostokąt i Tablica punktów.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method initializes the new Matrix such that it represents the geometric transform that maps the rectangle specified by the <ph id="ph1">`rect`</ph> parameter to the parallelogram defined by the three points in the <ph id="ph2">`plgpts`</ph> parameter.</source>
+          <target state="translated">Ta metoda inicjuje nowej macierzy w taki sposób, że reprezentuje przekształcenie geometryczne, mapowanego na prostokąt określony przez <ph id="ph1">`rect`</ph> parametr równoległobok wynika z trzech punktach <ph id="ph2">`plgpts`</ph> parametru.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The upper-left corner of the rectangle is mapped to the first point in the <ph id="ph1">`plgpts`</ph> array, the upper-right corner is mapped to the second point, and the lower-left corner is mapped to the third point.</source>
+          <target state="translated">Górnego lewego rogu prostokąta jest mapowany na pierwszy punkt <ph id="ph1">`plgpts`</ph> tablicy, prawym górnym rogu jest mapowany na drugi punkt i lewym dolnym rogu jest mapowany na trzeci punktu.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lower-right point of the parallelogram is implied by the first three.</source>
+          <target state="translated">Punkt prawym dolnym równoległobok technicznego przez pierwsze trzy.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Rectangle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that represents the rectangle to be transformed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Rectangle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> strukturę, która reprezentuje prostokąta do przekształcenia.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An array of three <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed.</source>
+          <target state="translated">Tablica trzy <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur, które reprezentuje punkty równoległobok, do którego ma zostać przekształcone lewym górnym, prawym górnym i lewym dolnym rogu prostokąta.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The lower-right corner of the parallelogram is implied by the first three corners.</source>
+          <target state="translated">Prawym dolnym rogu równoległobok technicznego przez pierwsze trzy narożniki.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class to the geometric transform defined by the specified rectangle and array of points.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy do transformacji geometrycznych zdefiniowanych przez określony prostokąt i Tablica punktów.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method initializes the new &lt;xref:System.Drawing.Drawing2D.Matrix&gt; such that it represents the geometric transform that maps the rectangle specified by the <ph id="ph1">`rect`</ph> parameter to the parallelogram defined by the three points in the <ph id="ph2">`plgpts`</ph> parameter.</source>
+          <target state="translated">Ta metoda inicjuje nowy &lt;xref:System.Drawing.Drawing2D.Matrix&gt;Tak, aby reprezentuje przekształcenie geometryczne, mapowanego na prostokąt określony przez <ph id="ph1">`rect`</ph> parametr równoległobok wynika z trzech punktach <ph id="ph2">`plgpts`</ph> parametru.&lt;/xref:System.Drawing.Drawing2D.Matrix&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The upper-left corner of the rectangle is mapped to the first point in the <ph id="ph1">`plgpts`</ph> array, the upper-right corner is mapped to the second point, and the lower-left corner is mapped to the third point.</source>
+          <target state="translated">Górnego lewego rogu prostokąta jest mapowany na pierwszy punkt <ph id="ph1">`plgpts`</ph> tablicy, prawym górnym rogu jest mapowany na drugi punkt i lewym dolnym rogu jest mapowany na trzeci punktu.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lower-right point of the parallelogram is implied by the first three.</source>
+          <target state="translated">Punkt prawym dolnym równoległobok technicznego przez pierwsze trzy.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.RectangleF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that represents the rectangle to be transformed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.RectangleF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> strukturę, która reprezentuje prostokąta do przekształcenia.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An array of three <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed.</source>
+          <target state="translated">Tablica trzy <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur, które reprezentuje punkty równoległobok, do którego ma zostać przekształcone lewym górnym, prawym górnym i lewym dolnym rogu prostokąta.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The lower-right corner of the parallelogram is implied by the first three corners.</source>
+          <target state="translated">Prawym dolnym rogu równoległobok technicznego przez pierwsze trzy narożniki.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified elements.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy z określonych elementów.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The value in the first row and first column of the new <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość w pierwszym wierszu i pierwszą kolumnę nowej <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The value in the first row and second column of the new <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość w pierwszej kolumny wiersza i sekundę nowej <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The value in the second row and first column of the new <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość w drugim wierszu i pierwszą kolumnę nowej <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The value in the second row and second column of the new <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość w drugiej kolumnie wierszy i sekundę nowej <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The value in the third row and first column of the new <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość w trzeciego wiersza i pierwszą kolumnę nowej <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The value in the third row and second column of the new <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość trzeciej kolumny wiersza i sekundę nowej <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Creates an exact copy of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tworzy dokładną kopię to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Tworzącą tę metodę.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Zwalnia wszelkie zasoby używane przez to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling <ph id="ph1">`Dispose`</ph> allows the resources used by this &lt;xref:System.Drawing.Drawing2D.Matrix&gt; object to be reallocated for other purposes.</source>
+          <target state="translated">Wywoływanie <ph id="ph1">`Dispose`</ph> umożliwia zasoby używane przez to &lt;xref:System.Drawing.Drawing2D.Matrix&gt;obiektu odbiorczego do innych celów.&lt;/xref:System.Drawing.Drawing2D.Matrix&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets an array of floating-point values that represents the elements of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera tablicę wartości zmiennoprzecinkowych, która reprezentuje elementy tego <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The elements m11, m12, m21, m22, dx, and dy of the &lt;xref:System.Drawing.Drawing2D.Matrix&gt; are represented by the values in the array in that order.</source>
+          <target state="translated">Elementy m11, m12, m21 m22, dx i dy z &lt;xref:System.Drawing.Drawing2D.Matrix&gt;są reprezentowane przez wartości w tablicy w podanej kolejności.&lt;/xref:System.Drawing.Drawing2D.Matrix&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An array of floating-point values that represents the elements of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tablica wartości zmiennoprzecinkowych reprezentuje elementy tego <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Tests whether the specified object is a <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and is identical to this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Sprawdza, czy określony obiekt jest <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i jest taki sam jak to <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The object to test.</source>
+          <target state="translated">Obiekt do testowania.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This method returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p2">&lt;/code&gt;</ept> is the specified <bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> identical to this <bpt id="p4">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>; otherwise, <bpt id="p5">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ta metoda zwraca <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p2">&lt;/code&gt;</ept> jest określony <bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> taki sam jak to <bpt id="p4">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>; w przeciwnym razie <bpt id="p5">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p5">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</source>
+          <target state="translated">Umożliwia obiektu, próby zwolnienia zasobów i wykonywać inne operacje oczyszczania, przed jego jest odzyskana przez wyrzucanie elementów bezużytecznych.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Returns a hash code.</source>
+          <target state="translated">Zwraca wartość skrótu.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The hash code for this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość skrótu dla tego <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Inverts this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if it is invertible.</source>
+          <target state="translated">Odwraca wybór to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, jeśli jest nieodwracalna.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is the identity matrix.</source>
+          <target state="translated">Pobiera wartość wskazującą czy to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> jest macierzą.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This property is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is identity; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ta właściwość jest <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> jest tożsamość; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is invertible.</source>
+          <target state="translated">Pobiera wartość wskazującą czy to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> się odwracalne.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This property is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is invertible; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ta właściwość jest <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> się odwracalne; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Multiplies this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> by the matrix specified in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">matrix</ph><ept id="p2">&lt;/code&gt;</ept> parameter, by prepending the specified <bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Mnoży to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> przez określony w macierzy <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">matrix</ph> <ept id="p2">&lt;/code&gt;</ept> parametru, dołączając określonego <bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> by which this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is to be multiplied.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Które to <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> jest mnożona.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Multiplies this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> by the matrix specified in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">matrix</ph><ept id="p2">&lt;/code&gt;</ept> parameter, and in the order specified in the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">order</ph><ept id="p3">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Mnoży to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> przez określony w macierzy <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">matrix</ph> <ept id="p2">&lt;/code&gt;</ept> parametru w kolejności określonej w <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">order</ph> <ept id="p3">&lt;/code&gt;</ept> parametru.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified order is &lt;xref:System.Drawing.Drawing2D.MatrixOrder&gt;, this &lt;xref:System.Drawing.Drawing2D.Matrix&gt; is multiplied by the specified matrix in a prepended order.</source>
+          <target state="translated">Jeśli jest określona kolejność &lt;xref:System.Drawing.Drawing2D.MatrixOrder&gt;, to &lt;xref:System.Drawing.Drawing2D.Matrix&gt;jest mnożona przez wskazana macierz matrix w kolejności prepended.&lt;/xref:System.Drawing.Drawing2D.Matrix&gt; &lt;/xref:System.Drawing.Drawing2D.MatrixOrder&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified order is &lt;xref:System.Drawing.Drawing2D.MatrixOrder&gt;, this &lt;xref:System.Drawing.Drawing2D.Matrix&gt; is multiplied by the specified matrix in an appended order.</source>
+          <target state="translated">Jeśli jest określona kolejność &lt;xref:System.Drawing.Drawing2D.MatrixOrder&gt;, to &lt;xref:System.Drawing.Drawing2D.Matrix&gt;jest mnożona przez wskazana macierz matrix w kolejności dołączany.&lt;/xref:System.Drawing.Drawing2D.Matrix&gt; &lt;/xref:System.Drawing.Drawing2D.MatrixOrder&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> by which this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is to be multiplied.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Które to <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> jest mnożona.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the order of the multiplication.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Reprezentujący kolejnością mnożenie.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets the x translation value (the dx value, or the element in the third row and first column) of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera tłumaczenia wartość x (wartość dx lub element w trzeciego wiersza i pierwszej kolumny) to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The x translation value of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tłumaczenie wartość x to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets the y translation value (the dy value, or the element in the third row and second column) of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera tłumaczenia wartość y (wartość dy lub element trzeciej kolumny wiersza i sekundę) to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The y translation value of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tłumaczenie wartość y to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Resets this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to have the elements of the identity matrix.</source>
+          <target state="translated">Spowoduje to zresetowanie <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ma elementy macierzą.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The elements on the main diagonal of the identity matrix are 1.</source>
+          <target state="translated">Elementy na głównym przekątnej macierzą to 1.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All other elements of the identity matrix are 0.</source>
+          <target state="translated">Wszystkie inne elementy macierzą to 0.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Prepend to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> a clockwise rotation, around the origin and by the specified angle.</source>
+          <target state="translated">Dołączy do tego <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obrót w prawo, wokół punktu początkowego i o określony kąt.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The angle of the rotation, in degrees.</source>
+          <target state="translated">Kąt obrotu w stopniach.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Applies a clockwise rotation of an amount specified in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">angle</ph><ept id="p1">&lt;/code&gt;</ept> parameter, around the origin (zero x and y coordinates) for this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Stosuje obrót w prawo o szerokości określonej w <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">angle</ph> <ept id="p1">&lt;/code&gt;</ept> parametru wokół źródła (współrzędne zero x i y) dla tego <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The angle (extent) of the rotation, in degrees.</source>
+          <target state="translated">Kąt (zakres) obrotu w stopniach.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the order (append or prepend) in which the rotation is applied to this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , który określa kolejność (Dołącz lub dołączy), w których są stosowane do tego obrót <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Applies a clockwise rotation to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> around the point specified in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">point</ph><ept id="p2">&lt;/code&gt;</ept> parameter, and by prepending the rotation.</source>
+          <target state="translated">Dotyczy to obrót <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wokół punktu określonego w <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">point</ph> <ept id="p2">&lt;/code&gt;</ept> parametru i dołączając obrót.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The angle (extent) of the rotation, in degrees.</source>
+          <target state="translated">Kąt (zakres) obrotu w stopniach.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the center of the rotation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentujący środek obrotu.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Applies a clockwise rotation about the specified point to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified order.</source>
+          <target state="translated">Dotyczy to obrót w prawo o określony punkt <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w określonej kolejności.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The angle of the rotation, in degrees.</source>
+          <target state="translated">Kąt obrotu w stopniach.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the center of the rotation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentujący środek obrotu.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the order (append or prepend) in which the rotation is applied.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , który określa kolejność (Dołącz lub dołączy), w których są stosowane obrót.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Applies the specified scale vector to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> by prepending the scale vector.</source>
+          <target state="translated">Dotyczy to wektor określona Skala <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> przez poprzedzenie jej o wektor skalowania.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The value by which to scale this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the x-axis direction.</source>
+          <target state="translated">Wartość, według której można skalować to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w kierunku osi x.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The value by which to scale this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the y-axis direction.</source>
+          <target state="translated">Wartość, według której można skalować to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w kierunku y.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Applies the specified scale vector (<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">scaleX</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">scaleY</ph><ept id="p2">&lt;/code&gt;</ept>) to this <bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> using the specified order.</source>
+          <target state="translated">Dotyczy wektora określona skala (<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">scaleX</ph> <ept id="p1">&lt;/code&gt;</ept> i <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">scaleY</ph> <ept id="p2">&lt;/code&gt;</ept>) do tego <bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> przy użyciu określonej kolejności.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The value by which to scale this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the x-axis direction.</source>
+          <target state="translated">Wartość, według której można skalować to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w kierunku osi x.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The value by which to scale this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the y-axis direction.</source>
+          <target state="translated">Wartość, według której można skalować to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w kierunku y.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the order (append or prepend) in which the scale vector is applied to this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , który określa kolejność (Dołącz lub dołączy), w których są stosowane do tego o wektor skalowania <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Applies the specified shear vector to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> by prepending the shear transformation.</source>
+          <target state="translated">Dotyczy to Ścinanie określony wektor <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> przez poprzedzenie jej przekształcania Ścinanie.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transformation applied in this method is a pure shear only if one of the parameters is 0.</source>
+          <target state="translated">Transformacja stosowane w przypadku tej metody jest czysty Ścinanie tylko, jeśli jeden z parametrów ma wartość 0.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applied to a rectangle at the origin, when the <ph id="ph1">`shearY`</ph> factor is 0, the transformation moves the bottom edge horizontally by <ph id="ph2">`shearX`</ph> times the height of the rectangle.</source>
+          <target state="translated">Stosowane do prostokąta pochodzenia, gdy <ph id="ph1">`shearY`</ph> współczynnik wynosi 0, transformacja przenosi dolnej krawędzi w poziomie przez <ph id="ph2">`shearX`</ph> razy wysokość prostokąta.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`shearX`</ph> factor is 0, it moves the right edge vertically by <ph id="ph2">`shearY`</ph> times the width of the rectangle.</source>
+          <target state="translated">Gdy <ph id="ph1">`shearX`</ph> współczynnik wynosi 0, przenosi prawą krawędź w pionie według <ph id="ph2">`shearY`</ph> razy szerokość prostokąta.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Caution is in order when both parameters are nonzero, because the results are hard to predict.</source>
+          <target state="translated">Ostrożność jest w kolejności, gdy oba parametry mają różną od zera, ponieważ wyników jest trudna do przewidzenia.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if both factors are 1, the transformation is singular (hence noninvertible), squeezing the entire plane to a single line.</source>
+          <target state="translated">Na przykład, jeśli zarówno czynników 1, transformacja jest pojedyncza (stąd noninvertible), ściskanie płaszczyzna w jeden wiersz.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The horizontal shear factor.</source>
+          <target state="translated">Współczynnik Ścinanie poziomej.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The vertical shear factor.</source>
+          <target state="translated">Współczynnik Ścinanie pionowej.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Applies the specified shear vector to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified order.</source>
+          <target state="translated">Dotyczy to Ścinanie określony wektor <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w określonej kolejności.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transformation applied in this method is a pure shear only if one of the parameters is 0.</source>
+          <target state="translated">Transformacja stosowane w przypadku tej metody jest czysty Ścinanie tylko, jeśli jeden z parametrów ma wartość 0.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applied to a rectangle at the origin, when the <ph id="ph1">`shearY`</ph> factor is 0, the transformation moves the bottom edge horizontally by <ph id="ph2">`shearX`</ph> times the height of the rectangle.</source>
+          <target state="translated">Stosowane do prostokąta pochodzenia, gdy <ph id="ph1">`shearY`</ph> współczynnik wynosi 0, transformacja przenosi dolnej krawędzi w poziomie przez <ph id="ph2">`shearX`</ph> razy wysokość prostokąta.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`shearX`</ph> factor is 0, it moves the right edge vertically by <ph id="ph2">`shearY`</ph> times the width of the rectangle.</source>
+          <target state="translated">Gdy <ph id="ph1">`shearX`</ph> współczynnik wynosi 0, przenosi prawą krawędź w pionie według <ph id="ph2">`shearY`</ph> razy szerokość prostokąta.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Caution is in order when both parameters are nonzero, because the results are hard to predict.</source>
+          <target state="translated">Ostrożność jest w kolejności, gdy oba parametry mają różną od zera, ponieważ wyników jest trudna do przewidzenia.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if both factors are 1, the transformation is singular (hence noninvertible), squeezing the entire plane to a single line.</source>
+          <target state="translated">Na przykład, jeśli zarówno czynników 1, transformacja jest pojedyncza (stąd noninvertible), ściskanie płaszczyzna w jeden wiersz.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The horizontal shear factor.</source>
+          <target state="translated">Współczynnik Ścinanie poziomej.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The vertical shear factor.</source>
+          <target state="translated">Współczynnik Ścinanie pionowej.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the order (append or prepend) in which the shear is applied.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , który określa kolejność (Dołącz lub dołączy), w których są stosowane Ścinanie.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Applies the geometric transform represented by this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a specified array of points.</source>
+          <target state="translated">Stosuje transformację geometryczne, reprezentowany przez to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do określonej tablicy punktów.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points to transform.</source>
+          <target state="translated">Tablica <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur, które reprezentuje punktów do przekształcania.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Applies the geometric transform represented by this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a specified array of points.</source>
+          <target state="translated">Stosuje transformację geometryczne, reprezentowany przez to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do określonej tablicy punktów.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points to transform.</source>
+          <target state="translated">Tablica <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur, które reprezentuje punktów do przekształcania.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Applies only the scale and rotate components of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified array of points.</source>
+          <target state="translated">Dotyczy tylko skalowanie i obrót składników tego <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do określonej tablicy punktów.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points to transform.</source>
+          <target state="translated">Tablica <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur, które reprezentuje punktów do przekształcania.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Multiplies each vector in an array by the matrix.</source>
+          <target state="translated">Mnoży każdego wektora w tablicy w macierzy.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The translation elements of this matrix (third row) are ignored.</source>
+          <target state="translated">Elementy tłumaczenia tej macierzy (trzeci wiersz) są ignorowane.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points to transform.</source>
+          <target state="translated">Tablica <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur, które reprezentuje punktów do przekształcania.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Applies the specified translation vector (<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offsetX</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">offsetY</ph><ept id="p2">&lt;/code&gt;</ept>) to this <bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> by prepending the translation vector.</source>
+          <target state="translated">Dotyczy wektora określonego tłumaczenia (<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offsetX</ph> <ept id="p1">&lt;/code&gt;</ept> i <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">offsetY</ph> <ept id="p2">&lt;/code&gt;</ept>) do tego <bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> przez poprzedzenie jej wektor tłumaczenia.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The x value by which to translate this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość x za pomocą którego można przetłumaczyć to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The y value by which to translate this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość y, według której to wyrazić <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Applies the specified translation vector to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified order.</source>
+          <target state="translated">Dotyczy to tłumaczenia określony wektor <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w określonej kolejności.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The x value by which to translate this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość x za pomocą którego można przetłumaczyć to <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The y value by which to translate this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość y, według której to wyrazić <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the order (append or prepend) in which the translation is applied to this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , który określa kolejność (Dołącz lub dołączy), w których są stosowane do tego tłumaczenia <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Multiplies each vector in an array by the matrix.</source>
+          <target state="translated">Mnoży każdego wektora w tablicy w macierzy.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The translation elements of this matrix (third row) are ignored.</source>
+          <target state="translated">Elementy tłumaczenia tej macierzy (trzeci wiersz) są ignorowane.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points to transform.</source>
+          <target state="translated">Tablica <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur, które reprezentuje punktów do przekształcania.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

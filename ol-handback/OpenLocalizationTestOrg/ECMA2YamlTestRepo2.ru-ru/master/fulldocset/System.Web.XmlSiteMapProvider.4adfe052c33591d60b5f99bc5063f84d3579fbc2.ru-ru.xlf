@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b8d893056fbb3ae8d56821de245d2ef1440d2db9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.XmlSiteMapProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90ac718c9ca5d45e2ded638c504951b9378ee869</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e955d26c39c6827a5b8262d1ff65a56073132be</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The XmlSiteMapProvider class is derived from the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and is the default site map provider for ASP.NET.</source>
+          <target state="translated">XmlSiteMapProvider класс является производным от <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса и поставщик карты сайта по умолчанию для ASP.NET.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The XmlSiteMapProvider class generates site map trees from XML files with the file name extension .sitemap.</source>
+          <target state="translated">Класс XmlSiteMapProvider приводит к возникновению ошибки деревьев карты сайта из XML-файлов с .sitemap расширение имени файла.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlSiteMapProvider class loads site map data from an XML file that follows a known schema.</source>
+          <target state="translated">Класс XmlSiteMapProvider загружает данным карты сайта из файла XML, следует известных схеме.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The site map data is bounded by <ph id="ph1">`&lt;siteMap&gt;`</ph> tags and consists of nested <ph id="ph2">`&lt;siteMapNode&gt;`</ph> tags.</source>
+          <target state="translated">Данные карты узла, ограничен <ph id="ph1">`&lt;siteMap&gt;`</ph> теги и состоит из вложенных <ph id="ph2">`&lt;siteMapNode&gt;`</ph> тегов.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two constraints are imposed by the &lt;xref:System.Web.SiteMapProvider&gt; and XmlSiteMapProvider classes on the structure of the site map data:      -   Only one root node can exist.</source>
+          <target state="translated">Два ограничения накладываемые &lt;xref:System.Web.SiteMapProvider&gt;и данные карт XmlSiteMapProvider классы в структуре веб-узла:-может существовать только один корневой узел.&lt;/xref:System.Web.SiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   For &lt;xref:System.Web.SiteMapNode&gt; objects that specify URLs, the URLs must be unique within the scope of the provider.</source>
+          <target state="translated">— Для &lt;xref:System.Web.SiteMapNode&gt;объектов, укажите URL-адреса и URL-адреса, должны быть уникальными в пределах поставщика.&lt;/xref:System.Web.SiteMapNode&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(For nodes that do not specify URLs, all keys must be unique.)       The following code example shows an example of an XML file that can be used with the XmlSiteMapProvider.</source>
+          <target state="translated">(Для узлов, не указан URL-адреса, все ключи должны быть уникальными.)       В следующем примере кода показан пример XML-файла, который может использоваться с XmlSiteMapProvider.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;siteMap&gt;     &lt;siteMapNode title="RootNode" description="This is the root node of the site map. There can be only one root node." url="Page1.aspx" &gt;       &lt;siteMapNode title="ChildofRootNode" description="Descriptions do not have to be unique." url="Page2.aspx"&gt;         &lt;siteMapNode title="ChildOfChildNode" description="SiteMapNode objects can be nested to any level." url="Page3.aspx"/&gt;       &lt;/siteMapNode&gt;       &lt;siteMapNode title="ChildofRootNode" description="Descriptions do not have to be unique." url="Page4.aspx"/&gt;     &lt;/siteMapNode&gt;   &lt;/siteMap&gt;   ```</ph>       The XmlSiteMapProvider is the default provider for ASP.NET and it reads XML data from a file named Web.sitemap that is located within the directory structure of the ASP.NET application.</source>
+          <target state="translated"><ph id="ph1">```   &lt;siteMap&gt;     &lt;siteMapNode title="RootNode" description="This is the root node of the site map. There can be only one root node." url="Page1.aspx" &gt;       &lt;siteMapNode title="ChildofRootNode" description="Descriptions do not have to be unique." url="Page2.aspx"&gt;         &lt;siteMapNode title="ChildOfChildNode" description="SiteMapNode objects can be nested to any level." url="Page3.aspx"/&gt;       &lt;/siteMapNode&gt;       &lt;siteMapNode title="ChildofRootNode" description="Descriptions do not have to be unique." url="Page4.aspx"/&gt;     &lt;/siteMapNode&gt;   &lt;/siteMap&gt;   ```</ph>XmlSiteMapProvider является поставщиком по умолчанию для ASP.NET, и он считывает XML-данных из файла с именем Web.sitemap, расположенный в структуре каталогов приложения ASP.NET.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the Web.sitemap file is located at the application root; however, if you want to change the name or location of the file from which the XmlSiteMapProvider loads data, you can override the default configuration in your Web.config file.</source>
+          <target state="translated">По умолчанию файл Web.sitemap расположен в корневом каталоге приложения; Тем не менее если вы хотите изменить имя или расположение файла, из которого XmlSiteMapProvider загружает данные, можно переопределить конфигурацию по умолчанию в файле Web.config.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By overriding the default configuration settings in your Web.config file, you can tailor the behavior of the XmlSiteMapProvider for each ASP.NET application, as necessary.</source>
+          <target state="translated">Переопределяя параметры конфигурации по умолчанию в файле Web.config, можно настроить поведение XmlSiteMapProvider для каждого приложения ASP.NET, при необходимости.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following code example demonstrates an example Web.config file, where the XmlSiteMapProvider is still used, but a different site map file is used.</source>
+          <target state="translated">В следующем примере кода демонстрируется пример файла Web.config, XmlSiteMapProvider по-прежнему используется, когда используется файл карты и другой сайт.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because all providers in a &lt;xref:System.Web.SiteMapProviderCollection&gt; object must be named uniquely, the one that is specified in the Web.config file uses a name other than the default but is also set as the default provider so that it will be used instead of the XmlSiteMapProvider that is specified in the default ASP.NET configuration.</source>
+          <target state="translated">Поскольку всех поставщиков в &lt;xref:System.Web.SiteMapProviderCollection&gt;должен иметь уникальное имя объекта, использует имя, отличное от по умолчанию, что указано в файле Web.config, но также устанавливается как поставщик по умолчанию так, что он будет использоваться вместо XmlSiteMapProvider, которая указана в конфигурации ASP.NET по умолчанию.&lt;/xref:System.Web.SiteMapProviderCollection&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can change the name of the site navigation data file, but you cannot change its extension.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек можно изменить имя файла данных узла навигации, но нельзя изменить его расширение.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlSiteMapProvider only reads data from files that are named with the file name extension .sitemap.</source>
+          <target state="translated">XmlSiteMapProvider только считывает данные из файлов, которые именуются с .sitemap расширение имени файла.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Creates a new, unnamed, instance of the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Создает новый экземпляр без имени, из <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the collections that are maintained by the current provider.</source>
+          <target state="translated">Добавляет <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект коллекции, которые поддерживаются текущим поставщиком.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`node`</ph> parameter is added to an internal collection, and a parent/child relationship is created between it and <ph id="ph2">`parentNode`</ph>.</source>
+          <target state="translated"><ph id="ph1">`node`</ph> Параметр добавляется во внутреннюю коллекцию, а родители потомки связь создается между ним и <ph id="ph2">`parentNode`</ph>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class, derived from the &lt;xref:System.Web.StaticSiteMapProvider&gt; class and the default site map provider for ASP.NET, uses the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property of a &lt;xref:System.Web.SiteMapNode&gt; object as a lookup key in its internal collections, by default.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;Класс, производный от &lt;xref:System.Web.StaticSiteMapProvider&gt;класса и поставщик карты сайта по умолчанию для ASP.NET использует &lt;xref:System.Web.SiteMapNode.Url%2A&gt;свойство &lt;xref:System.Web.SiteMapNode&gt;объект в качестве ключа для поиска в его внутренние коллекции по умолчанию.&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt; &lt;/xref:System.Web.StaticSiteMapProvider&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property of the &lt;xref:System.Web.SiteMapNode&gt; is set, it must be unique within the scope of the provider.</source>
+          <target state="translated">Если &lt;xref:System.Web.SiteMapNode.Url%2A&gt;свойство &lt;xref:System.Web.SiteMapNode&gt;установлено, оно должно быть уникальным в пределах области поставщика.&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider.FindSiteMapNode%2A&gt; method attempts to retrieve nodes based on their &lt;xref:System.Web.SiteMapNode.Url%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider.FindSiteMapNode%2A&gt;Метод пытается получить узлы в зависимости от их &lt;xref:System.Web.SiteMapNode.Url%2A&gt;.&lt;/xref:System.Web.SiteMapNode.Url%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider.FindSiteMapNode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, you can use the &lt;xref:System.Web.SiteMapNode.Key%2A&gt; property, and the corresponding &lt;xref:System.Web.XmlSiteMapProvider.FindSiteMapNodeFromKey%2A&gt; method, to retrieve nodes.</source>
+          <target state="translated">В противном случае можно использовать &lt;xref:System.Web.SiteMapNode.Key%2A&gt;Свойства и соответствующие &lt;xref:System.Web.XmlSiteMapProvider.FindSiteMapNodeFromKey%2A&gt;метод для извлечения узлов.&lt;/xref:System.Web.XmlSiteMapProvider.FindSiteMapNodeFromKey%2A&gt; &lt;/xref:System.Web.SiteMapNode.Key%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the provider.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для добавления к поставщику.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> under which to add <ph id="ph1">`node`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> В которую добавляется <ph id="ph1">`node`</ph>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;parentNode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;parentNode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not the provider associated with <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">node</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Текущий <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> поставщик не связан с <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">node</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Links a child site map provider to the current provider.</source>
+          <target state="translated">Связывает дочерний поставщик карты узла с текущим поставщиком.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddProvider method links <ph id="ph1">`providerName`</ph> to the current provider as a child of the current provider.</source>
+          <target state="translated">Метод ссылки AddProvider <ph id="ph1">`providerName`</ph> с текущим поставщиком потомком текущего поставщика.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The root node of <ph id="ph1">`providerName`</ph> is added to the hierarchy for the current provider as a child node of <ph id="ph2">`parentNode`</ph>.</source>
+          <target state="translated">Корневой узел <ph id="ph1">`providerName`</ph> добавляется как дочерний узел иерархии для текущего поставщика <ph id="ph2">`parentNode`</ph>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the parent provider calls the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method on <ph id="ph1">`providerName`</ph>, the exceptions that are described in the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method might be thrown.</source>
+          <target state="translated">Так как родительский поставщик вызывает &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;метод <ph id="ph1">`providerName`</ph>, исключения, которые описаны в &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;метод может вызываться.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name of one of the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects currently registered in the &lt;xref:System.Web.SiteMap.Providers*&gt;.</source>
+          <target state="translated">Имя одного из <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекты, зарегистрированные в данный момент в списке &lt;xref:System.Web.SiteMap.Providers*&gt;.&lt;/xref:System.Web.SiteMap.Providers*&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A site map node of the current site map provider under which the root node and all nodes of the child provider is added.</source>
+          <target state="translated">Узел карты текущего поставщика карты узла, под которым добавляется корневой узел и все узлы дочернего поставщика.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SiteMapNode.Provider*&gt; property of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">parentNode</ph><ept id="p1">&lt;/code&gt;</ept> does not reference the current provider.</source>
+          <target state="translated">&lt;xref:System.Web.SiteMapNode.Provider*&gt;Свойство <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">parentNode</ph> <ept id="p1">&lt;/code&gt;</ept> не ссылается на текущий поставщик.&lt;/xref:System.Web.SiteMapNode.Provider*&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;parentNode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;parentNode&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph> cannot be resolved.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph>не удается разрешить.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The site map file used by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">providerName</ph><ept id="p1">&lt;/code&gt;</ept> is already in use within the provider hierarchy.</source>
+          <target state="translated">Файл карты сайта, используемые <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">providerName</ph> <ept id="p1">&lt;/code&gt;</ept> уже используется в иерархии поставщика.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-or-       The root node returned by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">providerName</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- или - корневой узел, возвращенный <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">providerName</ph> <ept id="p1">&lt;/code&gt;</ept> — <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-or-       The root node returned by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">providerName</ph><ept id="p1">&lt;/code&gt;</ept> has a URL or key that is already registered with the parent <bpt id="p2">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- или - корневой узел, возвращенный <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">providerName</ph> <ept id="p1">&lt;/code&gt;</ept> имеет URL-адрес или ключ, который уже зарегистрирован с родительским объектом <bpt id="p2">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Loads the site map information from an XML file and builds it in memory.</source>
+          <target state="translated">Загружает сведения о карте сайта из файла XML и создает их в памяти.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BuildSiteMap method is called to load and build the site map from persistent storage.</source>
+          <target state="translated">Метод BuildSiteMap вызывается для загрузки и сборки карты узла из постоянного хранилища.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the default behavior when security trimming is enabled, see "Remarks" in &lt;xref:System.Web.SiteMapProvider.IsAccessibleToUser%2A&gt;.</source>
+          <target state="translated">Поведение по умолчанию при включении фильтрации по ролям безопасности. в разделе «Примечания» в папке &lt;xref:System.Web.SiteMapProvider.IsAccessibleToUser%2A&gt;.&lt;/xref:System.Web.SiteMapProvider.IsAccessibleToUser%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the &lt;xref:System.Web.XmlSiteMapProvider&gt; object parses and loads site map data, all loaded &lt;xref:System.Web.SiteMapNode&gt; objects and &lt;xref:System.Web.SiteMapNodeCollection&gt; collections are made read-only.</source>
+          <target state="translated">После &lt;xref:System.Web.XmlSiteMapProvider&gt;объекта анализирует и загружает данные карты узла, все загруженные &lt;xref:System.Web.SiteMapNode&gt;объекты и &lt;xref:System.Web.SiteMapNodeCollection&gt;коллекции доступной только для чтения.&lt;/xref:System.Web.SiteMapNodeCollection&gt; &lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Web.XmlSiteMapProvider&gt; parses the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property from a site map file, it converts application-relative URLs, as well as relative URLs, to application-absolute virtual paths.</source>
+          <target state="translated">Когда &lt;xref:System.Web.XmlSiteMapProvider&gt;выполняет синтаксический анализ &lt;xref:System.Web.SiteMapNode.Url%2A&gt;Свойства из файла карты узла, она преобразовывает URL-адреса, зависящий от приложения, а также относительные URL-адреса приложения абсолютных виртуальных путей.&lt;/xref:System.Web.SiteMapNode.Url%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; subscribes to file change notifications for the .sitemap file.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;Подписывается на уведомления об изменении файла для файла .sitemap.&lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any change is made to the .sitemap file, the &lt;xref:System.Web.XmlSiteMapProvider&gt; is reloaded, and the site map structure is rebuilt.</source>
+          <target state="translated">При внесении любых изменений в файл .sitemap &lt;xref:System.Web.XmlSiteMapProvider&gt;перезапускается, и структура карты сайта будет перестроен.&lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Returns the root <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the site map navigation structure.</source>
+          <target state="translated">Возвращает корень <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для навигации по структуре карты сайта.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_siteMapFile" name="siteMapFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is specified but the path lies outside the current directory structure for the application.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_siteMapFile" name="siteMapFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Указан, однако путь находится за пределами текущей структуры каталогов для приложения.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A named provider cannot be found in the current site map providers collection.</source>
+          <target state="translated">Поставщик имени не найден в текущей коллекции поставщиков карты сайта.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;siteMapNode&amp;gt;" name="&amp;lt;siteMapNode&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> referencing a site map file contains an empty string for the <bpt id="p2">&lt;xref uid="langword_csharp_siteMapFile" name="siteMapFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;siteMapNode&amp;gt;" name="&amp;lt;siteMapNode&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ссылки на файл карты узла содержит пустую строку для <bpt id="p2">&lt;xref uid="langword_csharp_siteMapFile" name="siteMapFile" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Removes all elements in the collections of child and parent site map nodes and site map providers that the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object internally tracks as part of its state.</source>
+          <target state="translated">Удаляет все элементы в коллекции узлов карты дочерней и родительской и поставщиков карты узла, <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект внутренне отслеживает как часть его состояния.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class overrides the inherited Clear method to provide additional state cleanup beyond the basic &lt;xref:System.Web.StaticSiteMapProvider.Clear%2A?displayProperty=fullName&gt; implementation, including clearing its child provider tracking and the &lt;xref:System.Web.XmlSiteMapProvider.RootNode%2A&gt; property tracking mechanisms.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;Класс переопределяет унаследованный метод Clear для предоставления дополнительного состояния очистки после базовый &lt;xref:System.Web.StaticSiteMapProvider.Clear%2A?displayProperty=fullName&gt;реализацию, включая его дочерние поставщик отслеживания Очистка и &lt;xref:System.Web.XmlSiteMapProvider.RootNode%2A&gt;свойство механизмы отслеживания.&lt;/xref:System.Web.XmlSiteMapProvider.RootNode%2A&gt; &lt;/xref:System.Web.StaticSiteMapProvider.Clear%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the currently requested page.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий текущую запрошенную страницу.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The site map object that represents the currently requested page.</source>
+          <target state="translated">Объект карты узла, представляющий текущую запрошенную страницу.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Notifies the file monitor of the Web.sitemap file that the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object no longer requires the file to be monitored.</source>
+          <target state="translated">Монитор файлов Web.sitemap уведомляет файла, который <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект больше не требует отслеживаемого файла.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class implements the &lt;xref:System.IDisposable.Dispose%2A&gt; method of the &lt;xref:System.IDisposable&gt; interface to release its associated file monitor when the site map file is unloaded from memory.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;Класс реализует &lt;xref:System.IDisposable.Dispose%2A&gt;метод &lt;xref:System.IDisposable&gt;интерфейс освобождать его связанный файл монитор, если файл карты сайта выгружается из памяти.&lt;/xref:System.IDisposable&gt; &lt;/xref:System.IDisposable.Dispose%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the &lt;xref:System.Web.XmlSiteMapProvider.Dispose%2A&gt; method calls the overload that takes a &lt;xref:System.Boolean&gt; parameter and sets the value to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Эта перегрузка &lt;xref:System.Web.XmlSiteMapProvider.Dispose%2A&gt;метод вызывает перегрузку, которая принимает &lt;xref:System.Boolean&gt;параметр и присваивает значению <ph id="ph1">`true`</ph>.&lt;/xref:System.Boolean&gt; &lt;/xref:System.Web.XmlSiteMapProvider.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Notifies the file monitor of the Web.sitemap file that the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object no longer requires the file to be monitored.</source>
+          <target state="translated">Монитор файлов Web.sitemap уведомляет файла, который <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект больше не требует отслеживаемого файла.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The Dispose method takes a Boolean parameter indicating whether the method is called by user code.</source>
+          <target state="translated">Метод Dispose с параметром типа Boolean, указывающее, вызывается ли метод с помощью пользовательского кода.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method returns <ph id="ph1">`true`</ph> if the Dispose method is called by user code.</source>
+          <target state="translated">Возвращает метод Dispose <ph id="ph1">`true`</ph> при вызове метода Dispose в пользовательском коде.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise it returns <ph id="ph1">`false`</ph>, if the Dispose method is called by the finalizer thread during run time.</source>
+          <target state="translated">В противном случае он возвращает <ph id="ph1">`false`</ph>, если метод Dispose вызывается потоком завершения во время выполнения.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>для освобождения управляемых и неуправляемых ресурсов; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> для освобождения только неуправляемых ресурсов.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Retrieves a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the page at the specified URL.</source>
+          <target state="translated">Извлекает <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий страницу на указанный URL-адрес.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; object overrides the &lt;xref:System.Web.StaticSiteMapProvider.FindSiteMapNode%2A&gt; method to ensure that any linked child providers are searched for the node if the implementation of the base class does not return a node for the specified URL.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;Переопределяет метод &lt;xref:System.Web.StaticSiteMapProvider.FindSiteMapNode%2A&gt;метод, чтобы гарантировать, что все поставщики связанных дочерних поиск узла при реализации базового класса не возвращает узел для указанного URL-адреса.&lt;/xref:System.Web.StaticSiteMapProvider.FindSiteMapNode%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`rawUrl`</ph> parameter should be either an absolute virtual path or an application-relative path, depending on how it is specified in the XML site map data file.</source>
+          <target state="translated"><ph id="ph1">`rawUrl`</ph> Параметр должен быть абсолютным виртуальным путем или относительным путем приложения, в зависимости от того, как он указан в файле данных карты узла XML.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class and classes that are derived from it use the URL of a &lt;xref:System.Web.SiteMapNode&gt; object as a key in the various collections that the class maintains.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;Классов и классов, производных от него используйте URL-адрес &lt;xref:System.Web.SiteMapNode&gt;объекта в коллекции, которые поддерживает класс в качестве ключа.&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, these URLs must be unique within the scope of the site map.</source>
+          <target state="translated">Таким образом эти URL-адреса должно быть уникальным в пределах области карты веб-узла.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the URL is not found within the immediate site map data that is managed by the &lt;xref:System.Web.XmlSiteMapProvider&gt;, it calls the FindSiteMapNode on each child provider that is linked to it through the <ph id="ph1">`provider`</ph> attribute of its site map nodes.</source>
+          <target state="translated">Если URL-адрес не найден в данных карты сайта непосредственно под управлением &lt;xref:System.Web.XmlSiteMapProvider&gt;, он вызывает FindSiteMapNode для каждого дочернего поставщика, связанного с ним через <ph id="ph1">`provider`</ph> атрибут его узлов карты.&lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindSiteMapNode method indirectly calls the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method to retrieve the top-level node in the site map.</source>
+          <target state="translated">Метод FindSiteMapNode косвенно вызывает &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;метод для извлечения узел верхнего уровня в карте узла.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, any exceptions that occur for the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method can also occur when calling the FindSiteMapNode method.</source>
+          <target state="translated">Таким образом, любые исключения, возникающие для &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;метод также может возникнуть при вызове метода FindSiteMapNode.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A URL that identifies the page for which to retrieve a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">URL-адрес, определяющий страницу, для которого требуется извлечь <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the page identified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">rawURL</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий страницу по <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">rawURL</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A child provider linked to the current site map provider returned a node that is not valid.</source>
+          <target state="translated">Дочерний элемент поставщика связан с текущего поставщика карты сайта, возвращаемый узел, который является недопустимым.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Retrieves a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object based on a specified key.</source>
+          <target state="translated">Извлекает <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> в соответствии с указанным ключом.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class overrides the &lt;xref:System.Web.StaticSiteMapProvider.FindSiteMapNodeFromKey%2A&gt; method to ensure that any linked child providers are searched for the node, if the implementation for the base class does not return a node for <ph id="ph1">`key`</ph>.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;Класса переопределения &lt;xref:System.Web.StaticSiteMapProvider.FindSiteMapNodeFromKey%2A&gt;метод, чтобы гарантировать, что все поставщики связанных дочерних поиск узла, если реализация базового класса не возвращает узел для <ph id="ph1">`key`</ph>.&lt;/xref:System.Web.StaticSiteMapProvider.FindSiteMapNodeFromKey%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; object, derived from the &lt;xref:System.Web.StaticSiteMapProvider&gt; class and the default site map provider for ASP.NET, uses the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property of a &lt;xref:System.Web.SiteMapNode&gt; object as a lookup key in its internal collections, by default.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;Объект, производный от &lt;xref:System.Web.StaticSiteMapProvider&gt;класса и поставщик карты сайта по умолчанию для ASP.NET использует &lt;xref:System.Web.SiteMapNode.Url%2A&gt;свойство &lt;xref:System.Web.SiteMapNode&gt;объект в качестве ключа для поиска в его внутренние коллекции по умолчанию.&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt; &lt;/xref:System.Web.StaticSiteMapProvider&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property of the &lt;xref:System.Web.SiteMapNode&gt; is set, it must be unique within the scope of the provider.</source>
+          <target state="translated">Если &lt;xref:System.Web.SiteMapNode.Url%2A&gt;свойство &lt;xref:System.Web.SiteMapNode&gt;установлено, оно должно быть уникальным в пределах области поставщика.&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no &lt;xref:System.Web.SiteMapNode.Url%2A&gt; is specified, the &lt;xref:System.Web.XmlSiteMapProvider&gt; automatically generates a &lt;xref:System.Web.SiteMapNode.Key%2A&gt; to track the nodes.</source>
+          <target state="translated">Если не &lt;xref:System.Web.SiteMapNode.Url%2A&gt;указано, &lt;xref:System.Web.XmlSiteMapProvider&gt;автоматически создает &lt;xref:System.Web.SiteMapNode.Key%2A&gt;для отслеживания узлов.&lt;/xref:System.Web.SiteMapNode.Key%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindSiteMapNodeFromKey method might call the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method on any child providers that are associated with the current provider.</source>
+          <target state="translated">Метод FindSiteMapNodeFromKey может вызвать метод &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;метод дочерних поставщиков, которые связаны с текущим поставщиком.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the exceptions that are described in the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method might be thrown.</source>
+          <target state="translated">Таким образом, исключения, которые описаны в &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;метод может вызываться.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A lookup key with which to search for a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Уточняющий запрос ключа, с которой нужно выполнить поиск <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the page identified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p2">&lt;/code&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, if security trimming is enabled and the node cannot be shown to the current user or the node is not found by <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">key</ph><ept id="p4">&lt;/code&gt;</ept> in the node collection.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий страницу по <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p2">&lt;/code&gt;</ept>; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>, если включена фильтрация по ролям безопасности и узел не удается отобразить для текущего пользователя или узел не найден по <bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">key</ph> <ept id="p4">&lt;/code&gt;</ept> в коллекции узлов.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A child provider linked to the current site map provider returned a node that is not valid.</source>
+          <target state="translated">Дочерний элемент поставщика связан с текущего поставщика карты сайта, возвращаемый узел, который является недопустимым.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Returns the child nodes of the site map.</source>
+          <target state="translated">Возвращает дочерние узлы карты веб-узла.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to get child nodes from.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Дочерних узлов от объекта.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A collection of site map nodes.</source>
+          <target state="translated">Коллекция узлов карты.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Returns the parent node of the site map.</source>
+          <target state="translated">Возвращает родительский узел карты веб-узла.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to get the parent node from.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Объекта из родительского узла.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The parent node of the site map.</source>
+          <target state="translated">Родительский узел карты веб-узла.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Retrieves the top-level node of the current site map data structure.</source>
+          <target state="translated">Извлекает узел текущей структуры данных карты сайта верхнего уровня.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetRootNodeCore method calls the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method to retrieve the top-level node in the site map.</source>
+          <target state="translated">Вызовы метода GetRootNodeCore &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;метод для извлечения узел верхнего уровня в карте узла.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, any exceptions that occur for the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method can also occur when calling the GetRootNodeCore method.</source>
+          <target state="translated">Таким образом, любые исключения, возникающие для &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;метод также может возникнуть при вызове метода GetRootNodeCore.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the top-level node in the current site map data structure.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий узел верхнего уровня, содержащихся в текущей структуре данных карты сайта.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Инициализирует <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The Initialize method does not actually build a site map, it only prepares the state of the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to do so.</source>
+          <target state="translated">Метод Initialize фактически не создает карты сайта, он только подготавливает состояние <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> делать это.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class overrides the inherited Initialize method to apply several attributes, such as the <ph id="ph1">`siteMapFile`</ph> and <ph id="ph2">`description`</ph> attributes, to the <ph id="ph3">`attributes`</ph> collection.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;Класс переопределяет унаследованный метод инициализации для применения нескольких атрибутов, таких как <ph id="ph1">`siteMapFile`</ph> и <ph id="ph2">`description`</ph> атрибуты, <ph id="ph3">`attributes`</ph> коллекции.&lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to initialize.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для инициализации.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can contain additional attributes to help initialize <ph id="ph1">`name`</ph>.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , может содержать дополнительные атрибуты для инициализации <ph id="ph1">`name`</ph>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>These attributes are read from the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> configuration in the Web.config file.</source>
+          <target state="translated">Эти атрибуты считываются из <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> конфигурации в файле Web.config.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is initialized more than once.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Инициализируется более одного раза.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Removes the specified <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from all node collections that are tracked by the provider.</source>
+          <target state="translated">Удаляет указанный <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта из всех коллекций узла, которые отслеживаются поставщиком.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The node to remove from the node collections.</source>
+          <target state="translated">Узел для удаления из коллекции узлов.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Removes a linked child site map provider from the hierarchy for the current provider.</source>
+          <target state="translated">Удаляет связанный дочерний поставщик карты узла из иерархии для текущего поставщика.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RemoveProvider method removes <ph id="ph1">`providerName`</ph> from the hierarchy for the current provider, including any parent/child relationships that are established by the &lt;xref:System.Web.XmlSiteMapProvider.AddProvider%2A&gt; method between site map nodes of the current provider and the removed provider.</source>
+          <target state="translated">Удаляет метод RemoveProvider <ph id="ph1">`providerName`</ph> из иерархии для текущего поставщика, включая все иерархические отношения, установленных с &lt;xref:System.Web.XmlSiteMapProvider.AddProvider%2A&gt;метод между узлов карты текущего поставщика и поставщик удален.&lt;/xref:System.Web.XmlSiteMapProvider.AddProvider%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The name of one of the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects currently registered in the &lt;xref:System.Web.SiteMap.Providers*&gt;.</source>
+          <target state="translated">Имя одного из <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекты, зарегистрированные в данный момент в списке &lt;xref:System.Web.SiteMap.Providers*&gt;.&lt;/xref:System.Web.SiteMap.Providers*&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph> cannot be resolved.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph>не удается разрешить.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph> is not a registered child provider of the current site map provider.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph>не является зарегистрированным дочерним поставщиком текущего поставщика карты веб-узла.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Gets the root node of the site map.</source>
+          <target state="translated">Возвращает корневой узел карты веб-узла.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RootNode property calls the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method to retrieve the top-level node in the site map.</source>
+          <target state="translated">Вызовы свойство RootNode &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;метод для извлечения узел верхнего уровня в карте узла.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, any exceptions that occur for the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method can also occur when accessing the RootNode property.</source>
+          <target state="translated">Таким образом, любые исключения, возникающие для &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;метод также может возникнуть при доступе к свойству RootNode.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.SiteMapProvider&gt; and &lt;xref:System.Web.XmlSiteMapProvider&gt; classes permit only one root &lt;xref:System.Web.SiteMapNode&gt; object in a site map.</source>
+          <target state="translated">&lt;xref:System.Web.SiteMapProvider&gt;И &lt;xref:System.Web.XmlSiteMapProvider&gt;классы разрешают только один корневой &lt;xref:System.Web.SiteMapNode&gt;объектов в карте узла.&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt; &lt;/xref:System.Web.SiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class overrides the abstract &lt;xref:System.Web.SiteMapProvider.RootNode%2A?displayProperty=fullName&gt; property and provides a simple implementation to track the root node.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;Класс переопределяет абстрактного &lt;xref:System.Web.SiteMapProvider.RootNode%2A?displayProperty=fullName&gt;Свойства и обеспечивает простой реализации для отслеживания корневой узел.&lt;/xref:System.Web.SiteMapProvider.RootNode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the root node of the site map; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, if security trimming is enabled and the root node is not accessible to the current user.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий корневой узел карты веб-узла; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, если включена фильтрация по ролям безопасности и корневой узел недоступен для текущего пользователя.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
