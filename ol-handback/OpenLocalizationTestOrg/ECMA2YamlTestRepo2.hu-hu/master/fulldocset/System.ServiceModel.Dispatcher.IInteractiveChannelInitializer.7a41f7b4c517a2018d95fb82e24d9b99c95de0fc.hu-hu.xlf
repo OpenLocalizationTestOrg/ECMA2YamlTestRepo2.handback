@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b739a1fd5a3063652b497bb876f28a3ea2008ae7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64ac139dc0559ee036707ca88d41e4676bd3ce0f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e25be158b62b74beb7e72835b48dacba5cad4d7e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the methods that enable a client application to display a user interface to collect identity information prior to creating the channel.</source>
+          <target state="translated">Meghatározza a módszereket, amelyek lehetővé teszik a csatorna létrehozása előtt azonosító adatok gyűjtéséhez felhasználói felület megjelenítése ügyfélalkalmazást.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement the IInteractiveChannelInitializer interface to enable a client application to display a user interface that enables the user of the application to create or select the credentials prior to opening a channel.</source>
+          <target state="translated">Valósítja meg a IInteractiveChannelInitializer illesztőfelületet ahhoz, hogy egy ügyfélalkalmazást, jelenítse meg a felhasználói felületet, amely lehetővé teszi a felhasználó az alkalmazás létrehozása, vagy adjon meg a hitelesítő adatokat a csatorna megnyitása előtt.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To implement IInteractiveChannelInitializer, perform the following steps in &lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI%2A?displayProperty=fullName&gt;:      1.</source>
+          <target state="translated">IInteractiveChannelInitializer végrehajtásához hajtsa végre a következő lépéseket &lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI%2A?displayProperty=fullName&gt;: 1.&lt;/xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Prompt the user and obtain an appropriate &lt;xref:System.Net.NetworkCredential?displayProperty=fullName&gt;.</source>
+          <target state="translated">A felhasználó értesítése, és szerezze be a megfelelő &lt;xref:System.Net.NetworkCredential?displayProperty=fullName&gt;.&lt;/xref:System.Net.NetworkCredential?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Add a custom channel parameter object to the collection returned by the &lt;xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt; method on the &lt;xref:System.ServiceModel.IClientChannel&gt; object with a type parameter of &lt;xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;.</source>
+          <target state="translated">Olyan egyéni csatornán parameter objektumot a gyűjteményhez hozzáadni kívánt a &lt;xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt;metódus olyan &lt;xref:System.ServiceModel.IClientChannel&gt; &lt;xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;.&lt;/xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt; típusparaméter objektumot&lt;/xref:System.ServiceModel.IClientChannel&gt; &lt;/xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt; adott vissza</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This channel parameter object is used by the custom &lt;xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt; to establish the security tokens for the channel.</source>
+          <target state="translated">Az egyéni használja a csatornaobjektum paraméter &lt;xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt;a biztonsági jogkivonatokat a csatorna létrehozásához.&lt;/xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Return.</source>
+          <target state="translated">Térjen vissza.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To insert IInteractiveChannelInitializer:      1.</source>
+          <target state="translated">IInteractiveChannelInitializer beszúrása: 1.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the &lt;xref:System.ServiceModel.Description.IEndpointBehavior.ApplyClientBehavior%2A?displayProperty=fullName&gt; method on the &lt;xref:System.ServiceModel.Description.ClientCredentials?displayProperty=fullName&gt; class.</source>
+          <target state="translated">Bírálja felül a &lt;xref:System.ServiceModel.Description.IEndpointBehavior.ApplyClientBehavior%2A?displayProperty=fullName&gt;módszer a &lt;xref:System.ServiceModel.Description.ClientCredentials?displayProperty=fullName&gt;osztályból&lt;/xref:System.ServiceModel.Description.ClientCredentials?displayProperty=fullName&gt; .&lt;/xref:System.ServiceModel.Description.IEndpointBehavior.ApplyClientBehavior%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that method, determine whether the endpoint requires an IInteractiveChannelInitializer and if so, add the IInteractiveChannelInitializer to the &lt;xref:System.ServiceModel.Dispatcher.ClientRuntime.InteractiveChannelInitializers%2A?displayProperty=fullName&gt; collection.</source>
+          <target state="translated">Ez a módszer a határozzák meg, hogy a végpont egy IInteractiveChannelInitializer megköveteli-e, és ha igen, adja hozzá a IInteractiveChannelInitializer a &lt;xref:System.ServiceModel.Dispatcher.ClientRuntime.InteractiveChannelInitializers%2A?displayProperty=fullName&gt;gyűjtemény.&lt;/xref:System.ServiceModel.Dispatcher.ClientRuntime.InteractiveChannelInitializers%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are two ways application developers can make use of an inserted IInteractiveChannelInitializer.</source>
+          <target state="translated">Két módon alkalmazásfejlesztők tehet egy beszúrt IInteractiveChannelInitializer használatát.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The client application can call either &lt;xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt; or &lt;xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt; (or an asynchronous version) prior to opening the channel (the <bpt id="p1">*</bpt>explicit<ept id="p1">*</ept> approach) or simply call the first operation (the <bpt id="p2">*</bpt>implicit<ept id="p2">*</ept> approach).</source>
+          <target state="translated">Az ügyfélalkalmazás felhívhatja, akár &lt;xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt;vagy &lt;xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt;(vagy egy aszinkron verzióját) a csatorna megnyitása előtt (a <bpt id="p1">*</bpt>explicit<ept id="p1">*</ept> megközelítés), vagy egyszerűen hívja az első művelet (a <bpt id="p2">*</bpt>implicit<ept id="p2">*</ept> megközelítés).&lt;/xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If using the implicit approach, the application must call the first operation on an &lt;xref:System.ServiceModel.ClientBase%601&gt; or &lt;xref:System.ServiceModel.IClientChannel&gt; extension.</source>
+          <target state="translated">Az implicit módszer használata esetén az alkalmazás meg kell hívnia az első művelet egy &lt;xref:System.ServiceModel.ClientBase%601&gt;vagy &lt;xref:System.ServiceModel.IClientChannel&gt;bővítmény.&lt;/xref:System.ServiceModel.IClientChannel&gt; &lt;/xref:System.ServiceModel.ClientBase%601&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it calls anything other than the first operation, an exception is thrown.</source>
+          <target state="translated">Ha meghívja az első művelet csakis, a rendszer kivételt hoz létre.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If using the explicit approach, the application must perform the following steps in order:      1.</source>
+          <target state="translated">Az explicit módszer használata esetén az alkalmazás sorrendben végezze el az alábbi lépéseket: 1.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call either &lt;xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt; or &lt;xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt; (or an asynchronous version).</source>
+          <target state="translated">Hívás vagy &lt;xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt;vagy &lt;xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt;(vagy egy aszinkron verziója).&lt;/xref:System.ServiceModel.IClientChannel.DisplayInitializationUI%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.ClientBase%601.DisplayInitializationUI%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the initializers have returned, call either the &lt;xref:System.ServiceModel.ICommunicationObject.Open%2A&gt; method on the &lt;xref:System.ServiceModel.IClientChannel&gt; object or on the &lt;xref:System.ServiceModel.IClientChannel&gt; object returned from the &lt;xref:System.ServiceModel.ClientBase%601.InnerChannel%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Ha vissza kellett volna az inicializálók, vagy hívja a &lt;xref:System.ServiceModel.ICommunicationObject.Open%2A&gt;metódust a &lt;xref:System.ServiceModel.IClientChannel&gt;objektum vagy a &lt;xref:System.ServiceModel.IClientChannel&gt;objektumot adott vissza a &lt;xref:System.ServiceModel.ClientBase%601.InnerChannel%2A?displayProperty=fullName&gt;tulajdonság.&lt;/xref:System.ServiceModel.ClientBase%601.InnerChannel%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.IClientChannel&gt; &lt;/xref:System.ServiceModel.IClientChannel&gt; &lt;/xref:System.ServiceModel.ICommunicationObject.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call operations.</source>
+          <target state="translated">Műveletek hívásához.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is recommended that production-quality applications control of the user-interface process by adopting the explicit approach.</source>
+          <target state="translated">Az explicit módszerrel elfogadásával ajánlott, hogy a felhasználói felület folyamat minőségű alkalmazások irányítását.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applications that use the implicit approach invoke the user-interface initializers, but if the user of the application fails to respond within the send timeout period of the binding, an exception is thrown when the user interface returns.</source>
+          <target state="translated">Alkalmazásokat, amelyek a implicit módon meghívása a felhasználói felület az inicializálók, de ha a felhasználó az alkalmazás nem válaszol a kötés a küldési időkorláton belül, kivételt vált ki, ha a felhasználói felület adja vissza.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An asynchronous call to begin using a user interface to obtain credential information.</source>
+          <target state="translated">Egy aszinkron hívás megkezdéséhez a hitelesítő adatok beszerzése a felhasználói felület használatával.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To implement &lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer&gt;, perform the following steps in BeginDisplayInitializationUI:      1.</source>
+          <target state="translated">Megvalósításához &lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer&gt;, BeginDisplayInitializationUI hajtsa végre a következő lépéseket: 1.&lt;/xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Prompt the user in what way you see fit and obtain an appropriate &lt;xref:System.Net.NetworkCredential?displayProperty=fullName&gt;.</source>
+          <target state="translated">A felhasználó milyen módon igényei, és szerezze be a megfelelő &lt;xref:System.Net.NetworkCredential?displayProperty=fullName&gt;.&lt;/xref:System.Net.NetworkCredential?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Add a custom channel parameter object to the collection returned by the &lt;xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt; method on the &lt;xref:System.ServiceModel.IClientChannel&gt; object with a type parameter of &lt;xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;.</source>
+          <target state="translated">Olyan egyéni csatornán parameter objektumot a gyűjteményhez hozzáadni kívánt a &lt;xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt;metódus olyan &lt;xref:System.ServiceModel.IClientChannel&gt; &lt;xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt;.&lt;/xref:System.ServiceModel.Channels.ChannelParameterCollection?displayProperty=fullName&gt; típusparaméter objektumot&lt;/xref:System.ServiceModel.IClientChannel&gt; &lt;/xref:System.ServiceModel.Channels.IChannel.GetProperty%2A?displayProperty=fullName&gt; adott vissza</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This channel parameter object is used by the custom &lt;xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt; to establish the security tokens for the channel.</source>
+          <target state="translated">Az egyéni használja a csatornaobjektum paraméter &lt;xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt;a biztonsági jogkivonatokat a csatorna létrehozásához.&lt;/xref:System.ServiceModel.ClientCredentialsSecurityTokenManager?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Return.</source>
+          <target state="translated">Térjen vissza.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The client channel.</source>
+          <target state="translated">Az ügyfél csatornát.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The callback object.</source>
+          <target state="translated">A visszahívási objektum.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Any state data.</source>
+          <target state="translated">Bármely állapotadatokat.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> to use to call back when processing has completed.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> használandó hívására vissza feldolgozása befejeződött.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Called when the &lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI*&gt; has finished.</source>
+          <target state="translated">Meghívva a &lt;xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI*&gt;befejeződött.&lt;/xref:System.ServiceModel.Dispatcher.IInteractiveChannelInitializer.BeginDisplayInitializationUI*&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.IAsyncResult?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aaf2aa83f6922555ef590c0acb5aab9393dcee10</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Data.CollectionView.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0899b418f5bdd3b0da4e1b6a6bc1baa46760bbd8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">787d4da777a23c570e530cdaa69e123110aef1d6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a view for grouping, sorting, filtering, and navigating a data collection.</source>
+          <target state="translated">Egy nézet csoportosítás, rendezési, szűrési és egy adatgyűjtés Navigálás jelöli.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should not create objects of this class in your code.</source>
+          <target state="translated">Ez az osztály az objektumok nem kell létrehoznia, a kódban.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a collection view for a collection that only implements &lt;xref:System.Collections.IEnumerable&gt;, create a &lt;xref:System.Windows.Data.CollectionViewSource&gt; object, add your collection to the &lt;xref:System.Windows.Data.CollectionViewSource.Source%2A&gt; property, and get the collection view from the &lt;xref:System.Windows.Data.CollectionViewSource.View%2A&gt; property.</source>
+          <target state="translated">A gyűjtemény csak megvalósító gyűjtemény nézet létrehozása &lt;xref:System.Collections.IEnumerable&gt;, hozzon létre egy &lt;xref:System.Windows.Data.CollectionViewSource&gt;objektumazonosító, a gyűjtemény hozzáadása a &lt;xref:System.Windows.Data.CollectionViewSource.Source%2A&gt;tulajdonság, és a gyűjtemény megtekintheti a get a &lt;xref:System.Windows.Data.CollectionViewSource.View%2A&gt;tulajdonság.&lt;/xref:System.Windows.Data.CollectionViewSource.View%2A&gt; &lt;/xref:System.Windows.Data.CollectionViewSource.Source%2A&gt; &lt;/xref:System.Windows.Data.CollectionViewSource&gt; &lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can think of a collection view as a layer on top of a binding source collection that allows you to navigate and display the collection based on sort, filter, and group queries, all without having to manipulate the underlying source collection itself.</source>
+          <target state="translated">Az eltolásokat tekintheti gyűjtemény nézet, a felső szintű rétege, amely lehetővé teszi, lépjen ki és jelenítheti meg a gyűjtemény rendezési, szűrési és csoport lekérdezések, ne kelljen magát a alapul szolgáló adatforrás gyűjteményt összes alapján kötés forrás gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the source collection implements the &lt;xref:System.Collections.Specialized.INotifyCollectionChanged&gt; interface, the changes that raise the &lt;xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged&gt; event are propagated to the views.</source>
+          <target state="translated">Ha a forrás gyűjtemény megvalósítja a &lt;xref:System.Collections.Specialized.INotifyCollectionChanged&gt;csatoló, emelje a módosításokat a &lt;xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged&gt;esemény továbbítódnak a nézetekhez.&lt;/xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged&gt; &lt;/xref:System.Collections.Specialized.INotifyCollectionChanged&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because a view does not change the underlying source collection, a source collection can have multiple views associated with it.</source>
+          <target state="translated">A nézet nem változtatja meg az alapul szolgáló adatforrás gyűjtemény, mert a forrás-gyűjtemény lehet társítva több nézetet.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By using views, you can display the same data in different ways.</source>
+          <target state="translated">Nézetek használatával jelenítheti meg ugyanazokat az adatokat különböző módon.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can use two views on a collection of <ph id="ph1">`Task`</ph> objects to show tasks sorted by priority on one part of the page and grouped by area on another part of the page.</source>
+          <target state="translated">Például használhatja a két nézetet szervezendő <ph id="ph1">`Task`</ph> objektumok megjelenítése a weblap egy részét a prioritás szerint rendezve, és a weblap többi részét a terület szerint csoportosítva.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> applications, all collections have an associated default collection view.</source>
+          <target state="translated">A <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> alkalmazások, az összes gyűjteményeknél egy társított alapértelmezett gyűjtőjének megtekintése.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rather than working with the collection directly, the binding engine always accesses the collection through the associated view.</source>
+          <target state="translated">Ahelyett, hogy közvetlenül a gyűjtemény dolgozik, a kötési motor mindig keresztül fér hozzá a gyűjteményhez társított nézethez.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To get the default view, use the &lt;xref:System.Windows.Data.CollectionViewSource.GetDefaultView%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Az alapértelmezett nézet használatához a &lt;xref:System.Windows.Data.CollectionViewSource.GetDefaultView%2A?displayProperty=fullName&gt;metódus.&lt;/xref:System.Windows.Data.CollectionViewSource.GetDefaultView%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An internal class based on CollectionView is the default view for collections that implement only &lt;xref:System.Collections.IEnumerable&gt;.</source>
+          <target state="translated">Belső osztály a CollectionView alapján az alapértelmezett nézet csak &lt;xref:System.Collections.IEnumerable&gt;.&lt;/xref:System.Collections.IEnumerable&gt; megvalósító gyűjtemények</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Data.ListCollectionView&gt; is the default view for collections that implement &lt;xref:System.Collections.IList&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Data.ListCollectionView&gt;az alapértelmezett nézet &lt;xref:System.Collections.IList&gt;.&lt;/xref:System.Collections.IList&gt; megvalósító gyűjtemények&lt;/xref:System.Windows.Data.ListCollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Data.BindingListCollectionView&gt; is the default view for collections that implement &lt;xref:System.ComponentModel.IBindingListView&gt; or &lt;xref:System.ComponentModel.IBindingList&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Data.BindingListCollectionView&gt;az alapértelmezett nézet &lt;xref:System.ComponentModel.IBindingListView&gt;vagy &lt;xref:System.ComponentModel.IBindingList&gt;.&lt;/xref:System.ComponentModel.IBindingList&gt; &lt;/xref:System.ComponentModel.IBindingListView&gt; megvalósító gyűjtemények&lt;/xref:System.Windows.Data.BindingListCollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can create a view of your collection in <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> by using the &lt;xref:System.Windows.Data.CollectionViewSource&gt; class and then bind your control to that view.</source>
+          <target state="translated">Azt is megteheti, létrehozhat egy nézet, a gyűjtési <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> használatával a &lt;xref:System.Windows.Data.CollectionViewSource&gt;osztály és majd kötést létrehozni a vezérlő nézeten.&lt;/xref:System.Windows.Data.CollectionViewSource&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Data.CollectionViewSource&gt; class is the <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> representation of the CollectionView class.</source>
+          <target state="translated">A &lt;xref:System.Windows.Data.CollectionViewSource&gt;az osztály a <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> a CollectionView osztály ábrázolását&lt;/xref:System.Windows.Data.CollectionViewSource&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example, see <bpt id="p1">[</bpt>How to: Sort and Group Data Using a View in XAML<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Egy vonatkozó példáért lásd: <bpt id="p1">[</bpt>Útmutató: a rendezés és a csoport az XAML-kódban nézet használata<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: "Gyűjtemény a kötés" a <bpt id="p1">[</bpt>kötés – áttekintés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To set a view in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>, use the &lt;xref:System.Windows.Data.CollectionViewSource&gt; class.</source>
+          <target state="translated">Beállítani a nézet <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>, használja az &lt;xref:System.Windows.Data.CollectionViewSource&gt;osztályhoz.&lt;/xref:System.Windows.Data.CollectionViewSource&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Data.CollectionViewSource&gt; is the <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> representation of the CollectionView class, and it exposes the most commonly used members of the CollectionView class.</source>
+          <target state="translated">&lt;xref:System.Windows.Data.CollectionViewSource&gt;van a <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> a CollectionView osztály, és elérhetővé teszi a leggyakrabban használt a CollectionView osztály tagjai.&lt;/xref:System.Windows.Data.CollectionViewSource&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_CollectionView"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    See Remarks</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_CollectionView"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML szöveg használati lásd: megjegyzések</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that represents a view of the specified collection.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály, amely a megadott gyűjtemény nézet jelöli.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance of &lt;xref:System.Windows.Data.CollectionView&gt; is bound to the <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> thread dispatcher of the caller of this constructor.</source>
+          <target state="translated">A példányának &lt;xref:System.Windows.Data.CollectionView&gt;van kötve a <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> kézbesítő, ez a konstruktor a hívó szál.&lt;/xref:System.Windows.Data.CollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The underlying collection.</source>
+          <target state="translated">Az alapul szolgáló gyűjtemény.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether a thread other than the one that created the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> can change the &lt;xref:System.Windows.Data.CollectionView.SourceCollection*&gt;.</source>
+          <target state="translated">Egy érték, amely azt jelzi, hogy a szál által létrehozott lekérdezi a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> módosíthatja a &lt;xref:System.Windows.Data.CollectionView.SourceCollection*&gt;.&lt;/xref:System.Windows.Data.CollectionView.SourceCollection*&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a thread other than the one that created the <bpt id="p2">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> can change the &lt;xref:System.Windows.Data.CollectionView.SourceCollection*&gt;; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a szál létrehozó eltérő a <bpt id="p2">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> módosíthatja a &lt;xref:System.Windows.Data.CollectionView.SourceCollection*&gt;; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.SourceCollection*&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the view supports filtering.</source>
+          <target state="translated">Egy érték, amely jelzi, hogy a nézet támogatja-e a szűrés lekérdezi.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property returns <ph id="ph1">`false`</ph>, setting the &lt;xref:System.Windows.Data.CollectionView.Filter%2A&gt; property throws an exception.</source>
+          <target state="translated">Ez a tulajdonság-visszatérési értéke <ph id="ph1">`false`</ph>beállításánál a &lt;xref:System.Windows.Data.CollectionView.Filter%2A&gt;tulajdonság kivételt jelez.&lt;/xref:System.Windows.Data.CollectionView.Filter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the view supports filtering; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a nézet támogatja a szűrést; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the view supports grouping.</source>
+          <target state="translated">Egy érték, amely jelzi, hogy a nézet támogatja-e a csoportosítási lekérdezi.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to test whether the view supports sorting before adding &lt;xref:System.Windows.Data.CollectionView.GroupDescriptions%2A&gt;.</source>
+          <target state="translated">Ezt a tulajdonságot használja annak megállapítására, hogy a nézet támogatja a rendezést, &lt;xref:System.Windows.Data.CollectionView.GroupDescriptions%2A&gt;.&lt;/xref:System.Windows.Data.CollectionView.GroupDescriptions%2A&gt; hozzáadása előtt</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Derived classes override this property to indicate whether they support grouping.</source>
+          <target state="translated">Származtatott osztályok bírálja felül ezt a tulajdonságot, annak jelzésére, hogy azok támogatja a csoportosítást.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>minden esetben.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the view supports sorting.</source>
+          <target state="translated">Egy érték, amely jelzi, hogy a nézet támogatja-e a rendezés lekérdezi.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to test whether the view supports sorting before adding &lt;xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;.</source>
+          <target state="translated">Ezt a tulajdonságot használja annak megállapítására, hogy a nézet támogatja a rendezést, &lt;xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;.&lt;/xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt; hozzáadása előtt</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Derived classes override this property to indicate whether they support sorting.</source>
+          <target state="translated">Származtatott osztályok bírálja felül ezt a tulajdonságot, annak jelzésére, hogy azok támogatja a rendezést.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>minden esetben.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Clears any pending changes from the change log.</source>
+          <target state="translated">A módosítási napló a függőben lévő módosítások törlése.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Clears unprocessed changed to the collection.</source>
+          <target state="translated">Törli a feldolgozatlan a gyűjtemény megváltozott.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Occurs when the view has changed.</source>
+          <target state="translated">A nézet megváltozásakor következik be.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Returns an object that you can use to compare items in the view.</source>
+          <target state="translated">Visszaad egy objektumot, hasonlítsa össze a nézetben használható.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IComparer&gt; object that you can use to compare items in the view.</source>
+          <target state="translated">Egy &lt;xref:System.Collections.IComparer&gt;objektumot, hogy segítségével összehasonlíthatja a nézetben.&lt;/xref:System.Collections.IComparer&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the specified item belongs to the view.</source>
+          <target state="translated">Visszaad egy értéket, amely jelzi, hogy a nézet a megadott elem tartozik.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method does not make any assumptions about whether the item belongs to the underlying collection.</source>
+          <target state="translated">Ez a módszer nem tesz bármely feltételezéseket, hogy a cikk az alapul szolgáló gyűjtemény tartozik.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the caller knows that the item belongs to the underlying collection, it is more efficient to call the &lt;xref:System.Windows.Data.CollectionView.PassesFilter%2A&gt; method.</source>
+          <target state="translated">Ha a hívó tudja, hogy a cikk az alapul szolgáló gyűjtemény tartozik, a rendszer hatékonyabb, ha hívása a &lt;xref:System.Windows.Data.CollectionView.PassesFilter%2A&gt;metódus.&lt;/xref:System.Windows.Data.CollectionView.PassesFilter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The object to check.</source>
+          <target state="translated">Az objektum kereséséhez.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the item belongs to the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a cikk tartozik a nézetet. Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the number of records in the view.</source>
+          <target state="translated">Lekérdezi a bejegyzések száma a nézetben.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a filter is set, this property value only includes items that pass the filter.</source>
+          <target state="translated">A szűrő be van állítva, az e tulajdonság értéke csak magában foglalja a elemek, amelyek megfelelnek a szűrő.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underlying collection is of type &lt;xref:System.Collections.IEnumerable&gt;, this is an O(N) operation.</source>
+          <target state="translated">Ha az alapul szolgáló gyűjtemény típusú &lt;xref:System.Collections.IEnumerable&gt;, ez az O(N) művelet.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is cached until the collection changes.</source>
+          <target state="translated">Ez az érték gyorsítótárazza, amíg a gyűjtemények változásait.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The number of records in the view, or –1 if the number of records is unknown.</source>
+          <target state="translated">A nézetet, vagy –&amp;1;, ha a bejegyzések száma ismeretlen rekordok száma.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets or sets the culture information to use during sorting.</source>
+          <target state="translated">Lekérdezi vagy beállítja a rendezés során használt információ.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The culture information to use during sorting.</source>
+          <target state="translated">A rendezés során használandó kulturális környezet adatokat.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Occurs after the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; has changed.</source>
+          <target state="translated">Akkor következik be, miután a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;megváltozott.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is changing.</source>
+          <target state="translated">Akkor következik be, amikor a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;-jal.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets the current item in the view.</source>
+          <target state="translated">Lekérdezi az aktuális elem a nézetben.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Gyűjteménynézetek társítása támogatásához aktuális rekord mutató fogalmát.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">A gyűjtemény nézetben objektumok történő navigálás, áthelyez egy rekord mutató, amely lehetővé teszi az objektum, amely a gyűjtemény adott adott helyen.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that moving the current record pointer has some interactions with any sorting or filtering that is applied to the collection.</source>
+          <target state="translated">Vegye figyelembe, hogy az aktuális rekord mutatóját rendelkezik néhány kapcsolati egyetlen rendezési és szűrési, amelyek alkalmazzák a gyűjtemény.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sorting preserves the current record pointer on the last record selected, but the collection view is restructured around it.</source>
+          <target state="translated">Rendezés megőrzi a kijelölt utolsó rekord aktuális rekord mutató, de a gyűjtemény nézet új szerkezete köré.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(Perhaps the selected record was at the beginning of the list before, but now the selected record might be somewhere in the middle.) Filtering preserves the selected record if that selection remains in view after the filtering.</source>
+          <target state="translated">(Lehet, hogy a kijelölt rekord előtt a lista elején volt, de most a kijelölt bejegyzés lehet valahol a középső.) A kijelölt bejegyzést szűrés megőrzi, ha a kijelölés látható marad a szűrés után.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the current record pointer is set to the first record of the filtered collection view.</source>
+          <target state="translated">Ellenkező esetben az aktuális rekord mutató értéke a szűrt gyűjtemény nézet rekordot.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current item of the collection is bound to automatically if the target of a binding is a singleton value.</source>
+          <target state="translated">Az aktuális elem a gyűjtemény kötött automatikusan Ha a kötés célját singleton értéke.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the target is an &lt;xref:System.Windows.Controls.ItemsControl&gt;, the current item is synchronized with the selected item.</source>
+          <target state="translated">Ha a cél egy &lt;xref:System.Windows.Controls.ItemsControl&gt;, a jelenlegi elemhez szinkronizálva van a kijelölt elem.&lt;/xref:System.Windows.Controls.ItemsControl&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if a list box is bound to a collection, the CurrentItem is synchronized with the currently selected item.</source>
+          <target state="translated">Például ha a lista egy gyűjtemény van kötve, a CurrentItem szinkronizálva van a kijelölt elem.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The current item of the view.</source>
+          <target state="translated">A nézet a jelenlegi elemhez.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>By default, the first item of the collection starts as the current item.</source>
+          <target state="translated">Alapértelmezés szerint a gyűjtemény első eleme indítja el a jelenlegi elemhez.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets the ordinal position of the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; within the (optionally sorted and filtered) view.</source>
+          <target state="translated">Lekérdezi a helyen, a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;a (nem kötelező rendezett és szűrt) nézet.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The ordinal position of the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; within the (optionally sorted and filtered) view.</source>
+          <target state="translated">A helyen, a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;a (nem kötelező rendezett és szűrt) nézet.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Enters a defer cycle that you can use to merge changes to the view and delay automatic refresh.</source>
+          <target state="translated">Megadja, melyekkel a nézetben és a késleltetés automatikus frissítésének egyesíteni átadás ciklust.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The typical usage is to create a <ph id="ph1">`using`</ph> scope with this method and then place multiple view-changing calls within the scope.</source>
+          <target state="translated">A tipikus használati, hogy hozzon létre egy <ph id="ph1">`using`</ph> ezzel a módszerrel hatókörre, majd helyezze el több nézet módosítása hívások hatókörében.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This delays automatic refresh until the defer cycle is exited.</source>
+          <target state="translated">Ez késést automatikus frissítés mindaddig, amíg az átadás ciklus van kilépett.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IDisposable&gt; object that you can use to dispose of the calling object.</source>
+          <target state="translated">Egy &lt;xref:System.IDisposable&gt;objektum, amely használhatja arra, hogy a hívó objektum.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Removes the reference to the underlying collection from the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapul szolgáló gyűjtemény mutató hivatkozás eltávolítása a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to unsubscribe to events on the underlying collection and allow the &lt;xref:System.Windows.Data.CollectionView&gt; to be garbage collected.</source>
+          <target state="translated">Ezt a módszert használja az alapul szolgáló gyűjtemény események hírlevélről, és engedélyezheti a &lt;xref:System.Windows.Data.CollectionView&gt;szemétgyűjtésbe kerülése.&lt;/xref:System.Windows.Data.CollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets or sets a method used to determine if an item is suitable for inclusion in the view.</source>
+          <target state="translated">Lekérdezi vagy beállítja annak megállapítása, hogy egy elemet a nézet alkalmasnak módszere.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Simpler implementations do not support filtering and throw a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Egyszerűbb megvalósítások nem támogatja a szűrést és &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt; kivételt</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Data.CollectionView.CanFilter%2A&gt; property to test if filtering is supported before assigning this property with a non-null value.</source>
+          <target state="translated">Használja a &lt;xref:System.Windows.Data.CollectionView.CanFilter%2A&gt;tulajdonság tesztelése, ha ez a tulajdonság nem null értékű hozzárendelése előtt támogatott szűrési.&lt;/xref:System.Windows.Data.CollectionView.CanFilter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A delegate that represents the method used to determine if an item is suitable for inclusion in the view.</source>
+          <target state="translated">Annak megállapítása, hogy egy elemet a nézet alkalmasnak használt módszer jelölő delegált.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The current implementation does not support filtering.</source>
+          <target state="translated">A jelenlegi implementációja nem támogatja a szűrést.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Returns an object that you can use to enumerate the items in the view.</source>
+          <target state="translated">Visszaad egy objektumot, számba venni a fájlok a nézetben használható.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; object that you can use to enumerate the items in the view.</source>
+          <target state="translated">Egy &lt;xref:System.Collections.IEnumerator&gt;objektum használható a nézet elemeinek számbavétele.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Retrieves the item at the specified zero-based index in the view.</source>
+          <target state="translated">Lekéri a cikk a nézetben megadott nulla alapú indexét.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method evaluates the index with any &lt;xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt; or &lt;xref:System.Windows.Data.CollectionView.Filter%2A&gt; property values that are set on the view.</source>
+          <target state="translated">Ez a módszer kiértékeli az összes index &lt;xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;vagy &lt;xref:System.Windows.Data.CollectionView.Filter%2A&gt;állítottak be a nézet tulajdonságértékeket.&lt;/xref:System.Windows.Data.CollectionView.Filter%2A&gt; &lt;/xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underlying collection is of type &lt;xref:System.Collections.IEnumerable&gt;, this is an O(N) operation.</source>
+          <target state="translated">Ha az alapul szolgáló gyűjtemény típusú &lt;xref:System.Collections.IEnumerable&gt;, ez az O(N) művelet.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The zero-based index of the item to retrieve.</source>
+          <target state="translated">Az elem beolvasása nulla alapú indexét.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The item at the specified zero-based index in the view.</source>
+          <target state="translated">A cikk a nézetben megadott nulla alapú indexét.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;index&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;index&lt;/code&gt;</ph>értéke 0-nál kisebb.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.ComponentModel.GroupDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that describes how the items in the collection are grouped in the view.</source>
+          <target state="translated">Lekérdezi a gyűjteménye <bpt id="p1">&lt;xref href="System.ComponentModel.GroupDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumok leíró a gyűjteményben lévő elemek csoportosításának a nézetben.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property is always <ph id="ph1">`null`</ph> because the &lt;xref:System.Windows.Data.CollectionView&gt; class does not support grouping over its underlying collection.</source>
+          <target state="translated">Ez a tulajdonság értéke mindig <ph id="ph1">`null`</ph> mert a &lt;xref:System.Windows.Data.CollectionView&gt;osztály nem támogatja a csoportosítást az alapul szolgáló gyűjtemény.&lt;/xref:System.Windows.Data.CollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The derived classes &lt;xref:System.Windows.Data.ListCollectionView&gt; and &lt;xref:System.Windows.Data.BindingListCollectionView&gt; do support grouping.</source>
+          <target state="translated">A származtatott osztályok &lt;xref:System.Windows.Data.ListCollectionView&gt;és &lt;xref:System.Windows.Data.BindingListCollectionView&gt;támogatja a csoportosítást.&lt;/xref:System.Windows.Data.BindingListCollectionView&gt; &lt;/xref:System.Windows.Data.ListCollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>minden esetben.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the top-level groups that is constructed based on the &lt;xref:System.Windows.Data.CollectionView.GroupDescriptions*&gt; property.</source>
+          <target state="translated">A felső szintű csoportokhoz összeállított alapján gyűjteménye lekérdezi a &lt;xref:System.Windows.Data.CollectionView.GroupDescriptions*&gt;tulajdonság.&lt;/xref:System.Windows.Data.CollectionView.GroupDescriptions*&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property is always <ph id="ph1">`null`</ph> because the &lt;xref:System.Windows.Data.CollectionView&gt; class does not support grouping over its underlying collection.</source>
+          <target state="translated">Ez a tulajdonság értéke mindig <ph id="ph1">`null`</ph> mert a &lt;xref:System.Windows.Data.CollectionView&gt;osztály nem támogatja a csoportosítást az alapul szolgáló gyűjtemény.&lt;/xref:System.Windows.Data.CollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The derived classes &lt;xref:System.Windows.Data.ListCollectionView&gt; and &lt;xref:System.Windows.Data.BindingListCollectionView&gt; do support grouping.</source>
+          <target state="translated">A származtatott osztályok &lt;xref:System.Windows.Data.ListCollectionView&gt;és &lt;xref:System.Windows.Data.BindingListCollectionView&gt;támogatja a csoportosítást.&lt;/xref:System.Windows.Data.BindingListCollectionView&gt; &lt;/xref:System.Windows.Data.ListCollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>minden esetben.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Returns the index at which the specified item is located.</source>
+          <target state="translated">Amellyel a megadott elem megtalálható indexét adja vissza.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method returns an index other than -1, it must always be true that view[index-1] &lt; item &lt;= view[index], where the comparisons are done using the &lt;xref:System.Collections.IComparer.Compare%2A?displayProperty=fullName&gt; method of the view, if one exists.</source>
+          <target state="translated">Ez a metódus visszatérési értéke-1 index, mindig lehet igaz, ha a nézet [indexe-1] &lt; item=""&gt; &lt;= view[index],="" where="" the="" comparisons="" are="" done="" using="" the=""&gt;&lt;/=&gt; &lt;xref:System.Collections.IComparer.Compare%2A?displayProperty=fullName&gt;módszer a nézet, ha van ilyen.&lt;/xref:System.Collections.IComparer.Compare%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This particular behavior of the method is used by some &lt;xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged&gt; event handlers to speed up reaction to insertion and deletion.</source>
+          <target state="translated">Ez a módszer adott viselkedést néhány használják &lt;xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged&gt;szembeni beillesztését és törlését felgyorsítása érdekében eseménykezelők.&lt;/xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the derived class does not override this method, a listener does a binary search using the &lt;xref:System.Collections.IComparer.Compare%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">A származtatott osztály nem bírálja felül ezt a módszert, ha egy figyelő nincs-e a bináris keresés a &lt;xref:System.Collections.IComparer.Compare%2A?displayProperty=fullName&gt;metódus.&lt;/xref:System.Collections.IComparer.Compare%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The item to locate.</source>
+          <target state="translated">Az elem található.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The index at which the specified item is located, or –1 if the item is unknown.</source>
+          <target state="translated">Az index, amikor a megadott elem nem található, vagy –&amp;1;, ha az elem ismeretlen.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; of the view is beyond the end of the collection.</source>
+          <target state="translated">Lekérdezi egy érték, amely azt jelzi, hogy a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;a nézet már nem tartozik a gyűjtemény végéig.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Gyűjteménynézetek társítása támogatásához aktuális rekord mutató fogalmát.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">A gyűjtemény nézetben objektumok történő navigálás, áthelyez egy rekord mutató, amely lehetővé teszi az objektum, amely a gyűjtemény adott adott helyen.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; of the view is beyond the end of the collection; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;a nézet már nem tartozik a gyűjteményének; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; of the view is before the beginning of the collection.</source>
+          <target state="translated">Lekérdezi egy érték, amely azt jelzi, hogy a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;a nézet a gyűjtemény kezdete előtt van.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Gyűjteménynézetek társítása támogatásához aktuális rekord mutató fogalmát.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">A gyűjtemény nézetben objektumok történő navigálás, áthelyez egy rekord mutató, amely lehetővé teszi az objektum, amely a gyűjtemény adott adott helyen.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; of the view is before the beginning of the collection; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;a nézet a gyűjtemény; kezdete előtt van, egyébként <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<bpt id="p1">*</bpt>&gt; is at the &lt;xref:System.Windows.Data.CollectionView.CurrentPosition<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">Lekérdezi egy érték, amely azt jelzi, hogy a &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; jelenleg a &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<bpt id="p2">*</bpt>&gt; is in the view and at the &lt;xref:System.Windows.Data.CollectionView.CurrentPosition<ept id="p2">*</ept>&gt;; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; a nézetben, és a rendszer a &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt;; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the underlying collection provides change notifications.</source>
+          <target state="translated">Egy érték, amely azt jelzi, hogy az alapul szolgáló gyűjtemény biztosít a változási értesítéseket kap.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the underlying collection provides change notifications; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az alapul szolgáló gyűjtemény biztosít a változási értesítéseket; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the resulting (filtered) view is empty.</source>
+          <target state="translated">Lekérdezi egy érték, amely azt jelzi, hogy az eredményül kapott (szűrt) nézet üres.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting view is empty; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az eredményül kapott nézet üres; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether any object is subscribing to the events of this <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy érték, amely azt jelzi, hogy bármely objektum előfizetés van az események lekérdezi <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if any object is subscribing to the events of this <bpt id="p2">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha ezen események bármely objektum van előfizetés <bpt id="p2">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether there is an outstanding &lt;xref:System.Windows.Data.CollectionView.DeferRefresh*&gt; in use.</source>
+          <target state="translated">Egy érték, amely azt jelzi, hogy van-e egy függőben lévő lekérdezi &lt;xref:System.Windows.Data.CollectionView.DeferRefresh*&gt;használja.&lt;/xref:System.Windows.Data.CollectionView.DeferRefresh*&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is an outstanding &lt;xref:System.Windows.Data.CollectionView.DeferRefresh*&gt; in use; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha van egy függőben lévő &lt;xref:System.Windows.Data.CollectionView.DeferRefresh*&gt;használatban; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.DeferRefresh*&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Sets the specified item to be the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; in the view.</source>
+          <target state="translated">Beállítja a megadott elem kell lennie a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;a nézetben.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified item is not found, the method returns <ph id="ph1">`false`</ph> and the &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt; is positioned before the beginning of the collection in the view.</source>
+          <target state="translated">Ha a megadott elem nem található, a metódus visszaadja <ph id="ph1">`false`</ph> és a &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;a nézetben a gyűjtemény kezdete előtt van elhelyezve.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Gyűjteménynézetek társítása támogatásához aktuális rekord mutató fogalmát.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">A gyűjtemény nézetben objektumok történő navigálás, áthelyez egy rekord mutató, amely lehetővé teszi az objektum, amely a gyűjtemény adott adott helyen.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: "Gyűjtemény a kötés" a <bpt id="p1">[</bpt>kötés – áttekintés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the current item of a view, see &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;.</source>
+          <target state="translated">Az aktuális elem egy nézet kapcsolatos további információkért lásd: &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The item to set as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.</source>
+          <target state="translated">Az elemet a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt; beállítása</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is within the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a kapott &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;belül a nézet; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Sets the first item in the view as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.</source>
+          <target state="translated">Beállítja az első elem a nézetben, a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Gyűjteménynézetek társítása támogatásához aktuális rekord mutató fogalmát.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">A gyűjtemény nézetben objektumok történő navigálás, áthelyez egy rekord mutató, amely lehetővé teszi az objektum, amely a gyűjtemény adott adott helyen.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: "Gyűjtemény a kötés" a <bpt id="p1">[</bpt>kötés – áttekintés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is an item within the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a kapott &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;az elemet a nézet; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Sets the last item in the view as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.</source>
+          <target state="translated">Állítja be az utolsó elem a nézetben a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Gyűjteménynézetek társítása támogatásához aktuális rekord mutató fogalmát.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">A gyűjtemény nézetben objektumok történő navigálás, áthelyez egy rekord mutató, amely lehetővé teszi az objektum, amely a gyűjtemény adott adott helyen.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: "Gyűjtemény a kötés" a <bpt id="p1">[</bpt>kötés – áttekintés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is an item within the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a kapott &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;az elemet a nézet; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Sets the item after the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<bpt id="p1">*</bpt>&gt; in the view as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">Beállítja az elem után a &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, a nézetben a &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Gyűjteménynézetek társítása támogatásához aktuális rekord mutató fogalmát.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">A gyűjtemény nézetben objektumok történő navigálás, áthelyez egy rekord mutató, amely lehetővé teszi az objektum, amely a gyűjtemény adott adott helyen.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: "Gyűjtemény a kötés" a <bpt id="p1">[</bpt>kötés – áttekintés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is an item within the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a kapott &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;az elemet a nézet; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Sets the item at the specified index to be the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; in the view.</source>
+          <target state="translated">Beállítja az elem a megadott indexpozíciónál kell lennie a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;a nézetben.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Gyűjteménynézetek társítása támogatásához aktuális rekord mutató fogalmát.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">A gyűjtemény nézetben objektumok történő navigálás, áthelyez egy rekord mutató, amely lehetővé teszi az objektum, amely a gyűjtemény adott adott helyen.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: "Gyűjtemény a kötés" a <bpt id="p1">[</bpt>kötés – áttekintés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The index to set the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; to.</source>
+          <target state="translated">Az index beállításához a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;történő.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is an item within the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a kapott &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;az elemet a nézet; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Sets the item before the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<bpt id="p1">*</bpt>&gt; in the view as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">Beállítja az elem előtt a &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, a nézetben a &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Gyűjteménynézetek társítása támogatásához aktuális rekord mutató fogalmát.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">A gyűjtemény nézetben objektumok történő navigálás, áthelyez egy rekord mutató, amely lehetővé teszi az objektum, amely a gyűjtemény adott adott helyen.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: "Gyűjtemény a kötés" a <bpt id="p1">[</bpt>kötés – áttekintés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is an item within the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a kapott &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;az elemet a nézet; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the view needs to be refreshed.</source>
+          <target state="translated">Lekérdezi egy érték, amely azt jelzi, hogy a nézet frissíteni kell-e.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property indicates if the internal state of the view has changed and requires a &lt;xref:System.Windows.Data.CollectionView.Refresh%2A&gt; method call.</source>
+          <target state="translated">Ez a tulajdonság azt jelzi, ha a belső állapotot, a nézet megváltozott, és megköveteli a &lt;xref:System.Windows.Data.CollectionView.Refresh%2A&gt;metódus hívása.&lt;/xref:System.Windows.Data.CollectionView.Refresh%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The typical scenario is if a &lt;xref:System.ComponentModel.SortDescription&gt; or similar has been added to the view while the view is in a deferred refresh cycle (see &lt;xref:System.Windows.Data.CollectionView.DeferRefresh%2A&gt;).</source>
+          <target state="translated">Az jellemző forgatókönyv, ha egy &lt;xref:System.ComponentModel.SortDescription&gt;vagy hasonló hozzá lett adva a nézet a nézet nem egy késleltetett frissítési ciklus során (lásd: &lt;xref:System.Windows.Data.CollectionView.DeferRefresh%2A&gt;).&lt;/xref:System.Windows.Data.CollectionView.DeferRefresh%2A&gt; &lt;/xref:System.ComponentModel.SortDescription&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this scenario, no explicit call to &lt;xref:System.Windows.Data.CollectionView.Refresh%2A&gt; is needed; as soon as the deferred refresh cycle ends, the view calls refresh automatically.</source>
+          <target state="translated">Ebben a forgatókönyvben nem explicit hívása &lt;xref:System.Windows.Data.CollectionView.Refresh%2A&gt;van szükség; amint a késleltetett frissítési ciklusa véget ér, a nézet meghívja a frissítés automatikusan.&lt;/xref:System.Windows.Data.CollectionView.Refresh%2A&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the view needs to be refreshed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a nézet frissítése; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Gets the object that is in the collection to represent a new item.</source>
+          <target state="translated">Lekérdezi az objektumot, amely képviseli az új elem a gyűjteményben.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Windows.Data.CollectionView&gt; that implements &lt;xref:System.ComponentModel.IEditableCollectionView&gt; has &lt;xref:System.ComponentModel.IEditableCollectionView.NewItemPlaceholderPosition%2A&gt; set to &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt; or &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt;, the NewItemPlaceholder is added to the collection.</source>
+          <target state="translated">Ha egy &lt;xref:System.Windows.Data.CollectionView&gt;, amely megvalósítja &lt;xref:System.ComponentModel.IEditableCollectionView&gt;rendelkezik &lt;xref:System.ComponentModel.IEditableCollectionView.NewItemPlaceholderPosition%2A&gt;beállítása &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt;vagy &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt;, a NewItemPlaceholder van hozzá a gyűjteményhez.&lt;/xref:System.ComponentModel.NewItemPlaceholderPosition&gt; &lt;/xref:System.ComponentModel.NewItemPlaceholderPosition&gt; &lt;/xref:System.ComponentModel.IEditableCollectionView.NewItemPlaceholderPosition%2A&gt; &lt;/xref:System.ComponentModel.IEditableCollectionView&gt; &lt;/xref:System.Windows.Data.CollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The NewItemPlaceholder always appears in the collection; it does not participate in grouping, sorting, or filtering.</source>
+          <target state="translated">A NewItemPlaceholder mindig megjelenik a gyűjtemény; a csoportosítás, rendezési és szűrési nem részt.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt; cannot be the NewItemPlaceholder.</source>
+          <target state="translated">A &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;nem lehet a NewItemPlaceholder.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Methods that perform relative navigation, such as the &lt;xref:System.Windows.Data.CollectionView.MoveCurrentToNext%2A&gt;, skip the NewItemPlaceholder.</source>
+          <target state="translated">Módszerek, például a relatív navigációs végző a &lt;xref:System.Windows.Data.CollectionView.MoveCurrentToNext%2A&gt;, hagyja ki a NewItemPlaceholder.&lt;/xref:System.Windows.Data.CollectionView.MoveCurrentToNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Data.CollectionView.MoveCurrentToFirst%2A&gt; and &lt;xref:System.Windows.Data.CollectionView.MoveCurrentToLast%2A&gt; skip the NewItemPlaceholder if &lt;xref:System.ComponentModel.IEditableCollectionView.NewItemPlaceholderPosition%2A&gt; is set to &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt; or &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt;, respectively.</source>
+          <target state="translated">&lt;xref:System.Windows.Data.CollectionView.MoveCurrentToFirst%2A&gt;és &lt;xref:System.Windows.Data.CollectionView.MoveCurrentToLast%2A&gt;hagyja ki a NewItemPlaceholder, ha &lt;xref:System.ComponentModel.IEditableCollectionView.NewItemPlaceholderPosition%2A&gt;értéke &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt;vagy &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt;, illetve.&lt;/xref:System.ComponentModel.NewItemPlaceholderPosition&gt; &lt;/xref:System.ComponentModel.NewItemPlaceholderPosition&gt; &lt;/xref:System.ComponentModel.IEditableCollectionView.NewItemPlaceholderPosition%2A&gt; &lt;/xref:System.Windows.Data.CollectionView.MoveCurrentToLast%2A&gt;&lt;/xref:System.Windows.Data.CollectionView.MoveCurrentToFirst%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Methods that perform absolute navigation, such as &lt;xref:System.Windows.Data.CollectionView.MoveCurrentToPosition%2A&gt;, do nothing if the NewItemPlaceholder would be the &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;.</source>
+          <target state="translated">Abszolút navigációs, például &lt;xref:System.Windows.Data.CollectionView.MoveCurrentToPosition%2A&gt;, ha a NewItemPlaceholder lenne a &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt; nincs&lt;/xref:System.Windows.Data.CollectionView.MoveCurrentToPosition%2A&gt; végző módszerekkel</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The object that is in the collection to represent a new item.</source>
+          <target state="translated">Az objektum, amely képviseli az új elem a gyűjteményben.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the view can change which item is the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.</source>
+          <target state="translated">Egy érték, amely azt jelzi, hogy a nézet a mely eleme a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt; változhat adja vissza</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a listener cancels the change; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha egy figyelő visszavonja a módosítás; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Data.CollectionView.AllowsCrossThreadChanges*&gt; property changes.</source>
+          <target state="translated">Akkor következik be, amikor a &lt;xref:System.Windows.Data.CollectionView.AllowsCrossThreadChanges*&gt;Tulajdonságok módosítását.&lt;/xref:System.Windows.Data.CollectionView.AllowsCrossThreadChanges*&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Called by the base class to notify the derived class that an <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> event has been posted to the message queue.</source>
+          <target state="translated">A származtatott osztály, amely értesíti az alaposztály által meghívott egy <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> esemény közzé lett téve az üzenet-várólista.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt; object that is added to the change log.</source>
+          <target state="translated">Az &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;objektum, amely hozzáadódik a módosítási naplóban.&lt;/xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Take any sorting, filtering, or grouping criteria into consideration before calling this method to raise the &lt;xref:System.Windows.Data.CollectionView.CollectionChanged&gt; event.</source>
+          <target state="translated">Rendezési, szűrési, vagy csoportosítási feltételek kell kiadni a metódus hívása előtt figyelembe venni a &lt;xref:System.Windows.Data.CollectionView.CollectionChanged&gt;esemény.&lt;/xref:System.Windows.Data.CollectionView.CollectionChanged&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt; object to pass to the event handler.</source>
+          <target state="translated">A &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;objektum átadása az eseménykezelő.&lt;/xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method calls &lt;xref:System.Windows.Data.CollectionView.ProcessCollectionChanged%2A&gt; if it is on the correct <ph id="ph1">[!INCLUDE[TLA2#tla_ui](~/add/includes/ajax-current-ext-md.md)]</ph> thread dispatcher and has never been updated from a different thread, or posts the change to the dispatcher to process it on the correct thread.</source>
+          <target state="translated">Ez a metódus meghívja &lt;xref:System.Windows.Data.CollectionView.ProcessCollectionChanged%2A&gt;Ha szerepel a megfelelő <ph id="ph1">[!INCLUDE[TLA2#tla_ui](~/add/includes/ajax-current-ext-md.md)]</ph> kézbesítő szál és egy másik szál soha nem frissült, vagy a módosítás küldi a kézbesítő feldolgozni azt a megfelelő szálon.&lt;/xref:System.Windows.Data.CollectionView.ProcessCollectionChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The sender of the event.</source>
+          <target state="translated">Az esemény küldője.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt; object to pass to the event handler.</source>
+          <target state="translated">A &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;objektum átadása az eseménykezelő.&lt;/xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CurrentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CurrentChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Raises a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CurrentChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event that is not cancelable.</source>
+          <target state="translated">Kivált egy <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CurrentChanging"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény, amely nem törölhető.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method sets &lt;xref:System.Windows.Data.CollectionView.CurrentPosition%2A&gt; to –1.</source>
+          <target state="translated">Ez a módszer &lt;xref:System.Windows.Data.CollectionView.CurrentPosition%2A&gt;a –&amp;1;.&lt;/xref:System.Windows.Data.CollectionView.CurrentPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by collection changes that affect the &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;.</source>
+          <target state="translated">Ezt a módszert hívja a &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt; érintő változások gyűjtemény</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CurrentChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event with the specified arguments.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CurrentChanging"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény a megadott argumentumokkal.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Information about the event.</source>
+          <target state="translated">Az esemény adatait.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Raises the &lt;xref:System.ComponentModel.INotifyPropertyChanged.PropertyChanged&gt; event using the specified arguments.</source>
+          <target state="translated">Kiváltja a &lt;xref:System.ComponentModel.INotifyPropertyChanged.PropertyChanged&gt;esemény a megadott argumentumokkal.&lt;/xref:System.ComponentModel.INotifyPropertyChanged.PropertyChanged&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Arguments of the event being raised.</source>
+          <target state="translated">Az esemény argumentumai.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the specified item in the underlying collection belongs to the view.</source>
+          <target state="translated">Visszaad egy értéket, amely jelzi, hogy a megadott elem az alapul szolgáló gyűjtemény a nézet tartozik.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the &lt;xref:System.Windows.Data.CollectionView.Contains%2A&gt; method, this method assumes that the specified item belongs to the underlying collection.</source>
+          <target state="translated">Ellentétben a &lt;xref:System.Windows.Data.CollectionView.Contains%2A&gt;metódus, ez a módszer feltételezi, hogy a megadott elem az alapul szolgáló gyűjtemény tartozik.&lt;/xref:System.Windows.Data.CollectionView.Contains%2A&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method takes filters into account.</source>
+          <target state="translated">Ez a módszer szűrők figyelembe veszi.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you use this method during collection-changed notifications to determine if the added or removed item requires processing.</source>
+          <target state="translated">Általában ezt a módszert használja gyűjtemény módosult értesítések során meghatározni, ha a hozzáadott vagy eltávolított elem feldolgozást igényel.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The item to check.</source>
+          <target state="translated">Az elem ellenőrzése.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified item belongs to the view or if there is not filter set on the collection view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a nézet a megadott elem tartozik, vagy ha a gyűjtemény nézeten; set végez Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, processes a single change on the <ph id="ph1">[!INCLUDE[TLA2#tla_ui](~/add/includes/ajax-current-ext-md.md)]</ph> thread.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor egyetlen módosítás feldolgozása zajlik a <ph id="ph1">[!INCLUDE[TLA2#tla_ui](~/add/includes/ajax-current-ext-md.md)]</ph> szál.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt; object to process.</source>
+          <target state="translated">A &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;folyamat object.&lt;/xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Ensures that all pending changes to the collection have been committed.</source>
+          <target state="translated">Biztosítja, hogy a gyűjtemény összes függőben lévő módosítások véglegesítése megtörtént.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Occurs when a property value has changed.</source>
+          <target state="translated">Egy tulajdonságérték megváltozásakor következik be.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Re-creates the view.</source>
+          <target state="translated">A nézet újbóli létrehozása.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set  the &lt;xref:System.Windows.Data.CollectionView.Filter%2A&gt;, &lt;xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;, or &lt;xref:System.Windows.Data.CollectionView.GroupDescriptions%2A&gt; property; a refresh occurs.</source>
+          <target state="translated">Ha a &lt;xref:System.Windows.Data.CollectionView.Filter%2A&gt;, &lt;xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;, vagy &lt;xref:System.Windows.Data.CollectionView.GroupDescriptions%2A&gt;tulajdonság; a frissítés akkor fordul elő.&lt;/xref:System.Windows.Data.CollectionView.GroupDescriptions%2A&gt; &lt;/xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt; &lt;/xref:System.Windows.Data.CollectionView.Filter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not have to call the Refresh method immediately after you set one of those properties.</source>
+          <target state="translated">Nincs a frissítési metódus meghívására azonnal után ezek a tulajdonságok egyikét.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information about how to delay automatic refresh, see &lt;xref:System.Windows.Data.CollectionView.DeferRefresh%2A&gt;.</source>
+          <target state="translated">További információ az automatikus elhalasztását frissítéséhez &lt;xref:System.Windows.Data.CollectionView.DeferRefresh%2A&gt;.&lt;/xref:System.Windows.Data.CollectionView.DeferRefresh%2A&gt; lásd:</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Derived classes use the protected &lt;xref:System.Windows.Data.CollectionView.RefreshOverride%2A&gt; method to override the behavior of this method.</source>
+          <target state="translated">Származtatott osztályok használja a védett &lt;xref:System.Windows.Data.CollectionView.RefreshOverride%2A&gt;metódus a metódus működés felülbírálásához.&lt;/xref:System.Windows.Data.CollectionView.RefreshOverride%2A&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Refreshes the view or specifies that the view needs to be refreshed when the defer cycle completes.</source>
+          <target state="translated">Frissíti a nézetet, vagy adja meg, hogy a nézet az átadás ciklus befejezésekor frissíteni kell.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Re-creates the view.</source>
+          <target state="translated">A nézet újbóli létrehozása.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Sets the specified item and index as the values of the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<bpt id="p1">*</bpt>&gt; and &lt;xref:System.Windows.Data.CollectionView.CurrentPosition<ept id="p1">*</ept>&gt; properties.</source>
+          <target state="translated">A megadott elem és az index értékének értékre állítja be a &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; és &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The item to set as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.</source>
+          <target state="translated">Az elemet a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt; beállítása</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>The value to set as the &lt;xref:System.Windows.Data.CollectionView.CurrentPosition*&gt; property value.</source>
+          <target state="translated">Az értékre állítja be a &lt;xref:System.Windows.Data.CollectionView.CurrentPosition*&gt;tulajdonság értéke.&lt;/xref:System.Windows.Data.CollectionView.CurrentPosition*&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Sets the specified item and index as the values of the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<bpt id="p1">*</bpt>&gt; and &lt;xref:System.Windows.Data.CollectionView.CurrentPosition<ept id="p1">*</ept>&gt; properties.</source>
+          <target state="translated">A megadott elem és az index értékének értékre állítja be a &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; és &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>This method can be called from a constructor of a derived class.</source>
+          <target state="translated">Ez a módszer a származtatott osztály konstruktor hívása.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this overload from constructor of a derived class.</source>
+          <target state="translated">Ez a túlterhelést hívni a származtatott osztály konstruktor.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not pass the &lt;xref:System.Windows.Data.CollectionView.Count%2A&gt; property, which is a virtual property, as <ph id="ph1">`count`</ph>.</source>
+          <target state="translated">Nem továbbítja a &lt;xref:System.Windows.Data.CollectionView.Count%2A&gt;tulajdonság, amely egy virtuális tulajdonság, mint a <ph id="ph1">`count`</ph>.&lt;/xref:System.Windows.Data.CollectionView.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, pass the count of the internal &lt;xref:System.Collections.IList&gt; that represents the collection.</source>
+          <target state="translated">Ehelyett adja át a belső száma &lt;xref:System.Collections.IList&gt;, amely jelzi, hogy a gyűjteményben.&lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetCurrent is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetCurrent megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The item to set as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.</source>
+          <target state="translated">Az elemet a &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt; beállítása</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The value to set as the &lt;xref:System.Windows.Data.CollectionView.CurrentPosition*&gt; property value.</source>
+          <target state="translated">Az értékre állítja be a &lt;xref:System.Windows.Data.CollectionView.CurrentPosition*&gt;tulajdonság értéke.&lt;/xref:System.Windows.Data.CollectionView.CurrentPosition*&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The number of items in the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az elemek száma a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.ComponentModel.SortDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that describes how the items in the collection are sorted in the view.</source>
+          <target state="translated">Lekérdezi a gyűjteménye <bpt id="p1">&lt;xref href="System.ComponentModel.SortDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktúrák leíró a gyűjteményben lévő elemek rendezését a nézetben.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot add a &lt;xref:System.ComponentModel.SortDescription&gt; to the returned (empty) collection because the base class &lt;xref:System.Windows.Data.CollectionView&gt; does not support sorting.</source>
+          <target state="translated">Nem adhat hozzá egy &lt;xref:System.ComponentModel.SortDescription&gt;a visszaadott (üres) gyűjteményhez mert az alaposztály &lt;xref:System.Windows.Data.CollectionView&gt;nem támogatja a rendezést.&lt;/xref:System.Windows.Data.CollectionView&gt; &lt;/xref:System.ComponentModel.SortDescription&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, use the derived classes &lt;xref:System.Windows.Data.ListCollectionView&gt; and &lt;xref:System.Windows.Data.BindingListCollectionView&gt; that do support sorting.</source>
+          <target state="translated">Használja ezt a származtatott osztályok &lt;xref:System.Windows.Data.ListCollectionView&gt;és &lt;xref:System.Windows.Data.BindingListCollectionView&gt;, amely támogatja a rendezést.&lt;/xref:System.Windows.Data.BindingListCollectionView&gt; &lt;/xref:System.Windows.Data.ListCollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, check the &lt;xref:System.Windows.Data.CollectionView.CanSort%2A&gt; property before adding or removing &lt;xref:System.ComponentModel.SortDescription&gt; objects to avoid an exception.</source>
+          <target state="translated">Ellenőrizze a &lt;xref:System.Windows.Data.CollectionView.CanSort%2A&gt;tulajdonság hozzáadása vagy eltávolítása előtt &lt;xref:System.ComponentModel.SortDescription&gt;objektumok kivétel elkerüléséhez.&lt;/xref:System.ComponentModel.SortDescription&gt; &lt;/xref:System.Windows.Data.CollectionView.CanSort%2A&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>An empty <bpt id="p1">&lt;xref href="System.ComponentModel.SortDescriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated">Egy üres <bpt id="p1">&lt;xref href="System.ComponentModel.SortDescriptionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> minden esetben.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Returns the underlying unfiltered collection.</source>
+          <target state="translated">Az alapul szolgáló szűretlen gyűjtemény adja vissza.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerable&gt; object that is the underlying collection.</source>
+          <target state="translated">Egy &lt;xref:System.Collections.IEnumerable&gt;objektum, amely az alapul szolgáló gyűjtemény.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IEnumerator&gt; object that you can use to enumerate the items in the view.</source>
+          <target state="translated">Értéket ad vissza egy &lt;xref:System.Collections.IEnumerator&gt;objektum használható a nézet elemeinek számbavétele.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; object that you can use to enumerate the items in the view.</source>
+          <target state="translated">Egy &lt;xref:System.Collections.IEnumerator&gt;objektum használható a nézet elemeinek számbavétele.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether it has been necessary to update the change log because a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> notification has been received on a different thread without first entering the <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> thread dispatcher.</source>
+          <target state="translated">Egy érték, amely azt jelzi, hogy a módosítási napló frissítése, mert szükség volt lekérdezi egy <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értesítés érkezett egy másik szálon első megadása nélkül a <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> kézbesítő szál.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if it has been necessary to update the change log because a <bpt id="p2">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> notification has been received on a different thread without first entering the <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> thread dispatcher; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a módosítási napló frissítése, mert szükség volt egy <bpt id="p2">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> értesítés érkezett egy másik szálon első megadása nélkül a <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> kézbesítő szál; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

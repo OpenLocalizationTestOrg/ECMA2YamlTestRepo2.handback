@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">113ead11627856edc3095767ccfc6e625da2a81f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Documents.DynamicDocumentPaginator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb848020dbff7dd203f415eda6900d196995e9fe</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9cc052fffc48440fab6f7f078343e7ebc6720a99</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an abstract base class that supports automatic background pagination and tracking content positions across repaginations in addition to the methods and properties of its own base class.</source>
+          <target state="translated">Itt egy absztrakt alaposztály, amely támogatja az automatikus háttér tördelési és követési tartalom pozíciók repaginations módszerek mellett a saját alaposztály tulajdonságai között.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, a DynamicDocumentPaginator will automatically pre-paginate content in the background (this process begins when &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; is <ph id="ph1">`true`</ph>, which is the default setting).</source>
+          <target state="translated">Alapértelmezés szerint egy DynamicDocumentPaginator lesz automatikusan előzetesen megjelenítheti a háttérben tartalom (Ez a folyamat kezdődik, amikor &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;van <ph id="ph1">`true`</ph>, vagyis az alapértelmezett beállítás).&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; is <ph id="ph1">`true`</ph>, the layout will also be repaginated due to changes in content or changes in &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;.</source>
+          <target state="translated">Ha &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;van <ph id="ph1">`true`</ph>, elrendezését is bekezdésjelként változásokat vagy &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;.&lt;/xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; változásai miatt&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; event occurs upon completion of pagination (or repagination) of one or more pages, such as in the following situations:      -   &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; events occur as content is paginated in the background.</source>
+          <target state="translated">A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;esemény bekövetkeztekor tördelési (vagy oldalakra) egy vagy több lapok létrehozása után például ahogy az alábbi helyzetekben:- &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;események következik be, a tartalmat a rendszer a háttérben paginated.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation, the event may occur upon paginating one or multiple pages (&lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; specifies which pages have been paginated).</source>
+          <target state="translated">Attól függően, hogy a megvalósítás az esemény fordulhat elő, egy vagy több oldal paginating (&lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; határozza meg, mely lapok rendelkezik lett paginated).&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Calls to &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; or &lt;xref:System.Windows.Documents.DocumentPaginator.GetPageAsync%2A&gt; may cause an &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; event to occur if the page specified has not been paginated.</source>
+          <target state="translated">-Hívások &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt;vagy &lt;xref:System.Windows.Documents.DocumentPaginator.GetPageAsync%2A&gt;okozhat egy &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;esemény fordul elő, ha a megadott oldal nem lett paginated.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; &lt;/xref:System.Windows.Documents.DocumentPaginator.GetPageAsync%2A&gt; &lt;/xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if background pagination is enabled (&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`true`</ph>) but pagination has only been completed up to the third page, a call of &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; with an argument of 6 will cause pages four, five, six, and seven to be paginated.</source>
+          <target state="translated">Például, ha engedélyezve van a háttérben tördelési (&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`true`</ph>) tördelési csak legfeljebb harmadik lapján, a hívás befejezése után, de &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt;6 argumentummal fog OK lapok négy, öt, 6 és 7-kell paginated.&lt;/xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Upon completion, a &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; event will be raised with &lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; settings of &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; = 4 and &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; = 4.</source>
+          <target state="translated">Befejezett egy &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;eseményt generál a &lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt;beállításainak &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt;= 4 és &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt;= 4.&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   With background pagination enabled (&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`true`</ph>), a change in &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; on flow-format content, such as a &lt;xref:System.Windows.Documents.FlowDocument&gt;, may cause repagination and associated &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; events.</source>
+          <target state="translated">-A háttérben tördelési engedélyezve (&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`true`</ph>), változása &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;adatfolyam-formátumban a tartalomhoz, például egy &lt;xref:System.Windows.Documents.FlowDocument&gt;, oldalakra okozhat, és a kapcsolódó &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;események.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt; &lt;/xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; has no effect in repagination on fixed-format content, such as &lt;xref:System.Windows.Documents.FixedDocument&gt;, where the visual page size does not affect the layout.</source>
+          <target state="translated">Vegye figyelembe, hogy &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;nincs hatása a oldalakra rögzített formátumú tartalom, például a &lt;xref:System.Windows.Documents.FixedDocument&gt;, ahol a vizuális mérete nincs hatással az elrendezés.&lt;/xref:System.Windows.Documents.FixedDocument&gt; &lt;/xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt; event also occurs when background pagination is disabled.</source>
+          <target state="translated">A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;esemény is akkor fordul elő, ha háttér tördelési le van tiltva.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if there is only one page of content and &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`false`</ph>), calling &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; with an argument of 0 will result in two events:      1.</source>
+          <target state="translated">Például, ha a tartalom csak egy lap és &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;= <ph id="ph1">`false`</ph>), hívó &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt;0 argumentummal eredményez két esemény: 1.&lt;/xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; event with &lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; settings of &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; = 0 and &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; = 1.</source>
+          <target state="translated">A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;esemény &lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt;beállításainak &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt;= 0 és &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt;= 1.&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt; event.</source>
+          <target state="translated">A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;esemény.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the specified &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Ha felülbírálva származtatott osztályban található, visszaadja a <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The object to return the <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of.</source>
+          <target state="translated">Térjen vissza az objektumhoz a <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the given object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az adott objektum.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the zero-based page number of the specified <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, ha a megadott nulla alapú oldal számát adja vissza <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If pages prior to the <ph id="ph1">`contentPosition`</ph> have not been formatted, they will be paginated synchronously prior to returning the requested page number.</source>
+          <target state="translated">Ha a lapok a <ph id="ph1">`contentPosition`</ph> még nem lettek formázva, akkor lesz kell paginated szinkron módon előtt vissza a kért oldal száma.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt; provides similar functionality as GetPageNumber, but with asynchronous operation.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;GetPageNumber megegyezik, azonban aszinkron művelet hasonló funkciókat kínál.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The content position whose page number is needed.</source>
+          <target state="translated">A tartalom pozíciója akinek oldalszám van szükség.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; representing zero-based page number where the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">contentPosition</ph><ept id="p1">&lt;/code&gt;</ept> appears.</source>
+          <target state="translated">Egy &lt;xref:System.Int32&gt;nulla alapú oldalszám képviselő ahol a megadott <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">contentPosition</ph> <ept id="p1">&lt;/code&gt;</ept> jelenik meg.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Asynchronously, returns (through the This method raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event) the zero-based page number of the specified <bpt id="p2">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aszinkron módon adja vissza (az ezen metódus vált ki a <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény) a megadott nulla alapú oldal száma <bpt id="p2">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The only way to cancel the asynchronous operation of this method is to cancel all asynchronous operations.</source>
+          <target state="translated">Csak a módszer az aszinkron művelet megszakítására, megszakítja az összes aszinkron művelet.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Contrast this with the other overload of this method: &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;.</source>
+          <target state="translated">A ellentétben ez a módszer a más túlterheléssel: &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method raises the &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt; event.</source>
+          <target state="translated">Ez a módszer kiváltja a &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;esemény.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The page number is passed to the event as one of the event arguments.</source>
+          <target state="translated">Az oldalszám az esemény az eseményargumentumok rendelkezésre álló kerülnek.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt; for how to use this method to get the page number.</source>
+          <target state="translated">Lásd: &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;arról, hogyan ezt a módszert használja az oldalszám beolvasandó.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The content position whose page number is needed.</source>
+          <target state="translated">A tartalom pozíciója akinek oldalszám van szükség.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Asynchronously, returns (through the This method raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event) the zero-based page number of the specified <bpt id="p2">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aszinkron módon adja vissza (az ezen metódus vált ki a <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény) a megadott nulla alapú oldal száma <bpt id="p2">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the method makes it possible to cancel this asynchronous operation without cancelling all asynchronous operations.</source>
+          <target state="translated">Ez a módszer túlterhelés lehetővé teszi a aszinkron művelet megszakítására, ezzel nem szakítja meg minden aszinkron műveletek.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method raises the &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt; event.</source>
+          <target state="translated">Ez a módszer kiváltja a &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;esemény.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following steps illustrate how to retrieve the page number of a given <ph id="ph1">`contentPosition`</ph> asynchronously.</source>
+          <target state="translated">A következő lépések bemutatják, hogyan lehet lekérni a lap számát egy adott <ph id="ph1">`contentPosition`</ph> aszinkron módon történik.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Create a &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventHandler&gt; delegate and add it to be notified of &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt; events.</source>
+          <target state="translated">Hozzon létre egy &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventHandler&gt;delegálásában, és hozzá kell adnia értesíti a &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;események.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventHandler&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call GetPageNumberAsync specifying the <ph id="ph1">`contentPosition`</ph> desired and a unique <ph id="ph2">`userState`</ph> object that will be used to identify the asynchronous task.</source>
+          <target state="translated">Hívja a GetPageNumberAsync megadása a <ph id="ph1">`contentPosition`</ph> kívánt, valamint egy egyedi <ph id="ph2">`userState`</ph> objektum, amely az aszinkron feladat azonosítására használható.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the event occurs and the delegate is called, compare the event's &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; property with the original GetPageNumberAsync <ph id="ph1">`userState`</ph> parameter.</source>
+          <target state="translated">Ha az esemény akkor következik be, és a delegált nevezik, hasonlítsa össze az esemény &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; tulajdonságot az eredeti GetPageNumberAsync <ph id="ph1">`userState`</ph> paraméter.&lt;/xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; property matches the original GetPageNumberAsync <ph id="ph1">`userState`</ph>, the operation is complete and the page number is ready.</source>
+          <target state="translated">Ha a &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; tulajdonsága egyezést mutat az eredeti GetPageNumberAsync <ph id="ph1">`userState`</ph>, a művelet befejeződik, és készen áll az oldalszám.&lt;/xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(The &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.ContentPosition%2A&gt; property will also match the original GetPageNumberAsync <ph id="ph1">`contentPosition`</ph> parameter.)      5.</source>
+          <target state="translated">(A &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.ContentPosition%2A&gt; tulajdonság is fog egyezni az eredeti GetPageNumberAsync <ph id="ph1">`contentPosition`</ph> paraméter.)&lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.ContentPosition%2A&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;      5.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.PageNumber%2A&gt; property contains the zero-based page number of the specified <ph id="ph1">`contentPosition`</ph>.</source>
+          <target state="translated">A &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.PageNumber%2A&gt; tulajdonsága tartalmazza a megadott nulla alapú oldal száma <ph id="ph1">`contentPosition`</ph>.&lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.PageNumber%2A&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumber%2A&gt; provides similar functionality as &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;, but for synchronous operation.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumber%2A&gt;hasonló funkciókat biztosítják &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;, de szinkron művelethez.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumber%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The content position element to return the page number of.</source>
+          <target state="translated">A tartalom pozíció elem lap számának visszaadása.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the asynchronous task.</source>
+          <target state="translated">Az aszinkron feladat egyedi azonosítója.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Occurs when &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync*&gt; has completed.</source>
+          <target state="translated">Akkor következik be, amikor &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync*&gt;befejeződött.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the position of the specified page in the document's content.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor lekérdezi a megadott oldal pozíciója a dokumentum tartalma.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The page whose position is needed.</source>
+          <target state="translated">A lap, amelynek helyzetét van szükség.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the position of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">page</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> pozíciója képviselő <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">page</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether pagination is performed automatically in the background in response to certain events, such as a change in page size.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely jelzi, hogy tördelési válaszul bizonyos események, például egy az oldalméret módosítása a háttérben automatikusan történik.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`true`</ph>, pagination is performed in the background, raising &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; and &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt; events as appropriate.</source>
+          <target state="translated">Ha <ph id="ph1">`true`</ph>, tördelési történik a háttérben előléptetése &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;és &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;megfelelő eseményeket.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pagination of &lt;xref:System.Windows.Documents.FixedDocument&gt; content, as distinct from a &lt;xref:System.Windows.Documents.FlowDocument&gt; is not affected by changes to the visual &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;.</source>
+          <target state="translated">Tördelési &lt;xref:System.Windows.Documents.FixedDocument&gt;megkülönböztetve, attól &lt;xref:System.Windows.Documents.FlowDocument&gt;a visual &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;.&lt;/xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; módosítása nem érinti&lt;/xref:System.Windows.Documents.FlowDocument&gt; &lt;/xref:System.Windows.Documents.FixedDocument&gt; a tartalom</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if background pagination is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha engedélyezve van a háttérben tördelési; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.GetPageNumberCompletedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.GetPageNumberCompletedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Egy &lt;xref:System.EventArgs&gt;, amely tartalmazza az eseményadatok.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.PaginationProgressEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.PaginationProgressEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Occurs when all document content has been paginated.</source>
+          <target state="translated">Dokumentumok teljes tartalmának rendelkezik lett paginated következik be.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When PaginationCompleted occurs, &lt;xref:System.Windows.Documents.DocumentPaginator.IsPageCountValid%2A&gt; is <ph id="ph1">`true`</ph> until a new pagination is initiated.</source>
+          <target state="translated">PaginationCompleted esetén &lt;xref:System.Windows.Documents.DocumentPaginator.IsPageCountValid%2A&gt;van <ph id="ph1">`true`</ph> mindaddig, amíg egy új tördelési lehet kezdeményezni.&lt;/xref:System.Windows.Documents.DocumentPaginator.IsPageCountValid%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Occurs when one or more content pages have been paginated.</source>
+          <target state="translated">Akkor következik be, amikor egy vagy több tartalom lapok rendelkezik lett paginated.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; properties &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; and &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; identify the range of pages paginated.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt;Tulajdonságok &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt;és &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt;azonosítása paginated oldalainak tartományát.&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt;&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
