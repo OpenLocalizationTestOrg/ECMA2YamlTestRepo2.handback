@@ -1,43 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [fulldocset\System.Drawing.Printing.PaperSize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Printing.PaperSize.yml) | InSyncHandedBackSuccess | [Details](#23f51396ae337d3fdc4484d197419d21aa3cd56477707)
- [fulldocset\System.Windows.Forms.SystemInformation.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Forms.SystemInformation.yml) | InSyncHandedBackSuccess | [Details](#8fcf3c3439a67d9b83829c13a3f49b3bd5d7762585463)
 
 ## Item Details
-##### <a name='23f51396ae337d3fdc4484d197419d21aa3cd56477707'></a> Source: [fulldocset\System.Drawing.Printing.PaperSize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Printing.PaperSize.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Drawing.Printing.PaperSize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.zh-cn/blob/324ee031b23ee8b048035c7315dec07dd90748d3/fulldocset/System.Drawing.Printing.PaperSize.yml)
-* Handoff File: [System.Drawing.Printing.PaperSize.c9faca67b00dfbc6b012aab8b33314b907922966.zh-cn.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/048fd23592e603ad9129cb267e98fb4e977ae69e/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.zh-cn/master/fulldocset/System.Drawing.Printing.PaperSize.c9faca67b00dfbc6b012aab8b33314b907922966.zh-cn.xlf)
-* Handoff Datetime: 2017-03-16 04:56:23
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Drawing.Printing.PaperSize.c9faca67b00dfbc6b012aab8b33314b907922966.zh-cn.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/fdd2d4bbb0f36520ad08e64be5316b7831d4bc03/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.zh-cn/master/fulldocset/System.Drawing.Printing.PaperSize.c9faca67b00dfbc6b012aab8b33314b907922966.zh-cn.xlf)
-* Handback Datetime: 2017-03-20 12:57:11
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-ko-kr-nb-no-nl-nl-pl-pl-pt-br-ru-ru-sv-se-zh-cn-zh-tw_2
-* [Back to Top](#report-top)
-
-##### <a name='8fcf3c3439a67d9b83829c13a3f49b3bd5d7762585463'></a> Source: [fulldocset\System.Windows.Forms.SystemInformation.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Forms.SystemInformation.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Windows.Forms.SystemInformation.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.zh-cn/blob/324ee031b23ee8b048035c7315dec07dd90748d3/fulldocset/System.Windows.Forms.SystemInformation.yml)
-* Handoff File: [System.Windows.Forms.SystemInformation.339742118cbaaf6791d62b9853f1e1489d440282.zh-cn.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/048fd23592e603ad9129cb267e98fb4e977ae69e/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.zh-cn/master/fulldocset/System.Windows.Forms.SystemInformation.339742118cbaaf6791d62b9853f1e1489d440282.zh-cn.xlf)
-* Handoff Datetime: 2017-03-16 04:56:23
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Windows.Forms.SystemInformation.339742118cbaaf6791d62b9853f1e1489d440282.zh-cn.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/fdd2d4bbb0f36520ad08e64be5316b7831d4bc03/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.zh-cn/master/fulldocset/System.Windows.Forms.SystemInformation.339742118cbaaf6791d62b9853f1e1489d440282.zh-cn.xlf)
-* Handback Datetime: 2017-03-20 12:57:11
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-ko-kr-nb-no-nl-nl-pl-pl-pt-br-ru-ru-sv-se-zh-cn-zh-tw_2
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
