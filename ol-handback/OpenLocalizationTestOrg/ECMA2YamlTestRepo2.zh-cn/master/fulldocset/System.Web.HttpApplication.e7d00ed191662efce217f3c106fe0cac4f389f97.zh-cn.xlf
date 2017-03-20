@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64273ff1568cb5080040c72ebfd856cdfdad955d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.HttpApplication.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5040ef3a2fdfe753673969b5c281758a9b5426d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1cc916414333c03c3b89d86d7b45652a81e9a05</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the methods, properties, and events that are common to all application objects in an ASP.NET application.</source>
+          <target state="translated">定义方法、 属性和事件所共有的 ASP.NET 应用程序中的所有应用程序对象。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is the base class for applications that are defined by the user in the Global.asax file.</source>
+          <target state="translated">此类是由 Global.asax 文件中的用户定义的应用程序的基类。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Instances of the HttpApplication class are created in the ASP.NET infrastructure, not by the user directly.</source>
+          <target state="translated">HttpApplication 类的实例中的 ASP.NET 基础结构，不是由用户直接创建。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>One instance of the HttpApplication class is used to process many requests in its lifetime.</source>
+          <target state="translated">HttpApplication 类的一个实例用于其生存期内处理多请求。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>However, it can process only one request at a time.</source>
+          <target state="translated">但是，它可以一次处理只请求一次。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Thus, member variables can be used to store per-request data.</source>
+          <target state="translated">因此，可以使用成员变量来存储每个请求数据。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>An application raises events that can be handled by custom modules that implement the &lt;xref:System.Web.IHttpModule&gt; interface or by event handler code that is defined in the Global.asax file.</source>
+          <target state="translated">应用程序引发的事件可以由实现的自定义模块&lt;xref:System.Web.IHttpModule&gt;接口或通过在 Global.asax 中定义的事件处理程序代码文件。&lt;/xref:System.Web.IHttpModule&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Custom modules that implement the &lt;xref:System.Web.IHttpModule&gt; interface can be put in the App_Code folder or in a DLL in the Bin folder.</source>
+          <target state="translated">实现的自定义模块&lt;xref:System.Web.IHttpModule&gt;接口可置于 App_Code 文件夹中或在 DLL 中的 Bin 文件夹中。&lt;/xref:System.Web.IHttpModule&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>HttpApplication is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">HttpApplication 是.NET Framework 3.5 版中引入的。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>版本和依赖关系<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When running IIS 7.0 in Integrated mode, custom modules in the App_Code folder or Bin folder apply to all requests in the request pipeline.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph> 1&gt; Bin 文件夹或 App_Code 文件夹中的自定义模块时在集成模式下运行 IIS 7.0，适用于请求管道中的所有请求。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Event handler code in the Global.asax file only applies to requests that are mapped to an ASP.NET handler.</source>
+          <target state="translated">事件处理程序代码放在 Global.asax 文件仅适用于映射到 ASP.NET 处理程序的请求。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The application events are raised in the following order:      1.</source>
+          <target state="translated">应用程序事件将按照以下顺序引发︰ 1。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.BeginRequest&gt;      2.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.BeginRequest&gt;2。&lt;/xref:System.Web.HttpApplication.BeginRequest&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;      3.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;3。&lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.PostAuthenticateRequest&gt;      4.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.PostAuthenticateRequest&gt;4。&lt;/xref:System.Web.HttpApplication.PostAuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt;      5.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt;5。&lt;/xref:System.Web.HttpApplication.AuthorizeRequest&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.PostAuthorizeRequest&gt;      6.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.PostAuthorizeRequest&gt;6。&lt;/xref:System.Web.HttpApplication.PostAuthorizeRequest&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.ResolveRequestCache&gt;      7.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.ResolveRequestCache&gt;7。&lt;/xref:System.Web.HttpApplication.ResolveRequestCache&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.PostResolveRequestCache&gt;           After the &lt;xref:System.Web.HttpApplication.PostResolveRequestCache&gt; event and before the &lt;xref:System.Web.HttpApplication.PostMapRequestHandler&gt; event, an event handler (which is a page that corresponds to the request URL) is created.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.PostResolveRequestCache&gt;后&lt;xref:System.Web.HttpApplication.PostResolveRequestCache&gt;事件和之前&lt;xref:System.Web.HttpApplication.PostMapRequestHandler&gt;事件，创建事件处理程序 （这是对应的请求 URL 的页面）。&lt;/xref:System.Web.HttpApplication.PostMapRequestHandler&gt; &lt;/xref:System.Web.HttpApplication.PostResolveRequestCache&gt;&lt;/xref:System.Web.HttpApplication.PostResolveRequestCache&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When a server is running IIS 7.0 in Integrated mode and at least the .NET Framework version 3.0, the &lt;xref:System.Web.HttpApplication.MapRequestHandler&gt; event is raised.</source>
+          <target state="translated">当服务器在运行 IIS 7.0，在集成模式下和在最低.NET Framework 版本 3.0，&lt;xref:System.Web.HttpApplication.MapRequestHandler&gt;引发事件。&lt;/xref:System.Web.HttpApplication.MapRequestHandler&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When a server is running IIS 7.0 in Classic mode or an earlier version of IIS, this event cannot be handled.</source>
+          <target state="translated">当服务器运行 IIS 7.0 经典模式或早期版本的 IIS 中时，无法处理此事件。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>8.</source>
+          <target state="translated">8.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.PostMapRequestHandler&gt;      9.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.PostMapRequestHandler&gt;9。&lt;/xref:System.Web.HttpApplication.PostMapRequestHandler&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.AcquireRequestState&gt;      10.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.AcquireRequestState&gt;10。&lt;/xref:System.Web.HttpApplication.AcquireRequestState&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.PostAcquireRequestState&gt;      11.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.PostAcquireRequestState&gt;11。&lt;/xref:System.Web.HttpApplication.PostAcquireRequestState&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.PreRequestHandlerExecute&gt;           The event handler is executed.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.PreRequestHandlerExecute&gt;执行事件处理程序。&lt;/xref:System.Web.HttpApplication.PreRequestHandlerExecute&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>12.</source>
+          <target state="translated">12.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.PostRequestHandlerExecute&gt;      13.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.PostRequestHandlerExecute&gt;为 13。&lt;/xref:System.Web.HttpApplication.PostRequestHandlerExecute&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt;      14.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt;14。&lt;/xref:System.Web.HttpApplication.ReleaseRequestState&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.PostReleaseRequestState&gt;           After the &lt;xref:System.Web.HttpApplication.PostReleaseRequestState&gt; event is raised, any existing response filters will filter the output.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.PostReleaseRequestState&gt;后&lt;xref:System.Web.HttpApplication.PostReleaseRequestState&gt;引发事件，任何现有的响应筛选器将筛选的输出。&lt;/xref:System.Web.HttpApplication.PostReleaseRequestState&gt;&lt;/xref:System.Web.HttpApplication.PostReleaseRequestState&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>15.</source>
+          <target state="translated">15.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.UpdateRequestCache&gt;      16.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.UpdateRequestCache&gt;16。&lt;/xref:System.Web.HttpApplication.UpdateRequestCache&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.PostUpdateRequestCache&gt;      17.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.PostUpdateRequestCache&gt;17。&lt;/xref:System.Web.HttpApplication.PostUpdateRequestCache&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.LogRequest&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.LogRequest&gt;.&lt;/xref:System.Web.HttpApplication.LogRequest&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This event is supported in IIS 7.0 Integrated mode and at least the .NET Framework 3.0      18.</source>
+          <target state="translated">在 IIS 7.0 集成模式下和在支持此事件最低.NET Framework 3.0 18。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.PostLogRequest&gt;           This event is supported IIS 7.0 Integrated mode and at least the .NET Framework 3.0      19.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.PostLogRequest&gt;此事件是受支持的 IIS 7.0 集成模式下并且至少.NET Framework 3.0 19。&lt;/xref:System.Web.HttpApplication.PostLogRequest&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.HttpApplication.EndRequest&gt;</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.EndRequest&gt;&lt;/xref:System.Web.HttpApplication.EndRequest&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.HttpApplication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.HttpApplication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Occurs when ASP.NET acquires the current state (for example, session state) that is associated with the current request.</source>
+          <target state="translated">ASP.NET 获取与当前请求相关联的当前状态 （例如，会话状态） 时发生。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The AcquireRequestState event is raised after the event handler has been created.</source>
+          <target state="translated">创建事件处理程序后，将引发 AcquireRequestState 事件。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.AuthenticateRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.AuthorizeRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.AcquireRequestState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.BeginRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>AddOnLogRequestAsync is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">AddOnLogRequestAsync 是.NET Framework 3.5 版中引入的。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>版本和依赖关系<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>AddOnMapRequestHandlerAsync is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">AddOnMapRequestHandlerAsync 是.NET Framework 3.5 版中引入的。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>版本和依赖关系<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.MapRequestHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAcquireRequestState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAuthenticateRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthenticateRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAuthenticateRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthenticateRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthenticateRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthenticateRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthenticateRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthenticateRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到异步集合<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostAuthorizeRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>AddOnPostLogRequestAsync is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">AddOnPostLogRequestAsync 是.NET Framework 3.5 版中引入的。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>版本和依赖关系<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostLogRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostMapRequestHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>集合。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostReleaseRequestState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostRequestHandlerExecute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostResolveRequestCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the event.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>启动事件的异步处理。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PostUpdateRequestCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.PreRequestHandlerExecute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>集合。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.ReleaseRequestState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event handler to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到集合的异步事件处理程序<bpt id="p2">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event handler to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到集合的异步事件处理程序<bpt id="p2">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.ResolveRequestCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event to the collection of asynchronous <bpt id="p2">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event handlers for the current request.</source>
+          <target state="translated">将指定的<bpt id="p1">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件的异步集合到<bpt id="p2">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为当前请求的事件处理程序。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that starts asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.BeginEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>开头的异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that ends asynchronous processing of the <bpt id="p2">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.EndEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结束异步处理<bpt id="p2">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The associated state to add to the asynchronous <bpt id="p1">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">关联的状态将添加到异步<bpt id="p1">&lt;xref href="System.Web.HttpApplication.UpdateRequestCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Gets the current state of an application.</source>
+          <target state="translated">获取应用程序的当前状态。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The current state of an application consists of a key/value dictionary of application-wide objects that you can use to store both .NET Framework objects and scalar values that are related to multiple Web requests from multiple clients.</source>
+          <target state="translated">应用程序的当前状态包含可用于存储.NET Framework 对象和标量值从多个客户端相关的多个 Web 请求的应用程序范围对象的键/值字典。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpApplicationState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpApplicationState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Occurs when a security module has established the identity of the user.</source>
+          <target state="translated">安全模块已建立的用户标识时发生。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The AuthenticateRequest event signals that the configured authentication mechanism has authenticated the current request.</source>
+          <target state="translated">用信号通知 AuthenticateRequest 事件，配置的身份验证机制已经身份验证当前的请求。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Subscribing to the AuthenticateRequest event ensures that the request will be authenticated before processing the attached module or event handler.</source>
+          <target state="translated">订阅 AuthenticateRequest 事件可确保在处理附加的模块或事件处理程序之前将身份验证请求。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Occurs when a security module has verified user authorization.</source>
+          <target state="translated">安全模块已验证用户身份验证时发生。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The AuthorizeRequest event signals that ASP.NET has authorized the current request.</source>
+          <target state="translated">AuthorizeRequest 事件表示 ASP.NET 已授权当前请求。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Subscribing to the AuthorizeRequest event ensures that the request will be authenticated and authorized before processing the attached module or event handler.</source>
+          <target state="translated">订阅 AuthorizeRequest 事件可确保请求将进行身份验证和授权在处理附加的模块或事件处理程序之前。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Occurs as the first event in the HTTP pipeline chain of execution when ASP.NET responds to a request.</source>
+          <target state="translated">在 ASP.NET 响应请求的形式执行的 HTTP 管道链中的第一个事件发生。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The BeginRequest event signals the creation of any given new request.</source>
+          <target state="translated">BeginRequest 事件表示任何给定的新请求的创建。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>This event is always raised and is always the first event to occur during the processing of a request.</source>
+          <target state="translated">此事件始终引发，并且始终要请求的处理过程中发生的第一个事件。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Causes ASP.NET to bypass all events and filtering in the HTTP pipeline chain of execution and directly execute the <bpt id="p1">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">使 ASP.NET 可以绕过所有事件，并在 HTTP 中进行筛选管道的执行链并直接执行<bpt id="p1">&lt;xref href="System.Web.HttpApplication.EndRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Gets HTTP-specific information about the current request.</source>
+          <target state="translated">获取有关当前请求的 HTTP 特定信息。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Disposes the <bpt id="p1">&lt;xref href="System.Web.HttpApplication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">释放<bpt id="p1">&lt;xref href="System.Web.HttpApplication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>实例。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.HttpApplication.Request%2A&gt;, &lt;xref:System.Web.HttpApplication.Response%2A&gt;, &lt;xref:System.Web.HttpApplication.Session%2A&gt;, and &lt;xref:System.Web.HttpApplication.Application%2A&gt; properties are not available for use when the Dispose method executes.</source>
+          <target state="translated">&lt;xref:System.Web.HttpApplication.Request%2A&gt;， &lt;xref:System.Web.HttpApplication.Response%2A&gt;， &lt;xref:System.Web.HttpApplication.Session%2A&gt;，和&lt;xref:System.Web.HttpApplication.Application%2A&gt;执行 Dispose 方法时，属性不是可供使用。&lt;/xref:System.Web.HttpApplication.Application%2A&gt; &lt;/xref:System.Web.HttpApplication.Session%2A&gt; &lt;/xref:System.Web.HttpApplication.Response%2A&gt; &lt;/xref:System.Web.HttpApplication.Request%2A&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The Dispose method calls the &lt;xref:System.Web.IHttpModule.Dispose%2A&gt; method on each of the registered &lt;xref:System.Web.Configuration.SystemWebSectionGroup.HttpModules%2A&gt; in the application instance and raises the &lt;xref:System.Web.HttpApplication.Disposed&gt; event.</source>
+          <target state="translated">Dispose 方法调用&lt;xref:System.Web.IHttpModule.Dispose%2A&gt;上每个已注册的方法&lt;xref:System.Web.Configuration.SystemWebSectionGroup.HttpModules%2A&gt;中的应用程序实例和引发&lt;xref:System.Web.HttpApplication.Disposed&gt;事件。&lt;/xref:System.Web.HttpApplication.Disposed&gt; &lt;/xref:System.Web.Configuration.SystemWebSectionGroup.HttpModules%2A&gt; &lt;/xref:System.Web.IHttpModule.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Occurs when the application is disposed.</source>
+          <target state="translated">释放应用程序时发生。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>When you create a Disposed delegate, you identify the method that handles the event.</source>
+          <target state="translated">在创建已释放的委托时，需要标识处理事件的方法。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>To associate the event with your event handler, add an instance of the Disposed delegate to the event.</source>
+          <target state="translated">若要将事件与事件处理程序关联，请将 Disposed 的一个实例添加到事件的委托。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The event handler is called whenever the event occurs, unless you remove the Disposed delegate.</source>
+          <target state="translated">除非移除了该已释放的委托，称为每当发生该事件时，事件处理程序。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Occurs as the last event in the HTTP pipeline chain of execution when ASP.NET responds to a request.</source>
+          <target state="translated">在 ASP.NET 响应请求的形式执行的 HTTP 管道链中的最后一个事件发生。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The EndRequest event is always raised when the &lt;xref:System.Web.HttpApplication.CompleteRequest%2A&gt; method is called.</source>
+          <target state="translated">始终是 EndRequest 事件时引发&lt;xref:System.Web.HttpApplication.CompleteRequest%2A&gt;调用方法。&lt;/xref:System.Web.HttpApplication.CompleteRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Occurs when an unhandled exception is thrown.</source>
+          <target state="translated">当引发未处理的异常时发生。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The exception that raises the Error event can be accessed by a call to the &lt;xref:System.Web.HttpServerUtility.GetLastError%2A&gt; method.</source>
+          <target state="translated">引发错误事件的异常可以访问通过调用&lt;xref:System.Web.HttpServerUtility.GetLastError%2A&gt;方法。&lt;/xref:System.Web.HttpServerUtility.GetLastError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>If your application generates custom error output, suppress the default error message that is generated by ASP.NET by a call to the &lt;xref:System.Web.HttpServerUtility.ClearError%2A&gt; method.</source>
+          <target state="translated">如果你的应用程序生成自定义错误输出，禁止显示默认的错误消息，通过调用由 ASP.NET 生成&lt;xref:System.Web.HttpServerUtility.ClearError%2A&gt;方法。&lt;/xref:System.Web.HttpServerUtility.ClearError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If your Web application contains XML Web services, you cannot use the Error event for global exception handling of those services.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 如果 Web 应用程序包含 XML Web 服务，你无法将错误事件，用于这些服务的全局异常处理。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The HTTP handler for XML Web services consumes any exception that occurs in an XML Web service and converts it to a SOAP fault before the Error being called.</source>
+          <target state="translated">XML Web 服务的 HTTP 处理程序使用 XML Web 服务中出现，并将其转换为 SOAP 错误之前调用的错误的任何异常。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>To handle XML Web service exceptions, build a SOAP extension to process Web service exceptions in a custom global exception handler.</source>
+          <target state="translated">若要处理 XML Web 服务异常，生成的 SOAP 扩展来处理自定义全局异常处理程序中的 Web 服务异常。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets the list of event handler delegates that process all application events.</source>
+          <target state="translated">获取处理所有的应用程序事件的处理程序委托的事件的列表。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventHandlerList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the names of the event handler delegates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.EventHandlerList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含事件处理程序委托的名称。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Gets the name of the default output-cache provider that is configured for a Web site.</source>
+          <target state="translated">获取网站的默认输出缓存提供程序配置的名称。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>You can override this method and use it to return the name of any output-cache provider that is configured for a Web site.</source>
+          <target state="translated">你可以重写此方法，并使用它返回为网站配置任何输出缓存提供程序的名称。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>ASP.NET retrieves a reference to the named provider and uses it to store output-cache data for the currently executing request.</source>
+          <target state="translated">ASP.NET 检索命名的提供程序的引用，并使用它来存储当前正在执行的请求的输出缓存数据。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>By default, in ASP.NET, all HTTP responses, rendered pages, and controls use the in-memory output cache.</source>
+          <target state="translated">默认情况下，在 ASP.NET 中，所有 HTTP 响应，呈现页面和控件都使用内存中输出缓存。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>You can change the default output-cache provider that is used for a Web application by specifying a different provider name for <ph id="ph1">`defaultProvider`</ph>.</source>
+          <target state="translated">你可以更改的默认输出缓存提供程序指定不同的提供程序名称的 Web 应用程序由<ph id="ph1">`defaultProvider`</ph>。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>In addition, you can select different output-cache providers for individual control and for individual requests.</source>
+          <target state="translated">此外，你可以选择不同的输出缓存提供程序针对各个控件和的各个请求。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The easiest way to choose a different output-cache provider for different Web user controls is to do so declaratively by using the new <ph id="ph1">`providerName`</ph> attribute in a page or control directive, as shown in the following example:      <ph id="ph2">```   &lt;%@ OutputCache Duration="60" VaryByParam="None"        providerName="DiskCache" %&gt;   ```</ph>       To specify a different output cache provider for an HTTP request, you override this method in the Global.asax file to programmatically specify which provider to use for a specific request.</source>
+          <target state="translated">选择不同的输出缓存提供程序为不同 Web 用户控件的最简单方法是以声明方式使用新进行<ph id="ph1">`providerName`</ph>属性中的页或控件的指令，如下面的示例中所示︰<ph id="ph2">```   &lt;%@ OutputCache Duration="60" VaryByParam="None"        providerName="DiskCache" %&gt;   ```</ph>若要指定的 HTTP 请求不同的输出缓存提供程序，你重写此方法要以编程方式指定要用于特定请求的提供程序的 Global.asax 文件中。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET Caching Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>ASP.NET 缓存概述<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides references to intrinsic server objects that are used to service HTTP requests.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它提供对用于 HTTP 请求提供服务的内部服务器对象的引用。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The name of the default provider.</source>
+          <target state="translated">默认提供程序的名称。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;context&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or is an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;context&lt;/code&gt;</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或为空字符串。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Provides an application-wide implementation of the &lt;xref:System.Web.UI.PartialCachingAttribute.VaryByCustom*&gt; property.</source>
+          <target state="translated">提供的应用程序范围内实现&lt;xref:System.Web.UI.PartialCachingAttribute.VaryByCustom*&gt;属性。&lt;/xref:System.Web.UI.PartialCachingAttribute.VaryByCustom*&gt;</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>You can override GetVaryByCustomString to add a new method for calculating custom vary-by values that are based on the current request.</source>
+          <target state="translated">您可以重写 GetVaryByCustomString 添加计算基于当前请求的自定义不同的值的新方法。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The implementation has to call the base class for custom values that it does not recognize.</source>
+          <target state="translated">此实现必须调用基类的无法识别的自定义值。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>How to: Cache Versions of a Page Using Custom Strings<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>How to︰ 页使用的自定义字符串的缓存版本<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains information about the current Web request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象，其中包含有关当前 Web 请求的信息。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>The custom string that specifies which cached response is used to respond to the current request.</source>
+          <target state="translated">自定义字符串，指定使用哪个缓存的响应对当前请求作出响应。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>If the value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">custom</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_&amp;quot;browser&amp;quot;" name="&amp;quot;browser&amp;quot;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, the browser's &lt;xref:System.Web.Configuration.HttpCapabilitiesBase.Type*&gt;; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">custom</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_&amp;quot;browser&amp;quot;" name="&amp;quot;browser&amp;quot;" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，浏览器的&lt;xref:System.Web.Configuration.HttpCapabilitiesBase.Type*&gt;; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。&lt;/xref:System.Web.Configuration.HttpCapabilitiesBase.Type*&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Executes custom initialization code after all event handler modules have been added.</source>
+          <target state="translated">添加事件处理程序的所有模块后，请执行自定义的初始化代码。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>In a derived class, you can override the Init method to add custom one-time initialization code.</source>
+          <target state="translated">在派生类中，你可以重写要添加自定义的一次性初始化代码的 Init 方法。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Occurs just before ASP.NET performs any logging for the current request.</source>
+          <target state="translated">ASP.NET 为当前请求执行任何日志记录之前发生。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The LogRequest event is raised even if an error occurs.</source>
+          <target state="translated">即使发生错误，将引发 LogRequest 事件。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>You can provide an event handler for the LogRequest event to provide custom logging for the request.</source>
+          <target state="translated">你可以提供的事件处理程序 LogRequest 事件以便提供自定义日志记录请求。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>LogRequest is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">LogRequest 是.NET Framework 3.5 版中引入的。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>版本和依赖关系<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Occurs when the handler is selected to respond to the request.</source>
+          <target state="translated">当处理程序选择对请求作出响应时发生。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The MapRequestHandler event is used by the ASP.NET infrastructure to determine the request handler for the current request.</source>
+          <target state="translated">MapRequestHandler 事件由 ASP.NET 基础结构用于确定当前请求的请求处理程序。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>How to: Register HTTP Handlers<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>如何︰ 注册 HTTP 处理程序<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>MapRequestHandler is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">MapRequestHandler 是.NET Framework 3.5 版中引入的。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>版本和依赖关系<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Gets the collection of modules for the current application.</source>
+          <target state="translated">获取当前应用程序的模块的集合。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpModuleCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the names of the modules for the application.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpModuleCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含应用程序的模块的名称。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Occurs when the request state (for example, session state) that is associated with the current request has been obtained.</source>
+          <target state="translated">获取与当前请求相关联的请求状态 （例如，会话状态） 时发生。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>The PostAcquireRequestState event is raised after the &lt;xref:System.Web.HttpApplication.AcquireRequestState&gt; event has occurred.</source>
+          <target state="translated">PostAcquireRequestState 事件引发之后&lt;xref:System.Web.HttpApplication.AcquireRequestState&gt;已发生事件。&lt;/xref:System.Web.HttpApplication.AcquireRequestState&gt;</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Functionality that subscribes to the &lt;xref:System.Web.HttpApplication.AcquireRequestState&gt; event can access any data that is processed by the PostAcquireRequestState.</source>
+          <target state="translated">订阅的功能&lt;xref:System.Web.HttpApplication.AcquireRequestState&gt;事件可以访问由 PostAcquireRequestState 处理任何数据。&lt;/xref:System.Web.HttpApplication.AcquireRequestState&gt;</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Occurs when a security module has established the identity of the user.</source>
+          <target state="translated">安全模块已建立的用户标识时发生。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>The PostAuthenticateRequest event is raised after the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event has occurred.</source>
+          <target state="translated">PostAuthenticateRequest 事件引发之后&lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;已发生事件。&lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>Functionality that subscribes to the PostAuthenticateRequest event can access any data that is processed by the PostAuthenticateRequest.</source>
+          <target state="translated">订阅 PostAuthenticateRequest 事件的功能可以访问由 PostAuthenticateRequest 处理任何数据。</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Occurs when the user for the current request has been authorized.</source>
+          <target state="translated">当前请求的用户已被授权时发生。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>The PostAuthorizeRequest event signals that ASP.NET has authorized the current request.</source>
+          <target state="translated">PostAuthorizeRequest 事件表示 ASP.NET 已授权当前请求。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>Subscribing to the PostAuthorizeRequest event ensures authentication and authorization of the request before processing the attached module or event handler.</source>
+          <target state="translated">订阅 PostAuthorizeRequest 事件可确保身份验证和授权的请求，然后处理的附加的模块或事件处理程序。</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>Occurs when ASP.NET has completed processing all the event handlers for the <bpt id="p1">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">当 ASP.NET 已完成处理的事件处理程序时发生<bpt id="p1">&lt;xref href="System.Web.HttpApplication.LogRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>PostLogRequest is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">PostLogRequest 是.NET Framework 3.5 版中引入的。</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>版本和依赖关系<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>Occurs when ASP.NET has mapped the current request to the appropriate event handler.</source>
+          <target state="translated">ASP.NET 已映射到相应的事件处理程序的当前请求时发生。</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>Occurs when ASP.NET has completed executing all request event handlers and the request state data has been stored.</source>
+          <target state="translated">当 ASP.NET 已完成执行所有请求事件处理程序和数据已存储的请求状态时发生。</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Occurs when the ASP.NET event handler (for example, a page or an XML Web service) finishes execution.</source>
+          <target state="translated">当 ASP.NET 事件处理程序 （例如，一个页面或 XML Web 服务） 完成执行时发生。</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>Occurs when ASP.NET bypasses execution of the current event handler and allows a caching module to serve a request from the cache.</source>
+          <target state="translated">当 ASP.NET 绕过的当前事件处理程序的执行，并允许缓存的模块，若要为缓存请求提供服务时发生。</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>Occurs when ASP.NET finishes updating caching modules and storing responses that are used to serve subsequent requests from the cache.</source>
+          <target state="translated">当 ASP.NET 完成更新缓存模块和存储用于为从缓存的后续请求提供服务的响应时发生。</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>The PostUpdateRequestCache event is raised after the &lt;xref:System.Web.HttpApplication.UpdateRequestCache&gt; event has occurred.</source>
+          <target state="translated">PostUpdateRequestCache 事件引发之后&lt;xref:System.Web.HttpApplication.UpdateRequestCache&gt;已发生事件。&lt;/xref:System.Web.HttpApplication.UpdateRequestCache&gt;</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>When the PostUpdateRequestCache is raised, ASP.NET has completed processing code and the content of the cache is finalized.</source>
+          <target state="translated">当引发 PostUpdateRequestCache 时，ASP.NET 已完成处理代码，并最终确定缓存的内容时。</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>Occurs just before ASP.NET starts executing an event handler (for example, a page or an XML Web service).</source>
+          <target state="translated">ASP.NET 开始执行 （例如，一个页面或 XML Web 服务） 的事件处理程序之前发生。</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>Occurs just before ASP.NET sends content to the client.</source>
+          <target state="translated">ASP.NET 将内容发送到客户端之前发生。</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>The PreSendRequestContent event may occur multiple times.</source>
+          <target state="translated">PreSendRequestContent 事件可能出现多次。</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>Occurs just before ASP.NET sends HTTP headers to the client.</source>
+          <target state="translated">ASP.NET 将 HTTP 标头发送到客户端之前发生。</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>Registers an application module.</source>
+          <target state="translated">注册应用程序模块。</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>The type of the module.</source>
+          <target state="translated">模块类型。</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>Occurs after ASP.NET finishes executing all request event handlers.</source>
+          <target state="translated">ASP.NET 完成执行所有请求事件处理程序后发生。</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>This event causes state modules to save the current state data.</source>
+          <target state="translated">此事件导致状态模块，若要保存当前的状态数据。</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>When the ReleaseRequestState event is raised, the application is finished with the request and ASP.NET is signaled to store the request state.</source>
+          <target state="translated">当引发 ReleaseRequestState 事件时，应用程序完成了对请求和 ASP.NET 处于有信号状态存储请求状态。</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>Gets the intrinsic request object for the current request.</source>
+          <target state="translated">获取当前请求的内部请求对象。</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that the application is processing.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>处理应用程序的对象。</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Web.HttpRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>Occurs when the managed objects that are associated with the request have been released.</source>
+          <target state="translated">已发布与请求关联的托管的对象时发生。</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>The RequestCompleted event is called after all managed modules and handlers in the ASP.NET pipeline have been called.</source>
+          <target state="translated">事件称为毕竟 RequestCompleted 托管模块并调用了 ASP.NET 管道中的处理程序。</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>It enables modules to clean up resources after all managed modules and handlers have executed.</source>
+          <target state="translated">它使模块以清理的资源执行所有托管的模块和处理程序。</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>Use this event if you require a specific time to explicitly dispose of managed resources that you created during a request.</source>
+          <target state="translated">如果您需要显式释放在请求期间创建的托管资源的特定时间，请使用此事件。</target>       </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>Occurs when ASP.NET finishes an authorization event to let the caching modules serve requests from the cache, bypassing execution of the event handler (for example, a page or an XML Web service).</source>
+          <target state="translated">当 ASP.NET 完成授权事件以便缓存模块为从缓存中，跳过事件处理程序 （例如，一个页面或 XML Web 服务） 执行的请求提供服务时发生。</target>       </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>Gets the intrinsic response object for the current request.</source>
+          <target state="translated">获取当前请求的内部函数的响应对象。</target>       </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that the application is processing.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>处理应用程序的对象。</target>       </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Web.HttpResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>Gets the intrinsic server object for the current request.</source>
+          <target state="translated">获取当前请求的内部服务器对象。</target>       </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpServerUtility"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that the application is processing.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpServerUtility"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>处理应用程序的对象。</target>       </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>Gets the intrinsic session object that provides access to session data.</source>
+          <target state="translated">获取提供对会话数据的访问的内部函数的会话对象。</target>       </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SessionState.HttpSessionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the current session.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SessionState.HttpSessionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>当前会话的对象。</target>       </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SessionState.HttpSessionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Web.SessionState.HttpSessionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>Gets or sets a site interface for an <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation.</source>
+          <target state="translated">获取或设置的网站接口<bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>实现。</target>       </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that allows a container to manage and communicate with its child components.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>允许容器管理并与及其子组件通信的对象。</target>       </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source>Initiates an asynchronous call to the HTTP event handler.</source>
+          <target state="translated">启动对 HTTP 事件处理程序的异步调用。</target>       </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides references to intrinsic server objects that are used to service HTTP requests.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它提供对用于 HTTP 请求提供服务的内部服务器对象的引用。</target>       </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; to call when the asynchronous method call is complete.</source>
+          <target state="translated">&lt;xref:System.AsyncCallback&gt;异步方法调用已完成时调用。&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`cb`</ph> parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the delegate is not called.</source>
+          <target state="translated">如果<ph id="ph1">`cb`</ph>参数是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，不会调用的委托。</target>       </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve">
+          <source>Any extra data that is required to process the request.</source>
+          <target state="translated">处理请求所需的任何额外数据。</target>       </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that contains information about the status of the process.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;包含状态信息的过程。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>Provides an asynchronous process <bpt id="p1">&lt;xref uid="langword_csharp_End" name="End" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method when the process finishes.</source>
+          <target state="translated">提供一个异步过程<bpt id="p1">&lt;xref uid="langword_csharp_End" name="End" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>方法在进程完成时。</target>       </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>You can use the IHttpAsyncHandler.EndProcessRequest method to raise any exceptions that are caught during the asynchronous process.</source>
+          <target state="translated">可以使用 IHttpAsyncHandler.EndProcessRequest 方法引发在异步过程中捕获的任何异常。</target>       </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that contains information about the status of the process.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;包含状态信息的过程。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value indicating whether another request can use the <bpt id="p2">&lt;xref href="System.Web.IHttpHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，该值指示是否可以使用另一个请求<bpt id="p2">&lt;xref href="System.Web.IHttpHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve">
+          <source>To explicitly set the <ph id="ph1">`IsReusable`</ph> property to <ph id="ph2">`true`</ph> or <ph id="ph3">`false`</ph>, provide code that overrides the <ph id="ph4">`IsReusable`</ph> property accessor.</source>
+          <target state="translated">若要显式设置<ph id="ph1">`IsReusable`</ph>属性<ph id="ph2">`true`</ph>或<ph id="ph3">`false`</ph>，提供代码重写<ph id="ph4">`IsReusable`</ph>属性访问器。</target>       </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.IHttpHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is reusable; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Web.IHttpHandler"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象是可重用; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>Enables processing of HTTP Web requests by a custom HTTP handler that implements the <bpt id="p1">&lt;xref href="System.Web.IHttpHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">可以实现一个自定义 HTTP 处理程序处理 HTTP Web 请求<bpt id="p1">&lt;xref href="System.Web.IHttpHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接口。</target>       </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>Classes that inherit the &lt;xref:System.Web.IHttpModule&gt; and &lt;xref:System.Web.IHttpHandler&gt; interfaces are provided as a reference to an &lt;xref:System.Web.HttpContext&gt; object for the current HTTP request.</source>
+          <target state="translated">继承的类&lt;xref:System.Web.IHttpModule&gt;和&lt;xref:System.Web.IHttpHandler&gt;接口提供的引用&lt;xref:System.Web.HttpContext&gt;为当前 HTTP 请求的对象。&lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.IHttpHandler&gt; &lt;/xref:System.Web.IHttpModule&gt;</target>       </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve">
+          <source>The object provides access to the intrinsic <ph id="ph1">`Request`</ph>, <ph id="ph2">`Response`</ph>, and <ph id="ph3">`Server`</ph> objects for the request.</source>
+          <target state="translated">对象提供对内部函数访问<ph id="ph1">`Request`</ph>， <ph id="ph2">`Response`</ph>，和<ph id="ph3">`Server`</ph>请求的对象。</target>       </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides references to the intrinsic server objects that are used to service HTTP requests.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它提供对用于 HTTP 请求提供服务的内部服务器对象的引用。</target>       </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve">
+          <source>In all cases.</source>
+          <target state="translated">在所有情况下。</target>       </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve">
+          <source>Occurs when ASP.NET finishes executing an event handler in order to let caching modules store responses that will be used to serve subsequent requests from the cache.</source>
+          <target state="translated">当 ASP.NET 完成执行事件处理程序以便让缓存模块存储将用于为从缓存的后续请求提供服务的响应时发生。</target>       </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve">
+          <source>For more information about how to handle events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">有关如何处理事件的详细信息，请参阅<bpt id="p1">[</bpt>NIB︰ 使用事件<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>。</target>       </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve">
+          <source>Gets the intrinsic user object for the current request.</source>
+          <target state="translated">获取当前请求的内部函数的用户对象。</target>       </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Principal.IPrincipal&gt; object that represents the current authenticated or anonymous user.</source>
+          <target state="translated">&lt;xref:System.Security.Principal.IPrincipal&gt;对象，表示当前经过身份验证或匿名用户。&lt;/xref:System.Security.Principal.IPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="467" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Principal.IPrincipal&gt; object is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Security.Principal.IPrincipal&gt;对象是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Security.Principal.IPrincipal&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
