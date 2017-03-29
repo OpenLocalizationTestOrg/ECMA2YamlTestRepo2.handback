@@ -1,29 +1,11 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.XhtmlTextWriter.yml) | InSyncHandedBackSuccess | [Details](#42e81e4681dc40e2c82eb3631bfc033f1029b18883666)
 
 ## Item Details
-##### <a name='42e81e4681dc40e2c82eb3631bfc033f1029b18883666'></a> Source: [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.XhtmlTextWriter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pl-pl/blob/eab78e6bd55025154ba5f191230fc4a8827d5dc5/fulldocset/System.Web.UI.XhtmlTextWriter.yml)
-* Handoff File: [System.Web.UI.XhtmlTextWriter.ea963d617cb8980b39902a65fe318fa2b1cdea37.pl-pl.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/e0bae950e98135cef2d7202448267415a87ddd48/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pl-pl/master/fulldocset/System.Web.UI.XhtmlTextWriter.ea963d617cb8980b39902a65fe318fa2b1cdea37.pl-pl.xlf)
-* Handoff Datetime: 2017-03-16 04:18:37
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.XhtmlTextWriter.ea963d617cb8980b39902a65fe318fa2b1cdea37.pl-pl.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/f936fe488554803e4ebf31cd6ed15d80431dd78d/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pl-pl/master/fulldocset/System.Web.UI.XhtmlTextWriter.ea963d617cb8980b39902a65fe318fa2b1cdea37.pl-pl.xlf)
-* Handback Datetime: 2017-03-20 20:53:13
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-nb-no-nl-nl-pl-pl-pt-pt-ru-ru
-* Bilingual Error:[bilingual_uploading_failed](#42e81e4681dc40e2c82eb3631bfc033f1029b18883666bilingual_uploading_failed)
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
