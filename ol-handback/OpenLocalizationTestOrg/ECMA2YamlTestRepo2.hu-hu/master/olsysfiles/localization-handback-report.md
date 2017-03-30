@@ -20,8 +20,8 @@
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: [Microsoft.Build.Tasks.MSBuild.43f4271266cc8e95d6686bf3758dbcab59c1b179.hu-hu.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b2cc4168e0a5fe900b243b16dc93fa143608a59a/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.hu-hu/master/fulldocset/Microsoft.Build.Tasks.MSBuild.43f4271266cc8e95d6686bf3758dbcab59c1b179.hu-hu.xlf)
-* Handback Datetime: 2017-03-30 13:49:32
-* Handback Name: 
+* Handback Datetime: 2017-03-30 15:12:02
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#Other#20170308T140545-hu-hu-it-it-ja-jp-ko-kr-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-zh-cn-zh-tw_2
 * Handback Error: [handback_validate_file_name_invalide](#2ed59e0dc5ea36f1040d694fcd2fea1c1f19561f74108handback_validate_file_name_invalide)
 * Bilingual File: [Microsoft.Build.Tasks.MSBuild.43f4271266cc8e95d6686bf3758dbcab59c1b179.hu-hu.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/69cb90fff79ab8be924d224d4a7b65f9cb25c532/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.hu-hu/master/fulldocset/Microsoft.Build.Tasks.MSBuild.43f4271266cc8e95d6686bf3758dbcab59c1b179.hu-hu.xlf)
 * Bilingual Datetime: 2017-03-18 00:55:45
@@ -37,8 +37,8 @@
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: [Microsoft.Build.Tasks.MSBuild.43f4271266cc8e95d6686bf3758dbcab59c1b179.hu-hu.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b2cc4168e0a5fe900b243b16dc93fa143608a59a/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.hu-hu/master/fulldocset/Microsoft.Build.Tasks.MSBuild.43f4271266cc8e95d6686bf3758dbcab59c1b179.hu-hu.xlf)
-* Handback Datetime: 2017-03-30 13:49:32
-* Handback Name: 
+* Handback Datetime: 2017-03-30 15:12:02
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#Other#20170308T140545-hu-hu-it-it-ja-jp-ko-kr-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-zh-cn-zh-tw_2
 * Handback Error: [handback_validate_file_name_invalide](#2ed59e0dc5ea36f1040d694fcd2fea1c1f19561f88199handback_validate_file_name_invalide)
 * Bilingual File: [Microsoft.Build.Tasks.MSBuild.43f4271266cc8e95d6686bf3758dbcab59c1b179.hu-hu.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/69cb90fff79ab8be924d224d4a7b65f9cb25c532/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.hu-hu/master/fulldocset/Microsoft.Build.Tasks.MSBuild.43f4271266cc8e95d6686bf3758dbcab59c1b179.hu-hu.xlf)
 * Bilingual Datetime: 2017-03-18 00:55:45
