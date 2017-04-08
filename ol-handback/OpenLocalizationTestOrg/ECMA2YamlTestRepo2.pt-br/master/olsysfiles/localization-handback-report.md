@@ -1,11 +1,30 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [fulldocset\System.Windows.Xps.Serialization.PackageSerializationManager.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Xps.Serialization.PackageSerializationManager.yml) | InSyncHandedBackSuccess | [Details](#b3598a6a4ccff15273f0015a517ce149cc2a62e987055)
 
 ## Item Details
+##### <a name='b3598a6a4ccff15273f0015a517ce149cc2a62e987055'></a> Source: [fulldocset\System.Windows.Xps.Serialization.PackageSerializationManager.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Xps.Serialization.PackageSerializationManager.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Windows.Xps.Serialization.PackageSerializationManager.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/blob/5cf27a6646b0e7cafb154fb3c8e66d0a8186f8d6/fulldocset/System.Windows.Xps.Serialization.PackageSerializationManager.yml)
+* Handoff File: [System.Windows.Xps.Serialization.PackageSerializationManager.58f1a977a64e1d838634228bb8306e1f77d67064.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/72db55450b00c424fa5883892a3a66a8a47646cd/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Windows.Xps.Serialization.PackageSerializationManager.58f1a977a64e1d838634228bb8306e1f77d67064.pt-br.xlf)
+* Handoff Datetime: 2017-03-16 04:26:03
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Windows.Xps.Serialization.PackageSerializationManager.58f1a977a64e1d838634228bb8306e1f77d67064.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/73928fe49aaf55f8c6970be49af5380230f26fca/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Windows.Xps.Serialization.PackageSerializationManager.58f1a977a64e1d838634228bb8306e1f77d67064.pt-br.xlf)
+* Handback Datetime: 2017-04-08 02:22:54
+* Handback Name: 
+* Bilingual File: [System.Windows.Xps.Serialization.PackageSerializationManager.58f1a977a64e1d838634228bb8306e1f77d67064.pt-br.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/9f91d94234cbab7e958c95425af5c880956eb801/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.pt-br/master/fulldocset/System.Windows.Xps.Serialization.PackageSerializationManager.58f1a977a64e1d838634228bb8306e1f77d67064.pt-br.xlf)
+* Bilingual Datetime: 2017-03-20 01:31:52
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
