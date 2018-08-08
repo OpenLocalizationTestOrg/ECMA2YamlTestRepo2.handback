@@ -1,11 +1,28 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [fulldocset\Microsoft.JScript.FunctionObject.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/Microsoft.JScript.FunctionObject.yml) | HandedOffSuccess | [Details](#a0617ed65e6725a1097f24e33c437a24412a3e1074265)
 
 ## Item Details
+##### <a name='a0617ed65e6725a1097f24e33c437a24412a3e1074265'></a> Source: [fulldocset\Microsoft.JScript.FunctionObject.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/Microsoft.JScript.FunctionObject.yml)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [Microsoft.JScript.FunctionObject.3e13d3216efc35b9395f22c0bd71efec145e203d.ja-jp.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/cdbbace01e3ca573db1b2247f4a5f726b21e0e79/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ja-jp/master/fulldocset/Microsoft.JScript.FunctionObject.3e13d3216efc35b9395f22c0bd71efec145e203d.ja-jp.xlf)
+* Handoff Datetime: 2018-08-08 10:24:17
+* Handoff Reason: Include
+* Handoff Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170329T234846
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Handback Name: 
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
